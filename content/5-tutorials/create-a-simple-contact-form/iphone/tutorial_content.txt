@@ -1,0 +1,288 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple contact form in Graphic for iPhone. 
+
+For starters, you will learn how to setup a simple grid and how to create the main shapes using basic tool like the Rounded Rectangle Tool, the Rectangle Tool and the Path Selection Tool. Next, you'll learn how to group and organize your shapes and how to add subtle shading and highlights for your shapes. Finally, you'll learn how to create and stylize pieces of text. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: contactFormiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then open the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled.
+
+(image: contactFormiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: contactFormiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap the **Fill** color well and set its color to **R=0 G=124 B=215** and then  tap the **Line** color well and drag the **Alpha** slider to **0%**. This will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to 1**0**. Move to yor canvas and  create a **300 x 370 px** shape. The grid and the **Snap to Grid** feature will ease your work.
+
+(image: contactFormiPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Open the **Effects** pane and select the existing **Stroke**. Make sure that the **Width** slider is set to **1 pt**, select the **Inside** Alignment button and then simply tap the color well that stands for this **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black (**R=0 G=0 B=0**).
+
+(image: contactFormiPhone3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of the pane. Select this new stroke, drag the **Width** slider to **2 pt**, select the **Inside** Alignment button and then tap the color well that stands for this new stroke. Drag the **Alpha** slider to **5%** and make sure that the color is set to black. 
+
+(image: contactFormiPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Tap the cogwheel icon that stands for the bottom **Stroke** and then tap the **Duplicate** command. Select the newly added **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and simply check the box that stands for the existing **Drop Shadow** to activate it. Enter **0** in the **X** box and **2** in the **Y** box, drag the **Blur** slider to **5** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **20%** and make sure that the color is set to black. Finally, drag this effect right above the bottom **Stroke**. 
+
+(image: contactFormiPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Drag the **Blur** slider to **10** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **20%** and make sure that the color is set to black. Finally, drag this effect right below the **Fill**. 
+
+(image: contactFormiPhone7.jpg)
+
+
+
+##Step 8
+Focus on the right side of your Titlebar and tap the rightmost icon to open the **Layers** panel. Simply tap that plus button from the bottom of the layer to add a new layer, select it and then close the **Layers** panel. 
+
+(image: contactFormiPhone8A.jpg)
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. 
+
+Pick the **Rectangle Tool**  and focus on the top, left corner of your rounded rectangle. Create a **10 x 20 px** shape and place it as shown in the first image. Keep focusing on this new rectangle and pick the **Path Selection Tool**. Activate the **Add to Selection** mode, select both, left anchor points and simply drag them **10 px** down. In the end things should look like in the second image. 
+
+(image: contactFormiPhone8B.jpg)
+
+
+
+##Step 9
+
+Make sure that your blue shape is still selected, tap and hold to open the **Edit** menu and then use those **Copy** and **Paste** command to duplicate your selected shape. 
+
+Select your copy, focus on the **Effects** pane and replace the existing **Fill** color with **R=188 G=128 B=121**. Also, place your selected shape as shown in the following image and try to use the grid as a reference. 
+
+(image: contactFormiPhone9.jpg)
+
+
+
+##Step 10
+
+Use the same **Copy** and **Paste** commands from that **Edit** menu to multiply your red and blue shapes. Spread the copies as shown in the first image. 
+
+Once you're done, select all your red and blue shapes, open the **Properties** panel and tap that **Group** command. This will make it easier for your to select all these shapes at once in the next step. 
+
+(image: contactFormiPhone10.jpg)
+
+
+
+##Step 11
+
+Select the group made in the previous step and duplicate it. Select the copy and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy.
+
+(image: contactFormiPhone11.jpg)
+
+
+
+##Step 12
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. 
+
+Pick the **Rectangle Tool**  and focus on the top, left corner of your rounded rectangle. Create a **20 x 10 px** shape and place it as shown in the first image. Keep focusing on this new rectangle, pick the **Path Selection Tool** and active the **Add to Selection** mode. Select the top anchor points and simply drag them **10 px** to the right. In the end things should look like in the second image. 
+
+Duplicate this new, blue shape and select the copy. Place it as shown in the third image and don't forget to replace the existing **Fill** color with **R=188 G=128 B=121**.
+
+(image: contactFormiPhone12.jpg)
+
+
+
+##Step 13
+
+Multiply the red and blue shapes made in the previous step and then spread your copies as shown in the first image. Once you're done, select all the shapes that make up this row of blue and red shapes and **Group** them. 
+
+(image: contactFormiPhone13.jpg)
+
+
+
+##Step 14
+
+Duplicate the group made in the previous step, select the copy and place it as shown in the following image. 
+
+(image: contactFormiPhone14.jpg)
+
+
+
+##Step 15
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=215 G=205 B=175**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the tool pane and drag the  **Radius** slider to **3**. Move to your canvas, create a **200 x 30 px** shape and place it as shown in the first image. Duplicate this  rounded rectangle, select the copy and place it as shown in the second image. 
+
+(image: contactFormiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that the **Rounded Rectangle Tool**  is still active, create a  **200 x 100 px** shape and place it as shown in the following image. 
+
+(image: contactFormiPhone16.jpg)
+
+
+
+##Step 17
+
+Select the top, **200 x 30 px** rounded rectangle, focus on the **Effects** pane and activate the existing **Drop Shadow**. Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Drag the **Alpha** slider to **70%** and replace the existing color with a simple white (**R=255 G=255 B=255**). Return to the **Effects** pane and tap the cogwheel icon that stands for your **Drop Shadow** effect. Tap the **Blend Mode** command and select **Soft Light** from that list. In the end things should look like in the following image. 
+
+(image: contactFormiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that  the top, **200 x 30 px** rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and  enter the attributes shown in the following image. 
+
+(image: contactFormiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that  the top, **200 x 30 px** rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that  the top, **200 x 30 px** rounded rectangle is still selected, open the **Appearance** panel and tap the **Copy Style** command. Now, select the other **200 x 30 px** rounded rectangle along with the **200 x 100 px** rounded rectangle, return to the **Appearance** panel and this time tap the **Paste Style** command. 
+
+(image: contactFormiPhone20.jpg)
+
+
+
+##Step 21
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. Using the **Rounded Rectangle Tool**, create a **200 x 50 px** shape and place it as shown in the following image. 
+
+(image: contactFormiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your blue, rounded rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: contactFormiPhone22.jpg)
+
+
+
+##Step 23
+
+Make sure that your blue, rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: contactFormiPhone28.jpg)
+
+
+
+##Step 29
+
+ Pick  the **Text Tool** and simply  double tap inside that new field. Select the **American Typewriter** font and make it **Bold**. Drag the  font size slider to **20** and then simply add the &quot;_SUBMIT_&quot; piece of text. Set its color to **R=235 G=225 B=195** and pace it as shown in the following image. 
+
+(image: contactFormiPhone29.jpg)
+
+
+
+##Step 30
+
+Reselect the **Text Tool**, use the same font, drag the **Size** slider to **10**, set the color to black and add the &quot;_Your Name_&quot; piece of text. Use the same tool and attributes to add the other two pieces of text shown in the following image.
+
+(image: contactFormiPhone30A.jpg)
+
+Make sure that your black pieces of text are selected and focus on the **Effects** pane. Disable the  box that stands for the **Text** and enable the one that stands for the **Fill**. Change its **Blend Mode** to **Soft Light** and then tap the color well that stands for this **Fill**. Drag the **Alpha** slider to **30%** and make sure that the color is set to black.
+
+(image: contactFormiPhone30B.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: contactFormiPhone0.jpg)
+
+----
+
+Title: iPhone

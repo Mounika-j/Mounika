@@ -1,0 +1,412 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple clock illustration in Graphic for Mac. 
+
+For starters you will learn how to set up and simple grid, how to create the main shapes and how to easily center them. Using two tiny paths and some neat rotation tricks you will learn how to create the clock grid. 
+
+Finally, taking full advantage of the Effects pane, you will learn how to add shading and some sleek highlights for your shapes. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: clockIllustration1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and  notice that by default the **Fill** color is set to white while the **Stroke** color is set to black. Click  the **Fill** color well and set it to **R=0 G=152 B=245** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your **Stroke** invisible. 
+
+Pick the **Ellipse Tool (O)**, move to your canvas and  create a **190 px** circle - the grid and the **Snap to Grid** feature will ease your work. Hold the **Shift** key while dragging to create a perfect circle. 
+
+(image: clockIllustration2.jpg)
+
+
+
+##Step 3
+
+Make sure that your circle is still selected and go to the **Alignment** pane from the **Properties** panel. Simply click the **Horizontal Centers** and **Vertical Centers** buttons to move your selected shape in the center of the canvas. 
+
+(image: clockIllustration3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar** and replace the existing **Fill** color with **R=0 G=90 B=150**. Pick the **Ellipse Tool (L)**, create a **180 px** circle and center it using the same **Horizontal Centers** and **Vertical Centers** buttons from the **Alignment** pane. 
+
+(image: clockIllustration4.jpg)
+
+
+
+##Step 5
+
+Get back to your **Toolbar** and replace the existing **Fill** color with **R=255 G=251 B=229**. Make sure that the **Ellipse Tool (L)** is still active, create a **170 px** circle and center it.
+
+(image: clockIllustration5.jpg)
+
+
+
+##Step 6
+
+Return  to your **Toolbar** and replace the existing **Fill** color with **R=55 G=54 B=65**. Using the **Ellipse Tool (L)**, create a **10 px** circle and don't forget to center it. 
+
+(image: clockIllustration6.jpg)
+
+
+
+##Step 7
+
+Get back to your **Toolbar**. This time make sure that the **Fill**  is invisible and then set the **Stroke** color to **R=104 G=104 B=115**. 
+
+Focus on the top side of your shapes and pick the **Pen Tool (P)** or the **Line Tool (L)**. Create a **5 px**, vertical path and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+Make sure that your little path stays selected and go to the **Stroke** pane from the **Appearance** panel. Set the **Line Weight** to **1 px** and check that **Round Cap** button.  If the **Appearance** panel is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel.
+
+(image: clockIllustration7.jpg)
+
+
+
+##Step 8
+
+Make sure that your vertical path stays selected, pick the **Rotate Tool (R**) and you will notice a tiny cross icon in the center of the selection. That's the reference point and keep in mind that your selected path will rotate according to that point. 
+
+Simply drag that cross in the center of your dark circle (the **Snap to Grid** will ease your work)  and then focus on the tool options bar. Set the **Angle** to **6 degrees** and then click that **Copy** button a bunch of times (fifty-nine times, to be more specific). 
+
+(image: clockIllustration8.jpg)
+
+
+
+##Step 9
+
+Reselect all your tiny paths, focus on the **Path Tools** pane from the **Properties** panel and click that **Make Compound Path** button. This will simply unite all selected paths into a single compound path that can be selected/edited a lot easier. 
+
+(image: clockIllustration9.jpg)
+
+
+
+##Step 10
+
+Return to your **Toolbar** and replace the existing **Stroke** color with **R=55 G=54 B=65**. 
+
+Pick the **Pen Tool (P)** or the **Line Tool (L)**, create a **10 px**, vertical path and place it exactly as shown in the following image. Make sure that it stays selected and focus on the **Stroke**  pane. Set the **Line Weight** to **2 pt** and check the **Round Cap** button.  
+
+(image: clockIllustration10.jpg)
+
+
+
+##Step 11
+
+Make sure that your **10 px**, vertical path stays selected and pick the **Rotate Tool (R**). Simply drag that reference point in the center of your dark circle  then focus on the **Tool Options** bar. Set the **Angle** to **30 degrees** then click that **Copy** button eleven times. Select all twelve paths and turn them into a new compound path using that same **Make Compound Path** button from the **Path Tools**  pane. 
+
+(image: clockIllustration11.jpg)
+
+
+
+##Step 12
+
+Get back to your **Toolbar** and replace the existing **Stroke** color with **R=7 G=114 B=179**. 
+
+Pick the **Pen Tool (P)**, create a **65 px**, vertical path and place it as shown in the first image.  Make sure that this new path stays selected and focus on the **Stroke**  pane. Set the **Line Weight** to **2 px** and check the **Round Cap** button. 
+
+Switch to the **Rotate Tool (R)**, drag the reference point in the the center of your dark circle and then rotate your blue path as shown in the third image. 
+
+(image: clockIllustration12.jpg)
+
+
+
+##Step 13
+
+Pick the **Pen Tool (P)**, create an **80 px**, horizontal path and place it as shown in the first image. Make sure that this new, blue path stays selected and focus the **Stroke** pane. Set the **Line Weight** to **2 pt** and check that **Round Cap** button. Switch to the **Rotate Tool (R)**, drag the reference point in the the center of your dark circle and then rotate your path as shown in the second image. 
+
+Get back to your **Toolbar** and replace the existing **Stroke** color with **R=219 G=65 B=0**. 
+
+Make sure that the **Pen Tool (P)** is still active, create a **90 px**, horizontal path and place it as shown in the third image. Make sure that this new path stays selected and return to the **Stroke** pane. Set the **Line Weight** to **2 pt** and don't forget to check that **Round Cap** button. Finally, switch to the **Rotate Tool (R)** and rotate this orange path as shown in the fourth image. 
+
+(image: clockIllustration13.jpg)
+
+
+
+##Step 14
+
+Select your largest circle, focus on the **Effects** pane from the **Appearance** panel and simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **-1** in the **Y** box and **0** in the other two boxes and then click the color well that stands for this effect. Drag the **Alpha** slider to **5%** and make sure that the color is set to black ( **R=0 G=0 B=0**).  
+
+(image: clockIllustration14.jpg)
+
+
+
+##Step 15
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. Right click on the existing **Drop Shadow** effect and go to **Duplicate**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustration15.jpg)
+
+
+
+##Step 16
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustration16.jpg)
+
+
+
+##Step 17
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustration17.jpg)
+
+
+
+##Step 18
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustration18.jpg)
+
+
+
+##Step 19
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** ****pane and and activate the existing **Inner Shadow**. 
+
+Select this new effect and change its **Blend Mode** to **Soft Light**. Enter **0 pt**  in the **X** box and **3 pt**  in the **Y** box  and then drag that **Size** slider to **5 pt**. Click the color well that stands for this  effect, replace the existing color with white and make sure that the **Alpha** slider is set to **100%**. 
+
+(image: clockIllustration19.jpg)
+
+
+
+##Step 20
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate that **Inner  Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustration20.jpg)
+
+
+
+##Step 21
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. You must add a new **Inner  Shadow**, but first you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape.
+
+Simply right click on that inactive **Inner  Glow** effect and   go to **Remove**. Using that plus button from the bottom, left corner of the pane, add a third **Inner Shadow**  for your shape. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: clockIllustration21.jpg)
+
+
+
+##Step 22
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. Get rid of that inactive **Blur** effect and then add a fourth **Inner Shadow** for your shape. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: clockIllustration22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. Activate that **Outer Glow** effect and enter the attributes shown in the following image. 
+
+(image: clockIllustration23.jpg)
+
+
+
+##Step 24
+
+Move to the smaller, blue circle, select it and return to the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration24.jpg)
+
+
+
+##Step 25
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects**  pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration25.jpg)
+
+
+
+##Step 26
+
+Make sure that your smaller, blue circle stays selected, keep focusing on the **Effects** pane and  duplicate the existing **Inner  Shadow**. Focus on the this new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustration26.jpg)
+
+
+
+##Step 27
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration27.jpg)
+
+
+
+##Step 28
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration28.jpg)
+
+
+
+##Step 29
+
+Move to  your pale yellow circle and make sure that it stays selected. Focus on the **Effects** pane and select the existing **Stroke**. Drag the **Width** slider to **1 pt**, select **Inside** from the **Position** drop-down menu and then click that color well. Make sure that the color is set to black and drag the **Alpha** slider to **5%**.
+
+(image: clockIllustration29.jpg)
+
+
+
+##Step 30
+
+Make sure that your pale yellow circle stays selected, keep focusing on the **Effects** pane and  duplicate the  **Stroke**. Focus on this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: clockIllustration30.jpg)
+
+
+
+##Step 31
+
+Make sure that your pale yellow circle stays selected, keep focusing on the **Effects** pane and  duplicate the bottom **Stroke**. Select this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: clockIllustration31.jpg)
+
+
+
+##Step 32
+
+Make sure that your pale yellow circle stays selected and keep focusing on the **Effects** ****pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: clockIllustration32.jpg)
+
+
+
+##Step 33
+
+Select the blue path that makes up the hours hand and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: clockIllustration33.jpg)
+
+
+
+##Step 34
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustration34.jpg)
+
+
+
+##Step 35
+
+Make sure that your hours hand path stays selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration35.jpg)
+
+
+
+##Step 36
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the existing **Inner  Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustration36.jpg)
+
+
+
+##Step 37
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the bottom **Inner  Shadow**. Select this new effect **** and enter the attributes shown in the following image. 
+
+(image: clockIllustration37.jpg)
+
+
+
+##Step 38
+
+Make sure that your hours hand path is still selected, right click anywhere on your canvas and go to **Copy Style**. Alternatively, you can simply use the **Alt + Command + C** keyboard shortcut. Move to the  blue path that makes up your minutes hand path, right click again and this time go to  **Paste Style** (or use the **Alt + Command + V** keyboard shortcut).
+
+Make sure that your minutes hand path stays selected, focus on the **Effects** pane and duplicate the top **Drop Shadow** effect. Select the newly added effect, make sure that it lies between the other two **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: clockIllustration38.jpg)
+
+
+
+##Step 39
+
+Make sure that  your minutes hand path  is still selected and copy the style (**Alt + Command + C**). Select the path that makes up your seconds hand and paste the style (**Alt + Command + V**).
+
+Make sure that your seconds hand path stays selected and focus on the **Effects** pane. First,  remove the two, bottom **Inner Shadows** and then select that **Stroke** and replace the existing color with **R=219 G=65 B=0**. In the end things should look like in the following image. 
+
+(image: clockIllustration39.jpg)
+
+
+
+##Step 40
+
+Select your tiny, dark circle and simply hit **Shift + Control + ]** to bring it to front. Make sure that this shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration40.jpg)
+
+
+
+##Step 41
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustration41.jpg)
+
+
+
+##Step 42
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustration42.jpg)
+
+
+
+##Step 43
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the existing **Inner  Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustration43.jpg)
+
+
+
+##Step 44
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the bottom **Inner  Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustration44.jpg)
+
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clockIllustration0.jpg)
+
+----
+
+Title: Mac

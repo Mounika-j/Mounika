@@ -1,0 +1,289 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat calendar icon in Graphic for iPad. 
+
+For starters you will learn how to create a new document and how to setup a simple grid. Using basic tools, you will learn how to create the main icon shapes. Taking full advantage of the Effects pane you will learn how to add subtle details and some neat shading. Finally, you'll learn how to create a dashed stroke and how to add several pieces of text. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** and the **Height** to **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: calendarIconiPad1A.jpg)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: calendarIconiPad1B.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap that **Fill** color well and set it to **R=210 G=160 B=110**. Next, tap  the **Line** color well and drag that **Alpha** slider to **0%** —  this will simply make the **Line** invisible.
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the **Radius** slider to **10**. Move to your canvas and create a **145 x 140 px** shape.
+
+(image: calendarIconiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. 
+
+Move to the **Effect** pane and  check the round checkbox of the existing **Drop Shadow** effect to activate it. Simply tap this effect to expand it and then enter **1** in the **Y Offset**  box and **0** in the **X Offset**  box. Drag the **Blur** slider to **0** and then tap the color well of this effect. Drag the **Alpha** slider to **100%** and set the color to **R=217 G=168 B=119**. 
+
+(image: calendarIconiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Simply tap that cogwheel button of the existing **Drop Shadow** effect to open then context menu and go to **Duplicate**. 
+
+Focus on the newly added **Drop Shadow** effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effect**s pane and duplicate the bottom **Drop Shadow** effect.
+
+Select the new effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a new **Drop Shadow** effect using the plus button located in the bottom, right corner of the pane. 
+
+Select this new effect, enter **6 pt**  in the **Y Offset**  box and **0 pt** in the **X Offset** box. Drag that **Blur** slider to **0** and then tap the color well of this effect. Drag the **Alpha** slider to **10%** and set the color to black (**R=0 G=0 B=0**). 
+
+(image: calendarIconiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect.
+
+Select the new effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow** effect. 
+
+Enter **1 pt** in the **Y** box and **0 pt** in the **X Offset** box. Drag the **Blur** slider to **0** and then tap the color well of your **Inner Shadow** effect. Drag the **Alpha** slider to **15%** and set the color to white (**R=255 G=255 B=255**).
+ 
+(image: calendarIconiPad8.jpg)
+
+
+
+##Step 9
+
+Return to your **Toolbar**, make sure that the **Line** is still invisible and  set the **Fill** color to **R=255 G=245 B=215**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane  and drag that **Corner Radius** slider to **5**. 
+
+Move to your canvas, create a **135 x 135 px** shape and place it exactly as shown in the following image — the grid and the **Snap to Grid** feature should ease your work. 
+
+(image: calendarIconiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your front rounded rectangle stays selected and focus on the **Effects** pane. 
+
+Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarIconiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your front rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow**. 
+
+Select the new effect and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your front rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. 
+
+Select the new effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your front rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. 
+
+Select the new effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your front rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. 
+
+Select the new effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarIconiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your front rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. 
+
+Expand this new effect,  enter **6 pt**  in the **Y Offset**  box and **0 pt**  in the **X Offset** box. Drag the **Blur** slider to **0** and then tap the color well of this new **Drop Shadow** effect. Drag the **Alpha** slider to **15%** and set the color to black. 
+
+Return to the **Effects** pane and tap the cogwheel button of the effect added in this step. Tap the **Blend Mode** command, select  **Soft Light** from that list, and then tap **Done**. 
+
+(image: calendarIconiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your front rounded rectangle stays selected and keep focusing on the **Effects** pane. You must add a new **Drop  Shadow** effect, but first you need to remove one of those inactive effects because you've reached the limit of twelve attributes for one shape. 
+
+Simply tap the cogwheel button of that inactive **Outer Glow** effect and then tap the **Remove** command. Now you can add that new **Drop  Shadow** effect. Select it and  enter the attributes shown in the following image.
+
+(image: calendarIconiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your front  rounded rectangle stays selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarIconiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your front rounded rectangle stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Glow** effect and then add a second **Inner Shadow** effect. Select  it and enter the attributes shown in the following image. 
+
+(image: calendarIconiPad18.jpg)
+
+
+
+##Step 19
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to **R=232 G=193 B=96**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and make sure that the  **Radius** is still set to **5**. Move to your canvas, create a **75 x 25 px** shape and place it as shown in the first image. 
+
+Next, you need to duplicate this new rounded rectangle. Make sure that it stays selected, focus on the left side of your **Titlebar** and  tap that paperclip icon to open the **Edit** pane. First, tap the **Copy** command and then tap the **Paste** command. Using the **Move Tool**, select your copy and place it as shown in the second image. 
+
+(image: calendarIconiPad19.jpg)
+
+
+
+##Step 20
+
+For the following steps you will need a grid every **1 px**. This simply means that you need to return to the **Grid and Rulers** pane,  open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes. 
+
+Return to your **Toolbar**, this time make sure that the **Fill** is invisible and set the **Line** color to **R=235 G=225 B=195**. 
+
+Pick the **Pen Tool** (or the **Line Tool**), create a **135 px**, horizontal path and place it exactly as shown in the first image — tap and hold with a second finger while dragging to easily create a perfect straight line with the **Line Tool**. 
+
+Make sure that this path stays selected and go to the **Appearance** pane. First, tap the **Dash** section and then tap the **Dash Editor** button. Enter **3 pt** in the top **Dash** and **Gap** boxes. In the end your horizontal path should look like in the second image. 
+
+(image: calendarIconiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your horizontal path is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarIconiPad21.jpg)
+
+
+
+##Step 22
+
+Now, things may look ok on your iPad, but if you decide to to save your work as an image your dashed  path will look a bit pixelated. This simply happens because your path is not perfectly aligned to the pixel grid. It's a small problem that can be fixed pretty fast. 
+
+Make sure that your horizontal path is selected, focus on the right side of your **Titlebar** and tap that ruler icon to open the **Geometry** pane. Focus on the **Y** box and simply add **0.5 px** to the existing value.
+
+(image: calendarIconiPad22.jpg)
+
+
+
+##Step 23
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and set the **Fill** color to **R=170 G=170 B=170**. 
+
+Using the **Rounded Rectangle Tool**, create a **15 x 1 px** shape and place it exactly as shown in the following image. 
+
+(image: calendarIconiPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your grey shape is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarIconiPad24.jpg)
+
+
+
+##Step 25
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Set the color to white, select the **DIN Condensed Bold** font and set the font size to **13**, and then add the &quot;_September_&quot; piece of text. Place it as shown in the first image. 
+
+Duplicate this piece of text, replace &quot;_September_&quot; with &quot;_Tuesaday_&quot; and place your copy as shown in the second image. 
+
+(image: calendarIconiPad25.jpg)
+
+
+
+##Step 26
+
+Reselect  the **Text Tool**, add the &quot;_23_&quot; piece of text and use the attributes shown in the first image. 
+
+Finally, add that &quot;_Timmy's Birthday_&quot; piece of text and use the attributes shown in the second image. 
+
+(image: calendarIconiPad26.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: calendarIconiPad0.jpg)
+
+----
+
+Title: iPad

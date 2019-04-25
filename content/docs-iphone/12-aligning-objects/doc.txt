@@ -1,0 +1,43 @@
+Title: Aligning Objects
+
+----
+
+Text: 
+
+# Aligning Objects
+
+Use the _**Align**_ commands from the _**Align pane**_ of the Properties panel to align the selected object’s positions relative to each other or the borders of the canvas. Using one of the six commands you can align objects as follows:
+
+**Left** - Aligns selected objects to the left edge of the leftmost selected object on your canvas. 
+
+(video: aligningobjects1-iphone.mp4 width: 750)
+
+**Right** - Aligns selected objects to the right edge of the rightmost selected object on your canvas. 
+
+(video: aligningobjects2-iphone.mp4 width: 750)
+
+**Top** - Aligns selected objects to the top edge of the uppermost selected object on your canvas. 
+
+(video: aligningobjects3-iphone.mp4 width: 750)
+
+**Bottom** - Aligns selected objects to the bottom edge of the lowermost selected object on your canvas. 
+
+(video: aligningobjects4-iphone.mp4 width: 750)
+
+**Horizontal** - Aligns selected objects in a row according to the center of the uppermost selected object on your canvas. 
+
+(video: aligningobjects5-iphone.mp4 width: 750)
+
+**Vertical** - Aligns selected objects in a column according to the center of the leftmost selected object on your canvas.
+
+(video: aligningobjects6-iphone.mp4 width: 750)
+
+Having only one object/group selected when tapping an _**Align**_ command will align the selection according to the edges of the canvas. 
+
+(video: aligningobjects7-iphone.mp4 width: 750)
+
+### Flipping Objects
+
+Objects can be easily flipped using the _**Flip Horizontal**_ and _**Flip Vertical**_ commands from the _**Geometry pane**_ of the Properties panel.
+
+(video: aligningobjects8-iphone.mp4 width: 750)

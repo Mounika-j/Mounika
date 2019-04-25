@@ -1,0 +1,38 @@
+Title: 430+ Storyboard Illustrations
+
+----
+
+Description: A large collection of over 430 vector storyboard illustrations.
+
+----
+
+Headerimg: Header.png
+
+----
+
+Thumbnail: Thumbnail.png
+
+----
+
+Date: 2013-08-29
+
+----
+
+Categories: Mac, Icon
+
+----
+
+Text: 
+
+A large collection of over 430 vector storyboard illustrations. Arrows, Books, Frames, Gestures, Food, Faces, People, Objects, Sports, Maps, Tools, Tech and Transportation.
+
+*Author's Note:*
+These illustrations can be used for sketches, storyboards and product pitches. Not for commercial use or reselling. Do not include in final products.
+
+----
+
+Graphicfile: Storyboard-Illustrations.idraw
+
+----
+
+Credits: **Author:** (link: http://www.julianburford.nl text: Julian Burford)

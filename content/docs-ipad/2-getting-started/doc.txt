@@ -1,0 +1,23 @@
+Title: Getting Started
+
+----
+
+Text: 
+
+# What are Vector Graphics?
+
+Unlike bitmap drawing applications, which focus on editing the individual pixels of an image, vector designs are created using objects and paths. Vector paths – consisting of points, lines, and curves – can be painted and filled. Multiple paths can be used together to create detailed intricate objects, while multiple objects can then be arranged to create a larger design.
+
+A vector image remains crisp when enlarged, without any loss of quality. A bitmap version of the same image loses quality when enlarged.
+
+(image: gettingsstarted-ipad1.jpg width:750)
+
+One of the many benefits of vector drawing is that each drawn object remains fully editable throughout the entire process of creating a design. Object paths are always modifiable, while the colors and fill styles applied to a path can be changed at any time to alter the look of a design. 
+
+This is in contrast to bitmap painting applications, in which each drawing tool directly changes the pixels of an image. For example, modifying the color of a brush stroke in a bitmap painting after it has been drawn is not possible without redrawing that portion of the design.
+
+Vector illustrations are resolution-independent. Objects, or entire designs, can be resized to larger or smaller sizes without any loss of quality.
+
+(image: gettingsstarted-ipad2.jpg width:750)
+
+Even if you are unfamiliar with vector drawing this guide will help you become comfortable with creating your own designs using the various tools and features available in Graphic.

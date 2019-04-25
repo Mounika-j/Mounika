@@ -1,0 +1,280 @@
+Text: 
+
+In the following tutorial you will learn how to create an iMac illustration in Graphic for Mac.
+ 
+For starters you will learn how to set up a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Using several gradients, some effects and basic blending techniques, you will learn how to add color and subtle highlights for your design. 
+
+Finally, you will learn how to add an image fill and how to turn text into editable vector shapes. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: macIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=0 G=152 B=245** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible.
+ 
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your Tool Options bar and set the **Corner Radius** to **10 pt**. Move to your canvas and  create a **355 x 255 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+Make sure that this blue shape is  selected and simply make a copy in the same place (**Command + C &gt; Command + Shift + V**).
+
+(image: macIcon2.jpg)
+
+
+
+##Step 3
+
+Focus on your Toolbar and replace the existing fill color with **R=255 G=185 B=2**. 
+
+Pick the **Rectangle Tool (M)**, create a **355 x 40 px** shape and place it exactly as shown in the following image. 
+
+(image: macIcon3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool (V)**, select your yellow rectangle along with the copy of that blue rounded rectangle, focus on the **Path Tools** pane from the **Properties** panel and click the **Intersect** button. Make sure that the resulting shape stays selected and move to the **Effect** pane from the **Appearance** panel. 
+
+Focus on  the **Fill** and select **Linear Gradient** from the **Type** drop-down menu. Set the angle to **0 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=148 G=150 B=152** and then select the right slider and se its color to **R=210 G=211 B=213**. 
+
+(image: macIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that your gradient filled shapes stays selected, keep focusing on the **Effect** pane and simply check the  box that stands for the existing **Inner Shadow** effect to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes, select **Soft Light** from the **Blend Mode** drop-down menu and then click the color well that stands for your **Inner Shadow**. Drag the **Alpha** slider to **50%** and set the color to white (**R=255 G=255 B=255**).
+
+(image: macIcon5.jpg)
+
+
+
+##Step 6
+
+Using the **Rectangle Tool (M)**, create a **125 x 50 px** shape, place it as shown in the following image and fill it with **R=254 G=145 B=79**.
+
+(image: macIcon6.jpg)
+
+
+
+##Step 7
+
+Make sure that your orange rectangle stays selected and pick the **Pen Tool (P)**. Focus on the Tool Options bar and activate the **Add Points** mode. Get back to your orange rectangle and  add four new anchor points as shown in the first image. 
+
+Switch to the **Path Selection Tool (A)** and focus on the left side of your orange rectangle. Select the top anchor point and drag it **20 px** to the right and then select the middle anchor point and drag it **15 px** to the right. Move to the right side of your orange shape. Select the top anchor point and drag it **20 px** to the left and then select the middle anchor point and drag it **15 px** to the left. In the end your  shape should look like in the third image. 
+
+(image: macIcon7.jpg)
+
+
+
+##Step 8
+ For the following steps you will need a grid every **1 px**. This means that you need to return to the **Grid**  pane from the **Properties** panel and   enter **1 px** in both  **Spacing** boxes. 
+ 
+Focus on the bottom, left corner of your orange shape and pick the **Path Selection Tool (A)**. Select the left anchor point and drag it **2 px** up and then select the right anchor point and drag it **5 px** to the left. Move to the bottom, right corner of your orange shape. Select the right anchor point and drag it **2 px** up and then select the left anchor point and drag it **5 px** to the right. In the end things should look like in the second image. 
+
+(image: macIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that the **Path Selection Tool (A)** is still selected and focus on the top side of your orange shape. Select the left anchor point and drag it **1 px** to the right and then select the right anchor point and drag it **1 px** to the left. In the end things should look like in the second image. 
+
+(image: macIcon9.jpg)
+
+
+
+##Step 10
+
+For this step you will need a grid every **5 px**. Again, return to the **Grid**  pane from the **Properties** panel and   enter **5 px** in both  **Spacing** boxes. 
+
+Focus on the right side of your orange shape and pick the **Convert Anchor Tool (Shift + C)**. Simply click on the anchor point highlighted in the first image and then drag those handles exactly as shown below. Move to the left side of your orange shape, click on the anchor point highlighted in the second image and then drag those handles exactly as shown below. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+(image: macIcon10.jpg)
+
+
+
+##Step 11
+
+For this step you will need a grid every **1 px**. Return to the **Grid**  pane from the **Properties** panel and simply  enter **1 px** in both  **Spacing** boxes. 
+
+Focus on the bottom, left side of your orange shape and pick the **Ellipse Tool (L)**. Create a **16 x 4 px** shape, set the fill color to **R=21 G=145 B=72** and place it as shown in the first image. Move to the bottom, right side of your orange shape. Create a second, **16 x 4 px** shape and place it as shown in the second image. Switch to the **Rectangle Tool (M)**, create a **109 x 4 px** shape, make sure that the fill color is set to **R=0 G=152 B=245** and place it as shown in the third image. 
+
+(image: macIcon11.jpg)
+
+
+
+##Step 12
+
+For the rest of the steps you will need a grid every **5 px**. One more time, go to the **Grid**  pane from the **Properties** panel and   enter **5 px** in both  **Spacing** boxes. 
+
+Reselect your orange shape along with the blue rectangle and the green circles, focus on the **Path Tools** pane from the **Properties** panel and  click the **Union** button. 
+
+(image: macIcon12.jpg)
+
+
+
+##Step 13
+
+Return to the **Grid**  pane from the **Properties** panel and disable the **Snap to Grid** feature or use the **Command + Shift + '** keyboard shortcut. 
+
+Select your orange shape and make two copies in the same place (**Command + C &gt; Shift + Command + V &gt; Shift + Command + V**). Select the top copy and  hit the up arrow key twice to move your selected shape **2 px** up. Reselect both copies made in this step, focus on the **Path Tools** pane from the **Properties** panel and click the **Subtract** button. 
+
+Make sure that your newly made shape stays selected, focus on the **Effects** pane and select the existing fill. Add a **Linear Gradient**, set the **Angle** at **0 degrees** and then move to the gradient colors. Select the left slider and set its color to **R=176 G=177 B=181** and then select the right slider and add the same color. Simply click on the gradient bar to add a new gradient slider. Select it, set the color to **R=215 G=215 B=218** and drag it to the left until the **Location** tooltip shows **15%**. Add another two  sliders for this gradient and then use the color and the location attributes shown in the following image. 
+
+(image: macIcon13.jpg)
+
+
+
+##Step 14
+
+Make sure that the shape made in the previous step is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: macIcon14.jpg)
+
+
+
+##Step 15
+
+Make sure that the shape edited in the previous step is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button located in the bottom, left corner of the pane. Select this new effect and enter the attributes shown in the following image. 
+
+(image: macIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects**  pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: macIcon16.jpg)
+
+
+
+##Step 17
+
+Select your orange shape and focus on the **Effects** pane. Select the existing fill and simply replace the existing color with the linear gradient shown in the following image. 
+
+(image: macIcon17.jpg)
+
+
+
+##Step 18
+
+Make sure that the shape edited in the previous step stays selected, keep focusing on the **Effects** pane and add a second fill using that same plus button. Select the new fill, add  the linear gradient shown in the following image and don't forget to set the **Blend** to **Overlay**. 
+
+(image: macIcon18.jpg)
+
+
+
+##Step 19
+
+Make sure that the shape edited in the previous step is still selected and focus on the **Effects** **** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: macIcon19.jpg)
+
+
+
+##Step 20
+
+Make sure that the shape edited in the previous step is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow.** Select this new effect and enter the attributes shown in the following image. 
+
+(image: macIcon20.jpg)
+
+
+
+##Step 21
+
+Get back  to the **Grid**  and enable the **Snap to Grid** feature. Using the **Rectangle Tool (M)**, create a **325 x 185 px** shape and place it as shown in the following image. The fill color is not very important. 
+
+(image: macIcon21.jpg)
+
+
+
+##Step 22
+
+Now, you need to download the [Yosemite sunset image](http://osxdaily.com/2014/06/03/grab-os-x-yosemite-wallpaper/). Make sure that the rectangle made in the previous step is still selected and focus on the **Effects** pane. Select the existing fill, select **Image** from the **Type** drop-down menu and simply add the image downloaded a few moments ago.
+
+(image: macIcon22.jpg)
+
+
+
+##Step 23
+
+
+Taking  a closer look at the corners of your image  you will notice that it doesn't cover the entire rectangle where it lies. This little issue can be solved pretty fast. Make sure that your rectangles is selected and focus on the **Effects** pane. Select the existing **Fill** and simply drag the **Scale** slider to around **102%**.
+
+(image: macIcon23.jpg)
+
+
+
+##Step 24
+
+Make sure that your image filled rectangle stay selected, focus on the **Effects** pane and add a second **Fill**. Select it and add the linear gradient shown in the following image. 
+
+(image: macIcon24.jpg)
+
+
+
+##Step 25
+
+Make sure that your image filled rectangle is still selected, focus on the **Effects** pane and activate the existing **Stroke**. Select it, drag the **Width** slider to **1 pt**, select **Inside** from the **Position** drop-down menu and then click the color well. Set the color to black (**R=0 G=0 B=0**) and drag the **Alpha** slider to **15%**. 
+
+(image: macIcon25.jpg)
+
+
+
+##Step 26
+
+Reselect your blue shape, focus on the **Effects** pane and simply replace the existing fill color with **R=5 G=5 B=5**.
+
+(image: macIcon26.jpg)
+
+
+
+##Step 27
+
+Copy this Apple logo |  | and get back to your document. Pick the **Text Tool  (T)**, simply click on your canvas and paste the symbol copied a few moments ago. Make sure that it stays selected and focus on the **Text** pane from the **Appearance** panel. Don't bother to change the font, but set the size to **21 pt** and then click that **Convert Text to Outline** button. 
+
+Make sure that the resulting shapes are selected, go to the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button. 
+
+(image: macIcon27.jpg)
+
+
+
+##Step 28
+
+Finally, place your Apple logo as shown below.  
+
+(image: macIcon28.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: macIcon0.jpg)
+
+----
+
+Title: Mac

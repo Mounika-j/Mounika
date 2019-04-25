@@ -1,0 +1,13 @@
+Title: Fills
+
+----
+
+Text: 
+
+# Fills
+
+The _**Fill**_ attribute is used to adjust an object’s content. Changes are applied to the currently selected objects. Colors, gradients or images can be added to fills. 
+
+(image: fills1-iphone.jpg width: 750)
+
+Tap any _**Fill**_ or its color well to get access to its properties. Set the color and its transparency or pick a gradient instead of a flat color. As with the other attributes, multiple _**Fills**_ can be added to an object.

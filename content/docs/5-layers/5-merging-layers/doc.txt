@@ -1,0 +1,24 @@
+Title: Merging Layers
+
+----
+
+Text: 
+
+# Merging Layers
+
+The contents of two or more layers can be merged into one single layer. Hold the ** Command ⌘** key to easily select several layer, or hold the **Shift ⇧** key to select all the layers that lie between the first and the second layer that you choose to select. 
+
+To merge two or more layers, select these layers and choose _**Merge Layers**_ from the _**Layer actions menu**_, or choose **Arrange > Merge Layers** [**⌘** - **E**] from the menu bar. 
+
+(video: merginglayers1.mp4  width: 750)
+
+> Tip: You can also access the **Layer actions menu** by **right-clicking** on a layer.
+
+
+Select only one layer and choose _**Merge Down**_ from the _**Layer actions menu**_ to merge your selected layer with the one that lies right below it in the Layers panel. Alternatively, you can choose **Arrange > Merge Down** [**⌘** - **E**] from the menu bar. 
+
+(video: merginglayers2.mp4  width: 750)
+
+Choose _**Merge Visible**_ from the _**Layer actions menu**_, or  **Arrange > Merge Visible Layers** [**⇧** - **⌘** - **E**] from the menu bar to merge all visible layers into a single layer.
+
+(video: merginglayers3.mp4  width: 750)

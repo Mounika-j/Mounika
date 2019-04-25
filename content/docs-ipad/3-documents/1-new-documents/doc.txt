@@ -1,0 +1,27 @@
+Title: New Documents
+
+----
+
+Text: 
+
+#New Documents
+
+Use the **＋** button from the _**Titlebar**_ to open the _**New Document**_ pop-up pane.
+
+The _**New Document**_ pane allows you to select the canvas style, size and measurement units for the new document. 
+
+(image: newdocuments1-ipad.jpg width: 750)
+
+1. **Width and Height** - Enter values for the width and height of the new document. Landscape or portrait documents can be created by varying the width and height values. Documents can have a maximum canvas size of _4096 x 4096 pixels_. The size of the document can be changed later in the (link: docs-ipad/canvas/settings text: _**Canvas pane**_).
+
+2. **Units** - Select the measurement units to be used for the new document. The available unit types are **_pixels_**,**_ inches_**,**_ centimeters_**, and **_millimeters_**. The width and height field values are specified in these units. 
+
+3. **Presets** - Quickly choose the size for the new document from a list of preset sizes. Simply choose a preset from the list, such as **_Letter_** or **_A4_**, and the dimensions of that preset automatically fill the width and height fields.
+
+4. **Orientation** - Select the orientation mode to be used for the canvas, **_landscape_** or **_portrait_**.
+
+5. **Canvas Style** - Choose from a variety of canvas styles – including graph paper, notebook paper, and blueprint – for the perfect canvas for a particular project. All canvas styles are created using variations of the built-in grid and background color settings, making them fully customizable. Customize your document further using the (link: docs-ipad/canvas/settings text: _**Canvas pane**_) or the (link: docs-ipad/canvas/grid text: _**Grid pane**_).
+
+Any newly created document will be added first in the _**Documents Browser**_. Open it with a simple tap.
+
+(video: newdocuments2-ipad.mp4 width: 750)

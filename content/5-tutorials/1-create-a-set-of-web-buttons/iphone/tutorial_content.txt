@@ -1,0 +1,158 @@
+Text: 
+
+In this Graphic for Mac tutorial we will create a set of web buttons. Using the techniques in this tutorial you can quickly create a large variety of button styles and change their appearance easily.
+
+For starters, you will learn how to set up a simple grid. Using the Rounded Rectangle Tool, you will learn how to easily create a pixel-perfect vector shape. Taking full advantage of the Effects pane, you will learn how to add shading and highlights for your button shape.
+
+Moving on, you will learn how to add a simple piece of text and how to stylize it. Finally, you will learn how to easily adjust the style of your button.
+
+
+
+
+
+##Step 1 - Create a New Document
+
+For this tutorial we'll create a new **680 x 890 pixel** document. Tap the plus button at the top-left corner of the **Titlebar** , tap the **Create Document** button and then choose the **Grid** document style.
+
+
+(image: webButtonsiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon and then open the **Canvas** slide panel. Set the **Width** to **680 px** and the **Height** to **890 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: webButtonsiPhone1B.jpg)
+
+
+
+##Step 2 - Customize the Grid
+
+Return to that ruler button and this time open the **Grid**  pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Spacing** pane, enter **10 px** in both **Spacing** boxes and **0 px** in the **Subdivisions** box.
+
+(image: webButtonsiPhone2.jpg)
+
+
+
+##Step 3 - Draw the Button Shape
+
+Focus on the **Toolbar** and you will notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=0 G=144 B=255**, and then  tap the **Line** color well and drag the **Alpha** slider to **0%**, which will  make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to **6**. Move to yor canvas and simply create a **210 x 40 px** shape — the grid and the **Snap to Grid** feature will ease your work.
+
+(image: webButtonsiPhone3.jpg)
+
+
+
+##Step 4 - Set the Fill and Stroke Styles
+
+Make sure that your rounded rectangle stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon to open the **Appearance** panel. 
+
+Go to the **Effects** pane and simply tap the existing **Stroke**. Make sure that the **Width** slider is set to **1 pt**, select the **Outside Alignment** button, and then tap the color well that stands for your **Stroke**. Drag the **Alpha** slider to **50%** and make sure that the color is set to black (**R=0 G=0 B=0**). 
+
+(image: webButtonsiPhone4.jpg)
+
+
+
+##Step 5 - Add a Second Fill
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** panel and add a second **Fill** using the plus button located in the bottom, right corner of your panel. 
+
+Select this new **Fill**, simply tap its hamburger icon and drag it right below the existing **Fill**. 
+
+(image: webButtonsiPhone5.jpg)
+
+
+
+##Step 6 - Set the Gradient Fill
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effect** pane and tap the color well that stands for the bottom **Fill**. 
+
+Tap the **Gradient Fill** button, set the **Angle** to **-90 degrees**, and then move to the **Gradient** color stops. Select the left one, set the color to black and drag the **Alpha** slider to **20%**, and the select the right one, set the color to white and drag the **Alpha** slider to **20%**. 
+
+(image: webButtonsiPhone6.jpg)
+
+
+
+##Step 7 - Set a Drop Shadow
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and simply check the round checkbox that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **0** in the **X** and **1** in the **Y** box, drag the **Blur** slider to **2**, and then tap the color well that stands for this effect. Drag the **Alpha** slider to **35%** and make sure that the color is set to black. 
+
+(image: webButtonsiPhone7.jpg)
+
+
+
+##Step 8 - Set the Top Inner Border
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow** effect. 
+
+Enter **0** in the **X** and **2** in the **Y** box, drag the **Blur** slider to **0**, and then tap the color well that stands for your effect. Drag the **Alpha** slider to **50%** and make sure that the color is set to white. Return to the **Effect** pane and tap the cogwheel icon that stands for your **Inner Shadow** effect to open that context menu. Go to **Blend Mode** and select the **Overlay** blend mode.
+
+(image: webButtonsiPhone8.jpg)
+
+
+
+##Step 9 - Set the Bottom Inner Border
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using that same plus button. Select this new effect, make sure that it lies below the existing **Inner Shadow**, and then enter the attributes shown in the following image. 
+
+
+(image: webButtonsiPhone9.jpg)
+
+
+
+##Step 10 - Add the Text Label
+
+Pick the **Text Tool** and simply  double tap inside that new field. Select the **Helvetica Bold** font, set the font size to **16**, and then add the &quot;<em>Sign Up</em>&quot; piece of text. 
+
+Using the **Move Tool**, select your piece of text and place it as shown in the following image and make sure that the text color is set to white (**R=255 G=255 B=255**). 
+
+(image: webButtonsiPhone10.jpg)
+
+
+
+##Step 11 - Set the Text Shadow
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: webButtonsiPhone11.jpg)
+
+
+
+##Step 12 - Create the Pressed State Button
+
+Now, you need to duplicate your button. Using the **Move Tool**, select your rounded rectangle along with that white piece of text. Tap and hold anywhere on your canvas to open the context menu. First, tap the **Copy** command, and then reopen that context menu and tap the **Paste** command. 
+
+Select your button copy and place it roughly as shown in the following image. Select the new, rounded rectangle and focus on the **Effects** pane. Open the gradient used for the bottom fill and simply tap the **Reverse Gradient** button. 
+(image: webButtonsiPhone12.jpg)
+
+
+
+##Step 13 - Change Button Colors
+
+Creating alternate versions of our button in different colors is just as easy as creating the pressed state... all we need to do is change one setting, the first **Fill** color. Since all of the other effects are applied on top of this base color, this is the only setting we need to change to create a variety of different colored buttons.
+
+(image: webButtonsiPhone13.jpg)
+
+
+
+##Step 14 - More Button Shapes
+
+Using the effects stack we've created as a base style, you can create many different types of buttons. For example, using a larger corner radius with the **Rounded Rectangle Tool** you can create capsule shaped buttons. 
+
+To apply a style from one shape to another shape you can use the **Copy Style / Paste Style** commands from that same **Appearance** menu.
+
+(image: webButtonsiPhone14.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: webButtonsiPhone0.jpg)
+
+----
+
+Title: iPhone

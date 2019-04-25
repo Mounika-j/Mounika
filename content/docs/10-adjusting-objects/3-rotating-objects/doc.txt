@@ -1,0 +1,40 @@
+Title: Rotating Objects
+
+----
+
+Text: 
+
+#Rotating Objects
+
+Choose the _**Rotate tool**_ to rotate objects around a reference point.
+
+To rotate one or more objects, first select the objects to be rotated and choose the _**Rotate tool**_. With the Rotate tool active, click and drag anywhere on the canvas to rotate the objects clockwise or counterclockwise.
+
+To constrain the rotation to 15˚ increments, hold the **Shift ⇧** key while dragging.
+
+(video: rotatingobjects1.mp4 width: 750)
+
+> Tip: Use the **R** keyboard shortcut to quickly select the **Rotate tool**. 
+
+
+Objects can be rotated numerically using the _**Tool Options bar**_. Set a rotation angle in the field and click _**Rotate**_ to apply the rotation. Clicking _**Copy**_ will duplicate the objects first and then apply the rotation to the copied objects.
+
+Alternatively, objects can be rotated numerically using the _**Rotation**_ settings from the _**Geometry pane**_ of the Properties panel. 
+
+(video: rotatingobjects2.mp4 width: 750)
+
+By default, the reference point will be located in the center of the selected objects. To use a different location for the reference point, click-and-drag it to set it at that new location. 
+
+(video: rotatingobjects3.mp4 width: 750)
+
+# {#rotate}
+
+Objects can also be rotated manually using Move tool's bounding box. 
+
+Choose the _**Move tool**_ and make a selection. Moving the mouse pointer slightly outside of a bounding box handle will change the cursor to a curve with arrows at each end.  Clicking and dragging in this mode will rotate the selected objects.
+
+Holding down the **Shift ⇧** key while rotating will constrain the rotation to 15˚ increments.
+
+(video: rotatingobjects4.mp4 width: 750)
+
+Finally, you can choose **Modify > Rotate and Transform > Rotate 90˚Clockwise** from the menu bar to rotate the selection 90˚clockwise or **Modify > Rotate and Transform > Rotate 90˚Counter-Clockwise** to rotate the selection 90˚counter-clockwise.

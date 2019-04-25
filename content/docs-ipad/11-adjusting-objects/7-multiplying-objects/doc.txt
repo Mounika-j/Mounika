@@ -1,0 +1,21 @@
+Title: Multiplying Objects
+
+----
+
+Text: 
+
+# Multiplying Objects
+
+Objects or groups can be easily duplicated using the classic _**Copy**_ and _**Paste**_ commands. Select the objects you’d like to duplicate and then tap and hold anywhere on the canvas until the context menu appears. Tap the _**Copy**_ command and then tap and hold again to reopen that context menu and tap the _**Paste**_ command. The copy is added in the spot where you tapped and held.
+
+Alternatively, you can use the _**Copy**_ and _**Paste**_ commands from the _**Edit pane**_.  The copy is added in the center of the canvas. 
+
+(video: multiplyingobjects1-ipad.mp4 width: 750)
+
+Use the _**Paste in Place**_ command to add the copy in the same location of the original object.
+
+(video: multiplyingobjects2-ipad.mp4 width: 750)
+
+The _**Select All**_ command will select all the shapes from your active layer. Using the _**Cut**_ command and subsequently the _**Paste**_ or _**Paste in Place**_ command, you can easily remove an object from a layer and paste it inside another layer.
+
+(video: multiplyingobjects3-ipad.mp4 width: 750)

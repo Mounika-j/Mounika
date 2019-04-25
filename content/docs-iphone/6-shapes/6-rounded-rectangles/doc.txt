@@ -1,0 +1,15 @@
+Title: Rounded Rectangles
+
+----
+
+Text: 
+
+# Rounded Rectangles
+
+Choose the _**Rounded Rectangle tool**_ to create rectangles or squares with rounded corners. Tap and drag to create a rectangle with rounded corners. 
+
+Tap and drag to begin drawing the rounded rectangle, and then tap and hold with a second finger to turn the drawn shape into a square with rounded corners. 
+
+(video: roundedrectangles1-iphone.mp4 width: 750)
+
+Vary the roundness of the corners by adjusting the _**Radius**_ setting in the _**Tool pane**_.

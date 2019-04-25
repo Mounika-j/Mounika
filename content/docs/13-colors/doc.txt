@@ -1,0 +1,23 @@
+Title: Colors
+
+----
+
+Text: 
+
+# Colors
+
+Colors can be used to stylize the _**Fill**_, _**Stroke**_ or _**Effect**_ attributes of any object. 
+
+The _**Fill**_ and _**Stroke**_ color wells in the _**Toolbar**_ can be used to set the current stroke and fill colors. Drawing tools will use these colors when creating new objects. 
+
+The black and white button below the color wells resets the color attributes to the default white fill and a black stroke. Alternatively, you can use the **D** keyboard shortcut. 
+
+The curved arrow button above the color wells inverses the existing fill and stroke colors. Alternatively, you can use the **Shift ⇧ - X** keyboard shortcut. 
+
+(video: colors1.mp4  width: 750)
+
+When objects are selected, the fill and stroke color wells update to the colors used by those objects. Changing the fill or stroke colors while objects are selected will change the objects’ colors.
+
+To disable the color of an object’s stroke or fill, you can set the color to _'**none**'_ (the white color swatch with the diagonal red bar) from the _**Color panel**_ . 
+
+Aside from the _**Fill**_ and _**Stroke**_ color wells, color wells appear throughout Graphic’s interface which can be used to set the color for a specific setting, from grid line colors to the document’s background color.

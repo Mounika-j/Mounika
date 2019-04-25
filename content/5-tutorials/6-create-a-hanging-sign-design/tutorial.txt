@@ -1,0 +1,36 @@
+Title: Create a Hanging Sign Design
+
+----
+
+Description: Learn how to create a hanging sign design using shapes and styled text...
+
+----
+
+Image: (image: header.jpg title: Create a Hanging Sign class: header960)
+
+----
+
+Thumbnail: hangingsigniphonethumbnail2.jpg
+
+----
+
+Date: 2014-12-01
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: HangingSign.idraw text: HangingSign.idraw)
+
+----
+
+Graphicfile: hangingsign.idraw
+
+----
+
+Headerimg: hangingsigniphoneheader.jpg

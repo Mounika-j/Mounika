@@ -1,0 +1,25 @@
+Title: Design a Logo with Curved Text
+
+----
+
+Description: Learn how to create a professional logo design using Graphic's text on path feature...
+
+----
+
+Headerimg: logoheader.jpg
+
+----
+
+Thumbnail: logothumbnail.jpg
+
+----
+
+Date: 2013-07-21
+
+----
+
+Categories: Mac, Appearance, Text
+
+----
+
+Graphicfile: logo.idraw

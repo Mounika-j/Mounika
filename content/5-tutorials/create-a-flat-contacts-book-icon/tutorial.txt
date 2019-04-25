@@ -1,0 +1,21 @@
+Title: Create a Flat Contacts Book Icon
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: contactsbook.idraw
+
+----
+
+Description: Learn how to create a flat contacts book icon using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: contactsbookthumbnail.jpg

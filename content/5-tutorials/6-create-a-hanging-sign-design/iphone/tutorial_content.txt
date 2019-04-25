@@ -1,0 +1,414 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple hanging sign in  Graphic for iPhone. 
+
+For starters you will learn how to set up a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Taking full advantage of the Effects pane you will learn how to add complex shading and highlights for your shapes. In the end, you will learn how to add some simple text to your desgin. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: hangingSigniPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set the **Width** to **600 px** and then **Height** to **500 px**, select **Pixels** for the base unit and be sure that the **Pixel-Align Strokes** feature is disabled. 
+
+(image: hangingSigniPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: hangingSigniPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the fill color is set to white while the line color is set to black. Tap the fill color well and set its color to **R=255 G=185 B=0** and then tap the line color well and drag the **Alpha** slider to **0%**. This will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the **Radius** slider to **10**. Move yo your canvas and simply create a **250 x 150 px** shape.
+
+(image: hangingSigniPhone2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar** and replace the existing **Fill** color with a simple white (**R=255 G=255 B=255**). 
+
+Make sure that the **Rounded Rectangle Tool** is still active, focus on the **Tool Options** pane and drag the  **Radius** slider to **7 pt**. Move to your canvas, create a **240 x 140 px** shape and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature should ease your work. 
+
+(image: hangingSigniPhone3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool**, select both shapes made so far, focus on the right side of your **Titlebar** and open the **Properties** panel. Go to the **Combine** pane, simply tap the **Subtract** command and in the end things should look like in the second image. 
+
+(image: hangingSigniPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your shape stays selected, focus on the **Toolbar** and tap the **Fill** color well. 
+
+Tap the **Gradient ** button and check the **Linear** icon, set the angle to **135 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=212 G=212 B=212** and then select the right one and add the same color. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=238 G=238 B=238** and drag it to the right until the **Location** tooltip shows **95%**. Keep focusing on the gradient bar, add another six gradient sliders and then use the color and **Location** attributes shown in the following image. 
+
+(image: hangingSigniPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your shape is still selected and focus on the right side of the **Titlebar**. Tap the leftmost icon to open the **Appearance** panel and then go to **Effects** pane.
+
+Select the existing stroke, drag the **Width** slider to **2 pt**, activate the **Inside Alignment** button and then tap the color well that stands for your **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with a simple white. Return to the **Effects** pane and simply tap the cogwheel icon that stands for your **Stroke**. Tap the **Blend Mode** command and select the **Soft Light** blend mode. In the end things should look like in the following image. 
+
+(image: hangingSigniPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. Select this new **Stroke**, make sure that it lies below the existing one and then  enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Inner Shadow** effect to activate it.
+ 
+Enter **0** in the **X** box and **-3** in the **Y** box, drag the **Blur** slider to **5 pt**, select **Soft Light** for  the **Blend Mode** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **50%** and make sure that the color is set to black (**R=0 G=0 B=0**). 
+
+(image: hangingSigniPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** effect using that same plus button. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** effect using that same plus button. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Drag it above the existing  **Inner Shadow** effects and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone11.jpg)
+
+
+
+##Step 12
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and then select the **Fill** and replace the existing color with **R=85 G=85 B=85**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and make sure that the **Radius** slider is set to **7**. Move to your canvas, create a  **240 x 140 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: hangingSigniPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** pane, activate the existing **Inner Glow**  effect and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone14.jpg)
+
+
+
+##Step 15
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and then select the **Fill** and replace the existing color with **R=241 G=238 B=230**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **5**. Move to your canvas, create a **230 x 130 px** shape and place it as shown in the following image. 
+
+(image: hangingSigniPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest rounded rectangle stays selected, focus on the **Effects** pane, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle is still selected, focus on the **Effects** pane and add a second **Stroke** using that same plus button. Select the new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Tap the cogweel icon that stands for the existing **Drop Shadow** and simply go to **Duplicate**. Select the newly added **Drop Shadow** effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: hangingSigniPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. Select the newly added **Drop Shadow** effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: hangingSigniPhone20.jpg)
+
+
+
+##Step 21
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**  effect, drag it right below the **Inner Shadow**  and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone22.jpg)
+
+
+
+##Step 23
+
+
+Return to your **Toolbar** and this time make the **Fill** invisible and then set the **Line** color to **R=255 G=185 B=2**. 
+
+Pick the **Rectangle Tool**, move to your canvas, create a **100 x 50 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt** and select the **Inside Alignment** button.
+
+(image: hangingSigniPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that the rectangle made in the previous step is still selected, focus on the top side and pick the **Path Selection Tool**. 
+
+Select the left anchor point and simply hit the **X** button from the left side of your **Titlebar** to remove it and then select the right anchor point and drag it **50 px** to the left. In the end your rectangle should turn into a simple triangle as shown in the second image. 
+
+Keep your triangle selected, go to the **Arrange** pane from the **Properties** panel and drag that **Order** slider to the left to easily send your selected shape to back. Move to the **Effects** pane and simply replace the existing stroke color with **R=44 G=44 B=49**.
+
+(image: hangingSigniPhone24.jpg)
+
+
+
+##Step 25
+
+Return to your **Toolbar**, make sure that the **Fill** color is still invisible and then set the **Line** color to black. 
+
+Pick the **Rectangle Tool**, move to your canvas, create a **90 x 50 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects**  pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt** and select that **Inside Alignment** button. 
+
+Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select the left anchor point and remove it using that same **X** button and then select the right anchor point and drag it **45 px** to the left. Once again, this will turn your rectangle into a simple triangle as shown in the second image. 
+
+(image: hangingSigniPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that the triangle made in the previous step is still selected, send it to back and then focus on the **Effects** pane. First, tap the **Stroke** color well and drag the **Alpha** slider to **10%** and then activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone26.jpg)
+
+
+
+##Step 27
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color to **R=128 G=128 B=128**. Using the **Ellipse Tool**, create a **10 px** circle and place it exactly as shown in the following image. 
+
+(image: hangingSigniPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your circle stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, drag it below the existing effect and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone31.jpg)
+
+
+
+##Step 32
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone33.jpg)
+
+
+
+##Step 34
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone34.jpg)
+
+
+
+##Step 35
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. First you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape. Simply tap the cogwheel icon that stands for that  **Outer Glow** effect and then tap the **Remove** command. 
+
+Next, add a fourth **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone35.jpg)
+
+
+
+##Step 36
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPhone36.jpg)
+
+
+
+##Step 37
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Simply tap that plus button from the bottom of the panel to add a second layer. Select this new layer and then close your panel. 
+
+(image: hangingSigniPhone37A.jpg)
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color to **R=170 G=170 B=170**. 
+
+Pick the **Rounded Rectangle Tool,** focus on the **Tool Options** pane and drag the  **Radius** slider to **10**. Move to your canvas, create a **250 x 150 px** shape and place it exactly as shown in the following image. 
+
+(image: hangingSigniPhone37B.jpg)
+
+
+##Step 38
+
+Open the **Layers** panel and drag your top layer below the other one. Make sure that your bottom layer remains selected and then close the **Layers** panel. 
+
+(image: hangingSigniPhone38A.jpg)
+
+Make sure that the grey, rounded rectangle  stays selected and  focus on the **Effects** pane. Select the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone38B.jpg)
+
+
+##Step 39
+
+Make sure that your grey, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow**, drag it above the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone39.jpg)
+
+
+
+##Step 40
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone40.jpg)
+
+
+
+##Step 41
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone41.jpg)
+
+
+
+##Step 42
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPhone42.jpg)
+
+
+
+##Step 43
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Select the **American Typewriter** font and make it **Bold**. Drag the  font size slider to **15** and then simply add that  &quot;<em>we're</em>&quot; piece of text. Set its color to **R=54 G=54 B=65**.
+
+ Tap again that **Text Tool** to create a second text field. Make sure that you're using the same font,  drag the size slider to **50** and then add the &quot;<em>OPEN</em>&quot; piece of text. Replace the existing color with **R=218 G=65 B=0**.
+
+(image: hangingSigniPhone43.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: hangingSigniPhone0.jpg)
+
+----
+
+Title: iPhone

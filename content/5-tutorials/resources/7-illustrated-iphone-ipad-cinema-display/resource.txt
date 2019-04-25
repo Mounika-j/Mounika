@@ -1,0 +1,33 @@
+Title: Illustrated iPhones and iPads
+
+----
+
+Description: Illustrated versions of the black/white iPhones and iPads, alongside a Cinema Display.
+
+----
+
+Headerimg: Header.png
+
+----
+
+Thumbnail: Thumbnail.png
+
+----
+
+Date: 2013-08-21
+
+----
+
+Categories: Mac, Icon
+
+----
+
+Text: Illustrated versions of the black/white iPhones and iPads, alongside an illustrated Cinema Display.
+
+----
+
+Graphicfile: iPhone-iPad.idraw
+
+----
+
+Credits: **Authors**: (link: http://dribbble.com/AgenceMe text: Agence Me), (link: http://www.coreymichaud.com text: Corey Michaud)

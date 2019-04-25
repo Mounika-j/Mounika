@@ -1,0 +1,21 @@
+Title: Create a Set of Indoor Floor Plan Shapes
+
+----
+
+Date: 2018-02-09
+
+----
+
+Graphicfile: furnitureshapes-indoor.idraw
+
+----
+
+Description: Learn how to create a set of indoor floor plan shapes using units, canvas scale, and various lines...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: furnitureshapesthumbnail.jpg

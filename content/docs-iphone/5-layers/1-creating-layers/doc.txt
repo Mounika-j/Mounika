@@ -1,0 +1,11 @@
+Title: Creating Layers
+
+----
+
+Text: 
+
+# Creating Layers
+
+To create a new layer, tap the _**Add Layer**_ button (**+**). A new empty layer will be created above the currently selected layer.
+
+(video: creatinglayers1-iphone.mp4 width: 750)

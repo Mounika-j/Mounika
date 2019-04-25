@@ -1,0 +1,23 @@
+Title: Adjusting Images
+
+----
+
+Text: 
+
+# Adjusting Images
+
+Images applied to a shape can be easily adjusted using the _**Image pane**_ from the Appearance panel. 
+
+(image: adjustingimages1-ipad.jpg width:750)
+
+1. **Stretch or Scale to Fit** - Images that are larger or smaller than the parent object’s bounds can either be scaled to fit inside of the bounds (maintaining the image’s aspect ratio) or stretched to completely fill the shape’s bounds.
+
+ (image: adjustingimages2-ipad.jpg width:723)
+
+2. **Image preview** - Preview of the chosen image.
+
+3. **Opacity** - Adjust the transparency of the image using the slider.
+
+4. **Remove** - Remove the image fill.
+
+5. **Change Image** - Choose a different image to fill the selected object.

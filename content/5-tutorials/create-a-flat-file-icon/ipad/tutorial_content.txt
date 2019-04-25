@@ -1,0 +1,241 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat file icon in Graphic for iPad. 
+
+For starters you'll learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. You''ll learn how to ease your work using compound paths and how to add subtle shading and highlights using the Effects pane. 
+
+Finally, you'll learn the use of the Align strokes to pixel grid feature. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** and **Height** to **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled, for now. 
+
+(image: flatFileIconiPad1A.jpg)
+
+Next, let's set up the document grid. Switch to the **Grid &amp; Rulers** pane in the **Settings** popover. Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally,  open the **Grid Spacing** pane, enter **10 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: flatFileIconiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap on the fill color well and replace the existing color  with **R=246 G=240 B=213** and then tap  the line color well and drag the **Alpha** slider to **0%**. This will simply make your line invisible. 
+Pick the **Round Rectangle Tool**, focus on the newly opened tool pane and drag the **Radius** slider to **5**. Move to your canvas and simply create an **120 x 165 px** rounded rectangle. The grid and the **Snap to Grid** feature will ease your work. 
+
+Make sure that your  shape stays selected, focus on the left side of the Titlebar and simply tap that paperclip icon to open the **Edit** pane. First, tap the **Copy** button and then tap the **Paste in Place** button which will create  a copy of your rounded rectangle in the same location. 
+
+(image: flatFileIconiPad2.jpg)
+
+
+
+##Step 3
+
+Replace the existing fill color with **R=74 G=195 B=237** and pick the **Rectangle Tool**. 
+
+Create a **45 px** square and place it exactly as shown in the first image. Switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Delete Point** mode. Focus on the bottom side of your blue shape and simply tap  the left anchor point to remove it. In the end your blue square should turn into a simple triangle as shown in the second image. 
+
+(image: flatFileIconiPad3.jpg)
+
+
+
+##Step 4
+
+Pick the **Path Selection  Tool**, focus on the newly opened tool pane and activate the **Add to Selection** mode.  Using this tool,  reselect your blue triangle along with the copy of the rounded rectangle and tap the rectangular icon from the right side of your Titlebar. Go to the **Combine** pane and simply tap the **Intersect** button. 
+
+(image: flatFileIconiPad4.jpg)
+
+
+
+##Step 5
+
+Focus on the top, left edge of your rounded rectangle and pick the **Ellipse Tool**. Set the fill color to **R=255 G=85 B=84**, create a **5 px** circle and place it as shown in the first image.
+ 
+Make sure that this little shape stays selected and re-open that **Edit** pane. Simply tap the **Copy** and the **Paste** buttons to create a copy of your circle. Select this newly made shape and place it **5 px** below the original circle as shown in the second image. 
+
+Create a bunch of new copies and spread them in a column of fifteen circles as shown in the third image. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your circles, focus on the **Combine** pane and simply tap that **Make Compound Path** button.
+
+(image: flatFileIconiPad5.jpg)
+
+
+
+##Step 6
+
+Reselect your red compound path and add a copy in the same place. Next, you need to move this  copy  **1 px** down. Select it and  tap that ruler icon from the right side of your Titlebar to open the **Position** pane. Focus on the **Y** box and simply tap that plus button once to move your shape **1 px** down. 
+
+(image: flatFileIconiPad6.jpg)
+
+
+
+##Step 7
+
+Take a close look at your red shapes, select the original one and add a new copy in the same place. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the copy made in this step along with the one made in the previous step and focus on the **Combine** pane. First, tap the **Subtract** button and then tap the **Make Compound Path** button. 
+
+Make sure that this new compound path stays selected, focus on the right side of your Titlebar and  tap the leftmost icon. Go to the **Appearance** pane, set the **Fill** color to white and drag the **Opacity** slider to **70%**. 
+(image: flatFileIconiPad7.jpg)
+
+
+
+##Step 8
+Select the remaining red compound path along with your rounded rectangle, focus on the **Combine** pane and tap the **Subtract** button.
+
+ Reselect your blue shape and add a copy in the same place. Select it along with the beige shape, return to the **Combine** pane and tap again the **Subtract** button. 
+ 
+(image: flatFileIconiPad8.jpg)
+
+
+
+##Step 9
+
+Select your beige shape, focus on the **Effect** pane, activate the existing **Drop Shadow** and enter the properties shown in the following image. 
+
+(image: flatFileIconiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button located in the bottom, right corner of your pane. Focus on this new effect and simply enter the properties shown in the following image. 
+
+(image: flatFileIconiPad10.jpg)
+
+
+
+##Step 11
+
+Focus on your Toolbar, tap the fill color and drag the **Alpha** slider to **0%** and then tap the line color, drag the **Alpha** slider to **100%** and set the color to **R=150 G=180 B=240**. 
+
+Pick the **Pen Tool** or the **Line Tool**, create a **90 px**, horizontal path and place it as shown in the first image. Make sure that this path stays selected, focus on the **Effects** pane and be sure that the **Width** slider is set to **1 pt**. Add a copy of this path in the same place and then  drag it **10 px** up. Keep adding horizontal path one above the other as shown in the second image. Remember to always leave a **10 px** gap between each path. 
+
+(image: flatFileIconiPad11.jpg)
+
+
+
+##Step 12
+
+Focus on the top, horizontal path and pick the **Path Selection Tool**. Select the right anchor point and drag it **20 px** to the left. Move down to the next horizontal path, select the right anchor point and drag it **10 px** to the left. 
+
+(image: flatFileIconiPad12.jpg)
+
+
+
+##Step 13
+
+Select all your horizontal paths, focus on the  **Combine** pane and tap the **Make Compound Path** button. Make sure that this new compound path stays selected, focus on the **Appearance** pane and simply drag the **Opacity** slider to **30%**. 
+
+(image: flatFileIconiPad13.jpg)
+
+
+
+##Step 14
+
+Focus on your Toolbar and replace the existing line color with **R=255 G=169 B=206**. 
+
+Pick the **Pen Tool** or the **Line Tool**, create a **150 px**, vertical path and place it as shown in the first image. Make sure that this new path is selected and add a copy in the same place. Select this  copy, open the **Position** pane, focus on the **X** box and  simply tap that plus button three times to move your selection **3 px** to the right. 
+
+(image: flatFileIconiPad14.jpg)
+
+
+
+##Step 15
+
+Reselect both vertical paths, focus on the **Combine** pane and tap the **Make Compound Path** button. Make sure that this new compound stays selected, focus on the  **Appearance** pane and simply drag the **Opacity** slider to **30%**. 
+
+(image: flatFileIconiPad15.jpg)
+
+
+
+##Step 16
+
+Select your blue shape and pick the **Rotate Tool**. Focus on the newly opened tool pane,set the **Angle** to **180 degrees** and then tap the **Rotate** button. 
+
+(image: flatFileIconiPad16.jpg)
+
+
+
+##Step 17
+
+First, disable the **Snap to Grid** feature. Simply return to the **Grid &amp; Rulers** pane and uncheck the **Snap to Grid**. Make sure that your blue shape is  selected and add two copies in the same place. Select the top copy and move it **1 px** up and **1 px** to the right using that same **Position** pane. 
+
+Reselect both copies made in this step, focus on the **Combine** pane and tap the **Subtract** button. Make sure that the resulting shape stays selected and replace the existing fill color with white. Switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Delete Points** mode. Return to your white shape and simply tap the two anchor points highlighted in the second image. to remove them. 
+
+(image: flatFileIconiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your white shape is still selected, focus on the **Appearance**  pane and simply drag the **Opacity** slider to **40%**. 
+
+(image: flatFileIconiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your blue shape is selected, add a copy in the same place, select it and move it **1 px** down. Reselect your original, blue shape and add a new copy in the same place.
+
+ Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select both copies made in this step, go to the **Combine** pane and tap the **Subtract** button. Focus on the resulting shape and enable the **Snap to Grid**. Select the anchor highlighted in the second image and drag it to the right as shown below. Finally, replace the existing fill color with **R=221 G=214 B=188**. 
+
+(image: flatFileIconiPad19.jpg)
+
+
+
+##Step 20
+
+Reselect your blue shape and add a  copy in the same place. Select it and focus on the **Effects** pane. 
+
+Disable the **Fill** and then select the stroke. Set its color to **R=255 G=86 B=85**, drag the **Width** slider to **2 pt** and make sure that the Alignment is set to **Outside**. With this shape still selected, focus on the **Path** pane and tap the **Outline Stroke** button. 
+
+(image: flatFileIconiPad20.jpg)
+
+
+
+##Step 21
+
+Reselect your beige shape and add a copy in the same place. Select this copy along with the red shape made in the previous step, focus on the **Combine** pane and tap the **Intersect** button. 
+
+Make sure that the resulting shape stays selected and focus on the **Effects** pane. Tap the color well that stands for the existing **Fill**, set the color  to black (**R=0 G=0 B=0**) and drag the **Alpha** slider to **40%**. Return to the **Effects** pane and tap the cogwheel icon that stands for the existing **Fill**. Tap the **Blend Mode** option, select the **Soft Light** blend mode then tap that **Done** button. 
+
+(image: flatFileIconiPad21.jpg)
+
+
+
+##Step 22
+
+Reselect your blue shape and replace the existing fill color with **R=255 G=247 B=220**. 
+
+(image: flatFileIconiPad22.jpg)
+
+
+
+##Step 23
+
+Alternatively, you can try a different set of colors for your final icon. Select the highlighted shapes one by one and simply replace the existing colors with the ones shown in the following image. 
+
+(image: flatFileIconiPad23.jpg)
+
+
+
+##Step 24
+
+Finally, if you choose to export your design as an image you will notice that those horizontal and vertical lines end up looking pretty blurry. This  happens because the strokes applies for those lines are not perfectly aligned to the pixels grid.  To fix this issue, just go to the **Canvas** pane and activate that **Pixel-Align Strokes** feature. 
+
+(image: flatFileIconiPad24.jpg)
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: flatFileIconiPad0.jpg)
+
+----
+
+Title: iPad

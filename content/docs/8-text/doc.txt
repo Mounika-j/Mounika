@@ -1,0 +1,13 @@
+Title: Text
+
+----
+
+Text: 
+
+# Text
+
+Text can be added in Graphic using the _**Text Tool**_ from the _**Toolbar**_. Create text boxes for shorter pieces of text or text fields for larger paragraphs. 
+
+Text attributes can be changed from the _**Tool Options bar**_ or using the (link: docs/text/customizing-text text: _**Text pane**_) from the Appearance panel. Stylize your text like any other shape – use the (link: docs/effects text: _**Effects pane**_) from the Appearance panel to add multiple fills, strokes or effects. 
+
+(image: text1.jpg  width: 750)

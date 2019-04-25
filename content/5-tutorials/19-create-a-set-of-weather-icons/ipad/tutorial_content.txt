@@ -1,0 +1,344 @@
+Text: 
+
+In the following tutorial you will learn how to create a set of flat weather icons in  Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid and how to create a cloud shape using basic tools and vector shapes building techniques.Taking full advantage of the Snap to Grid feature and using some simple stroke techniques, you will learn to create most of the icons. 
+
+Finally, you will learn how to create a flat background, how to center it and how to add a subtle shadow to your icons. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: weatherIconsiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: weatherIconsiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=74 G=196 B=237** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible. 
+
+Pick the **Ellipse Tool**, move to your canvas and  create a **40 px** circle - the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: weatherIconsiPad2.jpg)
+
+
+
+##Step 3
+
+Replace the existing **Fill** color with **R=225 G=200 B=0**, make sure that the **Ellipse Tool**  is still active, create a **60 px** circle and place it as shown in the first image. 
+
+Replace that yellow from the **Fill** color with **R=44 G=164 B=15**, create a **30 px** circle and place it as shown in the second image. 
+
+Switch to the **Rectangle Tool** and set the **Fill** color to black (**R=0 G=0 B=0**). Create a **60 x 20 px** rectangle and place it as shown in the third image.
+
+(image: weatherIconsiPad3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool**, select all the shapes made so far, focus on the right side of your Titlebar and tap that middle icon. Move to the **Combine** pane and simply tap that **Union** button. You will end up with a  blue, cloud shape like the one shown in the second image. 
+
+Make sure that this  shape is selected, focus on the left side of your Titlebar and tap that paperclip icon to open the **Edit** pane. Simply tap the **Copy** and the **Paste** buttons to duplicate your blue icon. Select the copy, drag it down and place it roughly as shown in  the second image. 
+
+(image: weatherIconsiPad4.jpg)
+
+
+
+##Step 5
+
+Return to your Toolbar, this time make sure that the **Fill**  is invisible and then set the **Line** color to black (**R=0 G=0 B=0**).
+
+Focus on your bottom cloud shape and pick the **Ellipse Tool**. Create a **40 px** circle and place it as shown in the following image. Make sure that this new shape stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Move to the **Effects** pane and tap the existing  **Stroke**. Drag that **Width** slider to **6 pt** and check the **Inside Alignment** button.
+
+(image: weatherIconsiPad5.jpg)
+
+
+
+##Step 6
+
+Pick the **Pen Tool** or the **Line Tool**, create a **10 px**, vertical path and place it as shown in the following image. Make sure that this new path stays selected and focus on the **Effects** pane. Select the **Stroke**, drag the  **Width**  slider to **6 pt** and don't forget to check that **Round Cap** button. 
+
+(image: weatherIconsiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your vertical path is still selected, pick the **Rotate Tool** and you will notice a little cross icon in the center of your selection, that's the reference point. Simply drag it in the center of that circle and then focus on that tool pane. Set the **Angle** to **45 degrees** and then hit that **Copy** button seven times. In the end things should look like in the second image. 
+
+(image: weatherIconsiPad7.jpg)
+
+
+
+##Step 8
+
+Pick the **Path Selection Tool**, focus on the tool pane and activate the **Add to Selection** mode. Select the black shapes that make up your sun and duplicate them using the same **Copy** and **Paste** commands from that **Edit** pane. Make sure that only the copies are selected, drag them to the right as shown in the first image and then go to the **Path** pane. Tap the **Outline Stroke** button and then move to the **Combine** pane and tap the **Make Compound Path** button.  The resulting compound path will be your first icon. 
+
+(image: weatherIconsiPad8.jpg)
+
+
+
+##Step 9
+
+Pick the **Path Selection Tool** and be sure that the **Add to Selection** mode is still active. Reselect the black shapes that make up your sun and go to the **Path** pane. Tap the **Outline Stroke** button and then move to the **Combine** pane and tap the **Make Compound Path** button. 
+
+(image: weatherIconsiPad9.jpg)
+
+
+
+##Step 10
+
+Select the blue, cloud shape that lies behind that  sun shape and add a copy in the same place using the **Copy** and the **Paste in Place** commands from that **Edit** pane.
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active.  Select the cloud shape copy made a few moments ago along with the sun shape that lies behind it, go to  the **Combine** pane and tap that **Subtract** button. Select the tiny, black shape highlighted in the third image and simply remove it using the **X** button located in the left side of your Titlebar. 
+
+(image: weatherIconsiPad10.jpg)
+
+
+
+##Step 11
+
+Reselect your blue cloud and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Drag the **Width** slider to **6 pt**, tap the **Inside** **Alignment** and the  **Round Join** buttons and then tap the color well that stands for this **Stroke**. Make sure that the color is set to black and drag that **Alpha** slider to **100%**. 
+
+(image: weatherIconsiPad11.jpg)
+
+
+
+##Step 12
+
+Reselect the cloud shape with the black stroke, go to the **Path**  pane and tap the **Outline Stroke** button. Select the resulting path along with the set of shapes that make up that half of a sun and go to the **Combine** pane. Start by tapping the **Union** button and then move to the bottom of the pane and tap that **Make Compound Path** button. The resulting compound path will be your second icon. 
+
+(image: weatherIconsiPad12.jpg)
+
+
+
+##Step 13
+
+Select the remaining blue shape and focus on the **Effects** pane. Make the **Fill** invisible and then select that **Stroke**. Set its color to black, drag the **Width** slider to **6 pt** and then tap the **Inside** **Alignment** and the  **Round Join** buttons. Make sure that this shape stays selected, focus on the **Path** pane and tap the **Outline Stroke**  button. The resulting compound path will be your third icon. 
+
+Duplicate this shape and drag the copy to the right roughly as shown in the following image. 
+
+(image: weatherIconsiPad13.jpg)
+
+
+
+##Step 14
+
+Return to your Toolbar, make sure that the **Fill**  is invisible and then set the **Line** color to **R=74 G=195 B=237**. Focus on your right cloud shape and pick the **Pen Tool**  or the **Line Tool**.
+
+Create a **30 px**, vertical path and place it as shown in the first image. Select this tiny, new path, focus on the **Effects** pane and select the **Stroke**.  Drag  **Width** slider to **6 pt** and check the **Round Cap** button. Switch to the **Rotate Tool** and focus on the newly opened tool pane. Set the **Angle** to **-25 degrees** and simply tap that **Rotate** button. In the end things should look like in the second image. 
+
+(image: weatherIconsiPad14.jpg)
+
+
+
+##Step 15
+
+Reselect the oblique path made in the previous step, open the **Edit** pane and tap that **Copy Style** command. 
+
+Reselect  the **Pen Tool**  or the **Line Tool**, create a **20 px**, vertical path and place it as shown in the first image. Make sure that this new path stays selected, open the **Edit** pane and tap that **Paste Style** command. This will simply copy the attributes from your first oblique path and paste them unto the path made in this step. 
+
+With  your vertical path  still selected, pick the **Rotate Tool** and move to the tool pane. Set the **Angle** to **-25 degrees** and tap that **Rotate** button. 
+
+Reselect  the **Pen Tool** or the **Line Tool**, create a **25 px**, vertical path and place it as shown in the third image. Make sure that it stays selected, use again the **Paste Style** command and then rotate it **-25 degrees**.
+
+(image: weatherIconsiPad15.jpg)
+
+
+
+##Step 16
+
+Reselect the three, oblique paths and focus on the **Path** pane. Tap the **Outline Stroke**  button and then move to the **Combine** pane and tap the **Make Compound Path** button. 
+
+(image: weatherIconsiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your blue compound path is still selected and add a copy in the same place using the **Copy** and the **Paste in Place** commands from that same **Edit** pane. Select this copy and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and then tap the **Outside Alignment** button. Make sure that this red shape stays selected, move to the **Path** pane and simply tap that **Outline Stroke** button. 
+
+(image: weatherIconsiPad17.jpg)
+
+
+
+##Step 18
+
+Select your red compound path along with the black shape that lies behind it, focus on the **Combine** pane and tap that **Subtract** button. 
+
+(image: weatherIconsiPad18.jpg)
+
+
+
+##Step 19
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and focus on the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make Compound Path** button. The resulting compound path will be your fourth icon.
+
+(image: weatherIconsiPad19.jpg)
+
+
+
+##Step 20
+
+Duplicate your cloud shape and select the copy. Drag it down and place it roughly as shown in the following image. 
+
+(image: weatherIconsiPad20.jpg)
+
+
+
+##Step 21
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=74 G=186 B=237**.
+
+Focus on the cloud shape copy made in the previous step and pick the **Rounded Rectangle Tool**. Move to the newly opened tool pane and drag the  **Radius** slider to **3**. Create a **5 x 25 px** rounded rectangle and place it as shown in the first image. Make sure that this new shape stays selected and switch to the **Rotate Tool**. Focus on the tool pane, set the **Angle** to **45 degrees** and then  tap that **Copy** button three times. 
+
+(image: weatherIconsiPad21.jpg)
+
+
+
+##Step 22
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the four rounded rectangles made in the previous step, focus on the **Combine**  pane and tap the **Union** button. Duplicate the resulting shape, select the copy and place it as shown in the second image. Reselect both shapes made in this step, return to the **Combine** pane and this time tap that **Make Compound Path** button.
+
+(image: weatherIconsiPad22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your blue compound path is still selected and add a copy in the same place. Select this copy and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and tap that **Outside Alignment** button. With this red shape still selected, move to the **Path** pane and simply tap the **Outline Stroke** button. 
+
+(image: weatherIconsiPad23.jpg)
+
+
+
+##Step 24
+
+Reselect your red compound path along with the  black shape that lies behind it, focus on the **Combine** pane and tap the **Subtract** button. 
+
+(image: weatherIconsiPad24.jpg)
+
+
+
+##Step 25
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and focus on the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make Compound Path** button. The resulting compound path will be your fifth icon. 
+
+(image: weatherIconsiPad25.jpg)
+
+
+
+##Step 26
+
+Make one final copy of  your cloud shape and place it below that sun icon roughly as shown in the following image. 
+
+(image: weatherIconsiPad26.jpg)
+
+
+
+##Step 27
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=74 G=186 B=237**. 
+
+Keep your eyes on the cloud shape copy added in the previous step and pick the **Rectangle Tool**. Create a **15 x 5 px** shape, place it as shown in the first image and make sure that it stays selected. Switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Add Points** mode. Keep focusing on your tiny, blue rectangle and add two  anchor points simply by tapping in the highlighted spots. 
+
+(image: weatherIconsiPad27.jpg)
+
+
+
+##Step 28
+
+Keep focusing on your blue rectangle and switch to the **Path Selection Tool**. Select the top, left anchor point and drag it **15 px** up and **15 px** to the right. Move to the bottom, right anchor point and drag it **15 px** down and **15 px** to the left. In the end your blue shape should look like in the second image. 
+
+Make sure that it stays selected, go to the **Effects** pane and focus on that **Stroke**. Drag the  **Width**  to **6 pt**, check the **Round Join** button and add the same color used for the **Fill**. 
+
+(image: weatherIconsiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your blue shape is still selected, focus on the **Path** pane and tap the **Outline Stroke** button. Move to the **Arrange** pane and tap the **Ungroup** button and then go to the **Combine** pane and tap that **Union** button. 
+
+(image: weatherIconsiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your blue shape is still selected and add a copy in the same place. Select it and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and then tap that **Outside Alignment** button. Make sure that this red shape stays selected, move to the **Path** pane and simply tap the **Outline Stroke** button.
+
+(image: weatherIconsiPad30.jpg)
+
+
+
+##Step 31
+
+Reselect your red compound path along with the black shape that lies behind it, go to the **Combine**  pane and tap the **Subtract** button. 
+
+(image: weatherIconsiPad31.jpg)
+
+
+
+##Step 32
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and go to the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make Compound Path** button. The resulting compound path will be your final icon.
+
+(image: weatherIconsiPad32.jpg)
+
+
+
+##Step 33
+
+Using the **Rectangle Tool**, create a **600 x 740 px** shape and set its **Fill** color to **R=74 G=196 B=237**. Make sure that this rectangle stays selected and go to  the **Arrange** pane. Drag the **Order** slider to the left to send your shape in the back and then focus on the bottom of the pane. Simply tap the **Align Horizontal** and the **Align Vertical** buttons to quickly center your rectangle.
+
+(image: weatherIconsiPad33.jpg)
+
+
+
+##Step 34
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your   icons, focus on the **Effects** pane and simply replace the existing **Fill** color with white (**R=255 G=255 B=255**).
+
+(image: weatherIconsiPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that all your  icons are still selected, keep focusing on the **Effects** pane and simply  check the  box that stands for the existing **Drop Shadow** effect to activate it. 
+
+Enter **2 pt** in the **Y** box and **0** in the other two boxes and then  tap the color well that stands for your effect. Make sure that the color is set to black (**R=0 G=0 B=0**) and  drag that **Alpha** slider to **50%**. Return to the **Effects** pane and tap the cogwheel icon that stands for  your **Drop Shadow** effect.  Tap **Blend Mode**, select  **Soft Light** from that list and then tap the **Done** button. 
+
+(image: weatherIconsiPad35.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: weatherIconsiPad0.jpg)
+
+----
+
+Title: iPad

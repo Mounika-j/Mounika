@@ -1,0 +1,17 @@
+Title: Color Palette
+
+----
+
+Text: 
+
+# Color Palette
+
+Use the _**Color palette**_  to quickly choose a color, as well as save and reuse frequently used colors. 
+
+Colors can be added to the _**Color palette**_ by dragging the color from the thumbnail to one of the palette slots. You can add new colors inside empty slots or replace an existing color by dragging a new color on top of it. 
+
+To delete a color from the _**Color palette**_, tap on it and hold to open the  context menu, and then tap the _**Remove**_ command.
+
+(video: colorpalette1-ipad.mp4 width: 750)
+
+To disable an object’s stroke or fill color, tap the _**‘none’**_ swatch from the bottom-right corner.

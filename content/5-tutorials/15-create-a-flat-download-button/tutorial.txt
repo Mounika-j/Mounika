@@ -1,0 +1,36 @@
+Title: Create a Flat Download Button
+
+----
+
+Description: Learn how to create a styled download button using path combinations and Appearance FX...
+
+----
+
+Image: (image: Header.jpg title: Create a Flat Download Button class: header960)
+
+----
+
+Thumbnail: downloadbuttonthumbnail.jpg
+
+----
+
+Date: 2014-08-08
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: DownloadButton.idraw text: DownloadButton.idraw)
+
+----
+
+Graphicfile: downloadbutton.idraw
+
+----
+
+Headerimg: header.jpg

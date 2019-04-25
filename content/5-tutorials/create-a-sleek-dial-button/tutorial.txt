@@ -1,0 +1,21 @@
+Title: Create a Sleek Dial Button
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: dialbutton.idraw
+
+----
+
+Description: Learn how to create a sleek dial button using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

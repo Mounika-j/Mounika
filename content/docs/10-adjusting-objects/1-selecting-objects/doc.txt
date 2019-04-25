@@ -1,0 +1,73 @@
+Title: Selecting Objects
+
+----
+
+Text: 
+
+# Selecting Objects
+
+Choose the _**Move tool**_ to select and move objects or groups. 
+
+Besides being the primary tool for selecting and moving entire objects, it can also be used to quickly (link: docs/adjusting-objects/scaling-objects#scale text: _**resize**_) and (link: docs/adjusting-objects/rotating-objects#rotate text: _**rotate**_) a selection of objects. 
+
+(image: selectingobjects1.jpg  width: 750)
+
+When one or more objects are selected with the _**Move tool**_, the _**Tool Options bar**_ will display information about the current selection, including the position, size, and types or number of objects selected.
+
+> Tip: Use the **V** keyboard shortcut to quickly select the **Move tool**. 
+
+Select an object by simply clicking on it. Multiple objects can be selected by holding down the **Shift ⇧** key while clicking on them. 
+
+If the object has no fill or if (link: docs/canvas/view-modes#outline-mode text: _**Outline mode**_) is enabled, selecting it is done by clicking on its border.
+
+Any object from an inactive layer can be selected directly by clicking on it while holding down the **Command ⌘** key.
+
+(video: selectingobjects2.mp4 width: 750)
+
+#### The Bounding Box
+
+The box that appears around the currently selected objects is called a bounding box. Aside from showing the bounds of the selection, it also allows you to quickly transform the selected objects. You can either (link: docs/adjusting-objects/scaling-objects#scale text: _**resize**_) or (link: docs/adjusting-objects/rotating-objects#rotate text: _**rotate**_) your selection. 
+
+Another way of selecting multiple objects is by clicking on an empty part of the canvas and dragging to create a selection marquee. Objects touched by the selection marquee are selected.
+
+(video: selectingobjects3.mp4 width: 750)
+
+To instead select only the shapes that are inside of the selection marquee, click and hold the **Option ⌥** key while dragging the selection marquee.
+
+(video: selectingobjects4.mp4 width: 750)
+
+
+### Selecting Similar Objects {#select-similar}
+
+You can quickly select objects with similar appearance attributes using the _**Select Similar**_ command. Select one of the shapes and then go to _**Edit > Select Similar**_ to open the _**Select Similar**_ window. 
+
+(image: selectingobjects5.jpg  width: 750)
+
+This feature can be really useful when you're working on complex documents with multiple layers and lots of overlapping objects. 
+
+1. **Same** - Choose the similar attributes that your selected shapes should have from: _Appearance_, _Fill & Stroke_, _Fill_, _Fill Color_, _Fill Type_, _Stroke_, _Stroke Color_, _Stroke Type_, _Stroke Width_ or _Opacity_. When you’re dealing with objects that have multiple fills or strokes, the front fill/stroke is always the one considered by these commands. 
+Here is how the ten Select Similar commands will work:
+
+ _Appearance_ - selects all objects that have the exact same appearance attributes, same numbers of fills, strokes and active effects with the same attributes.
+
+ _Fill & Stroke_ - selects all objects that have a fill (color and type) and a stroke (color, width and type) with similar attributes.
+
+  _Fill_ - selects all objects with a similar fill type and the same attributes.
+
+  _Fill Color_ - selects all objects that have a similar solid color fill (no gradients or patterns).
+
+  _Fill Type_ - selects all objects that have the same fill type: solid color, gradient, pattern or image. This command works even when the fill attributes are different.
+
+  _Stroke_ - selects all objects that have the same stroke with similar color, width, dash type and position.
+
+  _Stroke Color_ - selects all objects that have the same stroke color, even the ones with different dash types, thickness or position.
+
+  _Stroke Type_ - selects all objects with the same stroke type, continuous or dashed.
+
+  _Stroke Width_ - selects all objects with the same stroke width, even the ones with different dash types, color or position.
+
+  _Opacity_ - selects all objects with the same opacity value. 
+
+2. **Objects In** - Pick _Selected Layer_ to select all objects with similar attributes from the selected layer or _Any Layer_ to select all shapes with similar attributes from all your layers.
+
+(video: selectingobjects6.mp4 width: 750)

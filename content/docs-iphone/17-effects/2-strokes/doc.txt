@@ -1,0 +1,37 @@
+Title: Strokes
+
+----
+
+Text: 
+
+# Strokes
+
+The _**Stroke**_ attribute is used to adjust a path’s stroke color, width, and style. Changes are applied to the currently selected objects.
+
+Tap any _**Stroke**_ to get access to its properties. As with the other attributes, multiple _**Strokes**_ can be added to an object.
+
+(image: strokes1-iphone.jpg width:750)
+
+1. **Stroke Color** - Set the color of the stroke and its transparency.
+
+2. **Width** - Adjust the stroke’s thickness using the width slider, or the input field.
+
+3. **Caps** - Set the style of path endpoints (caps) to Butt, Rounded or Projecting. 
+
+ (image: strokes2-iphone.jpg width:723)
+
+4. **Joins** - Set the style of path corners (joins) to Miter, Rounded or Beveled. 
+
+ (image: strokes3-iphone.jpg width:723)
+
+5. **Position** - Set the position of the stroke to _**Inside**_,  _**Center**_ or _**Outside**_.
+
+ (image: strokes4-iphone.jpg width:723)
+
+### Stylizing strokes {#stroke-pane}
+
+Additionally, the _**Stroke pane**_ from the Appearance panel can be used to adjust a stroke's properties. Changes are applied to the currently selected objects. 
+
+(video: strokes5-iphone.mp4 width: 750)
+
+The _**Stroke pane**_ gives you the possibility to adjust the style of path endings or to apply preset line dash styles.

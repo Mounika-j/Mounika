@@ -1,0 +1,13 @@
+Title: Point Snapping
+
+----
+
+Text: 
+
+# Point Snapping
+
+Enable this setting to snap points to the nearest anchor point position when moving them. Simply select an anchor point, drag it near another point and you’ll know that it snapped when the outline color of your anchor point changes. 
+
+Enable or disable the _**Snap to Point**_ feature by going to **View > Snap to Point** [**⌥** - **⌘** - **’**].
+
+(video: pointsnapping1.mp4 width:750)

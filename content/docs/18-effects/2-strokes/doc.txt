@@ -1,0 +1,53 @@
+Title: Strokes
+
+----
+
+Text: 
+
+# Strokes
+
+The _**Stroke**_ attribute is used to adjust a path’s stroke color, width, and style. Changes are applied to the currently selected objects.
+
+Click any _**Stroke**_ to get access to its properties. As with the other attributes, multiple _**Strokes**_ can be added to an object.
+
+(image: strokes1.jpg width:750)
+
+1. **Stroke Color** - Set the color of the stroke and its transparency.
+
+2. **Width** - Adjust the stroke’s thickness using the width slider, or the input field.
+
+3. **Line Style** - Choose from a variety of line endings and preset line dash styles using the line style pop-ups.
+
+4. **Position** - Set the position of the stroke to _**Center**_, _**Inside**_ or _**Outside**_.
+
+5. **Blend** - Pick a blend mode for your stroke from the twenty three options.
+
+
+
+### Stylizing strokes {#stroke-pane}
+
+Additionally, the _**Stroke pane**_ from the Appearance panel can be used to adjust a stroke's properties. Changes are applied to the currently selected objects. 
+
+(image: strokes2.jpg width:750)
+
+Besides the settings from the _**Effects pane**_, the _**Stroke pane**_ gives you the possibility to adjust the style of path endpoints or path corners and to create custom line dash styles.  
+
+1. **Stroke Color** - Set the color of the stroke and its transparency.
+
+2. **Line Weight** - Adjust the stroke’s thickness using the line weight slider, or the input field. It's the equivalent of the _**Width**_ slider from the _**Effects pane**_. 
+
+3. **Line Style** - Choose from a variety of line endings and preset line dash styles using the line style pop-ups.
+
+4. **Position** - Set the position of the stroke to _**Center**_, _**Inside**_ or _**Outside**_.
+
+ (image: strokes3.jpg width:723)
+
+5. **Caps & Joins** - Set the style of path endpoints (caps), and the path corners (joins). The _**Miter Limit**_ field controls the maximum possible length of miter joins, with larger values allowing for longer join lengths.
+
+ (image: strokes4.jpg width:723)
+
+6. **Custom Line Dash** - Create a custom line dash style using the dash and gap fields. _**Dash**_ fields adjust the length of a dash, while _**Gap**_ fields adjust the space between dashes. The values used in these fields multiply according to the existing Line Weight value. 
+
+ For example, a 10 pt line weight with a 2 pt dash and a 3 pt  gap will create a dashed line with 20 px dashes and 30 px gaps. 
+
+ (image: strokes5.jpg width:723)

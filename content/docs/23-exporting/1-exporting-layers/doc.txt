@@ -1,0 +1,25 @@
+Title: Exporting Layers
+
+----
+
+Text: 
+
+# Exporting Layers
+
+Alternatively, you can export your design layer by layer or object by object as an image or vector-based file. When ready to export, go to **File > Export Layers...** [**⌘** - **⇧** - **⌥** - **E**] to open the _**Export Layers**_ pop-up window.
+
+(image: exportinglayers1.jpg width:750)
+
+1. **File Format** - Pick the file format to be used for the layer/object you are about to export.
+
+2. **Export** - Set which layers to be exported. Select _**Layers**_ to export all layers or _**Tagged Layers and Objects**_ to export only the tagged layers and objects. To tag a layer, a group or an object go to the _**Layers panel**_ and simply add a file extension to the name of that layer, group or object. 
+
+ (image: exportinglayers2.jpg width:723)
+
+3. **Size** - Set the size of the exported files. Select _**Canvas Size**_ to export layers/objects using the canvas size or select _**Layer Size**_ to export layer/object using their actual size.
+
+4. **Scale** - Set the scale of your exported files.
+
+5. **Copies** - Check the _**@2x box**_ to save a Retina @2x image along with the original image or check _**@3x**_ to save a Retina @3x image. 
+
+6. **Include Hidden Layers** - Check this box to also export hidden layers.

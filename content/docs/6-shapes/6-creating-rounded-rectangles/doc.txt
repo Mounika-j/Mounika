@@ -1,0 +1,18 @@
+Title: Rounded Rectangles
+
+----
+
+Text: 
+
+# Rounded Rectangles
+
+Choose the _**Rounded Rectangle tool**_ to draw rectangles or squares with rounded corners. Simply click and drag inside your Canvas to create a new shape.
+
+Vary the roundness of the corners using the _**Corner Radius**_ setting in the _**Tool Options bar**_. Use the rounded square icon next to the Corner Radius input box to disable or enable the roundness for a certain corner. 
+
+As with the Rectangle tool, holding the **Shift ⇧** key while dragging will allow you to create squares with rounded corners.
+
+(video: roundedrectangles1.mp4 width: 750)
+
+
+ > Tip: Use the **Shift - M** keyboard shortcut to quickly select the **Rounded Rectangle tool**.

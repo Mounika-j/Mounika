@@ -1,0 +1,15 @@
+Title: Stars
+
+----
+
+Text: 
+
+# Stars
+
+Choose the _**Star tool**_ to draw star shapes. You can create simple star shapes or more complex objects with numerous rays and long sides.
+
+Vary the number of points and the ray length, using the _**Points**_ and the _**Edge Length**_ settings in the _**Tool Options bar**_.
+
+(video: stars1.mp4 width: 750)
+
+> Tip: Use the **J** keyboard shortcut to quickly select the **Star tool**.

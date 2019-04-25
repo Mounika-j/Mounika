@@ -1,0 +1,13 @@
+Title: Sharing Documents
+
+----
+
+Text: 
+
+# Sharing Documents
+
+Export your designs as Graphic files, or as another format (PDF, SVG, PSD, PNG or JPEG). Send a design via email, copy it as an image, save it to Photos/Dropbox, AirDrop it to your Mac or print it using AirPrint.
+
+(video: sharingdocuments1-ipad.mp4 width: 750)
+
+Tap the _**Select**_ button to open the Edit menu and select the document or documents to export. Tap the _**Share**_ button and then choose the desired export settings.

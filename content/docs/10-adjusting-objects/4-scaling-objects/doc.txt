@@ -1,0 +1,41 @@
+Title: Scaling Objects
+
+----
+
+Text: 
+
+# Scaling Objects
+
+Choose the _**Scale tool**_ to resize objects relative to a reference point. 
+
+To scale one or more objects, first select the objects to be scaled and choose the _**Scale tool**_. With the _**Scale tool**_ active, click and drag anywhere on the canvas to resize the selected objects.
+
+Hold the **Shift ⇧** key while resizing to scale the object only horizontally or vertically.
+
+Hold both the **Shift ⇧** and **Option ⌥** keys while resizing to scale the object proportionally from the center of its bounding box.
+
+(video: scalingobjects1.mp4 width: 750)
+
+> Tip: Use the **S** keyboard shortcut to quickly select the **Scale tool**. 
+
+
+Objects can be scaled numerically using the _**Tool Options bar**_. Set the percent to scale vertically and horizontally, and then click _**Scale**_ to apply the scaling. Clicking _**Copy**_ will duplicate the objects first and then apply the scale transform to the copied objects.
+
+Alternatively, objects can be resized numerically using the _**Size**_ settings from the _**Geometry pane**_ of the Properties panel, or the _**Tool Options bar**_ when the _**Move tool**_ is selected. To lock the aspect ratio while entering values, click on the aspect ratio lock icon.
+
+(video: scalingobjects2.mp4 width: 750)
+
+By default, the reference point will be located in the center of the selected shapes. To use a different location for the reference point, click-and-drag it to set it at that new location. 
+
+(video: scalingobjects3.mp4 width: 750)
+
+# {#scale}
+
+Objects can also be resized manually using Move tool's bounding box. 
+
+Choose the _**Move tool**_ and make a selection. Draggable handles are located at the corners and sides of the bounding box. You can click and drag any of these handles to resize the bounding box and the selected objects.
+
+Holding down the **Shift ⇧** key while resizing will maintain the proportions of the objects.
+Holding down the **Option ⌥** key while resizing will scale relative to the object’s center point.
+
+(video: scalingobjects4.mp4 width: 750)

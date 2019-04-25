@@ -1,0 +1,33 @@
+Title: Classic Game Controllers
+
+----
+
+Description: A set of game controllers created using Graphic's Appearance Effects features...
+
+----
+
+HeaderImg: Header.jpg
+
+----
+
+Thumbnail: Thumbnail.jpg
+
+----
+
+Date: 2013-07-30
+
+----
+
+Categories: Mac, Appearance, Text
+
+----
+
+Text: A set of game controllers created using Graphic's Appearance Effects features. A great example of using multiple fills, strokes, shadows and glow effects to create realistic buttons and controls.
+
+----
+
+Graphicfile: GameControllers.idraw
+
+----
+
+Credits: 

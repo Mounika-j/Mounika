@@ -1,0 +1,13 @@
+Title: Expanding Text
+
+----
+
+Text: 
+
+# Expanding Text
+
+Text objects can also be converted to editable vector paths. This will allow you to edit each individual glyph, and edit the paths and points that make up the text using the _**Path Selection tool**_.
+
+To turn your selected text field into an editable path use the _**Create Outlines**_ command from the _**Path Tools pane**_ of the Properties panel.
+
+(video: expandingtext1-iphone.mp4 width: 750)

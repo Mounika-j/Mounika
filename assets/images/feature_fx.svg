@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="60" height="60" viewBox="0, 0, 60, 60">
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M19.16,17.16 L52.4,17.16 L52.4,52.4 L19.16,52.4 z M35.78,19.56 C27.374,19.56 20.56,26.374 20.56,34.78 C20.56,43.186 27.374,50 35.78,50 C44.186,50 51,43.186 51,34.78 C51,26.374 44.186,19.56 35.78,19.56 z"/>
+    </clipPath>
+    <filter id="Shadow_2">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0.2"/>
+      <feOffset dx="0" dy="1" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="16.211" y1="-7.076" x2="16.211" y2="61.415">
+      <stop offset="0" stop-color="#CACACA"/>
+      <stop offset="1" stop-color="#878787"/>
+    </linearGradient>
+    <clipPath id="Clip_3">
+      <path d="M19.16,17.16 L52.4,17.16 L52.4,52.4 L19.16,52.4 z M35.78,21.486 C43.122,21.486 49.073,27.438 49.073,34.78 C49.073,42.122 43.122,48.073 35.78,48.073 C28.438,48.073 22.486,42.122 22.486,34.78 C22.486,27.438 28.438,21.486 35.78,21.486 z M35.78,19.56 C27.374,19.56 20.56,26.374 20.56,34.78 C20.56,43.186 27.374,50 35.78,50 C44.186,50 51,43.186 51,34.78 C51,26.374 44.186,19.56 35.78,19.56 z"/>
+    </clipPath>
+    <filter id="Shadow_4">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0.2"/>
+      <feOffset dx="0" dy="1" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+    <linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="24.22" y1="8" x2="24.22" y2="38.44">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A9A9A9"/>
+    </linearGradient>
+  </defs>
+  <g id="feature_fx.svg" transform="translate(0, 0)">
+    <g id="Shape_8_copy" opacity="0.5">
+      <path d="M35.78,19.56 C44.186,19.56 51,26.374 51,34.78 C51,43.186 44.186,50 35.78,50 C27.374,50 20.56,43.186 20.56,34.78 C20.56,26.374 27.374,19.56 35.78,19.56 z" clip-path="url(#Clip_1)" filter="url(#Shadow_2)" fill="rgba(0,0,0,0.1)"/>
+      <path d="M35.78,19.56 C44.186,19.56 51,26.374 51,34.78 C51,43.186 44.186,50 35.78,50 C27.374,50 20.56,43.186 20.56,34.78 C20.56,26.374 27.374,19.56 35.78,19.56 z" fill="url(#Gradient_1)"/>
+    </g>
+    <g opacity="0.5">
+      <path d="M35.78,19.56 C44.186,19.56 51,26.374 51,34.78 C51,43.186 44.186,50 35.78,50 C27.374,50 20.56,43.186 20.56,34.78 C20.56,26.374 27.374,19.56 35.78,19.56 z M35.78,21.486 C28.438,21.486 22.486,27.438 22.486,34.78 C22.486,42.122 28.438,48.073 35.78,48.073 C43.122,48.073 49.073,42.122 49.073,34.78 C49.073,27.438 43.122,21.486 35.78,21.486 z" clip-path="url(#Clip_3)" filter="url(#Shadow_4)" fill="rgba(0,0,0,0.1)"/>
+      <path d="M35.78,19.56 C44.186,19.56 51,26.374 51,34.78 C51,43.186 44.186,50 35.78,50 C27.374,50 20.56,43.186 20.56,34.78 C20.56,26.374 27.374,19.56 35.78,19.56 z M35.78,21.486 C28.438,21.486 22.486,27.438 22.486,34.78 C22.486,42.122 28.438,48.073 35.78,48.073 C43.122,48.073 49.073,42.122 49.073,34.78 C49.073,27.438 43.122,21.486 35.78,21.486 z" fill="#7C7C7C" fill-opacity="0.502"/>
+    </g>
+    <path d="M24.22,8 C32.626,8 39.44,14.814 39.44,23.22 C39.44,31.626 32.626,38.44 24.22,38.44 C15.814,38.44 9,31.626 9,23.22 C9,14.814 15.814,8 24.22,8 z" fill="url(#Gradient_2)" id="Shape_8"/>
+  </g>
+</svg>

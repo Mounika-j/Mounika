@@ -1,0 +1,359 @@
+Text: 
+
+In the following tutorial you will learn how to create a login widget in  Graphic for iPad.
+ 
+For starters you will learn how to setup a simple grid and how to create two, tiny icons using basic vector shape building techniques along with the Snap to Grid feature. Moving on, you will learn to create the main shapes and how to stylize them using the Effects pane. 
+
+Finally, you will learn how to add some simple text and how to  stylize it. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: loginWidgetiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: loginWidgetiPad1B.jpg)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to black (**R=0 G=0 B=0**) and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **5**. Move to yor canvas and simply create an **8 x 11 px** shape - the grid and the **Snap to Grid** feature will ease your work. 
+
+Switch to the **Rectangle Tool**, create an **8 x 4 px** shape and place it exactly as shown in the second image. 
+
+(image: loginWidgetiPad2.jpg)
+
+
+
+##Step 3
+
+Pick  the **Move Tool** and  select both shapes made so far. Focus on the right side of your Titlebar and tap that middle icon. Move to the **Combine** pane and simply tap the **Subtract** button. 
+
+(image: loginWidgetiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that the **Fill** color is still set to black and pick the **Ellipse Tool**. Create a **4 px** circle and place it as shown in the first image. 
+
+Select both shapes made so far, go ot the **Combine**  pane and tap the **Make Compound Path** button.
+
+(image: loginWidgetiPad4.jpg)
+
+
+
+##Step 5
+
+Pick the **Rounded Rectangle Tool**, set the  **Radius** to **2 px** and create an **8 x 7px** shape. Using the same tool, create a **4 x 8 px** shape and place it as shown in the second image.
+ 
+Make sure that this second rounded rectangle stays selected, go to the right side of your Titlebar and tap the leftmost icon. Focus on the **Appearance** pane and  tap the color well that stands for the **Fill**. Drag the **Alpha** slider to **0%** to make it invisible and then go to the **Stroke**. Set the **Weight** to **2 pt** and then tap the color well that stands for the **Stroke**. Drag the **Alpha** slider to **100%** and be sure that the the color is set to black. 
+
+(image: loginWidgetiPad5.jpg)
+
+
+
+##Step 6
+
+Reselect the rounded rectangle with the stroke, focus on the **Path**  pane and tap the **Outline Stroke** button. 
+
+Select the resulting shape along with that tiny, rounded rectangle  and tap the **Union** button from the **Combine**  pane.
+
+(image: loginWidgetiPad6.jpg)
+
+
+
+##Step 7
+
+Focus on the right side of your Titlebar and simply tap the rightmost icon to open the **Layers** panel. Tap  the name of the existing layer and simply rename it &quot;_Icon_s&quot;. Keep focusing on the **Layers** panel and simply tap the plus icon that lies in the top, right corner of the panel to add a second layer. Make sure that this new layer stays selected and then close the **Layers** panel. 
+
+For the following steps  you will need a grid every **10 px**.  This simply means that you need to return to the **Grid &amp; Rulers** pane,  open the **Grid Settings**  pane and enter **10 px** in both **Spacing** boxes. 
+
+Focus on your Toolbar, be sure that the **Line** is invisible and set the **Fill** color to **R=40 G=42 B=44** . Pick the **Rounded Rectangle Tool**, set the  **Radius** to **5** and then create a **200 px** rounded square. 
+
+(image: loginWidgetiPad7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow** to activate it.  
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Make sure that the color is set to black and drag the **Alpha** slider to **15%**. 
+
+(image: loginWidgetiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and add a second **Drop Shadow** using the plus button that lies in the bottom, right corner of the pane. 
+
+Select this new effect and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded square stays selected and focus on the **Effects** pane. Select the existing **Stroke** and drag it below the active **Drop Shadow** effects. 
+
+Drag the **Width** slide to **2 pt**,  tap the **Inside** **Alignment** button and then tap the color well that stands for this **Stroke**. Replace the existing color with white (**R=255 G=255 B=255**) and drag the **Alpha** slider at **50%**. Return to the **Effects** pane and tap the cogwheel icon that stands for this **Stroke**. Tap  **Blend Mode** from the newly opened context menu, select  **Soft Light** from that list, and then tap that **Done** button. Changing this blend mode will simply lower the contrast between your stroke and that fill. 
+
+(image: loginWidgetiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded square stays selected, focus on the **Effects** pane and add a third **Stroke**. Drag it below the existing strokes and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad14.jpg)
+
+
+
+##Step 15
+
+Pick the **Rounded Rectangle Tool** and make sure that the  **Radius** is still set to **5**. Create a **140 x 30 px** shape, set the **Fill** color to **R=29 G=32 B=34** and place it as shown in the following image. 
+
+(image: loginWidgetiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your smaller, rounded rectangle is still selected, focus on the left side of your Titlebar and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and the **Paste in Place** commands to add a copy of your selected shape in the same place. Return to your Toolbar, make sure that the **Line** is still invisible and pick a random blue for the **Fill** color. 
+
+Pick the **Rectangle Tool**, create a **30 px** square and place it exactly as shown in the first image. Switch to the **Path Selection Tool**, focus on the newly opened tool pane and activate the **Add to Selection** mode. Select both shapes made in this step, go to the **Combine** pane and tap the **Intersect** button. 
+
+Make sure that the resulting shape stays selected and focus on the **Effects** pane.  Tap the **Fill** color well, make sure that the color is set to black, drag the **Apha** slider **10%** and change the **Blend Mode** to **Soft Light**. 
+
+(image: loginWidgetiPad16.jpg)
+
+
+
+##Step 17
+
+Select your smaller, rounded rectangle and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** effect and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Select the **Stroke**, drag it below the active effects and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your smaller, rounded rectangle is still selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPad20.jpg)
+
+
+
+##Step 21
+
+Pick  the **Path Selection Tool**, focus on the tool pane and active the **Add to Selection** mode. Select your smaller, rounded rectangle along with that black, transparent shape and duplicate them using the **Copy** and **Paste** commands from the **Edit** pane. Select these copies and place them as shown in the second image. 
+
+(image: loginWidgetiPad21.jpg)
+
+
+
+##Step 22
+
+For this step you will need a grid every **1 px**. Return to the **Grid &amp; Rulers** pane,  open the **Grid Settings**  pane and enter **1 px** for both **Spacing** boxes. Open the **Layers** pane, select your &quot;_Icon_s&quot; layer, and then tap and  hold on its thumbnail to drag it above the other layer.
+
+Make sure that your &quot;_Icon_s&quot; layer stays selected, close the **Layers** panel and pick the **Move Tool**. Place your tiny icon  roughly as shown in the following image. Select only the lock icon and focus on the **Effects** pane. Tap the color well that stands for the  **Fill** and drag the **Alpha** slider to **30%**.
+
+(image: loginWidgetiPad22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your lock icon is still selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your lock icon is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your lock icon is still selected, get back to that **Edit** pane and tap the **Copy Style** command. Select the other icon, return to the **Edit** pane and tap the **Paste Style** command.
+
+(image: loginWidgetiPad25.jpg)
+
+
+
+##Step 26
+
+Return to the **Grid &amp; Rulers** pane,  open the **Grid Settings**  pane and enter **10 px** for both **Spacing** boxes. Focus on your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=254 G=145 B=79**.
+
+ Pick the **Rounded Rectangle Tool**  and make sure that the  **Radius** is still set to **5**. Create a **140 x 30 px** shape and place it as shown in the following image. 
+
+(image: loginWidgetiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Add a second **Inner Shadow** and   enter the attributes shown in the following image.
+
+(image: loginWidgetiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Stroke**, drag it below those active effects and  then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your orange shape stays selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below that other **Stroke** and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Drop  Shadow**, drag it below the active effects and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPad31.jpg)
+
+
+
+##Step 32
+
+Select the **Text Tool** and double tap inside the newly made text field. Select the **DIN Alternate Bold**  font, set the size to **8**  and the color to **R=29 G=32 B=34**. Simply add the &quot;_Forgot Username or Password?_&quot;  piece of text and place it about as shown in the following image using the **Move Tool**. 
+
+(image: loginWidgetiPad32.jpg)
+
+
+
+##Step 33
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Activate the existing **Inner   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad34.jpg)
+
+
+
+##Step 35
+
+Reselect the  **Text Tool** and  double tap inside the newly made text field. Select that same font, set the size to **10** and the spacing to **4**. Tap the color well and replace the existing color with **R=40 G=42 B=44** and then  add the &quot;_LOGIN_&quot;  piece of text. Using the **Move Tool**, select your new piece of text and place it roughly as shown in the following image. 
+
+(image: loginWidgetiPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad36.jpg)
+
+
+
+##Step 37
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPad37.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: loginWidgetiPad0.jpg)
+
+----
+
+Title: iPad

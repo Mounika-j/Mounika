@@ -1,0 +1,17 @@
+Title: Arcs
+
+----
+
+Text: 
+
+# Arcs
+
+Choose the _**Arc tool**_ to draw arc segments. Tap and drag on the canvas to create a new arc.
+
+As with the other line tools, tap and drag to begin drawing an arc segment, and then tap and hold with a second finger to easily create perfect arcs.
+
+(video: arcs1-ipad.mp4 width: 750)
+
+The arc tool creates circular arcs, however you can edit the start and end points of an arc’s path with the _**Path Selection tool**_.
+
+As with lines, and other paths, you can customize the appearance of arcs using the (link: docs-ipad/effects/strokes#stylizing-strokes text: _**Stroke pane **_)  or the (link: docs-ipad/effects/strokes text: _**Effects pane **_) from the Appearance panel.

@@ -1,0 +1,25 @@
+Title: Inspector panes
+
+----
+
+Text: 
+
+## Inspector panes
+
+In addition to the main document window, Graphic also offers four floating inspector panels with additional features. Each panel has a distinct role, from changing various object settings to saving and reusing styles and object libraries.
+
+(image: inspectorpanes1.jpg  width: 750)
+
+The _**Properties**_ and _**Appearance**_ panels both have multiple panes of settings. You can switch between settings panes using the tab bar at the top of the panel.
+
+(video: inspectorpanes2.mp4 width: 750)
+
+Each floating inspector panel can be moved anywhere on the screen. A panel can be collapsed by clicking on its title bar, and snapped to the top or bottom of another inspector panel.
+
+### Arranging Windows
+
+Choose **Window > Arrange Inspectors** from the menu bar to automatically snap and arrange the inspector panels on the right side of the main screen 
+
+Choose **Window > Arrange Windows** from the menu bar to automatically resize and position the document window alongside the inspector panels on the main screen. 
+
+Choose **Window > Single Window Mode** to bring your document window alongside the inspector panels into one single window.  To switch from the Single Window mode to floating inspector panels, choose **Window > Show Floating Inspectors**.

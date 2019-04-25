@@ -1,0 +1,37 @@
+Title: Aligning Objects
+
+----
+
+Text: 
+
+# Aligning Objects
+
+Use the _**Align**_ commands from the _**Arrange pane**_ of the Properties panel to align the selected objects’ positions relative to each other or the borders of the canvas. Using one of the six commands you can align objects as follows:
+
+**Align Left** - Aligns selected objects to the left edge of the leftmost selected object on your canvas. 
+
+(video: aligningobjects1-ipad.mp4 width: 750)
+
+**Align Right** - Aligns selected objects to the right edge of the rightmost selected object on your canvas. 
+
+(video: aligningobjects2-ipad.mp4 width: 750)
+
+**Align Top** - Aligns selected objects to the top edge of the uppermost selected object on your canvas. 
+
+(video: aligningobjects3-ipad.mp4 width: 750)
+
+**Align Bottom** - Aligns selected objects to the bottom edge of the lowermost selected object on your canvas. 
+
+(video: aligningobjects4-ipad.mp4 width: 750)
+
+**Align Horizontal** - Aligns selected objects in a row according to the center of the uppermost selected object on your canvas. 
+
+(video: aligningobjects5-ipad.mp4 width: 750)
+
+**Align Vertical** - Aligns selected objects in a column according to the center of the leftmost selected object on your canvas.
+
+(video: aligningobjects6-ipad.mp4 width: 750)
+
+Having only one object/group selected when tapping an _**Align**_ command will align the selection according to the edges of the canvas. 
+
+(video: aligningobjects7-ipad.mp4 width: 750)

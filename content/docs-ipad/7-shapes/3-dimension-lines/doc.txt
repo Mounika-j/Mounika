@@ -1,0 +1,23 @@
+Title: Dimension Lines
+
+----
+
+Text: 
+
+# Dimension Lines
+
+Dimension lines can be created using the _**Dimension Line**_ mode of the _**Line tool**_. Tap and drag to create a dimension line segment.
+
+(image: dimensionlines1-ipad.jpg width: 750)
+
+Tap and drag to begin drawing a dimension line, and then tap and hold with a second finger to easily create horizontal, vertical or 45° dimension lines.
+
+The line endings and the line dash styles for created lines can be customized using the (link: docs-ipad/effects/strokes#stylizing-strokes text: _**Stroke pane **_)  or the (link: docs-ipad/effects/strokes text: _**Effects pane **_) from the Appearance panel. 
+
+(video: dimensionlines2-ipad.mp4 width: 750)
+
+The position and style of the dimension labels can be customized using the (link: docs-ipad/labels/sylizing-labels text: _**Label pane **_) from the Appearance panel. When creating lines with the _**Dimension Line**_ mode, the previously selected line endings will be used.
+
+(video: dimensionlines3-ipad.mp4 width: 750)
+
+Create intricate drawings, such as floor plans or architectural designs, using lines, arrowed lines and dimension lines.

@@ -1,0 +1,15 @@
+Title: Shapes
+
+----
+
+Text: 
+
+#Shapes
+
+Shapes can be added in Graphic using the shape tools from the _**Toolbar**_. Create lines, arrowed lines, dimension lines, arc segments, rectangles and squares, rectangles and squares with rounded corners, ellipses and circles, polygons or stars.
+
+(image: shapes1-ipad.jpg width: 750)
+
+Some of these tools have customizable settings that can be adjusted in the _**Tool pane**_. Choose a tool with customizable settings and the _**Tool pane**_ will pop at the bottom of the screen.
+
+Select the desired tool and simply click-and-drag inside the canvas area to create the new shape. While you're dragging, the width and height of your shape will show-up next to dragging point.

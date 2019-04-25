@@ -1,0 +1,11 @@
+Title: Deleting Layers
+
+----
+
+Text: 
+
+#Deleting Layers
+
+To delete a layer, select it and tap the _**Delete layer**_ button from the bottom of the panel. 
+
+(video: deletinglayers1-ipad.mp4 width: 750)

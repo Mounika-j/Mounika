@@ -1,0 +1,24 @@
+Title: Testing Page
+
+----
+
+Text: 
+
+When launching Graphic for the first time, you will be presented with the Welcome window. From this window you have the option to create a new document or open an existing Graphic document.
+
+# Header Size gjq
+## Header Size gjq
+### Header Size gjq
+#### Header Size gjq
+
+
+(video: iphonetest1.mp4  width: 750)
+
+(video: iphonetest2.mp4  width: 750)
+(video: iphonetest2B.mp4  width: 750)
+
+(video: iphonetest3C.mp4  width: 750)
+
+(video: iphonetestvertical1.mp4 width: 750)
+(video: iphonetestvertical2.mp4 width: 750)
+(video: iphonetestvertical3.mp4 width: 750)

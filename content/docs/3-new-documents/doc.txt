@@ -1,0 +1,33 @@
+Title: New Documents
+
+----
+
+Text: 
+
+#New Documents
+
+Choose **File > New** [**⌘** - **N**] from the menu bar to open the _**New Document**_ pop-up window.
+
+The _**New Document**_ window allows you to select the canvas style, size, color mode and measurement units for the new document.
+
+(image: newdocuments1.jpg width: 750)
+
+1. **Canvas Style** - Choose from a variety of canvas styles – including graph paper, notebook paper, and blueprint – for the perfect canvas for a particular project.
+All canvas styles are created using variations of the built-in grid and background color settings, making them fully customizable. Customize your document further using the (link: docs/canvas/settings text: _**Canvas pane**_) or the (link: docs/canvas/grid text: _**Grid pane**_).
+
+2. **Presets** - Quickly choose the size for the new document from a list of preset sizes. Simply choose a preset from the list, such as **_Letter_** or **_A4_**, and the dimensions of that preset automatically fill the width and height fields.
+
+ (image: newdocuments2.jpg width: 723)
+ # {#colorMode} 
+3. **Color Mode** - Select the color mode to be used in the document, **_RGB_** or **_CMYK_**.
+
+ (image: newdocuments3.jpg width: 723)
+
+4. **Orientation** - Select the orientation mode to be used for the canvas, **_landscape_** or **_portrait_**.
+
+5. **Width and Height** - Enter values for the width and height of the new document. Landscape or portrait documents can be created by varying the width and height values. Documents can have a maximum canvas size of _16,000 x 16,000 pixels_. The size of the document can be changed later in the (link: docs/canvas/settings text: _**Canvas pane**_).
+
+6. **Units** - Select the measurement units to be used for the new document. The available unit types are **_pixels_**,**_ inches_**,**_ centimeters_**, and **_millimeters_**. The width and height field values are specified in these units. 
+
+ (image: newdocuments4.jpg width: 723)
+ The measurement units can also be changed later in the (link: docs/canvas/settings text: _**Canvas pane**_).

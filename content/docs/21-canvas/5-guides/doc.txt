@@ -1,0 +1,31 @@
+Title: Guides
+
+----
+
+Text: 
+
+# Guides
+
+Guides are straight, vertical or horizontal lines that help you align objects on the canvas. Guides only appear as an overlay on your canvas and won't be part of your exported design. 
+
+### Adding Guides
+
+To add a guide in a specific spot from your canvas go to _**View > Guides > New Guide**_ and the _**New Guide**_ pop-up window will open. You can pick the type and the exact position of your guide. Alternatively, you can right-click on a ruler to open that same _**New Guide**_ pop-up window.
+
+(video: guides1.mp4 width:750)
+
+Guides can also be added manually. Simply click on the rulers and drag the cursor on your canvas to add a new guide. Use the vertical rulers to add vertical guides and the horizontal rulers to add horizontal guides.
+
+### Hidding Guides
+
+Added guides can be hidden by going to  **View > Guides > Hide Guides** [**⌘** - **;**]. Going to **View > Guides > Show Guides** [**⌘** - **;**] will make your guides visible again.
+
+### Locking Guides
+
+You can always lock your guides and make them un-selectable. Go to **View > Guides > Lock Guides** [**⇧** - **⌘** - **;**] to lock or unlock existing guides. Once added, newly created guides will also get locked.
+
+### Removing Guides
+
+Guides can be removed manually by dragging them outside the document’s bounds. To remove all guides at once go to **View > Guides > Clear Guides**.
+
+(video: guides2.mp4 width:750)

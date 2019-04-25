@@ -1,0 +1,16 @@
+Title: Titlebar
+
+----
+
+Text: 
+
+## Titlebar
+
+The _**Titlebar**_  offers quick shortcuts to the _**Save**_ the document, _**Save a Copy**_, _**Import Photo**_, _**Preferences**_, undo, redo and delete commands. 
+
+(video: titlebar1-iphone.mp4 width: 750)
+
+On the right side are four icons which open sliding panes with additional features. 
+Each pane has a distinct role, from changing various object settings to saving and reusing styles and object libraries.
+
+(video: titlebar2-iphone.mp4 width: 750)

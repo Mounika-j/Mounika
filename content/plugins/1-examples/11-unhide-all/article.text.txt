@@ -1,0 +1,16 @@
+Title: Unhide All
+
+----
+Description: Unhides every layer, shape, and group in the current document.
+
+----
+Image: (image: Header.jpg title: Unhide All)
+
+----
+Thumbnail: (image: Thumbnail.png title: Unhide All)
+
+----
+Plugfile: (file: UnhideAll.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

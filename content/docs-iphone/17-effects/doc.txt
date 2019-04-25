@@ -1,0 +1,29 @@
+Title: Effects
+
+----
+
+Text: 
+
+# Effects
+
+In addition to _**Fills**_ and _**Strokes**_ objects can have effects applied to them.
+Using the _**Effects pane**_ from  the Appearance panel, you can add five types of such attributes: _**Drop Shadow**_, _**Inner Shadow**_, _**Outer Glow**_, _**Inner Glow**_ and _**Blur**_.
+
+(image: effects1-iphone.jpg width: 750)
+
+1. **Add New** - Use this button (**+**) to add add a new attribute for your selected object. You can have up to 12 attributes per object.
+
+2. **Opacity** - change an object’s opacity using the _**Opacity**_ slider, or the input field.
+
+3. **Drag** - use the drag bars on the right-hand side to move any existing attribute in the _**Effects pane**_. Tap the button of the attribute that you wish to be moved and then drag it wherever you want.
+
+ (video: effects2-iphone.mp4 width: 723)
+
+4. **Show/Hide** - By default, new shapes will have a Fill, a Stroke and the five inactive effects. The circle with a check mark is the symbol for an active attribute while the empty circle is the  symbol of an inactive attribute. Tap the empty circle to easily turn an inactive attribute into an active one and vice-versa. Editing an inactive attribute will automatically make it active.
+
+5. **Color Well**  - Each Fill, Stroke or effect (except Blurs) has a color well that represents the color used for that attribute. Tap any color well to edit its properties.
+A grey color well with a red, oblique bar means that the color of that effect is set to _'**none**'_.
+
+6. **Edit** - Tap this button to open the atribute's menu and choose to duplicate, remove, edit or change its (link: docs-iphone/layers/blending-layers#blending text: _**blending mode**_).
+
+ (video: effects3-iphone.mp4 width: 723)

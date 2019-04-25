@@ -1,0 +1,21 @@
+Title: Create a Floor Plan Design
+
+----
+
+Date: 2017-12-14
+
+----
+
+Graphicfile: floor-plan-design.idraw
+
+----
+
+Description: Learn how to create a simple floor plan design using units, canvas scale, and dimension lines...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: floorplanthumbnail.jpg

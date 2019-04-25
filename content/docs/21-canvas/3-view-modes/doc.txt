@@ -1,0 +1,25 @@
+Title: View Modes
+
+----
+
+Text: 
+
+# View Modes
+
+By default, the view mode for your _**Canvas**_ is set to vector mode. In vector mode all your objects will have crips edges. Only images and burred effects will be displayed in pixel preview mode, as a blur is a pixel-based effect.
+
+### Pixels mode {#show-pixels}
+
+The _**Show Pixels**_  mode lets you view exactly how every pixel will look when your design is exported as an image file (PNG or JPEG). This can be really helpful when you are looking to create pixel perfect designs. 
+
+Go to **View > Show Pixels** [**⌥** - **⌘** - **P**] to enable or disable this feature. Once you enable the _**Show Pixels**_ mode, set the zoom value over _100%_ in order to notice the pixels. 
+
+(image: viewmodes1.jpg width:750)
+
+### Outline mode {#outline-mode}
+
+The _**Outline Mode**_ makes sure that shapes and objects (new or already created) are drawn only as simple outlines. This can significantly improve performance when working on large complex documents. With this setting disabled, objects are fully redrawn as they are being moved, resized, rotated, etc. 
+
+Go to **View > Outline Mode** [**⌘** - **3**] to enable or disable this feature.
+
+(image: viewmodes2.jpg width:750)

@@ -1,0 +1,14 @@
+Title: Copying Layers
+
+----
+
+Text: 
+
+#Copying Layers
+
+
+Layers can be copied from one document and pasted inside another document. 
+
+To copy a layer, open the _**Layers Action menu**_ and then choose _**Copy Layer**_. To paste a layer, open the _**Layers Action menu**_ and then choose _**Paste Layer**_. 
+
+(video: copyinglayers1-ipad.mp4 width: 750)

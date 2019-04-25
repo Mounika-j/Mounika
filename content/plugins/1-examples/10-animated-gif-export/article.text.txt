@@ -1,0 +1,17 @@
+Title: Animated GIF Export
+
+----
+Description: Export the layers in the current document as frames in a GIF animation. Set frame duration and loop settings.
+
+----
+Image: (image: Header.jpg title: Animated GIF Export)
+
+----
+Thumbnail: (image: Thumbnail.png title: Animated GIF Export)
+
+----
+Plugfile: (file: AnimatedGIFExport.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

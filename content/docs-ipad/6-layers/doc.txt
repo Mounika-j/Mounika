@@ -1,0 +1,31 @@
+Title: Layers
+
+----
+
+Text: 
+
+##Layers
+
+Layers offer the ability to manage and organize complex designs easily, by separating a large design into sections of related objects.
+
+Each layer is like a sheet of transparent paper drawn on top of the layers below it. Layers are drawn as a ‘stack’, with the layer at the bottom of the list drawn first and each following layer drawn on top of the previous one.
+
+Tap the rightmost icon from the _**Titlebar**_ to open the _**Layers panel**_. The _**Layers panel**_ can be used to select, create or arrange layers. Use the _**Layers Action menu**_ to easily copy, duplicate, merge, delete or blend layers.
+
+(image: layers1-ipad.jpg width: 750)
+
+When a document has more than one layer, you can choose the layer you wish to edit by selecting it. The currently selected layer is shown in blue in the Layers list, and is the active layer; newly created objects will be added to this layer, and the objects in this layer can be selected and modified. To edit in a different layer, select it with a simple tap. 
+
+To select more than one layer from the Layers list, tap the _**Select Multiple Layers**_ button from the bottom of the panel. Newly created objects will be added inside the top selected layer, and the objects inside these layers can be selected and modified. 
+
+Additionally, multiple objects inside a layer can also be selected when the _**Select Multiple Layers**_ button is active. 
+
+(video: layers2-ipad.mp4 width: 750)
+
+The visibility of a layer can be toggled using the small eye icon next to each layer. Layers can also be locked to prevent their contents from being edited. Objects inside a locked layer can't be selected and locked layers can't be deleted. 
+
+Additionally, separate objects inside a layer can also be toggled between hidden and visible or locked and unlocked. Alternatively, you can use the _**Geometry pane**_ from the Properties panel to lock or unlock objects. 
+
+(video: layers3-ipad.mp4 width: 750)
+
+Layers also offer the ability to create unique effects through the use of their (link: docs-ipad/layers/blending-layers text: _**opacity and blending settings**_). These settings determine how a layer will blend with the layers below it.

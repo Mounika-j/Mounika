@@ -1,0 +1,19 @@
+Title: Adding Path Points
+
+----
+
+Text: 
+
+# Adding Path Points
+
+The _**Pen tool**_ can also be used to add points to any path. The settings in the _**Tool Options bar**_ can be used to change the Pen tool from the default path creation mode, to the _**Add Points**_ mode.
+
+(image: addingpathpoints1.jpg  width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools. 
+After choosing the _**Add Points**_ mode, simply click anywhere on the selected path to add a new anchor point.
+
+(video: addingpathpoints2.mp4 width: 750)
+
+
+> Tip: Use the **+** keyboard shortcut to select the **Pen tool** with the **Add Points** mode.

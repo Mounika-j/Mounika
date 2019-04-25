@@ -1,0 +1,36 @@
+Title: Create a Simple Clock Illustration
+
+----
+
+Description: Learn how to create a colorful clock illustration using shapes and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Clock Illustration class: header960)
+
+----
+
+Thumbnail: clockillustrationthumbnail2.jpg
+
+----
+
+Date: 2014-09-24
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: ClockIllustration.idraw text: ClockIllustration.idraw)
+
+----
+
+Graphicfile: clockillustration.idraw
+
+----
+
+Headerimg: clockillustrationheader.jpg

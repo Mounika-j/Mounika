@@ -1,0 +1,33 @@
+Title: Line Paths
+
+----
+
+Text: 
+
+# Line Paths 
+
+Choose the _**Line tool**_ to draw line segments. Besides creating plain lines, it can also be used to create lines which are styled with arrows and dimension lines. 
+
+Simply click and drag to create your line. Hold the **Shift ⇧** key while dragging to easily create horizontal or vertical lines.
+
+(image: linepaths1.jpg  width: 750)
+
+The settings in the _**Tool Options bar**_ can be used to change the Line tool from the default _**Plain Line**_ mode, to the _**Arrowed Line**_ or _**Dimension Line**_ modes.
+
+```
+   Tip: Use the **L** keyboard shortcut to quickly select the Line tool. 
+```
+
+(image: video.png  width: 750)
+
+#### Arrowed Lines
+
+Arrowed Lines can be created using the _**Arrowed Line**_ mode of the Line tool. The line endings for created lines can be customized using the _**Stroke pane**_ from the _**Appearance panel**_. When creating lines with the _**Arrowed Line**_ mode, the previously selected line endings will be used.
+
+(image: video.png  width: 750)
+
+#### Dimension Lines
+
+Arrowed Lines can be created using the _**Dimension Line**_ mode of the Line tool. The position and style of the dimension labels can be customized using the _**Label pane**_ from the _**Appearance panel**_ while the line ending and the dash style can be customized using that same _**Stroke pane**_ from the _**Appearance panel**_.
+
+(image: video.png  width: 750)

@@ -1,0 +1,30 @@
+
+title: iPad Pro Illustration and Graphic Design
+
+----
+
+platform: iPad Pro
+
+----
+
+intro: Professional desktop-class illustration and graphic design tools on iPad.
+
+----
+
+guideURL: https://s3.amazonaws.com/indeeo/GraphicUserGuide-iPad.pdf
+
+----
+
+tutorialsURL: /tutorials/?format=ipad
+
+----
+
+docsURL: /docs-ipad/
+
+----
+
+storeURL: https://itunes.apple.com/us/app/idraw/id363317633?mt=8
+
+----
+
+buyText: Graphic is available on the App Store for only $8.99

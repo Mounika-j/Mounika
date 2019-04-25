@@ -1,0 +1,269 @@
+Text: 
+
+In the following tutorial you will learn how to create a square glowing button in Graphic for iPhone. 
+
+For starters you will learn how to create a simple, dark background and how to easily center it. Using a rounded rectangle, a bunch of strokes and effects you will learn how to create the first part of your button. For the second part of your button you will need a new rounded rectangle with a thick, blue stroke, some effects and basic blending techniques. 
+
+Finally, you will learn how to add a simple piece of text and how to easily recolor your button. 
+
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: glowingButtoniPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is enabled. This feature ensures that all shapes that are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: glowingButtoniPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: glowingButtoniPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Tap the fill color wheel and replace the existing color with **R=29 G=29 B=34** and then tap  the line color wheel and drag the **Alpha** slider to **0%**, which will simply make your line invisible. Pick the **Rectangle Tool** and create a **600 px** square.
+
+(image: glowingButtoniPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected, focus on the right side of the **Titlebar** and tap the ruler icon to open the **Properties** panel. Tap the **Align** button to open the **Align** pane and then simply tap the  **Horizontal** and  **Vertical**  buttons to bring your square in the center of the canvas. 
+
+(image: glowingButtoniPhone3.jpg)
+
+
+
+##Step 4
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **10**. Move to your canvas and simply create a **100 x 100 px** shape. 
+
+(image: glowingButtoniPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the right side of the **Titlebar** and tap the leftmost icon to open the **Appearance** panel. 
+
+Open  the **Effects** pane and tap the color wheel that stands for the existing **Stroke**. Drag the **Alpha** slider to **2%** and replace the existing color with a simple black (**R=0 G=0 B=0**). Keep focusing on this stroke, drag the **Width** slider to **3 pt** and then check the **Inside Alignment** button. 
+
+(image: glowingButtoniPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of the pane.
+ 
+Make sure that this new **Stroke** lies below the existing one and then enter the attributes shown in the following image. Remember that you can easily move attributes inside the **Effects** pane using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: glowingButtoniPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Be sure that this new **Stroke** lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, add a fourth **Stroke**, drag it below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **-1** in the **Y** box and **0** in the other two boxes and then tap the color wheel that stands for this effect. Drag the **Alpha** slider to **20%** and replace the existing color with black. Return to the **Effects** pane and tap the cogwheel icon that stands for your **Drop Shadow**. Go to **Blend Mode** and select the **Soft Light** blend mode. 
+
+(image: glowingButtoniPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effect using that same plus button. Drag this new effect below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Drag this new effect between the **Strokes** and the **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this new effect, drag it between the second and the third **Stroke** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone13.jpg)
+
+
+
+##Step 14
+
+Return to your **Toolbar**. This time make sure that the **Fill** is invisible and then set the **Stroke** color to **R=24 G=169 B=250**. 
+
+Reselect the **Rounded Rectangle Tool**, create a new **100 x 100 px** shape and place it exactly as shown in the following image. Make sure that it stays selected and move to the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider at **6 pt** and check the **Outside Alignment** button.
+
+(image: glowingButtoniPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a third **Stroke**, drag it below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow**, drag it below the **Inner Glow** effect and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone18.jpg)
+
+
+
+##Step 19
+
+Pick  the **Text Tool** and simply  double tap inside that new field as you will be guided. Select the **Arial Rounded MT Bold** font and set the **Size** to **35 pt**.  
+
+Now, simply add that &quot;_OK_&quot; piece of text and place it roughly as shown in the following image. 
+
+(image: glowingButtoniPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone20.jpg)
+
+
+
+##Step 21
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your piece of text stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it between the existing **Strokes** and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane and add a second **Inner Shadow**. Drag it right below the existing **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow**, drag it right below those **Inner Shadow** effects and then enter the properties shown in the following image. 
+
+(image: glowingButtoniPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it between the existing **Inner Shadow**  effects and then enter the attributes shown in the following image. 
+
+(image: glowingButtoniPhone27.jpg)
+
+
+
+##Step 28
+
+Finally, feel free to try a different color for your button. Select your rounded rectangles and the piece of text one by one, focus on the **Effects** panel and replace that blue (**R=24 G=169 B=250**) with the color that you prefer. 
+
+(image: glowingButtoniPhone28.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: glowingButtoniPhone0.jpg)
+
+----
+
+Title: iPhone

@@ -1,0 +1,152 @@
+Title: Application
+
+----
+
+Text: 
+
+The application object.
+
+_Documents_ 
+- (link: plugins/api/application#activeDocument text: **activeDocument**)
+- (link: plugins/api/application#addDocument text: **addDocument**)
+- (link: plugins/api/application#openDocument text: **openDocument**)
+
+_View_ 
+- (link: plugins/api/application#view text: **view**)
+
+_Editing Actions_ 
+- (link: plugins/api/application#cut text: **cut**)
+- (link: plugins/api/application#copy text: **copy**)
+- (link: plugins/api/application#paste text: **paste**)
+- (link: plugins/api/application#pasteInPlace text: **pasteInPlace**)
+- (link: plugins/api/application#undo text: **undo**)
+- (link: plugins/api/application#redo text: **redo**)
+
+_Utilities_ 
+- (link: plugins/api/application#showAlert text: **showAlert:**)
+- (link: plugins/api/application#version text: **version**)
+
+<a name="activeDocument"></a>
+## activeDocument
+### _returns (link: plugins/api/document text: **Document**)_
+
+Gets the currently active document.
+&nbsp;
+#### Example: set the canvas size of the current document
+
+```
+var doc = [app activeDocument]
+doc.canvasSize = CGSizeMake(800, 800)
+
+```
+<a name="addDocument"></a>
+## addDocument
+### _returns (link: plugins/api/document text: **Document**)_
+
+Creates a new empty document and makes it the active document.
+&nbsp;
+#### Example: create a new document with copies of the selected objects by cutting and pasting
+
+```
+[app copy]
+[app addDocument]
+[app pasteInPlace]
+
+```
+<a name="copy"></a>
+## copy
+
+Performs the 'Edit' menu's 'Copy' command, copying the selected objects to the clipboard.
+
+<a name="cut"></a>
+## cut
+
+Performs the 'Edit' menu's 'Cut' command, copying the selected objects to the clipboard and then removing them.
+&nbsp;
+#### Example: move the selected objects into a new layer by cutting and pasting
+
+```
+[app cut]
+[[app activeDocument] addLayer]
+[app pasteInPlace]
+
+```
+<a name="openDocument"></a>
+## openDocument
+### _returns (link: plugins/api/document text: **Document**)_
+
+Displays the Open Panel and allows the user to select and open a document. If successful, the document is made active and returned. Otherwise the function return _nil_.
+&nbsp;
+#### Example: open an existing document, export it as an SVG string, and copy the string to the clipboard
+
+```
+var doc = [app openDocument]
+
+if(doc)
+{
+    var svgStr = [doc exportSVG:nil]
+	var pboard = [NSPasteboard generalPasteboard]
+	[pboard clearContents]
+    [pboard writeObjects:[NSArray arrayWithObject:svgStr]]
+}
+
+```
+<a name="paste"></a>
+## paste
+
+Performs the 'Edit' menu's 'Paste' command, pasting the contents of the clipboard to the canvas.
+
+<a name="pasteInPlace"></a>
+## pasteInPlace
+
+Performs the 'Edit' menu's 'Paste In Place' command, pasting the contents of the clipboard to the canvas. If the clipboard contains objects copied within Graphic, the objects are pasted in their original locations.
+
+<a name="redo"></a>
+## redo
+
+Performs the 'Edit' menu's 'Redo' command, redoing the last undone action.
+
+<a name="showAlert"></a>
+## showAlert:
+### _input: **String**_
+
+Displays an alert panel with the input string as the message.
+&nbsp;
+#### Example: display an alert showing the active layer's name
+
+```
+var doc = [app activeDocument]
+var layer = [doc activeLayer]
+[app showAlert:[layer name]]
+
+```
+<a name="undo"></a>
+## undo
+
+Performs the 'Edit' menu's 'Undo' command, undoing the last action.
+
+<a name="version"></a>
+## version
+### _returns: **String**_
+
+Returns a string of the application's version number, such as "3.1".
+&nbsp;
+#### Example: display an alert showing the application's version string
+
+```
+[app showAlert:[app version]]
+
+```
+<a name="view"></a>
+## view
+### _returns (link: plugins/api/view text: **View**)_
+
+Gets the application's View object.
+&nbsp;
+#### Example: set the current zoom level to 200%
+
+```
+var view = [app view]
+[view setZoom:200]
+
+```

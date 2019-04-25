@@ -1,0 +1,21 @@
+Title: Create an Envelope Icon
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: envelopeicon.idraw
+
+----
+
+Description: Learn how to create an envelope using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

@@ -1,0 +1,15 @@
+Title: Gradients
+
+----
+
+Text: 
+
+# Gradients
+
+Gradients can be used to stylize the _**Fill**_ of any object, even text. There are three types of gradients to choose from: _**Linear**_, _**Radial**_ and _**Angle**_ gradients. 
+
+Use the (link: docs-ipad/gradients/customizing-gradients text: _**Gradient panel**_) to customize any type of gradient or to apply a pre-made gradient from the (link: docs-ipad/gradients/gradient-palette text: _**Gradient palette**_). Alternatively, you can use the _**Fill pane**_ or the (link: docs-ipad/effects text: _**Effects pane**_) from the Appearance panel.
+
+(image: gradients1-ipad.jpg width: 750)
+
+Additionally, you can adjust the position of your gradient using the (link: docs-ipad/gradients/gradient-tool text: _**Gradient tool**_).

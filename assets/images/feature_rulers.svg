@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="60" height="60" viewBox="0, 0, 60, 60">
+  <defs>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="30.434" y1="7" x2="30.434" y2="52">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A9A9A9"/>
+    </linearGradient>
+  </defs>
+  <g id="feature_rulers.svg" transform="translate(0, 0)">
+    <path d="M49.12,19.748 L53,15.87 L44,7 L7.868,43.132 L16.868,52 L20.733,48.135 L14.26,41.662 L15.55,40.371 L22.023,46.845 L24.604,44.264 L20.698,40.357 L21.989,39.067 L25.894,42.974 L28.469,40.399 L22.011,33.94 L23.301,32.65 L29.759,39.109 L32.347,36.521 L28.454,32.63 L29.745,31.34 L33.637,35.231 L36.225,32.643 L29.767,26.184 L31.057,24.894 L37.515,31.353 L40.103,28.765 L36.21,24.874 L37.501,23.584 L41.393,27.475 L43.981,24.887 L37.523,18.428 L38.813,17.138 L45.271,23.596 L47.83,21.038 L43.937,17.145 L45.228,15.855 z" fill="url(#Gradient_1)"/>
+  </g>
+</svg>

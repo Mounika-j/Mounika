@@ -1,0 +1,80 @@
+Title: View
+
+----
+
+Text: 
+
+The (link: plugins/api/application text: **Application's**) view object. The view displays the active document's canvas, and can be used to move or zoom the visible canvas area.
+&nbsp;
+_Positioning_ 
+- (link: plugins/api/view#centerPoint text: **centerPoint**)
+- (link: plugins/api/view#visibleBounds text: **visibleBounds**)
+
+_Zooming_
+- (link: plugins/api/view#zoom text: **zoom**)
+- (link: plugins/api/view#resetZoom text: **resetZoom**)
+
+_Drawing_
+- (link: plugins/api/view#redraw text: **redraw**)
+
+<a name="centerPoint"></a>
+## centerPoint
+### _returns **CGPoint**_; _settable_
+
+Get / Set the center point of the visible canvas area.
+&nbsp;
+#### Example: center the view on the selected objects
+
+```
+var view = [app view]
+var selection = [[app activeDocument] selection]
+
+if([[selection shapes] count] > 0)
+{
+	var bounds = [selection bounds]
+	view.centerPoint = CGPointMake(CGRectGetMidX(bounds), CGRectGetMidY(bounds))
+}
+
+```
+<a name="redraw"></a>
+## redraw
+### Refreshes the entire canvas area.
+
+## resetZoom <a name="resetZoom"></a>
+### Resets the zoom level to 100% and re-centers the canvas.
+&nbsp;
+#### Example: set the current document's canvas size and center the view
+
+```
+[app activeDocument].canvasSize = CGSizeMake(640, 480)
+[[app view] resetZoom]
+
+```
+<a name="visibleBounds"></a>
+## visibleBounds
+### _returns **CGRect**_
+
+Get the bounds of the visible canvas area. Although this property cannot be set, since it is dependent on the user's set window size, the visible area of the canvas can be adjusted using the **centerPoint** property. 
+&nbsp;
+#### Example: display an alert showing the currently visible bounds of the canvas
+
+```
+var view = [app view]
+var bounds = [view visibleBounds]
+[app showAlert:NSStringFromCGRect(bounds)]
+
+```
+<a name="zoom"></a>
+## zoom
+### _returns **Float**_; _settable_
+
+Get / Set the current zoom level. Values are in percentages, where 100 is equal to 100% zoom.
+Min = 10, Max = 6400. 
+&nbsp;
+#### Example: set the current zoom level to 10%
+
+```
+var view = [app view]
+view.zoom = 10
+
+```

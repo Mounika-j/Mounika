@@ -1,0 +1,14 @@
+Title: Text
+
+----
+
+Text: 
+
+# Text
+
+Text fields can be added in Graphic using the _**Text tool**_ from the _**Toolbar**_. 
+Text attributes can be changed from the (link: docs-iphone/text/creating-text text: _**Text Options pane**_) or using the (link: docs-iphone/text/customizing-text text: _**Text pane**_) from the Appearance panel. 
+
+(image: text1-iphone.jpg width: 750)
+
+Stylize your text like any other shape – use the (link: docs-iphone/effects text: _**Effects pane**_) from the Appearance panel to add multiple fills, strokes or effects.

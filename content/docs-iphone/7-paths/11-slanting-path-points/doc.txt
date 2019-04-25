@@ -1,0 +1,25 @@
+Title: Slanting Path Points
+
+----
+
+Text: 
+
+# Slanting Path Points
+
+Choose the _**Shear tool**_ to slant path points around a reference point.
+
+To slant one or more path points, first select the path points using the _**Path Selection tool**_. With the _**Shear tool**_ active, tap and drag anywhere on the canvas to slant the points around the reference point.
+
+Tap and drag to begin slanting the selected point, and then tap and hold with a second finger to slant selected path points on only one axis (horizontally or vertically).
+
+(video: slantingpathpoints1-iphone.mp4  width: 750)
+
+Path points can also be slanted numerically using the _**Tool pane**_ settings. Set the vertical and horizontal shear angles, and then click _**Shear**_ to apply the transformation.
+
+(video: slantingpathpoints2-iphone.mp4  width: 750)
+
+By default, the reference point will be located in the center of the selected object. To use a different location for the reference point, drag it or simply tap (without dragging) to set it at that new location.
+
+(video: slantingpathpoints3-iphone.mp4  width: 750)
+
+> Tip: When (link: docs-iphone/canvas/snapping text: _**Snap to Grid**_) is enabled, tapping to move the reference point will snap it to the grid.

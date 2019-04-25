@@ -1,0 +1,222 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat file icon in Graphic for Mac. 
+
+For starters you'll learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. You''ll learn how to ease your work using compound paths and how to add subtle shading and highlights using the Effects pane. 
+
+Finally, you'll learn the use of the Align strokes to pixel grid feature. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane from the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above your **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5 px**, set the **Subdivisions** to **0 px** and don't forget to enable **Snap to Grid (Command + &quot;)**.
+
+(image: flatFileIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, simply click the fill color well replace the existing color  with **R=246 G=240 B=213** and then click  the stroke color well and drag that **Alpha** slider at **0%**. This will simply make your stroke invisible. 
+
+Pick the **Round Rectangle Tool (Shift + M)**, focus on the Tool Options bar and set the **Corner Radius** to **5 px**. Move to your canvas and simply create a **120 x 165 px** shape. The grid and the **Snap to Grid** feature will ease your work. Make sure that this shape stays selected and  add a copy in the same place using the **Command + C &gt; Command + Shift + V** keyboard shortcut. 
+
+(image: flatFileIcon2.jpg)
+
+
+
+##Step 3
+
+Replace the existing fill color with **R=74 G=195 B=237** and pick the **Rectangle Tool (M)**. 
+
+Create a **45 px** square and place it exactly as shown in the first image. Focus on the bottom side of this blue shape and switch to the **Path Selection Tool (A)**. Select the left anchor point and simply remove it using the **Delete** button from your keyboard. In the end your blue square should turn into a simple triangle as shown in the second image. 
+
+(image: flatFileIcon3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool (V)**, reselect your blue triangle along with the copy of the rounded rectangle, focus on the **Path Tools** pane from the **Properties** panel and  click the **Intersect** button. 
+
+(image: flatFileIcon4.jpg)
+
+
+
+##Step 5
+
+Focus on the top, left edge of your rounded rectangle and pick the **Ellipse Tool (O)**. Set the fill color to **R=255 G=85 B=84**, create a **5 px** circle and place it as shown in the first image. Make sure that this little shape stays selected and switch to the **Move Tool (V)**. 
+
+Hold the **Alt** button from your keyboard, simply click on your circle and drag it **10 px** down as shown in the second image. Make sure that your newly made shape stays selected and hit the **Command + D** keyboard shortcut to  repeat this duplicate and move action. Keep hitting the **Command + D** keyboard shortcut until you get a column of fifteen circle as shown in the third image. Select all these shapes, focus on the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button.
+
+(image: flatFileIcon5.jpg)
+
+
+
+##Step 6
+
+Reselect your compound path and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Select this copy and focus on the **Effect** pane from the **Appearance** panel. Simply click  the leftmost icon that lies above the **Layers** panel if you can't see the **Appearance** pane. 
+
+First, uncheck the  box that stands for the existing **Fill** to make it invisible it and then check the box that stands for the  **Drop Shadow**. Enter **1** in the **Y** box an **0** in the other two boxes and then click the color well that stands for this effect. Set the color code to white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **70%**. 
+
+(image: flatFileIcon6.jpg)
+
+
+
+##Step 7
+
+Select the remaining, red compound path along with your rounded rectangle, focus on the **Path Tools** pane from the **Properties** panel and click the **Subtract** button. 
+
+Reselect your blue shape and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Select this copy along with your beige shape, return to the **Path Tools** pane from the **Properties** pane and click again that **Subtract** button. 
+
+(image: flatFileIcon7.jpg)
+
+
+
+##Step 8
+Select your beige shape, focus on the **Effect** pane from the **Appearance** panel, activate the existing **Drop Shadow** and enter the properties shown in the following image. 
+
+(image: flatFileIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Drop Shadow** using the plus button located in the bottom, left corner of your panel. Focus on this new effect and  enter the properties shown in the following image. 
+
+(image: flatFileIcon9.jpg)
+
+
+
+##Step 10
+
+Focus on your Toolbar, click the fill color well and drag the **Alpha** slider to **0%** and then click the stroke color well, drag the **Alpha** slider to **100%** and set the color to **R=150 G=180 B=240**. 
+
+Pick the **Pen Tool (P)** or the **Line Tool (L)**, create a **90 px**, horizontal path and place it as shown in the first image. Make sure that this path stays selected, focus on the **Effects** pane and make sure that the **Width** is set to **1 pt**. Switch to the **Move Tool (V)**, hold the **Alt** button from your keyboard and simply drag a copy **10 px** up. Make sure that this fresh copy is selected and use again that **Command + D** keyboard shortcut to create a column of horizontal paths as shown in the second image. 
+
+(image: flatFileIcon10.jpg)
+
+
+
+##Step 11
+
+Focus on the top, horizontal path and pick the **Path Selection Tool (A)**. Select the right anchor point and drag it **20 px** to the left. 
+
+Move down to the next horizontal path, select the right anchor point and drag it **10 px** to the left. 
+
+(image: flatFileIcon11.jpg)
+
+
+
+##Step 12
+
+Reselect all horizontal paths, focus on the **Path Tools** pane and click the **Make Compound Path** button. Make sure that this new compound stays selected, focus on the **Effects** pane and simply drag the **Opacity** slider to **30%**. 
+
+(image: flatFileIcon12.jpg)
+
+
+
+##Step 13
+
+Focus on your Toolbar and replace the existing stroke color with **R=255 G=169 B=206**. Pick the **Pen Tool (P)** or the **Line Tool (L)**, create a **150 px**, vertical path and place it as shown in the first image. Make sure that this path stays selected and go to **Modify &gt; Rotate and Transform &gt; Transform**. Focus on the **Move** pane, enter **2** in the **Horizontal** box and then click the **Copy** button. 
+
+(image: flatFileIcon13.jpg)
+
+
+
+##Step 14
+
+Reselect both vertical paths, focus on the **Path Tools** pane and click the **Make Compound Path** button. Make sure that this new compound stays selected, focus on the **Effects** pane from the **Appearance** pane and simply drag that **Opacity** slider to **30%**. 
+
+(image: flatFileIcon14.jpg)
+
+
+
+##Step 15
+
+Select your blue shape and pick the **Rotate Tool (R)**. Focus on the Tool Options bar, set the **Angle** to **180 degrees**  and then click that **Rotate** button. 
+
+(image: flatFileIcon15.jpg)
+
+
+
+##Step 16
+
+First, you need to disable the **Snap to Grid** feature, so simply hit **Command + &quot;**. 
+
+Make sure that your blue shape is still selected and add two copies in the same place (**Command + C &gt; Command + Shift + V &gt; Command + Shift + V**). Select the top copy and move it  **1 px** up and **1 px** to the right using the arrow buttons from your keyboard. Reselect both copies made in this step, focus on the **Path Tools** pane and click the **Subtract** button. 
+
+Make sure that your newly made shape stays selected and replace the existing fill color with white. Switch to the **Path Selection Tool (A)**, select the two anchor point highlighted in the second image and simply remove them using that same **Delete** button from your keyboard. Move to the **Effects** pane and  drag that **Opacity** slider to **40%**. 
+
+(image: flatFileIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your blue shape is still selected and add two copies in the same place (**Command + C &gt; Command + Shift + V &gt; Command + Shift + V**). 
+
+Focus on the **Layers** panel, select the bottom copy and move it **1 px** down using the down arrow button from your keyboard. Reselect both copies made in this step, focus on the **Path Tools** pane and click the **Subtract** button. 
+
+Focus on the newly made shape, enable the **Snap to Grid** and switch to the **Path Selection Tool (A)**. Select the anchor point highlighted in the second image and simply drag it to the right as shown in the final image. Move to the **Effects** pane and replace the existing fill color with **R=221 G=214 B=188**. 
+
+(image: flatFileIcon17.jpg)
+
+
+
+##Step 18
+
+Reselect your blue shape and add a new copy in the same place (**Command + C &gt; Command + Shift + V**). Select this copy and focus on the **Effects** pane. 
+
+Disable the **Fill** and then select the stroke. Set its color to **R=255 G=86 B=85**,  drag the **Width** slider to **2 pt** and don't forget to set the **Positon** to **Outside**. Move to the **Path Tools** pane and click that **Outline Stroke** button. 
+
+(image: flatFileIcon18.jpg)
+
+
+
+##Step 19
+
+Reselect your beige shape and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Select this copy along with the red shape made in the previous step, focus on the **Path Tools** pane and click that **Intersect** button. Make sure that the resulting shape stays selected, focus on the **Effects** pane and select the fill. Select **Soft Light** for the blend, set the color to black and drag the **Alpha** slider to **40%**. 
+
+(image: flatFileIcon19.jpg)
+
+
+
+##Step 20
+
+Select your blue shape and replace the existing fill color with **R=255 G=247 B=220**. 
+
+(image: flatFileIcon20.jpg)
+
+
+
+##Step 21
+
+Alternatively, you can try a different set of colors for your final icon. Select the highlighted shapes one by one and simply replace the existing colors with the ones shown in the following image. 
+
+(image: flatFileIcon21.jpg)
+
+
+
+##Step 22
+
+Finally, if you choose to export your design as an image (or if you enable the Show Pixels feature - **View &gt; Show Pixels**) you will notice that those horizontal and vertical lines end up pretty blurred. This  happens because the strokes applies for those lines are not perfectly aligned to the pixels grid.  To fix this issue, just go to **Graphic &gt; Preferences** and check that **Align strokes to pixel grid** box. 
+
+(image: flatFileIcon22.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: flatFileIcon0.jpg)
+
+----
+
+Title: Mac

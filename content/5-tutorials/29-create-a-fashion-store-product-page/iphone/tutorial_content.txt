@@ -1,0 +1,349 @@
+Text: 
+
+In the following tutorial you will learn how to create a fashion store product page in Graphic for Mac. 
+
+For starters you will learn how to set up a simple grid and how to import &amp; edit photos in Graphic. You will learn how to mask shapes or images and how to easily adjust them. Using basic tools, you will learn how to create the main vector shapes. Moving on, you will learn how to add subtle shading using the Effects pane and how to cleverly use the Label feature. 
+
+You'll learn how to increase your work speed with the aid of the Snap to Grid and the Smart Guides features and how to add and adjust text fields. Finally, you will learn how to import and edit several SVG files. 
+
+
+
+
+
+##Step 1
+
+First, you need to download the [League Spartan font](https://www.fontsquirrel.com/fonts/league-spartan) and the [Montserrat-Thin font](https://www.fontsquirrel.com/fonts/montserrat) and this [set of SVG files](https://www.flaticon.com/packs/free-basic-ui-elements). Save them inside your **iCloud Drive** and then open Graphic. 
+
+
+(image: FashionStorePageiPhone1A.jpg)
+
+Next, you need to import those two fonts to make them available in Graphic. 
+
+In the **Documents Browser**, focus on the left side of your **Titlebar** and tap that plus button. Tap the **iCloud Drive** command to open your Files app and simply tap that **League Spartan font** to add it. Use the same technique to import the **Montserrat-Thin font**.
+
+(image: FashionStorePageiPhone1B.jpg)
+
+Tap again that plus button from the top-left corner of your screen. Tap the **Create Document** command and then choose the **Grid** document style.
+
+(image: FashionStorePageiPhone1C.jpg)
+
+
+
+
+
+##Step 2
+
+Open [this jeans photo](https://pixabay.com/en/jeans-vintage-zara-boyfriends-792049/#_=_) in your web browser, select the **3888 x 2592** version and tap the **View** button. Simply copy the image. 
+
+(image: FashionStorePageiPhone2.jpg)
+
+
+
+##Step 3
+
+Return to your Graphic document, tap and hold anywhere on your canvas to open that context menu, and then tap the **Paste** command to add that jeans photo inside your document. 
+
+Make sure that it stay selected and open the **Geometry** pane from the **Properties** panel. Be sure that the aspect ratio is locked and simply set the **Width** to **3360 px**.
+
+(image: FashionStorePageiPhone3A.jpg)
+
+Make sure that your image stays selected and open the **Align** pane from the **Properties** panel. Tap the **Horizontal** and the **Vertical** commands to easily move your image in the center of the canvas.
+
+(image: FashionStorePageiPhone3B.jpg)
+
+
+
+
+##Step 4
+
+Make sure that your image stays selected and open the **Effects** pane from the **Appearance** panel. Check the round checkbox of the existing **Blur** effect to activate it. Tap this effect to expand it and then drag that **Blur** slider to **25**.
+
+Switch to the **Move Tool** and then tap and hold anywhre on your canvas to open that context menu. Tap the **Copy** command to copy your image. 
+
+
+(image: FashionStorePageiPhone4.jpg)
+
+
+
+
+##Step 5
+
+Pick the **Move Tool** and tap outside your selected image to deselect it. Focus on the **Toolbar** and tap the **Line** color well. Drag the **Alpha** slider to **0%** which will simply make your **Line** invisible. Tap the **Fill** color well and replace the existing color with **R=36 G=36 B=65**. 
+
+Pick the **Rectangle Tool**, focus on your canvas and create a **2700  x 1600 px** shape. Make sure that it stays selected and move it to the center of the canvas using the same  **Horizontal** and the **Vertical** commands from the **Align** pane. 
+
+(image: FashionStorePageiPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rectangle is still selected and open the **Effects** pane. 
+
+Activate the existing **Drop Shadow** effect and expand it. Enter **0 pt** in the **X Offset**  box and **50 pt** in the **Y Offset**  box, drag that **Blur** slider to **50**, and then tap the color well of this effect. Replace the existing color with **R=33 G=33 B=63** and drag that **Alpha** slider to **80%**. 
+
+(image: FashionStorePageiPhone6.jpg)
+
+
+
+##Step 7
+
+Focus on your **Titlebar** and tap the rightmost inspector pane icon to open the **Layers** panel. Add a second layer using the plus button from the bottom of the panel and make sure that this new layer stays selected, as the new shapes you are about to create will go here.
+
+Return to your **Toolbar** and set the **Fill** color to **R=139 G=195 B=0**. Using the **Rectangle Tool**, create a **1340 x 1600 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePageiPhone7.jpg)
+
+
+
+##Step 8
+Pick the **Move Tool**, open that context menu and use the **Paste in Place** command to add a copy of your jeans photo. Make sure that this copy stays selected, go to the **Effects** pane and disable the existing **Blur** effect. 
+
+Move to the **Geometry** pane and set the **Width** to **2430 px**. Focus on the **Position** attributes to numerically position your selection horizontally to **1020 px** and vertically to **140 px**. 
+
+(image: FashionStorePageiPhone8A.jpg)
+
+With your new image still selected, reopen that context menu and tap the **Cut** command.
+
+(image: FashionStorePageiPhone8B.jpg)
+
+
+
+##Step 9
+
+Pick the **Move Tool** and select your green rectangle. Open the context menu and tap the **Paste Inside** command to paste the image cut in the previous step inside your green shape. Your green shape will act as a mask. 
+
+(image: FashionStorePageiPhone9.jpg)
+
+
+
+##Step 10
+
+Keep in mind that you can always adjust your masked image. All you have to do is double tap on it using the **Move Tool** and then you can easily move or resize it as you wish. 
+
+(image: FashionStorePageiPhone10.jpg)
+
+
+
+##Step 11
+
+Focus on your **Toolbar** and set the **Fill** color to **R=239 G=237 B=235**. Pick the **Rectangle Tool**, create a **1360 x 1600 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePageiPhone11.jpg)
+
+
+
+##Step 12
+
+Focus on your **Toolbar** and set the **Fill** color to **R=249 G=247 B=245**. Pick the **Rectangle Tool**, create a **1360 x 200 px** shape and place it as shown in the first image.
+  
+Using the same tool, create a **1360 x 250 px** shape and place it as shown in the second image. 
+
+(image: FashionStorePageiPhone12.jpg)
+
+
+
+##Step 13
+
+Focus on your **Toolbar** and set the **Fill** color to **R=248 G=188 B=48**. Pick the **Rectangle Tool**, create a **500 x 150 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePageiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your yellow rectangle is selected and open the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: FashionStorePageiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your yellow rectangle stays selected and open the **Label** pane from the **Appearance** panel. 
+
+Tap the **Text** button to add a text label and enter the &quot;_BUY NOW_&quot; piece of text. Set the **Alignment** to **Centered** and then open the  **Style**  pane. Select the **Helvetica Neue font**, change the **Style** to **UltraLight**, set the **Size** to **50 pt** and adjust that **Text Color** to **R=249 G=247 B=245**. In the end your yellow shape should look like in the following image.
+
+(image: FashionStorePageiPhone15.jpg)
+
+
+
+##Step 16
+
+Pick the **Text Tool** and double tap inside that new text field. Select the **League Spartan font**, set the **Size** to **80 pt** and make sure that the **Text Alignment** is set to **Left**. 
+
+Type the &quot;_Vintage Slim Low Jeans_&quot; piece of text and set its color to **R=33 G=33 B=63** . Use the **Move Tool** to stretch this text field to **1000 px** wide and **150 px** tall, and then place it as shown in the following image. 
+
+(image: FashionStorePageiPhone16.jpg)
+
+
+
+##Step 17
+
+Pick the **Text Tool** and double tap inside that new text field. Use the same font, but lower the **Size** to **60 pt** and change the text color to **R=248 G=188 B=48**. Type the &quot;_$ 119.90_&quot; piece of text. 
+
+(image: FashionStorePageiPhone17A.jpg)
+
+Use the **Move Tool** to stretch this text field to **300 px** wide and **100 px** tall, and then place it as shown in the following image. Feel free to enable the **Smart Guides** feature to align your piece of text easier and faster. 
+
+(image: FashionStorePageiPhone17B.jpg)
+
+
+
+
+##Step 18
+
+You can easily copy text from a document or a website and paste it inside your Graphic document. Use the **Move Tool** to stretch this new text field to **1000 px** wide and **150 px** tall, and then place it as shown in the following image. The **Smart Guides** fueature will once again come in handy.
+
+(image: FashionStorePageiPhone18A.jpg)
+
+Make sure that this text field stays selected and open the **Text** pane from the **Appearance** pane. Select the **Montserrat font**, set the **Size** to **25 pt** and change the **Alignment** to **Left**. Also, go to the **Toolbar** and make sure that the **Fill** color is set to black. (**R=0 G=0 B=0**).
+
+(image: FashionStorePageiPhone18B.jpg)
+
+
+
+##Step 19
+
+Open the **Layers** panel, add a new layer and make sure that it stays selected.
+ 
+Return to your **Toolbar** and set the **Fill** color to **R=139 G=195 B=0**. Pick the **Rectangle Tool**  and create four **100 px** squares. Place these new shapes as shown in the following image. 
+
+(image: FashionStorePageiPhone19.jpg)
+
+
+
+##Step 20
+
+Return to the **Documents Browser** and use that same plus button to import the _right-arrow-1.svg_ file from your **iCloud Drive**. 
+
+(image: FashionStorePageiPhone20A.jpg)
+
+Open the newly added document. First, you need to **Ungroup** the two shapes that make up your arrow icon. Select them, open the **Properties** panel and tap the **Ungroup** command. Go to the **Combine** pane from the **Properties** pane and tap the **Make** command. This will combine the two shapes into a single object, making it easier for you to select or edit it. 
+
+(image: FashionStorePageiPhone20B.jpg)
+
+
+
+##Step 21
+
+Make sure that your arrow icons stays selected, focus on the **Toolbar** and replace the existing **Fill** color with **R=249 G=247 B=245**. 
+
+Move to the **Geometry** pane, lock the aspect ratio and set the **Width** to **100 px**. Position your arrow icon as shown in the first image and make sure that it stays selected.
+
+Pick the **Rotate Tool** and focus on the  **Tool Options** pane. Set the **Angle** to **180 degrees** and tap that **Copy** button to add a horizontally flipped copy of your arrow icon. Using the **Move Tool** , move this new shape as shown in the second image. 
+
+(image: FashionStorePageiPhone21.jpg)
+
+
+
+
+
+##Step 22
+
+Import the _search.svg_ file and drag it inside your Graphic document, on top of that top-right green square. 
+
+ **Ungroup** this new shape, make sure that it stays selected and focus on the **Geometry** pane. Lock the aspect ratio and set the **Width** to **60 px**. Move to your **Toolbar** and replace the existing **Fill** color with **R=209 G=207 B=205**.
+ 
+(image: FashionStorePageiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Using the **Move Tool**, select your magnifier icon along with that green square and open the **Align**  pane from the **Properties** panel. Tap the  **Horizontal**  and the  **Vertical**  commands to easily move your magnifier icon in the center of that green square. 
+
+(image: FashionStorePageiPhone23.jpg)
+
+
+
+##Step 24
+
+Import the _settings-1.svg_ file and drag it inside your Graphic document, on top of that top-left green square. **Ungroup** the two shapes that make up this icon, turn them into a compound path and change the **Fill** color to **R=209 G=207 B=205**. Set the **Width** and **Height** of this icon to **60 px**, and then move it in the center of the green square as shown in the first image. 
+
+Once you're done, select all four green squares and delete them using the **Delete** button from left side of the **Titlebar**. 
+
+(image: FashionStorePageiPhone24.jpg)
+
+
+
+##Step 25
+
+Focus on your **Toolbar** and set the **Fill** color to **R=239 G=237 B=235**. Pick the **Rectangle Tool**, create a **100 x 80 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePageiPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny new rectangle stays selected and open the **Label** pane. 
+
+Add a **Text Label** and enter the &quot;_SIZE_&quot; piece of text. Set the **Alignment** to **Centered** and then open the **Style** pane. Select the **Helvetica Neue font**, change the **Style** to **Bold**, set the **Size** to **20 pt** and adjust that **Text Color** to **R=209 G=207 B=205**. In the end things should look like in the following image.
+
+(image: FashionStorePageiPhone26.jpg)
+
+
+
+##Step 27
+
+Focus on your **Toolbar** and set the **Fill** color to **R=249 G=247 B=245**. Pick the **Rectangle Tool**, create a **100 px** square and place it as shown in the following image. 
+
+(image: FashionStorePageiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your new square stays selected and open the **Label** pane. 
+
+Add a **Text Label** and enter the &quot;_L_&quot; piece of text. Set the **Alignment** to **Centered** and then open the  **Style**  pane. Select the **Helvetica Neue font**, change the **Style** to **Light**, set the **Size** to **40 pt** and adjust that **Text Color** to **R=33 G=33 B=63**. In the end things should look like in the following image.
+
+(image: FashionStorePageiPhone28.jpg)
+
+
+
+##Step 29
+
+Using the **Rectangle Tool**, create another two **100 px** squares and place them as shown in the following image. 
+
+(image: FashionStorePageiPhone29.jpg)
+
+
+
+##Step 30
+
+Import the _heart.svg_ file and drag it inside your Graphic document, on top of that right **100 px** square. 
+
+**Ungroup** this new shape and change its **Fill** color to **R=209 G=207 B=205**. Open the **Geometry** pane and lock the aspect ratio. Set the **Height** of this icon to **30 px**  and then move it in the center of the  square as shown below. 
+
+(image: FashionStorePageiPhone30.jpg)
+
+
+
+##Step 31
+
+Import  the _speech-bubble.svg_ file and drag it inside your Graphic document, on top of that left **100 px** square. 
+
+**Ungroup** the three shapes that make up this icon, turn them into a compound path and change the **Fill** color to **R=209 G=207 B=205**. Open the **Geometry** pane and lock the aspect ratio. Set the **Height** of this icon to **30 px** and then move it in the center of the square as shown below. 
+
+(image: FashionStorePageiPhone31.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: FashionStorePageiPhone0.jpg)
+
+----
+
+Title: iPhone

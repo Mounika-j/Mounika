@@ -1,0 +1,3 @@
+var doc = [app activeDocument]
+var selection = [doc selection]
+selection.boundingBoxRotation = 0

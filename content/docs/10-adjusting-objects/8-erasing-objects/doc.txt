@@ -1,0 +1,22 @@
+Title: Erasing Objects
+
+----
+
+Text: 
+
+# Erasing Objects
+
+Choose the _**Eraser tool**_  to erase portions of paths, or even entire shapes. As you click and drag with the eraser, a dark semi-transparent brush stroke will be drawn to show the areas to be erased.
+
+The eraser’s brush size can be changed using the _**Width**_ setting in the _**Tool Options bar**_.
+
+(video: erasingobjects1.mp4 width: 750)
+
+> Tip: Use the **E** keyboard shortcut to quickly select the **Eraser tool**. 
+
+
+When one or more objects are selected, the eraser will only modify the selected objects. If there are no objects selected, the eraser can be used to modify any object in the current layer.
+
+Text objects must first be (link: docs/text/expanding-text text: _**converted to vector paths**_) before they can be modified by the eraser. 
+
+Locked objects will not be modified by the _**Eraser tool**_.

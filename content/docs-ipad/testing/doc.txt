@@ -1,0 +1,41 @@
+Title: Testing
+
+----
+
+Text: 
+
+# Welcome
+
+This user guide will help you become familiar with the powerful set of drawing tools and features available in Graphic, getting you up and running quickly.
+
+(image: test1.jpg width: 750)
+(image: test1b.jpg width: 750)
+
+Graphic has been designed from the start to have a beautiful, clean, and easy to use interface – with the goal of creating a powerful drawing application which takes advantage of the native features in Mac OS X and iOS, and is both fun and rewarding to use.
+
+# TEST 1
+
+## 20 500
+(video: test1-20-500.mp4 width: 750)
+## 20 1000
+(video: test1-20-1000.mp4 width: 750)
+## 20 1000
+(video: test1-20-1500.mp4 width: 750)
+
+# TEST 2 HALF
+
+## 20 500
+(video: test2-20-500.mp4 width: 750)
+## 20 1000
+(video: test2-20-1000.mp4 width: 750)
+## 20 1000
+(video: test2-20-1500.mp4 width: 750)
+
+# TEST 3 
+
+## 20 500
+(video: test3-20-500.mp4 width: 750)
+## 20 1000
+(video: test3-20-1000.mp4 width: 750)
+## 20 1000
+(video: test3-20-1500.mp4 width: 750)

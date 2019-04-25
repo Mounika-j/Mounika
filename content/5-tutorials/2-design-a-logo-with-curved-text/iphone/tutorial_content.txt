@@ -1,0 +1,183 @@
+Text: 
+
+In this Graphic for iPhone tutorial we will create a professional logo design, using a coffee shop logo as an example.
+
+We will use Graphic's text on path feature to easily create curved text labels around the top and bottom edges of the logo, and use the Appearance pane to customize the look of the logo's background.
+
+
+
+**Resources:**
+
+[CoffeeBean.svg](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/CoffeeBean.svg)
+[WoodBackground.png](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/WoodBackground.png)
+
+
+
+
+
+##Step 1 - Create a New Document
+
+For this tutorial we'll create a new **680 x 890 pixel** document. Tap the plus button at the top-left corner of the **Titlebar** , tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: logoiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then go to the **Canvas** pane. Set the **Width** at **680 px** and the **Height** at **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: logoiPhone1B.jpg)
+
+Return to that ruler button and this time open the **Grid** slide panel. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the  **Snap to Grid**. Finally, simply tap the **Grid Spacing** section, enter **10 px** in both **Spacing** boxes and **0 px** in the **Subdivisions** box.
+
+(image: logoiPhone1C.jpg)
+
+
+
+##Step 2 - Draw an Ellipse
+
+Select the **Ellipse Tool** from the **Toolbar**. Tap and hold with a second finger while dragging to easily create a **360 px** circle. 
+
+Make sure that it stays selected, open that  **Properties** panel and this time go to the **Align** pane. Simply tap the  **Horizontal** and  **Vertical** commands to move your circle in the center of the canvas. 
+
+(image: logoiPhone2.jpg)
+
+
+
+##Step 3 - Set the Fill and Stroke Styles
+
+Make sure that your circle stays selected and return to the right side of your **Titlebar**. Tap the leftmost icon to open the **Appearance** panel and go to the **Effects** pane. 
+
+First, tap the color well of the **Fill** and set its color to **R=110 G=48 B=0**, and then select  the **Stroke**. Drag the **Width** slider to **10 pt**, select the **Outside Alignment** button, and then tap the color well of your **Stroke**. Make sure that the **Alpha** slider is set to **100%** and replace the existing color with **R=130 G=62 B=0**.
+
+(image: logoiPhone3.jpg)
+
+
+
+##Step 4 - Add a Second Stroke
+
+Make sure that your circle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. 
+
+Select this new **Stroke** and drag the **Width** slider to **5 pt**. Check the **Outside Alignment** button and then tap the color well of this **Stroke**. Make sure that the **Alpha** slider is set to **100%** and then replace the existing color with a simple white. 
+
+(image: logoiPhone4.jpg)
+
+
+
+##Step 5 - Set a Drop Shadow
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Simply check the round box of the existing **Drop Shadow** effect to activate it. 
+
+Enter **0** in the **X** box and **2** in the **Y** box, drag the **Blur** slider to **5**, and then tap the color well of this **Drop Shadow** effect. Make sure that the color is set to black and drag the **Alpha** slider to **75%**. 
+
+(image: logoiPhone5.jpg)
+
+
+
+##Step 6 - Add a Text Object
+
+We will create each text label in its own layer. Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Use that plus button from the bottom of the panel to easily add a second layer. Make sure this new layer stays selected, as the new shapes you are about to create will go here.
+
+Pick the **Text Tool** from the **Toolbar** and simply  double tap inside that new field. Select the **American Typewriter** font, set the font size to **45** and  add the &quot;<em>Smooth Roast</em>&quot; piece of text. Make it white. 
+
+Using the **Move Tool**, select your piece of text and place it roughly as shown in the following image. 
+
+(image: logoiPhone6.jpg)
+
+
+
+##Step 7 - Create the Text Path
+
+Select the **Ellipse Tool** from the **Toolbar**. Create a **270 px** circle and don't forget to center it using the same commands from the **Align** pane. This smaller circle doesn't need a color for fill/stroke so simply disable the active **Fill** and **Stroke** from the **Effects** pane. 
+
+(image: logoiPhone7.jpg)
+
+
+
+##Step 8
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Using this tool, select the circle made in the previous step along with your piece of text. Move to the **Path Tools**  pane and  simply tap the **Place  on Path** command to bind the text to the circle path. 
+
+(image: logoiPhone8.jpg)
+
+
+
+##Step 9
+
+By default, the text begins at the bottom of the circle. To position the text on the path, tap on the **round handle** next to the first character and **drag** it along the path. 
+
+(image: logoiPhone9.jpg)
+
+
+
+##Step 10
+
+Now, you will need a grid every **5 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes from the **Grid Spacing** subsection.  
+
+Return to the **Layers** pane and create a new layer using that same plus button. Make sure that this new layer stays selected and pick the **Text Tool**. Create a second text object with the same style settings as before, with the text **'Coffee Company'**. 
+
+Select the **Ellipse Tool**, create a **325 px** circle and don't forget to center it. This new circle doesn't need a color for fill/stroke so simply disable the active **Fill** and **Stroke** from the **Effects** pane. 
+
+(image: logoiPhone10.jpg)
+
+
+
+##Step 11
+
+Reselect the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select both the text  and circle  made in the previous step, move to the **Path Tools** pane and tap that  **Place on Path** command. 
+
+The text will initially be placed on the outside of the path. To place the text on the inside of the path, tap the **Reverse Path Direction** command from that same **Path Tools**  pane. Tap and drag the **round handle** to position the text at the bottom of the label.
+
+(image: logoiPhone11.jpg)
+
+
+
+##Step 12
+
+Create a new layer using that same plus button from the bottom side of the **Layers** panel and select it. 
+
+Using the **Ellipse Tool**, create a **240 px** circle and don't forget to center it. Set this circle's **Fill** color to **R= 110 G= 48 B= 0** and then select the **Stroke**. Increase the **Width** to **2,5 pt**, set the **Alignment** to **Inside** and change the color to white. 
+
+(image: logoiPhone12.jpg)
+
+
+
+##Step 13
+
+Graphic can import vector shapes and clip art from PDF and SVG files. You can find vector design resources on many different websites, [openclipart.org](http://www.openclipart.org/) hosts a large library of public domain vector clipart in SVG format that can be used in Graphic.
+
+Download  the [CoffeeBean.svg](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/CoffeeBean.svg) file, upload it on your iCloud / Dropbox folder and then import it in Graphic. Select this bean shape, tap and hold anywhere on your canvas to open that context menu and tap the **Copy** command. Get back to your logo document, reopen that context menu and this time tap the **Paste** command. Resize your bean and place it roughly as shown in the following image. 
+
+(image: logoiPhone13.jpg)
+
+
+
+##Step 14
+
+With the bean shape selected, replace the existing fill color to white. With the **Move Tool** you can scale and position the coffee bean shape to fit nicely inside the center of the logo. To create two more coffee bean shapes, use the same **Copy** and **Paste** commands from that context menu. Rotate, scale, and position the bean shapes to finish the inner part of the logo.
+
+(image: logoiPhone14.jpg)
+
+
+
+##Step 15
+
+To create the smaller text labels choose that same **Text Tool** . Use the **Arial** font, change the style to **Bold** and set the size to **16 pt**. Also, set the text alignment to **Center** and the color to **R= 255 G= 188 B= 128**. Type **'Since'** for the left side of the logo. 
+
+Repeat these same steps to create the right side label with the text **'1981'**.
+
+(image: logoiPhone15.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: logoiPhone0.jpg)
+
+----
+
+Title: iPhone

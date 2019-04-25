@@ -1,0 +1,33 @@
+Title: Create a Slime Effect with Brushes
+
+----
+
+Description: Learn how to create a cartoony slime text effect using pressure-sensitive brush strokes...
+
+----
+
+Image: (image: header.jpg title: Create a Slime Text Effect class: header960)
+
+----
+
+Thumbnail: slimetextthumbnail.jpg
+
+----
+
+Date: 2016-01-27
+
+----
+
+Categories: Mac, Appearance, Text
+
+----
+
+Text: **Graphic File**: **(link: SlimeText.idraw text: SlimeText.idraw)**
+
+----
+
+Graphicfile: SlimeText.idraw
+
+----
+
+Headerimg: slimetextheader.jpg

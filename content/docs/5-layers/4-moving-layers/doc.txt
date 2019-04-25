@@ -1,0 +1,11 @@
+Title: Moving Layers
+
+----
+
+Text: 
+
+# Moving Layers
+
+You can change the order of a layer by dragging it to a new position in the layers list. Click and drag the layer you’d like to move, and drop it in a new position. While dragging, a blue indicator line will show the destination of the dragged layer.
+
+(video: movinglayers1.mp4  width: 750)

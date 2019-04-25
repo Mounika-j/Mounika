@@ -1,0 +1,39 @@
+Title: Creating Paths
+
+----
+
+Text: 
+
+# Creating Paths
+
+Objects in Graphic are composed of vector paths. Paths themselves are made up of anchor points connecting straight lines and curved segments. Anchor points are shown on a path as empty squares, while selected anchor points are shown as filled squares.
+
+Choose the _**Pen tool**_ to draw any kind of path or shape, using a combination of straight lines and curves. Because of its versatility, it is the most important of Graphic’s drawing tools to learn and become proficient using.
+
+The _**Pen tool**_ can also be used to add or remove points from any path, or to cut paths. The settings in the _**Tool pane**_ can be used to change the Pen tool from the default path creation mode, to the (link: docs-iphone/paths/adding-path-points text:_**Add Points**_), (link: docs-iphone/paths/deleting-path-points text: _**Delete Points**_) or (link: docs-iphone/paths/cutting-paths text: _**Cut Paths**_) modes.
+
+(image: creatingpaths1-iphone.jpg width: 750)
+
+Use the default _**Pen tool**_ mode to create straight line segments, by simply tapping on the canvas.
+
+(video: creatingpaths2-iphone.mp4 width: 750)
+
+To finish editing a path, simply tap on the first point of the path to close it, or double-tap the newest point if you do not want to close your path. After closing the current path, the Pen tool can be used to create a new path.
+
+(video: creatingpaths3-iphone.mp4 width: 750)
+
+To create curved segments, tap and drag to create anchor points with direction handles.
+
+(video: creatingpaths4-iphone.mp4 width: 750)
+
+#### Creating a Line Segment after a Curve
+
+A straight line segment can be drawn after a curve segment by removing the direction handle at the end of the path. Simply tap on the last anchor point to remove the direction handle.
+
+(video: creatingpaths5-iphone.mp4 width: 750)
+
+#### Creating a Curve after a Line Segment
+
+A curved segment can be drawn after a line segment by creating a direction handle at the end of the path. Simply tap the end anchor point and then drag to create a direction handle.
+
+(video: creatingpaths6-iphone.mp4 width: 750)

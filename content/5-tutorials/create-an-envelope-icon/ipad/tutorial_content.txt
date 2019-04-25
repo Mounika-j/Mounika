@@ -1,0 +1,248 @@
+Text: 
+
+In the following tutorial you will learn how to create an envelope icon in Graphic for iPad. 
+
+In the beginning you will learn how to setup a simple grid and how to create the main shapes using the Rounded Rectangle Tool. Using blending and vector shape building techniques you will learn how to create the rest of the shapes and how to add some subtle highlights and shading. 
+
+Finally, you will learn how to create a flat background and how to easily center it. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. From the **Documents Browser**, tap the plus button at the top-right corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** panel, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is enabled. The **Pixel-Align Strokes** feature ensures that all shapes which are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: envelopeIconiPad1A.jpg)
+
+Next, you need to adjust your document's grid so switch to the **Grid &amp; Rulers** panel. Make that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: envelopeIconiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. 
+
+Tap the fill color wheel and replace the existing color with **R=255 G=185 B=0**. Next, tap  the line color wheel and drag the **Alpha** slider to **0%**, which will simply make the line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **5**. Move to your canvas and create a **180 x 115 px** shape. 
+
+(image: envelopeIconiPad2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, this time make sure that the fill  is invisible and then set the line color to black (**R=0 G=0 B=0**). 
+
+Pick the **Rectangle Tool**, create a **180 x 75 px** shape and place it exactly as shown in the following image. 
+
+Make sure that this rectangle stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. Move to the **Effects** pane, focus on the existing **Stroke** and simply tap the **Outside** Alignment button. 
+(image: envelopeIconiPad3.jpg)
+
+
+
+##Step 4
+
+Focus on the top side of your rectangle and pick the **Path Selection Tool**. First, select the left anchor point and drag it **90 px** to the right and then select the right anchor point and remove it using the **X** button from the left side of your **Titlebar**. 
+
+In the end your rectangle should turn into a simple triangle as shown in the second image. Select it, focus on the right side of your **Titlebar** and tap the middle icon. Move to the **Path** panel and simply tap the **Outline Stroke** button. 
+
+(image: envelopeIconiPad4.jpg)
+
+
+
+##Step 5
+
+Reselect  your yellow shape, focus on the left side of your **Titlebar** and tap that paperclip icon to open the popover menu. Tap the **Copy** and **Paste in Place** buttons to easily make a copy in front.
+ 
+Pick the **Path Selection Tool**, focus on the newly opened tool pane and activate the second tool mode. Select the copy made in this step along with the black shape, open the **Combine** **** panel and tap the **Intersect** button. 
+
+Make sure that the resulting shape stays selected and move to the **Effects** panel. Focus on the existing **Fill**, tap the **Gradient Fill** and **Linear** buttons, set the **Angle** to **-90 degrees** and then move to the gradient slider. Select the left one, drag the **Alpha** slider to **0%** and replace the existing color with **R=250 G=250 B=250** and  then select the right slider, drag the **Alpha** slider to **10%** and make sure that the color is set to black. 
+
+(image: envelopeIconiPad5.jpg)
+
+
+
+##Step 6
+
+Get back to your **Toolbar**, make sure that the line is invisible and pick a random blue for the fill. 
+
+Using the **Rectangle Tool**, create an **180 x 75 px** shape and place it as shown in the first image. Focus on the top side of this new rectangle and switch to the **Path Selection Tool**. Select the left anchor point and drag it **90 px** to the right and then remove the right anchor point using that same **X** button from the left side of your **Titlebar**.
+
+(image: envelopeIconiPad6.jpg)
+
+
+
+##Step 7
+
+Reselect  your yellow shape and make a new copy in front using the same **Copy** and **Paste in Place** buttons from that paperclip popover menu. 
+
+Pick the **Path Selection Tool**, don't forget to activate the second tool mode and then select then copy made in this step along with your blue triangle. Move to  the **Combine** panel and tap the **Intersect** button. 
+Make sure that the resulting shape stays selected, focus on the **Effects**  panel and tap the color wheel that stands for the existing **Fill**. Drag the **Alpha** slider to **70%** and replace the existing color with black. Keep focusing on the **Fill** and tap the cogwheel icon that stands for it. Tap the **Blend Mode** button, select the **Soft Light** blend mode and then tap the **Done** button. 
+
+(image: envelopeIconiPad7.jpg)
+
+
+
+##Step 8
+
+Return to your **Toolbar**, make sure that the line is invisible and then set the fill color to black. 
+
+Using the **Rectangle Tool**, create a **150 x 70 px** shape and place it as shown in the first image. Focus on the bottom side of this new rectangle and switch to the **Path Selection Tool**. Select the left anchor point and drag it **75 px** to the right and then remove the right anchor point using that same **X** button from the left side of your **Titlebar**.
+
+(image: envelopeIconiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your black triangle is still selected, focus on the **Effects** panel and simply check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **0** in the **X** box and **2** in the **Y** box, drag the **Blur** slider to **7** and then simply tap the color wheel that stands for this effect. Drag the **Alpha** slider to **30 %** and make sure that the color is set to black. 
+
+(image: envelopeIconiPad9.jpg)
+
+
+
+##Step 10
+
+Get back to your **Toolbar**, make sure that the line is invisible and pick a random green for the fill. 
+
+Using the **Rectangle Tool**, create a **180 x 75 px** shape and place it as shown in the first image. Focus on the bottom side of this new rectangle and switch to the **Path Selection Tool**. Select the left anchor point and drag it **90 px** to the right and then remove the right anchor point using that same **X** button. 
+
+(image: envelopeIconiPad10.jpg)
+
+
+
+##Step 11
+
+Reselect  your yellow shape and make a copy in front using the same **Copy** and **Paste in Place** buttons  from that paperclip popover menu. 
+
+Pick the **Path Selection Tool**, don't forget to activate the second tool mode and then select then copy made in this step along with your green triangle. Move to  the **Combine** **** panel and tap the **Intersect** button. 
+
+Make sure that the resulting shape stays selected, focus on the **Effect** panel and select the existing **Fill**. Replace the flat color with a linear gradient, set its **Angle** to **-90 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=250 G=250 B=250** and then select the right one and se its color to **R=252 G=252 B=252**. 
+
+(image: envelopeIconiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your front shape (made in the previous step) is still selected and focus on the **Effects** panel. Activate the existing **Inner Shadow** and simply enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your front shape stays selected, keep focusing on the **Effects** panel and add a second **Inner Shadow** using the plus button located in the bottom, right corner of your pane. 
+
+Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. You can easily move attributes inside the **Effects** pane using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: envelopeIconiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your front shape stays selected, keep focusing on the **Effects** panel and add a third **Inner Shadow**. 
+
+Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your front shape stays selected, keep focusing on the **Effects** panel and add a fourth **Inner Shadow**. 
+
+Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad15.jpg)
+
+
+
+##Step 16
+
+Select your rounded rectangle, focus on the **Effects** panel and replace the yellow with **R=250 G=250 B=250**.
+
+(image: envelopeIconiPad16.jpg)
+
+
+
+##Step 17
+
+Get back to your **Toolbar**, make sure that the line is invisible and then set the fill color to **R=78 G=161 B=215**. Using the **Rectangle Tool**, create a **600 px** square, make sure that it covers your entire canvas and then move to the **Arrange** panel and drag that **Order** slider to the left which will send your blue shape in the back. 
+
+(image: envelopeIconiPad17.jpg)
+
+
+
+##Step 18
+
+Reselect your rounded rectangle, focus on the **Effects** panel and select the existing **Stroke**. 
+
+Make sure that the **Width** slider is set to **1 pt**, select the **Outside** Alignment button and then tap the color wheel that stands for this **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black. 
+
+(image: envelopeIconiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** panel. 
+
+Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** panel and add a second **Drop Shadow**. 
+
+Select this new effect, drag it above the **Stroke** and enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** panel. 
+
+Activate the existing **Inner Shadow**, drag it below the top **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** panel and add a second **Inner  Shadow**. 
+
+Select this new effect, drag it below the existing **Inner Shadow**  and enter the attributes shown in the following image. 
+
+(image: envelopeIconiPad22.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: envelopeIconiPad0.jpg)
+
+----
+
+Title: iPad

@@ -1,0 +1,21 @@
+Title: Grouping Objects
+
+----
+
+Text: 
+
+# Grouping Objects
+
+Several objects can be combined into a group. Groups can be easily manipulated together as a single object. Grouping objects can be useful when you are looking to transform several objects without affecting their attributes or relative positions.
+
+Use the commands from the _**Properties panel**_ to group or ungroup multiple objects. Using one of the two commands you can:
+
+_**Group**_ - Combines selected objects/groups into a group. Groups can also be grouped with other objects or groups. 
+
+(video: groupingobjects1-ipad.mp4 width: 750)
+
+_**Ungroup**_ - Removes the group and keeps the separate objects.
+
+(video: groupingobjects2-ipad.mp4 width: 750)
+
+To select a single object from a group, choose the _**Move tool**_ and double tap on it.

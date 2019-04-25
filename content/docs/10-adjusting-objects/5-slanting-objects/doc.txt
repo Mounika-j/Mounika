@@ -1,0 +1,27 @@
+Title: Slanting Objects
+
+----
+
+Text: 
+
+# Slanting Objects
+
+Choose the _**Shear tool**_ to slant objects relative to a reference point. 
+
+To slant one or more objects, first select the objects to be transformed and choose the _**Shear tool**_. With the _**Shear tool**_ active, click and drag anywhere on the canvas to slant the objects.
+
+Hold the **Shift ⇧** key while dragging to slant selected objects on only one axis (horizontally or vertically).
+
+(video: slantingobjects1.mp4 width: 750)
+
+> Tip: Use the **Shift - S** keyboard shortcut to quickly select the **Shear tool**. 
+
+Objects can be slanted numerically using the _**Tool Options bar**_. Set the horizontal and vertical shear angles, and then click _**Shear**_ to apply the transformation. Clicking _**Copy**_ will duplicate the objects first and then apply the slant transformation to the copied objects.
+
+Alternatively, objects can be slanted numerically using the _**Shear**_ settings from the _**Geometry pane**_ of the Properties panel.
+
+(video: slantingobjects2.mp4 width: 750)
+
+By default, the reference point will be located in the center of the selected shapes. To use a different location for the reference point, click-and-drag it to set it at that new location. 
+
+(video: slantingobjects3.mp4 width: 750)

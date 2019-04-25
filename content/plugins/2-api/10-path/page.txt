@@ -1,0 +1,230 @@
+Title: Path
+
+----
+
+Text: 
+
+A path object. New paths can be created using a **Document's** (link: plugins/api/document#addPath text: **addPath**) function. The path of an existing (link: plugins/api/pathshape text: **PathShape**) can be modified, and new **PathShapes** can be created using a **Layer's** or **ShapeGroup's** (link: plugins/api/layer#addPathShape text: **addPathShape:**) function.
+&nbsp;
+_Elements_
+- (link: plugins/api/path#elements text: **elements**)
+
+_Appending Elements_
+- (link: plugins/api/path#addMoveTo text: **addMoveTo:**)
+- (link: plugins/api/path#addLineTo text: **addLineTo:**)
+- (link: plugins/api/path#addCurveTocontrolPoint1controlPoint2 text: **addCurveTo: controlPoint1: controlPoint2:**)
+- (link: plugins/api/path#addQuadCurveTocontrolPoint text: **addQuadCurveTo: controlPoint:**)
+- (link: plugins/api/path#addClose text: **addClose**)
+
+_Bounds / Length_
+- (link: plugins/api/path#bounds text: **bounds**)
+- (link: plugins/api/path#controlPointBounds text: **controlPointBounds**)
+- (link: plugins/api/path#length text: **length**)
+
+_Creating Copies_
+- (link: plugins/api/shape#duplicate text: **duplicate**)
+
+<a name="addClose"></a>
+## addClose
+### _returns (link: plugins/api/path#pathelement text: **PathElement**)_
+
+Closes the current subpath. Returns the new path element object.
+&nbsp;
+#### Example: create a rectangle path; the start and end points are linked by the final close element
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+var pnt = CGPointMake(20, 20)
+var size = CGSizeMake(100, 200)
+
+[path addMoveTo:CGPointMake(pnt.x, pnt.y)]
+[path addLineTo:CGPointMake(pnt.x + size.width, pnt.y)]
+[path addLineTo:CGPointMake(pnt.x + size.width, pnt.y + size.height)]
+[path addLineTo:CGPointMake(pnt.x, pnt.y + size.height)]
+[path addClose]
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="addCurveTocontrolPoint1controlPoint2"></a>
+## addCurveTo: controlPoint1: controlPoint2:
+### _returns (link: plugins/api/path#pathelement text: **PathElement**)_; _input **CGPoint**_; _input **CGPoint**_; _input **CGPoint**_
+&nbsp;
+Adds a cubic curve element to the path, with the destination point and two bezier control points. Returns the new path element object.
+&nbsp;
+#### Example: create a teardrop path using a "curveTo" element
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+
+[path addMoveTo:CGPointMake(84, 144)]
+[path addCurveTo:CGPointMake(84, 144) controlPoint1:CGPointMake(12, 264) controlPoint2:CGPointMake(156, 264)]
+[path addClose]
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="addLineTo"></a>
+## addLineTo:
+### _returns (link: plugins/api/path#pathelement text: **PathElement**)_; _input **CGPoint**_
+
+Adds a line element to the path. Returns the new path element object.
+&nbsp;
+#### Example: create a path of a sine wave using a series of lineTo elements
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+var increment = Math.PI * 2 / 100
+var counter = 0
+
+for(i = 0; i <= 2; i += 0.01)
+{
+    x = i;
+    y = Math.sin(counter) / 2 + 0.5
+    counter += increment
+
+    if(i == 0)
+        [path addMoveTo:CGPointMake(0, y * 100)]
+    else
+        [path addLineTo:CGPointMake(x * 200, y * 100)]
+}
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="addMoveTo"></a>
+## addMoveTo:
+### _returns (link: plugins/api/path#pathelement text: **PathElement**)_; _input **CGPoint**_
+
+Begin a subpath at the passed-in point. Each path object must start with a moveTo element; moveTo elements added after the first element will begin new subpaths within the path object (creating a compound path). Returns the new path element object.
+
+<a name="addQuadCurveTocontrolPoint"></a>
+## addQuadCurveTo: controlPoint:
+### _returns (link: plugins/api/path#pathelement text: **PathElement**)_; _input **CGPoint**_; _input **CGPoint**_
+
+Adds a cubic curve element to the path, with the destination point and two bezier control points. Returns the new path element object.
+
+<a name="bounds"></a>
+## bounds
+### _returns **CGRect**_
+
+Gets the geometric bounding box of the path.
+
+<a name="controlPointBounds"></a>
+## controlPointBounds
+### _returns **CGRect**_
+
+Gets the bounding box that encloses all of the points in the path, including the control points.
+
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: plugins/api/path text: **Path**)_
+
+Creates and returns a duplicate of this path object.
+
+<a name="elements"></a>
+## elements
+### _returns **Array**_
+
+Gets the array of elements in the path.
+
+
+<a name="length"></a>
+## length
+### _returns **Float**_
+
+Gets the length of the contour of the path.
+
+<a name="pathelement"></a>
+&nbsp;
+# PathElement
+
+A path element object.
+&nbsp;
+_Points_
+- (link: plugins/api/path#anchorPoint text: **anchorPoint**)
+- (link: plugins/api/path#controlPoint1 text: **controlPoint1**)
+- (link: plugins/api/path#controlPoint2 text: **controlPoint2**)
+
+_Metrics_
+- (link: plugins/api/path#elementLength text: **length**)
+- (link: plugins/api/path#elementSplit text: **split:**)
+
+_Removing_
+- (link: plugins/api/path#elementRemove text: **remove**)
+
+_Type_
+- (link: plugins/api/path#elementType text: **type**)
+
+<a name="anchorPoint"></a>
+## anchorPoint
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the anchor point of the path element.
+
+<a name="controlPoint1"></a>
+## controlPoint1
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the first control point of the path element. _Note: only used by **curveTo** and  **quadCurveTo** elements._
+
+<a name="controlPoint2"></a>
+## controlPoint2
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the second control point of the path element. _Note: only used by **curveTo** elements._
+
+<a name="elementLength"></a>
+## length
+### _returns **Float**_
+
+Gets the length of the path element.
+
+<a name="elementRemove"></a>
+## remove
+
+Removes this element from the parent path.
+
+<a name="elementSplit"></a>
+## split:
+### _returns **Array**_; _input **Float**_
+
+Splits this element at the passed in value, _0-1_ designating the location along the element, creating two new elements. This element is removed from the parent path and replaced with the new returned elements.
+
+_Note: **"close"** elements can be split, but only if the start and end points of the subpath are not the same. In that case, this function will return three new elements: two **"lineTo"** elements linking the previous start/end points of the subpath, and a new **"close"** element. Calling this function on a **"moveTo"** element does nothing._
+&nbsp;
+#### Example: split every element of each selected path shape's path at its midpoint
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{    
+    var shape = shapes[i];
+    
+    if([shape type] == "pathShape")
+    {
+        var path = [shape path]
+        var elements = [path elements]
+
+        for(var j = 0; j < [elements count]; j++)
+        {
+            var element = elements[j]
+            
+            if([element type] != "moveTo")
+                elements[j].split(0.5)
+        }
+    }
+}
+
+```
+<a name="elementType"></a>
+## type
+### _returns **String**_; _settable_
+
+Gets the type of this element - _**"moveTo"**_, _**"lineTo"**_, _**"curveTo"**_, _**"quadCurveTo"**_, or _**"close"**_
+&nbsp;

@@ -1,0 +1,39 @@
+Title: Customizing Brushes
+
+----
+
+Text: 
+
+# Customizing Brushes
+
+Tap the brush preview button from the bottom, right corner of your screen to open the _**Brush Settings pane**_. 
+
+(image: customizingbrushes1-ipad.jpg  width: 750)
+
+1. **Brush Editor** -  Use the Brush Editor to edit and customize brushes. Edit a brush manually by dragging the blue circular handles to change its angle and roundness, or edit the brush numerically by inputting values into the brush parameter fields.
+
+2. **Roundness** -  This setting determines the roundness of the brush. Higher values create a rounder brush, while lower values create a flatter brush.
+
+3. **Angle** - The brush angle refers to the angle of rotation of the brush. 0˚ will create a horizontal brush, 90˚ will create a vertical brush.
+
+4. **Minimum Width** - The minimum width refers to the minimum width of the brush according to the brush width. A Minimum Width set to 50% will make sure that the brush size for your path will not go below 50% of the pre-set brush width. The brush width on an existing path can be easily edited using the _**Stroke pane**_ from the Appearance pane.
+
+5. **Contour** - Using the white draggable handles that make up the orange path you can create complex brushes that simulate pressure sensitivity. 
+
+ Double-tap the orange path to add new draggable handles or double-tap existing draggable handles to easily remove them.
+
+ Placing a handle to the top of the frame brings the brush width to 100% while placing it at the bottom of the frame lowers the width to the Minimum Width percentage.
+
+6. **Brush Preview** - A simple preview of your new brush based on the introduced properties.
+
+7. **Reset** - Resets the brush properties from the Contour frame.
+
+8. **Use Pressure** - Use the slide button to enable or disable the _**Pressure Sensitive**_ feature.
+
+## Brush pane {#brush-pane}
+
+For more elementary brushes you can use the _**Brush pane**_ from the Appearance panel. It comes with the same customization options from the _**Brush Settings pane**_ plus a collection of  15 basic brushes that can be applied to any selected path. 
+
+Tap the empty slot with the oblique-grey line to remove any brush applied to a selected path.
+
+(image: customizingbrushes2-ipad.jpg width: 750)

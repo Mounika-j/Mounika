@@ -1,0 +1,33 @@
+Title: Dark Progress Panel
+
+----
+
+Description: A dark themed floating panel with a blue progress bar…
+
+----
+
+Headerimg: Header.jpg
+
+----
+
+Thumbnail: Header.jpg
+
+----
+
+Date: 2013-08-17
+
+----
+
+Categories: Mac, Appearance, Text
+
+----
+
+Text: A dark themed floating panel with a blue progress bar. The progress bar's appearance is created using two overlapping gradients, one for the color and another for the highlight, along with glow and shadow effects.
+
+----
+
+Graphicfile: ProgressPanel.idraw
+
+----
+
+Credits: 

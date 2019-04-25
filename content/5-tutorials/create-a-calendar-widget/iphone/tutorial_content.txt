@@ -1,0 +1,406 @@
+Text: 
+
+In the following tutorial you will learn how to create a pretty simple calendar widget in Graphic for iPhone. 
+
+For starters you will learn how to create a new document and how to setup a simple grid. Using the Rounded Rectangle Tool  and the Rotate Tool, you will learn how to create the main shapes. Taking full advantage of the Effects pane, you will learn how to add shading and sleek highlights for your shapes. 
+
+Moving on, you will learn  some neat stroke tricks and how to ease your work using the Copy/Paste Style feature. Finally, you will learn how to add and stylize text in  Graphic. 
+
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: calendarWidgetiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: calendarWidgetiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: calendarWidgetiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap the **Fill** color well and set its color to **R=2 G=53 B=83**, and then tap the **Line** color well and drag the **Alpha** slider to **0%**. This  will simply make your line invisible.
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and  drag that  **Radius** slider to **10**. Move to your canvas and create a **220 x 225 px** shape. 
+
+(image: calendarWidgetiPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that the **Rounded Rectangle Tool** is still active, return to that **Tool Options** pane and drag the  **Radius** slider to **5**. 
+
+Move to your canvas, create a **50 x 50 px** shape and place it exactly as shown in the following images — the  grid and the **Snap to Grid** feature should ease your work. 
+
+(image: calendarWidgetiPhone3.jpg)
+
+
+
+##Step 4
+
+Using that same **Rounded Rectangle Tool**, create a **40 x 40 px** shape and place it exactly as shown in the first image (the color attributes are not very important). 
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode which will allow you to easily select more that one shape using simple taps.
+
+Select the shape made in this step along with the one made in the previous step, open the **Combine** pane from the **Properties** panel and  tap that **Subtract** command. In the end your new shape should look like in the second image. 
+
+(image: calendarWidgetiPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that the shape made in the previous step is still selected and pick the **Rotate Tool**. Focus on the newly opened **Tool Options** pane, set the **Angle** to **45 degrees** and  tap the **Rotate** button. In the end things should look like in the second image. 
+
+(image: calendarWidgetiPhone5.jpg)
+
+
+
+##Step 6
+
+Using the **Move Tool**, select both shapes made so far. Return to the **Combine** pane and  tap the **Union** command. 
+
+(image: calendarWidgetiPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape stays selected, focus on the right side of your **Titlebar** and  tap the leftmost icon to open the **Appearance** panel. Go to the **Effects** pane and tap the existing **Stroke** to expand it. 
+
+Be sure that  the **Width** slider is set to **1 pt**, select the **Inside Alignment** button, and then  tap  the color well of this **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with **R=2 G=43 B=67**.
+(image: calendarWidgetiPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that plus button located in the top, right corner of your pane. 
+
+Select this new **Stroke** and  simply enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and simply check the round checkbox of the existing **Inner Shadow** effect to activate it. Tap its right side handle to easily drag it right below the **Fill** and then expand it. 
+
+Enter **0 pt** in the **X Offset**  box and **2 pt** in the **Y Offset**  box, drag the **Blur** slider to **0**, and then tap the color well of this effect. Drag the **Alpha** slider to **30%** and replace the existing color with  white (**R=255 G=255 B=255**). Return to the **Effects** pane and tap the cogwheel button of this same effect. Tap the **Blend Mode** command and select **Soft Light** from that list. In the end things should look like in the following image. 
+
+(image: calendarWidgetiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** effect using that same plus button. 
+
+Select this new effect and then enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone10.jpg)
+
+
+
+##Step 11
+
+Get back to your **Toolbar**, make sure that the **Line** is  invisible and  set the **Fill** color to **R=245 G=245 B=245**. 
+
+Pick the **Rounded Rectangle Tool** and make sure that the  **Radius** is still set to **5**. Move to your canvas, create a **210 x 210 px** shape and place it as shown in the following image. 
+
+(image: calendarWidgetiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is selected and focus on the **Effects** pane. Select the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is selected and keep focusing on the **Effects** pane. Tap the cogwheel button of the existing **Drop Shadow** effect and  go to **Duplicate**. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidgetiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidgetiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidgetiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidgetiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidgetiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone19.jpg)
+
+
+
+##Step 20
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Simply tap that plus button from the bottom of the panel to add a new layer. Make sure that your new layer stays selected, as the new shapes you are about to create will go here.
+
+(image: calendarWidgetiPhone20A.jpg)
+
+Return to your **Toolbar**, tap the **Fill** color and make it invisible and then tap the **Line** color. Make it black (**R=0 G=0 B=0**) and drag the **Alpha** slider to **100%**. 
+
+Pick the **Pen Tool** or the **Line Tool**, create an **150 px**, vertical path and place it exactly as shown in the first image. Make sure that this black path stays selected. First, go to the **Effects** pane, select the existing **Stroke** and drag that **Width** slider to **2 pt**. 
+
+Tap and hold anywhere on your canvas to open that context menu. Use the **Copy** and **Paste** commands to multiply your black path. Add five copies, select these paths one by one and place them exactly as shown in the second image. There should be a **30 px** gap between each path. 
+
+(image: calendarWidgetiPhone20B.jpg)
+
+
+
+##Step 21
+
+Using the **Pen Tool** or the **Line Tool**, create a **210 px**, horizontal path and place it exactly as shown in the first image. 
+
+With this new path still selected, add three copies using the same **Copy** and **Paste** commands from that context menu. Spreat the copies as shown in the second image making sure that there's a **30 px** gap between each path.
+
+(image: calendarWidgetiPhone21.jpg)
+
+
+
+##Step 22
+
+Select all your black paths and focus on the **Path Tools** pane from the **Properties** panel. Tap the **Outline Stroke** command and then move to the **Combine** pane and tap the **Union** command. 
+
+Make sure that the resulting shape stays selected, focus on the **Effects** pane and simply replace the existing **Fill** color with **R=235 G=235 B=235**.
+
+(image: calendarWidgetiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that the shape made in the previous step stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone24.jpg)
+
+
+
+##Step 25
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and set the **Fill** color to **R=82 G=143 B=188**. 
+
+Pick the **Rounded Rectangle Tool**, make sure that the  **Radius** is set to **5** and  get back to your canvas. Create a **210 x 90 px** shape and place it as shown in the first image. 
+
+Switch to the **Rectangle Tool**, create a **210 x 30 px** shape and place it exactly as shown in the second image. 
+
+(image: calendarWidgetiPhone25.jpg)
+
+
+
+##Step 26
+
+Reselect the two shapes made in the previous step, focus on the **Combine** pane and tap the **Subtract** command. In the end your blue shape should look like in the following image. 
+
+(image: calendarWidgetiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your blue shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the properties shown in the following image. 
+
+(image: calendarWidgetiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your blue shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** effect. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone28.jpg)
+
+
+
+##Step 29
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to **R=82 G=143 B=188**. 
+
+Using the **Rectangle Tool**, create a **210 x 30px** shape and place it exactly as shown in the first image. Make sure that this blue rectangle stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: calendarWidgetiPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that your blue rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effect. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your blue rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone31.jpg)
+
+
+
+##Step 32
+
+Make sure that your blue rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner  Shadow** effect. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone32.jpg)
+
+
+
+##Step 33
+
+
+Get back to your **Toolbar**, make the **Fill** invisible and change  **Stroke** color to white. You will also need a grid every **1 px**. This simply means that you have to return to the **Grid** pane,  tap the **Grid Spacing** pane and enter **1 px** in both **Spacing** boxes. 
+
+Pick the **Pen Tool** or the **Line Tool** and focus on the top, left corner of your blue shape. Create an **8 px**, vertical path and place it roughly as shown in the following image. Make sure that this path stays selected and focus on **Stroke** from the **Effects** pane. Drag the  **Width** slider to **2 pt** and then check the **Round Cap** and the **Round Join** buttons. 
+
+(image: calendarWidgetiPhone33.jpg)
+
+
+
+##Step 34
+
+Make sure that your vertical, white path stays selected and reselect the **Pen Tool**. Focus on the **Tool Options** pane and activate the **Add Point** mode. Move to your selection and simply tap in the middle to add a new anchor point. 
+
+Switch to the **Path Selection Tool**, select that new anchor point and  drag it **4 px** to the left. In the end things should look like in the second image. 
+
+(image: calendarWidgetiPhone34.jpg)
+
+
+
+##Step 35
+
+Make sure that your white path stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone35.jpg)
+
+
+
+##Step 36
+
+Make sure that your white path stays selected and pick the **Rotate Tool**. Focus on the **Tool Options** pane, set the **Angle** to **180 degrees**, and then  tap that **Copy** button. This will create a horizontally flipped copy of your white path. Select this new path, drag it to the right and try   to place it roughly as shown in the third image. 
+
+(image: calendarWidgetiPhone36.jpg)
+
+
+
+##Step 37
+
+Set the **Fill** color to white, pick  the **Text Tool** and simply  double tap inside that new field. Select the **Arial Rounded MT**  font and make it **Bold**. Set the   **Size** slider to **10** and then simply type the  &quot;_October_&quot; piece of text. Place it as shown in the following image.
+
+(image: calendarWidgetiPhone37A.jpg)
+
+Make sure that your piece of text stays selected and focus on the **Effect** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidgetiPhone37B.jpg)
+
+
+
+##Step 38
+
+Using  the **Type Tool**, add the &quot;_Mo_&quot; piece of text and place it about as shown in the following image.
+ 
+Select  your &quot;_October_&quot; piece of text, open the **Appearance**  panel and tap the **Copy Style** command. Reselect that &quot;_Mo_&quot; piece of text and tap the **Paste Style** command from the **Appearance** panel. This basically applies the **Effects** attributes of the &quot;_October_&quot; piece of text to the &quot;_Mo_&quot; piece of text.
+
+Use the same tools and techniques to add the other six short day names. 
+
+(image: calendarWidgetiPhone38.jpg)
+
+
+
+##Step 39
+
+Finally, using the same font attributes, add the  day numbers. Spread them as shown in the following image and use the  colors shown below. 
+
+(image: calendarWidgetiPhone39.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: calendarWidgetiPhone0.jpg)
+
+----
+
+Title: iPhone

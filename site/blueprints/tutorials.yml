@@ -1,0 +1,12 @@
+title: Tutorial
+
+pages:
+  template: tutorial
+  sort: flip
+
+files: false
+
+options: 
+  template: false
+  delete: false
+

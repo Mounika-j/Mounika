@@ -1,0 +1,21 @@
+Title: Create a Heart Rate App Icon
+
+----
+
+Date: 2018-09-24
+
+----
+
+Graphicfile: heartrateappicon.idraw
+
+----
+
+Description: Learn how to create a heart rate app icon using vector shapes and effects...
+
+----
+
+Headerimg: heartrateappiconheader.jpg
+
+----
+
+Thumbnail: heartrateappiconthumbnail.jpg

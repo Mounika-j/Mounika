@@ -1,0 +1,24 @@
+Title: Masking Objects
+
+----
+
+Text: 
+
+# Masking Objects
+
+Using the _**Paste Inside**_ command, vector shapes and images can be clipped as a group inside another vector shape. 
+
+Select the objects to be clipped and copy them **Edit > Copy** [**⌘** - **C**] or cut them **Edit > Cut** [**⌘** - **X**] . Move to the object that will act as a mask, select it and go to **Edit > Paste Inside** [**⌃** - **⌘** - **V**].  
+This command will create a clip group containing the pasted objects. Only content that overlaps the mask object will remain visible. 
+
+Keep in mind that newly pasted objects will be pasted in their original location. Mask objects or masked objects can be later moved or adjusted like any other object on your canvas. Choose the _**Move tool**_ or the _**Path Selection tool**_ and double click on a masked object to select it. 
+
+(video: maskingobjects1.mp4 width: 750)
+
+Clipping groups can be easily managed from the Layers panel. Masked objects can be removed and you can always add new objects inside a clipping group. You can either drag the objects inside the clipping group using the Layers panel or you can use that _**Paste Inside**_ command. 
+
+(video: maskingobjects2.mp4 width: 750)
+
+Clipped shapes remain fully editable – select any shape within a clip group to move or edit its appearance. Mask objects or objects inside a clipping group can be stylized like any other object. 
+
+(image: maskingobjects3.jpg  width: 750)

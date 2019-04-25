@@ -1,0 +1,330 @@
+Text: 
+
+In the following tutorial you will learn how to create a vinyl icon in Graphic for iPhone. 
+
+For starters you will learn how to create a new document and how to setup a simple grid. Taking full advantage of the Snap to Grid feature, you will learn how to create the main shapes and how to quickly center them on your canvas. Moving on, you'll learn basic vector shape building techniques and some simple tips on how to add shading and highlights using the Effects pane. 
+
+Finally, you'll learn how to add and adjust a simple piece of text.
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: vinylIconiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled.
+
+(image: vinylIconiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: vinylIconiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap the fill color well and set its color to **R=43 G=164 B=13** and then tap the line color well and drag the **Alpha** slider to **0%**, which will simply make your line invisible.
+ 
+Pick the **Ellipse Tool**, focus on your canvas and create a **150 px** circle. The grid and the **Snap to Grid** feature will ease your work. 
+
+(image: vinylIconiPhone2A.jpg)
+
+Make sure that your green shape stays selected and focus on the right side of your Titlebar. Open the **Align** pane from the **Properties** panel and then simply tap the  **Horizontal** and  **Vertical** buttons to easily bring your circle in the center of the canvas.
+
+(image: vinylIconiPhone2B.jpg)
+
+
+
+##Step 3
+
+Focus on the right side of your Titlebar and tap the rightmost icon to open the **Layers** panel. Simply tap the existing layers to open that edit menu and tap the **Duplicate** command. Make sure that the newly added layer is selected and then close the **Layers** panel.
+
+(image: vinylIconiPhone3A.jpg)
+
+Select your green circle, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. Go to the **Effects** pane, tap the color well that stands for the existing **Fill** and simply drag the **Alpha** slider to **0%**. 
+
+Next, select the existing **Stroke** and make sure that the **Width** slider is set to **1 pt**. Tap the **Inside** Alignment button and then simply tap the color well that stands for your **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black (**R=0 G=0 B=0**). Return to the **Effects** pane and tap the cogwheel icon that stands for your **Stroke**. Tap the **Blend Mode** command and select  **Soft Light** from that list. In the end things should look like in the following image.
+
+(image: vinylIconiPhone3B.jpg)
+
+
+
+
+##Step 4
+
+Make sure that your  stroked circle is still selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow**  to activate it. Enter **1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **5%** and replace the existing color with a simple white (**R=255 G=255 B=255**). 
+
+(image: vinylIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Select your stroked circle, focus on the right side of the Titlebar and tap the ruler icon to open the **Geometry** panel. Focus on the **Size** pane and decrease the existing **Width** and **Height** attributes by **4 px**. Once you're done, move to the **Align** pane and tap those  **Horizontal** and  **Vertical** buttons to re-center your circle.
+
+(image: vinylIconiPhone5.jpg)
+
+
+
+##Step 6
+
+Reselect your stroked circle, tap and hold to open that edit menu and then use the **Copy** and **Paste** commands to duplicate your selected shape. Select this copy, open the **Geometry** pane and  decrease the existing **Width** and **Height** attributes by **4 px**. Once you're done, center this shape using the same   **Horizontal** and  **Vertical** buttons from the **Align** pane. In the end you should have a **142 px** circle looking like the one in the second image.
+
+(image: vinylIconiPhone6.jpg)
+
+
+
+##Step 7
+
+Now, you need to keep repeating the technique mentioned in the previous until you get to a **58 px** circle. The process is pretty simple: always select the tiniest circle, make a copy and select it, decrease the existing **Width** and **Height** attributes by **4 px** and don't forget to also center it. 
+
+Once you're done, select all your stroked circles, open the **Properties** panel and tap that **Group** button. 
+
+(image: vinylIconiPhone7.jpg)
+
+
+
+##Step 8
+
+Open the **Layers** panel, select the bottom layer and then close the **Layers** panel. 
+
+Using the **Ellipse Tool**, create a **30 px** circle and place it as shown in the following image. The color is not very important, but remember that you can easily center this shape using those commands from the **Align** pane. 
+Select your green and yellow circles, focus on the **Combine** pane from the **Properties** panel and tap the **Subtract** button.
+ 
+(image: vinylIconiPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your green shape stays selected, focus on the **Effects** pane and tap the color well that stands for the existing **Fill**. 
+
+Tap the **Gradient Fill** button and the **Angle Gradient**  icon and then move to the gradient sliders. Select the left slider and replace the existing color with **R=35 G=30 B=25** and then select the right slider and add the same color. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=45 G=40 B=35** and then drag it to the left until the **Location** tooltip shows **10%**. Add another eight gradient sliders and then follow the color and **Location** attributes shown in the following image. 
+
+(image: vinylIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your gradient filled shape stays selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your gradient filled shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone11.jpg)
+
+
+
+##Step 12
+
+Open the **Layers** panel and add a new layer using that plus button from the bottom of the panel. Make sure that your new layer lies in the top of the panel, select  it and then close the **Layers** panel. 
+
+(image: vinylIconiPhone12A.jpg)
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=210 G=160 B=110**. Using the **Ellipse Tool**, create a **50 px** circle and center it. Using the same tool, create a **20 px** circle and don't forget to center it. 
+
+(image: vinylIconiPhone12B.jpg)
+
+
+
+##Step 13
+
+Select the two circles made in the previous step, focus on the **Combine** pane and tap the **Subtract** button. In the end your shape should look like in the second image. 
+
+(image: vinylIconiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that the shape made in the previous step is still selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that the shape edited in the previous step is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. Select this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone15.jpg)
+
+
+
+##Step 16
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=200 G=135 B=77**. Using the **Ellipse Tool**, create a **30 px** circle and center it. Using the same tool, create a **10 px** circle and don't forget to center it. 
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select both shapes made in this step, focus on the **Combine** pane and tap the **Subtract** button. In the end things should look like in the fourth image. 
+
+(image: vinylIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Return to your Toolbar. This time make the **Fill** invisible and set the **Line** color to **R=35 G=30 B=25**. 
+
+Using the **Ellipse Tool**, create a **10 px** circle and center it. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **4 pt** and make sure that the **Alignment** is set to **Center**. 
+
+(image: vinylIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that the circle made in the previous step is still selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone18.jpg)
+
+
+
+##Step 19
+
+Open the **Layers** panel and add a new layer using that same plus button. Make sure that your new layer lies in the top of the panel, select  it and then close the **Layers** panel. 
+
+(image: vinylIconiPhone19A.jpg)
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=225 G=215 B=185**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **5**. Move your canvas, create a **150 x 150 px** shape and center it.
+
+(image: vinylIconiPhone19B.jpg)
+
+
+
+##Step 20
+
+Using the **Ellipse Tool**, create a **50 px** circle and place it as shown in the first image (the color attributes are not  important). Duplicate this new shape, select the copy and place it as shown in the second image. 
+
+(image: vinylIconiPhone20.jpg)
+
+
+
+##Step 21
+
+ Reselect the two circles made in the previous step along with your beige, rounded rectangle, focus on the **Combine** pane and tap the **Subtract** button. In the end things should look like in the second image. 
+
+(image: vinylIconiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your beige shape stays selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your beige shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your beige shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: vinylIconiPhone27.jpg)
+
+
+
+##Step 28
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=218 G=65 B=0**. 
+
+Using the **Rectangle Tool**, create an **85 px** square and place it as shown in the first image. Focus on the bottom side of this new shape and switch to the **Path Selection Tool**. Select the right anchor point and simply remove it using the **X** button from the left side of your Titlebar. 
+
+(image: vinylIconiPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your orange shape remains selected, pick the **Pen Tool**  and activate the **Add Points** mode. Focus on the top, right corner of your orange shape and simply add a new anchor point as shown in the first image. Switch to the **Path Selection Tool ** and keep focusing on your orange shape. Select the top, left anchor point and simply drag it **60 px** down. In the end things should look like in the second image. 
+
+(image: vinylIconiPhone29.jpg)
+
+
+
+##Step 30
+
+Return to your Toolbar, make sure that the **Line** is still invisible and then set the **Fill** color to **R=155 G=0 B=0**. 
+
+Focus on the top side of your orange shape and pick the **Rectangle Tool**. Create a **5 px** square and place it as shown in the first image. Keep focusing on this tiny shape and pick the **Path Selection Tool**. Select the top, left anchor point and remove it using that same **X** button. 
+
+(image: vinylIconiPhone30.jpg)
+
+
+
+##Step 31
+
+Focus on the bottom side of your orange shape and pick the **Rectangle Tool**. Create a new **5 px** square and place it as shown in the first image. Keep focusing on this new shape and pick the **Path Selection Tool**. Select the top, left anchor point and remove it using that same **X** button. 
+
+(image: vinylIconiPhone31.jpg)
+
+
+
+##Step 32
+
+Set the fill color to **R=246 G=182 B=131**, pick  the **Text Tool** and simply  double tap inside that new field. Select the **American Typewriter** font and make it **Bold**. Drag the  font size slider to **10** and then simply  add the &quot;_FOLK_&quot; piece of text. Rotate it, place it as shown in the following image and you're done.
+
+(image: vinylIconiPhone32.jpg)
+
+
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: vinylIconiPhone0.jpg)
+
+----
+
+Title: iPhone

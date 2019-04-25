@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="246" height="172" viewBox="0, 0, 246, 172">
+ <defs>
+ <filter id="dropshadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/> <!-- stdDeviation is how much to blur -->
+      <feOffset dx="2" dy="2" result="offsetblur"/> <!-- how much to offset -->
+	  <feFlood flood-color="#000"/>
+  	<feComposite in2="offsetblur" operator="in"/>
+  	<feMerge>
+  		<feMergeNode/>
+  		<feMergeNode in="SourceGraphic"/>
+  	</feMerge>
+ </filter>
+ </defs>
+ <g id="Layer_1" transform="translate(-104, -4.44)">
+    <g id="card">
+	  <g id="card-shadow" style="filter:url(#dropshadow)">
+         <path d="M105.5,167.545 L105.5,80.102 C105.5,77.561 107.561,75.5 110.102,75.5 L235.898,75.5 C238.439,75.5 240.5,77.561 240.5,80.102 L240.5,167.545 C240.5,170.087 238.439,172.148 235.898,172.148 L110.102,172.148 C107.561,172.148 105.5,170.087 105.5,167.545 z" fill="rgba(1, 1, 1, 0.15)" />
+      </g>
+	  <g id="card-back">
+        <path d="M105.5,167.545 L105.5,80.102 C105.5,77.561 107.561,75.5 110.102,75.5 L235.898,75.5 C238.439,75.5 240.5,77.561 240.5,80.102 L240.5,167.545 C240.5,170.087 238.439,172.148 235.898,172.148 L110.102,172.148 C107.561,172.148 105.5,170.087 105.5,167.545 z" fill="#FFFFFF" stroke="#000000" stroke-width="0.997"/>
+      </g>
+      <g>
+        <path d="M172.557,133.01 C168.365,128.714 163.795,125.894 159.4,123.196 C164.236,120.83 168.467,117.435 172.557,113.763 C176.613,117.692 180.95,120.736 185.51,123.184 C180.836,125.898 176.603,128.754 172.557,133.01 z" fill="#D40000" id="path3692"/>
+        <path d="M212.822,86.69 C211.105,84.93 209.233,83.775 207.432,82.669 C209.413,81.7 211.147,80.31 212.822,78.806 C214.484,80.415 216.26,81.662 218.128,82.665 C216.213,83.776 214.48,84.947 212.822,86.69 z" fill="#D40000" id="path3726"/>
+        <path d="M132.428,168.25 C130.711,166.49 128.839,165.335 127.038,164.229 C129.019,163.26 130.753,161.87 132.428,160.365 C134.09,161.975 135.866,163.222 137.734,164.225 C135.819,165.336 134.086,166.506 132.428,168.25 z" fill="#D40000" id="path3728"/>
+        <path d="M124.944,168.515 L123.759,168.515 L123.759,167.363 L111.086,164.911 L111.086,163.515 L123.759,160.813 L123.759,159.883 L124.944,159.883 L124.944,163.051 L123.759,163.051 L123.759,162.195 L121.817,162.536 L121.817,165.734 L123.759,165.981 L123.759,165.125 L124.944,165.125 z M120.435,162.81 L113.65,164.199 L120.435,165.501 z" fill="#D40000" id="path7183-2"/>
+        <path d="M220.056,78.133 L221.241,78.133 L221.241,79.285 L233.914,81.737 L233.914,83.132 L221.241,85.835 L221.241,86.765 L220.056,86.765 L220.056,83.597 L221.241,83.597 L221.241,84.453 L223.183,84.112 L223.183,80.914 L221.241,80.667 L221.241,81.523 L220.056,81.523 z M224.565,83.838 L231.35,82.449 L224.565,81.147 z" fill="#D40000" id="path7186-60"/>
+      </g>
+    </g>
+	<use xlink:href="#card" transform="rotate(10, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.11;0.111;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(20, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.13;0.131;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(30, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.15;0.151;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(40, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.17;0.171;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(50, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.19;0.191;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(60, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.21;0.211;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(70, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.23;0.231;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(80, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.25;0.251;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+	<use xlink:href="#card" transform="rotate(90, 245, 175)">
+			<animate attributeType="CSS" attributeName="opacity" values="0;0;1;1" keyTimes="0;.27;0.271;1" begin="0" dur="10s" fill="freeze" repeatCount="indefinite" />
+	</use>
+  </g>
+</svg>

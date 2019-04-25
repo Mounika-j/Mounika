@@ -1,0 +1,11 @@
+Title: Brushes
+
+----
+
+Text: 
+
+# Brushes
+
+Brush strokes can be added in Graphic using the _**Brush Tool**_ from the _**Toolbar**_ and the _**Brush pane**_ from the Appearance panel.
+
+(video: brushes1-iphone.mp4  width: 750)

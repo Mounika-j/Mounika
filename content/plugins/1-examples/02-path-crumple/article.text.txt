@@ -1,0 +1,16 @@
+Title: Path Crumple
+
+----
+Description: Apply a crumple effect to selected paths. Roughens the appearance of a path by applying random jitter to its anchor points.
+
+----
+Image: (image: Header.jpg title: Path Crumple)
+
+----
+Thumbnail: (image: Thumbnail.png title: Path Crumple)
+
+----
+Plugfile: (file: PathCrumple.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

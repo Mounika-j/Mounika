@@ -1,0 +1,36 @@
+Title: Create a Line Chart Design
+
+----
+
+Description: Learn how to create a line chart design using shapes and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Line Chart Design class: header960)
+
+----
+
+Thumbnail: linechartthumbnail2.jpg
+
+----
+
+Date: 2014-10-29
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: LineChart.idraw text: LineChart.idraw)
+
+----
+
+Graphicfile: linechart.idraw
+
+----
+
+Headerimg: header.jpg

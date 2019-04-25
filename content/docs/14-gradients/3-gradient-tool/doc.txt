@@ -1,0 +1,19 @@
+Title: Gradient Tool
+
+----
+
+Text: 
+
+# Gradient Tool
+
+Use the _**Gradient tool**_ to position the start and end points of a gradient fill relative to a shape’s bounds, changing the angle and spread of the gradient.
+
+Choose the _**Move tool**_ and double click on an object with a gradient fill to activate the _**Gradient Tool**_. The start and end points of the gradient will appear on the selected shape, and  _**Gradient Tool**_ will display as the selected tool in the _**Tool Options bar**_. 
+
+The gradient handles can be moved by simply dragging them. Hold down the **Shift ⇧** key while dragging to constrain the movement to 45˚ increments.
+
+(video: gradienttool1.mp4  width: 750)
+
+To reset the start and end points to their default positions, click the _**Reset Gradient**_ button in the _**Tool Options bar**_. 
+
+When finished, click anywhere on the canvas to end editing and revert to the _**Move tool**_.

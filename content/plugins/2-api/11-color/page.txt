@@ -1,0 +1,47 @@
+Title: Color
+
+----
+
+Text: 
+
+An RGB color object. New colors can be created using a **Document's** (link: api/document#addColor text: **addColor**) or (link: api/document#addColorWithRedgreenbluealpha text: **addColorWithRed: green: blue: alpha:**) functions.
+&nbsp;
+_Components_
+- (link: api/color#red text: **red**)
+- (link: api/color#green text: **green**)
+- (link: api/color#blue text: **blue**)
+- (link: api/color#alpha text: **alpha**)
+
+_Creating Copies_
+- (link: api/color#duplicate text: **duplicate**)
+
+<a name="alpha"></a>
+## alpha
+### _returns **Float**_; _settable_
+
+Gets / Sets the alpha component of the color. The alpha value is a float between 0 and 1.
+
+<a name="blue"></a>
+## blue
+### _returns **Integer**_; _settable_
+
+Gets / Sets the blue component of the color. RGB components are integers between 0 and 255.
+
+<a name="green"></a>
+## green
+### _returns **Integer**_; _settable_
+
+Gets / Sets the green component of the color. RGB components are integers between 0 and 255.
+
+<a name="red"></a>
+## red
+### _returns **Integer**_; _settable_
+
+Gets / Sets the red component of the color. RGB components are integers between 0 and 255.
+
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: api/color text: **Color**)_
+
+Creates and returns a duplicate of this color object.
+&nbsp;

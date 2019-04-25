@@ -1,0 +1,24 @@
+Title: Creating Folders
+
+----
+
+Text: 
+
+#Creating Folders
+
+Documents can be kept as separate files or grouped inside folders. To create a folder, drag one document on top of another. Tap and hold on a document’s thumbnail until it ‘pops up’ to begin dragging. When one document is being dragged on top of another, a dark outline will appear to show the drop target. Once you lift your finger, a new folder will be created with these two documents.
+
+(video: creatingfolders1-ipad.mp4 width: 750)
+
+Simply tap a folder to open it. New documents can be added inside a folder using the same tap, hold and drag technique. 
+
+To rename a folder, simply tap on its name and make the changes.
+
+(video: creatingfolders2-ipad.mp4 width: 750)
+
+
+To remove a document from a folder, tap and hold on the document’s thumbnail until it ‘pops up’. Drag it to the Titlebar and wait for the _**Move to parent folder**_ command. Once you lift your finger, the dragged document will be moved outside the folder. 
+
+(video: creatingfolders3-ipad.mp4 width: 750)
+
+>Note: Folders are automatically deleted once you remove all of the documents inside it.

@@ -1,0 +1,36 @@
+Title: Create a Weather App Interface
+
+----
+
+Description: Learn how to create a mobile weather app UI using images and icons...
+
+----
+
+Image: (image: header.jpg title: Create a Weather App Interface class: header960)
+
+----
+
+Thumbnail: weatherappinterfacethumbnail.jpg
+
+----
+
+Date: 2016-01-01
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**Graphic File:**
+(link: WeatherAppInterface.idraw text: WeatherAppInterface.idraw)
+
+----
+
+Graphicfile: weatherappinterface.idraw
+
+----
+
+Headerimg: header.jpg

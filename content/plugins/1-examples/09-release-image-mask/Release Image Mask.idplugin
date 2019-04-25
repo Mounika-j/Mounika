@@ -1,0 +1,50 @@
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var count = [shapes count]
+var didReleaseImage = false
+
+for(var i = 0; i < count; i++)
+{    
+    var shape = shapes[i];
+    
+    if([[shape fill] fillType] == "image")
+    {
+        releaseImageFill(shape)
+        didReleaseImage = true
+    }
+}
+
+if(!didReleaseImage)
+    [app showAlert:"Please select an object with an image fill to release the image."]
+
+function releaseImageFill(maskShape)
+{
+    var img = [[maskShape fill] image]
+    
+    if(img)
+    {
+        var cgImage = [img CGImage]
+        var size = CGSizeMake(CGImageGetWidth(cgImage), CGImageGetHeight(cgImage))
+        var newImg = [img duplicate]
+    
+        newImg.cropRect = CGRectMake(0, 0, 1, 1)    // reset the crop rect
+        newImg.opacity = 1
+        
+        // create a new path with the image bounds
+        var path = [doc addPath]
+        [path addMoveTo:CGPointMake(0, 0)]
+        [path addLineTo:CGPointMake(size.width, 0)]
+        [path addLineTo:CGPointMake(size.width, size.height)]
+        [path addLineTo:CGPointMake(0, size.height)]
+        [path addClose]
+    
+        // create a new path shape and set the image fill 
+        var newShape = [[maskShape layer] addPathShape:path]
+        [newShape fill].image = newImg
+        [newShape stroke].width = 0
+        newShape.position = [maskShape position]
+        
+        // remove the masked shape
+        [maskShape remove]
+    }
+}

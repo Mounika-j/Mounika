@@ -1,0 +1,427 @@
+Text: 
+
+In the following tutorial, you will learn how to create a clock app icon in Picta Graphic for iPad. 
+
+For starters, you will learn how to set up a simple grid and how to create a simple background. Taking full advatange of the Effects pane, you will learn how to add shading and subtle highlights for the main shape. 
+
+Using some thin text along with some basic vector shape building techiques, you will learn how to create a simplified grid and a tiny bell icon. Finally, you will learn how to create the clock hands and how to easily adjust them using the Rotate Tool. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+After the document is created, focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **680 px** and select **Pixels** for the base unit.
+
+(image: ClockAppIconiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: ClockAppIconiPad1B.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap  the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Pick the **Rectangle  Tool**, focus on your canvas and create a **680 px** square. Tap and drag, and then tap and hold with a second finger to easily create a square.
+
+Make sure that your square covers the entire canvas, keep it selected and tap the **Fill** color well from the **Toolbar**. Tap the **Gradient Fill** button to replace the fill color with a gradient. Be sure that the **Linear** gradient is selected, set the **Angle** to **-135 degrees** and then move to the gradient color stops. Tap the left one and set its color to **R=195 G=192 B=233**, and then tap the right one and set its color to **R=241 G=240 B=255**. 
+(image: ClockAppIconiPad2.jpg)
+
+
+
+##Step 3
+
+Tap the rightmost icon from your Titlebar to open the **Layers** panel. Double tap the name of the existing layer and rename it &quot;_Bg_&quot;. Using the plus button from the top, right corner of the pane, add a second layer. Rename it &quot;_Frame_&quot; and make sure that it stays selected, as the new objects you are about to create will go here.
+
+(image: ClockAppIconiPad3A.jpg)
+
+Pick the **Rounded Rectangle Tool** and set the **Radius** to **55**. Create a **256 x 256 px** shape and keep it selected. Focus on the right side of your Titlebar and tap the leftmost icon. Go to the **Effects** pane, select the fill and apply the linear gradient shown below. 
+
+(image: ClockAppIconiPad3B.jpg)
+
+
+##Step 4
+
+Make sure that your rounded rectangle is still selected, focus on the right side of your Titlebar and tap the middle icon. Tap the **Align Horizontal**  and the **Align Vertical**  commands from the **Arrange** pane to easily bring your selection in the center of the canvas. 
+
+(image: ClockAppIconiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stay selected, focus on the **Effects** pane and activate the existing **Drop Shadow** effect. 
+
+Drag the **Blur** slider to **0** and then tap the color well that stands for this effect. Set the color to **R=53 G=52 B=92** and drag the **Alpha** slider to **5%**. 
+
+(image: ClockAppIconiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a second **Drop Shadow** effect using that plus button and select it. Drag the **Blur** slider to **0**, enter **4 pt** in the **Y** box, and then tap the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **4%**. 
+
+(image: ClockAppIconiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a third **Drop Shadow** effect and select it. Drag the **Blur** slider to **0**, enter **6 pt** in the **Y** box, and then tap the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **3%**. 
+
+(image: ClockAppIconiPad7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a fourth **Drop Shadow** effect and select it. Drag the **Blur** slider to **0**, enter **10** pt in the **Y** box, and then tap the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **2%**. 
+
+(image: ClockAppIconiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a fifth **Drop Shadow** effect and select it. Drag the **Blur** slider to **20**, enter **10 pt** in the **Y** box, and then tap the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **15%**. 
+
+
+(image: ClockAppIconiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Shadow** effect and select it. Drag the **Blur** slider to **10**, enter **-10 pt** in the **Y** box, and then tap the color well that stands for this  effect. Set the color to **R=165 G=165 B=210** and be sure that the **Alpha** slider is set to **100%**. 
+
+(image: ClockAppIconiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Using that same plus button, add a second **Innner Shadow** effect and select it. Keep the **Blur** slider to **5**, enter **-5 pt** in the **Y** box, and then tap the color well that stands for this  new effect. Set the color to **R=216 G=212 B=240** and drag the **Alpha** slider  to **70%**. 
+
+(image: ClockAppIconiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Glow** effect. Drag it right above those the **Inner Shadow** effects and select it. Drag the **Blur** slider to **15** and then tap the color well that stands for this effect. Set the color to white and drag the **Alpha** slider to **50%**. Return to the **Effects** pane, tap the cogwheel icon that stands for this **Inner Glow** effect and change the **Blend Mode** to **Overlay**. 
+
+(image: ClockAppIconiPad12.jpg)
+
+
+
+##Step 13
+
+Pick the **Ellipse Tool** and create a **166 px** circle. Fill it with yellow and center it using the same **Align Horizontal**  and the **Align Vertical**  commands from the **Arrange** pane. 
+
+Using the same tool, create a **136 px** circle. Fill it with black and center it. 
+
+(image: ClockAppIconiPad13.jpg)
+
+
+
+##Step 14
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select your two circles, go to the **Combine** pane and tap the **Subtract** command. Fill the resulting shape with the linear gradient shown below. 
+
+(image: ClockAppIconiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your circle is still selected, focus on the **Effects** pane and select the existing **Stroke**. Make sure that the **Width** is set to **1 pt**, change the **Alignment**  to **Inside** and the **Blend** to **Soft Light**, and then tap the color well that stands for this **Stroke**. Be sure that the color is set to black and drag the **Alpha** slider to **20%**. 
+
+(image: ClockAppIconiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and select it. Change the **Blend Mode** to **Soft Light** and drag the **Blur** slider to **0**. Enter **1** in the **Y** box and then tap the color well that stands for this effect. Change the color to white and drag the **Alpha** slider to **60%**. 
+
+(image: ClockAppIconiPad16.jpg)
+
+
+
+##Step 17
+
+Pick the **Ellipse Tool** and create a **100 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIconiPad17.jpg)
+
+
+
+##Step 18
+
+Using the **Ellipse Tool**, create a **21 px** circle. Fill this new shape with **R=152 G=66 B=254** and place it about as shown in the following image. Make sure that it stays selected, focus on the **Effects** pane and apply the **Drop Shadow** effect shown below. 
+
+(image: ClockAppIconiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your purple circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIconiPad19.jpg)
+
+
+
+##Step 20
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **5 pt**. Create a **9 x 3 px** shape, fill it with **R=234 G=232 B=252** and place it about as shown in the first image. 
+
+Using the same tool, create a **5 x 8 px** shape and place it as shown in the second image. 
+
+(image: ClockAppIconiPad20.jpg)
+
+
+
+##Step 21
+
+Using  the **Ellipse Tool**, create a **3 px**  and a **1 px** circle. Fill both shapes with **R=234 G=232 B=252** and place them as shown in the following images. 
+
+(image: ClockAppIconiPad21.jpg)
+
+
+
+##Step 22
+
+Pick the **Rectangle Tool** and create a **5 x 1 px** shape. Fill it with **R=152 G=65 B=254** and place it as shown in the first image. Keep focusing on this tiny rectangle and pick the **Path Selection Tool**. Select the bottom, right anchor point and remove it using the **Delete** button from your **Titlebar**.
+
+Reselect the **Rectangle Tool** and create a another  **5 x 1 px** shape. Fill it with **R=152 G=65 B=254** and place it as shown in the third image. Switch back to the **Path Selection Tool** and delete top, left anchor point. In the end, things should look like in the fourth image. 
+(image: ClockAppIconiPad22.jpg)
+
+
+
+##Step 23
+
+
+Focus on the **Layers** panel and add a third layer. Name it &quot;**Grid&amp;Text**&quot; and select it. 
+
+Pick the **Ellipse Tool**, create a **4 px** circle and fill it with **R=147 G=144 B=202**. Center this new shape vertically using the **Align Vertical**  command from the **Arrange** pane and then drag it **10 px** below that purple-pink shape. Make a copy of this tiny circle or create a new one, center it vertically and drag it **10 px** above that purple-pink shape. 
+
+Create a third **4 px** circle and fill it with the same color. Center this shape horizontally using the **Align Horizontal**  command and drag it **10** left from that purple-pink shape. Make a copy of this circle and drag it **10 px** right  from that purple-pink shape. In the end, things should look like in the following image. 
+(image: ClockAppIconiPad23.jpg)
+
+
+
+##Step 24
+
+Select the four tiny circles and rotate them **45 degrees** using the **Rotate Tool**. Tap and and hold with a second finger on the canvas while dragging the selection to constrain the rotation to **15 degrees** increment. 
+
+(image: ClockAppIconiPad24.jpg)
+
+
+
+##Step 25
+
+Pick the **Type Tool** and double tap inside that new field. Select the **Helvetica Neue font**, change the style to **Thin** and set the size to **25 pt**. Type the &quot;_12_&quot; piece  of text and set its color to **R=146 G=144 B=202** . Place your text as shown in the first image and then add the other three pieces as shown in the second image. 
+
+(image: ClockAppIconiPad25.jpg)
+
+
+
+##Step 26
+
+Pick the **Ellipse Tool** and create a **30 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIconiPad26.jpg)
+
+
+
+##Step 27
+
+Focus on the **Layers** panel and add a fourth layer. Name it &quot;**Hands**&quot; and select it. 
+
+Using  the **Ellipse Tool**, create a **16 px** cirle, fill it with green and center it. Using the same tool, create a **6 px** green circle. Center it vertically and drag it **10 px** below the  top side of that purple-pink shape, as shown in the first image.
+
+Pick  the **Rectangle Tool** and create a **16 x 55 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select both anchor points and switch to the **Scale Tool**. Drag the selected anchor points **5 px** from outside to the inside as shown in the third image. 
+
+(image: ClockAppIconiPad27.jpg)
+
+
+
+##Step 28
+
+Select the yellow shape along with the two green circles and tap the **Union** command from the **Combine** pane. 
+
+(image: ClockAppIconiPad28.jpg)
+
+
+
+##Step 29
+
+Using  the **Ellipse Tool**, create a **16 px** cirle, fill it with blue and center it. Using the same tool, create a **6 px** blue circle. Center it vertically and drag it **4 px** above that purple-pink shape, as shown in the first image.
+
+Pick  the **Rectangle Tool** and create a **16 x 90 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select both anchor points and switch to the **Scale Tool**. Drag the selected anchor points **5 px** from outside to the inside as shown in the third image. 
+
+
+(image: ClockAppIconiPad29.jpg)
+
+
+
+##Step 30
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the yellow shape along with the two blue circles and tap the **Union** command from the **Combine** pane. 
+
+(image: ClockAppIconiPad30.jpg)
+
+
+
+##Step 31
+
+Using  the **Ellipse Tool**, create a **6 px** circle and fill it with red. Center this new shape vertically and then drag it **6 px** below the blue shape, as shown in the first image. Using the same tool, create a **2 px** red circle. Center it vertically and place it as shown in the first image. 
+
+Pick  the **Rectangle Tool** and create a **6 x 10 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select both anchor points and switch to the **Scale Tool**. Drag the selected anchor points **2 px** from outside to the inside as shown in the third image. 
+
+(image: ClockAppIconiPad31.jpg)
+
+
+
+##Step 32
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the yellow shape along with the two red circles and tap the **Union** command from the **Combine** pane. 
+
+(image: ClockAppIconiPad32.jpg)
+
+
+
+##Step 33
+
+Pick the **Ellipse Tool** and create a **16 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIconiPad33.jpg)
+
+
+
+##Step 34
+
+Pick the **Ellipse Tool**  and create a **6 px** circle. Center this new shape and fill it with white. Make sure that it stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIconiPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIconiPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIconiPad36.jpg)
+
+
+
+##Step 37
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Add a second **Inner  Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIconiPad37.jpg)
+
+
+
+##Step 38
+
+Pick the **Ellipse Tool** and create a **2 px** circle. Center this new shape and fill it with **R=87 G=87 B=87**.
+
+(image: ClockAppIconiPad38.jpg)
+
+
+
+##Step 39
+
+Select your red  shape and pick the **Rotate Tool**. Using a simple tap, move the reference point in the center of your canvas. Once you're done, simply tap and drag to rotate your selection **-285 degrees** as shown in the second image. 
+
+(image: ClockAppIconiPad39.jpg)
+
+
+
+##Step 40
+
+Make sure that your red shape is still selected and focus on the **Effects** pane. First, change the fill color to **R=237 G=110 B=97**, and then activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIconiPad40.jpg)
+
+
+
+##Step 41
+
+Select your blue shape and pick the **Rotate Tool**. Move the reference point in the center of the canvas and then rotate your selection **-60 degrees** as shown in the first image.
+ 
+Make sure that your blue shape stays selected and focus on the **Effects** pane. First, change the fill color to **R=105 G=103 B=140**, and then activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: ClockAppIconiPad41.jpg)
+
+
+
+##Step 42
+
+Select your green shape and pick the **Rotate Tool**. Move the reference point in the center of the canvas and then rotate your selection **-135 degrees** as shown in the first image. 
+
+Make sure that your green shape stays and focus on the **Effects** pane. First, change the fill color to **R=105 G=103 B=140**, and then activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: ClockAppIconiPad42.jpg)
+
+
+
+##Step 43
+
+Return to the **Layers** panel and select your &quot;_Bg_&quot; layer. Pick the **Rounded Rectangle Tool**  and set the  **Radius** to **75**. Create a **200 x 225 px** shape and place it as shown in the following image. Fill this  new shape with the linear gradient shown, move to the **Appearance** pane and drag that **Opacity** slider to **80%**. 
+
+(image: ClockAppIconiPad43.jpg)
+
+
+
+##Step 44
+
+Make sure that the shape made in the previous step is still selected and focus on the **Effects** pane. Activate the **Blur** effect, drag the **Blur** slider to **25**  and you're done. 
+
+(image: ClockAppIconiPad44.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: ClockAppIconiPad0.jpg)
+(image: ClockAppIconiPad0B.jpg)
+
+----
+
+Title: iPad

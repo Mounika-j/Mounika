@@ -1,0 +1,18 @@
+Title: Cutting Paths
+
+----
+
+Text: 
+
+#Cutting Paths 
+
+The _**Pen tool**_ can also be used to cut paths. The settings in the _**Tool Options bar**_ can be used to change the Pen tool from the default path creation mode, to the _**Cut Paths**_ mode.
+
+(image: cuttingpaths1.jpg  width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools.
+After choosing the _**Cut Paths**_ mode, simply click anywhere on the selected path to cut it.
+
+(video: cuttingpaths2.mp4 width: 750)
+
+> Tip: Use the **C** keyboard shortcut to select the **Pen tool** with the **Cut Paths** mode.

@@ -1,0 +1,17 @@
+Title: Pressure Sensitive Brushes
+
+----
+
+Text: 
+
+# Pressure Sensitive Brushes
+
+Pressure sensitivity determines the width variation of the brush that you are about to draw. It's done by applying  different pressure on the surface of a Graphics Tablet or the Force Touch Trackpad. 
+
+(image: pressuresensitivebrushes1.jpg width: 750)
+
+The drop-down menu next to the brush preview button gives you the possibility to enable or disable this feature. Select _**Use Pressure**_ to turn it on or _**Fixed Width**_ to turn it off. 
+
+(video: pressuresensitivebrushes2.mp4 width: 750)
+
+You can adjust the contour of a path after it's drawn using the _**Brush Settings pane**_.

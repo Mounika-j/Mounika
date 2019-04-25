@@ -1,0 +1,17 @@
+Title: Canvas
+
+----
+
+Text: 
+
+# Canvas
+
+The _**Canvas**_ is the visible area that defines a design. The size and other properties of the canvas can be changed at any time in the (link: docs/canvas/settings text: _**Canvas pane**_) from the Properties panel. 
+
+The grey area surrounding the canvas is non-printable ‘scratch’ space. Objects can overlap into this area, or they can be placed here while a design is being edited, however anything outside of the canvas will not be visible when printing or exporting the design.
+
+(image: canvas1.jpg width:750)
+
+You can view the canvas in a vector view where you have a sleek preview, or you can turn on (link: docs/canvas/view-modes text: _**Show Pixels**_) for an accurate pixel preview of your design.  
+
+The (link: docs/canvas/rulers text: _**Rulers**_), the (link: docs/canvas/grid text: _**Grid**_), the (link: docs/canvas/guides text: _**Guides**_) and the (link: docs/canvas/smart-guides text: _**Smart Guides**_) are all helpful when positioning and aligning objects on the canvas.

@@ -1,0 +1,23 @@
+Title: Managing Styles
+
+----
+
+Text: 
+
+### Saving a Style
+
+To save the appearance settings of a particular object as a style, first select the object. Tap the add button (**+**) at the top of the _**Styles pane**_. A new style item will appear in the _**Styles pane**_ matching the appearance settings of the selected object.
+
+(video: managingstyles1-iphone.mp4 width:750)
+
+### Applying a Style
+
+To apply a style to an object in your document, first select the target object. Next, tap the desired style in the _**Styles panel**_. The appearance of the selected object will change to match the picked style.
+
+(video: managingstyles2-iphone.mp4 width:750)
+
+### Removing a Saved Style
+
+To remove a saved style, tap the edit button, select the style that you wish to remove and then tap the _**Trash**_ button. You can select and delete several styles at the same time.
+
+(video: managingstyles3-iphone.mp4 width:750)

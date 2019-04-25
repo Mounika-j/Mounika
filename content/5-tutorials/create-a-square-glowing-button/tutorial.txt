@@ -1,0 +1,21 @@
+Title: Create a Square Glowing Button
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: glowingbutton.idraw
+
+----
+
+Description: Learn how to create a square glowing button using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

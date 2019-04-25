@@ -1,0 +1,29 @@
+Title: Stylizing Labels
+
+----
+
+Text: 
+
+# Stylizing Labels
+
+A label’s text font, size and style can be changed using the _**Text pane**_ from the Appearance panel. 
+
+(image: stylizinglabels1.jpg width:750)
+
+1. **Font** - Choose the font to be used for your label. Also, pick a style if the font allows it.
+
+2. **Font Size** - Set the font size to be used for the label.
+
+ (image: stylizinglabels2.jpg width:723)
+
+3. **Label** - Choose the text color. 
+
+4. **Border** - Set the color for the background. Set the color to **none** to make it invisible.
+
+ (image: stylizinglabels3.jpg width:723)
+
+5. **Margin** - The margin setting adjusts the size of the box bordering the text, adding space between the text and edges.
+
+6. **Corners** - Determines the roundness of the text box. Set this to **0 pt** if you wish to turn the background into a simple rectangle.
+
+ (image: stylizinglabels4.jpg width:723)

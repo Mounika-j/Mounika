@@ -1,0 +1,36 @@
+Title: Create an Image Slider UI
+
+----
+
+Description: Learn how to create an image slider interface element using shapes and effects...
+
+----
+
+Image: (image: header.jpg title: Create a Weather App Interface class: header960)
+
+----
+
+Thumbnail: imagesliderthumbnail.jpg
+
+----
+
+Date: 2015-01-01
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: ImageSlider.idraw text: ImageSlider.idraw)
+
+----
+
+Graphicfile: imageslider.idraw
+
+----
+
+Headerimg: imagesliderheader.jpg

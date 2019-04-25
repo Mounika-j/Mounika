@@ -1,0 +1,21 @@
+Title: Create a Nintendo Switch Illustration
+
+----
+
+Date: 2018-05-15
+
+----
+
+Graphicfile: nintendoswitch.idraw
+
+----
+
+Description: Learn how to create a Create a Nintendo Switch Illustration using vector shapes and effects...
+
+----
+
+Headerimg: nintendoswitchheader.jpg
+
+----
+
+Thumbnail: nintendoswitchthumbnail.jpg

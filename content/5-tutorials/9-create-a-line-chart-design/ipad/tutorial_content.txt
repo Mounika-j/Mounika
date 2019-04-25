@@ -1,0 +1,333 @@
+Text: 
+
+In the following tutorial you will learn how to create a neat line chart design in  Graphic for iPad. 
+
+For starters you will learn how to set up a simple grid and how to create the main shape using the Rounded Rectangle Tool. Next, you''ll learn how to ease your work with a simple script and the use of that Align stroke to pixel grid feature. Taking full advantage of the Effects pane, you will learn how how to create the colored lines. 
+
+Finally, you'll learn how to add a bunch of text and how to stylize it. 
+
+
+
+
+##Step 1
+
+First of all you need to install a new font. Download the [Ubuntu Mono Bold font](http://font.ubuntu.com/) and add it inside your Dropbox/iCloud folder. Focus on the left side of the **Titlebar** and tap the **Import** icon. Tap the option that you prefer and thne simply upload your Ubuntu Mono Bold font. 
+
+(image: lineChartiPad1.jpg)
+
+##Step 2
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled, for now.
+
+(image: lineChartiPad2A.jpg)
+
+Next, we'll set up the document grid. Switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: lineChartiPad2B.jpg)
+
+
+##Step 3
+
+Focus on the **Toolbar** and  notice that by default the fill color is set to white while the line color is set to black. 
+
+Tap the **Fill** color well and set its color to **R=54 G=54 B=65** and then then tap the **Line** color well and drag the **Alpha** slider to **0%**. This will simply make your line invisible. Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the **Radius** slider to **5**. Move to your canvas and create a **310 x 340 px** shape.
+
+(image: lineChartiPad3.jpg)
+
+
+
+##Step 4
+
+Return to your Toolbar, tap the **Fill** color and make it invisible and then tap the **Line** color, make it black (**R=0 G=0 B=0**) and drag the **Alpha** slider to **100%**. 
+
+Using the **Pen Tool** or the **Line Tool**, create a **220 px**, vertical path and place it exactly as shown in the following image. Make sure that it stays selected, focus on the right side of your Titlebar and tap  the leftmost icon. Move to the **Effects** pane and select the existing **Stroke**. Make sure that the **Width** is set to **1 pt**  and then check that **Round Cap** button. 
+
+(image: lineChartiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your vertical path is still selected, focus on the let side of your Titlebar and tap the paperclip icon to open the **Edit** pane. Use those **Copy** and **Paste** commands to easily duplicate your vertical path. Select the copy and place it exactly as shown in the first image. Leave a **20 px** gap between this copy and the original path. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+Create another eight copies and spread them exactly as shown in the second image. Make sure that there's always a **20 px** gap between each path. 
+
+(image: lineChartiPad5.jpg)
+
+
+
+##Step 6
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Select all your vertical paths and switch to the **Rotate Tool**. 
+
+Focus on the **Tool Options** pane, set the **Angle** to **90 degrees**  and then tap that **Copy** button. In the end things should look like in the second image. 
+
+(image: lineChartiPad6.jpg)
+
+
+
+##Step 7
+
+If you choose to export your design as an image you will notice that those horizontal and vertical lines end up looking pretty blurry. This  happens because the strokes applies for those lines are not perfectly aligned to the pixels grid.  To fix this issue, just go to the **Canvas** pane and activate that **Pixel-Align Strokes** feature. 
+
+(image: lineChartiPad7.jpg)
+
+
+##Step 8
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. 
+
+Select all your vertical and hotizontal paths, focus on the right side of your Titlebar and tap that rectangular icon. Move to the **Path** pane and  tap the **Outline Stroke** button and then switch to the **Combine** pane and  tap the **Union** button. Make sure that the resulting shape stays selected, open the **Effects** pane and simply replace the existing **Fill** color with **R=44 G=44 B=54**.
+
+(image: lineChartiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that the shape made in the previous step is still selected, focus on the **Effects** pane and check the  box that stands for the existing **Drop Shadow** effect to enable it. 
+
+Enter **1** in the **X** and **Y** boxes, drag the **Blur** slider to **0**  and then tap  the color well that stands for this effect. Drag the **Alpha** slider to **15%** and set the color to white (**R=255 G=255 B=255**). Keep focusing on the **Effects** pane and tap the  cogwheel icon that stands for your **Drop Shadow** effect. Tap **Blend Mode**, select the **Overlay** blend mode and then tap that **Done** button. 
+
+(image: lineChartiPad9.jpg)
+
+
+
+##Step 10
+
+Return to your **Toolbar**, tap the **Fill** color and drag the **Alpha** slider to **0%** and then tap the **Line** color, drag the **Alpha** slider to **100%** and set the color to **R=0 G=89 B=150**. 
+
+Pick the **Pen Tool**, create a simple path roughly as shown in the following image, make sure that it stays selected and focus on the **Effects** pane. Drag the  **Width** slider to **2 pt** and check the **Round Cap** button. 
+
+(image: lineChartiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your blue path stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: lineChartiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your blue path is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button located in the bottom, right corner of the pane. Select this new effect, make sure that it lies below the other **Drop Shadow** and then add the attributes shown in the following image. 
+
+(image: lineChartiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your blue path is still selected, keep focusing on the **Effects** pane and add a third  **Drop Shadow**. Place it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: lineChartiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your blue path is still selected, keep focusing on the **Effects** pane and add a fourth  **Drop Shadow**. Place it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: lineChartiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your blue path is still selected, keep focusing on the **Effects** pane and add a fifth  **Drop Shadow**. Place it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: lineChartiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your blue path is still selected, keep focusing on the **Effects** pane and activate the existing  **Inner Shadow**. Place it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: lineChartiPad16.jpg)
+
+
+
+##Step 17
+
+Select your blue path, open that **Edit** pane and this time tap the **Copy Style** commnad. Pick the **Pen Tool**, create a second path  roughly as shown in the first image, re-open that **Edit** pane and tap the  **Paste Style** command. 
+
+Make sure that your new path stays selected and focus on the **Effects** pane. First, select the **Stroke** and replace the existing color with **R=218 G=65 B=0** and then select the top **Drop Shadow** effect and replace the existing color with **R=178 G=25 B=0**. 
+
+(image: lineChartiPad17.jpg)
+
+
+
+##Step 18
+
+Reselect the **Pen Tool**  and create a third path as shown in the first image. Make sure that this new path stays selected, re-open that **Edit** pane and tap the **Paste Style** command. Move to the **Effects** pane, select the **Stroke** and replace the existing color with **R=20 G=145 B=72** and then select the top **Drop Shadow** effect and replace the existing color with **R=0 G=105 B=32**. 
+
+(image: lineChartiPad18.jpg)
+
+
+
+##Step 19
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Set the color to **R=83 G=83 B=94**, select the **DIN Condensed Bold** font and set the font size to **15** and then add your piece of text. 
+
+Using the **Move Tool**, select this little piece of text and place it as shown in the following image. Make sure that it stays selected and focus on the **Effect** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: lineChartiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your piece of text is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your piece of text is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your piece of text is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad22.jpg)
+
+
+
+##Step 23
+
+Make sure that your piece of text is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+(image: lineChartiPad23.jpg)
+
+
+
+##Step 24
+
+
+Get back to your **Toolbar**, make the **Fill** invisible and then set the **Stroke** color to **R=43 G=43 B=53**. 
+
+Using the **Line Tool**, create an oblique path as shown in the first image. Make sure that it stays selected, focus on the **Effects** pane and select the existing **Stroke**. Check the **Round Cap** button and make sure that the  **Width** slider is set to **1 pt** and then activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: lineChartiPad24.jpg)
+
+
+
+##Step 25
+
+Get back to your **Toolbar**, make the **Line**  invisible and set the **Fill** color to **R=83 G=83 B=94**. 
+
+Reselect the **Text Tool ** and use it to add the two letters shown in the first image. This time use the **Ubuntu Mono Bold** font with the size set to **10 pt**. Make sure that both letters are selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: lineChartiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your two letters are still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your two letters are still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad27.jpg)
+
+
+
+##Step 28
+
+Reselect the **Text Tool ** and use it to add the row and the column of numbers shown in the following image. Use the same font and color attributes used for the little letters. 
+
+(image: lineChartiPad28.jpg)
+
+
+
+##Step 29
+
+Reselect one of those two letters and tap the **Copy Style** command from **Edit** pane and then select all the numbers added in the previous step. Re-open the **Edit** pane and tap the **Paste Style** command. 
+
+(image: lineChartiPad29.jpg)
+
+
+
+##Step 30
+
+Reselect your rounded rectangle, focus on the **Effects** pane and make sure that the existing **Stroke** is active. First, tap  its color well, drag the **Alpha** slider to **100%** and set the color to **R=74 G=74 B=85**. Next, drag the **Width** slider to **2 pt** and tap the **Inside Alignment** button. 
+
+(image: lineChartiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a second **Stroke**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad31.jpg)
+
+
+
+##Step 32
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a third **Stroke**, select it and enter the attributes shown in the following image. 
+
+(image: lineChartiPad32.jpg)
+
+
+
+##Step 33
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow**, enter the attributes shown in the following image and drag this effect right above the bottom **Stroke**. 
+
+(image: lineChartiPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, enter the attributes shown in the following image and don't forget to drag this effect right above the bottom **Stroke**. 
+
+(image: lineChartiPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, enter the attributes shown in the following image and drag this effect right below the top **Stroke**. 
+
+(image: lineChartiPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, enter the attributes shown in the following image and drag this effect right below the **Fill**. 
+
+(image: lineChartiPad36.jpg)
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: lineChartiPad0.jpg)
+
+----
+
+Title: iPad

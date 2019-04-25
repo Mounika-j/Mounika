@@ -1,0 +1,25 @@
+Title: Graphic Tutorials
+
+----
+Author:
+
+----
+Description: Tutorials and Resources for Graphic
+
+----
+Logo: (image: assets/images/graphic_lockup.png width: 190px)
+
+----
+Follow:
+
+Follow us on (link: https://twitter.com/autodeskgraphic text: Twitter) for updates on new tutorials and sample designs.
+
+----
+Links:
+
+(link: http://www.graphic.com/mac/ text: Graphic for Mac) • (link: http://www.graphic.com/ipad/ text: Graphic for iPad) • (link: http://www.graphic.com/iphone/ text: Graphic for iPhone)
+
+----
+Copyright:
+
+©2010-(date: Year) Picta Inc. All Rights Reserved • Graphic is a trademark of Picta Inc.

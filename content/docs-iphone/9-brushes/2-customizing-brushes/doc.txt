@@ -1,0 +1,21 @@
+Title: Customizing Brushes
+
+----
+
+Text: 
+
+# Customizing Brushes
+
+The _**Brush pane**_ allows you to apply a calligraphic brush to any path object’s stroke. You can apply one of the preset calligraphic brushes or create a new one.
+
+(image: customizingbrushes1-iphone.jpg width: 750)
+
+1. **Saved Brushes** - Select one of the saved brushes with a simple tap. If objects are selected, the chosen brush will be applied to those object’s strokes.
+
+2. **Brush Editor** - Use the Brush Editor to edit and customize brushes. Edit a brush manually by dragging the blue circular handles to change its angle and roundness, or edit the brush numerically by inputting values into the brush parameter fields.
+
+3. **Roundness** - This setting determines the roundness of the brush. Higher values create a rounder brush, while lower values create a flatter brush.
+
+4. **Angle** - The brush angle refers to the angle of rotation of the brush. 0˚ will create a horizontal brush, 90˚ will create a vertical brush.
+
+5. **Diameter** - The elliptical diameter of the brush. The thickness of a stroke will be determined by the stroke’s line weight and the brush diameter.

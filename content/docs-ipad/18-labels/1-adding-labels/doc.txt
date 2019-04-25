@@ -1,0 +1,38 @@
+Title: Adding Labels
+
+----
+
+Text: 
+
+# Adding Labels
+
+Labels can be added on any type of shape or path. Select your shape/path and go to the _**Label pane**_ from the Appearance panel.
+
+(image: addinglabels1-ipad.jpg width:750)
+
+1. **Label** - Set the type of label. A label can be set to display a _**dimension**_ value (of the parent object’s length, width, height, or area), or any text. Dimension values are displayed based on the current settings for units and scale from the (link: docs-ipad/canvas/settings text: _**Canvas pane**_). 
+ Choosing _**Text**_ allows you to set a custom label by typing the desired text into a text field.   
+ Choosing **None** will remove any previously set label.  
+
+
+ (video: addinglabels2-ipad.mp4 width:723)
+
+2. **Dimension Value** - Choose the dimension value to be displayed between: _**Length**_, _**Width**_, _**Height**_ or _**Area**_.
+
+3. **Location** - Set the location of the label along the shape.
+
+ (video: addinglabels3-ipad.mp4 width:723)
+
+4. **Offset** - Set the perpendicular offset of the label from the path. 
+
+ (video: addinglabels4-ipad.mp4 width:723)
+
+5. **Alignment** - Set the alignment of the label relative to the path. Open the popup menu and choose between: _**Horizontal**_, _**Vertical**_, _**Parallel**_, _**Perpendicular**_ and _**Centered**_.
+ 
+ (image: addinglabels5-ipad.jpg  width:723)
+
+6. **Units** - Adjust the visibility of the units of measurement using the _**Show units**_ checkbox. The unit value can only be changed from the (link: docs-ipad/canvas/settings text: _**Canvas pane**_).
+
+7. **Precision** - Set the level of precision of your dimension labels. You can trim the unnecessary zeros using the _**Trim zeros**_ checkbox.
+
+8. **Text Style** - Change label’s text font, size and style or add and stylize a box bordering the label text.

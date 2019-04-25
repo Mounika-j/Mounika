@@ -1,0 +1,17 @@
+Title: Animated GIF Import
+
+----
+Description: Import an animated GIF file. The animation frames are imported as separate layers in a new document.
+
+----
+Image: (image: Header.jpg title: Animated GIF Export)
+
+----
+Thumbnail: (image: Thumbnail.png title: Animated GIF Import)
+
+----
+Plugfile: (file: AnimatedGIFImport.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

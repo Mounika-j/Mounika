@@ -1,0 +1,36 @@
+Title: Create a Glowing Power Button
+
+----
+
+Description: Learn how to create a glowing power button UI element...
+
+----
+
+Image: (image: Header.jpg title: Create a Power Button class: header960)
+
+----
+
+Thumbnail: powerbuttonthumbnail2.jpg
+
+----
+
+Date: 2014-08-11
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: PowerButton.idraw text: PowerButton.idraw)
+
+----
+
+Graphicfile: powerbutton.idraw
+
+----
+
+Headerimg: powerbuttonheader.jpg

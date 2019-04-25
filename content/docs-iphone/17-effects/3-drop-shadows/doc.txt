@@ -1,0 +1,21 @@
+Title: Drop Shadows
+
+----
+
+Text: 
+
+# Drop Shadows
+
+The _**Drop Shadow **_ effect is used to add a shadow effect and to adjust its color, offset and blur. Changes are applied to the currently selected objects. 
+
+Tap any effect to get access to its properties.  As with the other attributes, multiple _**Drop Shadow**_ effects can be added to an object.
+
+(image: dropshadows1-iphone.jpg width:750)
+
+1. **Color** - Set the color of the effect and its transparency.
+
+2. **Edit** - Tap this button to duplicate, remove, edit or change the blending mode of the effect.
+
+3. **Offset** - The X and Y offset correspond to the distance from the object, X represents the horizontal axis while Y represents the vertical axis.
+
+4. **Blur** - Set the amount of blur that should be added for this effect. A higher blur value will result in a larger and blurrier shadow.

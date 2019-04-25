@@ -1,0 +1,36 @@
+Title: Create an iMac Illustration
+
+----
+
+Description: Learn how to create a realistic iMac illustration using shapes and effects...
+
+----
+
+Image: (image: header.jpg title: Create an iMac Illustration class: header960)
+
+----
+
+Thumbnail: maciconthumbnail.jpg
+
+----
+
+Date: 2014-12-01
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**Graphic File:**
+(link: iMacIllustration.idraw text: iMacIllustration.idraw)
+
+----
+
+Graphicfile: 
+
+----
+
+Headerimg: macheader.jpg

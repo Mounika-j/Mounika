@@ -1,0 +1,362 @@
+Text: 
+
+In the following tutorial you will learn how to create a set of flat weather icons in  Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to create a cloud shape using basic tools and vector shapes building techniques.Taking full advantage of the Snap to Grid feature and using some simple stroke techniques, you will learn to create most of the icons. 
+
+Finally, you will learn how to create a flat background, how to center it and how to add a subtle shadow to your icons. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: weatherIconsiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: weatherIconsiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: weatherIconsiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=74 G=196 B=237** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible. 
+
+Pick the **Ellipse Tool**, move to your canvas and  create a **40 px** circle - the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: weatherIconsiPhone2.jpg)
+
+
+
+##Step 3
+
+Replace the existing **Fill** color with **R=225 G=200 B=0**, make sure that the **Ellipse Tool**  is still active, create a **60 px** circle and place it as shown in the first image. 
+
+Replace that yellow from the **Fill** color with **R=44 G=164 B=15**, create a **30 px** circle and place it as shown in the second image. 
+
+Switch to the **Rectangle Tool** and set the **Fill** color to black (**R=0 G=0 B=0**). Create a **60 x 20 px** rectangle and place it as shown in the third image.
+
+(image: weatherIconsiPhone3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool**, select all the shapes made so far, go to the **Combine** pane from the **Properties** panel and simply tap that **Union** button. You will end up with a  blue, cloud shape like the one shown in the second image. 
+
+Make sure that this  shape stays selected and tap and hold to open that context menu. First, tap the **Copy** command, and then reopen that context menu and tap the **Paste** command to duplicate your cloud shape. Select the copy, drag it down and place it roughly as shown in  the second image. 
+
+(image: weatherIconsiPhone4.jpg)
+
+
+
+##Step 5
+
+Return to your Toolbar, this time make sure that the **Fill**  is invisible and then set the **Line** color to black (**R=0 G=0 B=0**).
+
+Focus on your bottom cloud shape and pick the **Ellipse Tool**. Create a **40 px** circle and place it as shown in the following image. Make sure that this new shape stays selected, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. Move to the **Effects** pane and tap the existing **Stroke**. Drag that **Width** slider to **6 pt** and check the **Inside Alignment** button
+
+(image: weatherIconsiPhone5.jpg)
+
+
+
+##Step 6
+
+Pick the **Pen Tool** or the **Line Tool**, create a **10 px**, vertical path and place it as shown in the following image. Make sure that this new path stays selected and focus on the **Effects** pane. Tap the **Stroke**, drag the  **Width**  slider to **6 pt** and don't forget to check that **Round Cap** button. 
+
+(image: weatherIconsiPhone6A.jpg)
+
+
+
+##Step 7
+
+Make sure that your vertical path is still selected, pick the **Rotate Tool** and you will notice an tiny cross icon in the center of your selection, that's the reference point. Move it in the center of your circle (simply tap in that spot) and then focus on the **Tool Options** pane. Set the Angle to **45 degrees** and simply hit that **Copy** button seven times.
+
+(image: weatherIconsiPhone7A.jpg)
+
+In the end, things should look like in the following image.
+
+(image: weatherIconsiPhone7B.jpg)
+
+
+
+
+##Step 8
+
+Pick the **Path Selection Tool**, focus on the tool pane and activate the **Add to Selection** mode. Select the black shapes that make up your sun and duplicate them using the same **Copy** and **Paste** commands from that context menu. Make sure that only the copies are selected, drag them to the right as shown in the first image and then go to the **Path Tools** pane. Tap the **Outline Stroke** button and then move to the **Combine** pane and tap the **Make**  button.  The resulting compound path will be your first icon. 
+
+(image: weatherIconsiPhone8.jpg)
+
+
+
+##Step 9
+
+Pick the **Path Selection Tool** and be sure that the **Add to Selection** mode is still active. Reselect the black shapes that make up your sun and go to the **Path Tools ** pane. Tap the **Outline Stroke** button and then move to the **Combine** pane and tap the **Make ** button. 
+
+(image: weatherIconsiPhone9.jpg)
+
+
+
+##Step 10
+
+Select the blue, cloud shape that lies behind that  sun shape and simply tap and hold to open that context menu. First, tap the **Copy** command, and then reopen that context menu. This time tap the **Paste in Place** command to easily add a copy of your selection in the same place. 
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active.  Select the cloud shape copy made a few moments ago along with the sun shape that lies behind it, go to  the **Combine** pane and tap that **Subtract** button. Select the tiny, black shape highlighted in the third image and simply remove it using the **X** button located in the left side of your Titlebar. 
+
+(image: weatherIconsiPhone10.jpg)
+
+
+
+##Step 11
+
+Reselect your blue cloud and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Drag the **Width** slider to **6 pt**, tap the **Inside** **Alignment** and the  **Round Join** buttons and then tap the color well that stands for this **Stroke**. Make sure that the color is set to black and drag that **Alpha** slider to **100%**. 
+
+(image: weatherIconsiPhone11.jpg)
+
+
+
+##Step 12
+
+Reselect that cloud icon with the black stroke, go to the **Path Tools**  pane and tap the **Outline Stroke** button. Select the resulting path along with the set of shapes that make up that half of a sun and go to the **Combine** pane. Start by tapping the **Union** button and then move to the bottom of the pane and tap that **Make**  button. The resulting compound path will be your second icon. 
+
+(image: weatherIconsiPhone12.jpg)
+
+
+
+##Step 13
+
+Select the remaining blue icon and focus on the **Effects** pane. Make the **Fill** invisible and then select that **Stroke**. Set its color to black, drag the **Width** slider to **6 pt** and then tap the **Inside** **Alignment** and the  **Round Join** buttons. Make sure that this shape stays selected, focus on the **Path Tools ** pane and tap the **Outline Stroke**  button. The resulting compound path will be your third icon. 
+Duplicate this shape and drag the copy to the right roughly as shown in the following image. 
+
+(image: weatherIconsiPhone13.jpg)
+
+
+
+##Step 14
+
+Return to your Toolbar, make sure that the **Fill**  is invisible and then set the **Line** color to **R=74 G=195 B=237**. Focus on your right cloud icon and pick the **Pen Tool** or the **Line Tool**.
+
+Create a **30 px**, vertical path and place it as shown in the first image. Select this tiny, new path, focus on the **Effects** pane and select the **Stroke**.  Drag  **Width** slider to **6 pt** and check the **Round Cap** button. 
+
+(image: weatherIconsiPhone14A.jpg)
+
+Make sure that your vertical path stays selected, go to the **Properties** panel and open the **Geometry** pane. Focus on the newly opened pane and set the rotation **Angle** to **25 degrees.** In the end things should look like in the following image. 
+
+(image: weatherIconsiPhone14B.jpg)
+
+
+
+##Step 15
+
+Reselect your blue path, open the **Appearance** pane and that that **Copy Style** command. Using the  **Pen Tool**, create another two vertical paths. One should be **20 px** long and the other  should measure **25 px**. 
+
+Make sure that both shapes are selected, place them as shown in the following images and re-open the **Appearance** pane. Simply tap the **Paste Style** command to quickly apply the attributes of your original, blue path. Once you're done, select these two paths one by one and rotate them **25 degrees** as you did in the previous step. 
+
+(image: weatherIconsiPhone15.jpg)
+
+
+
+##Step 16
+
+Reselect the three, oblique paths and focus on the **Path Tools** pane. Tap the **Outline Stroke**  button and then move to the **Combine** pane and tap that **Make**  button. 
+
+(image: weatherIconsiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your blue compound path is still selected and add a copy in the same place. 
+
+Make sure that only this copy stays selected and go to the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and then tap the **Outside Alignment** button. Make sure that this compound path stays selected, move to the **Path Tools** pane from the **Properties** panel and simply tap the **Outline Stroke** button. 
+
+(image: weatherIconsiPhone17.jpg)
+
+
+
+##Step 18
+
+Select your red compound path along with the black shape that lies behind it, focus on the **Combine** pane and tap that **Subtract** button. 
+
+(image: weatherIconsiPhone18.jpg)
+
+
+
+##Step 19
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and focus on the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make** button. The resulting compound path will be your fourth icon.
+
+(image: weatherIconsiPhone19.jpg)
+
+
+
+##Step 20
+
+Duplicate your cloud shape and select the copy. Drag it down and place it roughly as shown in the following image. 
+
+(image: weatherIconsiPhone20.jpg)
+
+
+
+##Step 21
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=74 G=186 B=237**.
+
+Focus on the bottom cloud shape and pick the **Rounded Rectangle Tool**. Move to the newly opened tool pane and drag that  **Radius** slider to **3**. Create a **5 x 25 px** rounded rectangle and place it as shown in the first image. 
+
+(image: weatherIconsiPhone21A.jpg)
+
+Make sure that your blue, rounded rectangle is still selected and pick the **Rotate Tool**. Set the **Angle** to **45 degrees** and then click that **Copy** button three times.
+
+(image: weatherIconsiPhone21B.jpg)
+
+
+
+##Step 22
+
+Select your blue, rounded rectangles, go to the **Combine**  pane from the **Properties** panel and tap that **Union** command. Duplicate the resulting shape, select the copy and place it as shown in the second image. Select both shapes made in this step and turn them into a new compound path.
+
+(image: weatherIconsiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your blue compound path is still selected and add a copy in the same place. 
+
+Select this copy and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and tap that **Outside Alignment** button. With this red shape still selected, move to the **Path** pane and simply tap the **Outline Stroke** button. 
+
+(image: weatherIconsiPhone23.jpg)
+
+
+
+##Step 24
+
+Reselect your red compound path along with the  black shape that lies behind it, focus on the **Combine** pane and tap the **Subtract** button. 
+
+(image: weatherIconsiPhone24.jpg)
+
+
+
+##Step 25
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and focus on the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make** button. The resulting compound path will be your fifth icon. 
+
+(image: weatherIconsiPhone25.jpg)
+
+
+
+##Step 26
+
+Make one final copy of  your cloud shape and place it below that sun icon roughly as shown in the following image. 
+
+(image: weatherIconsiPhone26.jpg)
+
+
+
+##Step 27
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=74 G=186 B=237**. 
+
+Keep your eyes on the cloud shape copy added in the previous step and pick the **Rectangle Tool**. Create a **15 x 5 px** shape, place it as shown in the first image and make sure that it stays selected. Switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Add Points** mode. Keep focusing on your tiny, blue rectangle and add two  anchor points simply by tapping in the highlighted spots. 
+
+(image: weatherIconsiPhone27.jpg)
+
+
+
+##Step 28
+
+Keep focusing on your blue rectangle and switch to the **Path Selection Tool**. Select the top, left anchor point and drag it **15 px** up and **15 px** to the right. Move to the bottom, right anchor point and drag it **15 px** down and **15 px** to the left. In the end your blue shape should look like in the second image. 
+
+Make sure that it stays selected, go to the **Effects** pane and focus on that **Stroke**. Drag the  **Width**  to **6 pt**, check the **Round Join** button and add the same color used for the **Fill**. 
+
+(image: weatherIconsiPhone28.jpg)
+
+
+
+##Step 29
+
+Reselect your blue shape, focus on the **Path Tools** pane from the **Properties** panel and tap that **Outline Stroke** button. Make sure that the resulting shapes are selected and re-open the **Properties** pane. First, tap the **Ungroup** command and then go to the **Combine** pane and tap that **Union** button. 
+
+(image: weatherIconsiPhone29.jpg)
+
+
+
+##Step 30
+
+Duplicate your blue shape and place the copy in the same place. 
+
+Make sure that the copy of your blue shape is  selected and focus on the **Effects** pane. Remove the color from the **Fill** and then select the **Stroke**. Set its color to **R=153 G=0 B=0**, drag the **Width** slider to **4 pt** and then tap that **Outside Alignment** button. Make sure that this red shape stays selected, move to the **Path Tools** pane and simply tap that **Outline Stroke** button.
+
+(image: weatherIconsiPhone30.jpg)
+
+
+##Step 31
+
+Reselect your red compound path along with the black shape that lies behind it, go to the **Combine**  pane and tap that **Subtract** button. 
+
+(image: weatherIconsiPhone31.jpg)
+
+
+
+##Step 32
+
+Using the **Move Tool**, select all the shapes highlighted in the first image and go to the **Combine** pane. First, tap the **Union** button and then move to the bottom of the pane and tap that **Make** button. The resulting compound path will be your final icon.
+
+(image: weatherIconsiPhone32.jpg)
+
+
+
+##Step 33
+
+Using the **Rectangle Tool**, create a **600 x 740 px** shape  and set its **Fill** color to **R=74 G=196 B=237**. Make sure that this new rectangle stays selected, open the **Properties** panel and go to the **Align** pane. Simply tap the  **Horizontal**  and  **Vertical** buttons to quickly center your rectangle.
+
+(image: weatherIconsiPhone33A.jpg)
+
+Now, you need to send your blue rectangle in the back, behind all your icons. Make sure that it's still selected, open the **Properties** pane, go to the **Arrange** pane and  simply drag that slider to the left. 
+
+(image: weatherIconsiPhone33B.jpg)
+
+
+##Step 34
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select all your   icons and replace the existing **Fill** color with white (**R=255 G=255 B=255**).
+
+(image: weatherIconsiPhone34.jpg)
+
+
+
+##Step 35
+
+Make sure that all your  icons are still selected, keep focusing on the **Effects** pane and simply  check the  box that stands for the existing **Drop Shadow** effect to activate it. 
+
+Enter **2 pt** in the **Y** box and **0** in the other two boxes and then  tap the color well that stands for your effect. Make sure that the color is set to black (**R=0 G=0 B=0**) and  drag that **Alpha** slider to **50%**. Return to the **Effects** pane and tap the cogwheel icon that stands for  your **Drop Shado effect.** Tap **Blend Mode** and then  select **Soft Light** from that list.
+
+(image: weatherIconsiPhone35.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: weatherIconsiPhone0.jpg)
+
+----
+
+Title: iPhone

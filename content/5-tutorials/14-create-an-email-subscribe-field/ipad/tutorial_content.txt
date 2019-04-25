@@ -1,0 +1,302 @@
+Text: 
+
+In the following tutorial you will learn how to create an email subscribe field in  Graphic for iPad. 
+
+For starters, you will learn how to setup a simple grid and how to create a tiny envelope icon using basic tools and vector shape building techniques. Using mostly the Rounded Rectangle Tool and the Effects pane, you will create the main pieces of your subscribe field. 
+
+Finally, you will learn how to add some simple pieces of text and and how to stylize them. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: subscribeFieldiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: subscribeFieldiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=50 G=50 B=55** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to **2**. Move to yor canvas and simply create a **16 x 12 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: subscribeFieldiPad2.jpg)
+
+
+
+##Step 3
+
+Using the **Pen Tool** or the **Line Tool**, create a **16 px**, horizontal path and place it exactly as shown in the following image. Make sure that this new path stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Focus on the **Stroke** attributes, make sure that the **Width** is set to **1 pt** and then set the color to **R=255 G=201 B=0**. 
+
+Make sure that your yellow path remains seelcted, pick the **Pen Tool**, focus on the newly opened **Tool Options** pane and activate the **Add Points** mode. Return to your  canvas and simply tap in the middle of your yellow path to add a new anchor point, as shown in the second image. 
+
+Using the **Move Tool**, reselect your entire yellow path and tap the paperclip icon from the left side of your **Titlebar** to open the **Edit** pane. Use the **Copy** and **Paste** commands to duplicate your yellow path, select the copy and place it exactly as shown in the third image. 
+
+(image: subscribeFieldiPad3.jpg)
+
+
+
+##Step 4
+
+Pick the **Path Selection Tool** and  focus on your top, yellow path. Select the middle anchor point and drag it **6 px** down. 
+
+Move to your bottom, yellow path, select the middle anchor point and drag it **7 px** up. In the end things should look like in the second image. 
+
+(image: subscribeFieldiPad4.jpg)
+
+
+
+##Step 5
+
+Reselect the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. This mode will allow you to easily select or add new shapes to an existing selection using a simple tap. 
+
+Select both yellow paths and  tap that middle icon from the right side of your **Titlebar**. Go to the **Path** pane and simply tap the **Outline Stroke** button. 
+
+(image: subscribeFieldiPad5.jpg)
+
+
+
+##Step 6
+
+Select your top yellow shape and add a copy in the same place using the **Copy** and **Paste in Place** commands from that **Edit** pane. 
+
+Switch to the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select the copy made a few moments ago along with the bottom, yellow shape, tap the **Subtract** button from the **Combine**  pane and you will end up with the three yellow shapes highlighted in the second image. 
+
+(image: subscribeFieldiPad6.jpg)
+
+
+
+##Step 7
+
+Using the **Move Tool**, select only the shape highlighted in the first image and get rid of it using the **X** button from the left side of your **Titlebar**. Select the remaining yellow shapes and simply tap the **Union** button from **Combine** pane. 
+
+(image: subscribeFieldiPad7.jpg)
+
+
+
+##Step 8
+Select all the shapes made so far and focus on the **Combine** pane. First, tap the **Subtract** button and then tap that **Make Compound Path** button. 
+
+Move to  the right side of your **Titlebar** and  tap the rightmost icon to open the **Layers** pane. Tap  the name of the existing layer and simply rename it &quot;_icon_&quot;. Keep focusing on the **Layers** pane and tap the plus icon from the top, right corner of the panel to add a second layer. Make sure this new layer stays selected, as the new shapes you are about to create will go here. Close the **Layers** panel.
+
+(image: subscribeFieldiPad8.jpg)
+
+
+
+##Step 9
+
+For the next steps you will need a grid every **10 px**. This simply means that you need to return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **10 px** for both **Spacing** boxes. Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=60 G=60 B=65**.
+
+Pick the **Rectangle Tool** and  create a **600 px** square. Make sure that this new shape stays selected, focus on the **Arrange** pane and  tap the **Align Horizontal** and **Align Vertical**  buttons. This will simply  bring your square in the center of the canvas. 
+
+(image: subscribeFieldiPad9.jpg)
+
+
+
+##Step 10
+
+Pick the **Rounded Rectangle Tool** and drag that   **Radius** slider to **5**. Move to your canvas and create a **300 x 70 px** shape. Make sure that this new shape stays selected and focus on the **Effects** pane. 
+
+Tap the color well that stands for the **Fill** and then  tap the **Gradient Fill** and **Linear** buttons. Set the **Angle** to **90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=40 G=40 B=45** and then select the right one and set its color to **R=45 G=45 B=50**. 
+
+(image: subscribeFieldiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **5 pt** in the **Y** box, **0 pt** in the **X** box and drag that **Blur** slider to **10 pt** and then tap the color well that stands for this effect. Make sure that the color is set to black (**R=0 G=0 B=0**) and drag the **Alpha** slider at **25%**. Return to the **Effects** pane and tap the cogwheel icon that stands for your **Drop Shadow** effect. Tap **Blend Mode**, select **Soft Light** from that list and then tap that **Done** button. 
+
+(image: subscribeFieldiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image.
+
+(image: subscribeFieldiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using the plus button located in the bottom, right corner of the pane. Select this new effects, make sure that it lies below that other **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and select the  **Stroke**. 
+
+Drag it below those active effects and set the **Alignment**  to **Inside**. Make sure that the **Width** slider is set to **1 pt** and then tap the color well that stands for your **Stroke**. Replace the existing color with **R=40 G=40 B=45** and drag the **Alpha** slider to **100%**. 
+
+(image: subscribeFieldiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Select this new **Stroke**, drag it below the other one and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad15.jpg)
+
+
+
+##Step 16
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=40 G=40 B=45**.
+
+Pick the **Rounded Rectangle Tool**  and set the **Radius** to **2**. Create a **160 x 30 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy.
+
+(image: subscribeFieldiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle is selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and select the existing **Stroke**. Drag it below those active effects and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke**. Select this new **Stroke**, drag it below the other one and then enter the attributes shown below. 
+
+(image: subscribeFieldiPad20.jpg)
+
+
+
+##Step 21
+
+Return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes. Open the **Layers** pane, select your &quot;_icon_&quot; layer and drag it above the other layer. Make sure that your &quot;_icon_&quot; layer stays selected and pick the **Move Tool**. 
+
+Select your envelope icon and place it roughly as shown in the first image. Make sure that it stays selected  focus on the **Effects** pane. Activate the existing **Drop  Shadow** effect and enter the attributes shown in the following image.
+
+(image: subscribeFieldiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your envelope icon is still selected and keep focusing on the **Effect** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad22.jpg)
+
+
+
+##Step 23
+
+
+Return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **10 px** in both **Spacing** boxes. 
+
+Pick the **Rounded Rectangle Tool** and make sure that  the **Radius** slider is still set to **2 pt**. Move to your canvas, create a **90 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and focus on the **Effects** pane. Tap the **Fill** color well and then tap the **Gradient Fill** and **Linear** buttons. Set the angle to **90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=0 G=195 B=0** and then select the right one and set its color to **R=0 G=125 B=0**. 
+
+(image: subscribeFieldiPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your green, rounded rectangle is still selected and focus on the **Effects** pane. Activate that  **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Select the  **Stroke**, drag it below that  **Inner Shadow** effect and then enter the attributes shown in the following image.
+
+(image: subscribeFieldiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that  **Drop Shadow**, drag it below the **Stroke**  and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your green, rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, drag it below that other **Drop Shadow**  and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that  **Inner Glow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that  **Outer Glow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad29.jpg)
+
+
+
+##Step 30
+
+Pick the **Text Tool** and double tap inside that new field. Select the **DIN Alternate Bold**  font, set the size to **8 pt** and the spacing to **1** and then tap that color well. Replace the existing color with **R=43 G=43 B=48** and then  add your &quot;_SUBSCRIBE_&quot;  piece of text. 
+
+Using the **Move Tool**, select your piece of text and place it as shown in the following image. Make sure that it stays selected and focus on the **Effects** pane. Activate that **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPad30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: subscribeFieldiPad0.jpg)
+
+----
+
+Title: iPad

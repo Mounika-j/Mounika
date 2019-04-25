@@ -1,0 +1,342 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat contacts book icon in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Next, you will learn how to add color and subtle effects for these shapes using mostly the Effects pane. Finally, you will learn how to add some simple text for your design.
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a **600 x 600 px** document. Go to **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **600** pixels wide by **600** pixels high and then click **Choose** to create your document. 
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **5**, set the **Subdivisions** to **0** and don't forget to enable **Snap to Grid** — all these features will make your work easier.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and the  **Command + Shift + '** keyboard shortcuts. 
+
+(image: contactsBook1.jpg)
+
+
+
+##Step 2
+
+Focus on your **Toolbar**, click  the **Fill** color well and set the  color to **R=181 G=137 B=65** . Click the **Stroke** color well and drag the **Alpha** slider to **0%**  to simply make your **Stroke** invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag the **Corner Radius** slider to **10 pt**. 
+
+Move to your canvas and create a **130 x 135 px** shape — the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: contactsBook2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and  set the **Fill** color to **R=29 G=119 B=180**. 
+
+Reselect the **Rounded Rectangle Tool (Shift + M)**, create a **130 x 50 px** shape and place it exactly as shown in the following image. Use the grid that lies in the back as a reference. 
+
+(image: contactsBook3.jpg)
+
+
+
+##Step 4
+
+Make sure that your blue, rounded rectangle is selected and add a copy in the same place using the **Command + C &gt; Command + Shift + V** keyboard shortcut. 
+
+Using the **Move Tool (V)**, select this copy and drag it **5 px** up as shown in the following image. Holding the **Shift** key, select both blue shapes. Go to the **Path Tools** pane from the **Properties** panel and click the **Subtract** command. The resulting shape should look like in the second image. 
+
+(image: contactsBook4.jpg)
+
+
+
+##Step 5
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and  set the **Fill** color to **R=255 G=185 B=0**. 
+
+Using the **Rectangle Tool (M)**, create a **15 px** square and place it as shown in the following image. 
+
+(image: contactsBook5.jpg)
+
+
+
+##Step 6
+
+Reselect your yellow square along with the blue shapes, focus on the **Path Tools** pane and click the **Subtract** command. The resulting blue shape should look like in the second image. 
+
+(image: contactsBook6.jpg)
+
+
+
+##Step 7
+
+Duplicate your blue shape using the **Command + C &gt; Command + V** keyboard shortcut, select the copy and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+(image: contactsBook7.jpg)
+
+
+
+##Step 8
+Get back to your **Toolbar**. This time make  the **Fill**  invisible and set the **Stroke** color to **R=29 G=119 B=180**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, create a **25 x 20 px** shape and place it as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane from the **Appearance** panel – click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want.
+
+Click  the existing **Stroke** to expand it, drag that **Width** slider to **5 pt** and set the **Position** to **Inside**. 
+
+(image: contactsBook8.jpg)
+
+
+
+##Step 9
+
+Make sure that the rounded rectangle made in the previous step is still selected, focus on the **Path Tools** pane and click the **Outline Stroke** command. 
+
+Get back to your **Toolbar**, make the **Stroke**  invisible and then choose a random yellow for the fill. 
+
+Pick the **Rectangle Tool (M)**, create a **15 x 20 px** shape and place it as shown in the second image. 
+
+(image: contactsBook9.jpg)
+
+
+
+##Step 10
+
+Select the two shapes highlighted in the first image, focus on the **Path Tools** pane and click the **Subtract** command. The resulting shape should look like in the second image. 
+
+(image: contactsBook10.jpg)
+
+
+
+##Step 11
+
+Select your three, blue shapes, go to the **Path Tools** pane and click the **Union** command. In the end your blue shape should look like in the second image. 
+
+(image: contactsBook11.jpg)
+
+
+
+##Step 12
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to white (**R=255 G=255 B=255**). 
+
+Using the **Rounded Rectangle Tool (Shift + M)**, create a **100 x 45 px** shape and place it as shown in the first image. Add a copy of this new shape in the same place (**Command + C &gt; Shift + Command + V**) and then drag it **10 px** up as shown in the second image. 
+
+Select both shapes made in this step, focus on the **Path Tools** pane and click the **Subtract** command. Your resulting shape should look like in the third image. 
+
+(image: contactsBook12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and  choose a random color for the **Fill**. 
+
+Using the **Rectangle Tool (M)**, create a **15 px** square and place it as shown in the first image. Select this tiny square along with your white shape, focus on the **Path Tools** pane and click the **Subtract** command.
+
+(image: contactsBook13.jpg)
+
+
+
+##Step 14
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color at white. 
+
+Using the **Rounded Rectangle Tool (Shift + M)**, create a **50 x 10 px** shape and place it as shown in the first image. Select this rounded rectangle along with the other white shape, focus on the **Path Tools** pane and click the **Union** command. 
+
+Move to the **Layers** pane, expand the existing layer and simply drag your white shape below the blue one. 
+
+(image: contactsBook14.jpg)
+
+
+
+##Step 15
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to black (**R=0 G=0 B=0**). 
+
+Pick the **Rectangle Tool (M)**, create a **25 x 135 px** shape and place it as shown in the first image. Select your brown rounded rectangle and add a copy in the same place (**Command + C &gt; Shift + Command + V**). 
+
+Select this fresh copy along with your black rectangle, focus on the **Path Tools** pane and click the **Intersect** command. In the end your black shape should look like in the third image. 
+
+(image: contactsBook15.jpg)
+
+
+
+##Step 16
+
+Make sure that your black shape is still selected and focus on the **Effects** pane. Drag that **Opacity** slider to **50%** and set the **Blend Mode** to **Soft Light**. 
+
+Move to the **Layers** pane, expand the existing layer and drag your black shape below the blue  and  the white ones. 
+
+(image: contactsBook16.jpg)
+
+
+
+##Step 17
+
+Get back  to your **Toolbar**, make sure that the **Stroke** is invisible and that the **Fill** color is set to black. 
+
+Using the **Rectangle Tool (M)**, create a **25 x 20 px** shape and place it as shown in the first image. Select your blue shape and add a copy in the same place (**Command + C &gt; Shift + Command + V**). Select this copy along with the black rectangle made a few moments ago. Go to the **Path Tools** pane and click the **Intersect** command. 
+
+Make sure that your newly made shape stays selected and focus on the **Effects** pane. Drag the **Opacity** slider to **50%** and set the **Blend Mode** to **Soft Light**. 
+
+(image: contactsBook17.jpg)
+
+
+
+##Step 18
+
+Select your blue shape and focus on the **Effects** pane from the **Appearance** panel. 
+
+First, click the color well of the **Fill** and replace the existing color with **R=171 G=127 B=56**. Next, check the  checkbox of the existing **Inner Shadow** effect to activate it. Enter **0 pt** in the **X** box and **-2 pt** in the **Y** box and drag that **Size** slider to **0 pt**. Change the **Blend Mode** to **Soft Light**  and then click the color well that of this effect. Drag the **Alpha** slider to **10%** and make sure that the color is set to black.
+
+(image: contactsBook18.jpg)
+
+
+
+##Step 19
+
+Select your white shape and focus on the **Effects** pane. First, click that **Fill** color well and replace that white with **R=185 G=185 B=187**. 
+
+Next, activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBook19.jpg)
+
+
+
+##Step 20
+
+Make sure that your grey shape is still selected and keep focusing on the **Effects** pane from the **Appearance** panel. Simply right click on the existing **Inner Shadow** effect and go to **Duplicate**. 
+
+Select the newly added effect, expand it and  enter the attributes shown in the following image. 
+
+(image: contactsBook20.jpg)
+
+
+
+##Step 21
+
+Make sure that your grey shape is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner Shadow** effect.
+
+Select the newly added effect and  enter the attributes shown in the following image. 
+
+(image: contactsBook21.jpg)
+
+
+
+##Step 22
+
+Make sure that your grey shape is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner Shadow** effect. 
+
+Select the newly added effect and enter the attributes shown in the following image. 
+
+(image: contactsBook22.jpg)
+
+
+
+##Step 23
+
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and then choose a random blue for the **Fill**. Pick the **Rounded Rectangle Tool (Shift + M)**, create a **25 x 10 px** shape and place it as shown in the first image. 
+
+Get back to your **Toolbar** and replace the existing **Fill** color with a random yellow. Switch to the **Rectangle Tool (M)**, create a **10 px** square and place it as shown in the second image. 
+
+(image: contactsBook23.jpg)
+
+
+
+##Step 24
+
+Select the two shapes made in the previous step, focus on the **Path Tools** pane and click the **Subtract** command. Your resulting blue shape should look like in the second image. 
+
+Make sure that it stays selected and focus on the **Effects** pane. Simply uncheck the  checkbox of the existing **Fill** to make it invisible. Activate the  **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBook24.jpg)
+
+
+
+##Step 25
+
+Select your brown rounded rectangle and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image.
+
+(image: contactsBook25.jpg)
+
+
+
+##Step 26
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: contactsBook26.jpg)
+
+
+
+##Step 27
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and  set the **Fill** color to **R=214 G=150 B=0**. Using the **Rounded Rectangle Tool (Shift + M)**, create a **10 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBook27.jpg)
+
+
+
+##Step 28
+
+Return to your **Toolbar** and replace the existing **Fill** color with **R=48 G=181 B=79**. Using the **Rounded Rectangle Tool (Shift + M)**, create a new, **10 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBook28.jpg)
+
+
+
+##Step 29
+
+Duplicate your green rounded rectangle (**Command + C &gt; Command + V**) and select the copy. Place it as shown in the following image and replace the green with **R=79 G=181 B=217**.
+
+(image: contactsBook29.jpg)
+
+
+
+##Step 30
+
+Duplicate your blue rounded rectangle (**Command + C &gt; Command + V**) and select the copy. Place it as shown in the following image and replace the blue with **R=200 G=200 B=198**.
+
+Make sure that this grey rounded rectangle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: contactsBook30.jpg)
+
+
+
+##Step 31
+
+Reselect the four rounded rectangles made in the last four steps and simply hit **Shift + Command + [** to send them to back.
+
+(image: contactsBook31.jpg)
+
+
+
+##Step 32
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Select the **Arial Rounded MT Bold** font and set the **Size** to **45 pt**, and then and then simply click on your canvas. 
+
+Add that &quot;_@_&quot; symbol, make sure that the color is set to **R=155 G=105 B=40** and place it roughly as shown in the following image. 
+
+(image: contactsBook32.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: contactsBook0.jpg)
+
+----
+
+Title: Mac

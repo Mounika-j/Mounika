@@ -1,0 +1,27 @@
+Title: Layers
+
+----
+
+Text: 
+
+## Layers
+
+Layers offer the ability to manage and organize complex designs easily, by separating a large design into sections of related objects. 
+
+Each layer is like a sheet of transparent paper drawn on top of the layers below it. Layers are drawn as a ‘stack’, with the layer at the bottom of the list drawn first and each following layer drawn on top of the previous one.
+
+The _**Layers panel**_ on the right side of the document window can be used to select, create, rename, duplicate, delete, arrange or merge layers.
+
+(image: layers1.jpg  width: 750)
+
+### Working with Multiple Layers
+
+When a document has more than one layer, you can choose the layer you wish to edit by selecting it. The currently selected layer is shown in blue in the Layers panel, and is the active layer; newly created objects will be added to this layer, and the objects in this layer can be selected and modified. To select a different layer, simply click on it in the Layers panel.
+
+Layers can be toggled between hidden and visible using the visibility checkbox (to the right of the layer’s thumbnail). Layers can also be toggled between locked and unlocked using the lock icon (to the left of the visibility checkbox). Objects inside a locked layer can't be selected and locked layers can't be deleted. Additionally, separate objects inside a layer can also be be toggled between hidden and visible or locked and unlocked. 
+
+Choose **Arrange > Lock** [**⌘** - **L**] from the menu bar to lock a selected object or **Arrange > Unlock** [**⇧** - **⌘** - **L**] to unlock it. Choosing **Arrange > Unlock All** [**⌥** - **⌘** - **L**] from the menu bar will unlock all locked objects/layers from your document. 
+
+(video: layers2.mp4  width: 750)
+
+Layers offer the ability to create unique effects through the use of their (link: docs/layers/blending-layers text: _**opacity and blending mode settings**_). These settings determine how a layer will blend with the layers below it.

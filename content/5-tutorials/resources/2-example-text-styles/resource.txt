@@ -1,0 +1,33 @@
+Title: Example Text Styles
+
+----
+
+Description: Various text style examples created using Graphic's Appearance Effects…
+
+----
+
+Headerimg: Header.jpg
+
+----
+
+Thumbnail: Thumbnail.jpg
+
+----
+
+Date: 2013-08-06
+
+----
+
+Categories: Mac, Appearance, Text
+
+----
+
+Text: Appearance Effects can be applied to text objects in Graphic to create a variety of different text styles. This example Graphic document includes several text styles created using a combination of fills, strokes, shadows and glow effects.
+
+----
+
+Graphicfile: TextStyles.idraw
+
+----
+
+Credits: **Author:** (link: http://wirb-einfach.de text: Grischa Seiwert)

@@ -1,0 +1,19 @@
+Title: Importing Documents
+
+----
+
+Text: 
+
+# Importing Documents
+
+Documents can be easily imported from iTunes, Dropox or iCloud Drive. Tap the _**Import**_ button from the _**Titlebar**_, pick the desired import method,  select the document to be imported, and then tap the _**Import**_ button.
+
+(video: importingdocuments1-ipad.mp4 width: 750)
+
+Besides Graphic files, you can import PSD, AI, SVG, PDF, JPG, PNG, GIF, TIFF files, (link: docs-iphone/shape-libraries/managing-shape-libraries#import-shapes text: _**shape libraries**_) or even (link: docs-ipad/preferences/settings#fonts text: _**fonts**_) . Imported fonts can be managed from the (link: docs-ipad/preferences/settings text: _**Settings menu**_).
+
+(image: importingdocuments2-ipad.jpg width: 750)
+
+PSD, AI, PDF or SVG files can be imported as fully editable vectors. To import a PDF file as vector, select _**Import as Vector Objects**_ from the pop-up window.
+
+(video: importingdocuments3-ipad.mp4 width: 750)

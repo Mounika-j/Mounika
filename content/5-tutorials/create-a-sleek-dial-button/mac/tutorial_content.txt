@@ -1,0 +1,303 @@
+Text: 
+
+In the following tutorial you will learn how to create a neat dial button in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid, how to create a flat background and how to easily center it. Using several circles, linear gradients and a bunch of strokes and effects you will learn how to create your own dial button. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Choose **File &gt; New (Command + N)** to bring up the **New Document** pane. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can click on the  ruler icon above the **Layers** pane to show and hide the pane. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0**, and enable **Snap to Grid (Command + Shift + ')**.
+
+(image: dialButton1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. 
+
+Click on the fill color wheel and set the fill color to **R=240 G=238 B=238**. Next, click on the stroke color wheel and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Pick the **Rectangle Tool (M)**, focus on your canvas and create a **600 px** square. Holding the **Shift** button will make it a lot easier for you to create a perfect square. Also, the grid and the **Snap to Grid** feature will ease your work.
+
+(image: dialButton2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected, move to the **Alignment** pane from the **Properties** panel and simply click the **Horizontal Centers** and **Vertical Centers** buttons to bring your square in the center of the canvas. 
+
+(image: dialButton3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and then set the **Fill** color at **R=209 G=255 B=185**. 
+
+Using the **Ellipse Tool (O)**, create a **170 px** circle and place it in the center of your canvas. 
+
+(image: dialButton4.jpg)
+
+
+
+##Step 5
+
+Make sure that your circle stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can click on the leftmost icon located above the **Layers** panel to show and hide this pane. 
+
+Focus on the existing **Stroke**, drag the **Width** slider to **2 pt**, select **Inside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu and then then simply click the color wheel that stands for your **Stroke**. 
+
+Drag the **Alpha** slider to **50%** and make sure that the color is set at black (**R=0 G=0 B=0**).
+
+(image: dialButton5.jpg)
+
+
+
+##Step 6
+
+Make sure that your circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of your pane. 
+
+Select this new **Stroke**, make sure that it lies below the other one and then enter the attributes shown in the following image. 
+
+(image: dialButton6.jpg)
+
+
+
+##Step 7
+
+Make sure that your circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and simply check the little box that stands for the existing **Inner Glow** effect to activate it. 
+
+Drag this effect between your two **Strokes** and then enter the attributes shown in the following image. 
+
+(image: dialButton7.jpg)
+
+
+
+##Step 8
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and don't bother changing the **Fill** color. 
+
+Using the **Ellipse Tool (O)**, create a **160 px** circle and place it as shown in the following image. Make sure that this new circle stays selected, focus on the **Effects** pane from the **Appearance** panel and select the existing **Fill**. 
+
+Select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then move to the gradient sliders. 
+
+Select the left one and set its color at **R=156 G=156 B=153** and then select the right one and se its color at **R=246 G=246 B=243**. Simply click on the gradient bar and you will get a new gradient slider. Select it, set the color at **R=206 G=206 B=203** and drag it to the left until the **Location** tooltip shows **20%**. Add a fourth gradient slider, set its color at **R=226 G=226 B=223** and position it at **40%**. 
+
+(image: dialButton8.jpg)
+
+
+
+##Step 9
+
+Make sure that your newest circle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: dialButton9.jpg)
+
+
+
+##Step 10
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using that same plus button. 
+
+Select this new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: dialButton10.jpg)
+
+
+
+##Step 11
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and activate the existing **Drop Shadow**. 
+
+Select this new effect, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: dialButton11.jpg)
+
+
+
+##Step 12
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Drop Shadow**  using that same plus button. 
+
+Select this new effect, drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButton12.jpg)
+
+
+
+##Step 13
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton13.jpg)
+
+
+
+##Step 14
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a fourth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton14.jpg)
+
+
+
+##Step 15
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a fifth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pame from the **Appearance** panel and add a sixth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and activate the existing  **Inner Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and activate the existing  **Outer Glow**. 
+
+Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: dialButton18.jpg)
+
+
+
+##Step 19
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and don't mess  the **Fill** color. 
+
+Using the **Ellipse Tool (L)**, create a **150 px** circle and place it as shown in the following image. Make sure that this new shape stays selected, focus on the **Effects** pane from the **Appearance** panel. 
+
+Select that **Fill** and replace the existing color with the  **Linear Gradient** shown in the following image. 
+
+(image: dialButton19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest circle is still selected and keep focusing on the **Effects** pane from the **Appearance** panes. 
+
+Activate the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButton20.jpg)
+
+
+
+##Step 21
+
+Make sure that your newest circle is still selected and keep focusing on the **Effects** pane from the **Appearance** panel. 
+
+Activate the existing **Inner  Shadow**, drag it above the **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButton21.jpg)
+
+
+
+##Step 22
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and don't mess with the **Fill** color.
+
+ Using the **Ellipse Tool (L)**, create a **20px** circle and place it as shown in the following image. 
+ 
+Make sure that your tiny, new shape stays selected and focus on the **Effects** pane from the **Appearance** panel. Select the **Fill** and replace the existing color with the **Linear Gradient** shown in the following image. 
+(image: dialButton22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: dialButton23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny circle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: dialButton24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: dialButton25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: dialButton26.jpg)
+
+
+
+##Step 27
+
+Make sure that your tiny circle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButton27.jpg)
+
+
+
+##Step 28
+
+Make sure that your tiny circle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButton28.jpg)
+
+
+
+##Step 29
+
+Finally, feel free to try a different border color for your dial button. Simply select the largest circle, focus on the **Effects** pane from the **Appearance** panel and replace the existing **Fill** color with the one that you prefer.
+
+(image: dialButton29.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: dialButton0.jpg)
+
+----
+
+Title: Mac

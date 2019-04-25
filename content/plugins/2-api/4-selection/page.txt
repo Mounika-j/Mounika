@@ -1,0 +1,172 @@
+Title: Selection
+
+----
+
+Text: 
+
+The selection object represents a (link: plugins/api/document text: **Document's**) collection of currently selected shapes, which can be edited together as a group.
+&nbsp;
+_Shapes_
+- (link: plugins/api/selection#shapes text: **shapes**)
+
+_Position / Size_
+- (link: plugins/api/selection#position text: **position**)
+- (link: plugins/api/selection#size text: **size**)
+- (link: plugins/api/selection#bounds text: **bounds**)
+- (link: plugins/api/selection#visibleBounds text: **visibleBounds**)
+
+_Applying Transforms_
+- (link: plugins/api/selection#rotate text: **rotate:**)
+- (link: plugins/api/selection#scaleXy text: **scaleX: y:**)
+- (link: plugins/api/selection#shearXy text: **shearX: y:**)
+- (link: plugins/api/selection#translateXy text: **translateX: y:**)
+
+_Bounding Box_
+- (link: plugins/api/selection#transformOrigin text: **transformOrigin**)
+- (link: plugins/api/selection#boundingBoxRotation text: **boundingBoxRotation**)
+
+<a name="bounds"></a>
+## bounds
+### _returns **CGRect**_
+
+Gets the geometric bounding box of the selection.
+&nbsp;
+#### Example: scales the selection by 150%, anchored at the top left corner of the selection's bounding box
+
+```
+var selection = [[app activeDocument] selection]
+selection.transformOrigin = [selection bounds].origin
+[selection scaleX:1.5 y:1.5]
+
+```
+<a name="boundingBoxRotation"></a>
+## boundingBoxRotation
+### _returns **Float**_; _settable_
+
+Gets / Sets the selection's bounding box rotation in degrees. A selection's bounding box is shown rotated when all of the shapes within the selection have the same rotation applied. This property can be adjusted to change or reset the bounding box rotation.
+&nbsp;
+#### Example: reset the selection's bounding box
+
+```
+var selection = [[app activeDocument] selection]
+selection.boundingBoxRotation = 0
+
+```
+<a name="position"></a>
+## position
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the position of the selection. The position is the top left corner of the selection's bounding box.
+&nbsp;
+#### Example: move to the selection to the top left corner of the canvas
+
+```
+var selection = [[app activeDocument] selection]
+selection.position = CGPointMake(0, 0)
+
+```
+<a name="rotate"></a>
+## rotate:
+### _input **Float**_
+
+Rotate the selection by the passed-in angle in degrees. 
+&nbsp;
+#### Example: rotates the selection 15 degrees
+
+```
+var selection = [[app activeDocument] selection]
+[selection rotate:15]
+
+```
+<a name="scaleXy"></a>
+## scaleX: y:
+### _input **Float**_; _input **Float**_
+
+Scale the selection by the passed-in x and y values. A value of 1 is equal to 100% scale. 
+&nbsp;
+#### Example: scale the selection by 50%
+
+```
+var selection = [[app activeDocument] selection]
+[selection scaleX:0.5 y:0.5]
+
+```
+<a name="shapes"></a>
+## shapes
+### _returns **Array**_
+
+Gets the array of shapes in the selection. These are the same shapes as returned by the (link: plugins/api/document text: **Document's**) (link: plugins/api/document#selectedShapes text: **selectedShapes**) function.
+&nbsp;
+#### Example: deselects all of the currently selected shapes
+
+```
+var selection = [[app activeDocument] selection]
+var shapes = [selection shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+	shapes[i].selected = false
+
+```
+<a name="shearXy"></a>
+## shearX: y:
+### _input **Float**_; _input **Float**_
+
+Shear the selection by the passed-in x and y values. Each value is given in degrees. 
+&nbsp;
+#### Example: shear the selection horizontally by 45 degrees
+
+```
+var selection = [[app activeDocument] selection]
+[selection shearX:45 y:0]
+
+```
+<a name="size"></a>
+## size
+### _returns **CGSize**_; _settable_
+
+Gets / Sets the size of the selection's bounding box. Changing this property will scale the shapes in the selection to fit the new size.
+&nbsp;
+#### Example: double the width and height of the selection
+
+```
+var selection = [[app activeDocument] selection]
+var size = [selection size]
+selection.size = CGSizeMake(size.width * 2, size.height * 2)
+
+```
+<a name="transformOrigin"></a>
+## transformOrigin
+### _returns **CGPoint**_; _settable_
+
+Get / Set the origin point used when applying transforms to the selection. This origin point is user-visible when one transform tools is selected (Rotate, Scale, Shear). The origin point can be set to rotate, scale, or shear the selection relative to a specific point on the canvas.
+&nbsp;
+#### Example: rotate the selection -45 degrees, anchored at the bottom right corner of the selection's bounding box
+
+```
+var selection = [[app activeDocument] selection]
+var bounds = [selection bounds]
+var x = bounds.origin.x + bounds.size.width
+var y = bounds.origin.y + bounds.size.height
+selection.transformOrigin = CGPointMake(x, y)
+[selection rotate:-45]
+
+```
+<a name="translateXy"></a>
+## translateX: y:
+### _input **Float**_; _input **Float**_
+
+Move the selection by the passed-in x and y values. 
+&nbsp;
+#### Example: move the selection 20 pixels to the left
+
+```
+var selection = [[app activeDocument] selection]
+[selection translateX:-20 y:0]
+
+```
+<a name="visibleBounds"></a>
+## visibleBounds
+### _returns **CGRect**_
+
+Gets the visible bounding box of the selection. This bounding box is large enough to include the stroke widths and other appearance effects applied to each selected shape.
+&nbsp;

@@ -1,0 +1,33 @@
+Title: Dark UI Kit
+
+----
+
+Description: A collection of dark interface elements, including buttons, sliders, scrollbars, etc.
+
+----
+
+Headerimg: Header.jpg
+
+----
+
+Thumbnail: Thumbnail.png
+
+----
+
+Date: 2013-08-27
+
+----
+
+Categories: Mac, UI, Icon
+
+----
+
+Text: A collection of dark user interface elements, including buttons, sliders, scrollbars, and form entry fields.
+
+----
+
+Graphicfile: DarkUIKit.idraw
+
+----
+
+Credits: **Author:** (link: http://dribbble.com/meidenberg text: Mikael Eidenberg)

@@ -1,0 +1,13 @@
+Title: Paths
+
+----
+
+Text: 
+
+# Paths
+
+Paths can be added in Graphic using the paths tools from the _**Toolbar**_. Create freehand paths, line paths, elliptical paths or even shapes.
+
+(image: paths1-ipad.jpg width: 750)
+
+Some of these tools have customizable settings that can be adjusted in the _**Tool pane**_. Choose a tool with customizable settings and the _**Tool pane**_ will pop at the bottom of the screen.

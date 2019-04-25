@@ -1,0 +1,34 @@
+Title: Toolbar
+
+----
+
+Text: 
+
+## Toobar
+
+The toolbar on the left side of the document window allows you to choose between the various drawing and editing tools available in Graphic. 
+
+(image: toolbar1.jpg width: 750)
+
+Using the different tools you can:
+
+Select, position, rotate or resize objects using the (link: docs/adjusting-objects/moving-objects text: _**Move tool**_).
+
+Edit paths, anchor points, and curves using the (link: docs/paths/editing-path-points text: _**Path Selection tool**_) and the (link: docs/paths/converting-path-points text: _**Convert Anchor tool**_).
+
+Create new paths using the (link: docs/paths/creating-paths text: _**Pen tool**_), the (link: docs/brushes/creating-brushes text: _**Brush tool**_), the (link: docs/paths/freehand-paths text: _**Pencil tool**_), the (link: docs/shapes/lines text: _**Line tool**_) or the (link: docs/shapes/arcs text: _**Arc tool**_).
+
+Create text boxes or text fields using the (link: docs/text/creating-text text: _**Text tool**_).
+
+Create new shapes using the (link: docs/shapes/creating-rectangles text: _**Rectangle tool**_), the (link: docs/shapes/creating-rounded-rectangles text: _**Rounded Rectangle tool**_), the (link: docs/shapes/ellipses text: _**Ellipse tool**_), the (link: docs/shapes/polygons text: _**Polygon tool**_) and the (link: docs/shapes/stars text: _**Star tool**_).
+
+(link: docs/adjusting-objects/scaling-objects text: _**Scale**_), (link: docs/adjusting-objects/rotating-objects text: _**rotate**_), or (link: docs/adjusting-objects/slanting-objects text: _**slant**_) objects using the transform tools.
+
+Pan and zoom the canvas using the (link: docs/canvas/navigating-canvas text: _**Hand tool**_) and the (link: docs/canvas/navigating-canvas#zoom text: _**Zoom tool**_).
+
+Below the tools are the (link: docs/colors text: _**Fill**_) and (link: docs/colors text: _**Stroke**_) color wells, which can be used to set the current stroke and fill settings. Selecting an object will show you it's fill and stroke attributes. If the selected object has more that one Fill/Stroke the color wells will only show the attributes of the front Fill/Stroke. 
+
+To select and use a tool simply click on its icon in the Toolbar. The name of the currently selected and active tool is shown in the indicator above the Toolbar. 
+
+> Tip: Quickly switch between the different tools by using their (link: docs/shortcuts text: _**keyboard shortcuts**_). 
+> Hover over each tool with the mouse to view a tooltip showing its name and keyboard shortcut.

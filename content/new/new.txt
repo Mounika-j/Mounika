@@ -1,0 +1,9 @@
+Title: Graphic
+
+----
+
+Intro: Graphic is a powerful full-featured design and illustration application. Create everything from detailed technical illustrations to beautiful works of art.
+
+----
+
+Text: **Introducing Graphic.** Formerly called iDraw, Graphic is a professional vector illustration application for Mac OS X and iOS. We're passionately focused on making it one of the best design applications available, and we'd love to hear your feedback and suggestions!

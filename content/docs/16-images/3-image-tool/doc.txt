@@ -1,0 +1,19 @@
+Title: Image Tool
+
+----
+
+Text: 
+
+# Image Tool
+
+Use the _**Image tool**_ to scale and position an image fill inside of a shape’s bounds, cropping the image non-destructively.
+
+Choose the _**Move tool**_ and double click on an object with an image fill to activate the _**Image Tool**_. The _**Image Tool**_ will display as the selected tool in the _**Tool Options bar**_. 
+
+The image can be scaled using the _**Image Scale**_ slider or by dragging the bottom-right corner of the applied image. Simply drag your image to change its position within the shape’s bounds. 
+
+(video: imagetool1.mp4 width:750)
+
+To reset the image’s size and position to the defaults, click _**Reset**_ in the _**Tool Options bar**_. 
+
+When finished, click anywhere on the canvas to end editing and revert to the Move tool.

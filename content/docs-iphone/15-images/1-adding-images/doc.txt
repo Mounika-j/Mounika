@@ -1,0 +1,17 @@
+Title: Adding Images
+
+----
+
+Text: 
+
+# Adding Images
+
+Images can be imported as separate objects or directly inside a certain object.
+
+To import an image as a separate object, tap the menu button from the Titlebar, and then tap the Import Photo command. The image will be added on your canvas inside a shape that fits its dimensions. The shape can then be edited or stylized like any other object.
+
+(video: addingimages1-iphone.mp4 width: 750)
+
+To import an image inside a plain object, go to the _**Image pane**_ from the Appearance panel. The added image will scale to fit the selected object. To replace an existing image use the same pane.
+
+(video: addingimages2-iphone.mp4 width: 750)

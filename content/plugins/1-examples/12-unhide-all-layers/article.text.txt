@@ -1,0 +1,17 @@
+Title: Unhide All Layers
+
+----
+Description: Unhides every layer in the current document.
+
+----
+Image: (image: Header.jpg title: Unhide All Layers)
+
+----
+Thumbnail: (image: Thumbnail.png title: Unhide All Layers)
+
+----
+Plugfile: (file: UnhideAllLayers.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

@@ -1,0 +1,117 @@
+Title: Testing Page
+
+----
+
+Text: 
+
+When launching Graphic for the first time, you will be presented with the Welcome window. From this window you have the option to create a new document or open an existing Graphic document.
+
+# Header Size gjq
+## Header Size gjq
+### Header Size gjq
+#### Header Size gjq
+
+
+(video: iphonetest1.mp4  width: 750)
+
+(video: iphonetest2.mp4  width: 750)
+(video: iphonetest2B.mp4  width: 750)
+
+(video: iphonetest3C.mp4  width: 750)
+
+(video: iphonetestvertical1.mp4 width: 750)
+(video: iphonetestvertical2.mp4 width: 750)
+(video: iphonetestvertical3.mp4 width: 750)
+
+Edit brushes using the (link: docs/brushes/customizing-brushes#brush-pane text: **Brush Pane**).
+
+# Headline 1
+# Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+## Headline 2
+## Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+### Headline 3
+### Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+#### Headline 4
+#### Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+
+1. First ordered list item
+2. Another item
+
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+
+
+
+##Creating a New Document
+To create a new document, you can choose _**‘Create a New Document’**_ from the Welcome Screen, or select _**File > New**_ [⌘-N] from the menu bar.
+
+The _**New Document**_ panel allows you to select the canvas style, size, and measurement units for the new document.
+
+(image: red.png width: 750)
+
+**Canvas Style** - Choose from a variety of canvas styles - including graph paper, notebook paper, and blueprint - for the perfect canvas for a particular project. All canvas styles are created using variations of the built-in grid and background color settings, making them fully customizable. Customize your document further using the (link: canvas text: Canvas) and (link: grid-settings text: Grid Settings) panes.
+
+(image: page8.png width: 750)
+
+**Presets** - Quickly choose the size for the new document from a list of preset sizes. Simply choose a preset from the list, such as **Letter** or **A4**, and the dimensions of that preset automatically fill the width and height fields.
+
+(image: page9B.png width: 640)
+
+**Width and Height** - Enter values for the width and height of the new document. Landscape or portrait documents can be created by varying the width and height values. Documents can have a maximum canvas size of 16,000 x 16,000 pixels. The size of the document can be changed later in the (link: canvas-settings text: Canvas Settings) pane.
+  
+**Units** 
+Select the measurement units to be used for the new document. The possible unit types include pixels, inches, centimeters, and millimeters. The width and height field values are specified in these units. The measurement units can also be changed later in the (link: canvas-settings text: Canvas Settings) pane.
+
+**Color Mode** - Select the color mode to be used in the document, RGB or CMYK.
+
+
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales, elit ac suscipit faucibus, tellus metus tristique ligula, in lacinia justo eros vitae lacus. Curabitur nibh neque, porta ut augue quis, vulputate ultrices velit. Duis ultrices malesuada justo, sit amet maximus ipsum varius eu. Nunc urna lectus, pharetra vitae ultrices non, ultrices sit amet enim. Phasellus elementum sed ex at sodales. Curabitur libero nibh, commodo vel tortor at, viverra aliquet arcu. Nulla facilisi. Curabitur finibus metus sed turpis ullamcorper malesuada. Mauris nec massa eleifend, tempus augue at, efficitur urna.
+
+Nulla non lacus nulla. Suspendisse vehicula risus non nibh mattis, eu molestie sem placerat. Aenean sapien arcu, tempor sit amet dictum vitae, vulputate ac ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum commodo eget nunc non fermentum. Morbi ac magna faucibus, mollis urna sit amet, ultricies diam. Praesent tempus quam risus, sed fermentum metus scelerisque id. Integer a sem ut lectus maximus euismod nec quis tortor. Duis vestibulum mi massa, ac elementum lorem elementum id.
+
+Aliquam sed libero dignissim, imperdiet ipsum ac, viverra risus. Integer ornare feugiat facilisis. Praesent lacinia elit eu felis congue, porttitor pulvinar est malesuada. Suspendisse blandit sapien non metus volutpat, at luctus enim porta. Proin neque diam, congue at dui id, aliquet varius mi. Cras semper, magna ut scelerisque vehicula, nisl quam fringilla mi, sed efficitur sapien libero quis ipsum. Phasellus pharetra porttitor tellus, ac tincidunt augue feugiat ut. Integer sollicitudin scelerisque velit, euismod dictum risus maximus a. In ultrices nibh non nibh condimentum eleifend. Nulla sollicitudin metus et tortor tempus, at feugiat ipsum cursus. Mauris tincidunt, libero quis scelerisque facilisis, ex sapien interdum sem, ut pellentesque dolor nulla eget erat.
+
+Proin pharetra, nibh a ultricies dignissim, sem tellus tempor nisl, sit amet placerat augue risus faucibus mi. Fusce finibus ultrices justo, eu condimentum turpis dapibus nec. Aliquam dapibus, eros non consectetur tempus, eros nisi interdum ante, ut scelerisque nulla magna non quam. Integer feugiat mollis lacus, vel gravida nisl accumsan eget. Mauris tristique mi et ante vehicula consectetur. Sed orci massa, egestas ac porta in, consequat iaculis metus. Cras sollicitudin nisi a urna euismod iaculis. Cras facilisis nulla lacus, eget vestibulum leo tincidunt non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ultrices aliquet iaculis. Duis at ipsum mauris. Praesent at tincidunt orci, ac tristique lectus.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel condimentum dolor. Maecenas non nunc eros. Cras convallis sodales tincidunt. Vivamus consequat luctus mauris eu faucibus. In quis dolor semper, malesuada massa non, facilisis eros. Duis id vestibulum dui. Pellentesque bibendum dui eget eleifend cursus. Nunc viverra, est in ornare rhoncus, tellus sapien blandit nulla, id congue nisl ligula at metus. Quisque pulvinar ullamcorper lacus. Proin rhoncus suscipit magna sit amet facilisis. Vivamus malesuada bibendum ex, vitae porta quam iaculis at. Nullam non sagittis ligula. Nunc vitae viverra tellus, ut vulputate nisl.
+
+Curabitur luctus orci quis turpis pharetra, a imperdiet turpis imperdiet. Cras at lacus eget enim ultrices lobortis. Nulla euismod ullamcorper dignissim. Etiam nec molestie magna. Pellentesque viverra porttitor sollicitudin. Duis eu tincidunt felis. Ut magna sem, suscipit sed dui eget, dapibus efficitur dolor.
+
+Fusce sed volutpat massa. Nam mollis ipsum ut nibh tempus, sit amet feugiat velit imperdiet. Sed finibus justo eget arcu vehicula molestie. Nulla venenatis eros arcu, eu efficitur felis aliquam ac. Nullam efficitur elit euismod, sodales nisi non, commodo dolor. Proin mattis ipsum sit amet ex commodo molestie. Cras rutrum nisi non erat sagittis, sit amet congue libero sodales.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit suscipit sem in egestas. Nulla interdum nunc sapien, id volutpat libero sollicitudin id. Nullam blandit interdum enim, sed suscipit quam congue quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nisl diam, rhoncus ac rutrum ut, vulputate eu libero. Maecenas venenatis metus eget tellus tristique consequat. Nulla quis pretium tellus.
+
+Sed dictum nisl a nulla fermentum rutrum. Aenean diam ligula, elementum sit amet viverra vel, viverra non sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus imperdiet commodo neque, sit amet pulvinar purus maximus ac. Sed at tortor quis quam rutrum pharetra sit amet in est. Nullam ut felis vitae arcu tincidunt tristique. Sed a lorem pellentesque nunc blandit egestas lobortis sed quam.
+
+Etiam vehicula mauris at diam volutpat luctus id in enim. Duis eget mi massa. Nullam pretium mattis tincidunt. Integer molestie elit in massa imperdiet, quis faucibus leo laoreet. Maecenas mi lacus, facilisis id sapien ut, porta mollis urna. Vivamus posuere, ipsum ac facilisis aliquet, lacus enim egestas dolor, quis finibus nisl urna a neque. Pellentesque ut fringilla tortor. Aliquam efficitur ligula at sem dictum rutrum. Pellentesque vitae metus tincidunt, pretium massa eget, iaculis lorem. Pellentesque libero lectus, feugiat id massa vel, maximus vulputate velit. Pellentesque commodo neque at ipsum tempor, ac semper erat sagittis. Nullam ligula odio, auctor eu nunc ut, interdum porttitor ipsum. Duis varius, augue tempor aliquet commodo, libero metus faucibus lectus, et interdum odio diam vitae massa. Praesent pretium sollicitudin mauris, non scelerisque metus placerat vitae. Donec porta mauris quis tellus ultrices tincidunt. Curabitur tortor erat, aliquam vitae aliquet quis, auctor nec massa.
+
+Quisque facilisis nibh odio, vitae semper nisi consequat non. Vestibulum elementum mollis ante, nec feugiat est finibus at. Integer vel placerat sem, eu viverra dui. Integer ultrices velit nec ipsum venenatis, in tempus libero aliquam. Mauris gravida, metus eu euismod vestibulum, dolor ex finibus risus, vestibulum faucibus arcu urna venenatis ante. Nulla facilisi. Duis nisl nisi, auctor in ipsum quis, consectetur tempor lacus. Nullam nisl magna, auctor non augue et, tincidunt varius lacus. Nullam mattis suscipit enim vel interdum. Aenean sodales justo eu tempus euismod. Morbi vestibulum odio at eros convallis mollis. Proin vel blandit lacus, a hendrerit ex. Suspendisse potenti.
+
+Nam blandit nibh nec egestas hendrerit. Praesent ac orci rutrum, tempus lectus id, ultrices eros. Mauris id orci sagittis, malesuada tellus at, porttitor velit. Duis eros lectus, imperdiet et nulla ac, luctus semper sem. Integer dignissim lorem nisl, vitae fringilla felis semper eu. Nam vestibulum libero eu ex aliquet, non ultrices dolor cursus. Maecenas rutrum mauris ut velit vehicula elementum. Pellentesque efficitur, nunc ac molestie egestas, diam quam tempor urna, eu sagittis orci libero porttitor mauris. Sed sit amet volutpat erat. Quisque quis nunc et mi commodo commodo. Cras molestie egestas sem, non auctor turpis aliquam id. Quisque molestie diam et lorem dignissim, vel bibendum odio fringilla.
+
+Vivamus finibus, elit ac hendrerit commodo, justo nisl cursus metus, quis consequat odio lorem id sapien. Aliquam placerat sagittis sapien a sodales. Fusce non cursus magna. Vivamus sodales, tellus ac pretium lacinia, nibh orci auctor enim, et fringilla metus nibh id nibh. Sed nec nisl eu erat venenatis facilisis. Vivamus nec ultricies velit. Aliquam pellentesque, dui a vehicula dictum, lectus odio porttitor ligula, quis dapibus felis neque non odio. Vivamus augue urna, tincidunt at lacus quis, molestie iaculis urna. Mauris mauris erat, maximus nec semper id, laoreet sed sapien. Aenean ut mauris feugiat, consequat sapien a, gravida felis. Vivamus nec pharetra purus. Praesent mollis nulla vel lobortis congue. Aenean rhoncus varius ante, eu tincidunt risus. Pellentesque auctor commodo justo, ac vestibulum lorem efficitur sit amet. Morbi id metus sit amet risus tincidunt sodales id et nisl.
+
+Integer quis magna suscipit, mattis arcu vitae, rhoncus augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque porttitor mattis maximus. In vestibulum velit odio, vitae sodales velit mattis at. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed elementum in sem id porta. Donec nec euismod leo, sed sodales urna. Pellentesque egestas dolor non est imperdiet aliquam vitae aliquam velit. Vivamus tincidunt erat felis, eu fermentum elit maximus eget. Maecenas lobortis dolor sit amet ornare feugiat. Nulla faucibus risus a dolor ullamcorper, eu pulvinar ipsum feugiat. Ut tortor felis, fringilla et eros a, bibendum lobortis nulla. Cras suscipit et arcu eget ullamcorper.
+
+Praesent ut ultricies libero. Pellentesque tristique, nulla vitae eleifend sollicitudin, purus diam ornare purus, sed semper tellus augue blandit erat. Praesent et pretium magna, in vestibulum velit. Duis congue, dui eu elementum hendrerit, velit enim porttitor risus, eget volutpat purus arcu eu lorem. Vestibulum eu lectus sit amet orci volutpat sagittis. Maecenas fermentum sapien vel viverra elementum. Sed et porttitor sem, vel scelerisque orci. Phasellus vitae libero et massa consectetur cursus. Fusce et est ac magna luctus vulputate vitae ut lectus. Morbi vitae eleifend ipsum, a lacinia purus. Curabitur pulvinar id eros quis hendrerit.

@@ -1,0 +1,27 @@
+Title: Creating Text
+
+----
+
+Text: 
+
+# Creating Text
+
+To create a new text field tap on the _**Text Tool**_ icon in the _**Toolbar**_. 
+
+To add text inside a newly made text field double tap it and the keyboard will appear.  Using the _**Text Options pane**_ above the keyboard, you can set the font, style, size and alignment which should be used for the text that you are about to add. 
+
+(video: creatingtext1-ipad.mp4 width: 750)
+
+Text fields have bounding boxes allowing you to easily move, rotate or resize them as you can with any other type of object. To deselect a text field tap anywhere on your canvas, outside the selected text field. 
+
+(video: creatingtext2-ipad.mp4 width: 750)
+
+To edit the text from an existing text field, choose the _**Move tool**_ from the _**Toolbar**_, double tap your text field and make the changes.
+
+(video: creatingtext3-ipad.mp4 width: 750)
+
+To change the properties of an existing text using the _**Text Options pane**_, you need to highlight the text before you make any changes. Double tap your text to enter text editing mode, then tap-and-hold to highlight it with the Select menu, then you can make the changes.
+
+(video: creatingtext4-ipad.mp4 width: 750)
+
+Besides the _**Tool Options pane**_ settings you can also use the (link: docs-ipad/text/customizing-text text: _**Text pane**_) from the Appearance panel to customize your text.

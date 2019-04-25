@@ -1,0 +1,42 @@
+Title: Modifying Paths
+
+----
+
+Text: 
+
+#Modifying Paths 
+
+The _**Pen tool**_ can also be used to add or remove points from any path, or to cut paths. 
+
+The settings in the _**Tool Options bar**_ can be used to change the Pen tool from the default path creation mode, to the _**Add Points**_, _**Delete Points**_ or _**Cut Paths**_ modes.
+
+(image: modifyingpaths1.jpg  width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools.
+
+#### Adding Path Points
+After choosing the _**Add Points**_ mode, simply click anywhere on the selected path to add a new anchor point.
+
+(image: video.png  width: 750)
+
+```
+Tip: Use the **+** keyboard shortcut to select the **Pen tool** with the **Add Points** mode. 
+```
+
+#### Deleting Path Points
+After choosing the _**Delete Points**_ mode, simply click on any anchor point in the selected path to delete that point.
+
+(image: video.png  width: 750)
+
+```
+Tip: Use the **−** keyboard shortcut to select the **Pen tool** with the **Delete Points** mode. 
+```
+
+#### Cutting Paths
+You can cut any type of path using the _**Cut Paths**_ mode. After choosing this mode, simply click anywhere on the selected path to cut it.
+
+(image: video.png  width: 750)
+
+```
+Tip: Use the **C** keyboard shortcut to select the **Pen tool** with the **Cut Paths** mode. 
+```

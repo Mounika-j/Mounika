@@ -1,0 +1,21 @@
+Title: Create a Volume Control UI
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: volumecontrol.idraw
+
+----
+
+Description: Learn how to create a volume control UI using vector shapes and an image...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

@@ -1,0 +1,19 @@
+Title: Recolor Artwork
+
+----
+
+Text: 
+
+# Recolor Artwork
+
+Changing the color to a lot of vector objects can be a tedious process. The _**Adjust Colors**_ options makes it easier for you to recolor several object or the entire artwork at once. 
+
+Select the objects and go to **Modify > Adjust Colors** [**⌘** - **B**] to open the _**Adjust Colors**_ window.
+
+(image: recolorartwork1.jpg width: 750)
+
+1. **Recolor Method** - choose between three recolor methods: _**Hue / Saturation**_, _**Color Balance**_ and _**Brightness / Contrast**_. Moving these sliders will adjust the colors used for your artwork.
+
+2. **Preview color changes** - Check this box for a live preview with the changes.
+
+3. **Reset** - Hit the _**Reset**_ button to return to the original colors of your artwork.

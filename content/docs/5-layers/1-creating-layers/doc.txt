@@ -1,0 +1,15 @@
+Title: Creating Layers
+
+----
+
+Text: 
+
+# Creating Layers
+
+To create a new layer, click the _**Add Layer**_ button (**+**), or choose _**New Layer**_ from the _**Layer actions menu**_. Alternatively, you can use the **Arrange > New Layer** [**⇧** - **⌘** - **N**] command from the menu bar. A new empty layer will be created above the currently selected layer. 
+
+To change the name of a layer, simply double-click on the layer’s name field, to the right of its thumbnail.
+
+(video: creatinglayers1.mp4 width: 750)
+
+>Tip: You can also access the **Layer actions menu** by **right-clicking** on a layer.

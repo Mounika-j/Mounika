@@ -1,0 +1,622 @@
+Text: 
+
+In the following tutorial you will learn how to create a detailed iPhone X illustration in Picta Graphic for iPhone. 
+
+For starters, you will learn how to set up a simple grid, how to create several basic shapes and how to easily place them in the center of your canvas. Taking full advantage of the Effects pane, you will learn how to stylize your shape. Using basic vector shape building techniques, you will learn how to add subtle shading and highlights for your shapes. 
+
+You will learn how to work inside the Layers panel and how to ease your work using the Copy/Paste Style feature. Finally, you will learn how to create two flat icons and how to add some basic pieces of text. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: iPhoneXIllustrationiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel, and then tap the **Canvas** pane. Set the **Width** to **680 px** and the **Height** to **1120 px**, and then select **Pixels** for the base unit.
+
+(image: iPhoneXIllustrationiPhone1B.jpg)
+
+Reopen the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature. Finally, open the **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: iPhoneXIllustrationiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and tap the **Line** color well. Drag the **Alpha** slider to **0%** which will simply make your line invisible. Tap the **Fill** color well and replace the existing color with **R=255 G=180 B=0**. 
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **65** from the **Tool pane**. Create a **430 x 868 px** shape. 
+
+(image: iPhoneXIllustrationiPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your shape is still selected, focus on the right side of your **Titlebar** and open the **Align** pane from the **Properties** panel. Simply tap the  **Horizontal**  and   **Vertical**  commands to easily move your selection in the center of the canvas. 
+
+(image: iPhoneXIllustrationiPhone3.jpg)
+
+
+
+##Step 4
+
+Tap  on the canvas to deselect everything and then focus on the **Toolbar**. Tap that **Fill** color well and replace the yellow with red. 
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **60**. Create a **416 x 854 px** shape and center it. 
+
+(image: iPhoneXIllustrationiPhone4.jpg)
+
+
+
+##Step 5
+
+Tap  on the canvas to deselect everything and then focus on the **Toolbar**. Tap that **Fill** color well and replace the red with blue. 
+
+Pick the **Rounded Rectangle Tool**  and set the  **Radius** to **55**. Create a **408 x 846 px** shape and center it. Make sure that this new rounded rectangle stay selected and then tap and hold until you get that context menu. Tap the **Copy** command to copy your selection. 
+
+(image: iPhoneXIllustrationiPhone5.jpg)
+
+
+
+##Step 6
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Using the plus button from the bottom of the panel, add a second layer. Make sure that this new layer stays selected, as the new objects you are about to create will go here.
+
+(image: iPhoneXIllustrationiPhone6.jpg)
+
+
+
+##Step 7
+
+Reopen that context menu and tap the **Paste in Place**  command. Make sure that your newly added shape stays selected and  focus on the **Toolbar**. Tap the **Fill** color well and replace that blue with white (**R=255 G=255 B=255**). 
+
+(image: iPhoneXIllustrationiPhone7A.jpg)
+
+Use the same **Copy** and **Paste in Place**  commands to add a copy of your white shape in the same place. Make sure that this copy is selected and drag it **7 px** up. This can be done manually or using the **Geometry** pane from the **Properties** pane. Simply decrease the value from the**Y** position input field  by **7 px** and your selected shape will move **7 px** up.
+
+(image: iPhoneXIllustrationiPhone7B.jpg)
+
+Using the **Move Tool**, select both white shapes. Go to the **Combine** pane from the **Properties** panel and tap the **Subtract** command. 
+
+(image: iPhoneXIllustrationiPhone7C.jpg)
+
+
+
+##Step 8
+Make sure that the shape made in the previous step is still selected and focus on the right side of your **Titlebar**. Tap the leftmost icon to open the **Appearance** panel and go to the **Effects** pane. 
+
+Tap the color well that stands for the **Fill** and switch from **Color**  to **Gradient**. Be sure that the **Linear** button is active and then move to the gradient color stops. Tap the left one and set its color to **R=23 G=23 B=23**, and then tap the right one and use the same color. Simply tap on the gradient bar to add a new color stop. Set the color to **R=88 G=88 B=88** and drag it to **30%**. Add a fourth color stop, drag it to **70%** and set the color to **R=88 G=88 B=88**.
+
+(image: iPhoneXIllustrationiPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your dark shape is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect, tap on it to expand it and enter **3 pt** in that **Y Offset**  box. Tap the color well that stands for this effect and drag the **Alpha** slider to **50%**. 
+
+With this shape still selected, open the **Appearance**  panel and tap the **Copy Style** command. 
+
+(image: iPhoneXIllustrationiPhone9.jpg)
+
+
+
+##Step 10
+
+Add another two copies of that white shape and don't forget to center them. Select the top copy and move it **7 px** down, as shown in the following image. 
+
+Using the **Move Tool**, select both shapes added in this step and tap the **Subtract** command from the **Combine** pane. 
+
+(image: iPhoneXIllustrationiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that the shape made in the previous step stays selected, open the **Appearance** panel and tap the **Paste Style** command.  Move to the **Effects** pane, focus on the **Inner Shadow** effect and simply reverse the **Y** value, from **3 pt** to **-3 pt**. 
+
+(image: iPhoneXIllustrationiPhone11.jpg)
+
+
+
+##Step 12
+
+Add one more copy of that white shape and don't forget to center it. Pick the **Rounded Rectangle Tool** and make sure that the  **Radius** is set to **55**. Set the **Fill** color to purple, create a **394 x 854 px** shape and center it.
+
+Select both shapes made in this step and tap the **Subtract** button from the  **Combine** pane. 
+
+(image: iPhoneXIllustrationiPhone12.jpg)
+
+
+
+##Step 13
+
+
+Select the white shape from the left side of your canvas and focus on the **Effects** pane. Replace the existing **Fill** color with **R=188 G=188 B=188**, and then activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+With this shape still selected, open the **Appearance**  panel and tap that **Copy Style** command. 
+
+(image: iPhoneXIllustrationiPhone13.jpg)
+
+
+
+##Step 14
+
+Select your remaining white shape, open the **Appearance** panel and tap the **Paste Style** command. Move to the **Effects** pane, select the **Inner Shadow** effect and simply reverse the value from that **X** box. 
+
+(image: iPhoneXIllustrationiPhone14.jpg)
+
+
+
+##Step 15
+
+Pick the **Rectangle Tool**, create a **7 x 5 px** shape and place it as shown in the following image. Fill this rectangle with the linear gradient shown below and apply the **Inner Shadow** effect indicated in the following image. 
+
+(image: iPhoneXIllustrationiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your tiny rectangle is still selected and open that context menu. Use the **Copy** and **Paste in Place**  commands to easily add a copy of your selection in the same place. 
+
+Select this copy and open the **Geometry** pane. Tap on the **Y** position input field and then enter **209 px** to move your selection in that location. 
+
+(image: iPhoneXIllustrationiPhone16.jpg)
+
+
+
+##Step 17
+
+Reselect your bottom, tiny rectangle and add a new copy in the same place. Select this copy and move it on the left side by entering **125 px** in the **X** position input field in the **Geometry** pane.
+
+Make sure that this new shape remains selected and focus on the **Effects** pane. Tap the **Fill** color well and then tap that **Reverse Gradient** button to reverse the order of the colors stops in the gradient. Move to the **Inner Shadow** effect and reverse the value from that **X** box.
+
+Add a copy in the same place for the rectangle made in this step. Select this copy and move it up by entering **209 px** in the **Y** position input field in the **Geometry** pane.
+
+(image: iPhoneXIllustrationiPhone17.jpg)
+
+
+
+##Step 18
+
+Open  the **Layers** panel and reselect the bottom layer. Move to your canvas and select the yellow rounded rectangle. 
+
+Focus on the **Effects** pane and simply replace the yellow with **R=251 G=251 B=251**. 
+
+(image: iPhoneXIllustrationiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your white rounded rectangle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Use the plus button from the top-right corner of the pane to add a second **Inner Shadow** effect. Select it and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone20.jpg)
+
+
+
+##Step 21
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a fourth **Inner Shadow** effect and enter the attributes shown below.
+ 
+(image: iPhoneXIllustrationiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Tap on the existing **Stroke**'s right side and drag it below   the existing **Inner Shadow** effects. Expand this **Stroke** and then enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a second **Stroke** and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your white rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone25.jpg)
+
+
+
+##Step 26
+
+Select your red rounded rectangle, focus on the **Effects** pane and replace the existing **Fill** color with the linear gradient shown below. 
+
+(image: iPhoneXIllustrationiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone27.jpg)
+
+
+
+##Step 28
+
+Select your blue shape and focus on the **Effects** pane. First, set the **Fill** color to black, and then apply the **Stroke** attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone28.jpg)
+
+
+
+##Step 29
+
+Go to the **Layers** panel, add a third layer and make sure that it is at the top of the panel and it stays selected.
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **38**. Create a **378 x 816 px** shape, fill it with yellow and don't forget to center it. 
+
+(image: iPhoneXIllustrationiPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that the **Rounded Rectangle Tool**  is still active and set the  **Radius** to **25**. 
+
+Create a **214 x 88 px** shape and fill it with blue. Use the  **Vertical** command from the **Align**  pane to center your selection vertically, and then drag it exactly **32 px** above the existing shapes, as shown in the first image. 
+
+Switch to the **Rectangle Tool** and create two **5 px** squares. Fill both shapes with white and place them as shown in the following images. 
+
+(image: iPhoneXIllustrationiPhone30.jpg)
+
+
+
+##Step 31
+
+Select all the shapes from your active layer and tap the **Subtract** command from the **Combine** pane. 
+
+(image: iPhoneXIllustrationiPhone31.jpg)
+
+
+
+##Step 32
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **5**. Create two **20 px** rounded squares, fill both shapes with white and place them as shown in the following images. 
+
+(image: iPhoneXIllustrationiPhone32.jpg)
+
+
+
+##Step 33
+
+
+Reselect your yellow shape along with the white rounded squares and tap the **Union** command from the **Combine** pane. 
+
+Make sure that the resulting shape remains selected and focus on the **Effects** pane. Select the **Fill** and simply replace the existing color with the linear gradient shown below. Don't forget to set the **Angle** to **-35 degrees**. 
+
+(image: iPhoneXIllustrationiPhone33.jpg)
+
+
+
+##Step 34
+
+Make sure that your colored shape is still selected and keep focusing on the **Effects** pane. Select the **Stroke** and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone34.jpg)
+
+
+
+##Step 35
+
+Focus on the **Layers** panel, add a new layer and make sure that it remains selected. 
+
+Pick the **Rounded Rectangle Tool** and create a **54 x 8 px** shape. Center this new shape vertically, place it as shown in the following image and fill it with the linear gradient shown below. 
+
+With your shape still selected, open the **Appearance**  panel and tap that **Copy Style** command. 
+
+(image: iPhoneXIllustrationiPhone35.jpg)
+
+
+
+##Step 36
+
+Pick the **Ellipse Tool** and create a **12 px** circle. Place this new shape as shown in the first image and make sure that it stays selected. Open the **Appearance**  panel and tap the **Paste Style** command. 
+
+Using the same tool, create an **8 px** circle, fill it with **R=13 G=20 B=74** and place it as shown in the second image. Create a **4 px** circle, fill it with **R=33 G=43 B=99** and place it as shown in the third image. Create a **2 px** circle, fill it with **R=49 G=67 B=155** and place it as shown in the fourth image. 
+
+(image: iPhoneXIllustrationiPhone36.jpg)
+
+
+
+##Step 37
+
+Focus on the **Layers** panel and add a new layer. Drag it at the bottom of the panel and make sure that it remains selected. 
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **5**. Create a **6 x 32 px** shape, fill it with yellow and place it exactly as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone37.jpg)
+
+
+
+##Step 38
+
+Using the **Rounded Rectangle Tool**, create a **6 x 62 px** shape and place it exactly as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone38.jpg)
+
+
+
+##Step 39
+
+Using the **Rounded Rectangle Tool**, create a second  **6 x 62 px** shape and place it exactly as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone39.jpg)
+
+
+
+##Step 40
+
+Using the **Rounded Rectangle Tool**, create a second  **6 x 95 px** shape. Fill this new shape with blue and place it exactly as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone40.jpg)
+
+
+
+##Step 41
+
+Select the smaller yellow shape and focus on the **Effects** pane. Select the **Fill** and simply replace the color with the linear gradient shown below. 
+
+(image: iPhoneXIllustrationiPhone41.jpg)
+
+
+
+##Step 42
+
+Make sure that your top-left button shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone42.jpg)
+
+
+
+##Step 43
+
+
+Make sure that your top-left button shape is still selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone43.jpg)
+
+
+
+##Step 44
+
+Make sure that your top-left button shape is still selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone44.jpg)
+
+
+
+##Step 45
+
+Make sure that your top-left button shape is still selected and tap the **Copy Style** command. Select the other two yellow shapes and tap the **Paste Style** command.  
+
+(image: iPhoneXIllustrationiPhone45.jpg)
+
+
+
+##Step 46
+
+Select the blue button shape, tap the **Paste Style** command and focus on the **Effects** pane. First, select the **Fill** and tap that **Reverse Gradient** button, and then select the top **Inner Shadow** effect and reverse the value from that **X Offset**  box. 
+
+(image: iPhoneXIllustrationiPhone46.jpg)
+
+
+
+##Step 47
+
+Focus on the **Layers** panel and add a new layer. Drag it at the bottom of the panel and make sure that it remains selected. 
+
+Pick the **Rectangle Tool** and create a **680 x 1120 px** shape. Fill this new shape with white and make sure that it covers your entire canvas. 
+
+(image: iPhoneXIllustrationiPhone47.jpg)
+
+
+
+##Step 48
+
+Focus on the **Layers** panel and add a new layer. Drag it right above your bottom layer and make sure that it remains selected. 
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **38**. Create a **379 px** rounded square and fill it with **R=5 G=25 B=83**. Center this new shape vertically and drag it about **10 px** below the existing shapes, as shown in the following image.
+
+Make sure that this new shape remains selected and focus on the **Effects** pane. Click the **Fill** color well and drag the **Alpha** slider to **30%**, and then activate the existing **Blur** effect and drag that slider to **25**. 
+
+(image: iPhoneXIllustrationiPhone48.jpg)
+
+
+
+##Step 49
+
+Focus on the **Layers** panel and add a new layer. Make&nbsp;sure that it is at the top of the  panel and that it remains selected.
+
+Pick the **Rounded Rectangle Tool** and create a **140 x 5 px** shape. Fill this new shape with white, center it vertically and place it as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone49.jpg)
+
+
+
+##Step 50
+
+Pick the **Ellipse Tool** and create a **50 px** circle. Fill this new shape with black, place it exactly as shown in the following image and make sure that it stays selected. Move to the **Effects** pane and enter the attributes shown below. 
+
+(image: iPhoneXIllustrationiPhone50.jpg)
+
+
+
+##Step 51
+
+Pick the **Rectangle Tool** and create a **6 x 15 px** shape. Fill this rectangle with white and place it as shown in the first image. 
+
+Using the same tool, create a **10 x 5 px** shape, fill it with white and place it as shown in the second image. Focus on the bottom side of this new rectangle, pick the **Path Selection Tool** and activate the **Add to Selection mode**. Select both anchor points and switch to the **Scale Tool**. Drag the selected anchor points **2 px** from outside to the inside, as shown in the third image. 
+
+Reselect the **Rectangle Tool** and create a **10 x 3 px** shape. Fill this new rectangle with white and place it as shown in the fourth image. 
+
+(image: iPhoneXIllustrationiPhone51.jpg)
+
+
+
+##Step 52
+
+Pick the **Path Selection Tool**, make sure that the **Add to Selection** mode is still active and select your three white shapes. Go to the **Combine** pane and tap the **Union** command. 
+
+(image: iPhoneXIllustrationiPhone52.jpg)
+
+
+
+##Step 53
+
+
+Pick the **Rounded Rectangle Tool**, create a **2 x 5 px** shape and place it as shown in the first image. Select this new rounded rectangle along with the white shape and tap the **Subtract** command from the **Combine** pane. 
+
+Switch to the **Rectangle Tool** and create a **10 x 1 px** shape. Fill this new rectangle with white and place it as shown in the third image. 
+
+(image: iPhoneXIllustrationiPhone53.jpg)
+
+
+
+##Step 54
+
+Duplicate your **50 px** circle, select the copy and place it as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone54.jpg)
+
+
+
+##Step 55
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **2**. Create a **24 x 14 px** shape, fill it with white and place it as shown in the first image. 
+
+Using the same tool, create a **10 x 4 px** shape and a **4 x 2 px** shape. Fill both shapes with white and place them as shown in the following images. 
+
+(image: iPhoneXIllustrationiPhone55.jpg)
+
+
+
+##Step 56
+
+Select the three white shapes highlighted in the first image and tap the **Union** command from the **Combine** pane. 
+
+(image: iPhoneXIllustrationiPhone56.jpg)
+
+
+
+##Step 57
+
+Pick the **Ellipse Tool** and create a **10 px** circle and a **2 px** circle. Fill both shapes with black and place them as shown in the first image. Select these black circles along with the white shape that lies in the back and tap the **Subtract** command from the **Combine** pane. 
+
+(image: iPhoneXIllustrationiPhone57.jpg)
+
+
+
+##Step 58
+
+Pick the **Ellipse Tool** and create a **6 px** circle. Fill this new shape with white and place it as shown below. 
+
+(image: iPhoneXIllustrationiPhone58.jpg)
+
+
+
+##Step 59
+
+Pick the **Rounded Rectangle Tool**, set the  **Radius** to **5**  and create a **24 x 21 px** shape. Fill this new shape with white, center it vertically and place it as shown in the following image. 
+
+(image: iPhoneXIllustrationiPhone59.jpg)
+
+
+
+##Step 60
+
+Pick the **Rounded Rectangle Tool** and  set the  **Radius** to **10**. Create a **16 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that your new shape stays selected and focus on the **Effects** pane. Tap the **Fill** color well and drag the **Alpha** slider to **0%**, and then select the **Stroke**. Set the color to white and rag that **Width** slider to **4 pt**.
+
+(image: iPhoneXIllustrationiPhone60.jpg)
+
+
+
+##Step 61
+
+Make sure that the rounded rectangle made in the previous step stays selected and pick the **Pen Tool**. Activate the **Cut Paths** mode and simply tap the bottom anchor point, highlighted in the first image. 
+
+Switch to the **Path Selection Tool** and drag a simple selection around the bottom anchor points. Tap the **Delete** button from your **Titlebar** to remove those anchor points, and then tap the **Join Paths**  command from the **Path Tools**  pane to unite the remaining paths. 
+
+(image: iPhoneXIllustrationiPhone61.jpg)
+
+
+
+##Step 62
+
+Make sure that your white path is still selected and pick the **Path Selection To**. Select the bottom-right anchor point and drag it **9 px** up, as shown below. Move to the **Effects** pane, select the **Stroke** and check the **Round Cap** button. 
+
+(image: iPhoneXIllustrationiPhone62.jpg)
+
+
+
+##Step 63
+
+
+Pick the **Type Tool** and double tap inside that new field. 
+
+Select the **Helvetica Neue font**, change the style to **Thin** and set the size to **80 pt**. Type the &quot;<em>8:41</em>&quot; piece  of text, set the color to white and place it as shown below. 
+
+(image: iPhoneXIllustrationiPhone63.jpg)
+
+
+
+##Step 64
+
+Add a second piece of text and use same attributes, but decrease the font size to **21 pt**. Place your new piece of text as shown below and you're done. 
+
+(image: iPhoneXIllustrationiPhone64.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: iPhoneXIllustrationiPhone0.jpg)
+
+----
+
+Title: iPhone

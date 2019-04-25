@@ -1,0 +1,256 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple stamp icon in Graphic for iPhone. 
+
+For starters you will learn how to setup a simply grid and how to create the main stamp shape using two simple tools, a bunch of shapes and some basic vector shapes building techniques. Next, you will learn how to add a simple background, how to easily center it and how to add a simple, radial gradient. Moving on, you will learn how to add subtle shading and highlights for your stamp shape. 
+
+Finally, you will learn how to insert an inside inside a shape and how to easily adjust its attributes.
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: stampIconiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is enabled. This feature ensures that all shapes that are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: stampIconiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: stampIconiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Tap the fill color wheel and set its color to **R=247 G=239 B=228** and then tap the line color wheel and drag the **Alpha** slider to **0%**, which will make your line invisible. 
+ 
+Pick the **Rectangle Tool**, focus on your canvas and create a **135 x 150 px** shape. The grid and the **Snap to Grid** feature will ease your work.
+
+(image: stampIconiPhone2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the stroke is still invisible and then replace the existing fill color with **R=24 G=169 B=250**. 
+
+Pick the **Ellipse Tool**, create a **10 px** circle and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+(image: stampIconiPhone3.jpg)
+
+
+
+##Step 4
+
+Make sure that your blue circle is still selected and then tap and hold until you get the dark tooltip. Use the **Copy** and **Paste** commands to multiply your blue circle and spread the copies in a perfect column as shown in the following image. 
+
+(image: stampIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Select all your blue circles and open the **Combine** pane from the **Properties** panel. Simply tap the **Make** button which will turn your selected shapes into one compound path. 
+
+(image: stampIconiPhone5.jpg)
+
+
+
+##Step 6
+
+Duplicate your blue compound path using the same **Copy** and **Paste** commands from the tooltip. Select the copy and place it as shown in the following image. 
+
+(image: stampIconiPhone6.jpg)
+
+
+
+##Step 7
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=255 G=185 B=0**. 
+
+Reselect the **Ellipse Tool**, create a new, **10 px** circle and place it as shown in the following image. 
+
+(image: stampIconiPhone7.jpg)
+
+
+
+##Step 8
+
+Multiply your yellow circle and spread the copies in a perfect row as shown in the following image. 
+
+(image: stampIconiPhone8.jpg)
+
+
+
+##Step 9
+
+Select  all your yellow circles and turn them into a new compound path using that same **Make** button from the **Combine** pane. 
+
+(image: stampIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Duplicate your yellow compound path, select the copy and place it as shown in the following image. 
+
+(image: stampIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Using the **Move Tool**, select all the shapes made so far, focus on that same **Combine** **** pane and tap the **Subtract** button. In the end your  stamp shape should look like in the second image. 
+
+(image: stampIconiPhone11.jpg)
+
+
+
+##Step 12
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=0 G=74 B=124**. 
+
+Pick the **Rectangle Tool**, focus on your canvas and create a **600 px** square. Make sure that this new shape stays selected and tap the **Arrange** pane from the **Properties** panel. Simply drag that slider to the left which will send your square to back, behind the existing shape. 
+
+Make sure that your  square remained selected, re-open the **Properties** panel and this time open the **Align** pane. Tap the **Horizontal** and **Vertical**  buttons  to easily bring your  shape in the center of the canvas. 
+
+(image: stampIconiPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your blue rectangle stays selected and tap the fill color wheel from the **Toolbar**. 
+
+Tap the **Gradient**  button and then **Radial** icon, set the **Angle** to **0 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=80 G=73 B=83** and then select the right one and set its color to **R=59 G=53 B=63**. 
+
+Switch to the **Move Tool**, return to your canvas and simply double tap inside your square to activate the **Gradient Tool**.  Select the right gradient slider and  drag it to the right roughly as shown in the following image. 
+
+(image: stampIconiPhone13.jpg)
+
+
+
+##Step 14
+
+Select your stamp shape, focus on the **Effects** pane from the **Appearance** panel and tap the existing **Stroke**. 
+
+Drag the **Width** slider to **2 pt**, check the **Inside** **Alignment** button and then tap the color wheel that stands for this **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with  white (**R=255 G=255 B=255**).
+
+ Return to the **Effects** panel and tap the cogwheel icon that stands for the same **Stroke**. Go to **Blend Mode** and select the **Soft Light** blend mode.
+
+(image: stampIconiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane.
+
+ Focus on this new **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. You can easily move attributes inside the **Effects** panel using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: stampIconiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Focus on this new **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: stampIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your stamp shape stays selected, focus on the **Effects** pane and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color wheel that stands for this effect. Drag the **Alpha** slider to **15%** and make sure that the color is set to black (**R=0 G=0 B=0**). Keep focusing on the **Effects** pane and simply drag your **Drop Shadow** effect right below the **Fill**. 
+
+(image: stampIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**  using that same plus button. Focus on this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: stampIconiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this effect, drag it right below the **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: stampIconiPhone19.jpg)
+
+
+
+##Step 20
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=255 G=185 B=0**. 
+
+Using the **Rectangle Tool**, create a **105 x 120 px** shape and place it as shown in the following image. 
+
+(image: stampIconiPhone20.jpg)
+
+
+
+##Step 21
+
+Now, you  need to save [this free image](http://pixabay.com/en/hawk-bird-prey-animal-nature-494064/) inside your Photos iPhone folder. 
+
+Reselect that yellow rectangle and open the **Appearance** panel. Tap the **Image** button and simply add your image. You will probably notice that the image doesn't cover your entire rectangle, but this  issue can be solved pretty fast. 
+
+Pick the **Move Tool**, make sure that your rectangle is still selected and double tap it to activate the **Image Tool**. Drag that **Image** slider slightly to the right until you can tell that your image covers the entire rectangle. Once you're done, simply tap outside your shape. 
+
+(image: stampIconiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your image is still selected and focus on the **Effects** pane. Activate the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: stampIconiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Feel free to use [a different image](http://pixabay.com/en/pavo-cristatus-peacock-85230/) for your stamp. 
+
+Make sure that your rectangle is still selected, re-open the **Appearance**  panel, tap that same **Image** button and replace the existing image with the one that you prefer. Don't forget to adjust it and keep in mind that you can also adjust the position of the image when the **Image Tool** is active. Simply tap and drag it wherever you want. 
+
+(image: stampIconiPhone23.jpg)
+
+
+
+##Step 24
+
+Finally, here's how you can easily recolor your stamp. Select that main shape, focus on the **Effects** pane and replace the existing colors with the ones pointed in the following image. Feel free to try a different set of colors.
+
+(image: stampIconiPhone24.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: stampIconiPhone0.jpg)
+
+----
+
+Title: iPhone

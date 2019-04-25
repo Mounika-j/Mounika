@@ -1,0 +1,198 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple ticket icon in Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to activate the Snap to Grid feature. Next, you'll create the main ticket shapes using two simple tools and some basic vector shapes building techniques. Using the Effects pane from the Appearance panel you will learn how to add some subtle borders and shading for your ticket shape. 
+
+Finally, you'll learn how to add a simple piece of text and how to easily recolor your entire icon. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: ticketIconiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px** and select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is enabled. This feature ensures that all shapes that are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: ticketIconiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: ticketIconiPhone1C.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Tap that  fill color wheel and replace the existing color with **R=229 G=112 B=73** and then tap   the line color wheel and drag the **Alpha** slider to **0%**, which will simply make the line invisible. 
+
+Pick the **Rectangle Tool**, focus on your canvas and create a **140 x 75 px** shape. 
+
+(image: ticketIconiPhone2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the line is still invisible and then set the fill color to **R=0 G=152 B=245**. 
+
+Pick the **Ellipse Tool**, create a **20 px** circle and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature will ease your work. 
+
+(image: ticketIconiPhone3.jpg)
+
+
+
+##Step 4
+
+Make sure that your blue circle is still selected and then tap and hold until you get that dark tooltip with the five commands. Use the **Copy** and **Paste** commands to multiply your selected shapes. 
+
+Make three copies and place them exactly as shown in the following image. 
+
+(image: ticketIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Now, you will need a grid every  **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel,  open the **Grid Settings** pane and enter **1 px** inside both **Spacing** boxes.  
+
+Get back to  your **Toolbar**, make sure that the line is still invisible and then set the fill color to **R=255 G=185 B=0**. Reselect the **Ellipse Tool**, create a **5 px** circle and place it as shown in the following image. 
+
+(image: ticketIconiPhone5.jpg)
+
+
+
+##Step 6
+
+Use the same **Copy** and **Paste** commands from that dark tooltip to multipy your yellow circle and spread the copies as shown in the following image. 
+
+(image: ticketIconiPhone6.jpg)
+
+
+
+##Step 7
+
+Pick the **Path Selection Tool**, focus on the newly opened tool pane and activate the second tool mode. 
+
+Select all those yellow circles and focus on the right side of your **Titlebar**. Open the **Combine** pane from the **Properties** panel and simply tap the **Make** button to turn your selected shapes into one compound path.
+ 
+(image: ticketIconiPhone7.jpg)
+
+
+
+##Step 8
+
+Duplicate your yellow compound path, drag the copy to the right and place it as shown in the following image. 
+
+(image: ticketIconiPhone8.jpg)
+
+
+
+##Step 9
+
+For the remaining steps you will need a grid every **5 px** which simply means that you need to return to the **Grid** pane from the **Properties** panel,  open the **Grid Settings** pane and enter **5 px** inside both **Spacing** boxes.   
+
+Select all the shapes made so far, return to the **Combine** pane from the **Properties** panel and tap the **Subtract** button. 
+
+(image: ticketIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape stays selected and open the **Effects** pane from the **Appearance** panel.
+
+Tap the color wheel that stands for the existing **Stroke**, drag the **Alpha** slider to **100%** and replace the existing color with a simple white (**R=255 G=255 B=255**). Keep focusing on this stroke, drag the **Width** slider to **2 pt** and then select the **Inside** Alignment button. Keep focusing on the **Effects** pane and tap the cogwheel icon that stands for your **Stroke**. Go to **Blend Mode** and then  select the **Soft Light** blend mode.
+
+(image: ticketIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the top, right corner of your pane. 
+
+Make sure that this new **Stroke** lies below the existing one and then enter the attributes shown in the following image. You can easily move attributes inside the **Effects** pane using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: ticketIconiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. 
+
+Make sure that this new **Stroke** lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: ticketIconiPhone12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, this time make sure that the fill is invisible and then set the line color to **R=189 G=74 B=37**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **10 pt**. Move to your canvas, create a **110 x 55 px** shape and place it as shown in the following image. Make sure that this new shape stays selected, move to the **Effects** pane, focus on the existing **Stroke** and simply drag that **Width** slider to **2 pt**. 
+
+(image: ticketIconiPhone13.jpg)
+
+
+
+##Step 14
+
+Using the **Line Tool** (or the **Pen Tool**), create a **35 px**, vertical path and place it exactly as shown in the following image. 
+
+Make sure that the this new path stays selected and focus on the **Effects** pane. Select the existing stroke, drag the  **Width**  slider to **2pt** and check the **Round Cap** button. 
+
+(image: ticketIconiPhone14.jpg)
+
+
+
+##Step 15
+
+Duplicate your vertical path and place the copy as shown in the following image. 
+
+Pick  the **Text Tool** and simply  double tap inside that new field as you will be guided. Select the **Arial Rounded MT Bold** **** font, set the **Size** to **15 pt** and then simply add that &quot;<em>ADMIT ONE</em>&quot; piece of text. Set its color to **R=189 G=74 B=37**.Place it roughly as shown in the following image. 
+
+(image: ticketIconiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your piece of text stays selected, focus on the **Effects** pane and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes, change the blend mode to **Soft Light**  and then tap the color wheel that stands for this effect. Drag the **Alpha** slider to **50%** and replace the existing color with white. 
+
+(image: ticketIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your piece of text stays selected, focus on the **Effects** pane, activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: ticketIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Finally, feel free to try different colors for your ticket. Simply select the shapes, the paths and the piece of text one by one and then replace the two main colors (**R=229 G=112 B=73** and **R=189 G=74 B=37**) with the colors that your prefer. 
+
+(image: ticketIconiPhone18.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: ticketIconiPhone0.jpg)
+
+----
+
+Title: iPhone

@@ -1,0 +1,36 @@
+Title: Create a Flat Notebook Illustration
+
+----
+
+Description: Learn how to create a flat notebook illustration using shapes and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Flat Notebook Illustration class: header960)
+
+----
+
+Thumbnail: flatnotebookthumbnail.jpg
+
+----
+
+Date: 2014-10-28
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: FlatNotebook.idraw text: FlatNotebook.idraw)
+
+----
+
+Graphicfile: flatnotebook.idraw
+
+----
+
+Headerimg: header.jpg

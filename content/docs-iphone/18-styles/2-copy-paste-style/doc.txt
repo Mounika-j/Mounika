@@ -1,0 +1,13 @@
+Title: Copy/Paste Style
+
+----
+
+Text: 
+
+# Copy/Paste Styles
+
+Besides the _**Styles pane**_, appearance attributes can be easily passed from one object to another using quick commands. 
+
+Tap the **Copy Style** command from the Appearance panel to copy the style of a selected object and the **Paste Style** command to paste a copied style to any other object. 
+
+(video: copypastestyle1-iphone.mp4 width:750)

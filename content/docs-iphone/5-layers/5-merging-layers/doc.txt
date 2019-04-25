@@ -1,0 +1,11 @@
+Title: Merging Layers
+
+----
+
+Text: 
+
+# Merging Layers
+
+The contents of two layers can be merged into one single layer. To merge two layers, select the layer on top, open the _**Layers Action menu**_ and then choose _**Merge**_.
+
+(video: merginglayers1-iphone.mp4 width: 750)

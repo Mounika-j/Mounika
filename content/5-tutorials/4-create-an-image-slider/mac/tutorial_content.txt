@@ -1,0 +1,380 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple image slider UI in  Graphic for Mac. 
+
+For starters, you will learn how to set up a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Using the Effects pane, you will learn how to add subtle shading and highlights for your shapes. 
+
+Finally, you'll learn how to create and adjust image fills and how to add simple pieces of text. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **500** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0**, and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: imageSlider1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and  notice that by default the fill color is set to white while the stroke color is set to black. 
+
+Click on the fill color well and set the  color to **R=235 G=235 B=235** and then click on the stroke color well. Drag the **Alpha** slider to **0%** and this  will simply make your stroke invisible. Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag the **Corner Radius** slider to **5 pt**. Move to your canvas and simply create a **370x 220 px** shape. 
+
+(image: imageSlider2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can easilt open it using the leftmost icon that lies above the **Layers** panel. 
+
+Select the existing **Stroke**, drag the **Width** slider to **2 pt**, select **Inside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu and then  click  the color well that stands for your **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with a simple white (**R=255 G=255 B=255**). 
+
+(image: imageSlider3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of your panel. Select the new stroke, make sure that it lies below the other one and then simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlider4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Select the new stroke and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlider5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and  check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **0** in the **X** box and **2** in the **Y** box, drag the **Size** slider to **8** and then click  the color well that stands for this effect. Drag the **Alpha** slider to **15%** and replace the existing color with a simple black (**R=0 G=0 B=0**). Finally, drag this effect right above the bottom stroke as shown in the following image. 
+
+(image: imageSlider6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: imageSlider7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using that same plus button. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlider8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a new **Inner Shadow** using that same plus button. Select this new effect, make sure that it lies above the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlider9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this  effect, drag it above the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlider10.jpg)
+
+
+
+##Step 11
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=235 G=235 B=235**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and make sure that the **Corner Radius** is still set to **5 pt**. Move to your canvas, create a **390 x 200 px** shape and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature should ease your work.
+
+(image: imageSlider11.jpg)
+
+
+
+##Step 12
+
+Reselect your back, rounded rectangle, simply right click on your canvas and go to **Copy Style**. Next, select your front, rounded rectangle, right click on your canvas and this time go to **Paste Style**. In the end things should look like in the first image. Now, you need to send your front shape to back, so select it and simply hit **Command + Shift + [** . 
+
+(image: imageSlider12.jpg)
+
+
+
+##Step 13
+
+Get back to your Toolbar, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=74 G=196 B=237**. 
+
+Pick the **Rectangle Tool (M)**, create a **350 x 200 px** shape and place it exactly as shown in the following image. 
+
+(image: imageSlider13.jpg)
+
+
+
+##Step 14
+
+For this step you  need to first download [this free image](http://pixabay.com/en/train-station-night-railway-tracks-336602/).
+ 
+Reselect your blue rectangle and focus on the **Effects** pane. Select the existing **Fill**, select **Image** from the **Type** drop-down menu and simply add the image downloaded a few moments ago. You will probably notice that the image doesn't cover your entire rectangle, but this little issue can be solved pretty fast. Keep focusing on the **Effects** pane and simply drag the **Scale** slider at around **110%**.
+
+(image: imageSlider14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt**, select **Outside** from the **Position** drop-down menu and then simply click  the color well that stands for your **Stroke**. Drag the **Alpha** slider to **50%** and replace the existing color with a simple white.
+
+(image: imageSlider15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlider16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a third **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlider17.jpg)
+
+
+
+##Step 18
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a fourth **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlider18.jpg)
+
+
+
+##Step 19
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Activate the existing **Inner Glow**, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: imageSlider19.jpg)
+
+
+
+##Step 20
+
+Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=0 G=174 B=15**. 
+
+Using the **Ellipse Tool (O)**, create a **10 px** circle. Make sure that this new shape is selected, make four copies **(Command + C &gt; Command + V)** and spread them exactly as shown in the second image. Once again, the grid and then **Snap to Grid** feature will come in handy. 
+
+(image: imageSlider20.jpg)
+
+
+
+##Step 21
+
+Reselect the five circle made in the previous step, focus on the **Path Tools** pane from the **Properties** panel and simply click that **Make Compound Path** button. Place this new compound path as shown in the following image. 
+
+(image: imageSlider21.jpg)
+
+
+
+##Step 22
+
+Make sure that your compound path is still selected and focus on the **Effects** pane. First, click the **Fill** color well, drag the **Alpha** slider to **10%** and replace the existing fill color with a simple black. Next, select the existing **Stroke** and  enter the attributes shown in the following image. 
+(image: imageSlider22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your compound path is still selected and focus on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlider23.jpg)
+
+
+
+##Step 24
+
+Make sure that your compound path is still selected and keep focusing on the **Effects**  pane. Activate the existing **Inner Shadow**, drag it between the two **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlider24.jpg)
+
+
+
+##Step 25
+
+Make sure that your compound path is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it below that **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: imageSlider25.jpg)
+
+
+
+##Step 26
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=235 G=235 B=235**.
+
+ Using the **Ellipse Tool (O)**, create a **10 px** circle and place it as shown in the first image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the existing **Stroke** and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlider26.jpg)
+
+
+
+##Step 27
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlider27.jpg)
+
+
+
+##Step 28
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlider28.jpg)
+
+
+
+##Step 29
+
+Make sure that your circle is still selected and keep focusing on the **Effects**  pane. Add a second **Inner Shadow**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlider29.jpg)
+
+
+
+##Step 30
+
+Make sure that your circle is still selected and keep focusing on the **Effects**  pane. Activate the existing **Drop Shadow**, drag it between the two **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlider30.jpg)
+
+
+
+##Step 31
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlider31.jpg)
+
+
+
+##Step 32
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlider32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlider33.jpg)
+
+
+
+##Step 34
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it right below the top  **Stroke** and then enter the attributes shown in the following image. 
+
+(image: imageSlider34.jpg)
+
+
+
+##Step 35
+
+ Get back to your Toolbar, make sure that the **Stroke** is invisible and then set a simple yellow (**R=255 G=185 B=2**) for the **Fill**. 
+ 
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **2 pt**. Move to your canvas, create a **50 x 20 px** shape and place it exactly as shown in the following image. 
+
+(image: imageSlider35.jpg)
+
+
+
+##Step 36
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Focus on the left side of your yellow shape and pick the **Rectangle Tool (M)**. Create a **3 x 20 px** shape and place it exactly as shown in the first image. Select this new rectangle along with your yellow, rounded rectangle, focus on the **Path Tools** pane from the **Properties** panel and simply click that **Subtract** button. In the end things should look like in the following image. 
+
+(image: imageSlider36.jpg)
+
+
+
+##Step 37
+
+Make sure that your yellow shape is still selected and pick the **Rotate Tool (R)**. Focus on the **Tool Options** bar, enter a **180 degrees** angle and then simply hit the **Copy** button. Select the newly made copy, drag it to the right and make sure that you place it exactly as shown in the third image. 
+
+(image: imageSlider37.jpg)
+
+
+
+##Step 38
+
+Select your left, yellow shape and focus on the **Effects** pane. Replace the existing **Fill** color with **R=235 G=235 B=235** and then activate that **Drop Shadow**. Simply replace the existing attributes with the ones shown in the following image.
+
+(image: imageSlider38.jpg)
+
+
+
+##Step 39
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: imageSlider39.jpg)
+
+
+
+##Step 40
+
+Make sure that the shape edited in the previous step is still selected, copy its attributes and paste them onto the remaining yellow shape. Select this second shape, focus on **Effects** pane and simply inverse the values used in the **X** section for the active effects. 
+
+(image: imageSlider40.jpg)
+
+
+
+##Step 41
+
+Pick the **Text Tool (T)**, simply click on your canvas and focus on the **Text** pane from the **Appearance** panel. Select the **Arial Rounded MT Bold** font, set the **Size** to **8 pt** and then add the &quot;_PREV_&quot; piece of text. Set its color to **R=175 G=175 B=175** and place it as shown in the following image. 
+
+Using the same tool and text attributes, add the &quot;_NEXT_&quot; piece of text and place it as shown below. 
+
+(image: imageSlider41.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: imageSlider0.jpg)
+
+----
+
+Title: Mac

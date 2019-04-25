@@ -1,0 +1,196 @@
+Text: 
+
+In the following tutorial you will learn how to create a volume control icon in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the main frame of the icon using the Rounded Rectangle Tool and the Effects pane. Next, you'll create the speaker icon using basic tools and vector shapes building techniques. 
+
+Finally, you'll learn how to create the volume bar and how to add a simple image for the background. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Go to **File &gt; New** or hit the **Command + N** keyboard shortcut to bring up the **New Document** window. Select the **Grid** document style, select **pixels** for the document unit and then set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, you need to adjust  the document's grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and then enable **Snap to Grid**. 
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: volumeControl1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. Click  the fill color wheel to open the color panel and replace the existing color with black (**R=0 G=0 B=0**). Next, click  the stroke color wheel and drag the **Alpha** slider to **0%**, which will simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag the **Corner Radius** slider to **25 pt**. Move to your canvas and simply create a **205 px** rounded square, holding the **Shift** button will make it a lot easier for you to create a perfect rounded square.
+
+(image: volumeControl2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded square is still selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can open it using the leftmost icon that lies above your **Layers** panel. Simply click the color wheel that stands for the existing **Fill** and drag the **Alpha** slider to **30%**. 
+
+(image: volumeControl3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=24 G=169 B=250**. Pick the **Rectangle Tool (M)**, create a **20 px** square and place it exactly as shown in the following image. 
+
+(image: volumeControl4.jpg)
+
+
+
+##Step 5
+
+Make sure that the **Rectangle Tool (M)** is still active, create a **20 x 60 px** shape and place it as shown in the first image. 
+
+Focus on the left side of this new rectangle and switch to the **Path Selection Tool (A)**. Select the top anchor point and drag it **15 px** down and then select the bottom anchor point and drag it **15 px** up. 
+
+(image: volumeControl5.jpg)
+
+
+
+##Step 6
+
+Focus on your **Toolbar**, simply hit **Shift + X** to transfer that blue from **Fill** to the **Stroke**. Pick the **Pen Tool (P)**, create a **70 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and focus on the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **6 pt** and check the **Round Cap** button. 
+
+Move to the tool options bar and activate the second tool mode for the **Pen Tool**. Return to your vertical path and simply click in the middle to add a new anchor point as shown in the second image. Switch to the **Path Selection Tool (A)**, select the newly added anchor point and  drag it **20 px** to the right as shown in the third image. 
+
+(image: volumeControl6.jpg)
+
+
+
+##Step 7
+
+Keep focusing on your blue path and pick the **Convert Anchor Tool (Shift + C)**. Click on that middle anchor point and drag those handles **25 px** down as shown in the first image. 
+
+Now, make sure that this curved path remains selected, move to the **Path Tools** pane from the **Properties** panel and click the **Outline Stroke** button. 
+(image: volumeControl7.jpg)
+
+
+
+##Step 8
+Pick the **Pen Tool (P)**, create a **50 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and move to the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **6 pt** and check the **Round Cap** button. 
+
+Again, activate the second tool mode for the **Pen Tool**, return to your vertical path and simply add a new anchor point in the middle as shown in the second image. Switch to the **Path Selection Tool (A)**, select the new anchor point and  drag it **15 px** to the right as shown in the third image. 
+
+(image: volumeControl8.jpg)
+
+
+
+##Step 9
+
+Keep focusing on your blue path and pick the **Convert Anchor Tool (Shift + C)**. Click on that middle anchor point and drag those handles **20 px** down as shown in the first image. 
+
+Make sure that your  curved path remains selected, move to the **Path Tools** pane from the **Properties** panel and click the **Outline Stroke** button. 
+
+(image: volumeControl9.jpg)
+
+
+
+##Step 10
+
+Pick the **Pen Tool (P)**, create a **30 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and focus on the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **6 pt** and check the **Round Cap** button. 
+
+Activate the second tool mode for the **Pen Tool**, return to your vertical path and simply add a new anchor point in the middle as shown in the second image. Switch to the **Path Selection Tool (A)**, select this new anchor point and  drag it **10 px** to the right as shown in the third image. 
+
+(image: volumeControl10.jpg)
+
+
+
+##Step 11
+
+Keep focusing on your blue path and pick the **Convert Anchor Tool (Shift + C)**. Click on that middle anchor point and drag those handles **10 px** down as shown in the first image. 
+
+Make sure that this curved path remains selected, move to the **Path Tools** pane from the **Properties** panel and click the **Outline Stroke** button. 
+
+(image: volumeControl11.jpg)
+
+
+
+##Step 12
+
+
+Select all your blue shapes and focus on that same **Path Tools** pane from the **Properties** panel. First, click the **Union** button and then click the **Make Compound Path** button. 
+
+(image: volumeControl12.jpg)
+
+
+
+##Step 13
+
+Make sure that your blue shape is still selected and focus on the **Effect** pane from the **Appearance** panel. 
+
+Click the color wheel that stands for the existing **Fill**, drag the **Alpha** slider to **80%** and replace the existing color with a simple white (**R=255 G=255 B=255**). 
+
+(image: volumeControl13.jpg)
+
+
+
+##Step 14
+
+Get back to your **Toolbar**, make sure that the **Stroke** is invisible and then set the **Fill** color to white. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag the **Corner Radius** slider to **3 pt**. Move to your canvas, create a **10 px** rounded square and place it as shown in the first image. 
+
+Using the **Command + C &gt; Command &gt; V** keyboard shortcut, multiply this tiny shape and spread the copies in a perfect row as shown in the second image. Once you're done, select all these tiny, rounded squares, focus on the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button. 
+
+(image: volumeControl14.jpg)
+
+
+
+##Step 15
+
+Make sure that your row of rounded squares is still selected and focus on the **Effect** pane from the **Appearance** panel. Click the color wheel that stands for the existing **Fill** and drag the **Alpha** slider to **20%**.
+
+(image: volumeControl15.jpg)
+
+
+
+##Step 16
+
+Reselect the **Rounded Rectangle Tool (Shift + M)**, create a new, **10 px** rounded square and place it as shown in the first image. 
+
+Make five copies of this new shapes and spread them as shown in the second image. Once you're done, select all six, rounded squares, and turn them into a compound path using that same **Make Compound Path** button from the **Path Tools** pane. 
+
+(image: volumeControl16.jpg)
+
+
+
+##Step 17
+
+Make sure that the compound path made in the previous step is still selected and focus on the **Effect** pane. Click the color wheel that stands for the existing **Fill** and drag the **Alpha** slider to **75%**.
+
+(image: volumeControl17.jpg)
+
+
+
+##Step 18
+
+For this step you will have to download the Yosemite sunset image from [here](http://osxdaily.com/2014/06/03/grab-os-x-yosemite-wallpaper/). 
+
+Drag it inside your document, use the **Shift + Command + [** keyboard shortcut to send it to back and resize it roughly as shown in the following image. Feel free to use a different image. 
+
+(image: volumeControl18.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: volumeControl0.jpg)
+
+----
+
+Title: Mac

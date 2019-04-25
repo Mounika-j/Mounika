@@ -1,0 +1,19 @@
+Title: Pattern Palette
+
+----
+
+Text: 
+
+# Pattern Palette
+
+Use the _**Pattern palette**_  to quickly choose a pattern, as well as save and reuse frequently used patterns. 
+
+Drag the pattern thumbnail to one of the palette slots to save the adjusted version of a pattern that's already saved in the _**Pattern palette**_. You can add new patterns inside empty slots or replace an existing pattern by dragging a new pattern on top of it. 
+
+(video: patternpalette1-ipad.mp4 width: 750)
+
+To delete a pattern from the _**Pattern palette**_, tap on it and hold to open the  context menu, and then tap the _**Remove**_ command.
+
+(video: patternpalette2-ipad.mp4 width: 750)
+
+To disable an object’s pattern fill, tap the **‘none’** swatch from the bottom-right corner.

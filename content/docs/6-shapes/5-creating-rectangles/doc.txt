@@ -1,0 +1,15 @@
+Title: Rectangles
+
+----
+
+Text: 
+
+#Rectangles
+
+Choose the _**Rectangle tool**_ to draw rectangles or squares. Simply click and drag inside your canvas to create a new rectangle.
+
+Hold the **Shift ⇧** key while dragging to easily create squares.
+
+(video: rectangles1.mp4 width: 750)
+
+> Tip: Use the **M** keyboard shortcut to quickly select the Rectangle tool.

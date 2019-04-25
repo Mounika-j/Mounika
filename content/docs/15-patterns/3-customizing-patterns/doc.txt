@@ -1,0 +1,29 @@
+Title: Customizing Patterns
+
+----
+
+Text: 
+
+# Customizing Patterns
+
+The _**Fill pane**_ from the Appearance panel can be used to edit patterns. Although the _**Pattern Palette**_ allows you to select from pre-made patterns, you can edit these patterns from this pane.
+
+Same settings can be found inside the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel whenever you select a _**Fill**_ with a pattern.
+
+(image: customizingpatterns1.jpg  width: 750)
+
+1. **Fill Type** - Choose _**Pattern**_ from this drop-down menu to fill your object with a pattern.
+
+2. **Pattern Preview** - Preview of the current pattern; click on it to easily access the (link: docs/patterns/patterns-palette text: _**Pattern palette**_) and choose a pattern.
+
+3. **Width & Height** - Increase or decrease the space between the tiles that make up your pattern. A percentage over 100% will add space between the tiles while a percentage under 100% will decrease it, which will make the tiles overlap.
+
+ (image: customizingpatterns2.jpg  width: 723)
+
+4. **Angle** - Determines the rotation angle of the pattern.
+
+ (image: customizingpatterns3.jpg  width: 723)
+
+5. **Scale**- Scale a pattern within the shape’s bounds. Alternatively, you can use the (link: docs/patterns/pattern-tool text: _**Pattern tool**_) to scale and position a pattern within an object.
+
+6. **Opacity** - Adjust the transparency of the pattern using the slider or the input field.

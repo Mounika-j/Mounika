@@ -1,0 +1,43 @@
+Title: Settings
+
+----
+
+Text: 
+
+# Canvas Settings
+
+The canvas size, scale, measurement unit and background color can be customized using the _**Canvas pane**_ from the Properties panel.
+
+(image: editingcanvas1.jpg width:750)
+
+ # {#scale} 
+
+1. **Canvas** - enter values to change the width and height of the canvas. Documents can have a maximum canvas size of 16,000 x 16,000 pixels.
+
+2. **Base Units** - set the measurement units to be used for rulers and dimension values from: pixels, inches, centimeters and millimeters.
+
+3. **Orientation** - Select the orientation mode to be used for the canvas, landscape or portrait.
+
+4. **Scale** - create ‘to-scale’ technical designs using the canvas scale setting. Rulers and dimension values are scaled by the factor set in this field. Changing the scale units allows you to create designs measured in feet, miles, meters, kilometers, etc. The actual paper size of the document does not change, only the displayed values and units are adjusted by this setting.
+
+5. **Background** - the canvas background can be set to either a color, a gradient, or an image. You can modify the background settings in the same way as editing a fill. 
+
+ (image: editingcanvas2.jpg width:723)
+
+ Using the settings from the (link: docs/exporting text: _**Export**_) pop-up window, the canvas color and the grid can be kept as part of the saved design. 
+
+### Resizing Canvas
+
+Besides the _**Canvas pane**_, a more complex method to adjust the size of your canvas would be the _**Canvas Size**_ command. Simply go to **Modify > Canvas Size...** [ **⌘** - **⌥** - **K** ] to open the _**Canvas Size**_ pop-up window.
+
+(image: editingcanvas3.jpg width:750)
+
+Using the arrows buttons from that square you can add/remove space to/from a certain side of your canvas.
+
+### Resizing Artwork
+
+Changing the size of your artwork will adjust the size of your canvas along with the existing objects. Simply go to **Modify > Artwork Size…** [ **⌘** - **⌥** - **A** ] to open the _**Artwork Size**_ pop-up window.
+
+(image: editingcanvas4.jpg width:750)
+
+You can choose to scale your work proportionally or to scale the styles and effects applied to the existing objects.

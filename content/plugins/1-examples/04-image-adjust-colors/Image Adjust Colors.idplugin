@@ -1,0 +1,260 @@
+var doc = [app activeDocument]
+var fill = findSelectedImageFill()
+var userClickedOK = false
+
+if(fill)
+{
+    var thumbImage = [[fill image] thumbnailCGImageToFitSize:CGSizeMake(300, 250)]
+    var saturation = 1
+    var brightness = 0
+    var contrast = 1
+    var shouldApply = false
+    
+    // create the window
+    var window = [[NSWindow alloc] init]
+    [window setTitle:"Image Adjust Colors"]
+    [window setFrame:NSMakeRect(0, 0, 320, 415) display:false]
+    
+    var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 133, 300, 250)]
+    imageView.imageFrameStyle  = NSImageFrameGrayBezel
+    
+    var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]
+    [[window contentView] addSubview:imageView]
+    
+    createTextLabel("Saturation:", NSMakeRect(6, 97, 70, 20))
+    createTextLabel("Brightness:", NSMakeRect(6, 72, 70, 20))
+    createTextLabel("Contrast:", NSMakeRect(6, 47, 70, 20))
+    
+    var saturationField = createValueField(NSMakeRect(272, 100, 34, 18))
+    saturationField.floatValue = 1
+    [saturationField setJSTargetFunction:"saturationFieldAction"]
+    
+    var brightnessField = createValueField(NSMakeRect(272, 75, 34, 18))
+    brightnessField.floatValue = 0
+    [brightnessField setJSTargetFunction:"brightnessFieldAction"]
+    
+    var contrastField = createValueField(NSMakeRect(272, 50, 34, 18))
+    contrastField.floatValue = 1
+    [contrastField setJSTargetFunction:"contrastFieldAction"]
+    
+    saturationField.nextKeyView = brightnessField
+    brightnessField.nextKeyView = contrastField
+    contrastField.nextKeyView = saturationField
+    
+    var saturationSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 100, 190, 20)]
+    saturationSlider.minValue = 0
+    saturationSlider.maxValue = 2
+    saturationSlider.floatValue = 1
+    [saturationSlider setJSTargetFunction:"saturationSliderAction"]
+    [[window contentView] addSubview:saturationSlider]
+    
+    var brightnessSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 75, 190, 20)]
+    brightnessSlider.minValue = -1
+    brightnessSlider.maxValue = 1
+    brightnessSlider.floatValue = 0
+    [brightnessSlider setJSTargetFunction:"brightnessSliderAction"]
+    [[window contentView] addSubview:brightnessSlider]
+    
+    var contrastSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 50, 190, 20)]
+    contrastSlider.minValue = 0.25
+    contrastSlider.maxValue = 4
+    contrastSlider.floatValue = 1
+    [contrastSlider setJSTargetFunction:"contrastSliderAction"]
+    [[window contentView] addSubview:contrastSlider]
+    
+    [window makeFirstResponder:nil]
+    
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(223, 8, 77, 32)]
+    [okButton setTitle:"Apply"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [okButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(141, 8, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:"\033"]    // esc key
+    [cancelButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    [window setInitialFirstResponder:saturationSlider]
+    [NSApp runModalForWindow:window]
+    
+    if(shouldApply)
+    {
+        var currentImage = [fill image]
+        var filteredImg = filterImage([currentImage CGImage], saturation, brightness, contrast)
+        var newImg = doc.addImage(filteredImg)
+        newImg.cropRect = [currentImage cropRect]
+        newImg.opacity = [currentImage opacity]
+        fill.image = newImg;
+    }
+}
+else
+{
+    [app showAlert:"Please select an object with an image fill to adjust the image."]
+}
+
+
+function okAction(sender)
+{
+    shouldApply = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function createTextLabel(str, frame)
+{
+    var label = [[NSTextView alloc] initWithFrame:frame]
+    label.string = str
+    label.editable = false
+    label.selectable = false
+    label.font = [NSFont systemFontOfSize:11]
+    label.alignment = NSRightTextAlignment
+    label.backgroundColor = [NSColor clearColor]
+    [[window contentView] addSubview:label]
+    return [label autorelease]
+}
+
+function createValueField(frame)
+{
+    var valueField = [[NSTextField alloc] initWithFrame:frame]
+    valueField.editable = true
+    valueField.selectable = true
+    valueField.alignment = NSLeftTextAlignment
+    valueField.font = [NSFont systemFontOfSize:10]
+    valueField.focusRingType = NSFocusRingTypeNone
+    [valueField cell].sendsActionOnEndEditing = true
+    [[window contentView] addSubview:valueField]
+    
+    var formatter = [[NSNumberFormatter alloc] init]
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:"0.##"];
+    [formatter setLocale:[NSLocale systemLocale]];
+    valueField.formatter = formatter
+    
+    return [valueField autorelease]
+}
+
+function saturationSliderAction()
+{
+    saturation = saturationSlider.floatValue()
+    saturationField.floatValue = saturation
+    updatePreview()
+}
+
+function brightnessSliderAction()
+{
+    brightness = brightnessSlider.floatValue()
+    brightnessField.floatValue = brightness
+    updatePreview()
+}
+
+function contrastSliderAction()
+{
+    contrast = contrastSlider.floatValue()
+    contrastField.floatValue = contrast
+    updatePreview()
+}
+
+function saturationFieldAction()
+{
+    saturation = saturationField.floatValue()
+    
+    if(saturation > 2)
+        saturation = 2
+    if(saturation < 0)
+        saturation = 0
+    
+    saturationSlider.floatValue = saturation
+    saturationField.floatValue = saturation
+    updatePreview()
+}
+
+function brightnessFieldAction()
+{
+    brightness = brightnessField.floatValue()
+    
+    if(brightness > 1)
+        brightness = 1
+    if(brightness < -1)
+        brightness = -1
+    
+    brightnessSlider.floatValue = brightness
+    brightnessField.floatValue = brightness
+    updatePreview()
+}
+
+function contrastFieldAction()
+{
+    contrast = contrastField.floatValue()
+    
+    if(contrast > 4)
+        contrast = 4
+    if(contrast < 0.2)
+        contrast = 0.2
+    
+    contrastSlider.floatValue = contrast
+    contrastField.floatValue = contrast
+    updatePreview()
+}
+
+function findSelectedImageFill()
+{
+    var shapesEnumerator = [[doc selectedShapes] reverseObjectEnumerator]
+    var shape
+    
+    while(shape = [shapesEnumerator nextObject])
+    {
+        var fill = [shape fill]
+        
+        if(fill && [fill image])
+            return fill
+    }
+    
+    return nil
+}
+
+function updatePreview()
+{
+    var filteredImage = filterImage(thumbImage, saturation, brightness, contrast)
+    var nsImg = [[NSImage alloc] initWithCGImage:filteredImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]    
+    [nsImg release]
+}
+
+function filterImage(img, s, b, c)
+{
+    var inputImage = [CIImage imageWithCGImage:img]
+    var filter = [CIFilter filterWithName:"CIColorControls"]
+        
+    [filter setDefaults]
+    [filter setValue:s forKey:"inputSaturation"]
+    [filter setValue:b forKey:"inputBrightness"]
+    [filter setValue:c forKey:"inputContrast"]
+    [filter setValue:inputImage forKey:"inputImage"]
+
+    var outputImage = [filter valueForKey:"outputImage"]
+    var rep = [NSCIImageRep imageRepWithCIImage:outputImage];
+    var nsImage = [[NSImage alloc] initWithSize:rep.size];
+    [nsImage addRepresentation:rep];
+    
+    var cgImg = [nsImage CGImageForProposedRect:nil context:nil hints:nil]
+    
+    [filter setDefaults]
+    [nsImage release]
+    
+    return cgImg
+}

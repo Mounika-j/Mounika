@@ -1,0 +1,21 @@
+Title: Create a Flat File Icon
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: flatfileicon.idraw
+
+----
+
+Description: Learn how to create a flat file icon using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

@@ -1,0 +1,26 @@
+Title: Managing Brushes
+
+----
+
+Text: 
+
+# Managing Brushes
+
+Once created, brushes can be stored for later use. Saved brushes remain stored and can be used in other designs until you choose to remove them. 
+
+####Saving Brushes
+
+To save a custom brush in the _**Brush pane**_, click the add button (**+**) and your brush will be added inside the _**Saved Brushes**_ box. 
+
+Saving a custom brush inside the _**Brush Settings pane**_ is just as easy. Click the _**Save Brush**_ button and your brush will be added at the top of the _**Saved Brushes**_ pop-up pane.
+
+(image: managingbrushes1.jpg  width: 750)
+
+#### Using Saved Brushes
+
+Using saved brushes is pretty straight forward. Choose the _**Brush Tool**_, go to the _**Brush pane**_ or the _**Saved Brushes pane**_ and click the desired saved brush to activate it. You can use it as it is or adjust it before use.
+
+#### Removing Saved Brushes
+To remove a saved brush, simply right-click on that specific brush and then click _**Remove Brush**_.
+
+(image: managingbrushes2.jpg  width: 750)

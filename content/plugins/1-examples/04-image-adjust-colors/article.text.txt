@@ -1,0 +1,16 @@
+Title: Image Color Controls
+
+----
+Description: Adjust the colors of an image fill using brightness, contrast, and saturation sliders.
+
+----
+Image: (image: Header.jpg title: Image Adjust Colors)
+
+----
+Thumbnail: (image: Thumbnail.jpg title: Image Adjust Colors)
+
+----
+Plugfile: (file: ImageAdjustColors.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

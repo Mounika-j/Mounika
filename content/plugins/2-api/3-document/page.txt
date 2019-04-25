@@ -1,0 +1,535 @@
+Title: Document
+
+----
+
+Text: 
+
+A document object. Each document maintains a list of layers, selection state, and set of alignment guides. Several functions are available for exporting various types of data. 
+&nbsp;
+The document object is also the constructor for new (link: plugins/api/color text: **Color**), (link: plugins/api/gradient text: **Gradient**), (link: plugins/api/image text: **Image**), and (link: plugins/api/path text: **Path**) attribute objects.
+&nbsp;
+_Layers_
+- (link: plugins/api/document#layers text: **layers**)
+- (link: plugins/api/document#activeLayer text: **activeLayer**)
+- (link: plugins/api/document#addLayer text: **addLayer**)
+
+_Selections_
+- (link: plugins/api/document#selection text: **selection**)
+- (link: plugins/api/document#selectedShapes text: **selectedShapes**)
+- (link: plugins/api/document#selectedLayers text: **selectedLayers**)
+
+_Creating Attributes_
+- (link: plugins/api/document#addColor text: **addColor**)
+- (link: plugins/api/document#addColorWithRedgreenbluealpha text: **addColorWithRed: green: blue: alpha:**)
+- (link: plugins/api/document#addGradient text: **addGradient**)
+- [**addImage:**](document#addImage)
+- (link: plugins/api/document#addPath text: **addPath**)
+
+_Canvas_
+- (link: plugins/api/document#canvasSize text: **canvasSize**)
+
+_Alignment Guides_
+- (link: plugins/api/document#alignmentGuides text: **alignmentGuides**)
+- (link: plugins/api/document#addAlignmentGuide text: **addAlignmentGuide**)
+
+_Exporting_
+- [**exportImage:**](document#exportImage)
+- (link: plugins/api/document#exportPDF text: **exportPDF:**)
+- (link: plugins/api/document#exportSVG text: **exportSVG:**)
+- [**exportImage: forShapes:**](document#exportImageforShapes)
+- (link: plugins/api/document#exportPDFforShapes text: **exportPDF: forShapes:**)
+- (link: plugins/api/document#exportSVGforShapes text: **exportSVG: forShapes:**)
+
+<a name="activeLayer"></a>
+## activeLayer
+### _returns (link: plugins/api/layer text: **Layer**)_
+
+Gets the currently active layer. The active layer is the selected layer with the highest index. This is also the layer used by the drawing tools when drawing new shapes.
+&nbsp;
+#### Example: move the active layer to the bottom of the layers list
+
+```
+var layer = [[app activeDocument] activeLayer]
+[layer moveToIndex:0]
+
+```
+<a name="addAlignmentGuide"></a>
+## addAlignmentGuide
+### _returns (link: plugins/api/document#aguide text: **AlignmentGuide**)_
+
+Gets the array of the document's alignment guides.
+&nbsp;
+#### Example: create a new vertical alignment guide
+
+```
+var guide = [[app activeDocument] addAlignmentGuide]
+guide.orientation = "vertical"
+guide.location = 40
+
+```
+<a name="addColor"></a>
+## addColor
+### _returns (link: plugins/api/color text: **Color**)_
+
+Creates and returns a new color object.
+&nbsp;
+#### Example: set the stroke color and width of the selected shapes
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var color = [doc addColor]
+
+color.red = 255
+color.green = 64
+color.blue = 64
+color.alpha = 0.75
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var stroke = [(shapes[i]) stroke]	
+    stroke.color = color
+    stroke.width = 8
+}
+
+```
+<a name="addColorWithRedgreenbluealpha"></a>
+## addColorWithRed: green: blue: alpha:
+### _returns (link: plugins/api/color text: **Color**)_; _input **Integer**_; _input **Integer**_; _input **Integer**_; _input **Float**_
+
+Creates and returns a new color object with the given RGB and alpha values. Each RGB component is an integer value between 0-255 and alpha is a float value between 0-1.
+&nbsp;
+#### Example: set the stroke color and width of the selected shapes
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var color = [doc addColorWithRed:255 green:64 blue:64 alpha:0.75]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var stroke = [(shapes[i]) stroke]	
+    stroke.color = color
+    stroke.width = 8
+}
+
+```
+<a name="addGradient"></a>
+## addGradient
+### _returns (link: plugins/api/gradient text: **Gradient**)_
+
+Creates and returns a new gradient object. The gradient is initialized with two color stops, white at location 0 and black at location 1.
+&nbsp;
+#### Example: create a new gradient and set it as the fill of the frontmost selected object
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape)
+{    
+    var gradient = [doc addGradient]
+    var colorStops = [gradient stops]
+
+    var clr1 = [doc addColorWithRed:0 green:128 blue:255 alpha:0.25]
+    var clr2 = [doc addColorWithRed:0 green:128 blue:255 alpha:1]
+    colorStops[0].color = clr1
+    colorStops[1].color = clr2
+
+    [shape fill].gradient = gradient
+}
+
+```
+<a name="addImage"></a>
+## addImage:
+### _returns (link: plugins/api/image text: **Image**)_; _input **CGImage**_
+
+Creates and returns a new image object based on the passed-in CGImage. Imports the image data from the CGImage and saves it in the document.
+
+_Note: this function should not be used for real-time image previews or called continuously with updated image data. The image data is directly added to the document and saved to disk._
+&nbsp;
+#### Example: display the Open Panel to import an image file, and set the imported image as the frontmost shape's fill 
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var openPanel = [NSOpenPanel openPanel]
+openPanel.allowedFileTypes = ["png", "jpg"]
+
+if(shape && [openPanel runModal])
+{
+    var fileURL = [openPanel URL]
+    var imgSrc = CGImageSourceCreateWithURL(fileURL, nil)
+    
+    if(imgSrc)
+    {
+        var cgImg = CGImageSourceCreateImageAtIndex(imgSrc, 0, nil);
+        
+        if(cgImg)
+            [shape fill].image = [doc addImage:cgImg]
+        
+        CGImageRelease(cgImg)
+        CFRelease(imgSrc);
+    }
+}
+
+```
+<a name="addLayer"></a>
+## addLayer
+### _returns (link: plugins/api/layer text: **Layer**)_
+
+Creates and returns a new layer object. The new layer becomes the active selected layer.
+&nbsp;
+#### Example: create a new layer and move the selected objects to the layer
+
+```
+var doc = [app activeDocument]
+var shapes =  [doc selectedShapes]
+var newLayer = [doc addLayer]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    [shape moveToParent:newLayer]
+}
+
+```
+<a name="addPath"></a>
+## addPath
+### _returns (link: plugins/api/path text: **Path**)_
+
+Creates and returns a new path object.
+&nbsp;
+#### Example: create a triangle path and use it create a new path shape
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+
+[path addMoveTo:CGPointMake(25, 150)]
+[path addLineTo:CGPointMake(75, 50)]
+[path addLineTo:CGPointMake(125, 150)]
+[path addClose]
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="alignmentGuides"></a>
+## alignmentGuides
+### _returns **Array**_
+
+Gets the array of the document's alignment guides.
+&nbsp;
+#### Example: offset each alignment guide's location by 10 pixels
+
+```
+var guides = [[app activeDocument] alignmentGuides]
+
+for(var i = 0; i < [guides count]; i++)
+{
+    var guide = guides[i]
+    guide.location = [guide location] + 10
+}
+
+[[app view] redraw]
+
+```
+<a name="exportImage"></a>
+## exportImage:
+### _returns **CGImage**_; _input **NSDictionary**_
+
+Creates and returns an exported CGImage representation of the entire design.
+
+The input dictionary is optional and can be _nil_; Optional input keys and values:
+
+_"**scale**": **Float**; the export scale factor_
+_"**includeBackground**": **Boolean**; option to include the canvas background and grid_
+
+<a name="exportPDF"></a>
+## exportPDF:
+### _returns **NSData**_; _input **NSDictionary**_
+
+Creates and returns an NSData object containing a PDF data representation of the entire design.
+
+The input dictionary is optional and can be _nil_; Optional input keys and values:
+
+_"**scale**": **Float**; the export scale factor_
+_"**rasterScale**": **Float**; the scale factor of embedded images_
+_"**includeBackground**": **Boolean**; option to include the canvas background and grid_
+
+<a name="exportSVG"></a>
+## exportSVG:
+### _returns **String**_; _input **NSDictionary**_
+
+Creates and returns a String object containing an SVG representation of the entire design.
+
+The input dictionary is optional and can be _nil_; Optional input keys and values:
+
+_"**scale**": **Float**; the export scale factor_
+_"**rasterScale**": **Float**; the scale factor of embedded images_
+_"**convertToSRGB**": **Boolean**; option to convert colors to sRGB_
+_"**includeBackground**": **Boolean**; option to include the canvas background and grid_
+
+<a name="exportImageforShapes"></a>
+## exportImage: forShapes:
+### _returns **CGImage**_; _input **NSDictionary**_; _input **Array**_
+
+Creates and returns an exported CGImage representation of the passed-in shapes array.
+
+The input dictionary is optional and can be _nil_; Optional input key and value:
+
+_"**scale**": **Float**; the export scale factor_
+&nbsp;
+#### Example: create a new document containing an exported image of the current selection
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+var img = [[app activeDocument] exportImage:nil forShapes:shapes]
+
+if(img)
+{
+	var doc = [app addDocument]
+	var newImage = [doc addImage:img]
+	var size = CGSizeMake(CGImageGetWidth(img), CGImageGetHeight(img))
+
+	// create a new path with the image bounds
+	var path = [doc addPath]
+	[path addMoveTo:CGPointMake(0, 0)]
+	[path addLineTo:CGPointMake(size.width, 0)]
+	[path addLineTo:CGPointMake(size.width, size.height)]
+	[path addLineTo:CGPointMake(0, size.height)]
+	[path addClose]
+	
+	// create a new path shape and set the image fill 
+	var shape = [[doc activeLayer] addPathShape:path]
+	[shape fill].image = newImage
+	[shape stroke].width = 0
+
+    doc.canvasSize = size
+    [[app view] resetZoom]
+}
+
+```
+<a name="exportPDFforShapes"></a>
+## exportPDF: forShapes:
+### _returns **NSData**_; _input **NSDictionary**_; _input **Array**_
+
+Creates and returns an NSData object containing a PDF data representation of the passed-in shapes array.
+
+The input dictionary is optional and can be _nil_; Optional input keys and values:
+
+_"**scale**": **Float**; the export scale factor_
+_"**rasterScale**": **Float**; the scale factor of embedded images_
+&nbsp;
+#### Example: copies the selected shapes as PDF data to the clipboard, embedding image fills at 300 DPI
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+
+if([shapes count] > 0)
+{
+    var options = [NSDictionary dictionaryWithObject:(300.0/72) forKey:"rasterScale"]
+    var pdfData = [doc exportPDF:options forShapes:shapes]
+    var pboard = [NSPasteboard generalPasteboard]
+    [pboard declareTypes:[NSArray arrayWithObject:NSPasteboardTypePDF] owner:nil];
+    [pboard setData:pdfData forType:NSPasteboardTypePDF]
+}
+
+```
+<a name="exportSVGforShapes"></a>
+## exportSVG: forShapes:
+### _returns **String**_; _input **NSDictionary**_; _input **Array**_
+
+Creates and returns a String object containing an SVG representation of the passed-in shapes array.
+
+The input dictionary is optional and can be _nil_; Optional input keys and values:
+
+_"**scale**": **Float**; the export scale factor_
+_"**rasterScale**": **Float**; the scale factor of embedded images_
+_"**convertToSRGB**": **Boolean**; option to convert colors to sRGB_
+&nbsp;
+#### Example: copies the selected shapes as an SVG string to the clipboard at 2x scale
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+
+if([shapes count] > 0)
+{
+    var options = [NSDictionary dictionaryWithObject:2 forKey:"scale"]
+    var svgStr = [doc exportSVG:options forShapes:shapes]
+    var pboard = [NSPasteboard generalPasteboard]
+    [pboard clearContents]
+    [pboard writeObjects:[NSArray arrayWithObject:svgStr]]
+}
+
+```
+<a name="canvasSize"></a>
+## canvasSize
+### _returns **CGSize**_; _settable_
+
+Gets / Sets the size of the document's canvas.
+&nbsp;
+#### Example: create a new document with the same canvas size as the current document
+
+```
+var doc = [app activeDocument]
+var size = [doc canvasSize]
+var newDoc = [app addDocument]
+
+newDoc.canvasSize = size
+[[app view] resetZoom]
+
+```
+<a name="layers"></a>
+## layers
+### _returns **Array**_
+
+Gets the array of the document's layers.
+&nbsp;
+#### Example: renames all of the current document's layers
+
+```
+var doc = [app activeDocument]
+var layers =  [doc layers]
+
+for(var i = 0; i < [layers count]; i++)
+	layers[i].name = "Layer " + (i + 1)
+
+```
+<a name="selectedLayers"></a>
+## selectedLayers
+### _returns **Array**_
+
+Gets the array of selected layers.
+&nbsp;
+#### Example: duplicate the currently selected layers
+
+```
+var doc = [app activeDocument]
+var layers =  [doc selectedLayers]
+var newLayers = [NSMutableArray array]
+
+for(var i = 0; i < [layers count]; i++)
+{
+    var layer = layers[i]
+    [newLayers addObject:[layer duplicate]]
+}
+
+// select the newly created layers
+for(var i = 0; i < [newLayers count]; i++)
+    newLayers[i].selected = true
+
+```
+<a name="selectedShapes"></a>
+## selectedShapes
+### _returns **Array**_
+
+Gets the array of selected shapes. This will include the selected shapes across all selected layers.
+&nbsp;
+#### Example: create a new layer and move the selected objects to the layer
+
+```
+var doc = [app activeDocument]
+var shapes =  [doc selectedShapes]
+var newLayer = [doc addLayer]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    [shape moveToParent:newLayer]
+}
+
+```
+<a name="selection"></a>
+## selection
+### _returns (link: plugins/api/selection text: **Selection**)_
+
+Gets the document's selection object. This object can be used to apply transforms on the current shape selection.
+&nbsp;
+#### Example: rotate the current selection by 45 degrees.
+
+```
+var doc = [app activeDocument]
+var selection = [doc selection]
+[selection rotate:45]
+
+```
+<br/>
+<a name="aguide"></a>
+# AlignmentGuide 
+
+An alignment guide object. New alignment guides can be created using the **Document's** (link: plugins/api/document#addAlignmentGuide text: **addAlignmentGuide**) function. Alignment guides can be removed using each object's (link: plugins/api/document#remove text: **remove**) function.
+
+_Settings_
+- (link: plugins/api/document#location text: **location**)
+- (link: plugins/api/document#orientation text: **orientation**)
+
+_Remove_
+- (link: plugins/api/document#remove text: **remove**)
+
+<a name="location"></a>
+## location
+### _returns **Float**_; _settable_
+
+Gets / Sets the location of the alignment guide.
+&nbsp;
+#### Example: create six horizontal alignment guides spaced every 100 pixels
+
+```
+for(var i = 1; i <= 6; i++)
+{ 
+    var guide = [[app activeDocument] addAlignmentGuide]
+    guide.orientation = "horizontal"
+    guide.location = i * 100
+}
+
+```
+<a name="orientation"></a>
+## orientation
+### _returns **String**_; _settable_
+
+Gets / Sets the orientation of the alignment guide. Possible values are "horizontal" or "vertical".
+&nbsp;
+#### Example: create an alignment guide on each side of the selection's bounding box 
+
+```
+var doc = [app activeDocument]
+var selection = [doc selection]
+
+if([[selection shapes] count] > 0)
+{
+    var bounds = [selection bounds]
+    var guide = [doc addAlignmentGuide]
+    guide.orientation = "vertical"
+    guide.location = bounds.origin.x
+    
+    guide = [doc addAlignmentGuide]
+    guide.orientation = "vertical"
+    guide.location = bounds.origin.x + bounds.size.width
+    
+    guide = [doc addAlignmentGuide]
+    guide.orientation = "horizontal"
+    guide.location = bounds.origin.y
+    
+    guide = [doc addAlignmentGuide]
+    guide.orientation = "horizontal"
+    guide.location = bounds.origin.y + bounds.size.height
+}
+
+```
+<a name="remove"></a>
+## remove
+
+Removes the alignment guide from the document.
+&nbsp;
+#### Example: remove all of the alignment guides in the current document
+
+```
+var guides = [[app activeDocument] alignmentGuides]
+
+for(var i = 0; i < [guides count]; i++)
+    [(guides[i]) remove]
+
+```

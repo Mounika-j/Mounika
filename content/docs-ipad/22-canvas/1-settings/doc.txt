@@ -1,0 +1,43 @@
+Title: Settings
+
+----
+
+Text: 
+
+# Canvas Settings
+
+The canvas size, scale, measurement unit and background color can be customized using the _**Canvas pane**_ from the Properties panel.
+
+(image: settings1-ipad.jpg width:750)
+
+ # {#scale} 
+
+1. **Canvas** - Enter values to change the width and height of the canvas. Documents can have a maximum canvas size of 4096 x 4096 pixels.
+
+2. **Units & Scale** - Opens the _**Units and Scale pane**_ where you can select the measurement units to be used for rulers and dimension values or set the scale settings.
+
+ (image: settings2-ipad.jpg width:723)
+
+ 1. **Base Units** - Set the measurement units to be used for rulers and dimension values from: pixels, inches, centimeters and millimeters.
+
+ 2.  **Scale** - Create ‘to-scale’ technical designs using the canvas scale setting. Rulers and dimension values are scaled by the factor set in this field. Changing the scale units allows you to create designs measured in feet, miles, meters, kilometers, etc. The actual paper size of the document does not change, only the displayed values and units are adjusted by this setting.
+
+3. **Pixel-Align Strokes** - When this setting is enabled, stroked objects are offset slightly to ensure that the drawn stroke is aligned to the pixel grid. Pixel-alignment ensures that a 1 pt stroke line positioned on exact integer coordinates will be drawn as a crisp 1 pixel line. This feature is typically useful for designs that are intended for image export, but may not always be the desired behavior. To make the effect of this feature more noticeable enable the Show Pixels view mode.
+
+ (image: settings3-ipad.jpg width:723)
+
+4. **Background Color** - The canvas background can be set to either a color or a gradient. Tap the color well and modify the background settings in the same way as editing a fill. 
+
+ (video: settings4-ipad.mp4 width:723)
+
+5. **Background Image** - The canvas background can also be set to an image. Modify the background settings in the same way as editing an image fill. 
+
+ Use the settings from the (link: docs-ipad/exporting text: _**Share**_)  menu to keep the canvas color and the grid as part of the saved design.
+
+6. **Resize Canvas** - Besides the _**Canvas pane**_, a more complex method to adjust the size of your canvas would be the _**Canvas Size**_ command. Using the arrows buttons from that square you can add/remove space to/from a certain side of your canvas.
+
+ (video: settings5-ipad.mp4 width:723)
+
+7. **Resize Artwork** - Changing the size of your artwork will adjust the size of your canvas along with the existing objects. You can choose to scale your work proportionally or to scale the styles and effects applied to the existing objects.
+
+ (video: settings6-ipad.mp4 width:723)

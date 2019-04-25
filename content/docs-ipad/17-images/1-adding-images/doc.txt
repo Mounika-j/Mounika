@@ -1,0 +1,13 @@
+Title: Adding Images
+
+----
+
+Text: 
+
+# Adding Images
+
+To import an image inside a plain object, go to the _**Image pane**_ from the Appearance panel. Tap the _**Change Image**_ button and select the image from your Photos. 
+
+(video: addingimages1-ipad.mp4 width: 750)
+
+The added image will scale to fit the selected object. To replace an existing image use the same pane.

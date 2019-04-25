@@ -1,0 +1,36 @@
+Title: Create a Clipboard Icon
+
+----
+
+Description: Learn how to create a clipboard icon using shapes and effects...
+
+----
+
+Image: (image: header.jpg title: Create a Clipboard Icon class: header960)
+
+----
+
+Thumbnail: clipboardiconthumbnail2.jpg
+
+----
+
+Date: 2014-12-01
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: ClipboardIcon.idraw text: ClipboardIcon.idraw)
+
+----
+
+Graphicfile: clipboardicon.idraw
+
+----
+
+Headerimg: clipboardiconheader.jpg

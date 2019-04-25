@@ -1,0 +1,33 @@
+Title: Customizing Patterns
+
+----
+
+Text: 
+
+# Customizing Patterns
+
+Use the tab menu at the top of the _**Color panel**_ to easily switch to the _**Pattern panel**_.  Use it to adjust any type of pattern or to apply a pre-made pattern from the _**Pattern palette**_. 
+
+(image: customizingpatterns1-ipad.jpg  width: 750)
+
+Same settings can be found inside the _**Fill pane**_ or the _**Effects pane**_ from the Appearance panel whenever you select a _**Fill**_ with a pattern.
+
+1. **Tab Menu** - Easily navigate between the (link: docs-ipad/colors text: _**Color**_), (link: docs-ipad/gradients text: _**Gradient**_) and _**Pattern**_ panels. It only shows up when you tap the _**Fill**_ color well, as patterns can't be applied on a _**Stroke**_.
+
+2. **Pattern Preview** - Preview of the current pattern; click on it to easily access the _**Pattern palette**_ and choose a pattern.
+
+3. **Width & Height** - Increase or decrease the space between the tiles that make up your pattern. A percentage over 100% will add space between the tiles while a percentage under 100% will decrease it, which will make the tiles overlap.
+
+ (image: customizingpatterns2-ipad.jpg  width: 723)
+
+4. **Scale**- Scale a pattern within the shape’s bounds. Alternatively, you can use the (link: docs-ipad/patterns/pattern-tool text: _**Pattern tool**_) to scale and position a pattern within an object.
+
+5. **Opacity** - Adjust the transparency of the pattern using the slider or the input field.
+
+6. **Angle** - Determines the rotation angle of the pattern.
+
+ (image: customizingpatterns3-ipad.jpg  width: 723)
+
+7. **New Pattern from Selection** - Save selected objects as a new pattern inside the (link: docs-ipad/patterns/pattern-palette text: _**Pattern palette**_).
+
+8. **Gradient Palette** - Apply one of the saved patterns, save a new pattern or tap the 'none' button to remove the existing pattern.

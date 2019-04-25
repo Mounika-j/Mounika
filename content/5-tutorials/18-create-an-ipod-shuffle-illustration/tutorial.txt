@@ -1,0 +1,36 @@
+Title: Create an iPod Shuffle Illustration
+
+----
+
+Description: Learn how to create a semi-realistic iPod Shuffle illustration...
+
+----
+
+Image: (image: Header.jpg title: Create an iPod Shuffle Illustration class: header960)
+
+----
+
+Thumbnail: ipodnanothumbnail.jpg
+
+----
+
+Date: 2014-08-09
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: iPodShuffle.idraw text: iPodShuffle.idraw)
+
+----
+
+Graphicfile: ipodnano.idraw
+
+----
+
+Headerimg: header.jpg

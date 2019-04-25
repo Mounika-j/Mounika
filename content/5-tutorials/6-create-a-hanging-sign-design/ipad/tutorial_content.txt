@@ -1,0 +1,403 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple hanging sign in  Graphic for iPad. 
+
+For starters you will learn how to set up a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Taking full advantage of the Effects pane you will learn how to add complex shading and highlights for your shapes. In the end, you will learn how to add some simple text to your desgin. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** to **600 px** and the **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled.
+
+(image: hangingSigniPad1A.jpg)
+
+Next, we'll set up the document grid. Switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: hangingSigniPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the fill color is set to white while the line color is set to black. Tap the fill color well and set its color to **R=255 G=185 B=0** and then tap the line color well and drag the **Alpha** slider to **0%**. This will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the **Radius** slider to **10**. Move yo your canvas and simply create a **250 x 150 px** shape.
+
+(image: hangingSigniPad2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar** and replace the existing **Fill** color with a simple white (**R=255 G=255 B=255**). 
+
+Make sure that the **Rounded Rectangle Tool** is still active, focus on the **Tool Options** pane and drag the  **Radius** slider to **7 pt**. Move to your canvas, create a **240 x 140 px** shape and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature should ease your work. 
+
+(image: hangingSigniPad3.jpg)
+
+
+
+##Step 4
+
+Using the **Move Tool**, select both shapes made so far, focus on the right side of your **Titlebar** and tap that rectangular icon. Go to the **Combine** pane, simply tap the **Subtract** button and in the end things should look like in the second image. 
+
+(image: hangingSigniPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your shape stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. Go to the **Effects** pane and tap the color well that stands for the existing **Fill**. 
+
+Tap the **Gradient Fill** and **Linear** buttons, set the angle to **-45 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=212 G=212 B=212** and then select the right one and add the same color.  Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=238 G=238 B=238** and drag it to the right until the **Location** tooltip shows **95%**. Keep focusing on the gradient bar, add another six gradient sliders and then use the color and **Location** attributes shown in the following image. 
+
+(image: hangingSigniPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your shape is still selected and keep focusing on the **Effects** pane. 
+
+Select the existing stroke, drag the **Width** slider to **2 pt**, activate the **Inside Alignment** button and then tap the color well that stands for your **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with a simple white. Return to the **Effects** pane and simply tap the cogwheel icon that stands for your **Stroke**. Tap the **Blend Mode** command, select the **Soft Light** blend mode and then tap that **Done** button. In the end things should look like in the following image. 
+
+(image: hangingSigniPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the bottom, right corner of your pane. Select this new **Stroke**, make sure that it lies below the existing one and then simply enter the attributes shown in the following image. 
+
+(image: hangingSigniPad7.jpg)
+
+
+
+##Step 8
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Inner Shadow** effect to activate it. 
+
+Enter **0** in the **X** box and **-3** in the **Y** box, drag the **Blur** slider to **5 pt**, select **Soft Light** for  the **Blend Mode** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **50%** and make sure that the color is set to black (**R=0 G=0 B=0**). 
+
+(image: hangingSigniPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** effect using that same plus button. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** effect using that same plus button. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Drag it above the existing  **Inner Shadow** effects and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad11.jpg)
+
+
+
+##Step 12
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and then select the **Fill** and replace the existing color with **R=85 G=85 B=85**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the **Radius** slider to **7**. Move to your canvas, create a  **240 x 140 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: hangingSigniPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** pane, activate the existing **Inner Glow**  effect and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad14.jpg)
+
+
+
+##Step 15
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and then select the **Fill** and replace the existing color with **R=241 G=238 B=230**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **5**. Move to your canvas, create a **230 x 130 px** shape and place it as shown in the following image. 
+
+(image: hangingSigniPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest rounded rectangle stays selected, focus on the **Effects** pane, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle is still selected, focus on the **Effects** pane and add a second **Stroke** using that same plus button. Select the new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Tap the cogweel icon that stands for the existing **Drop Shadow** and simply go to **Duplicate**. Select the newly added **Drop Shadow** effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: hangingSigniPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect. Select the newly added **Drop Shadow** effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: hangingSigniPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**  effect, drag it right below the **Inner Shadow**  and then enter the attributes shown in the following image. 
+(image: hangingSigniPad22.jpg)
+
+
+
+##Step 23
+
+
+Return to your **Toolbar** and this time make the **Fill** invisible and then set the **Line** color to **R=255 G=185 B=2**.
+ 
+Pick the **Rectangle Tool**, move to your canvas, create a **100 x 50 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt** and select the **Inside Alignment** button.
+
+(image: hangingSigniPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that the rectangle made in the previous step is still selected, focus on the top side and pick the **Path Selection Tool**. 
+
+Select the left anchor point and simply hit the **X** button from the left side of your **Titlebar** to remove it and then select the right anchor point and drag it **50 px** to the left. In the end your rectangle should turn into a simple triangle as shown in the second image. 
+
+Keep your triangle selected, go to the **Arrange** pane and drag that **Order** slider to the left which will send your selected shape to back. Move to the **Effects** pane and simply replace the existing stroke color with **R=44 G=44 B=49**.
+
+(image: hangingSigniPad24.jpg)
+
+
+
+##Step 25
+
+Return to your **Toolbar**, make sure that the **Fill** color is still invisible and then set the **Line** color to black. 
+
+Pick the **Rectangle Tool**, move to your canvas, create a **90 x 50 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects**  pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt** and select that **Inside Alignment** button. 
+
+Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select the left anchor point and remove it using that same **X** button and then select the right anchor point and drag it **45 px** to the left. Once again, this will turn your rectangle into a simple triangle as shown in the second image. 
+
+(image: hangingSigniPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that the triangle made in the previous step is still selected, send it to back and then focus on the **Effects** pane. First, tap the **Stroke** color well and drag the **Alpha** slider to **10%** and then activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad26.jpg)
+
+
+
+##Step 27
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color to **R=128 G=128 B=128**. Using the **Ellipse Tool**, create a **10 px** circle and place it exactly as shown in the following image. 
+
+(image: hangingSigniPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your circle stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, drag it below the existing effect and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad31.jpg)
+
+
+
+##Step 32
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a fourth **Inner Shadow**, drag it below the existing effects and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image.
+
+(image: hangingSigniPad36.jpg)
+
+
+
+##Step 37
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color at **R=170 G=170 B=170**. 
+
+Pick the **Rounded Rectangle Tool,** focus on the **Tool Options** pane and drag the  **Radius** slider to **10**. Move to your canvas, create a **250 x 150 px** shape and place it exactly as shown in the following image. 
+
+(image: hangingSigniPad37.jpg)
+
+
+
+##Step 38
+
+Make sure that the grey, rounded rectangle made in the previous step stays selected, send it to back and then focus on the **Effects** pane. Select the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: hangingSigniPad38.jpg)
+
+
+
+##Step 39
+
+Make sure that your grey, rounded rectangle is still selected and keep focusing on the **Effects** pane. Keep in mind that you can easily reselect this shape from the **Layers** panel. Activate the existing **Drop Shadow**, drag it above the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: hangingSigniPad39.jpg)
+
+
+
+##Step 40
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad40.jpg)
+
+
+
+##Step 41
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad41.jpg)
+
+
+
+##Step 42
+
+Make sure that your grey, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the new effect and enter the attributes shown in the following image. 
+
+(image: hangingSigniPad42.jpg)
+
+
+
+##Step 43
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Set the color to **R=54 G=54 B=65**, select the **American Typewriter** font and make it **Bold**. Drag the  font size slider to **15** and then simply add that  &quot;_we're_&quot; piece of text. 
+
+ Tap again that **Text Tool** to create a second text field. Make sure that you're using the same font, replace the existing color with **R=218 G=65 B=0**, drag the size slider to **50** and then add the &quot;_OPEN_&quot; piece of text. 
+
+(image: hangingSigniPad43.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: hangingSigniPad0.jpg)
+
+----
+
+Title: iPad

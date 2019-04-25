@@ -1,0 +1,15 @@
+Title: Color Palette
+
+----
+
+Text: 
+
+# Color Palette
+
+The _**Color Palette**_ can be used to quickly choose a color, as well as save and reuse frequently used colors. To show the _**Color Palette**_ open the drop-down menu below the color thumbnail and select _**Color Palette**_.
+
+(image: colorpalette1.jpg width: 750)
+
+Colors can be added to the color palette by clicking on the add button (**+**) at the bottom of the palette. Saved colors remain stored inside the _**Color Palette**_ and can be used in any new designs until you choose to remove them. 
+
+To remove a color simply right-click on it and choose _**Remove Color**_.

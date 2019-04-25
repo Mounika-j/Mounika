@@ -1,0 +1,31 @@
+Title: Masking Objects
+
+----
+
+Text: 
+
+# Masking Objects
+
+Using the _**Paste Inside**_ command, vector shapes and images can be clipped as a group inside another vector shape.
+
+Select the objects to be clipped, tap & hold to open the context menu and tap the _**Cut**_ command. Move to the object that will act as a mask, select it, open again that context menu and tap the _**Paste Inside**_ command. This will create a clip group containing the pasted objects. Only content that overlaps the mask object will remain visible.
+
+(video: maskingobjects1-iphone.mp4 width: 750)
+
+Remember that objects are always pasted in their original location. Mask objects or masked objects can be later moved or adjusted like any other object on your canvas. Choose the _**Move tool**_ and double tap on a masked object to select it.
+
+(video: maskingobjects2-iphone.mp4 width: 750)
+
+Masked objects can be removed and you can always add new objects inside a clip group. Use that same _**Paste Inside**_ command to add new content inside an existing mask.
+
+(video: maskingobjects3-iphone.mp4 width: 750)
+
+Clipped shapes remain fully editable – select any shape within a clip group to move or edit its appearance. Mask objects or masked objects can be stylized like any other object.
+
+(image: maskingobjects4-iphone.jpg width: 750)
+
+### Unmasking Objects
+
+Tap the _**Ungroup**_ command from the Properties panel to remove the clip group but keep the separate mask object and masked objects.
+
+(video: maskingobjects5-iphone.mp4 width: 750)

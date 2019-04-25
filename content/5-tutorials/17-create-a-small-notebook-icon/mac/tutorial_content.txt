@@ -1,0 +1,323 @@
+Text: 
+
+In the following tutorial you will learn how to create a small notebook icon in  Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Next, you will learn two techniques that can be used to perfectly align your shapes and paths to the pixel grid. 
+
+Taking full advantage of the Effects pane, you will learn how to add smooth shading and sleek highlights for your objects. Finally, you will learn how to add and adjust linear or radial gradients.
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: notebookIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=74 G=196 B=237** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your **Stroke** invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your **Tool Options** bar and set the **Corner Radius** to **5 pt**. Move to your canvas and  create a **130 x 130 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+Make sure that this blue shape stays selected and go to the **Alignment** pane from the **Properties** panel. Simply click the **Horizontal Centers** and **Vertical Centers** buttons which will bring your rounded square in the center of the canvas. 
+
+(image: notebookIcon2.jpg)
+
+
+
+##Step 3
+
+Make sure that your blue shape is still selected and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Deselect this new shape, return to your **Toolbar** and simply replace the existing **Fill** color with **R=1 G=173 B=14**. 
+
+Pick the **Rectangle Tool (M)**, create a **130 x 100 px** shape and place it exactly as shown in the first image - once again, the grid and the **Snap to Grid** feature will come in handy. Using the **Move Tool (V)** and the **Shift** key,  select the copy of your blue shape along with the green rectangle. 
+
+Go to the **Path Tools** pane  from the **Properties** panel and simply click that **Intersect** button. Make sure that the resulting shape stays selected and move to the **Effects** pane from the **Appearance** panel. If the **Appearance** panel is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel.
+
+(image: notebookIcon3.jpg)
+
+
+
+##Step 4
+
+Click  the existing **Fill**, select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then  move to the gradient color stops. 
+
+Select the left one and set its color to **R=255 G=240 B=190** and then select the right one and se its color to **R=235 G=210 B=160**. Keep focusing on this linear gradient and simply click on the gradient bar to add a new gradient color stop. Select it, set the color to **R=255 G=230 B=180** and drag it to the left until the **Location** tooltip shows **10%**. Using the same technique add a fourth gradient slider, set its color to **R=255 G=220 B=170** and drag it to **60%**.
+
+(image: notebookIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that your gradient filled shape  stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Fill** using the plus button from the bottom, left corner of the pane.
+ 
+Make sure that your new **Fill** lies below  the existing one and select it. Change the **Type** to **Linear Gradient** and the **Blend** to **Multiply**,  set the **Angle** to **90 degrees** and then focus on the gradient sliders. Select the left one, move it to **80%**, set the color  to **R=255 G=230 B=180** and drag that **Alpha** slider to **0%**. Move to the other gradient slider, set the color  to **R=124 G=99 B=49** and drag that **Alpha** slider to **40%**. 
+
+(image: notebookIcon5.jpg)
+
+
+
+##Step 6
+
+Make sure that your gradient filled shape  stays selected, keep focusing on the **Effects** pane and simply check the  box that stand for the existing **Inner Shadow** to activate it. 
+
+ Enter -**1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then click the color well that stands for your effect. Replace the existing color with **R=255 G=255 B=255** (white) and drag that **Alpha** slider to **80%**. 
+
+(image: notebookIcon6.jpg)
+
+
+
+##Step 7
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Go to your **Toolbar** and set the **Fill** color to black (**R=0 G=0 B=0**). Using the **Rectangle Tool (M)**, create a **130 x 1 px** shape and place it exactly as shown in the following image. 
+
+Add eight copies of this thin shape and make sure that all the copies are perfectly aligned. The easiest way to add these copies would be to click and drag your selection while holding the **Option** and **Shift** keys. 
+Once you're done, select the bottom copy. Drag it to the bottom and place it exactly as shown in the second image. 
+
+(image: notebookIcon7.jpg)
+
+
+
+##Step 8
+
+Using  the **Move Tool (V)** and the **Shift** key, select all your thin, black shapes and simply go to **Arrange &gt; Distribute &gt; Vertically**. This should add an even amount of shapes between your selected rectangles.
+
+(image: notebookIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that your thin rectangles are still selected, go to the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** command. This will unite your black shapes into one compound path that can be selected, moved or edited way easier. 
+
+Move to the **Effects** pane, change the **Blend** to **Soft Light** and drag that **Opacity** slider to **70%**. 
+
+(image: notebookIcon9.jpg)
+
+
+
+##Step 10
+
+Return to your **Toolbar**, make sure that the **Stroke**  is still invisible and  set the **Fill** color to **R=253 G=91 B=91**.
+
+Using the **Rectangle**  **Tool (M)**, create a **1 x 100  px** shape and place it  exactly as shown in the following image. 
+
+(image: notebookIcon10.jpg)
+
+
+
+##Step 11
+
+Make sure that your red shape is still selected, go to the **Effects** pane and drag that **Opacity** slider to  **30%**. 
+
+(image: notebookIcon11.jpg)
+
+
+
+##Step 12
+
+Now, you will need a grid every **5 px**. Return to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes.
+
+ Get back to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to **R=255 G=200 B=0**. 
+ 
+Using the **Rectangle Tool (M)**, create a **130 x 30 px** shape and place it as shown in the first image. Select this yellow rectangle along with the blue, rounded square that lies in the back, go to the **Path Tools** pane from the **Properties** panel and click the **Intersect** command. Make sure that the resulting shape stays selected and move to the **Effects** pane. 
+
+(image: notebookIcon12.jpg)
+
+
+
+##Step 13
+
+
+Select the  **Fill**, set the **Type** to **Linear Gradient** and  the **Angle** to **90 degrees** and then  move to the gradient color stops. Select the left one and set its color to **R=180 G=115 B=57** and then select the right one and se its color to **R=210 G=145 B=87**. Keep focusing on this linear gradient and simply add another two gradient color stops. Select the left one, set the color to **R=150 G=85 B=27** then drag it to the left until the **Location** tooltip shows **10%**. Select the other new color stop, set the color to **R=180 G=115 B=57** then drag it to the right until the **Location** tooltip shows **90%**. 
+
+(image: notebookIcon13.jpg)
+
+
+
+##Step 14
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and simply check the  checkbox that stand for the existing **Drop Shadow** to activate it. 
+
+ Enter **3** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then click the color well that stands for this  effect. Make sure that the color is set to black and drag that **Alpha** slider to **15%**. 
+
+(image: notebookIcon14.jpg)
+
+
+
+##Step 15
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using that same plus button. Select this new **Drop Shadow**, make sure that it lies below the existing effect and then enter the attributes shown in the following image. 
+
+(image: notebookIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Make sure that this new effect lies below the other two **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: notebookIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner  Shadow**. Enter **1** in the **Y** box and **0** in the other two boxes, select **Overlay** from the **Blend Mode** drop-down menu and then click the color well that stands for this  effect. Set the color to white and drag that **Alpha** slider to **20%**. 
+
+(image: notebookIcon17.jpg)
+
+
+
+##Step 18
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIcon18.jpg)
+
+
+
+##Step 19
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIcon19.jpg)
+
+
+
+##Step 20
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIcon20.jpg)
+
+
+
+##Step 21
+
+Make sure that your brown shape stays selected and keep focusing on the **Effects** pane. You must add a new **Inner  Shadow**, but first you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape.
+
+ Simply right click  that **Outer Glow** effect and  then go to **Remove**. Now, you can add that fifth **Inner Shadow** effect. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: notebookIcon21.jpg)
+
+
+
+##Step 22
+
+Using the **Rectangle Tool (M)**, create a **600 px** square and go to the **Effects** pane. Focus on the  **Fill**, select **Radial Gradient** from the **Type** drop-down menu, set the **Angle** to **0 degrees** adn then  move to the gradient color stops. Select the left one and set its color to **R=75 G=195 B=238** and then select the right one and se its color to **R=4 G=126 B=167**. 
+
+Make sure that your square stays selected and move to  the **Alignment** pane from the **Properties** panel. Simply click the **Horizontal Centers** and **Vertical Centers** buttons to bring your square in the center of the canvas. Finally, send your square to back  using the **Shift + Command + [** keyboard shortcut.
+
+(image: notebookIcon22.jpg)
+
+
+
+##Step 23
+
+
+Focus on your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to **R=255 G=225 B=175**. Pick the **Rounded Rectangle Tool (Shift + M)**, move to your **Tool Options** bar and make sure that the **Corner Radius** is set to **5 pt**. 
+
+Create a **130 px** rounded square and bring it in the center of your canvas using the  same **Horizontal Centers** and **Vertical Centers** buttons from the **Alignment** pane. 
+
+(image: notebookIcon23.jpg)
+
+
+
+##Step 24
+
+Focus on the **Layers** panel and expand the existing layer. Select the rounded rectangle made in the previous step and simply drag it in the bottom of the layer, right above the square that makes up your background. 
+
+Make sure that your rounded square stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attribute shown below. 
+
+(image: notebookIcon24.jpg)
+
+
+
+##Step 25
+
+Make sure that your  rounded square stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: notebookIcon25.jpg)
+
+
+
+##Step 26
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIcon26.jpg)
+
+
+
+##Step 27
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIcon27.jpg)
+
+
+
+##Step 28
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a fifth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIcon28.jpg)
+
+
+
+##Step 29
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a sixth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIcon29.jpg)
+
+
+
+##Step 30
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Shadow** effect and then add a seventh **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIcon30.jpg)
+
+
+
+##Step 31
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Outer Glow** effect and then add an eighth **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIcon31.jpg)
+
+
+
+##Step 32
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Glow** effect and then add one final **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIcon32.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: notebookIcon0.jpg)
+
+----
+
+Title: Mac

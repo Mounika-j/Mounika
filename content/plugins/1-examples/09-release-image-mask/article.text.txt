@@ -1,0 +1,16 @@
+Title: Release Image Mask
+
+----
+Description: Releases an image that is masked inside of a shape. Creates a new object at the size of the original image.
+
+----
+Image: (image: Header.jpg title: Create a Logo Design)
+
+----
+Thumbnail: (image: Thumbnail.jpg title: Release Image Mask)
+
+----
+Plugfile: (file: ReleaseImageMask.zip text: Release Image Mask)
+
+----
+Requirements: v2.4.1

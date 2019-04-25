@@ -1,0 +1,201 @@
+Text: 
+
+In the following tutorial you will learn how to create a volume control  in Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to create the main shape using the Rounded Rectangle Tool and the Effects pane. Next, you'll create the speaker icon using basic tools and vector shapes building techniques. 
+
+Finally, you'll learn how to create the volume bar and how to add a simple image for the background. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: volumeControliPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is enabled. This feature ensures that all shapes that are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: volumeControliPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid and the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: volumeControliPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Tap  the fill color wheel to open the color panel and replace the existing color with black (**R=0 G=0 B=0**). Move to the  line color wheel, tap it and drag the **Alpha** slider to **0%**, which will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **25**. Move to your canvas and  create a **205 px** rounded square.
+
+(image: volumeControliPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded square is still selected, tap the fill color wheel from your **Toolbar** and drag the **Alpha** slider to **30%**. 
+
+(image: volumeControliPhone3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar**, make sure that the line is still invisible and then set the fill color to **R=24 G=169 B=250**. 
+
+Pick the **Rectangle Tool**, create a **20 px** square and place it exactly as shown in the following image. 
+
+(image: volumeControliPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that the **Rectangle Tool** is still active, create a **20 x 60 px** shape and place it as shown in the first image. 
+
+Focus on the left side of this new rectangle and switch to the **Path Selection Tool**. Select the top anchor point and drag it **15 px** down and then select the bottom anchor point and drag it **15 px** up. 
+
+(image: volumeControliPhone5.jpg)
+
+
+
+##Step 6
+
+Return to your **Toolbar**, this time make sure that the fill is invisible and then set the line color to **R=24 G=169 B=250**. 
+
+Pick the **Pen Tool**, create a **70 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and open the **Effects** pane from the **Appearance** panel. Drag the  **Width** slider to **6 pt** and check the **Round Cap** button. 
+
+Make sure that the **Pen Tool** is still active, focus on the tool pane and activate the second tool mode. Return to your vertical path and simply tap in the middle to add a new anchor point as shown in the second image. Switch to the **Path Selection Tool**, select the new anchor point and  drag it **20 px** to the right as shown in the third image. 
+
+(image: volumeControliPhone6.jpg)
+
+
+
+##Step 7
+
+Keep focusing on your blue path, pick the **Path Selection Tool**, focus on the newly opened tool pane and activate the third tool mode. Tap  that middle anchor point and drag those handles **25 px** down as shown in the first image.
+
+Make sure that this curved path remains selected, open the **Path Tools** pane from the **Properties** panel and simply tap the **Outline Stroke** button. 
+
+(image: volumeControliPhone7.jpg)
+
+
+
+##Step 8
+Using  the **Pen Tool**, create a **50 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and focus on the **Effects** pane from the **Appearance** panel. Drag the  **Width** slider to **6 pt** and check the **Round Cap** button.
+ 
+Activate the second tool mode for the **Pen Tool** and add a new anchor point in the middle of your vertical path as shown in the second image. Switch to the **Path Selection Tool**, select the new anchor point and  drag it **15 px** to the right as shown in the third image. 
+
+(image: volumeControliPhone8.jpg)
+
+
+
+##Step 9
+
+Keep focusing on your blue path, pick the **Path Selection Tool** and activate the third tool mode.
+
+ Tap  that middle anchor point and drag those handles **25 px** down as shown in the first image. Reselect this entire path, open the **Path Tools** pane from the **Properties** panel and tap again the **Outline Stroke** button. 
+
+(image: volumeControliPhone9.jpg)
+
+
+
+##Step 10
+
+Pick the **Pen Tool**, create a **30 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and focus on the **Effects** panel. Drag the  **Width** slider to **6 pt** and check the **Round Cap** button.
+ 
+Activate the second tool mode for the **Pen Tool** and simply add a new anchor point in the middle of your vertical path as shown in the second image. Switch to the **Path Selection Tool**, select the new anchor point and  drag it **10 px** to the right as shown in the third image. 
+
+(image: volumeControliPhone10.jpg)
+
+
+
+##Step 11
+
+Keep focusing on your blue path, pick the **Path Selection Tool** and activate the third tool mode. 
+
+Tap  that middle anchor point and drag those handles **10 px** down as shown in the first image. Reselect this entire path, open the **Path Tools** pane from the **Properties** panel and tap again the **Outline Stroke** button. 
+
+(image: volumeControliPhone11.jpg)
+
+
+
+##Step 12
+
+
+Pick the **Path Selection Tool** and activate the second tool mode so you can easily select several shapes from your canvas. Simply tap all your blue shapes to selected them and focus on the **Combine**  pane pane from the **Properties** panel. First, tap the **Union** button and then tap the **Make**  button. 
+
+(image: volumeControliPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your blue compound path is still selected and focus on the **Effects** pane. Tap the color wheel that stands for the existing **Fill**, drag the **Alpha** slider to **80%** and replace the existing color with  white (**R=255 G=255 B=255**). 
+
+(image: volumeControliPhone13.jpg)
+
+
+
+##Step 14
+
+Get back to your **Toolbar**, make sure that the line is invisible and then set the fill color to white. 
+
+Pick the **Rounded Rectangle Tool**, focus on the tool pane and drag the  **Radius** slider to **3**. Move to your canvas, create a **10 px** rounded square and place it as shown in the first image. 
+
+Create nine, similar shapes and align them in a perfect row as shown in the second image. Once you're done, switch to the **Path Selection Tool** and  activate the second tool mode. Select all these tiny, rounded squares, focus on the **Combine** pane from the **Properties** panel and tap the **Make**  button. 
+
+(image: volumeControliPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your row of white, rounded rectangles is still selected and open the **Effects** pane. Tap the color wheel that stands for the existing **Fill** and drag the **Alpha** slider to **20%**.
+
+(image: volumeControliPhone15.jpg)
+
+
+
+##Step 16
+
+Pick the **Rounded Rectangle Tool**, create a new **10 px** rounded square and place it as shown in the first image, right above the existing one. Add five similar shapes and place them as shown in the second image. Once you're done, select  these six, rounded squares, and turn them into a compound path using that same  **Make**  button from the **Combine** pane. 
+
+(image: volumeControliPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that the compound path made in the previous step is still selected and focus on the **Effects** pane. Tap the color wheel that stands for the existing **Fill** and drag the **Alpha** slider to **75%**.
+
+(image: volumeControliPhone17.jpg)
+
+
+
+##Step 18
+
+Finally,  you  need to import this [Yosemite sunset image](http://osxdaily.com/2014/06/03/grab-os-x-yosemite-wallpaper/) inside your Photos. Once you did this, return to your document, focus on the **Titlebar** and tap the leftmost icon. Tap the **Import Photo** button and then select your photo from the list.
+ 
+Make sure that your photo is selected, resize it, and tap the **Arrange** pane from the **Properties** panel. Simply drag the **Order** slider to the left which will send your image to  back, behind the other objects. 
+
+(image: volumeControliPhone18.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: volumeControliPhone0.jpg)
+
+----
+
+Title: iPhone

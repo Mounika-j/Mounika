@@ -1,0 +1,16 @@
+title: Documentation
+
+pages:
+  template: doc
+
+options:
+	delete: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea

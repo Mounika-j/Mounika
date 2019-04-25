@@ -1,0 +1,35 @@
+Title: Shortcuts
+
+----
+
+Text: 
+
+# Keyboard Shortcuts
+
+The following lists include all Toolbar and menu keyboard shortcuts. Use the mouse to hover over each tool from your Toolbar to view a tooltip showing its name and the keyboard shortcut. 
+
+Do your best to get used with these key combinations, using them will save you a lot of time. 
+
+### Toolbar
+(image: shortcuts1.jpg width:750)
+
+### Graphic menu
+(image: shortcuts2.jpg width:750)
+
+### File menu
+(image: shortcuts3.jpg width:750)
+
+### Edit menu
+(image: shortcuts4.jpg width:750)
+
+### Modify menu
+(image: shortcuts5.jpg width:750)
+
+### Arrange menu
+(image: shortcuts6.jpg width:750)
+
+### View menu
+(image: shortcuts7.jpg width:750)
+
+### Window menu
+(image: shortcuts8.jpg width:750)

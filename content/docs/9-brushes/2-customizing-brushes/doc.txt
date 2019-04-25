@@ -1,0 +1,53 @@
+Title: Customizing Brushes
+
+----
+
+Text: 
+
+# Customizing Brushes
+
+Clicking the brush preview button from the _**Tool Options bar**_ will open the _**Brush Settings pane**_. The drop-down menu next to the brush preview button gives you the possibility to enable or disable the _**Pressure Sensitive**_ feature.
+
+(image: customizingbrushes1.jpg  width: 750)
+
+1. **Brush Editor** -  you can use the Brush Editor to edit and customize brushes. Edit a brush manually by dragging the blue circular handles to change its angle and roundness, or edit the brush numerically by inputting values into the brush parameter fields.
+
+2. **Roundness** -  this setting determines the roundness of the brush. Higher values create a rounder brush, while lower values create a flatter brush.
+
+3. **Angle** - the brush angle refers to the angle of rotation of the brush. 0˚ will create a horizontal brush, 90˚ will create a vertical brush.
+
+4. **Minimum Width** - the minimum width refers to the minimum width of the brush according to the brush width. A Minimum Width set to 50% will make sure that the brush size for your path will not go below 50% of the pre-set brush width. The brush width on an existing path can be easily edited using the _**Stroke pane**_ from the _**Appearance panel**_.
+
+5. **Contour** - Using the white draggable handles that make up the orange path you can create complex brushes that simulate pressure sensitivity. 
+
+ Simply double-click the orange path to add new draggable handles or double-click existing draggable handles to easily remove them.
+
+ Placing a handle to the top of the frame brings the brush width to 100% while placing it at the bottom of the frame lowers the width to the Minimum Width percentage.
+
+6. **Brush Preview** - a simple preview of your new brush based on the introduced properties.
+
+7. **Reset** - Resets the brush properties from the Contour frame.
+
+8. **Save Brush** - quickly save the existing brush in the top of the _**Saved Brushes pane**_.
+
+## Brush pane {#brush-pane}
+
+For more elementary brushes you can use the _**Brush pane**_ from the _**Appearance panel**_. It comes with the same customization options from the _**Brush Settings pane**_, excluding the pressure sensitivity settings. 
+
+You can create or choose the brush to use when drawing with the _**Brush tool**_, or you can apply a calligraphic brush to any object.
+
+(image: customizingbrushes2.jpg  width: 750)
+
+1. **Saved Brushes** - Select one of the saved brushes by simply clicking on it. If objects are selected, the chosen brush will be applied to those object’s strokes.
+
+2. **Add Customized Brush** - Click the add button to add a customized brush to the **Saved Brushes** list. To remove a brush from the list, right-click on it and choose **Remove Brush** from the context menu.
+
+3. **Brush Preview** - Small preview of the currently chosen brush.
+
+4. **Brush Editor** - You can use the Brush Editor to edit and customize brushes. Edit a brush manually by dragging the blue circular handles to change its angle and roundness, or edit the brush numerically by inputting values into the brush parameter fields. 
+
+5. **Roundness** - This setting determines the roundness of the brush. Higher values create a rounder brush, while lower values create a flatter brush.
+
+6. **Angle** - The brush angle refers to the angle of rotation of the brush. 0˚ will create a horizontal brush, 90˚ will create a vertical brush.
+
+7. **Diameter** - The elliptical diameter of the brush. The thickness of a stroke will be determined by the stroke’s line weight and the brush diameter.

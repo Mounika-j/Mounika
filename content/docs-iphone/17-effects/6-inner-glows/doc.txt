@@ -1,0 +1,19 @@
+Title: Inner Glows
+
+----
+
+Text: 
+
+# Inner Glows
+
+The _**Inner Glow**_ effect is used to add an inner glow effect and to adjust its color and blur. Changes are applied to the currently selected objects.
+
+Tap any effect to get access to its properties.  As with the other attributes, multiple _**Inner Glow**_ effects can be added to an object.
+
+(image: innerglows1-iphone.jpg width:750)
+
+1. **Color** - Set the color of the effect and its transparency.
+
+2. **Edit** - Tap this button to duplicate, remove, edit or change the blending mode of the effect.
+
+3. **Blur** - Set the amount of blur that should be added for this effect. A higher blur value will result in a larger and blurrier glow.

@@ -1,0 +1,284 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple contact form in Graphic for Mac. 
+
+For starters, you will learn how to setup a simple grid and how to create the main shapes using basic tool like the Rounded Rectangle Tool, the Rectangle Tool and the Path Selection Tool. Next, you'll learn how to group and organize your shapes and how to add subtle shading and highlights for your shapes. 
+
+Finally, you'll learn how to create and stylize pieces of text. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** pane. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600 pixels** wide by **600 pixels** high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5 px**, set the **Subdivisions** to **0 px** and enable **Snap to Grid (Command + Shift + ')**.
+
+(image: contactForm1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, click  the fill color well and set the  color to **R=0 G=124 B=215**. Next, click  the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the Tool Options bar and drag the **Corner Radius** slider to 1**0 pt**. Move to yor canvas and simply create a **300 x 370px** shape. The grid and the **Snap to Grid** feature will ease your work.
+ 
+(image: contactForm2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane from the **Appearance** panel and select the existing **Stroke**. If the **Appearance** pane is not currently visible, you can open it using the leftmost icon that lies above the **Layers** panel.
+
+Make sure that the **Width** slider is set to **1 pt**, select **Inside** from the **Position** drop-down menu and then simply click the color well that stands for this **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black (**R=0 G=0 B=0**).
+
+(image: contactForm3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of the panel. 
+
+Select this new stroke, drag the **Width** slider to  **2 pt**, select **Inside** from the **Position** drop-down menu and then click the color well that stands for this new stroke. Drag the **Alpha** slider to **5%** and make sure that the color is set to black. 
+
+(image: contactForm4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane from the **Appearance** panel. Right click on the bottom stroke and simply go to **Duplicate**. Select the newly added **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: contactForm5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and simply check the box that stands for the existing **Drop Shadow** to activate it. Enter **0** in the **X** box and **2** in the **Y** box, drag the **Size** slider to **5** and then click the color well that stands for this effect. Drag the **Alpha** slider to **20%** and make sure that the color is set to black. Finnaly, drag this effect right above the bottom **Stroke**. 
+
+(image: contactForm6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane from the **Appearance** panel and activate the existing **Inner Glow**. Drag the **Size** slider to **10** and then click the color well that stands for this effect. Drag the **Alpha** slider to **20%** and make sure that the color is set to black. Finally, drag this effect right below the **Fill**. 
+
+(image: contactForm7.jpg)
+
+
+
+##Step 8
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. 
+
+Pick the **Rectangle Tool (M)** and focus on the top, left corner of your rounded rectangle. Create a **10 x 20 px** shape and place it as shown in the first image. Keep focusing on this new rectangle and pick the **Path Selection Tool (A)**. Select the left anchor points and simply drag them **10 px** down. In the end things should look like in the second image. 
+
+(image: contactForm8.jpg)
+
+
+
+##Step 9
+
+Make sure that your blue shape is still selected and make a copy (**Command + C &gt; Command + V**). Select it, focus on the **Effects** pane from the **Appearance** panel and replace the existing **Fill** color with **R=188 G=128 B=121**. Make sure that this new shape is still selected and place it as shown in the following image, try to use the grid as a reference. 
+
+(image: contactForm9.jpg)
+
+
+
+##Step 10
+
+Multiply the red and blue shapes and then spred your copies as shown in the first image. Once you're done, select all these shapes and simply hit **Command + G** to **Group** them. 
+
+(image: contactForm10.jpg)
+
+
+
+##Step 11
+
+Duplicate the group made in the previous step (**Command + C &gt; Command + V**), select the copy and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy.
+
+(image: contactForm11.jpg)
+
+
+
+##Step 12
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. 
+
+Pick the **Rectangle Tool (M)** and focus on the top, left corner of your rounded rectangle. Create a **20 x 10 px** shape and place it as shown in the first image. Keep focusing on this new rectangle and pick the **Path Selection Tool (A)**. Select the top anchor points and simply drag them **10 px** to the right. In the end things should look like in the second image. 
+
+ Duplicate this new, blue shape and select the copy. Place it as shown in the third image and don't forget to replace the existing **Fill** color with **R=188 G=128 B=121**.
+
+(image: contactForm12.jpg)
+
+
+
+##Step 13
+
+Multiply the red and blue shapes made in the previous step and then spread your copies as shown in the first image. Once you're done, select all these shapes and simply **Group** them (**Command + G**). 
+
+(image: contactForm13.jpg)
+
+
+
+##Step 14
+
+Duplicate the group made in the previous step (**Command + C &gt; Command + V**), select the copy and place it as shown in the following image. 
+
+(image: contactForm14.jpg)
+
+
+
+##Step 15
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=215 G=205 B=175**.
+ 
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the Tool Options bar and drag the **Corner Radius** slider to **3 pt**. Move to your canvas, create a **200 x 30 px** shape and place it as shown in the first image. Duplicate this  rounded rectangle (**Command + C &gt; Command + V**), select the copy and place it as shown in the second image. 
+
+(image: contactForm15.jpg)
+
+
+
+##Step 16
+
+Make sure that the **Rounded Rectangle Tool (Shift + M)** is still active, create a  **200 x 100 px** shape and place it as shown in the following image. 
+
+(image: contactForm16.jpg)
+
+
+
+##Step 17
+
+Select the top, **200 x 30 px** rounded rectangle and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** and  enter the attributes shown in the following image. 
+
+(image: contactForm17.jpg)
+
+
+
+##Step 18
+
+Make sure that  your top, **200 x 30 px** rounded rectangle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner  Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactForm18.jpg)
+
+
+
+##Step 19
+
+Make sure that  the top, **200 x 30px** rounded rectangle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Add a second **Inner Shadow**, make sure that it lies below the existing effects and then enter the attributes shown in the following image. 
+
+(image: contactForm19.jpg)
+
+
+
+##Step 20
+
+Make sure that  your top, **200 x 30 px** rounded rectangle is still selected, simply right click anywhere on your canvas and go to **Copy Style**. Now, select the other **200 x 30 px** rounded rectangle along with the **200 x 100 px** rounded rectangle, right click again on your canvas and this time go to **Paste Style**. 
+
+(image: contactForm20.jpg)
+
+
+
+##Step 21
+
+Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=134 G=149 B=163**. 
+
+Using the **Rounded Rectangle Tool (Shift + M)**, create a **200 x 50 px** shape and place it as shown in the following image. 
+
+(image: contactForm21.jpg)
+
+
+
+##Step 22
+
+Make sure that your blue, rounded rectangle stays selected and focus on the **Effects** pane from the **Appearance** panel. Select the existing **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: contactForm22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your blue, rounded rectangle stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactForm23.jpg)
+
+
+
+##Step 24
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactForm24.jpg)
+
+
+
+##Step 25
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: contactForm25.jpg)
+
+
+
+##Step 26
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and activate the existing **Inner Shadow**. Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: contactForm26.jpg)
+
+
+
+##Step 27
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Inner Shadow**. Select this new effect, make sure that it lies right below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: contactForm27.jpg)
+
+
+
+##Step 28
+
+Make sure that your blue, rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Inner Shadow**. Select this new effect, make sure that it lies right below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: contactForm28.jpg)
+
+
+
+##Step 29
+
+ Set the **Fill** color to **R=235 G=225 B=195**, pick the **Text Tool (T)** and then focus on the **Text** pane from the **Appearance** panel. Select the **American Typewriter** font, make it **Bold**, set the **Size** to **20 pt** and then simply click on your canvas. Add the &quot;_SUBMIT_&quot; piece of text and place it as shown in the following image. 
+
+(image: contactForm29.jpg)
+
+
+
+##Step 30
+
+Set the **Fill** color to **R=0 G=0 B=0**, make sure that the **Text Tool (T)** is still active and  keep focusing on the **Text** pane from the **Appearance** panel. Use the same font, make sure that it's **Bold**, set the **Size** to **10 pt** and then simply click on your canvas. 
+
+Add the &quot;_Your Name_&quot; piece of text and place it as shown in the following image. Make sure that it stays selected, move to the **Effects** pane from the **Appearance** panel, drag the **Opacity** slider to **30%** and select  **Soft Light** from the **Blend** drop-down menu. 
+
+Using the same tool and attributes, add the other two pieces of text shown in the following image. 
+
+(image: contactForm30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: contactForm0.jpg)
+
+----
+
+Title: Mac

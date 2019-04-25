@@ -1,0 +1,21 @@
+Title: Shape Libraries
+
+----
+
+Text: 
+
+# Shape Libraries
+
+The _**Shape Library panel**_ manages libraries of reusable shapes. You can create your own libraries, save shapes, and reuse them throughout multiple projects.
+
+Graphic includes a few built-in example libraries to help you get started. The included shapes can be used to add symbols or annotations to an existing design, create floor plan layouts, and even design iPhone app mockups.
+
+(video: shapelibraries1-iphone.mp4 width: 750)
+
+### Using Shapes
+
+Saved shapes can be organized into libraries of related objects. To switch between libraries,  simply select one from the list. 
+
+To add a shape to a design simply drag it from the list onto the canvas.
+
+(video: shapelibraries2-iphone.mp4 width: 750)

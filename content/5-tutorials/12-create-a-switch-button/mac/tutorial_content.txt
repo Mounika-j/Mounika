@@ -1,0 +1,315 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple switch button in  Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using the Ellipse Tool and then Rounded Rectangle Tool. Next, you'll learn how to work with linear gradients and how to add shading and highlights for your shapes using some of the effects available in the Effects pane.
+
+ Finally, you''ll learn how to speed up your work using grouping techniques. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: toggleButtons1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the fill color is set to white while the stroke color is set to black.
+ 
+Click  the fill color well and set it to **R=0 G=152 B=245** and then click  the stroke color well. Drag the **Alpha** slider to **0%** and this  will simply make the stroke invisible. Pick the **Rectangle Tool (M)**, focus on your canvas and create a **600 px** square. Holding the **Shift** key will make it a lot easier for you to create that perfect square.
+
+(image: toggleButtons2.jpg)
+
+
+
+##Step 3
+
+Make sure that your blue shape stays selected, focus on the **Alignment** pane from the **Properties** panel and simply click the **Horizontal Centers** and **Vertical Centers** buttons. This will bring your square in the center of the canvas.
+
+(image: toggleButtons3.jpg)
+
+
+
+##Step 4
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=0 G=124 B=215**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **30 pt**. Move to your canvas and simply create a **170 x 50 px**. 
+
+(image: toggleButtons4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane from the **Appearance** panel and  check the  box that stands for the existing **Drop Shadow** to activate it. If the **Appearance** pane is not currently visible, you can easily open it using the leftmost  panel icon.
+
+Enter **1** in the **Y** box and **0** in the other two boxes, select **Soft Light** from the **Blend Mode**  drop-down menu and then click the color well that stands for this effects. Drag the **Alpha** slider to **40%** and replace the existing color with a simple white (**R=255 G=255 B=255**).
+
+(image: toggleButtons5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Simply right click on the existing **Drop Shadow** and go to **Duplicate**. Select the newly added effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+(image: toggleButtons7.jpg)
+
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the existing **Inner Shadow**. Select the newly added effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner Shadow**. Select the newly added effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** and enter the attributes shown in the following image. 
+
+(image: toggleButtons10.jpg)
+
+
+
+##Step 11
+
+Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=74 G=197 B=237**. 
+
+Reselect the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and make sure that the **Corner Radius** is set to **30 pt**. Move to your canvas, create a **90 x 40 px** shape and place it as shown in the following image. 
+
+(image: toggleButtons11.jpg)
+
+
+
+##Step 12
+
+Make sure that your smaller rounded rectangle stays selected, focus on the **Effects** pane and add a second **Fill** using the plus button located in the bottom, left corner of the pane. 
+
+Select your new **Fill**, select **Linear Gradient** from the **Type** drop-down menu and **Overlay** from the **Blend** drop-down menu, set the **Angle** to **90 degrees** and then move to the gradient sliders. Select the left slider, drag the **Alpha** slider to **20%** and set the color to black (**R=0 G=0 B=0**) and then select the right slider, drag the **Alpha** slider to **0%** and set the color to white. 
+
+Now, simply click on the gradient bar to add a new gradient slider for your gradient. Select it, set the color to black and the **Alpha** slider to **50%** and then drag it to the left until the **Location** tooltip shows **25%**. Add a fourth gradient slider, make it white and set the **Location** to **75%**.
+
+(image: toggleButtons12.jpg)
+
+
+
+##Step 13
+
+Make sure that your smaller rounded rectangle stays selected and focus on the **Effects** pane. Select the  **Stroke** and replace the existing attributes with the ones shown in the following image. 
+
+(image: toggleButtons13.jpg)
+
+
+
+##Step 14
+
+Make sure that your smaller rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow**, drag it above the **Stroke** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons14.jpg)
+
+
+
+##Step 15
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons15.jpg)
+
+
+
+##Step 16
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons16.jpg)
+
+
+
+##Step 17
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this new effect, drag it below the bottom **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons17.jpg)
+
+
+
+##Step 18
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons18.jpg)
+
+
+
+##Step 19
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons19.jpg)
+
+
+
+##Step 20
+
+Make sure that your smaller rounded rectangle stays selected, keep focusing on the **Effects**  pane and add a fourth **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons20.jpg)
+
+
+
+##Step 21
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=255 G=255 B=255**. 
+
+Using the **Ellipse Tool (O)**, create a **40 px** circle and place it as shown in the first image. Duplicate this shape (**Command + C &gt; Command + V**), select the copy and place it as shown in the second image. 
+
+(image: toggleButtons21.jpg)
+
+
+
+##Step 22
+
+Select your right, white circle and focus on the **Effects** pane. Select the existing **Fill** and replace the flat color with the linear gradient shown in the following image. Make sure that you're setting the **Angle** to **45 degrees**. 
+
+(image: toggleButtons22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your right circle stays selected and keep focusing on the **Effects**  pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: toggleButtons23.jpg)
+
+
+
+##Step 24
+
+Make sure that your right circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: toggleButtons24.jpg)
+
+
+
+##Step 25
+
+Make sure that your right circle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons25.jpg)
+
+
+
+##Step 26
+
+Make sure that your right circle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons26.jpg)
+
+
+
+##Step 27
+
+Make sure that your right circle stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons27.jpg)
+
+
+
+##Step 28
+
+Make sure that your right circle is still selected, simply right click anywhere on your canvas and go to **Copy Style**. Next, select the left circle,  right click again on your canvas and this time go to **Paste Style**.
+
+ Make sure that your left circle stays selected and focus on the **Effects** pane. Select the existing effects one by one and simply inverse the values used in the **X** boxes. In the end things should look like in the second image.
+
+(image: toggleButtons28.jpg)
+
+
+
+##Step 29
+
+Get back to your Toolbar, this time make the **Fill** invisible and set the **Stroke** color to **R=0 G=124 B=215**. 
+
+Using the **Ellipse Tool (O)**, create a **10 px** circle and place it as shown in the following image. Make sure that this shape stays selected and focus on the **Effects** pane. Select the existing **Stroke**, make sure that the **Width** slider is set to **1 pt** and select **Outside** from the **Position** drop-down menu. 
+
+(image: toggleButtons29.jpg)
+
+
+
+##Step 30
+
+Make sure that your **10 px** circle stays selected, focus on the **Effects**  pane, activate the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: toggleButtons30.jpg)
+
+
+
+##Step 31
+
+Make sure that your **10 px** circle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow**, drag it above the **Drop Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: toggleButtons31.jpg)
+
+
+
+##Step 32
+
+Now, you will need a grid every **1 px**. This  simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes.
+
+ Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to white. Using the **Ellipse Tool (O)**, create a **4 px** circle and place it as shown in the following image. Make sure that this shape stays selected, focus on the **Effects** pane, drag the **Opacity** slider to **50%** and select **Overlay** from the **Blend** drop-down menu. 
+ 
+(image: toggleButtons32.jpg)
+
+
+
+##Step 33
+
+
+Reselect your **10 px** circle along with that **4 px** circle and simply **Group** them (**Command + G**). Duplicate this  group (**Command + C &gt; Command + V**), select the copy, drag it to the right and place it as shown in the second image. 
+
+(image: toggleButtons33.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: toggleButtons0.jpg)
+
+----
+
+Title: Mac

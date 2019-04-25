@@ -1,0 +1,17 @@
+Title: Blurs
+
+----
+
+Text: 
+
+# Blurs
+
+The _**Blur**_ effect is used to blur any type of object. Changes are applied to the currently selected objects.
+
+Click any effect to get access to its properties.  As with the other attributes, multiple _**Blur**_ effects can be added to an object.
+
+(image: blurs1.jpg width:750)
+
+Use the blur slider to set the amount of blur applied to your selected shape. A higher blur value will result in a larger and blurrier object.
+
+Blur effects can also be applied to objects with image fills.

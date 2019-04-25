@@ -1,0 +1,13 @@
+Title: Appending Paths
+
+----
+
+Text: 
+
+# Appending an Existing Path
+
+The _**Pen tool**_ can append additional segments to an existing unclosed path.
+
+First, select the path to edit using the Move or Path Selection tools and then select the _**Pen tool**_. Tap one of the endpoints of the path to begin editing (or tap and drag to create a direction handle) and then start adding the new points or close the path.
+
+(video: appendingpaths1-ipad.mp4 width: 750)

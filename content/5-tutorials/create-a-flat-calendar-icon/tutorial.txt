@@ -1,0 +1,21 @@
+Title: Create a Flat Calendar Icon
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: calendaricon.idraw
+
+----
+
+Description: Learn how to create a flat calendar icon using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: calendariconthumbnail.jpg

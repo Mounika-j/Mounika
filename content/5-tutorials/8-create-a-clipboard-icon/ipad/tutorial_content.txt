@@ -1,0 +1,382 @@
+Text: 
+
+In the following tutorial you will learn how to create a clipboard icon in  Graphic for iPad. 
+
+For starters you will learn how to set up a simple grid and how to create the main shapes using the Rounded Rectangle Tool. Using an image fill, a bunch of effects and some basic blending techniques you will learn how to create the wooden board with all its shading and highlights. Using mostly simple shapes, basic vector shape building techniques and the Effects pane you will learn how to create the remaining pieces of your icon. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: clipboardIconiPad1A.jpg class: bordered680)
+
+Next, we'll set up the document grid. Switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: clipboardIconiPad1B.jpg class: bordered680)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=215 G=205 B=175** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to 1**0**. Move to yor canvas and simply create a **180 x 245 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: clipboardIconiPad2.jpg class: bordered680)
+
+
+
+##Step 3
+
+Make sure that your shape stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Move to the **Effects** pane and  add a second **Fill** using the plus button located in the bottom, right corner of your pane. Tap the color well that stands for this new **Fill** and replace the existing color with **R=254 G=128 B=128**. Make sure that this pink **Fill** lies below that other **Fill**. 
+
+(image: clipboardIconiPad3.jpg class: bordered680)
+
+
+
+##Step 4
+
+For this step you  need to save [this free image](http://pixabay.com/en/wood-mahogany-texture-364694/) inside your Photos. Make sure that your rounded rectangle is still selected and go to the **Appearance** pane. Tap the **Image** section to open the **Image Fill** pane, tap the **Change Image** button and  simply add the image saved a few moments ago. 
+
+You'll  probably notice that the image doesn't cover your entire shape, but this  issue can be solved pretty fast. Activate the **Move Tool**, make sure that your rounded rectangle is still selected and  tap it once. Drag that **Image** slider slightly to the right until you can tell that your image covers the entire shape. Once you're done, simply tap outside your shape. 
+
+With your shape still selected, go to the **Effects** pane and tap the cogwheel icon that stands for the bottom **Fill**.  Tap the **Blend Mode** command, select the **Multiply**  blend mode and then tap that **Done** button. In the end things should look like in the following image. 
+
+(image: clipboardIconiPad4.jpg class: bordered680)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane and select the existing **Stroke**. 
+
+Make sure that the **Width** slider is set to **1 pt**, select the **Inside Alignment** button and then  tap the color well that stands for this **Stroke**. Drag the **Alpha** slider to **40%** and make sure that the color is set to black (**R=0 G=0 B=0**). Return to the **Effects** pane and tap the cogwheel icon that stands for your **Stroke**.   Tap the **Blend Mode** command, select the **Soft Light **  blend mode and then tap that **Done** button. In the end things should look like in the following image. 
+
+(image: clipboardIconiPad5.jpg class: bordered680)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Select this new **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad6.jpg class: bordered680)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and check the  round checkbox that stands for the existing **Drop Shadow** to activate it. Drag this effect between the existing **Strokes**, enter **1** in the **Y** box and **0** in the other two boxes and then simply tap the color well that stands for this effect. Drag the **Alpha** slider to **100%** and replace the existing color with **R=124 G=60 B=4**. 
+
+(image: clipboardIconiPad7.jpg class: bordered680)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using that same plus button. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image.
+
+(image: clipboardIconiPad8.jpg class: bordered680)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane, tap the cogwheel icon that stands for the bottom **Drop Shadow** and go to **Duplicate**. Select the newly added **Drop Shadow** and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad9.jpg class: bordered680)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad10.jpg class: bordered680)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this effect, drag it right above the bottom **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad11.jpg class: bordered680)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad12.jpg class: bordered680)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. You need to add a new **Inner Shadow**, but first you have to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape. 
+Simply tap the cogwheel icon that stands for the inactive **Outer Glow** effect and then tap the **Remove** command. Now, add that third **Inner Shadow**, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad13.jpg class: bordered680)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this effect, drag it right below the top **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad14.jpg class: bordered680)
+
+
+
+##Step 15
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to black (**R=0 G=0 B=0**). 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag that  **Radius** slider to **8**. Move to your canvas, create a **170 x 225 px** shape and place it as shown in the following image. Using the same tool, create a **50 x 20 px** shape and place it as shown in the second image. 
+
+(image: clipboardIconiPad15.jpg class: bordered680)
+
+
+
+##Step 16
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Select the black rounded rectangles, focus on the right side of your Titlebar and tap that rectangular icon. Move to the **Combine** pane and simply  tap the **Union** command.
+
+(image: clipboardIconiPad16.jpg class: bordered680)
+
+
+
+##Step 17
+
+Make sure that your black shape is still selected and focus on the **Effects** pane. Select the existing **Fill**, change its **Blend Mode** to **Soft Light** and then tap that color well and drag the **Alpha** slider slider to **60%**. 
+
+(image: clipboardIconiPad17.jpg class: bordered680)
+
+
+
+##Step 18
+
+Make sure that your black shape is still selected and keep focusing on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad18.jpg class: bordered680)
+
+
+
+##Step 19
+
+Make sure that your black shape is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad19.jpg class: bordered680)
+
+
+
+##Step 20
+
+Make sure that your black shape is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad20.jpg class: bordered680)
+
+
+
+##Step 21
+
+Make sure that your black shape is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, make sure that it lies below those **Drop Shadow** effects and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad21.jpg class: bordered680)
+
+
+
+##Step 22
+
+Make sure that your black shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad22.jpg class: bordered680)
+
+
+
+##Step 23
+
+Make sure that your black shape is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** and enter the attributes shown in the following image. 
+
+
+(image: clipboardIconiPad23.jpg class: bordered680)
+
+
+
+##Step 24
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=252 G=252 B=252**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **5**. Move to your canvas, create a **160 x 210 px** shape and place it as shown in the following image. 
+
+(image: clipboardIconiPad24.jpg class: bordered680)
+
+
+
+##Step 25
+
+Make sure that your white, rounded rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad25.jpg class: bordered680)
+
+
+
+##Step 26
+
+Make sure that your white, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad26.jpg class: bordered680)
+
+
+
+##Step 27
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad27.jpg class: bordered680)
+
+
+
+##Step 28
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad28.jpg class: bordered680)
+
+
+
+##Step 29
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad29.jpg class: bordered680)
+
+
+
+##Step 30
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad30.jpg class: bordered680)
+
+
+
+##Step 31
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad31.jpg class: bordered680)
+
+
+
+##Step 32
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIconiPad32.jpg class: bordered680)
+
+
+
+##Step 33
+
+Get back to your Toolbar. This time make sure that the **Fill** is invisible and then set the **Line** color to **R=87 G=88 B=92**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and make sure that the  **Radius** slider is set to **5**. Move to your canvas, create a **70 x 20 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and move to  the **Effects** pane. Select the existing **Stroke** and simply drag that **Width** slider to **2 pt**. 
+
+(image: clipboardIconiPad33.jpg class: bordered680)
+
+
+
+##Step 34
+
+Make sure that the rounded rectangle made in the previous step is still selected, focus on the **Effects** pane and add a second **Stroke**. Be sure that it lies below the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad34.jpg class: bordered680)
+
+
+
+##Step 35
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects** pane, activate the existing **Drop Shadow** and  enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad35.jpg class: bordered680)
+
+
+
+##Step 36
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects** pane, activate the existing **Inner Shadow** and  enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad36.jpg class: bordered680)
+
+
+
+##Step 37
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad37.jpg class: bordered680)
+
+
+
+##Step 38
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and make sure that the  **Radius** slider is set to **5**. 
+
+Move to your canvas, create a **40 x 10 px** shape and place it as shown in the following image. Make sure that this new shape stays selected, move to the **Effects**  pane and tap the color well that stands for the existing **Fill**. Tap the **Gradient Fill** and the **Linear** buttons, set the **Angle** to **-90 degrees** and then move to the gradient sliders. Select the left slider and set its color to **R=87 G=88 B=92** and then select the right slider and set its color to **R=187 G=188 B=192**. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=168 G=169 B=171** and then drag it to the left until the **Location** tooltip shows **30%**. Add another two gradient sliders and then use the color and **Location**  attributes shown in the following image. 
+
+(image: clipboardIconiPad38.jpg class: bordered680)
+
+
+
+##Step 39
+
+Make sure that your newest rounded rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad39.jpg class: bordered680)
+
+
+
+##Step 40
+
+Make sure that your newest, rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad40.jpg class: bordered680)
+
+
+
+##Step 41
+
+Make sure that your newest, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow**, drag it below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad41.jpg class: bordered680)
+
+
+
+##Step 42
+
+Make sure that your newest, rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIconiPad42.jpg class: bordered680)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clipboardIconiPad0.jpg class: bordered680)
+
+----
+
+Title: iPad

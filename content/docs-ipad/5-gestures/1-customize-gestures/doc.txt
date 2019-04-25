@@ -1,0 +1,15 @@
+Title: Customize Gestures
+
+----
+
+Text: 
+
+#Customize Gestures
+
+You can set the _**Two-finger Tap**_, _**Three-finger Tap**_ and _**Four-finger Tap**_ gestures to perform one of the following commands: switch to the previously used tool, activate the Eraser tool, open the Color panel, Undo or Redo the last command.
+
+(video: customizegestures1-ipad.mp4 width: 750)
+
+Tap the cogwheel button from the _**Titlebar**_ to open the _**Preferences panel**_, and then tap the _**Customize Gestures**_ button.  
+
+(image: customizegestures2-ipad.jpg width: 750)

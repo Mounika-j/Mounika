@@ -1,0 +1,15 @@
+Title: Arrowed Lines
+
+----
+
+Text: 
+
+# Arrowed Lines
+
+Choose the _**Arrowed Line tool**_ to draw arrowed lines. Tap and drag to create an arrowed line. 
+
+As with the Line tool, tap and drag to begin drawing an arrowed line, and then tap and hold with a second finger to easily create horizontal, vertical or 45° arrowed lines.
+
+(video: arrowedlines1-iphone.mp4 width: 750)
+
+The line endings and the line dash styles for created lines can be customized using the (link: docs-iphone/effects/strokes#stroke-pane text: _**Stroke pane **_) or the (link: docs-iphone/effects/strokes text: _**Effects pane**_) from the Appearance panel.

@@ -1,0 +1,13 @@
+Title: Styles
+
+----
+
+Text: 
+
+#Styles
+
+A style represents the appearance settings of an object. 
+
+Use the _**Styles panel**_ to save and reuse the appearance settings of your objects. Styles can be applied to any type of object, including paths, shapes, and text objects.
+
+(image: styles1.jpg width:750)

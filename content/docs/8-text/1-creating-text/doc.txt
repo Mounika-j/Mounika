@@ -1,0 +1,32 @@
+Title: Creating Text
+
+----
+
+Text: 
+
+# Creating Text
+
+Choose the _**Text tool**_  to add text objects to a design, or edit previously created text objects.
+
+Simply click on your canvas to create a text box and start typing the text. Click-and-drag to create a text field of a fixed size. When a text field is filled, it creates a new line while a normal text box  increases its width to fit the content. 
+
+To deselect a text field click anywhere on your canvas, outside the selected text field.
+
+(video: creatingtext1.mp4 width: 750)
+
+> Tip: Use the **T** keyboard shortcut to quickly select the Text tool. 
+
+You can set the text properties, such as font, font style, font size, text color and alignment, character and line spacing of a text object using the settings in the _**Tool Options bar**_. 
+New text objects will use the properties set in the _**Tool Options bar**_. 
+
+(image: creatingtext2.jpg  width: 750)
+
+To edit an existing text object, simply click on it with the Text tool active or double-click on it using the _**Move tool**_ or the _**Path Selection tool**_.
+
+To change the properties of an existing text object, you need to highlight the text before you make any changes. Click-and-drag to highlight the desired paragraphs and then you can make the changes. 
+
+Choose **Edit > Select All** [**⌘** - **A**] from the menu bar to instantly select all your text. This command will ease your work when you're dealing with a lot of text. 
+
+(video: creatingtext3.mp4 width: 750)
+
+Same text properties changes can be made using the (link: docs/text/customizing-text text: _**Text pane**_) from the Appearance panel.

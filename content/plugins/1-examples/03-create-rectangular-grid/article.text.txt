@@ -1,0 +1,16 @@
+Title: Create Rectangular Grid
+
+----
+Description: Create a grid object of horizontal and vertical lines. Set the width, height, and number of divider lines.
+
+----
+Image: (image: Header.jpg title: Create Rectangular Grid)
+
+----
+Thumbnail: (image: Thumbnail.png title: Create Rectangular Grid)
+
+----
+Plugfile: (file: CreateRectangularGrid.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

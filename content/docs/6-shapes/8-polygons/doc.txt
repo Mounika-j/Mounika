@@ -1,0 +1,15 @@
+Title: Polygons
+
+----
+
+Text: 
+
+# Polygons
+
+Choose the _**Polygon tool**_ to draw polygons with various numbers of sides, including triangles, hexagons, octagons, etc. Simply click and drag inside your Canvas to create a new shape.
+
+Vary the number of sides by adjusting the _**Sides**_ setting in the _**Tool Options bar**_.
+
+(video: polygons1.mp4 width: 750)
+
+> Tip: Use the **Shift - O** keyboard shortcut to quickly select the **Polygon tool**.

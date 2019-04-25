@@ -1,0 +1,19 @@
+Title: New Documents
+
+----
+
+Text: 
+
+# New Documents
+
+Use the **+** button from the _**Titlebar**_ to create a new document or to import one from your iCloud Drive, iTunes or Dropbox folders. Any new document will be added first in the _**Documents Browser**_. Open it with a simple tap. 
+
+(video: newdocuments1-iphone.mp4 width: 750)
+
+When creating a new document, you will be presented with a variety of canvas styles to choose from – including graph paper, notebook paper, and blueprint. 
+
+All canvas styles are created using variations of the built-in grid and background settings, making them fully customizable. Customize your document further using the (link: docs-iphone/canvas/settings text: _**Canvas**)_ and (link: docs-iphone/canvas/grid text: _**Grid**_) panes.
+
+(image: newdocuments2-iphone.jpg width: 750)
+
+Besides Graphic files, you can use the **+** button to import images, (link: docs-iphone/shape-libraries/managing-shape-libraries#import-shapes text: _**shape libraries**_) or even (link: docs-iphone/preferences/settings#fonts text: _**fonts**_). Once imported, fonts can be managed from the (link: docs-iphone/preferences/settings text: _**Settings**_) menu.

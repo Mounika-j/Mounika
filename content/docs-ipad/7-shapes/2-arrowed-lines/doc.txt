@@ -1,0 +1,17 @@
+Title: Arrowed Lines
+
+----
+
+Text: 
+
+# Arrowed Lines
+
+Arrowed lines can be created using the _**Arrowed Line**_ mode of the _**Line tool**_. Tap and drag to create an arrowed line segment.
+
+(image: arrowedlines1-ipad.jpg width: 750)
+
+Tap and drag to begin drawing an arrowed line, and then tap and hold with a second finger to easily create horizontal, vertical or 45° arrowed lines.
+
+The line endings and the line dash styles for created lines can be customized using the (link: docs-ipad/effects/strokes#stylizing-strokes text: _**Stroke pane **_) from the Appearance panel. When creating lines with the _**Arrowed Line**_ mode, the previously selected line endings will be used.
+
+(video: arrowedlines2-ipad.mp4 width: 750)

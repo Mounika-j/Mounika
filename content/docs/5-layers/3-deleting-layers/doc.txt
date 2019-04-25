@@ -1,0 +1,16 @@
+Title: Deleting Layers
+
+----
+
+Text: 
+
+# Deleting Layers
+
+To delete the currently selected layer, click the _**Delete Layer**_ button (**−**), or choose _**Delete Layer**_ from the _**Layer actions menu**_. 
+
+Alternatively, you can choose **Arrange > Delete Layer** [**⌃** - **⌘** - **−**] from the menu bar, or simply hit the **Delete**/**Backspace** key. This will remove the layer and all of its objects. 
+
+(video: deletinglayers1.mp4  width: 750)
+
+
+> Tip: You can also access the **Layer actions menu** by **right-clicking** on a layer.

@@ -1,0 +1,30 @@
+
+title: iPhone Illustration and Graphic Design
+
+----
+
+platform: iPhone
+
+----
+
+intro: A powerful, full-featured, vector illustration and graphic design application - in your pocket.
+
+----
+
+guideURL: https://s3.amazonaws.com/indeeo/GraphicUserGuide-iPhone.pdf
+
+----
+
+tutorialsURL: /tutorials/?format=iphone
+
+----
+
+docsURL: /docs-iphone/
+
+----
+
+storeURL: https://itunes.apple.com/us/app/graphic-vector-illustration/id1037960018?ls=1&mt=8
+
+----
+
+buyText: Graphic is available on the App Store for only $2.99

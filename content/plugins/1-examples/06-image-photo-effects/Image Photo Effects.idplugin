@@ -1,0 +1,186 @@
+var doc = [app activeDocument]
+var fill = findSelectedImageFill()
+var userClickedOK = false
+var filterName = "CIPhotoEffectProcess"
+
+if(fill)
+{
+    var thumbImage = [[fill image] thumbnailCGImageToFitSize:CGSizeMake(200, 200)]
+    var saturation = 1
+    var brightness = 0
+    var contrast = 1
+    var shouldApply = false
+    
+    // create a window
+    var window = [[NSWindow alloc] init]
+    [window setTitle:"Image Photo Effect"]
+    [window setFrame:NSMakeRect(0, 0, 320, 359) display:false]
+    
+    // create prompt text
+    var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 125, 300, 200)]
+    imageView.imageFrameStyle  = NSImageFrameGrayBezel
+    
+    var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]
+    [[window contentView] addSubview:imageView]
+    
+    var box = [[NSBox alloc] initWithFrame:NSMakeRect(15, 53, 290, 61)]
+    box.title = "Photo Effects"
+    [[window contentView] addSubview:box]
+    
+    var popup = [[NSPopUpButton alloc] initWithFrame:NSMakeRect(8, 5, 262, 26)]
+    [popup addItemWithTitle:"None"]
+    [popup addItemWithTitle:"Chrome"]
+    [popup addItemWithTitle:"Fade"]
+    [popup addItemWithTitle:"Instant"]
+    [popup addItemWithTitle:"Mono"]
+    [popup addItemWithTitle:"Noir"]
+    [popup addItemWithTitle:"Process"]
+    [popup addItemWithTitle:"Tonal"]
+    [popup addItemWithTitle:"Transfer"]
+    [popup setJSTargetFunction:"popupAction"]
+    [popup selectItemAtIndex:6]
+    [box addSubview:popup]
+    
+    [popup release]
+    [box release]
+    
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(223, 8, 77, 32)]
+    [okButton setTitle:"Apply"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(141, 8, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:"\033"]    // esc key
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    updatePreview()
+    [window setInitialFirstResponder:popup]
+    [NSApp runModalForWindow:window]
+    
+    if(shouldApply && filterName.length > 0)
+    {
+        var filteredImg = filterImage([[fill image] CGImage])
+        
+		if(filterImage)
+		{
+            var newImg = doc.addImage(filteredImg)
+            fill.image = newImg;
+		}
+    }
+}
+else
+{
+    [app showAlert:"Please select an object with an image fill to adjust the image."]
+}
+
+
+function okAction(sender)
+{
+    shouldApply = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function popupAction()
+{
+	var idx = [popup indexOfSelectedItem]
+	
+    if(idx == 0)
+        filterName = ""
+	else if(idx == 1)
+		filterName = "CIPhotoEffectChrome"
+	else if(idx == 2)
+		filterName = "CIPhotoEffectFade"
+	else if(idx == 3)
+		filterName = "CIPhotoEffectInstant"
+	else if(idx == 4)
+		filterName = "CIPhotoEffectMono"
+    else if(idx == 5)
+		filterName = "CIPhotoEffectNoir"
+    else if(idx == 6)
+		filterName = "CIPhotoEffectProcess"
+    else if(idx == 7)
+		filterName = "CIPhotoEffectTonal"
+    else if(idx == 8)
+		filterName = "CIPhotoEffectTransfer"
+    
+	updatePreview()
+}
+
+function findSelectedImageFill()
+{
+    var shapesEnumerator = [[doc selectedShapes] reverseObjectEnumerator]
+    var shape
+    
+    while(shape = [shapesEnumerator nextObject])
+    {
+        var fill = [shape fill]
+        
+        if(fill && [fill image])
+            return fill
+    }
+    
+    return nil
+}
+
+function updatePreview()
+{
+    if(filterName.length > 0)
+    {
+        var filteredImage = filterImage(thumbImage)
+        
+        	if(filteredImage)
+        	{
+            var nsImg = [[NSImage alloc] initWithCGImage:filteredImage size:CGSizeMake(0, 0)]
+            [imageView setImage:nsImg]
+            [nsImg release]
+        	}
+    }
+    else
+    {
+        var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+        [imageView setImage:nsImg]
+        [nsImg release]
+    }
+}
+
+function filterImage(img)
+{
+    var inputImage = [CIImage imageWithCGImage:img]
+    var filter = [CIFilter filterWithName:filterName]
+        
+    [filter setDefaults]
+    [filter setValue:inputImage forKey:"inputImage"]
+
+    var outputImage = [filter valueForKey:"outputImage"]
+    
+    if(outputImage)
+    {
+        var rep = [NSCIImageRep imageRepWithCIImage:outputImage];
+        var nsImage = [[NSImage alloc] initWithSize:rep.size];
+        [nsImage addRepresentation:rep];
+        
+        var cgImg = [nsImage CGImageForProposedRect:nil context:nil hints:nil]
+        
+        [filter setDefaults]
+        [nsImage release]
+        
+        return cgImg
+    }
+    
+    return nil
+}

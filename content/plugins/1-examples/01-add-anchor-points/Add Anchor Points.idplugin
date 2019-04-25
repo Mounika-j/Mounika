@@ -1,0 +1,24 @@
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var count = [shapes count]
+var didAddPnts = false
+
+for(var i = 0; i < count; i++)
+{    
+    var shape = shapes[i];
+    
+    if([shape type] == "pathShape")
+    {
+        var path = [shape path]
+        var elements = [path elements]
+        var elemCount = [elements count]
+
+        for(var j = 0; j < elemCount; j++)
+            elements[j].split(0.5)
+        
+        didAddPnts = true
+    }
+}
+
+if(!didAddPnts)
+    [app showAlert:"Please select one or more paths to add anchor points."]

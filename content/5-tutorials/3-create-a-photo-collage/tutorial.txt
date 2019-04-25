@@ -1,0 +1,29 @@
+Title: Create a Photo Collage
+
+----
+
+Description: Learn how to create photo collage layouts using imported photos…
+
+----
+
+Headerimg: photocollageheader.jpg
+
+----
+
+Thumbnail: photocollagethumbnail.jpg
+
+----
+
+Date: 2013-07-21
+
+----
+
+Categories: Mac, Appearance, Image
+
+----
+
+Text: **Graphic File**: **(file: PhotoCollage.idraw text: PhotoCollage.idraw)**
+
+----
+
+Graphicfile: PhotoCollage.idraw

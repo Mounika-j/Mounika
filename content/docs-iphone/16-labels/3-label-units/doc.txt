@@ -1,0 +1,29 @@
+Title: Label Units
+
+----
+
+Text: 
+
+# Label Units
+
+Dimension labels update whenever you change the size of a labeled object. 
+
+(video: labelunits1-iphone.mp4 width:750)
+
+Depending on the base measurement unit set in the (link: docs-iphone/canvas/settings text: _**Canvas pane**_), you'll be able to choose from several levels of precision and abbreviations for your dimension label. 
+
+A canvas with _**inches**_ set as the base unit of the document gives you the possibility to choose from: _in_, _ft_, _ft in_, _'' (in)_, _' (ft)_, _' '' (ft in)_, _yd_ and _mi_.
+
+(image: labelunits2-iphone.jpg width:750)
+
+A canvas with _**millimeters**_ or _**centimeters**_ set as the base unit of the document gives you the possibility to choose from: _mm_, _cm_, _m_, _km_.
+
+(image: labelunits3-iphone.jpg width:750)
+
+Working on intricate technical designs you might need extra precision for your dimension labels. Using the _**Precision**_ menu from the _**Label pane**_ you can add up to 4 digits after the decimal point. Instead of using decimal values, you can set your dimension labels to use fractional values: halves, quarters, 1/8, 1/16 or 1/32. 
+
+(image: labelunits4-iphone.jpg width:750)
+
+Labels also update when you're creating  (link: docs-iphone/canvas/settings#scale text: _’**to-scale**’_) technical designs. The displayed values will instantly update whenever you change one of the _**Scale**_ settings from the (link: docs-iphone/canvas/settings text: _**Canvas pane**_). 
+
+(video: labelunits5-iphone.mp4 width:750)

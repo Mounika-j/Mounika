@@ -1,0 +1,197 @@
+Title: Gradient
+
+----
+
+Text: 
+
+A gradient object. New gradients can be created using a **Document's** (link: plugins/api/document#addGradient text: **addGradient**) function. 
+&nbsp;
+_Stops_
+- (link: plugins/api/gradient#stops text: **stops**)
+
+_Editing_
+- (link: plugins/api/gradient#addStoplocation text: **addStop: location:**)
+- (link: plugins/api/gradient#startPoint text: **startPoint**)
+- (link: plugins/api/gradient#endPoint text: **endPoint**)
+
+_Creating Copies_
+- (link: plugins/api/gradient#duplicate text: **duplicate**)
+
+_Type_
+- (link: plugins/api/gradient#type text: **type**)
+
+<a name="addStoplocation"></a>
+## addStop: location:
+### _returns (link: plugins/api/gradient#GradientStop text: **GradientStop**)_; _input (link: plugins/api/color text: **Color**)_; _input **Float**_
+
+Creates and returns a new gradient stop object with the passed-in color and location, adding it to the gradient.
+&nbsp;
+#### Example: adds a new color stop to the gradient fill of the frontmost selected shape
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var fill = [shape fill]
+
+if([fill fillType] == "gradient")
+{
+	var gradient = [fill gradient]
+	var color = [doc addColorWithRed:64 green:128 blue:255 alpha:1]
+	[gradient addStop:color location:0.5]
+}
+
+```
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: plugins/api/gradient text: **Gradient**)_
+
+Creates and returns a duplicate of this gradient.
+
+<a name="endPoint"></a>
+## endPoint
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the end point of the gradient, relative to its parent shape's bounds. A value of _(0, 0)_ is the top left corner of the shape's bounds; a value of _(1, 1)_ is the bottom right corner.
+&nbsp;
+#### Example: swap the start and end points of the frontmost selected shape's gradient fill
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var fill = [shape fill]
+
+if([fill fillType] == "gradient")
+{
+	var gradient = [fill gradient]
+    var temp = [gradient startPoint]
+    gradient.startPoint = [gradient endPoint]
+    gradient.endPoint = temp
+}
+
+```
+<a name="startPoint"></a>
+## startPoint
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the start point of the gradient, relative to its parent shape's bounds. A value of _(0, 0)_ is the top left corner of the shape's bounds; a value of _(1, 1)_ is the bottom right corner.
+&nbsp;
+#### Example: set the start and end points of the frontmost selected shape's gradient fill, top-center to bottom-center
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var fill = [shape fill]
+
+if([fill fillType] == "gradient")
+{
+	var gradient = [fill gradient]
+    gradient.startPoint = CGPointMake(0.5, 0)
+    gradient.endPoint = CGPointMake(0.5, 1)
+}
+
+```
+<a name="stops"></a>
+## stops
+### _returns **Array**_
+
+Gets the array of gradient stop objects in the gradient.
+&nbsp;
+#### Example: change the stop color each selected shape's gradient fill to 50% opacity
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+	var fill = [(shapes[i]) fill]
+	
+	if([fill fillType] == "gradient")
+	{
+  		var gradient = [fill gradient]
+		var stops = [gradient stops]
+		
+		for(var j = 0; j < [stops count]; j++)
+		{
+            var stopColor = [(stops[j]) color]
+            var newColor = [stopColor duplicate]	
+            newColor.alpha = 0.5
+            stops[j].color = newColor
+		}
+	}
+}
+
+```
+<a name="type"></a>
+## type
+### _returns **String**_; _settable_
+
+Gets / Sets the type of this gradient - _**"linear"**_, _**"radial"**_, or _**"angle"**_
+&nbsp;
+#### Example: change the type of each selected shape's gradient fill to radial
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+	var shape = shapes[i]
+	var fill = [shape fill]
+	
+	if([fill fillType] == "gradient")
+  		[fill gradient].type = "radial"
+}
+
+```
+&nbsp;
+<a name="GradientStop"></a>
+#GradientStop
+
+_Properties_
+- (link: plugins/api/gradient#color text: **color**)
+- (link: plugins/api/gradient#location text: **location**)
+
+_Editing_
+- (link: plugins/api/gradient#remove text: **remove**)
+
+<a name="color"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**); _settable_
+
+Gets / Sets the color of this stop.
+
+<a name="location"></a>
+## location
+### _returns **Float**_; _settable_
+
+Gets / Sets the location of this stop on the parent gradient.
+
+<a name="remove"></a>
+## remove
+
+Removes the stop from the parent gradient.
+&nbsp;
+#### Example: remove all of the stops in the frontmost selected shape's gradient fill, and set two new color stops 
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var fill = [shape fill]
+
+if([fill fillType] == "gradient")
+{
+    var gradient = [fill gradient]
+	var stops = [gradient stops]
+	
+	for(var i = 0; i < [stops count]; i++)
+	{
+        var stop = stops[i]
+        [stop remove]
+	}
+	
+	var color1 = [doc addColorWithRed:64 green:128 blue:255 alpha:1]
+	var color2 = [doc addColorWithRed:255 green:128 blue:64 alpha:1]
+    [gradient addStop:color1 location:0]
+	[gradient addStop:color2 location:1]
+}
+
+```

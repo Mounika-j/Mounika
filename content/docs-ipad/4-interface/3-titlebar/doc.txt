@@ -1,0 +1,26 @@
+Title: Titlebar
+
+----
+
+Text: 
+
+##Titlebar
+
+The _**Titlebar**_ offers quick shortcuts to the classic _**Save**_ the document, _**Save a Copy**_, _**Undo**_, _**Redo**_ and _**Delete**_ commands.
+
+Tap the paperclip icon to open the _**Edit**_ pane. Use the _**Cut**_, _**Copy**_, _**Paste**_ and _**Paste in Place**_ commands to easily move content from one layer to another or to multiply objects. In addition to these classic commands, objects can be easily copied as PNG, PDF, SVG, CSS or Swift Code using the _**Copy As**_ commands. 
+
+Use the _**Paste Inside**_ command to mask objects or the _**Style**_ commands to copy the style of an object and paste it to another. Instantly select all objects from a selected layer with the _**Select All**_ command and deselect them with the _**Select None **_ command. 
+
+(video: titlebar1-ipad.mp4 width: 750)
+
+Tap the **＋** button to open the _**Open Document **_ window which allows you to open up to five new documents besides the one that’s already opened.
+
+Easily toggle between the opened documents using the _**Document Tabs**_. Close tabbed documents using the **✕** buton from the left side of any document tab. 
+
+(video: titlebar2-ipad.mp4 width: 750)
+
+On the right side of the _**Titlebar**_, you have five icons which open panes with additional features.
+Each pane has a distinct role, from changing various object settings to saving and reusing styles.
+
+(video: titlebar3-ipad.mp4 width: 750)

@@ -1,0 +1,17 @@
+Title: Gradient Palette
+
+----
+
+Text: 
+
+# Gradient Palette
+
+Use the tab menu at the top of the _**Color panel**_, you can easily switch to the _**Gradient Palette**_. 
+
+Gradients can be added to the _**Gradient Palette**_ by clicking on the add button (**+**) at the bottom of the palette. Saved gradients remain stored inside the _**Gradient Palette**_ and can be used in any new designs until you choose to remove them. 
+
+To remove a gradient simply right-click on it and choose _**Remove Gradient**_.
+
+(image: gradientpalette1.jpg  width: 750)
+
+Create new gradients using the gradient editor in the (link: docs/gradients/customizing-gradients text: _**Fill pane**_) or the (link: docs/effects/fills text: _**Effects pane**_) from the _**Appearance panel**_.

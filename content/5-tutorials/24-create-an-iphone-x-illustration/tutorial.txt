@@ -1,0 +1,21 @@
+Title: Create an iPhone X Illustration
+
+----
+
+Date: 2017-12-23
+
+----
+
+Graphicfile: iphone_x_illustration.idraw
+
+----
+
+Description: Learn how to create an iPhone X illustration using vector shapes and effects...
+
+----
+
+Headerimg: iphonexillustrationheader.jpg
+
+----
+
+Thumbnail: iphonexillustrationthumbnail2.jpg

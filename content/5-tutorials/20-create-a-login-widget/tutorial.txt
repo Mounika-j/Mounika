@@ -1,0 +1,36 @@
+Title: Create a Login Widget
+
+----
+
+Description: Learn how to create a login widget interface using Appearance Effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Login Widget class: header960)
+
+----
+
+Thumbnail: loginwidgetthumbnail.jpg
+
+----
+
+Date: 2014-08-11
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**Graphic File:**
+(link: LoginWidget.idraw text: LoginWidget.idraw)
+
+----
+
+Graphicfile: loginwidget.idraw
+
+----
+
+Headerimg: header.jpg

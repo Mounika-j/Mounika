@@ -1,0 +1,263 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat file icon in Graphic for iPhone. 
+
+For starters you'll learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. You''ll learn how to ease your work using compound paths and how to add subtle shading and highlights using the Effects pane. 
+
+Finally, you'll learn the use of the Align strokes to pixel grid feature. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the  the plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: flatFileIconiPhone1A.jpg)
+
+Focus on the right side of the titlebar, tap that ruler icon and then open the **Canvas**  pane. Set the **Width** and the **Height** to **600 px**, select **Pixels** for the base unit and make sure that the **Pixel-Align Strokes** feature is disabled, for now. 
+
+(image: flatFileIconiPhone1B.jpg)
+
+Return to the **Properties** panel and this time open the **Grid**  pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, simply open that  **Grid Spacing** pane, enter **10 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: flatFileIconiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the toolbar, tap  the **Fill** color well and replace the existing color  with **R=246 G=240 B=213** adn then tap  the **Line** color well and drag the **Alpha** slider to **0%**. This will basically make your **Line** invisible. 
+
+Pick the **Round Rectangle Tool**, focus on the newly opened tool pane and drag the **Radius** slider to **5**. Move to your canvas and simply create an **120 x 165 px** rounded rectangle. The grid and the **Snap to Grid** feature will ease your work. 
+
+(image: flatFileIconiPhone2A.jpg)
+
+Make sure that your shape is still selected, tap &amp; hold to open that context menu and then use the **Copy** and **Paste** commands to easily duplicate your selected shape. Select the newly made copy and place it right above the original shape. 
+
+(image: flatFileIconiPhone2B.jpg)
+
+
+
+##Step 3
+
+Replace the existing fill color with **R=74 G=195 B=237** and pick the **Rectangle Tool**. Create a **45 px** square and place it exactly as shown in the first image.
+
+ Make sure that your blue shape stays selected, switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Delete Point** mode. Move to the bottom side of your blue shape and simply tap  the left anchor point to remove it. In the end your blue square should turn into a  triangle as shown in the second image. 
+
+(image: flatFileIconiPhone3.jpg)
+
+
+
+##Step 4
+
+Pick the **Path Selection  Tool**, focus on the newly opened tool pane and activate the **Add to Selection** mode.  Select your blue triangle along with the copy of the rounded rectangle, open the **Properties** panel, go to the **Combine** pane and then tap the **Intersect** command. 
+
+(image: flatFileIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Focus on the top, left edge of your rounded rectangle and pick the **Ellipse Tool**. Set the fill color to **R=255 G=85 B=84**, create a **5 px** circle and place it as shown in the following image. Use the same **Copy** and **Paste** commands from that context menu to easily duplicate your little circle. Select the copy and place it **5 px** below the original shape as shown below. 
+
+(image: flatFileIconiPhone5A.jpg)
+
+Add a bunch of new copies and spread them in a column of fifteen circles  as shown in the following image. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your circles, go to the **Combine** pane and simply tap the **Make** command.
+
+(image: flatFileIconiPhone5B.jpg)
+
+
+
+##Step 6
+
+Duplicate your compound path, select the copy,  place it right above the original shape and replace the existing **Fill** color with **R=255 G=200 B=84**. 
+
+Next,  you need to move this yellow shape **1 px** down. Make sure that it's still selected and open  the **Geometry** pane from the **Properties** panel. Focus on the **Y** box and simply increase the existing value by **1 px** which will move your shape **1 px** down**.**
+
+(image: flatFileIconiPhone6B.jpg)
+
+
+##Step 7
+
+Reselect your red compound path, make a new copy and make sure that you're placing it right above the original path. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the copy made in this step along with the yellow compound path and focus on the **Combine** pane from the **Properties** pane. First,  tap the **Subtract** command and then tap that **Make** command. 
+
+(image: flatFileIconiPhone7A.jpg)
+
+Make sure that your  compound path is still selected, focus on the toolbar and tap that **Fill** color well. Replace the existing color with white and drag the **Alpha** slider to **70%**. 
+
+(image: flatFileIconiPhone7B.jpg)
+
+
+
+##Step 8
+Select the remaining, red compound path along with your rounded rectangle, focus on the **Combine** pane and tap the **Subtract** command. 
+
+Duplicate your blue shape, select the copy and place it right above the original shape. Select this copy along with the beige shape, return to the **Combine** pane and tap again the **Subtract** command. 
+
+(image: flatFileIconiPhone8.jpg)
+
+
+
+##Step 9
+
+Select your beige shape, focus on the right side of your titlebar, tap the leftmost icon to open the **Appearance** pane and then tap the **Effects** pane. 
+
+Check the  box that stands for the existing **Drop Shadow** to activate, enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for your effect. Replace the existing color  with **R=220 G=214 B=187** and make sure that the **Alpha** slider is set to **100%**. 
+
+(image: flatFileIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your beige shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button located in the top, right corner of your pane. Focus on this new effect, drag it below the existing **Drop Shadow** and then  enter the properties shown in the following image. 
+
+(image: flatFileIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Focus on your toolbar, tap the fill color well and drag the **Alpha** slider to **0%** and then tap the **Line** color well, drag the **Alpha** slider to **100%** and set the color to **R=150 G=180 B=240**. 
+Using the **Line Tool** or the **Pen Tool**, create a **90 px**, horizontal path and place it as shown in the first image. 
+
+(image: flatFileIconiPhone11A.jpg)
+
+Duplicate this blue path, select the copy and  place it **10 px** above the original path. Repeat this technique until you have a column of fifteen horizontal paths as shown below.
+
+(image: flatFileIconiPhone11B.jpg)
+
+
+
+##Step 12
+
+Focus on the top, horizontal path and pick the **Path Selection Tool**. Select the right anchor point and drag it **20 px** to the left. Move down to the next horizontal path, select the right anchor point and drag it **10 px** to the left. 
+
+(image: flatFileIconiPhone12.jpg)
+
+
+
+##Step 13
+
+Reselect all your horizontal paths, focus on the  **Combine** pane and tap the **Make**  command. Make sure that this new compound path stays selected, tap the **Fill** color well from your toolbar and drag the **Alpha** slider to **30%**. 
+
+(image: flatFileIconiPhone13.jpg)
+
+
+
+##Step 14
+
+Focus on your toolbar and make sure that the **Fill** is invisble. Replace the existing stroke color with **R=255 G=169 B=206** and drag its **Alpha** slider to **100%**. 
+
+Using the **Line  Tool** or the **Pen Tool**, create a **150 px**, vertical path and place it as shown in the following image. 
+
+(image: flatFileIconiPhone14A.jpg)
+
+Duplicate your pink path, select the copy and place it right above the original one. Make sure that your copy stays selected and open the **Geometry** pane from the **Properties** panel. Focus on the **X** box and simply increase the existing value by **3 px** which will move your selected shape **3 px** to the right. 
+
+(image: flatFileIconiPhone14B.jpg)
+
+
+
+##Step 15
+
+Reselect both vertical paths, focus on the **Combine** pane and tap the **Make** command. Make sure that this new compound stays selected, tap the **Fill** color well from your toolbar and lower the **Alpha** to **30%**. 
+
+(image: flatFileIconiPhone15.jpg)
+
+
+
+##Step 16
+
+First, you need to bring your blue shape to front. Select it, open the **Properties** pane, tap the **Arrange** pane and then simply drag that slider to the right. 
+
+Re-open the **Geometry** pane making sure that your blue shape is still selected. Focus on the **Rotation** box and  enter a **180 degrees** angle. 
+
+(image: flatFileIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Now, you will need a grid every **1 px**. This  simply means that you need to return to the **Grid** pane from the **Properties** panel, open the **Grid Spacing** pane and enter **1 px** in both **Spacing** boxes.
+  
+Make two copies of your blue shape and place them right above the original shape. Select the top copy and move it **1 px** up and **1 px** to the right. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Reselect both copies made in this step, focus on the **Combine** pane from the **Properties** pane and tap the **Subtract** command. Make sure that the resulting shape stays selected and replace the existing **Fill** color with white. 
+
+Switch to the **Pen Tool**, focus on the newly opened tool pane and activate the **Delete Point** mode. Focus on your white shape and simply tap the two anchor points highlighted in the second image to remove them. 
+
+(image: flatFileIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your white shape stays selected, tap the **Fill** color well from your toolbar and drag the **Alpha** slider to **40%**. 
+
+(image: flatFileIconiPhone18.jpg)
+
+
+
+##Step 19
+
+Duplicate your blue shape, select the copy and place it right above the original shape. Make sure that this new shape is selected, replace the existing fill color with a random orange and the move it **1 px** down. 
+
+Reselect your blue shape, make a new copy and make sure that you're placing it right above the original shape. Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select both shapes made in this step, focus on the **Combine** pane from the **Properties** panel and tap the **Subtract** command. 
+
+Make sure that your newly made shape stays selected and that the **Path Selection Tool** is still active, switch to the default tool mode, select the anchor point highlighted in the fourth image and drag it to the right as shown below. Also, replace the existing **Fill** color  with **R=221 G=214 B=188**. 
+
+(image: flatFileIconiPhone19.jpg)
+
+
+
+##Step 20
+
+Again, you will need a grid every **10 px**. Return to the **Grid** pane from the **Properties** panel, open the **Grid Spacing** pane and enter **10 px** in both **Spacing** boxes.  
+
+Reselect your blue shape, make a new copy and place it right above the original shape. Select this copy and focus on the **Effects** pane. Disable the **Fill** and then select the **Stroke**, set its color to **R=255 G=86 B=85**, drag the **Width** slider to **2 pt** and make sure that the **Alignment** is set to **Outside**. With this shape still selected, focus on the **Path Tools** pane from **Properties** panel and tap that **Outline Stroke** command. 
+
+(image: flatFileIconiPhone20.jpg)
+
+
+
+##Step 21
+
+Reselect your beige shape, make a copy and place it right above the original shape. Select this copy along with your red shape, focus on the **Combine** pane and tap that **Intersect** command. 
+
+Make sure that the newly made shape stays selected and focus on the **Effects** pane. Tap the color well that stands for the existing **Fill**, set the color  to black (**R=0 G=0 B=0**) and drag the **Alpha** slider to **40%**. Return to the **Effects** pane and tap the cogwheel icon that stands for that same  **Fill**. Tap the **Blend Mode** option and then select  **Soft Light**.
+
+(image: flatFileIconiPhone21.jpg)
+
+
+
+##Step 22
+
+Reselect your blue shape, focus on the toolbar and replace the existing **Fill** color with **R=255 G=247 B=220**. 
+
+(image: flatFileIconiPhone22.jpg)
+
+
+##Step 23
+
+Alternatively, you can try a different set of colors for your final icon. Select the highlighted shapes one by one and simply replace the existing colors with the ones shown in the following image. 
+
+(image: flatFileIconiPhone23.jpg)
+
+
+##Step 24
+
+Finally, if you choose to export your design as an image you will notice that those horizontal and vertical lines end up looking pretty blurry. This  happens because the strokes applies for those lines are not perfectly aligned to the pixels grid.  To fix this issue, just go to the **Canvas** pane and activate that **Pixel-Align Strokes** feature. 
+
+(image: flatFileIconiPhone24.jpg)
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: flatFileIconiPhone0.jpg)
+
+----
+
+Title: iPhone

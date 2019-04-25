@@ -1,0 +1,17 @@
+Title: Color Palette
+
+----
+
+Text: 
+
+# Color Palette
+
+Use the _**Color palette**_  to quickly choose a color, as well as save and reuse frequently used colors. To open the Color Palette, tap a color well and then tap he _**Color palette**_ button.
+
+(video: colorpalette1-iphone.mp4 width: 750)
+
+Colors can be added to the _**Color palette**_ by dragging the color from the thumbnail to one of the palette slots. You can add new colors inside empty slots or replace an existing color by dragging a new color on top of it. 
+
+(video: colorpalette2-iphone.mp4 width: 750)
+
+To choose a new color to add, use one of the _**color picker interfaces**_. To disable an object’s stroke or fill color, tap the _**‘none’**_ swatch from the bottom-right corner.

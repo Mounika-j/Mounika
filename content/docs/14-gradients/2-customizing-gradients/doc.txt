@@ -1,0 +1,27 @@
+Title: Customizing Gradients
+
+----
+
+Text: 
+
+# Customizing Gradients
+
+Use the _**Fill pane**_ from the Appearance panel to create or edit gradients. Although the _**Gradient Palette**_ allows you to select from pre-made gradients, you can create new gradients to use or save from this pane.
+
+Same settings can be found inside the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel whenever you select a _**Fill**_ with a gradient. 
+
+(image: customizinggradients1.jpg  width: 750)
+
+1. **Gradient Type** - Open the drop-down menu and choose between _**Linear Gradient**_, _**Radial Gradient**_ or _**Angle Gradient**_. 
+
+ (image: customizinggradients2.jpg  width: 723)
+
+2. **Gradient Well** - Preview of the current gradient; click on it to easily access the _**Gradient palette**_.
+
+3. **Angle** - Determines the rotation angle of the gradient.
+
+4. **Reverse Gradient** - Reverse the order of the color stops in the gradient.
+
+5. **Gradient Editor** - Create and edit new gradients using the gradient editor. Add gradient color stops by clicking a location on the gradient bar. Click and drag a color stop to change its location. Click on a gradient color stop to change its color. Drag a color stop away from the bar to remove it.
+
+ (video: customizinggradients3.mp4   width: 723)

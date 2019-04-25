@@ -1,0 +1,195 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple ticket icon in Graphic for Mac.
+
+For starters you will learn how to setup a simple grid and how to activate the Snap to Grid feature. Next, you'll create the main ticket shapes using two simple tools and some basic vector shapes building techniques. Using the Effects pane from the Appearance panel you will learn how to add some subtle borders and shading for your ticket shape. 
+ 
+Finally, you'll learn how to add a simple piece of text and how to easily recolor your entire icon. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Go to **File &gt; New** or hit the **Command + N** keyboard shortcut to bring up the **New Document** window. Select the **Grid** document style, select **pixels** for the document unit and then set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, you need to adjust  the document's grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and then enable **Snap to Grid**. 
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: ticketIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. Click  the fill color wheel and replace the existing color with **R=229 G=112 B=73** and the click   the stroke color wheel and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Pick the **Rectangle Tool (M)**, focus on your canvas and create a **140 x 75 px** shape. 
+
+(image: ticketIcon2.jpg)
+
+
+
+##Step 3
+
+Return to your Toolbar, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=0 G=152 B=245**. 
+
+Pick the **Ellipse Tool (O)**, create a **20 px** circle and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature will ease your work. 
+
+(image: ticketIcon3.jpg)
+
+
+
+##Step 4
+
+Make sure that your blue circle is still selected and duplicate it using the **Command + C &gt; Command +V** keyboard shortcuts.
+ 
+Make three copies and place them exactly as shown in the following image. 
+
+(image: ticketIcon4.jpg)
+
+
+
+##Step 5
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes.  
+
+Get back to  your **Toolbar**, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=255 G=185 B=0**. Reselect the **Ellipse Tool (O)**, create a **5 px** circle and place it as shown in the following image. 
+
+(image: ticketIcon5.jpg)
+
+
+
+##Step 6
+
+Multiply your yellow circle and spread the copies as shown in the following image. 
+
+(image: ticketIcon6.jpg)
+
+
+
+##Step 7
+
+Select all your yellow circle, focus on the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button. This will make it easier for you to select all these yellow shapes at once. 
+
+(image: ticketIcon7.jpg)
+
+
+
+##Step 8
+
+Duplicate your yellow compound path, drag the copy to the right and place it as shown in the following image. 
+
+(image: ticketIcon8.jpg)
+
+
+
+##Step 9
+
+For the remaining steps  you will need a grid every **5 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes.  
+
+Select all the shapes made so far, focus on the **Path Tools** pane from the **Properties** panel and click the **Subtract** button. 
+
+(image: ticketIcon9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can click on the leftmost icon above the **Layers** panel to show and hide the pane. 
+
+Click the color wheel that stands for the existing **Stroke**, drag the **Alpha** slider to **100%** and replace the existing color with a simple white (**R=255 G=255 B=255**). Keep focusing on this stroke, drag the **Width** slider to **2 pt** and then select **Inside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu. 
+
+(image: ticketIcon10.jpg)
+
+
+
+##Step 11
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of your panel. 
+
+Make sure that this new **Stroke** lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: ticketIcon11.jpg)
+
+
+
+##Step 12
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Stroke** using that same plus button. 
+
+Make sure that this new **Stroke** lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: ticketIcon12.jpg)
+
+
+
+##Step 13
+
+Return to  your **Toolbar**, this time make sure that the **Fill** is invisible and then set the **Stroke** color to **R=189 G=74 B=37**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag the **Corner Radius** slider to **10 pt**. Move to your canvas, create a **110 x 55 px** shape and place it as shown in the following image. Make sure that this new shape stays selected, move to the **Effects** pane from the **Appearance** panel, focus on the existing **Stroke** and simply drag that **Width** slider to **2pt**. 
+
+(image: ticketIcon13.jpg)
+
+
+
+##Step 14
+
+Using the **Line Tool (L)** (or the **Pen Tool (P)**), create a **35 px**, vertical path and place it exactly as shown in the following image. Make sure that the this new path stays selected and focus on the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **2pt** and check the **Round Cap** button. 
+
+(image: ticketIcon14.jpg)
+
+
+
+##Step 15
+
+Duplicate  your vertical path (**Command + C &gt; Command + V**) and place the copy as shown in the following image. 
+
+Pick the **Text Tool (T)** and focus on the **Text** pane from the **Appearance** panel. Select the **DIN Condensed** font, make it **Bold**, set the **Size** to **15pt** , the **Leading** to **0.7** and the **Tracking** to **2**  and then simply click on your canvas. 
+
+Add that &quot;_ADMIT ONE_&quot; piece of text and place it roughly as shown in the following image. 
+
+(image: ticketIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your piece of text stays selected, focus on the **Effects** pane from the **Appearance** panel and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes, select **Soft Light** from the **Blend** drop-down menu and then click the color well that stands for this effect. Drag the **Alpha** slider to **50%** and replace the existing color with white. 
+
+(image: ticketIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your piece of text stays selected, focus on the **Effects** pane from the **Appearance** panel, activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: ticketIcon17.jpg)
+
+
+
+##Step 18
+
+Finally, feel free to try different colors for your ticket. 
+
+Simply select the shapes, the paths and the piece of text one by one and replace the two main colors (**R=229 G=112 B=73** and **R=189 G=74 B=37**) with the colors that your prefer. 
+
+(image: ticketIcon18.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: ticketIcon0.jpg)
+
+----
+
+Title: Mac

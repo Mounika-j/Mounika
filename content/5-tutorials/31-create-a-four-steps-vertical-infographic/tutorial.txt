@@ -1,0 +1,21 @@
+Title: Create a Vertical Infographic
+
+----
+
+Date: 2018-06-20
+
+----
+
+Graphicfile: stepsverticallnfographic.idraw
+
+----
+
+Description: Learn how to create a four step vertical infographic using vector shapes and effects...
+
+----
+
+Headerimg: stepsverticalinfographicheader.jpg
+
+----
+
+Thumbnail: stepsverticalinfographicthumbnail.jpg

@@ -1,0 +1,19 @@
+Title: Layers pane
+
+----
+
+Text: 
+
+## Layers pane
+
+Layers offer the ability to manage and organize complex designs easily, by separating a large design into sections of related objects. 
+
+Each layer is like a sheet of transparent paper drawn on top of the layers below it. Layers are drawn as a ‘stack’, with the layer at the bottom of the list drawn first and each following layer drawn on top of the previous one.
+
+
+(image: layerspane2b.png  width: 750)
+(image: layerspane2.png  width: 750)
+
+Layers also offer the ability to create unique effects through the use of their opacity and blending mode settings. These settings determine how a layer will blend with the layers below it.
+
+The Layers list on the right side of the document window can be used to create, rename, arrange, delete, and select layers.

@@ -1,0 +1,13 @@
+Title: Distributing  Objects
+
+----
+
+Text: 
+
+# Distributing  Objects
+
+Use the Distribute commands to get an even amount of space between your selected objects. 
+
+Choose **Arrange > Distribute Objects** from the menu bar and pick one of the two available options: **Horizontally** and **Vertically**.
+
+(video: distributingobjects1.mp4  width: 750)

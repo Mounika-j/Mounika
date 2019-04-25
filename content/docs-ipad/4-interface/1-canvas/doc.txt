@@ -1,0 +1,34 @@
+Title: Canvas
+
+----
+
+Text: 
+
+## Canvas
+
+The Canvas is the visible area that defines a design. It is where illustrations are created; where objects are drawn and edited.
+
+The grey area surrounding the canvas is nonprintable ‘scratch’ space. Objects can overlap into this area, or they can be placed here while a design is being edited. Objects partly overlapping into this area get masked while objects placed entirely out of the canvas area are fully visible. However, anything outside of the canvas will not be visible when printing or exporting the design. 
+
+(image: canvas1-ipad.jpg width: 750)
+
+####Canvas Size
+
+The size of the canvas can be changed at any time from the (link: docs-ipad/canvas/settings text:_**Canvas pane**_). The measurement units used for dimensions can be set to pixels, inches, millimeters, or centimeters.
+
+####Canvas Color
+
+The background of the canvas can be set to be either a solid color or a gradient. The background can be customized using the (link: docs-ipad/canvas/settings text:_**Canvas pane**_).
+
+####Rulers, Grid & Smart Guides
+
+The (link: docs-ipad/canvas/rulers text:_**Rulers**_), the (link: docs-ipad/canvas/grid text:_**Grid**_) or the (link: docs-ipad/canvas/smart-guides text:_**Smart Guides**_) are helpful when positioning and aligning objects. When selecting objects, highlights appear on the rulers showing the bounds of the current selection. The grid can be customized using the (link: docs-ipad/canvas/grid text:_**Grid pane**_).
+
+####Flip & Rotate Canvas
+
+The canvas and its entire content can be instantly flipped or rotated. Make sure that nothing is selected and open the _**Geometry pane**_ from the Properties panel. 
+
+Use the _**Flip **_ buttons to flip the entire canvas horizontally or vertically. 
+Tap the _**Rotate**_ buttons to rotate the entire canvas 90° clockwise or counter-clockwise.
+
+(video: canvas2-ipad.mp4 width: 750)

@@ -1,0 +1,49 @@
+Title: Transform Panel
+
+----
+
+Text: 
+
+# Transform Panel
+
+Alternatively, objects or path points can be numerically moved, rotated, scaled or slanted using the _**Transform panel**_. 
+
+Select the objects/path points that you wish to transform, go to **Modify > Rotate & Transform > Transform** [**⌘** - **⇧** - **T**] to open the Transform panel and choose from the tab menu between:
+
+
+#### Move
+(image: transformpanel1.jpg width:750)
+
+1. **Horizontal & Vertical** - Numerically change the position of your object and set the measurement units to be used for the movement from: percent, pixels, inches, centimeters and millimeters.
+
+2. **Distance** - Numerically set the distance or the direction of the movement using the Angle input box or the spinner. 
+
+3. **Copy** - Clicking this button will duplicate the objects first and then apply the rotation to the copied objects.
+
+#### Rotate
+(image: transformpanel2.jpg width:750)
+
+1. **Angle** - Numerically set a rotation angle or use the angle spinner. 
+
+2. **Rotation Origin** - Numerically set the position of the reference point or click one of the nine preset reference points. 
+
+3. **Copy** - Clicking this button will duplicate the objects in the direction set in the Angle input box or with the Angle spinner.
+
+#### Scale
+(image: transformpanel3.jpg width:750)
+
+1. **Width & Height** - Numerically change the size of your object and set the measurement units to be used for the scaling from: percent, pixels, inches, centimeters and millimeters.
+
+2. **Scale Origin & Effects** - Set the position of the reference point and check the _**Scale styles and effects**_ box to also scale any effects applied to your objects. 
+
+3. **Copy** - Clicking this button will duplicate the objects first and then apply the scaling to the copied objects.
+
+
+#### Shear
+(image: transformpanel4.jpg width:750)
+
+1. **Horizontal & Vertical** - Numerically set the shear angles or use the angle spinners. 
+
+2. **Origin** - Numerically set the position of the reference point or click one of the nine preset reference points. 
+
+3. **Copy** - Clicking this button will duplicate the objects first and then apply the slant transformation to the copied objects.

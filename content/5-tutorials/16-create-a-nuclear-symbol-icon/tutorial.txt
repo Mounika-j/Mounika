@@ -1,0 +1,36 @@
+Title: Create a Nuclear Symbol Icon
+
+----
+
+Description: Learn how to create a nuclear symbol icon using path combinations and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Nuclear Symbol Icon class: header960)
+
+----
+
+Thumbnail: nuclearsymbolthumbnail.jpg
+
+----
+
+Date: 2014-08-09
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: NuclearSymbol.idraw text: NuclearSymbol.idraw)
+
+----
+
+Graphicfile: nuclearsymbol.idraw
+
+----
+
+Headerimg: header.jpg

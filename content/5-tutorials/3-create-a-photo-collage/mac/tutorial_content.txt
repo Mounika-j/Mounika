@@ -1,0 +1,118 @@
+Text: 
+
+In this Graphic tutorial you will learn how to create a photo collage design with various layouts using imported images and photos. 
+
+Graphic can import images and photos from different file types, including PNG, JPEG, TIFF, etc., and has tools for cropping, scaling, and masking images within shapes.
+
+
+
+
+
+##Step 1 - Create a New Document
+
+For this tutorial we'll create a new **798 x 600 pixel** document. Go to **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **798** pixels wide by **680** pixels high and then click **Choose** to create your document.
+
+(image: photoCollage1.jpg)
+
+
+
+##Step 2 - Customize the Grid
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **6**, set the **Subdivisions** to **6** and don't forget to enable **Snap to Grid**—all these features will make your work easier.
+
+(image: photoCollage2.jpg)
+
+
+
+##Step 3 - Draw the Background Shape
+
+Focus on the **Toolbar**, click  the **Stroke** color well and drag the **Alpha** slider to **0%**. This will simply make the **Stroke** invisible. Click the **Fill** color well and make sure that the color is set to white (R=255 G=255 B=255). 
+
+Next, we'll create a shape that will act as our background for the collage. In this case we'll use a rounded rectangle, but we could also use a regular rectangle or other large shape, depending on the desired style for the collage.
+
+Select the **Rounded Rectangle Tool (Shift + M)** from the **Toolbar** and set the **Corner Radius** to **6 pt** from the **Tool Options** bar. Create a **786 x 588 px** shape positioned at **X: 6 px** and **Y: 6 px**, as shown in the following image. 
+
+(image: photoCollage3.jpg)
+
+
+
+##Step 4 - Create an Image Placeholder
+
+To design the layout of the collage, we'll create placeholder shapes where we want the final images to appear. Return to your **Toolbar** and replace the existing **Fill** color with **R=128 G=128 B=128**.
+ 
+Select the **Rectangle Tool (M)** from the **Toolbar** and  create a **492 x 318 px** rectangle   positioned at **X: 12 px** and **Y: 12 px**. This rectangle shape will designate the size and position of one of the images in our collage. 
+
+(image: photoCollage4.jpg)
+
+
+
+##Step 5 - Create the Full Layout
+
+Next, we'll create the other rectangles needed to complete the layout. Using the **Rectangle Tool** create the next three rectangles:
+
+• Position: **X: 12 px**, **Y: 336 px**, Size: **282 px width**, **252 px height**.
+• Position: **X: 300 px**, **Y: 336 px**, Size: **204 px width**, **252 px height**.
+• Position: **X: 510 px**, **Y: 12 px**, Size: **276 px width**, **576 px height**.
+  
+The layout should look like the screenshot below.
+
+(image: photoCollage5.jpg)
+
+
+
+##Step 6 - Set an Image Fill
+
+Switch to the **Move Tool (V)** and select the top left placeholder shape. Using the **Effects** pane from the **Appearance** panel we can customize the placeholder shape's fill. Click  the **Fill** in the **Effects** pane to view its settings and choose **Image** from the **Type** menu. 
+
+(image: photoCollage6.jpg)
+
+
+
+##Step 7 - Choose the Image
+
+A new window will appear allowing you to select the image to use as the fill for the shape. Select the image you'd like to use for this placeholder. By default, the image will be scaled to fit inside the rectangle shape. 
+
+(image: photoCollage7.jpg)
+
+
+
+##Step 8 - Scale and Position the Image
+
+To scale and position an image within a shape you can double-click on that shape using the **Move Tool**. This will activate the **Image Tool**. With the **Image Tool** active, you can scale the image using the **scale slider** and drag the image within the shape to position it. Scale and position the image to fit nicely within the shape.
+
+_Note: you can also crop images by dragging the crop handles while the Image Tool is active, however this isn't necessary for this tutorial._
+
+(image: photoCollage8.jpg)
+
+
+
+##Step 9 - Add the Other Images
+
+Using the same steps as before, set different image fills** **for each of the other placeholder shapes. By scaling and positioning the images within the shapes you can create a photo collage similar to the one shown below. 
+
+(image: photoCollage9.jpg)
+
+By using different shapes and sizes for the image placeholders you can create entirely different collage styles. For example, you can use rounded rectangles for the placeholders.
+
+(image: photoCollage10.jpg)
+
+Other types of shapes can also be used to clip image fills to create dramatically different effects. Try different combinations to create unique artistic layouts.
+
+(image: photoCollage11.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: photoCollage0.jpg)
+
+----
+
+Title: Mac

@@ -1,0 +1,31 @@
+Title: Grid
+
+----
+
+Text: 
+
+# Grid
+
+The grid appears on the canvas behind your design. Grid can be (link: docs-ipad/exporting#export text: _**exported**_) with your design. The canvas grid is fully customizable, with adjustable settings for spacing, gridline colors, subdivisions, margins, and more. 
+
+(video: grid1-ipad.mp4  width: 750)
+
+Open the _**Grid pane**_ from the Properties panel to customize your grid. Tap the _**Show Grid**_ command to easily enable or disable the visibility of the grid. 
+
+Tap the **Grid Spacing** command to open the _**Grid Settings pane**_ and  adjust grid spacing, gridline colors, subdivisions, margins, and more.
+
+ (image: grid2-ipad.jpg width:723)  
+
+1. **Spacing** - The X and Y spacing settings set the spacing between each gridline, X represents the horizontal axis while Y represents the vertical axis. For grids without X or Y lines (to create a notebook paper style, for example), you can set the spacing to zero. Change the colors used to draw the gridlines using the color wells next to each setting.
+
+2. **Subdivisions** - The subdivisions setting determines how many gridlines are drawn between each thicker major gridlines. Change the colors used to draw the subdivision gridlines using the color well next to this setting.
+
+3. **Margins** - Set the width and color of each margin. Set the size to 0 to move the margin lines on the edge of your document or simply remove the color to make the margin lines invisible.
+
+4. **Margins Offset Origin** - If checked, the origin point of the rulers will be offset by the width of each margin. If unchecked, the origin point will be at the top left corner of the printable canvas.
+
+ (image: grid3-ipad.jpg width:723)
+
+5. **Extend Grid Lines** - This setting allows you to extend the drawing of the gridlines beyond the edges of the margins. If checked, the gridlines extend over the margins, or if unchecked the gridlines end at each margin.
+
+ (image: grid4-ipad.jpg width:723)

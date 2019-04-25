@@ -1,0 +1,17 @@
+Title: Dimension Lines
+
+----
+
+Text: 
+
+# Dimension Lines
+
+Dimension Lines can be created using the _**Dimension Line**_ mode of the (link: docs/shapes/lines text: _**Line tool**_). 
+
+(image: dimensionlines1.jpg width:750)
+
+The position and style of the dimension labels can be customized using the (link: docs/labels/adding-labels text: _**Label pane**_) and the (link: docs/labels/stylizing-labels text: _**Text pane**_) from the _**Appearance panel**_. 
+
+The line endings and the dash style can be customized using the (link: docs/effects/strokes#stroke-pane text: _**Stroke pane**_) from the _**Appearance panel**_.
+
+(video: dimensionlines2.mp4 width: 750)

@@ -1,0 +1,370 @@
+Text: 
+
+In the following tutorial you will learn how to create a clipboard icon in  Graphic for Mac. 
+
+For starters you will learn how to set up a simple grid and how to create the main shapes using the Rounded Rectangle Tool. Using an image fill, a bunch of effects and some basic blending techniques you will learn how to create the wooden board with all its shading and highlights. Using mostly simple shapes, basic vector shape building techniques and the Effects pane you will learn how to create the remaining pieces of your icon. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+
+(image: clipboardIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and notice that by default the **Fill** color is set to white while the **Stroke** color is set to black. Click  the **Fill** color well and set it to **R=215 G=205 B=175** and then click on the **Stroke** color well. Drag the **Alpha** slider to **0%** and this should simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **10 pt**. Move to your canvas and simply create a **180 x 245 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: clipboardIcon2.jpg)
+
+
+
+##Step 3
+
+Now, you need to download [this free imag](http://pixabay.com/en/wood-mahogany-texture-364694/). Make sure that your shape is still selected, focus on the **Effects** pane from the **Appearance** panel and add a second **Fill** using the plus button located in the bottom, left corner of your panel. If the **Appearance** panel is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel. 
+
+Select your new **Fill**, select **Image** from the **Type** drop-down menu and simply add the image downloaded a few moments ago. Go to the **Blend** drop-down menu and select **Multiply** and then drag that **Scale** slider to around **140%**. In the end your rounded rectangle should look like in the following image. 
+
+(image: clipboardIcon3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and select the existing **Stroke**. Drag the **Width** slider to **1 pt**, select **Inside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu and then simply click the color well that stands for your **Stroke**. Drag the **Alpha** slider to **40%** and make sure that the color is set to black (**R=0 G=0 B=0**).
+
+(image: clipboardIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Select this new **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: clipboardIcon5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and check the  box that stands for the existing **Drop Shadow** to activate it. Drag this effect between the two **Strokes**, enter **1** in the **Y** box and **0** in the other two boxes and then simply click the color well that stands for this effect. Drag the **Alpha** slider to **100%** and replace the existing color with **R=124 G=60 B=4**. 
+
+(image: clipboardIcon6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using that same plus button. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image.
+
+(image: clipboardIcon7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane, right click on the bottom **Drop Shadow** and go to **Duplicate**. Select the newly added **Drop Shadow** and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this effect, drag it right above the bottom **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this effect, drag it right below the top **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon13.jpg)
+
+
+
+##Step 14
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to black (**R=0 G=0 B=0**).
+ 
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **8 pt**. Move to your canvas, create a **170 x 225 px** shape and place it as shown in the following image. Using the same tool, create a **50 x 20 px** shape and place it as shown in the second image. 
+
+(image: clipboardIcon14.jpg)
+
+
+
+##Step 15
+
+Select the black, rounded rectangles made in the precious step, focus on the **Path Tools** pane from the **Properties** panel and click the **Union** button.
+
+(image: clipboardIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your black shape is still selected and focus on the **Effects** pane. Select the existing **Fill**, change the **Blend Mode** to **Soft Light** and then click that color well and drag the **Alpha** slider slider to **60%**. 
+
+(image: clipboardIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your black shape stays selected and keep focusing on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon17.jpg)
+
+
+
+##Step 18
+
+Make sure that your black shape is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon18.jpg)
+
+
+
+##Step 19
+
+Make sure that your black shape is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon19.jpg)
+
+
+
+##Step 20
+
+Make sure that your black shape is still selected and keep focusing on the **Effects**  pane. Activate the existing **Inner Shadow**, make sure that it lies below those **Drop Shadow** effects and enter the attributes shown in the following image. 
+
+(image: clipboardIcon20.jpg)
+
+
+
+##Step 21
+
+Make sure that your black shape stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon21.jpg)
+
+
+
+##Step 22
+
+Make sure that your black shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon22.jpg)
+
+
+
+##Step 23
+
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=252 G=252 B=252**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **5 pt**. Move to your canvas, create a **160 x 210 px** shape and place it as shown in the following image. 
+
+(image: clipboardIcon23.jpg)
+
+
+
+##Step 24
+
+Make sure that your white, rounded rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon24.jpg)
+
+
+
+##Step 25
+
+Make sure that your white, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon25.jpg)
+
+
+
+##Step 26
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadow** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon26.jpg)
+
+
+
+##Step 27
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadows** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon27.jpg)
+
+
+
+##Step 28
+
+Make sure that your white, rounded rectangle is still selected, keep focusing on the **Effects**  pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadows** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon28.jpg)
+
+
+
+##Step 29
+
+Make sure that your white, rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadows** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon29.jpg)
+
+
+
+##Step 30
+
+Make sure that your white, rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadows** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon30.jpg)
+
+
+
+##Step 31
+
+Make sure that your white, rounded rectangle stays selected, keep focusing on the **Effects**  pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the other **Drop Shadows** and then replace the existing attributes with the ones shown in the following image. 
+
+(image: clipboardIcon31.jpg)
+
+
+
+##Step 32
+
+Get back to your Toolbar. This time make sure that the **Fill** is invisible and then set the **Stroke** color to **R=87 G=88 B=92**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and drag that  **Corner Radius** slider   to **5 pt**. Move to your canvas, create a **70 x 20 px** shape and place it exactly as shown in the following image. Make sure that this new shape stays selected and move to the **Effects** pane. Select the existing **Stroke** and simply drag that **Width** slider to **2 pt**. 
+
+(image: clipboardIcon32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that the rounded rectangle made in the previous step is still selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: clipboardIcon33.jpg)
+
+
+
+##Step 34
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects**  pane, activate the existing **Drop Shadow** and  enter the attributes shown in the following image. 
+
+(image: clipboardIcon34.jpg)
+
+
+
+##Step 35
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects**  pane, activate the existing **Inner Shadow** and  enter the attributes shown in the following image. 
+
+(image: clipboardIcon35.jpg)
+
+
+
+##Step 36
+
+Make sure that the rounded rectangle edited in the previous step is still selected, focus on the **Effects** pane and add a second **Inner Shadow**. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon36.jpg)
+
+
+
+##Step 37
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and make sure that the **Corner Radius** slider is set to **5 pt**. Move to your canvas, create a **40 x 10 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and move to the **Effects** pane. Focus on the existing **Fill**, select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then move to the gradient sliders. Select the left slider, set its color to **R=87 G=88 B=92** and then select the right slider and set its color to **R=187 G=188 B=192**. Simply click on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=168 G=169 B=171** and then drag it to the left until the **Location** tooltip shows **30%**. Add another two gradient sliders and  use the color and **Location**  attributes shown in the following image. 
+
+(image: clipboardIcon37.jpg)
+
+
+
+##Step 38
+
+Make sure that your newest rounded rectangle is still selected, focus on the **Effects**  pane, select the existing **Stroke** and simply enter the attributes shown in the following image. 
+
+(image: clipboardIcon38.jpg)
+
+
+
+##Step 39
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke**. Make sure that it lies below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon39.jpg)
+
+
+
+##Step 40
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow**, drag it below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon40.jpg)
+
+
+
+##Step 41
+
+Make sure that your newest rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: clipboardIcon41.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clipboardIcon0.jpg)
+
+----
+
+Title: Mac

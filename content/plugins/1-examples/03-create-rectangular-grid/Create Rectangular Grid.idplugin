@@ -1,0 +1,183 @@
+var doc = [app activeDocument]
+var layer = [doc activeLayer]
+
+var userWidth = 200
+var userHeight = 200
+var userHorizLines = 5
+var userVertLines = 5
+var userClickedOK = false
+
+showSettingsDialog()
+
+if(userClickedOK)
+    createGrid()
+
+function createGrid()
+{
+    var center = CGPointMake([doc canvasSize].width / 2, [doc canvasSize].height / 2)
+    var origin = CGPointMake(center.x - (userWidth/2), center.y - (userHeight/2))
+    var newShapes = [NSMutableArray array]
+    
+    origin.x = Math.round(origin.x)
+    origin.y = Math.round(origin.y)
+    
+    var offsetX = userWidth / (userVertLines + 1)
+    var offsetY = userHeight / (userHorizLines + 1)
+    
+    for(var i = 0; i <= userVertLines + 1; i++)
+    {
+        var path = [doc addPath]
+        [path addMoveTo:CGPointMake(origin.x + (offsetX * i), origin.y)]
+        [path addLineTo:CGPointMake(origin.x + (offsetX * i), origin.y + userHeight)]
+        var shape = [layer addPathShape:path]
+        [newShapes addObject:shape]
+    }
+    
+    for(var i = 0; i <= userHorizLines + 1; i++)
+    {
+        var path = [doc addPath]
+        [path addMoveTo:CGPointMake(origin.x, origin.y + (offsetY * i))]
+        [path addLineTo:CGPointMake(origin.x + userWidth, origin.y + (offsetY * i))]
+        var shape = [layer addPathShape:path]
+        [newShapes addObject:shape]
+    }
+    
+    [layer groupShapes:newShapes]
+}
+
+// create settings UI
+//
+var window
+var widthField
+var heightField
+var horizField
+var vertField
+
+function showSettingsDialog()
+{    
+    // create a window
+    window = [[NSWindow alloc] init]
+    [window setTitle:"Rectangular Grid"]
+    [window setFrame:NSMakeRect(0, 0, 212, 212) display:false]
+        
+    createTextLabel("Width:", NSMakeRect(18, 151, 80, 17))
+    createTextLabel("Height:", NSMakeRect(18, 126, 80, 17))
+    createTextLabel("Horizontal Lines:", NSMakeRect(10, 90, 120, 17))
+    createTextLabel("Vertical Lines:", NSMakeRect(10, 65, 120, 17))
+    
+    widthField = createValueField(NSMakeRect(102, 149, 96, 22))
+    widthField.floatValue = userWidth
+    [[widthField formatter] setPositiveSuffix:" px"];
+    [widthField setJSTargetFunction:"widthFieldAction"]
+    
+    heightField = createValueField(NSMakeRect(102, 124, 96, 22))
+    heightField.floatValue = userHeight
+    [[heightField formatter] setPositiveSuffix:" px"];
+    [heightField setJSTargetFunction:"heightFieldAction"]
+    
+    horizField = createValueField(NSMakeRect(134, 88, 64, 22))
+    horizField.floatValue = userHorizLines
+    [horizField setJSTargetFunction:"horizFieldAction"]
+    
+    vertField = createValueField(NSMakeRect(134, 63, 64, 22))
+    vertField.floatValue = userVertLines
+    [vertField setJSTargetFunction:"vertFieldAction"]
+    
+    widthField.nextKeyView = heightField
+        
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(122, 13, 82, 32)]
+    [okButton setTitle:"OK"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [okButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(40, 13, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:@"\033"]    // esc key
+    [cancelButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    [window setInitialFirstResponder:nil]
+    [NSApp runModalForWindow:window]
+}
+
+function okAction(sender)
+{
+    userClickedOK = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function createTextLabel(str, frame)
+{
+    var label = [[NSTextView alloc] initWithFrame:frame]
+    label.string = str
+    label.editable = false
+    label.selectable = false
+    label.font = [NSFont systemFontOfSize:13]
+    label.alignment = NSRightTextAlignment
+    label.backgroundColor = [NSColor clearColor]
+    [[window contentView] addSubview:label]
+    return [label autorelease]
+}
+
+function createValueField(frame)
+{
+    var valueField = [[NSTextField alloc] initWithFrame:frame]
+    valueField.editable = true
+    valueField.selectable = true
+    valueField.alignment = NSLeftTextAlignment
+    valueField.font = [NSFont systemFontOfSize:13]
+    valueField.focusRingType = NSFocusRingTypeNone
+    [valueField cell].sendsActionOnEndEditing = true
+    [[window contentView] addSubview:valueField]
+    
+    var formatter = [[NSNumberFormatter alloc] init]
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:"0.###"];
+    [formatter setLocale:[NSLocale systemLocale]];
+    [formatter setLenient:true]
+    valueField.formatter = formatter
+    
+    return [valueField autorelease]
+}
+
+function widthFieldAction()
+{
+    userWidth = [widthField floatValue]
+    userWidth = Math.max(1, Math.min(userWidth, 16000))
+	widthField.floatValue = userWidth
+}
+
+function heightFieldAction()
+{
+    userHeight = [heightField floatValue]
+    userHeight = Math.max(1, Math.min(userHeight, 16000))
+	heightField.floatValue = userHeight
+}
+
+function horizFieldAction()
+{
+    userHorizLines = [horizField integerValue]
+    userHorizLines = Math.max(0, Math.min(userHorizLines, 1000))
+	horizField.integerValue = userHorizLines
+}
+
+function vertFieldAction()
+{
+    userVertLines = [vertField integerValue]
+    userVertLines = Math.max(0, Math.min(userVertLines, 1000))
+	vertField.integerValue = userVertLines
+}

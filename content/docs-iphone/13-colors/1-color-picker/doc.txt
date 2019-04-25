@@ -1,0 +1,32 @@
+Title: Color Picker
+
+----
+
+Text: 
+
+# Color Picker
+
+Tap the _**Fill**_ color well from your _**Toolbar**_ to open the _**Color panel**_. Use the _**Color picker**_ to select a custom color. Colors can be selected using three different color picker interfaces: HSB sliders, RGB sliders and  Color Spectrum.
+
+(image: colorpicker1-iphone.jpg width: 750)
+
+1. **Tab Menu** - Easily navigate between the **Color** and (link: docs-iphone/gradients text: **Gradient**) panels. 
+It only shows up when you tap the **Fill** color well, as gradients can't be applied on a **Stroke**.
+
+2. **Color** - A simple thumbnail showing the current color. 
+
+3. **Interfaces** - Toggle between the three color picker interfaces: HSB sliders, RGB sliders and  Color Spectrum. The HSB and RGB sliders give you the possibility to choose a new color using their specific color codes. 
+
+ (image: colorpicker2-iphone.jpg width: 723)
+
+4. ** Color Palette** - Switch from one of the Color picker interfaces to the (link: docs-iphone/colors/color-palette text: _**Color palette**_).
+
+5. **Eyedropper Tool** - Use it to select a color by picking the color of any pixel on the screen. Tap it and you’ll get a cross icon surrounded by a circle where you can see the currently selected color which will allow you to easily pick the desired color.
+
+ (video: colorpicker3-iphone.mp4 width: 723)
+
+6. **Color Field** - Drag the circle inside the _**Color Field**_ to select the desired shade of the color. 
+
+7. **Color Bar** - Drag the slider or simply tap on the _**Color Bar**_ to select a hue. 
+
+8. **Alpha** - Drag the slider or use the input field to set the transparency of the color. Setting Alpha to 0% will make the color invisible.

@@ -1,0 +1,35 @@
+Title: Aligning Objects
+
+----
+
+Text: 
+
+# Aligning Objects
+
+Use the _**Align**_ commands from the _**Alignment pane**_ of the Properties panel to align the selected object’s positions relative to each other or to flip them. 
+
+Using one of the six commands you can align objects according to:
+
+(image: aligningobjects1.jpg  width: 750)
+
+**Bottom Edges** - Aligns selected objects to the bottom edge of the lowermost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Bottom** from the menu bar or you can simply right click on the canvas and go to **Align > Bottom**.
+
+**Top Edges** - Aligns selected objects to the top edge of the uppermost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Top** from the menu bar or you can simply right click on the canvas and go to **Align > Top**.
+
+**Left Edges** - Aligns selected objects to the left edge of the leftmost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Left** from the menu bar or you can simply right click on the canvas and go to **Align > Left**.
+
+**Right Edges** - Aligns selected objects to the right edge of the rightmost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Right** from the menu bar or you can simply right click on the canvas and go to **Align > Right**.
+
+**Horizontal Centers** - Aligns selected objects in a row according to the center of the uppermost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Middle** from the menu bar or you can simply right click on the canvas and go to **Align > Middle**.
+
+**Vertical Centers** - Aligns selected objects in a column according to the center of the leftmost selected object on your canvas. Alternatively, you can choose **Arrange > Align > Center** from the menu bar or you can simply right click on the canvas and go to **Align > Center**.
+
+(video: aligningobjects2.mp4  width: 750)
+
+### Flipping Objects
+
+Objects can be easily flipped using the _**Flip Horizontal**_ and _**Flip Vertical**_ commands from the _**Alignment pane**_ of the Properties panel. 
+
+Alternatively, you can choose **Modify > Rotate and Transform > Flip Horizontal/Vertical** from the menu bar.
+
+(video: aligningobjects3.mp4  width: 750)

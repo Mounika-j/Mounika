@@ -1,0 +1,36 @@
+Title: Create a Set of Flat Weather Icons
+
+----
+
+Description: Learn how to create a set of flat weather icons using path combinations...
+
+----
+
+Image: (image: Header.jpg title: Create a Set of Weather Icons class: header960)
+
+----
+
+Thumbnail: weathericonsthumbnail.jpg
+
+----
+
+Date: 2014-08-08
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**Graphic File:**
+(link: WeatherIcons.idraw text: WeatherIcons.idraw)
+
+----
+
+Graphicfile: weathericons.idraw
+
+----
+
+Headerimg: header.jpg

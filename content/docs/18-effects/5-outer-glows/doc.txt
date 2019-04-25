@@ -1,0 +1,19 @@
+Title: Outer Glows
+
+----
+
+Text: 
+
+# Outer Glows
+
+The _**Outer Glow**_ effect is used to add an outer glow effect and to adjust its color and blur. Changes are applied to the currently selected objects.
+
+Click any effect to get access to its properties.  As with the other attributes, multiple _**Outer Glow**_ effects can be added to an object.
+
+(image: outerglows1.jpg width:750)
+
+1. **Color** - Set the color of the effect and its transparency.
+
+2. **Blend** - Pick a blend mode for your outer glow from the twenty three options.
+
+3. **Size** - Set the amount of blur that should be added for this effect. A higher blur value will result in a larger and blurrier shadow.

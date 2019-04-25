@@ -1,0 +1,27 @@
+Title: Text on a Path
+
+----
+
+Text: 
+
+### Placing Text on Path
+
+To place a text on a path, select your text and the path on which you wish to place your text and simply go to **Modify > Place Text on Path**.
+
+(video: textonapath1.mp4 width: 750)
+
+### Adjusting Text on Path
+
+Use the round handle to move your text on the path. Text on a path is fully editable. Simply double-click it to change its content or its attributes. 
+
+(video: textonapath2.mp4 width: 750)
+
+Go to _**Modify > Reverse Path Direction**_ to quickly flip your text on the other side of the path. 
+
+(video: textonapath3.mp4 width: 750)
+
+### Releasing Text from Path
+
+Select your text on a path and go to _**Modify > Release Text from Path**_ to easily separate your text from the path.
+
+(video: textonapath4.mp4 width: 750)

@@ -1,0 +1,13 @@
+Title: Images
+
+----
+
+Text: 
+
+# Images
+
+Besides colors, gradients and patterns, objects can be filled with images. Even text objects can be filled with images. 
+
+(image: images1.jpg width:750)
+
+Images can be added, replaced or adjusted using the (link: docs/images/adjusting-images text: _**Fill pane**_) or the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel. Additionally, you can adjust the position and scale images using the (link: docs/images/image-tool text: _**Image tool**_).

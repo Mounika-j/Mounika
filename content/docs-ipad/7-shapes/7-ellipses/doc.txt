@@ -1,0 +1,13 @@
+Title: Ellipses
+
+----
+
+Text: 
+
+# Ellipses
+
+Choose the _**Ellipse tool**_ to create ellipses or circles. Tap and drag to create an ellipse.
+
+Tap and drag to begin drawing the ellipse, and then tap and hold with a second finger to turn the drawn shape into a circle.
+
+(video: ellipses1-ipad.mp4 width: 750)

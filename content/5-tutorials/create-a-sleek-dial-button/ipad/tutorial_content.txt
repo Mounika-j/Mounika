@@ -1,0 +1,314 @@
+Text: 
+
+In the following tutorial you will learn how to create a neat dial button in Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid, how to create a flat background and how to easily center it. Using several circles, linear gradients and a bunch of strokes and effects you will learn how to create your own dial button. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. From the **Documents Browser**, tap the plus button at the top-right corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** panel, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is enabled. The **Pixel-Align Strokes** feature ensures that all shapes which are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: dialButtoniPad1A.jpg)
+
+Next, you need to adjust your document's grid so switch to the **Grid &amp; Rulers** panel. Make that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. 
+
+Finally, open the **Grid Settings** pane. Enter **5 px** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: dialButtoniPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. 
+
+Tap the fill color wheel to open the color panel and replace the existing color with **R=240 G=238 B=238**. Next, tap  the line color wheel and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. Pick the **Rectangle Tool**, focus on your canvas and create a **600 px** square. 
+
+(image: dialButtoniPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected, focus on the right side of the **Titlebar** and tap the middle icon. Focus on the **Arrange** panel and simply tap the **Align Horizontal**  and **Align Vertical**  buttons to bring your square in the center of the canvas. 
+
+(image: dialButtoniPad3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar**, make sure that the line is still invisible and then set the fill color to **R=209 G=255 B=185**. 
+
+Using the **Ellipse Tool**, create a **170 px** circle and place it in the center of your canvas. 
+
+(image: dialButtoniPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your circle stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. 
+
+Move to the **Effects** panel and select the existing **Stroke**. Drag the **Width** slider to **2 pt**, select the **Inside** Alignment button and then  simply tap the color wheel that stands for this **Stroke**. Drag the **Alpha** slider to **50%** and make sure that the color is set at black (**R=0 G=0 B=0**). 
+
+Return to the **Effects** panel and tap the cogwheel icon that stands for your **Stroke**. Go to **Blend Mode**, select the **Soft Light** blend mode and then tap the **Done** button.
+
+(image: dialButtoniPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your circle is still selected, keep focusing on the **Effects** panel and add a second **Stroke** using the plus button located in the bottom, right corner of your panel. 
+
+Select this new **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your circle is still selected, keep focusing on the **Effects** panel and simply check the little box that stands for the existing **Inner Glow** effect to activate it. 
+
+Drag this effect  between your two **Strokes** and then enter the attributes shown in the following image. You can easily move  attributes inside the **Effects** panel using the button made out of  three horizontal lines that  comes with every attribute. Simply tap and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: dialButtoniPad7.jpg)
+
+
+
+##Step 8
+Return to your **Toolbar**, make sure that the line is still invisible and don't bother changing the fill color. 
+
+Using the **Ellipse Tool**, create a **160 px** circle and place it as shown in the following image. Make sure that this new circle stays selected, focus on the **Effects** pane and tap the color wheel that stands for the existing **Fill**. 
+
+Tap the **Gradient Fill** and the **Linear** buttons, set the **Angle** to **-90 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=156 G=156 B=153** and then select the right one and se its color to **R=246 G=246 B=243**. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=206 G=206 B=203** and drag it to the left until the **Location** tooltip shows **20%**. Add a fourth gradient slider, set its color to **R=226 G=226 B=223** and position it at **40%**. 
+
+(image: dialButtoniPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your newest circle stays selected and keep focusing on the **Effects** panel. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: dialButtoniPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a second **Stroke** using that same plus button. 
+
+Select this new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and activate the existing **Drop Shadow**. 
+
+Select this new effect, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a second **Drop Shadow**  using that same plus button. 
+
+Select this new effect, drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a third **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a fourth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a fifth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and add a sixth **Drop Shadow**. 
+
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and activate the existing  **Inner Shadow**.
+ 
+Select this new effect, drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest circle is still selected, keep focusing on the **Effects** panel and activate the existing  **Outer Glow**. 
+
+Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad18.jpg)
+
+
+
+##Step 19
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and don't bother  with the **Fill** color. 
+
+Using the **Ellipse Tool**, create a **150 px** circle and place it as shown in the following image. Make sure that this new shape stays selected, focus on the **Effects** panel, select that **Fill** and replace the existing color with the  linear gradient shown in the following image. 
+
+(image: dialButtoniPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest circle is still selected and keep focusing on the **Effects** panel. 
+
+Activate the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your newest circle is still selected and keep focusing on the **Effects** panel. 
+
+Activate the existing **Inner  Shadow**, drag it above the **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad21.jpg)
+
+
+
+##Step 22
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and ignore the **Fill** color. 
+
+Using the **Ellipse Tool**, create a **20 px** circle and place it as shown in the following image. Make sure that this tiny, new shape stays selected, focus on the **Effects** panel, select that **Fill** and replace the existing color with the  **Linear Gradient** shown in the following image. 
+
+(image: dialButtoniPad22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your tiny circle stays selected, focus on the **Effects** panel, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: dialButtoniPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny circle is still selected, keep focusing on the **Effects** panel and add a second **Stroke**. 
+
+Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** panel. 
+
+Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: dialButtoniPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** panel.
+ 
+Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: dialButtoniPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your tiny circle stays selected, keep focusing on the **Effects** panel and add a second **Inner Shadow**. 
+
+Select this new effect, drag it below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your tiny circle stays selected, keep focusing on the **Effects** panel and add a third **Inner Shadow**. 
+
+Select this new effect, drag it below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: dialButtoniPad28.jpg)
+
+
+
+##Step 29
+
+Finally, feel free to try a different border color for your dial button. 
+
+Simply select the largest circle (**170 px**), focus on the **Effects** panel and replace the existing **Fill** color with the one that you prefer. 
+
+(image: dialButtoniPad29.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: dialButtoniPad0.jpg)
+
+----
+
+Title: iPad

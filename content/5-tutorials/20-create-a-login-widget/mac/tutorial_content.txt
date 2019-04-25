@@ -1,0 +1,353 @@
+Text: 
+
+In the following tutorial you will learn how to create a login widget in  Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create two, tiny icons using basic vector shape building techniques along with the Snap to Grid feature. Moving on, you will learn to create the main shapes and how to stylize them using the Effects pane. 
+
+Finally, you will learn how to add some simple text and how to  stylize it. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **1**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: loginWidget1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=0 G=0 B=0** (black) and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your Tool Options bar and set the **Corner Radius** to **5 pt**. Move to your canvas and  create an **8 x 11 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+Switch to the **Rectangle Tool (M)**, create an **8 x 4 px** shape and place it exactly as shown in the second image. 
+
+(image: loginWidget2.jpg)
+
+
+
+##Step 3
+
+Using the **Move Tool (V)**, select both shapes made so far, go to the **Path Tools** pane from the **Properties** panel and click the **Subtract** button. In the end your resulting shape should look like in the second image. 
+
+(image: loginWidget3.jpg)
+
+
+
+##Step 4
+
+Make sure that the **Fill** color is still set to black and pick the **Ellipse Tool (O)**. Create a **4 px** circle and place it as shown in the first image. 
+
+Select both shapes made so far, go ot the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button.
+
+(image: loginWidget4.jpg)
+
+
+
+##Step 5
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, set the **Corner Radius** to **2 px** and create an **8 x 7 px** shape. Using the same tool, create a **4 x 8 px** shape and place it as shown in the second image. 
+
+Make sure that this second rounded rectangle stays selected and simply hit **Shift + X** to transfer the color properties from the **Fill** to the **Stroke**. Move to the **Stroke** pane from the **Appearance** panel and drag that **Line Weight** slider to **2 pt**.
+
+(image: loginWidget5.jpg)
+
+
+
+##Step 6
+
+Reselect the rounded rectangle with the stroke, focus on the **Path Tools** pane from the **Properties** panel and click the **Outline Stroke** button. 
+
+Select the resulting shape along with that tiny, rounded rectangle  and click the **Union** button from the **Path Tools** pane.
+
+(image: loginWidget6.jpg)
+
+
+
+##Step 7
+
+For the following steps  you will need a grid every **10 px**. Simply  return to the **Grid**  pane from the **Properties** panel and   enter **10 p**x in both  **Spacing** boxes. 
+
+Set the **Fill** color to **R=40 G=42 B=44** and pick the **Rounded Rectangle Tool (Shift + M)**. Set the **Corner Radius** to **5 pt** and then create a **200 px** rounded square. 
+(image: loginWidget7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded square stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel. 
+
+Simply check the box that stands for the existing **Drop Shadow** effect to activate it and then select it. Enter **1** in the **Y** box and **0** in the other two boxes and then click the color well that stands for this effects. Make sure that the color is set to black and drag the **Alpha** slider to **15%**. 
+
+(image: loginWidget8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effects using the plus button from the bottom, left corner of the panel. Select this new effect and enter the attributes shown below. 
+
+(image: loginWidget9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded square is still selected, focus on the **Effects** pane and add a third **Drop Shadow** using that same plus button. Select this new effect and enter the attributes shown in the following image. 
+
+(image: loginWidget10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded square is still selected, focus on the **Effects**  pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: loginWidget11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded square is still selected, focus on the **Effects** pane and select the **Stroke**. Drag the **Width** slide to **2 pt**, set the **Position** to **Inside** and the **Blend**  to **Soft Light** and then click the color well that stands for this **Stroke**. Replace the existing color with white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **50%**.
+
+(image: loginWidget12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded square is still selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: loginWidget13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded square is still selected, focus on the **Effects** pane and add a third **Stroke**. Drag it below the other active effects and then enter the attributes shown in the following image. 
+
+(image: loginWidget14.jpg)
+
+
+
+##Step 15
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and make sure that the **Corner Radius** is still set to **5 pt**. Create a **140 x 30 px** shape, set its **Fill** color to **R=29 G=32 B=34** and place it as shown in the following image. 
+
+(image: loginWidget15.jpg)
+
+
+
+##Step 16
+
+Reselect the rounded rectangle made in the previous step and make a copy in the same place (**Command + C &gt; Command + Shift + V**). Return to your Toolbar, make sure that the **Stroke** is still invisible and pick a random blue for the **Fill** color. 
+
+Pick  the **Rectangle Tool (M)**, create a **30 px** square and place it exactly as shown in the first image. Switch to the **Move Tool (V)** and select both shapes made in this step. Go to the **Path Tools** pane from the **Properties** panel and click the **Intersect** button. 
+
+Make sure that the resulting shape stays selected and focus on the **Effects** pane from the **Appearance** panel.  Lower the **Opacity** to **10%**, change the **Blend** to **Soft Light** and then click that **Fill** color well. Replace the existing color with black and drag the **Alpha** slider to **100%**.
+
+(image: loginWidget16.jpg)
+
+
+
+##Step 17
+
+Select your smaller, rounded rectangle and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget17.jpg)
+
+
+
+##Step 18
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** effect and enter the attributes shown in the following image.
+
+(image: loginWidget18.jpg)
+
+
+
+##Step 19
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Select the **Stroke**  and enter the attributes shown in the following image.
+
+(image: loginWidget19.jpg)
+
+
+
+##Step 20
+
+Make sure that your smaller, rounded rectangle is still selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below those active effects and then enter the attributes shown in the following image.
+
+(image: loginWidget20.jpg)
+
+
+
+##Step 21
+
+Using the **Move Tool (V)**, select your smaller, rounded rectangle along with the black, transparent shape and duplicate them (**Command + C &gt; Command &gt; V**). Select these two copies and place them as shown in the second image. 
+
+(image: loginWidget21.jpg)
+
+
+
+##Step 22
+
+For this step  you will need a grid every **1 px**. Return to the **Grid**  pane from **Properties** panel and simply  enter  **1** **px** in both  **Spacing** boxes. 
+
+Focus on the **Layers** pane, select the two, tiny icons made in the starting steps and simply hit **Shift + Command + ]** to bring them to front. 
+
+Select these shapes one by one and place them roughly as shown in the following image. Once you're done, select only the lock icon and focus on the **Effects** pane. Simply click the color well that stands for the **Fill** and drag the **Alpha** slider to **30%**. 
+
+(image: loginWidget22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your lock icon is still selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidget23.jpg)
+
+
+
+##Step 24
+
+Make sure that your lock icon is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidget24.jpg)
+
+
+
+##Step 25
+
+Make sure that your lock icon is still selected, right click anywhere on your canvas and go to **Copy Style**. Select the other tiny icon, right click again and this time go to **Paste Style**. 
+
+(image: loginWidget25.jpg)
+
+
+
+##Step 26
+
+Return to the **Grid**  pane and   enter **10 p**x in both  **Spacing** boxes. Focus on your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=254 G=145 B=79**.
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and be sure that the **Corner Radius** is still set to **5 pt**. Create a **140 x 30 px** shape and place it as shown in the following image. 
+
+(image: loginWidget26.jpg)
+
+
+
+##Step 27
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget27.jpg)
+
+
+
+##Step 28
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Add a second **Inner Shadow** and   enter the attributes shown in the following image.
+
+(image: loginWidget28.jpg)
+
+
+
+##Step 29
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: loginWidget29.jpg)
+
+
+
+##Step 30
+
+Make sure that your orange shape stays selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the active effects and then enter the attributes shown in the following image.
+
+(image: loginWidget30.jpg)
+
+
+
+##Step 31
+
+Make sure that your orange shape stays selected and focus on the **Effects** pane. Activate the existing **Drop  Shadow**, drag it below the effects and then enter the attributes shown in the following image.
+
+(image: loginWidget31.jpg)
+
+
+
+##Step 32
+
+For the final step  you will need a grid every **1 px**, so return to the **Grid**  pane and simply  enter **1 px** in both  **Spacing** boxes. Pick the **Text Tool (T)**, simply click on your canvas and focus on the **Text** pane from the **Appearance** panel. 
+
+ Select the **DIN Alternate**  font, make it **Bold** and set the size to **8 pt**. Simply add the &quot;_Forgot Username or Password?_&quot; piece of text, set its color to **R=29 G=32 B=34** and then place your text about as shown in the following image. 
+
+(image: loginWidget32.jpg)
+
+
+
+##Step 33
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Activate the existing **Inner   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget33.jpg)
+
+
+
+##Step 34
+
+Make sure that your piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget34.jpg)
+
+
+
+##Step 35
+
+Reselect the **Text Tool (T)**, click on your canvas and return to the **Text** pane. Select the **DIN Alternate**  font, make it **Bold** and then set the size to **10 pt** and the Spacing to **4**. Add the &quot;_LOGIN_&quot; piece of text, set its color to **R=40 G=42 B=44** and  place it roughly as shown in the following image. 
+
+(image: loginWidget35.jpg)
+
+
+
+##Step 36
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget36.jpg)
+
+
+
+##Step 37
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and focus on the **Effects** pane. Activate the existing **Inner   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidget37.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+ 
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: loginWidget0.jpg)
+
+----
+
+Title: Mac

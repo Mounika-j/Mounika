@@ -1,0 +1,27 @@
+Title: Moving Objects
+
+----
+
+Text: 
+
+# Moving Objects
+
+Choose the _**Move tool**_ to select and move objects or groups. Objects can be moved by clicking on them and dragging to a new position. 
+
+To constrain movement to a single direction, hold down the **Shift ⇧** key while dragging.
+
+(video: movingobjects1.mp4 width: 750)
+
+Objects can be moved numerically using the settings in the _**Tool Options bar**_ or the _**Position**_ settings from the _**Geometry pane**_ of the Properties panel. 
+
+(video: movingobjects2.mp4 width: 750)
+
+If the object has no fill or if (link: docs/canvas/view-modes#outline-mode text: _**Outline mode**_) is enabled, moving it is done by dragging its contour.
+
+#### Nudging Objects
+
+Selected objects can be nudged slightly in any direction by using the arrows keys. 
+
+Push the right arrow button to move your selection _1 px_ to the right. Holding the **Shift ⇧** key will move your selection _10 px_ to the right.
+
+(video: movingobjects3.mp4 width: 750)

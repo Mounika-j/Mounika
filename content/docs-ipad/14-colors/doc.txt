@@ -1,0 +1,20 @@
+Title: Colors
+
+----
+
+Text: 
+
+# Colors
+
+Colors can be used to stylize the _**Fill**_, _**Stroke**_ or _**Effect**_ attributes of any object.  
+Each object in Graphic is composed of one or more vector paths. Object paths are drawn by drawing the stroke around the path (Line) and drawing the area inside of the path (Fill). 
+
+The _**Fill**_ and _**Line**_ color wells in the _**Toolbar**_ can be used to set the current fill and stroke colors. Drawing tools will use these colors when creating new objects.
+
+When objects are selected, the fill and stroke color wells update to the colors used by those objects. Changing the fill or stroke colors while objects are selected will change the objects’ colors.
+
+(video: colors1-ipad.mp4 width: 750)
+
+To disable the color of an object’s stroke or fill, you can set the color to _'**none**'_ (the bottom-right swatch with the diagonal grey bar) from the (link: docs-ipad/colors/color-palette text: _**Color palette**_). 
+
+Aside from the _**Fill**_ and _**Line**_ color wells from the _**Toolbar**_, color wells appear throughout Graphic’s interface which can be used to set the color for a specific setting, from grid line colors to the document’s background color.

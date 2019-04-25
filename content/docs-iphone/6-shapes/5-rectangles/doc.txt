@@ -1,0 +1,13 @@
+Title: Rectangles
+
+----
+
+Text: 
+
+# Rectangles
+
+Choose the _**Rectangle tool**_ to create rectangles or squares. Tap and drag to create a rectangle. 
+
+Tap and drag to begin drawing the rectangle, and then tap and hold with a second finger to turn the drawn rectangle into a square. 
+
+(video: rectangles1-iphone.mp4 width: 750)

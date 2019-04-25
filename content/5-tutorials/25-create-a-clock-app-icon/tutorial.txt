@@ -1,0 +1,21 @@
+Title: Create a Clock App Icon
+
+----
+
+Date: 2018-01-16
+
+----
+
+Graphicfile: clockappicon.idraw
+
+----
+
+Description: Learn how to create a clock app icon using shapes and effects...
+
+----
+
+Headerimg: clockappiconheader.jpg
+
+----
+
+Thumbnail: clockappiconthumbnail2.jpg

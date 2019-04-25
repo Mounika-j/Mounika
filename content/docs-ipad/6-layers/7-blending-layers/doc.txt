@@ -1,0 +1,24 @@
+Title: Blending Layers
+
+----
+
+Text: 
+
+#Blending Layers
+
+The _**Opacity**_ and _**Blending Mode**_ settings of a layer affect how it will blend with the layers underneath it. Change the settings of the currently selected layer using the options from the bottom of the _**Layers**_ panel.
+
+(video: blendinglayers1-ipad.mp4 width: 750)
+
+###Blending Modes
+
+Examples showing the result of applying each available _**Blending Mode**_ setting.
+
+(image: blendinglayers2-ipad.jpg width: 750)
+(image: blendinglayers3-ipad.jpg width: 750)
+(image: blendinglayers4-ipad.jpg width: 750)
+(image: blendinglayers5-ipad.jpg width: 750)
+(image: blendinglayers6-ipad.jpg width: 750)
+(image: blendinglayers7-ipad.jpg width: 750)
+(image: blendinglayers8-ipad.jpg width: 750)
+(image: blendinglayers9-ipad.jpg width: 750)

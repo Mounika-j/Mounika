@@ -1,0 +1,17 @@
+Title: Pattern Tool
+
+----
+
+Text: 
+
+# Pattern Tool
+
+The _**Pattern tool**_ can be used to scale and position a pattern fill inside of a shape’s bounds.
+
+Choose the _**Move tool**_ and double click on an object with a pattern fill to activate the _**Pattern Tool**_. The _**Pattern Tool**_ will display as the selected tool in the _**Tool Options bar**_. 
+
+The pattern can be scaled using the _**Pattern Scale**_ slider or positioned within the shape’s bounds by dragging. 
+
+(video: patterntool1.mp4  width: 750)
+
+To reset the pattern’s size and position to the defaults, click _**Reset**_ in the _**Tool Options bar**_.

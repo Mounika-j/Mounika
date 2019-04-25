@@ -1,0 +1,13 @@
+Title: Expanding Text
+
+----
+
+Text: 
+
+# Expanding Text
+
+Choose _**Modify > Convert Text to Outlines**_ with a text object selected to convert it to vector paths. This will allow you to edit each individual glyph, and edit the paths and points that make up the text.
+
+Same result can be achieved using the _**Convert Text to Outlines**_ button located in the _**Text pane**_ from the Appearance panel.
+
+(video: expandingtext1.mp4 width: 750)

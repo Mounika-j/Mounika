@@ -1,0 +1,21 @@
+Title: Preferences
+
+----
+
+Text: 
+
+# Preferences
+
+The _**Preferences panel**_ can be used to adjust a few settings to customize your workflow. To access the panel go to **Graphic > Preferences...** [**⌘** - **,**].
+
+(image: preferences1.jpg width:750)
+
+1. **Color Picker** - Pick the type of your color picker between: _**Color Popup**_ and _**Standard Color Panel**_.
+
+2. **Selection Color** - The color used for drawing selected points, paths, and the bounding box around selected objects can be changed using this setting. To change the color back to default click the **Reset** button.
+
+3. **Align Strokes to Pixel Grid** - When this setting is enabled, stroked objects are offset slightly to ensure that the drawn stroke is aligned to the pixel grid. Pixel-alignment ensures that a 1 pt stroke line positioned on exact integer coordinates will be drawn as a crisp 1 pixel line. This feature is typically useful for designs that are intended for image export, but may not always be the desired behavior.  To make the effect of this feature more noticeable enable the _**Show Pixels**_ view mode. 
+
+ (image: preferences2.jpg width:723)
+
+ The Align Stroke to Pixel Grid feature  is a per-document setting and changes are only applied to the current document.

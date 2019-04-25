@@ -1,0 +1,13 @@
+Title: Images
+
+----
+
+Text: 
+
+# Images
+
+Besides colors, gradients and patterns, objects can be filled with images. Even text objects can be filled with images.
+
+(image: images1-ipad.jpg width: 750)
+
+Images can be added, removed or edited using the (link: docs-ipad/images/adding-images text: _**Image pane**_) from the Appearance panel. Additionally, you can adjust the position and scale images using the (link: docs-ipad/images/image-tool text: _**Image tool**_).

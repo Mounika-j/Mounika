@@ -1,0 +1,25 @@
+Title: Selecting Objects
+
+----
+
+Text: 
+
+# Selecting Objects
+
+Choose the _**Move tool**_ to select and move objects or groups of objects.
+Select an object by tapping on it. If the object has no fill or if (link: http://www.graphic.com/docs-ipad/preferences#outline-mode text: _**Outline mode**_) is enabled, selecting it is done by tapping on its border.
+
+(video: selectingobjects1-ipad.mp4 width: 750)
+
+#{#boundingbox}
+#### The Bounding Box
+
+The box that appears around the currently selected objects is called a bounding box. Aside from showing the bounds of the selection, it also allows you to quickly transform the selected objects. You can either (link: docs-ipad/adjusting-objects/scaling-objects#scale text: _**resize**_) or (link: docs-ipad/adjusting-objects/rotating-objects#rotate text: _**rotate**_) your selection.
+
+To select multiple objects, simply tap on an empty part of the canvas and then drag to create a selection marquee. Objects touched by the selection marquee will become selected.
+
+(video: selectingobjects2-ipad.mp4 width: 750)
+
+To instead select only the shapes that are inside the selection marquee, tap and hold with a second and third finger on the canvas while dragging the selection area with the first.
+
+(video: selectingobjects3-ipad.mp4 width: 750)

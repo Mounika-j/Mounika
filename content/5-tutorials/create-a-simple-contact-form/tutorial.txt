@@ -1,0 +1,21 @@
+Title: Create a Simple Contact Form
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: contactform.idraw
+
+----
+
+Description: Learn how to create a simple contact form using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

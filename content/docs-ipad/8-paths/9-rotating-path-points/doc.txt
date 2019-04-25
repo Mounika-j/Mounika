@@ -1,0 +1,25 @@
+Title: Rotating Path Points
+
+----
+
+Text: 
+
+# Rotating Path Points
+
+Choose the _**Rotate tool**_ to rotate path points around a reference point.
+
+To rotate one or more path points, first select the path points using the _**Path Selection tool**_. With the _**Rotate tool**_ active, tap and drag anywhere on the canvas to rotate the path points clockwise or counterclockwise.
+
+Tap and drag to begin rotating the selected point, and then tap and hold with a second finger to constrain the rotation to 15˚ increments.
+
+(video: rotatingpathpoints1-ipad.mp4  width: 750)
+
+Path points can also be rotated numerically using the _**Tool pane**_ settings. Set a rotation angle in the field and tap _**Rotate**_ to apply the rotation.
+
+(video: rotatingpathpoints2-ipad.mp4  width: 750)
+
+By default, the reference point will be located in the center of the selected object. To use a different location for the reference point, drag it or simply tap (without dragging) to set it at that new location.
+
+(video: rotatingpathpoints3-ipad.mp4  width: 750)
+
+> Tip: When (link: docs-ipad/canvas/snapping text: _**Snap to Grid**_) is enabled, tapping to move the reference point will snap it to the grid.

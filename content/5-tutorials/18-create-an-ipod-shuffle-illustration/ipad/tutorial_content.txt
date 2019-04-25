@@ -1,0 +1,302 @@
+Text: 
+
+In the following tutorial you will learn how to create an iPod Shuffle illustration in  Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid, how to create the main shape and how to deal with complex gradients. Taking full advantage of the Effects pane and using some basic blending techniques, you will learn how to add subtle shading and highlights for your shapes. 
+
+Finally, taking full advantage of the Snap to Grid feature you will learn how to create the tiny symbols.
+  
+  
+  
+  
+  
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: iPodNanoiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **10 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: iPodNanoiPad1B.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to black (**R=0 G=0 B=0**) and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to **2**. Move to yor canvas and simply create a **140 x 135 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: iPodNanoiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the right side of the Titlebar and  tap the leftmost icon. Move to the **Effects** pane and tap the **Fill** color well. Tap the **Gradient Fill** and the **Linear** buttons, set the **Angle** to **0 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=131 G=133 B=132** and then select the right one and add the same color. 
+
+(image: iPodNanoiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected and keep your eyes on the **Effects** pane. Keep focusing on the linear gradient applied to that  **Fill** and simply tap on that gradient bar to add a new gradient slider. Select it, set the color to **R=226 G=226 B=227** and then drag it to the left until the **Location** tooltip shows **3%**. Using the same technique, add a fourth gradient slider for your gradient. Select it, set the same color (**R=226 G=226 B=227**) and drag it to **98%**.
+
+(image: iPodNanoiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected and keep your eyes on the **Effects** pane. Keep focusing on the linear gradient applied to that **Fill**, add four new gradient sliders and then use the color and the location attributes shown in the following image. 
+
+(image: iPodNanoiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Fill** using the plus button that lies in the bottom, right corner of the pane. Tap on this new fill's right side handle and drag  it below the one that already exists. 
+
+Once you're done, tap the color well that stands for your new **Fill**. Tap the **Gradient Fill** and the **Linear Gradient** buttons, set the **Angle** to **-90 degrees** and then  move to the gradient sliders. Select the left one, set its color to black and drag the **Alpha** slider to **10%** and then select the right one, set its color to white and drag the **Alpha** slider to **0%**. Return to the **Effects** pane and tap the cogwheel icon that stands for your new **Fill**. Tap **Blend Mode**, select  **Color Burn** from that list and then tap that **Done** button. 
+
+(image: iPodNanoiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Fill** using that same plus button. 
+
+Make sure that this new **Fill** lies below the other two and then tap its color well. Again, tap the **Gradient Fill** and then **Linear** button. Set the **Angle** to **-90 degrees** and then  move to the gradient sliders. Select the left one, move it to **50%**, set the color to white and drag the **Alpha** slider to **0%**. Move to the right gradient slider, select it, set the color to white and drag that **Alpha** slider to **30%**. Return to the **Effects** pane and tap the cogwheel icon that stands for this new **Fill**. Tap **Blend Mode** from the newly opened context menu,  select  **Soft Light** from that list, and then tap that **Done** button. 
+
+(image: iPodNanoiPad7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** pane and simply check the  box that stands for the existing **Inner  Shadow** to actiavte it.  Enter **1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then  tap  the color well that stands for this effect. Drag the **Alpha** slider to **30%** and set the color to white. 
+
+(image: iPodNanoiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** pane and add a second **Inner  Shadow** using that same plus button. Make sure that this new effect lies below the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad9.jpg)
+
+
+
+##Step 10
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=37 G=38 B=38**. Pick the **Ellipse Tool**, create a **110 px** circle and place it as shown int he first image. Tap and hold with a second finger while dragging to create a perfect circle much easier. 
+
+Replace the existing **Fill** color with a random red and make sure that the **Ellipse Tool** is still active. Create a **70 px** circle and place it as shown in the second image. Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Select both circles made in this step, focus on the right side of your Titlebar and tap that middle icon. Move to  the **Combine** pane and simply tap that **Subtract** button. In the end your new shape should look like in the fourth image. 
+
+(image: iPodNanoiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your dark shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your dark shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad12.jpg)
+
+
+
+##Step 13
+
+Using the **Ellipse Tool**, create a **70 px** circle and place it as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Tap the  **Fill** color well and apply the linear gradient shown in the following image. 
+
+(image: iPodNanoiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your circle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad14.jpg)
+
+
+
+##Step 15
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter  **1 px** in both **Spacing** boxes. 
+
+Pick the **Rounded Rectangle Tool**, focus on the  **Tool Options** pane and set the **Radius** to **1**. Create a **14 x 4 px** shape and place it as shown in the first image. Make sure that this new rounded rectangle stays selected and move to the **Effects** pane. Tap the color well that stands for the existing **Fill** and apply the linear gradient shown in the following image. 
+
+(image: iPodNanoiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your tiny, rounded rectangle stays selected and focus on the **Effects** pane. Activate the  **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your tiny, rounded rectangle is still selected and focus on the **Arrange** pane. Simply drag that **Order** slider to the left and your shape will be sent in the back, behind the other shapes. 
+
+With your tiny, rounded rectangle still selected, focus on the left side of your Titlebar and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and the **Paste** commands to make a copy of your shape. Select the newly made copy, place it as shown in the second image and don't forget to send it in the back.
+
+(image: iPodNanoiPad17.jpg)
+
+
+
+##Step 18
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=37 G=38 B=38**.
+
+Pick the **Rectangle Tool** and create an **8 px** square. Focus on the right side of this dark shape and switch to the **Path Selection Tool**. Select the top anchor point and simply remove it using the **X** button from the left side of your Titlebar and then select the bottom anchor point and  drag it **4 px** up. In the end your dark rectangle should turn into a simply triangle.
+(image: iPodNanoiPad18.jpg)
+
+
+
+##Step 19
+
+Using the **Rectangle Tool**, create two, **3 x 8 px** shapes and place them exactly as shown int he first image. Select these two rectangles along with the triangle made in the previous step, focus on the **Combine** pane and tap that **Make Compound Path** button.
+
+(image: iPodNanoiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your compound path stays selected and place it roughly as shown int the following image. Focus on the **Effects** pane, activate the **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad20.jpg)
+
+
+
+##Step 21
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=218 G=220 B=219**. Pick the **Rectangle Tool** and create an **8 x 2 px** shape. 
+
+Duplicate your new rectangle using the same **Copy** and **Paste** commands from that **Edit** pane. Select the copy and place it as shown in the first image. Make sure that your copy stays selected, pick the **Rotate Tool** and focus on the newly opened **Tool Options** pane. Set the **Angle** to **90 degrees** and then tap that **Copy** button. Select the newly made rectangle along with the original one, focus on the **Combine **  pane and tap that **Union** button. 
+
+(image: iPodNanoiPad21.jpg)
+
+
+
+##Step 22
+
+Using  the **Rectangle Tool**, create a **5 x 6 px** shape. Focus on the left side of this new shape and switch to the **Path Selection Tool**. Select the top anchor point and  remove it using the **X** button  and then select the other anchor point and  drag it **3 px** up. 
+
+Make sure that the resulting triangle is selected and return to that **Edit** pane. Simply tap the **Copy** and the **Paste in Place** commands to add a copy of your selection in the same place. Select this copy and  drag it **5 px** to the left or to the right as shown in the third image. 
+
+(image: iPodNanoiPad22.jpg)
+
+
+
+##Step 23
+
+
+Using the **Rectangle Tool**, create a **2 x 6 px** shape and place it as shown in the first image. Select it along with the two triangles, go to the **Combine**  pane and tap that **Make Compound Path** button. 
+
+Make  sure that your new compound path is selected and pick the **Rotate Tool** . Focus on the **Tool Options** pane, set the **Angle** to **180 degrees** and then  tap that **Copy** button. Select the newly made compound path and drag it several pixels to the right about as shown in the third image.  
+
+(image: iPodNanoiPad23.jpg)
+
+
+
+##Step 24
+
+Select the grey buttons made in the last three steps and place them roughly as shown in the following image. 
+
+(image: iPodNanoiPad24.jpg)
+
+
+
+##Step 25
+
+Focus on the right side of your Titlebar and simply tap the rightmost icon to open the **Layers** panel. Tap on the name of the existing layer and  rename it &quot;_iPod_&quot;. Keep focusing on the **Layers** panel and  tap the plus icon from the top, right corner to add a second layer. Make sure that this new layer stays selected, rename it &quot;_Background_&quot;, and then tap and hold on its thumbnail to drag it below your &quot;_iPod_&quot; layer.
+
+Return to your canvas and pick  the **Rectangle Tool**. Create a **600 px** square, make sure that it stays selected and move to the **Effects** pane. Tap the color well that stands for the  **Fill** and then tap the **Gradient Fill** and the **Radial** buttons. Set the **Angle** to **0 degrees** and then move the gradient sliders and apply the colors  shown in the following image. 
+
+Make sure that your square is still selected and go to the **Arrange** pane. Simply tap the **Align Horizontal** and the **Align Vertical** buttons which will bring your square in the center of the canvas. 
+
+(image: iPodNanoiPad25.jpg)
+
+
+
+##Step 26
+
+Return to the **Layers** pane and reselect your &quot;_iPod_&quot; layer. Tap that cogwheel icon from the bottom of the layer and then tap the **Duplicate Layer** command. Select the newly added layer copy, rename it &quot;_Shadow_&quot; and move it between the existing  layers. 
+
+Using the **Move Tool**, select all the shapes from your &quot;_Shadow_&quot; layer. Go to the **Combine**  pane and simply tap that **Union** button. Select the resulting shape and focus on the **Effects** pane. Make sure that the the are no active effects or strokes and then tap that **Fill** color well. Set the color  to **R=218 G=220 B=219** and be sure that the **Alpha** slider is set to **100%**.
+
+(image: iPodNanoiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that the shape from your &quot;_Shadow_&quot; layer stays selected and focus on the **Effects** pane. Activate the  **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a second **Drop Shadow** using that same plus button. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your grey shape stays selected and focus on the **Effect**s pane. Activate the **Outer Glow** and enter the attributes shown in the following image. 
+
+(image: iPodNanoiPad31.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: iPodNanoiPad0.jpg)
+
+----
+
+Title: iPad

@@ -1,0 +1,389 @@
+Text: 
+
+In the following tutorial you will learn how to create a pretty simple calendar widget in Graphic in Mac. 
+
+For starters you will learn how to create a new document and how to set up a simple grid. Using the Rounded Rectangle Tool  and the Rotate Tool, you will learn how to create the main shapes. Taking full advantage of the Effects pane, you will learn how to add shading and sleek highlights for your shapes. 
+
+Moving on, you will learn  some neat stroke tricks and how to ease your work with scripts. Finally, you will learn how to add and stylize text in  Graphic. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600 x 600 pixels**.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can click on that  ruler icon. Change the grid **X Spacing** and **Y Spacing** to **5 px**, set the **Subdivisions** to **0 px**, and enable **Snap to Grid (Command + Shift + ')**.
+
+(image: calendarWidget1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, click on the **Fill** color well and set the  color to **R=2 G=53 B=83**. Next, click on the **Stroke** color well and drag the **Alpha** slider to **0%**, this will simply make the stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and  drag that **Corner Radius** slider to **10 pt**. Move to your canvas and create a **220 x 225 px** shape.
+ 
+(image: calendarWidget2.jpg)
+
+
+
+##Step 3
+
+Make sure that the **Rounded Rectangle Tool (Shift + M)** is still active, return to your **Tool Options** bar and drag the **Corner Radius** slider to **5 pt**. 
+
+Move to your canvas, create a **50 x 50 px** shape and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature should ease your work. 
+
+(image: calendarWidget3.jpg)
+
+
+
+##Step 4
+
+Using that same **Rounded Rectangle Tool (Shift + M)**, create a **40 x 40 px** shape and place it exactly as shown in the first image (the color attributes are not very important).
+
+ Using the **Move Tool (V)** and the **Shift** key, select the shape made in this step along with the one made in the previous step. Focus on the **Path Tools** pane from the **Properties** panel and simply click that **Subtract** command. In the end your new shape should look like in the second image. 
+
+(image: calendarWidget4.jpg)
+
+
+
+##Step 5
+
+Make sure that the shape made in the previous step is still selected and pick the **Rotate Tool (R)**. Focus on the **Tool Options** bar, set the **Angle** to **45 degrees** and  click the **Rotate** button. In the end things should look like in the second image. 
+
+(image: calendarWidget5.jpg)
+
+
+
+##Step 6
+
+Using the **Move Tool (V)**, select both shapes made so far. Return to the **Path Tools** pane from the **Properties** panel and  click the **Union** command. 
+
+(image: calendarWidget6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape stays selected and focus on the **Effects** pane from the **Appearance** panel — click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want.
+
+Click the existing **Stroke** to expand it and drag the **Width** slider to **1 pt**. Select **Inside** from the **Position** drop-down menu and then simply click the color of your **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with **R=3 G=43 B=67**.
+
+(image: calendarWidget7.jpg)
+
+
+
+##Step 8
+Make sure that your shape is still selected and keep focusing on the **Effects** pane. Add a second **Stroke** using the plus button located in the bottom, left corner of your pane. 
+
+Select this new **Stroke** and  apply the attributes shown in the following image. 
+
+(image: calendarWidget8.jpg)
+
+
+
+##Step 9
+
+Make sure that your shape is still selected and keep focusing on the **Effects** pane. Check the  checkbox of the existing **Inner Shadow** effect to activate it. Click its right side handle to drag it right below the **Fill** and then expand it. 
+
+Enter **0 pt** in the **X** box and **2 pt** in the **Y** box and drag the **Size** slider to **0 pt**. Set the **Blend Mode** to **Soft Light** and then click the color well of this effect. Drag the **Alpha** slider to **30%** and replace the existing color with white (**R=255 G=255 B=255**).
+
+(image: calendarWidget9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** effect using that same plus button. 
+
+Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: calendarWidget10.jpg)
+
+
+
+##Step 11
+
+Get back to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to **R=245 G=245 B=245**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and be sure that the **Corner Radius** is still set to **5 pt**. Move to your canvas, create a **210 x 210 px** shape and place it as shown in the following image. 
+
+(image: calendarWidget11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is selected and focus on the **Effects** pane. Select the existing **Stroke** and apply the attributes shown in the following image. 
+
+(image: calendarWidget12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarWidget13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is selected and keep focusing on the **Effects** pane. Right click on the existing **Drop Shadow** effect and simply go to **Duplicate**. 
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidget14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect.
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidget15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect.
+
+Select the newly added effect and then replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidget16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane duplicate the bottom **Drop Shadow** effect.
+
+Select the newly added effect and  replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidget17.jpg)
+
+
+
+##Step 18
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow** effect.
+
+Select the newly added effect and then replace the existing attributes with the ones shown in the following image. 
+
+(image: calendarWidget18.jpg)
+
+
+
+##Step 19
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarWidget19.jpg)
+
+
+
+##Step 20
+
+For this step you will need the **Create Rectangular Grid** plugin that can be downloaded [here](https://graphic.com/plugins/). Return to Graphic and go to **File &gt; Plugin &gt; Manage Plug-ins**. Copy your **Create Rectangular Grid** plugin inside this newly opened folder and then close it. 
+
+Get back to your Graphic file and this time go to **File &gt; Plugin &gt; Create Rectangular Grid**. Enter **4** in the **Horizontal Lines** box and **6** in the **Vertical Lines** box, set the **Width** to **210** and the **Height** to **150 px**, and then click **OK**. 
+
+Make sure that this new group of paths stays selected, place it exactly as shown in the following image, and then focus on the **Effects** pane. Click the color well of the existing **Fill** and simply drag the **Alpha** slider to **0%**.
+
+(image: calendarWidget20.jpg)
+
+
+
+##Step 21
+
+Make sure that the grid made in the previous step is still selected and simply hit **Command + G** to **Ungroup** it. Hold the **Shift** key and use the **Move Tool (V)** to select the four paths that make up the outer edges of your grid. Simply remove them using the **Delete** (or **Backspace**) key.
+
+Select the remaining paths that make up your grid and focus on the **Effects** pane. Select the existing **Stroke** and drag the **Width** slider to **2 pt**. 
+
+(image: calendarWidget21.jpg)
+
+
+
+##Step 22
+
+Make sure that your horizontal and vertical paths are still selected and go to the **Path Tools** pane from the **Properties** panel. First, click the **Outline Stroke** command and then click that **Union** command. 
+
+Make sure that your resulting shape stays selected, focus on the **Effects** pane and simply replace the existing **Fill** color with **R=235 G=235 B=235**.
+
+(image: calendarWidget22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that the shape made in the previous step stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and simply enter the attributes shown in the following image. 
+
+(image: calendarWidget23.jpg)
+
+
+
+##Step 24
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect and simply enter the attributes shown in the following image. 
+
+(image: calendarWidget24.jpg)
+
+
+
+##Step 25
+
+Get back to your **Toolbar**, make sure that the **Stroke** is invisible and set the **Fill** color to **R=82 G=143 B=188**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, be sure that **Corner Radius** is set to **5 pt** and   move to your canvas. 
+
+Create a **210 x 90 px** shape and place it as shown in the following image. Switch to the **Rectangle Tool (M)**, create a **210 x 30 px** shape and place it exactly as shown in the second image.  
+
+(image: calendarWidget25.jpg)
+
+
+
+##Step 26
+
+Reselect the two shapes made in the previous step, focus on the **Path Tools** pane and click the **Subtract** command. In the end your blue shape should look like in the following image. 
+
+(image: calendarWidget26.jpg)
+
+
+
+##Step 27
+
+Make sure that your blue shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the properties shown in the following image. 
+
+(image: calendarWidget27.jpg)
+
+
+
+##Step 28
+
+Make sure that your blue shape is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidget28.jpg)
+
+
+
+##Step 29
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and  set the **Fill** color to **R=82 G=143 B=188**. 
+
+Using the **Rectangle Tool (M)**, create a **210 x 30 px** shape and place it exactly as shown in the following image. Make sure that this blue rectangle stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: calendarWidget29.jpg)
+
+
+
+##Step 30
+
+Make sure that your blue rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidget30.jpg)
+
+
+
+##Step 31
+
+Make sure that your blue rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect,  drag it above the **Drop Shadow** effects, and then enter the attributes shown in the following image. 
+
+(image: calendarWidget31.jpg)
+
+
+
+##Step 32
+
+Make sure that your blue rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner  Shadow** effect. Select this new effect and  enter the attributes shown in the following image. 
+(image: calendarWidget32.jpg)
+
+
+
+##Step 33
+
+
+Get back to your **Toolbar** and  this time make the **Fill** invisible and change set **Stroke** color to white. You will also need a grid every **1 px**. This simply means that you have to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Pick the **Pen Tool (P)** or the **Line Tool (L)** and focus on the top, left corner of your blue shape. Create an **8 px**, vertical path and place it roughly as shown in the following image. Make sure that this path stays selected and move to the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **2 pt** and then check the **Round Cap** and the **Round Join** buttons. 
+
+(image: calendarWidget33.jpg)
+
+
+
+##Step 34
+
+Make sure that your vertical, white path stays selected and select the **Pen Tool (P)**. Focus on the **Tool Options** bar and activate the **Add Points** mode. Return to your path and simply click in the middle to add a new anchor point. 
+
+Switch to the **Path Selection Tool (A)**, select that new anchor point and  drag it **4 px** to the left. In the end things should look like in the second image. 
+
+(image: calendarWidget34.jpg)
+
+
+
+##Step 35
+
+Make sure that your white path stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: calendarWidget35.jpg)
+
+
+
+##Step 36
+
+Make sure that your white path stays selected and pick the **Rotate Tool (R)**. Focus on the **Tool Options** bar, set the **Angle** to **180 degrees** and click that **Copy** button. This will create a horizontally flipped copy of your white path. Select this copy, drag it to the right and try   to place it roughly as shown in the third image. 
+
+(image: calendarWidget36.jpg)
+
+
+
+##Step 37
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Select the **Arial Rounded MT Bold** font,  set the **Size** to **10 pt** and the **Text Alignment** to **Centered**. Also change the text color to white and then click on your canvas. Add the &quot;_October_&quot; piece of text and place it as shown in the following image. 
+
+Make sure that your  piece of text stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: calendarWidget37.jpg)
+
+
+
+##Step 38
+
+Using  the **Type Tool (T)**, add the &quot;_Mo_&quot; piece of text and place it about as shown in the following image. 
+
+Select  your &quot;_October_&quot; piece of text, right click anywhere on your canvas (or **Control + Click**) and go to **Copy Style**. Reselect your &quot;_Mo_&quot; piece of text, right click again and this time go to **Paste Style**. This basically swaps the **Effects** attributes from the &quot;_October_&quot; piece of text to the &quot;_Mo_&quot; piece of text.
+Use the same tools and techniques to add the other six short day names. 
+
+(image: calendarWidget38.jpg)
+
+
+
+##Step 39
+
+Finally, using the same font attributes, add the  day numbers. Spread them as shown in the following image and use the  colors shown below. 
+
+(image: calendarWidget39.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: calendarWidget0.jpg)
+
+----
+
+Title: Mac

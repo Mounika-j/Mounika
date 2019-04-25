@@ -1,0 +1,23 @@
+Title: Converting Path Points
+
+----
+
+Text: 
+
+# Converting Path Points
+
+Choose the _**Convert Anchor tool**_ to convert path points to either smooth points (anchor points with direction handles) or corners (anchor points without direction handles).
+
+To convert a corner point to a smooth point, simply click on the point with the _**Convert Anchor tool**_ and drag to create direction handles around the point.
+
+(video: convertingpathpoints1.mp4 width: 750)
+
+To convert a smooth point to a corner point, simply click on the point with the _**Convert Anchor tool**_ to remove the direction handles.
+
+(video: convertingpathpoints2.mp4 width: 750)
+
+You can also adjust the curvature of the path around a smooth point by dragging its direction handles separately.
+
+(video: convertingpathpoints3.mp4 width: 750)
+
+> Tip: Use the **Shift - C** keyboard shortcut to quickly select the **Convert Anchor tool**.

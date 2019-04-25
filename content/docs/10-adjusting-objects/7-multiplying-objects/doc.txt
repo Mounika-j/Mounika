@@ -1,0 +1,31 @@
+Title: Multiplying Objects
+
+----
+
+Text: 
+
+# Multiplying Objects
+
+You can quickly duplicate objects or groups using the classic **Copy** and **Paste** commands. 
+
+Choose **Edit > Copy** [**⌘** - **C**] from the menu bar to easily copy a selected object/group or **Edit > Cut** [**⌘** - **X**] to cut it.
+
+Choose **Edit > Paste** [**⌘** - **V**] from the menu bar to add the copy of your object/group in the center of the  workspace view or **Edit > Paste in Place** [**⇧** - **⌘** - **X**] to paste the object/group in its exact previous position. 
+
+You can also use the _**Move Tool**_ to duplicate an object or a group. Hold down the **Option ⌥** key and simply drag your selected object to duplicate it.
+
+(video: multiplyingobjects1.mp4 width:750)
+
+### Smart Duplicate
+
+Choose **Edit > Duplicate** [**⌘** - **D**] from the menu bar to easily duplicate a selected object/group. Alternatively, you can use this command to instantly apply multiple move, rotate, scale, and shear transformations to each duplicated object. 
+
+Select an object/group, hold down the **Option ⌥** key and simply drag your selection to duplicate it. Keep this new shape selected and simply hit the **⌘** - **D** keyboard shortcut to quickly repeat the duplicate and move commands you just performed.
+
+(video: multiplyingobjects2.mp4 width:750)
+
+Select an object/group, hold down the **Option ⌥** key and simply drag your selection to duplicate it. Keep this copy selected and place it above the original object/group, and then pick the _**Rotate Tool**_ and place the reference point wherever you wish. Rotate your selection manually and then hit the **⌘** - **D** keyboard shortcut to quickly add new copies around that reference point using the same angle of rotation.
+
+(video: multiplyingobjects3.mp4 width:750)
+
+Don't forget that the rule is to first duplicate the object by dragging while holding down the **Option ⌥** key, and you shouldn't deselect the object between operations. You can scale, rotate and slant your copy, and then hit **⌘** - **D** to repeat all commands from duplicating to slanting included.

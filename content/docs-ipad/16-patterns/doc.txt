@@ -1,0 +1,15 @@
+Title: Patterns
+
+----
+
+Text: 
+
+# Patterns
+
+Patterns consist of a tile repeated horizontally, vertically or at an angle. Patterns can be used to stylize the _**Fill**_ of any object, even text.
+
+Use the _**Pattern panel**_ to customize any type of pattern or to apply a pre-made pattern from the (link: docs-ipad/patterns/pattern-palette text: _**Pattern palette**_). Alternatively, you can use the _**Fill pane**_ or the (link: docs-ipad/effects text: _**Effects pane**_) from the Appearance panel.
+
+(image: patterns1-ipad.jpg width: 750)
+
+Additionally, you can adjust the position and scale of your pattern using the (link: docs-ipad/patterns/pattern-tool text: _**Pattern tool**_).

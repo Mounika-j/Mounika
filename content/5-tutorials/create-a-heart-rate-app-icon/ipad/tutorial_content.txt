@@ -1,0 +1,210 @@
+Text: 
+
+In the following tutorial you will learn how to create a heart rate app icon in Picta Graphic for iPad. 
+
+For starters, you will learn how to set up a simple grid and how to create a pixel perfect heart shape using basic vector shape building techniques. Taking full advantage of the Effects pane, you will learn how to stylize your heart shape. Using a rounded rectangle and some subtle shading, you will learn how to create the frame of your icon. Finally, you will learn how to create a flat background for your icon. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** and the **Height** to **680 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: HeartRateAppIconiPad1A.jpg)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: HeartRateAppIconiPad1B.jpg)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and tap the **Line** color well. Drag the **Alpha** slider to **0%** to simply make your **Line** invisible. Tap the **Fill** color well and replace the existing color with **R=243 G=76 B=73**. 
+
+Pick the **Ellipse tool**, focus on your canvas and create a **140 x 170  px** shape. 
+
+(image: HeartRateAppIconiPad2.jpg)
+
+
+
+##Step 3
+
+Pick the **Move tool**, select your shape and tap that ruler icon from the Titlebar to open the **Geometry** panel.
+
+Focus on the **Position** settings, set the **X** value to **270 px** and the **Y** value to **235 px**. This will numerically move your selected shape as shown in the following image. 
+
+(image: HeartRateAppIconiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that your shape stays selected, pick the **Path Selection tool** and activate the **Convert mode** from the **Tool pane**. Simply tap the top and bottom anchor points to convert those smooth points into corner points. 
+
+(image: HeartRateAppIconiPad4.jpg)
+
+
+
+##Step 5
+
+Keep focusing on your shape and make sure that the **Path Selection tool** is still active. Switch back to the **Select mode** from the **Tool pane**. 
+
+Select the top anchor point and drag it **85 px** down. The grid and the Snap to Grid feature will come in handy. 
+
+(image: HeartRateAppIconiPad5.jpg)
+
+
+
+##Step 6
+
+Tap the **Fill** color well from your **Toolbar** and replace the existing color with a random yellow. 
+
+Pick the **Ellipse tool**  and create two, **70 px** circles. Place these new shapes as shown in the following images. Once again, the grid and the Snap to Grid feature will help.
+
+(image: HeartRateAppIconiPad6.jpg)
+
+
+
+##Step 7
+
+Pick the **Move tool**  and select the three shapes made so far. Tap the middle icon from your **Titlebar**, switch to the **Combine** pane and tap the **Union** command.
+
+ The resulting object will be your heart shape and it should look like in the second image. Select it and tap the paperclip icon from the **Titlebar** to open the **Edit** pane. Simply tap the **Copy** command to copy your selected object. You'll need a copy of this shape a few steps later. 
+ 
+(image: HeartRateAppIconiPad7.jpg)
+
+
+
+##Step 8
+
+Make sure that your heart shape is still selected, tap the leftmost icon from your **Titlebar** and switch to the **Effects** pane.
+
+Set the stroke color to **R=254 G=254 B=254** and drag the  **Width** slider to **25 pt**. Set the **Alignment** to **Outside** and don't forget to check that **Round Join** button.
+
+(image: HeartRateAppIconiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your heart shape stays selected and keep focusing on the **Effects** pane.
+
+Check the round checkbox of the existing **Inner Glow** effect to activate it. Drag the **Blur** slider to **20**  and then tap the color well of this effect. Change the color to **R=242 G=242 B=247** and be sure that the **Alpha** slider is set to **100%**. 
+
+(image: HeartRateAppIconiPad9.jpg)
+
+
+
+##Step 10
+
+Open the **Edit** pane and tap the **Paste in Place** command to add a copy of your heart shape in the same place. Select it and focus on the **Effects** pane. 
+
+Set the stroke color to **R=242 G=76 B=73** and drag the  **Width** slider to **20 pt**. Set the **Alignment** to **Center** and don't forget to check that **Round Join** button.
+
+(image: HeartRateAppIconiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that the heart shape added in the previous step stays selected and focus on the **Effects** pane.
+
+Activate the existing **Drop Shadow** effect and select it. Set the  **X Offset** value to **0 pt** and the **Y Offset**  value to **10 pt**, drag the **Blur** slider to **20**, and then tap the color well of this effect. Change the color to **R=243 G=77 B=74** and drag that **Alpha** slider to **50%**. 
+
+(image: HeartRateAppIconiPad11.jpg)
+
+
+
+##Step 12
+
+Pick the **Pen tool** and draw a jagged path as shown in the following image. Make sure that the **Fill** color is set to none and then focus on the **Effects** pane.
+
+Set the stroke color to **R=254 G=254 B=254** and drag the  **Width**  slider to **10 pt**. Set the **Alignment** to **Center** and don't forget to check that **Round Join** button.
+
+(image: HeartRateAppIconiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your jagged path stays selected and focus on the **Effects** pane.
+
+Activate the existing **Drop Shadow** effect and select it. Set the **X Offset** value to **0 pt** and the **Y Offset** value to **5 pt**. Drag the **Blur** slider to **10** and then tap the color well of this effect. Change the color to black (**R=0 G=0 B=0**) and drag that **Alpha** slider to **50%**. Return the the **Effects** pane and tap the settings button of this effect. Tap the **Blend Mode** command, select **Soft Light** from that list, and then tap **Done**. 
+
+(image: HeartRateAppIconiPad13.jpg)
+
+
+
+##Step 14
+
+Open the **Layers** panel using the rightmost icon from your **Titlebar**. Double-tap on the layer&rsquo;s name field and rename it &quot;_Heart_&quot;. Tap that **Add** (**+**) button from the top of the panel to add a second layer and select it. Rename it &quot;_Frame_&quot; and drag it below your &quot;_Heart_&quot; layer. Make sure that this &quot;_Frame_&quot; layer stays selected, as the new shapes you are about to create will go here.
+
+(image: HeartRateAppIconiPad14A.jpg)
+
+For this step you will need a grid every **1 px**. This simply means that you need to return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **1 px** for both **Spacing** boxes. 
+
+Pick the **Rounded Rectangle tool**, focus on the **Tool pane**  and set the  **Radius** to **55**. Move to your canvas and create a **256 px** square with rounded corners. Tap and hold with a second finger while dragging to easily create a square with rounded corners. 
+
+Fill this new shape with **R=254 G=254 B=254**, make sure that it stays selected and open the **Arrange** pane. Simply tap the **Distribute Horizontally** and **Distribute Vertically** commands to move your selection in the center of the canvas. 
+
+(image: HeartRateAppIconiPad14B.jpg)
+
+
+##Step 15
+
+Return to the **Grid &amp; Rulers** pane, open the **Grid Settings** pane and enter **5 px** for both **Spacing** boxes. 
+
+Pick the **Rounded Rectangle tool** and set the **Radius** to **70**. Create a **190 x 180 px** shape and place it as shown in the following image. Make sure that it stays selected and go to the **Effects** pane.
+
+Tap the color well of the existing **Fill** and replace the color with a **Linear Gradient**. Set the **Angle** to **90 degrees** and then focus on the gradient sliders. Select the left gradient slider, set the color to **R=243 G=77 B=74** and keep the **Alpha** slider at **100%**. Select the right gradient slider, set the color to **R=243 G=77 B=74** and drag the **Alpha** slider to **0%**. 
+
+(image: HeartRateAppIconiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your gradient filled shape stays selected and keep focusing on the **Effects** pane. Activate the **Blur** effect and drag the **Blur** slider to **25**. 
+
+(image: HeartRateAppIconiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your gradient filled shape is still selected, open the **Arrange** pane and drag that **Order** slider to the left end. This will send your selection to back, behind the existing shapes. 
+
+(image: HeartRateAppIconiPad17.jpg)
+
+
+
+##Step 18
+
+Pick the **Rectangle tool** and create a **680 px** square. Fill this new shape with **R=242 G=242 B=247**, make sure that it covers your entire canvas, and then send it to back.
+
+(image: HeartRateAppIconiPad18.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: HeartRateAppIconiPad0.jpg)
+(image: HeartRateAppIconiPad0B.jpg)
+
+----
+
+Title: iPad

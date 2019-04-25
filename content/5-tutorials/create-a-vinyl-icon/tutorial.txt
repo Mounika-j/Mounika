@@ -1,0 +1,21 @@
+Title: Create a Vinyl Icon
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: vinylicon-x-3.idraw
+
+----
+
+Description: Learn how to create a vinyl icon using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

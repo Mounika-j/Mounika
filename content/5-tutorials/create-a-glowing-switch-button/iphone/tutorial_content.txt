@@ -1,0 +1,282 @@
+Text: 
+
+In the following tutorial you will learn how to create a glowing switch button in Graphic for iPhone. 
+
+For starters you will learn how to create a new document and how to setup a simple grid. Using basic tools like the Rectangle and the Rounded Rectangle Tool, you will learn how to create the background  and the main buttons shapes. Taking full advantage of the Effects pane, you will learn how to add vibrant colors, subtle shading and some glow for your button pieces. 
+
+Finally, you'll learn how to add some simple pieces of text and how to easily stylize them. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: glowingSwitchButtoniPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. 
+
+(image: glowingSwitchButtoniPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane, enter **10 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: glowingSwitchButtoniPhone1C.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white and the stroke color is set to black. Simply tap on the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Move to the fill color and tap it. Tap the **Gradient**  button and then **Radial** icon, set the angle to **0 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=3 G=54 B=84** and then select the right one and set its color to **R=0 G=11 B=18**. Pick the **Rectangle  Tool**, focus on your canvas and create a **600 px** square, the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: glowingSwitchButtoniPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected and simply double tap on it to get that gradient slider. Select the right gradient slider and drag it to the right roughly as shown in the following image. 
+
+(image: glowingSwitchButtoniPhone3.jpg)
+
+
+
+##Step 4
+
+Focus on your Toolbar, select the fill color and replace the existing gradient with  **R=2 G=36 B=54**. Grab the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the **Radius** slider to **25**. Move to your canvas, create a **200 x 50 px** shape and place it roughly as shown in the following image. 
+
+(image: glowingSwitchButtoniPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Go to the **Effects** pane and simply check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Set the color to white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **30%**. Return to the **Effects** pane and simply tap the cogwheel icon that stands for your **Drop  Shadow** effect. Go to **Blend Mode** and select  **Soft Light** from that list. 
+
+(image: glowingSwitchButtoniPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangles stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**  using the plus button located in the top, right corner of the pane. Select your new effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow** effect  and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Glow** effect  and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone9.jpg)
+
+
+
+##Step 10
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** pane and enter **1 px** in both  **Spacing** boxes.  
+
+Reselect the **Rounded Rectangle Tool**, focus on the Titlebar and make sure that the  **Radius** is still set to **25**. Create a **100 x 46 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+Make sure that this new shape stays selected and focus on the **Effects** pane. Tap the fill color, select **Gradient Fill** and **Linear**, set the angle to **-90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=1 G=68 B=105** and then select the right one and se its color to **R=41 G=108 B=146**. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=31 G=98 B=136** and drag it to the left until the **Location** tooltip shows **20%**. 
+
+Add another three  sliders for this gradient and use the color and the location attributes shown in the following image. In the end things should look like in the following image. This new rounded rectangle will be your button. 
+
+(image: glowingSwitchButtoniPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your button shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your button shape stays selected and keep focusing on the**Effects** pane. Simply tap the cogwheel icon that stands for the existing **Drop Shadow** effect and go to **Duplicate**. Select the newly added **Drop Shadow** effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your button shape stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your button shape stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your button shape stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your button shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your button shape stays selected, keep focusing on the **Effects** pane and duplicate the existing **Inner Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your button shape stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner  Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButtoniPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your button shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your button shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone20.jpg)
+
+
+
+##Step 21
+
+Using  the **Rectangle Tool**, create a **12 x 15 px** shape, set the fill color to **R=50 G=118 B=155** and place it roughly as shown in the following image. Keep focusing on this new shape, make sure that it stays selected and grab the **Pen Tool**. Focus on the newly opened tool pane and activate the **Add Points** mode. Get back to your rectangle and simply add two anchor points as shown in the second image. 
+
+(image: glowingSwitchButtoniPhone21.jpg)
+
+
+
+##Step 22
+
+Focus on your tiny rectangle and grab the **Path Selection Tool**. Select the top, left anchor point and drag it **7 px** to the right and then select the bottom, right anchor point and drat it **8 px** to the left. In the end your shape should look like in the second image. Using that same tool, select the top, right anchor point and drag it **5 px** down and **6 px** to the left and then select the bottom, left anchor point and drag it **5 px** up and **6 px** to the right. In the your shape should look like in the third image. 
+
+(image: glowingSwitchButtoniPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your tiny bolt shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny bolt shape stays selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow** effect. Select the newly added effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny bolt shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny bolt shape stays selected, keep focusing on the **Effects** pane and duplicate the existing **Inner  Shadow** effect. Select the newly added effect and enter the attributes shown in the following image. In the end things should look like in the second image. 
+
+(image: glowingSwitchButtoniPhone26.jpg)
+
+
+
+##Step 27
+
+Grab  the **Text Tool** and simply  double tap inside that newly added field. Set the color to **R=2 G=36 B=54**, select the **Ubuntu Mono Bold** font and set the font size to **15** and then add the &quot;_ON_&quot; piece of text. Using the **Move Tool**, select this little piece of text and place it to the right side of your button as shown in the following image. 
+
+Tap again that **Text Tool** and  add the &quot;_OFF_&quot; piece of text. Select this second piece of text and place it as shown in the following image.
+
+(image: glowingSwitchButtoniPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that both pieces of text are selected  and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that both pieces of text are still selected, keep focusing on the **Effects** pane and duplicate the existing **Drop Shadow** effect. Select this newly added effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButtoniPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that both pieces of text are still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect, enter the attributes shown in the following image and you're done. 
+
+(image: glowingSwitchButtoniPhone30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: glowingSwitchButtoniPhone0.jpg)
+
+----
+
+Title: iPhone

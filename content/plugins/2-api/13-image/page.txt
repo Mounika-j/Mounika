@@ -1,0 +1,127 @@
+Title: Image
+
+----
+
+Text: 
+
+An image object. New images can be imported using a **Document's** [**addImage:**](document#addImage) function. The image object's **CGImage** accessors can be used to access the underlying image data.
+&nbsp;
+Multiple image objects can reference the same underlying document image data, but also have differing **opacity** and **cropRect** settings. This allows several shapes to use the same underlying image fill.
+&nbsp;
+_Settings_
+- (link: plugins/api/image#cropRect text: **cropRect**)
+- (link: plugins/api/image#opacity text: **opacity**)
+
+_Image Representations_
+- (link: plugins/api/image#CGImage text: **CGImage**)
+- (link: plugins/api/image#thumbnailCGImageToFitSize text: **thumbnailCGImageToFitSize:**)
+
+_Creating Copies_
+- (link: plugins/api/image#duplicate text: **duplicate**)
+
+<a name="cropRect"></a>
+## cropRect
+### _returns CGRect_; _settable_
+
+Gets / Sets the crop rectangle of the image. This property specifies the placement and scale of the image within its parent shape. The default crop rect is _{ 0, 0, 1, 1 }_.
+&nbsp;
+#### Example: scale and center the image fill of the frontmost selected shape
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+var img = [[shape fill] image]
+
+if(img)
+	img.cropRect = CGRectMake(-0.5, -0.5, 2, 2)
+
+```
+<a name="CGImage"></a>
+## CGImage
+### _returns **CGImage**_
+
+Gets a CGImage representation of the underlying image data.
+&nbsp;
+#### Example: create a new document and path shape using the frontmost selected shape's image fill
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+var img = [[shape fill] image]
+
+if(img)
+{
+	var cgImage = [img CGImage]
+	var size = CGSizeMake(CGImageGetWidth(cgImage), CGImageGetHeight(cgImage))
+	var doc = [app addDocument]
+	var newImg = [doc addImage:cgImage]
+
+	// create a new path with the image bounds
+	var path = [doc addPath]
+	[path addMoveTo:CGPointMake(0, 0)]
+	[path addLineTo:CGPointMake(size.width, 0)]
+	[path addLineTo:CGPointMake(size.width, size.height)]
+	[path addLineTo:CGPointMake(0, size.height)]
+	[path addClose]
+
+	// create a new path shape and set the image fill 
+	var shape = [[doc activeLayer] addPathShape:path]
+	[shape fill].image = newImg
+	[shape stroke].width = 0
+}
+
+```
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: plugins/api/image text: **Image**)_
+
+Creates and returns a duplicate of this image object, referencing the same underlying document image data. The duplicate image object can be applied as another shape's fill and have different cropRect and opacity settings.
+
+<a name="opacity"></a>
+## opacity
+### _returns **Float**_; _settable_
+
+Gets / Sets the opacity of the image. The opacity value is between 0 and 1.
+&nbsp;
+#### Example: set the image fill of the frontmost selected shape to 50% opacity
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+var img = [[shape fill] image]
+
+if(img)
+	img.opacity = 0.50
+
+```
+<a name="thumbnailCGImageToFitSize"></a>
+## thumbnailCGImageToFitSize:
+### _returns **Float**_; _input CGSize_
+
+Gets / Sets the opacity of the image. The opacity value is between 0 and 1.
+&nbsp;
+#### Example: create a new document and shape using a thumbnail of the frontmost selected shape's image fill
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+var img = [[shape fill] image]
+
+if(img)
+{
+	var size = CGSizeMake(128, 128)
+	var cgImage = [img thumbnailCGImageToFitSize:size]
+	var doc = [app addDocument]
+	var newImg = [doc addImage:cgImage]
+
+	// create a new path with the image bounds
+	var path = [doc addPath]
+	[path addMoveTo:CGPointMake(0, 0)]
+	[path addLineTo:CGPointMake(size.width, 0)]
+	[path addLineTo:CGPointMake(size.width, size.height)]
+	[path addLineTo:CGPointMake(0, size.height)]
+	[path addClose]
+
+	// create a new path shape and set the image fill 
+	var shape = [[doc activeLayer] addPathShape:path]
+	[shape fill].image = newImg
+	[shape stroke].width = 0
+}
+
+```

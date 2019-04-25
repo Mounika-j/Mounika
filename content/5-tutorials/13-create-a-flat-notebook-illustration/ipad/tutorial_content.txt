@@ -1,0 +1,298 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat notebook illustration in  Graphic for iPad. 
+
+For starters, you will learn how to setup a simple grid and how to create the main, pixel perfect shapes using the Snap to Grid feature along with some basic tools and vector shape building techniques. Taking full advantage of the Effects pane, you will learn how  to add subtle shading and highlights for your shapes. 
+
+Finally, you'll learn how to to easily align shapes and paths to the pixel grid and how to work with layers. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled, for now. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: flatNotebookiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: flatNotebookiPad1B.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=65 G=84 B=115** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to **5**. Move to yor canvas and simply create a **155 x 195 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: flatNotebookiPad2.jpg)
+
+
+
+##Step 3
+
+Set the **Fill** color to black (**R=0 G=0 B=0**) and pick the **Rectangle Tool**. Create a **5 x 195 px**  shape and place it exactly as shown in the first image. 
+
+Using the **Move Tool**, select this new rectangle along with that rounded rectangle and focus on the right side of the Titlebar. Simply tap that middle icon, go to the **Combine** pane and tap the **Subtract** button. 
+
+(image: flatNotebookiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that your shape stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Go to the **Effects** pane and simply tap  the existing **Stroke**. Set the **Width** to **1 pt**, tap the **Inside Alignment** button  and then tap  the color well that stands for your **Stroke**. Replace the existing color with **R=59 G=79 B=110** and make sure that the **Alpha** slider is set to **100%**. 
+
+(image: flatNotebookiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then click the color well that stands for this effect. Replace the existing color with  **R=45 G=65 B=95** and make sure that the **Alpha** slider is set to **100%**. 
+
+(image: flatNotebookiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button from the bottom, right corner of the pane. 
+
+Select this new effect, enter **2** in the **Y** box and **0** in the other two boxes and then click the color well. Set it to **R=34 G=54 B=85** and drag the **Alpha** slider to **15%**. 
+
+(image: flatNotebookiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow** using that same plus button. Select it and enter the attributes shown in the following image.
+ 
+(image: flatNotebookiPad7.jpg)
+
+
+
+##Step 8
+Using the **Rectangle Tool**, create a **145 x 185 px** shape and place it as shown in the following image. Make sure that it stays selected and focus on the **Effects**  pane. 
+
+Tap the color well that stands for the **Fill** and then tap the **Gradient Fill** and the **Linear** buttons. Set the angle to **0 degrees** and then  move to the gradient sliders. Tap the left one and set its color to **R=245 G=245 B=242** and then tap the right one and set its color to **R=235 G=235 B=232**. 
+
+Return to the **Effects** pane, tap the cogweel icon that stands for one of those inactive effects and then go to **Remove**. This will simply delete your effect. Use the same technique to delete the rest of those inactive effects. It' not something that will change the look of your shape, but it will help you organise the effects to come.
+
+(image: flatNotebookiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a **Drop Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add an **Inner Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a fifth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a sixth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad17.jpg)
+
+
+
+##Step 18
+
+Move to your **Toolbar**, set the **Fill** color to **R=65 G=85 B=115** and make sure that the **Line** is invisible. Pick the **Rounded Rectangle Tool** and set the  **Radius**  to **1**.
+
+ Focus on the top, right corner of the existing shapes, create a **5 px** rounded square and place it as shown in the first image. Make sure that this tiny shape stays selected, focus on the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and **Paste** commands to duplicate your selection. Using the **Move Tool**, select the newly made copy and place it as shown in the second image. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+ 
+Create a bunch of new copies and arrange them in a perfectly aligned column as shown in the second image. Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. This mode will allow you to easily select or add new shapes to an existing selection. 
+
+Move to your canvas, select all the rounded squares made in this step, go to the **Combine** pane and tap the **Make Compound Path** button. This will turn your selected shapes into a simple compound path that can be selected and moved much easier. 
+
+(image: flatNotebookiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your compound path is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your compound path is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad20.jpg)
+
+
+
+##Step 21
+
+Using the **Pen Tool** or the **Line Tool**, create a **110 px**, horizontal path and place it as shown in the following image. Tap and hold with a second finger while dragging to create a perfect line. 
+
+Make sure that this new path stays selected and focus on the **Effect** pane. Be sure that there is no color set for the **Fill** and then select the **Stroke**. Drag the **Width** slider to **1 pt** and set the color to **R=31 G=120 B=181**.
+
+(image: flatNotebookiPad21.jpg)
+
+
+
+##Step 22
+
+Now, if you choose to export your design as an image you will notice that your horizontal line looks pretty blurred. This  simply happens because the stroke applies to that line is not perfectly aligned to the pixels grid.  To fix this issue, just go back to the **Canvas** pane and enable that **Pixel-Align Strokes** feature. Nothing will change inside your Graphic document, but you'll be able to notice the difference when you export your design as an image. 
+
+(image: flatNotebookiPad22.jpg)
+
+
+
+##Step 23
+
+Duplicate your horizontal path and drag the copy **10 px** down.  Keep multiplying this path, make fifteen new copies and place them in a perfectly aligned column as shown in the first image. Make sure that you're always leaving a **10 px** gap between these paths. 
+
+Once you're done, reselect the **Path Selection Tool** and activate that **Add to Selection** mode. Select all your horizontal paths, focus on the **Combine** pane and tap the **Make Compound Path** button.  Make sure that this new compound path is selected, go to the **Appearance** pane and drag that **Opacity** slider to **30%**. 
+
+(image: flatNotebookiPad23.jpg)
+
+
+
+##Step 24
+
+
+Using the **Pen Tool** or the **Line Tool**, create a **170 px**, vertical path and place it as shown in the following image. Make sure that this path stays selected and focus on the **Appearance** pane. Drag the **Opacity** slider to **50%**, make sure that there is no color set for the **Fill** and then focus on the **Stroke**. Set the **Width** to **1 pt** and  the color to **R=255 G=85 B=84**.
+
+(image: flatNotebookiPad24.jpg)
+
+
+
+##Step 25
+
+Select all the shapes made so far, go to the **Arrange** pane and tap that **Group** button. Grouping these shapes will make it a lot easier for you to select and move them at once. 
+
+Make sure that your group is still selected, switch to the **Rotate Tool** and focus on that newly opened **Tool Options** pane. Set the **Angle** to **180 degrees** and then tap that **Copy** button. This will simply create a horizontally flipped copy of your group. 
+
+(image: flatNotebookiPad25.jpg)
+
+
+
+##Step 26
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid and Rulers** pane,  open that  **Grid Settings** pane and enter **1 px** in both **Spacing** boxes. Make sure that only your flipped group is selected and drag it to the right as shown in the following image. Tap and hold with a second finger while dragging to easily move your selection on only one axis (horizontally or vertically). Leave a **3 px** gap between your two groups - once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+With your flipped group still selected, go to the **Arrange** pane and this time tap the **Ungroup** button. Keep focusing on these shapes, select only that gradient filled rectangle and go to the **Effects** pane. Select the existing **Inner Shadow** effects one by one and  simply inverse the  **X Offset** attributes.
+
+(image: flatNotebookiPad26.jpg)
+
+
+
+##Step 27
+
+Go to your **Toolbar**, make sure that the **Line** is invisible and set the **Fill** color to **R=169 G=198 B=217**. 
+
+Using the **Rectangle Tool**, create a **600 px** square and make sure that it covers your entire canvas. Go to the **Arrange** pane and drag the **Order** slider to the left to send your square in the back.
+
+(image: flatNotebookiPad27.jpg)
+
+
+
+##Step 28
+
+Go to your **Toolbar**, make sure that the **Line** is still invisible and set the **Fill** color to **R=45 G=45 B=50**. 
+
+Focus on your top rounded squares and pick the **Rounded Rectangle Tool**. Create a **21 x 1 px** shape and place it as shown in the first image. Duplicate this thin , rounded rectangle, select the copy and place it **2 px** below the original one. Pick the **Path Selection Tool**, make sure that the **Add to Selection** mode is active, seelct both shapes made in this step and simply turn them into a new compound path. 
+
+Select this new compound path, make a copy and place it **10 px** below the original one. Create a bunch of new copies and place them in a perfectly aligned column as shown in the third image. Once you're done, reselect the **Path Selection Tool** and be sure that the **Add to Selection** mode is still active. Select all compound paths made in this step and turn them into one compound path. 
+
+(image: flatNotebookiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that the compound path made in the previous step is still selected and focus on the **Effects** pane. Activate the  **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: flatNotebookiPad29.jpg)
+
+
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: flatNotebookiPad0.jpg)
+
+----
+
+Title: iPad

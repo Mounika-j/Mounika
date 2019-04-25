@@ -1,0 +1,369 @@
+Text: 
+
+In the following tutorial you will learn how to create a login widget in  Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to create two, tiny icons using basic vector shape building techniques along with the Snap to Grid feature. Moving on, you will learn to create the main shapes and how to stylize them using the Effects pane. 
+
+Finally, you will learn how to add some simple text and how to  stylize it. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: loginWidgetiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+(image: loginWidgetiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: loginWidgetiPhone1C.jpg)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to black (**R=0 G=0 B=0**) and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **5**. Move to yor canvas and simply create an **8 x 11 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: loginWidgetiPhone2A.jpg)
+
+Return to your Toolbar and replace the existing **Fill** color with **R=135 G=0 B=2**. Pick the **Rectangle Tool**, create an **8 x 4 px** shape and place it exactly as shown in the following image. 
+
+(image: loginWidgetiPhone2B.jpg)
+
+
+
+
+##Step 3
+
+Using the **Move Tool**, selct both shapes made so far, open the **Combine** pane from the **Properties** panel and tap that **Subtract** button. 
+
+(image: loginWidgetiPhone3.jpg)
+
+
+
+##Step 4
+
+Return to your Toolbar, set the **Fill** color to black and pick the **Ellipse Tool**. Create a **4 px** circle and place it as shown in the first image. 
+
+Select both shapes made so far, return to the **Combine** pane and tap the **Make**  button.
+
+(image: loginWidgetiPhone4.jpg)
+
+
+
+##Step 5
+
+Pick the **Rounded Rectangle Tool**, set the  **Radius** to **2**  and create an **8 x 7 px** shape. 
+
+(image: loginWidgetiPhone5A.jpg)
+
+Using the same tool, create a **4 x 8 px** shape and place it as shown in the following image. Make sure that this new rounded rectangle stays selected, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. 
+
+Go to the **Effects** pane, tap the **Fill** color well and drag them **Alpha** slider to **0%**. Move to the **Stroke**, drag that **Width** slider to **2 pt** and then tap the color well that stands for your **Stroke**. Make sure that the color is set to black and drag the **Alpha** slider to **100%**.
+
+(image: loginWidgetiPhone5B.jpg)
+
+
+
+##Step 6
+
+Reselect the rounded rectangle with the stroke and open the **Properties** panel. Go to the **Path Tools** pane  and tap the **Outline Stroke** command. 
+
+Select the resulting shape along with the  rounded rectangle that lies behind it and tap the **Union** button from  the **Combine** pane.
+
+(image: loginWidgetiPhone6.jpg)
+
+
+
+##Step 7
+
+Focus on the right side of your titlebar and simply tap the rightmost icon to open the **Layers** pane. First, tap the eye icon that stands for the existing layer to make it invisible. Next, tap that plus button from the bottom of the panel to add a new layer. Select it and drag it below your invisible layer. 
+
+(image: loginWidgetiPhone7A.jpg)
+
+Make sure that your new layer stays selected and close the **Layers** pane. For the following steps  you will need a grid every **1 px**. This simply means that you need to return to the **Grid** pane from the **Properties** panel, open that **Grid Settings** pane and enter **10 px** in both **Spacing** boxes. 
+
+Set the **Fill** color to **R=40 G=42 B=44** and pick the **Rounded Rectangle Tool**. Set the  **Radius** to **5** and then create a **200 px** rounded square. 
+
+(image: loginWidgetiPhone7B.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded square stays selected and open the **Effects** pane from the **Appearance** panel. Simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+ Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Set the color  to **R=0 G=0 B=0** and drag the **Alpha** slider to **15%**. 
+ 
+(image: loginWidgetiPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button that lies in the top, right corner of the pane. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow** using that same plus button. Select this new effect and  enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. 
+
+Select the existing **Stroke** and drag it below the active effects. Drag the **Width** slide to **2 pt**,  tap the **Inside** **Alignment** button and then tap the color well that stands for your **Stroke**. Replace the existing color with white and drag the **Alpha** slider to **50%**. Return to the **Effects** pane and tap the cogwheel icon that stands for this **Stroke**. Tap  **Blend Mode** from the newly opened context menu and select **Soft Light** from that list. Changing this blend mode will simply lower the contrast between your stroke and that fill. 
+
+(image: loginWidgetiPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Drag it below the existing **Stroke** and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Drag it below the existing **Strokes** and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone14.jpg)
+
+
+
+##Step 15
+
+Pick the **Rounded Rectangle Tool** and make sure that the  **Radius** is still set to **5**. Create a **140 x 30 px** shape, set the **Fill** color to **R=29 G=32 B=34** and place it as shown in the following image. 
+
+Make sure that this new shape is  selected, tap &amp; hold to open that context menu and tap the **Copy** command. Reopen the context menu and tap the **Paste in Place**  command to easily add a copy of your selection in the same place. 
+
+(image: loginWidgetiPhone15.jpg)
+
+
+
+##Step 16
+
+Return to your Toolbar, make sure that the **Line** is still invisible and pick a random blue for the **Fill** color. 
+
+Pick the **Rectangle Tool**, create a **30 px** square and place it exactly as shown in the first image. Pick the **Path Selection Tool**, focus on the newly opened tool pane and activate the **Add to Selection** mode. Select your blue square along with the copy of that smaller, rounded rectangle, go to the **Combine** pane and tap the **Intersect** button. 
+
+Make sure that the resulting shape stays selected and open the **Effects** pane. Focus on the existing **Fill** and  tap the color well. Drag the **Alpha** slider to **10%**, replace the existing color with black and don't forget to change the **Blend Mode** to **Soft Light**. 
+
+(image: loginWidgetiPhone16.jpg)
+
+
+
+##Step 17
+
+Reselect the smaller rounded rectangle, make sure that it stays selected and open  the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** effect and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that  your smaller, rounded rectangle is still selected and focus on the **Effects** pane. Select the **Stroke**, drag it below the active effects and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your smaller, rounded rectangle is still selected, focus on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone20.jpg)
+
+
+
+##Step 21
+
+Pick  the **Path Selection Tool**, focus on the tool pane and active the **Add to Selection** mode. Select your smaller, rounded rectangle along with that black, transparent shape and duplicate them using the same **Copy** and **Paste** commands from the context menu. Select these copies and place them as shown in the second image. 
+
+(image: loginWidgetiPhone21.jpg)
+
+
+
+##Step 22
+
+For this step you will need a grid every **1 px**. Return to the **Grid** pane,  open the **Grid Settings**  pane and enter **1 px** for both **Spacing** boxes. Open the **Layers** panel, turn on the visibility for your top layer and select it. 
+
+Using the **Move Tool**, select the tiny icons made in the beginning of the tutorial and place them roughly as shown in the following image. Select only the lock icon and focus on your Toolbar. Tap the **Fill** color well and replace the existing color with **R=17 G=19 B=20**.
+
+(image: loginWidgetiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your lock icon is still selected and open the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your lock icon is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your lock icon is still selected, open the **Appearance** pane and tap the **Copy Style** command. Select thie other icon, re-open the **Appearance** pane and this time tap the **Paste Style** command.
+
+(image: loginWidgetiPhone25.jpg)
+
+
+
+##Step 26
+
+Return to the **Grid**  pane,  open the **Grid Settings**  pane and enter **10 px** for both **Spacing** boxes. Focus on your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=254 G=145 B=79**.
+
+Pick the **Rounded Rectangle Tool** and make sure that the **Radius** is set to **5**. Create a **140 x 30 px** shape and place it as shown in the following image. 
+
+(image: loginWidgetiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your orange, rounded rectangle stays selected and open the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your orange, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Drag it below the existing effect and then  enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your orange, rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Stroke**, drag it below the **Inner Shadow** effects and then enter the attributes shown in the following image. 
+
+(image: loginWidgetiPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that your orange, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Stroke**. Drag it below the existing **Stroke** and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your orange, rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop  Shadow**, drag it below those **Strokes** and then enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone31.jpg)
+
+
+
+##Step 32
+
+Tap  the **Text Tool** from your Toolbar and then double tap inside that newly added text field. Select the **Geeza Pro Bold**  font and set the size to **8** and then simply add the &quot;_Forgot Username or Password?_&quot;  piece of text. Set its color to **R=29 G=32 B=34** and use the **Move Tool** to select your piece of text and place it as shown in the following image. 
+
+(image: loginWidgetiPhone32.jpg)
+
+
+
+##Step 33
+
+Make sure that your piece of text stays selected and open the **Effects** pane. Activate the existing **Inner   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone33.jpg)
+
+
+
+##Step 34
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop   Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone34.jpg)
+
+
+
+##Step 35
+
+Tap again the **Text Tool** from your Toolbar and then double tap inside that newly made  text field. Select that same **Geeza Pro Bold** font and set the size to **10**. Set the text color  to **R=40 G=42 B=44** and then simply add the &quot;_LOGIN_&quot;  piece of text. Make sure that it stays selected and open the **Text** pane from the **Appearance** panel. Move to the bottom of the pane and set the **Character-Spacing** to **4**. Again, use the **Move Tool** to select and place this new piece of text roughly as shown in the following image. 
+
+(image: loginWidgetiPhone35.jpg)
+
+
+
+##Step 36
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and open  the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: loginWidgetiPhone36.jpg)
+
+
+
+##Step 37
+
+Make sure that your &quot;_LOGIN_&quot; piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, enter the attributes shown in the following image and you're done.
+
+(image: loginWidgetiPhone37.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: loginWidgetiPhone0.jpg)
+
+----
+
+Title: iPhone

@@ -1,0 +1,27 @@
+
+title: Graphic
+
+----
+
+author: Picta, Inc.
+
+----
+
+description: Powerful feature-packed vector drawing and illustration application designed specifically for Mac and iOS.
+
+----
+
+tutorialsURL: /tutorials/
+
+----
+
+docsURL: /docs/
+
+----
+
+storeURL: http://itunes.apple.com/us/app/idraw/id404705039?mt=12
+
+----
+
+copyright: © (date: Year) Picta, Inc. All Rights Reserved.
+

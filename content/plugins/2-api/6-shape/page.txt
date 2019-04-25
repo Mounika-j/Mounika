@@ -1,0 +1,477 @@
+Title: Shape
+
+----
+
+Text: 
+
+A shape object. This is the abstract base class for (link: plugins/api/pathshape text: **PathShape**), (link: plugins/api/textshape text: **TextShape**), and (link: plugins/api/shapegroup text: **ShapeGroup**) objects.
+&nbsp;
+_Settings_
+- (link: plugins/api/shape#name text: **name**)
+- (link: plugins/api/shape#locked text: **locked**)
+- (link: plugins/api/shape#hidden text: **hidden**)
+- (link: plugins/api/shape#opacity text: **opacity**)
+- (link: plugins/api/shape#blendMode text: **blendMode**)
+- (link: plugins/api/shape#selected text: **selected**)
+
+_Position / Bounds_
+- (link: plugins/api/shape#position text: **position**)
+- (link: plugins/api/shape#bounds text: **bounds**)
+- (link: plugins/api/shape#visibleBounds text: **visibleBounds**)
+
+_Applying Transforms_
+- (link: plugins/api/shape#rotate text: **rotate:**)
+- (link: plugins/api/shape#rotateorigin text: **rotate: origin:**)
+- (link: plugins/api/shape#scaleXy text: **scaleX: y:**)
+- (link: plugins/api/shape#scaleXyorigin text: **scaleX: y: origin:**)
+- (link: plugins/api/shape#shearXy text: **shearX: y:**)
+- (link: plugins/api/shape#shearXyorigin text: **shearX: y: origin:**)
+- (link: plugins/api/shape#translateXy text: **translateX: y:**)
+
+_Styling_
+- (link: plugins/api/shape#appearance text: **appearance**)
+- (link: plugins/api/shape#stroke text: **stroke**)
+- (link: plugins/api/shape#fill text: **fill**)
+
+_Arrangement_
+- (link: plugins/api/shape#moveToParent text: **moveToParent:**)
+- (link: plugins/api/shape#moveToIndex text: **moveToIndex:**)
+- (link: plugins/api/shape#duplicate text: **duplicate**)
+- (link: plugins/api/shape#remove text: **remove**)
+
+_Parent Layer or Group_
+- (link: plugins/api/shape#parent text: **parent**)
+
+<a name="appearance"></a>
+## appearance
+### _returns (link: plugins/api/appearance text: **Appearance**)_
+
+Gets the appearance object of the shape. The appearance object contains the stack of appearance items - fills, strokes, shadows, etc. - applied to the shape.
+&nbsp;
+#### Example: enables and modifies the drop shadow of the frontmost selected shape
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape)
+{
+    var items = [[shape appearance] items]
+    
+    for(var i = 0; i < [items count]; i++)
+    {
+        var item = items[i]
+        
+        if([item type] == "dropShadow")
+        {
+            item.enabled = true
+            item.offset = CGSizeMake(2, 2)
+            item.blur = 3
+            break
+        }
+    }
+}
+
+```
+<a name="blendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the shape.
+&nbsp;
+#### Example: set the blend mode of the selected shapes
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+	shape = shapes[i]
+	shape.blendMode = "Multiply"
+}
+
+```
+<a name="bounds"></a>
+## bounds
+### _returns **CGRect**_
+
+Gets the geometric bounding box of the shape.
+&nbsp;
+#### Example: distribute the selected shapes horizontally using each shape's bounds
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var x
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    var bounds = [shape bounds]
+    
+    if(i == 0)
+        x = bounds.origin.x
+    else
+        shape.position = CGPointMake(x, bounds.origin.y)
+    
+    	x += bounds.size.width
+}
+
+```
+
+
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: plugins/api/shape text: **Shape**)_
+
+Duplicates this shape and adds it to same parent layer or group.
+&nbsp;
+#### Example: create a duplicate of the frontmost selected shape, offset by 40 pixels horiz and vert
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+var newShape = [shape duplicate]
+ 
+[newShape translateX:40 y:40]
+
+```
+<a name="fill"></a>
+## fill
+### _returns (link: plugins/api/appearance#fill text: **AppearanceFill**)_
+
+Gets the fill appearance item of the shape.
+&nbsp;
+#### Example: set the fill color of the frontmost selected shape
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape)
+{
+    var color = [doc addColorWithRed:255 green:128 blue:0 alpha:1]
+    [shape fill].color = color
+}
+
+```
+<a name="hidden"></a>
+## hidden
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the hidden state of the shape.
+&nbsp;
+#### Example: toggle the visibility of all of the shapes in the active layer
+
+```
+var doc = [app activeDocument]
+var shapes = [[doc activeLayer] shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    shape.hidden = ![shape hidden]
+}
+
+```
+<a name="locked"></a>
+## locked
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the locked state of the shape.
+&nbsp;
+#### Example: unlock all of the shapes in the active layer
+
+```
+var doc = [app activeDocument]
+var shapes = [[doc activeLayer] shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    shape.locked = false
+}
+
+```
+<a name="moveToIndex"></a>
+## moveToIndex:
+_input **Integer**_
+
+Move the shape to a new z-index in parent layer's or parent group's shapes array. 
+&nbsp;
+#### Example: move each of the selected shapes to the top of their parent's shapes array
+
+```
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+	var shape = shapes[i]
+	var parent = [shape parent]
+	var siblings = [parent shapes]
+
+	[shape moveToIndex:[siblings count] - 1]
+}
+
+```
+<a name="moveToParent"></a>
+## moveToParent:
+_input (link: plugins/api/layer text: **Layer**) or (link: plugins/api/shapegroup text: **ShapeGroup**)
+
+Move the shape to a different parent layer or group. The shape is added to the target parent's shapes array.
+&nbsp;
+#### Example: move the active layer to the top of the layers list
+
+```
+var doc = [app activeDocument]
+var layer = [doc activeLayer]
+var allLayers = [doc layers]
+[layer moveToIndex:[allLayers count] - 1]
+
+```
+<a name="name"></a>
+## name
+### _returns **String**_; _settable_
+
+Gets / Sets the name of the shape.
+&nbsp;
+#### Example: set the names of the selected shapes
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+	shapes[i].name = "Shape " + (i + 1)
+
+```
+<a name="opacity"></a>
+## opacity
+### _returns **Float**_; _settable_
+
+Gets / Sets the opacity of the shape. The opacity value is between 0 and 1.
+&nbsp;
+#### Example: set the frontmost selected shape's opacity to 50%
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape)
+    shape.opacity = 0.50
+
+```
+<a name="parent"></a>
+## parent
+### _returns (link: plugins/api/layer text: **Layer**) or (link: plugins/api/shapegroup text: **ShapeGroup**)_
+
+Gets the parent object of the shape. Shapes can be child objects of layers or groups.
+
+<a name="position"></a>
+## position
+### _returns **CGPoint**_; _settable_
+
+Gets / Sets the position of the shape. The position is the top left corner of the shape's bounding box.
+&nbsp;
+#### Example: move the frontmost selected shape to the top left corner of the canvas
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+shape.position = CGPointMake(0, 0)
+
+```
+<a name="remove"></a>
+## remove
+
+Removes the shape from the document by removing it from its parent layer or group.
+&nbsp;
+#### Example: remove all shapes in the active layer that are not currently selected
+
+```
+var layer = [[app activeDocument] activeLayer]
+var shapes = [layer shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    
+    if([shape selected] == false)
+	    [shape remove]
+}
+
+```
+<a name="rotate"></a>
+## rotate:
+### _input **Float**_
+
+Rotate the shape by the passed-in angle in degrees. 
+&nbsp;
+#### Example: rotates each selected shape by 15 degrees
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	[shape rotate:15]
+}
+
+```
+<a name="rotateorigin"></a>
+## rotate: origin:
+### _input **Float**_; _input **CGPoint**_
+
+Rotate the shape by the passed-in angle in degrees, relative to the passed-in origin. 
+&nbsp;
+#### Example: rotates each selected shape by 15 degrees, around the canvas origin
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	[shape rotate:15 origin: CGPointMake(0, 0)]
+}
+
+```
+<a name="scaleXy"></a>
+## scaleX: y:
+### _input **Float**_; _input **Float**_
+
+Scale the selection by the passed-in x and y values. A value of 1 is equal to 100% scale. 
+&nbsp;
+#### Example: scale each selected shape by 150%
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	[shape scaleX:1.5 y:1.5]
+}
+
+```
+<a name="scaleXyorigin"></a>
+## scaleX: y: origin:
+### _input **Float**_; _input **Float**_; _input **CGPoint**_
+
+Scale the selection by the passed-in x and y values. A value of 1 is equal to 100% scale. 
+&nbsp;
+#### Example: scale each selected shape by 150%, anchored at the bottom right corner of its bounding box
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	var bounds = [shape bounds]
+	var pnt = CGPointMake(CGRectGetMaxX(bounds), CGRectGetMaxY(bounds))
+	[shape scaleX:1.5 y:1.5 origin:pnt]
+}
+
+```
+<a name="selected"></a>
+## selected
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the selection state of the shape.
+&nbsp;
+#### Example: invert the shape selection in the active layer
+
+```
+var layer = [[app activeDocument] activeLayer]
+var shapes = [layer shapes]
+    
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+    shape.selected = ![shape selected]
+}
+
+```
+<a name="shearXy"></a>
+## shearX: y:
+### _input **Float**_; _input **Float**_
+
+Shear the selection by the passed-in x and y values. Each value is given in degrees. 
+&nbsp;
+#### Example: shear each of the selected shapes horizontally by 45 degrees
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	[shape shearX:45 y:0]
+}
+
+
+```
+<a name="shearXyorigin"></a>
+## shearX: y: origin:
+### _input **Float**_; _input **Float**_; _input **CGPoint**_
+
+Shear the selection by the passed-in x and y values. Each value is given in degrees. 
+&nbsp;
+#### Example: shear each of the selected shapes horizontally by 45 degrees, anchored at their bounding box origins
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	[shape shearX:45 y:0 origin:[shape bounds].origin]
+}
+
+```
+<a name="stroke"></a>
+## stroke
+### _returns (link: plugins/api/appearance#stroke text: **AppearanceStroke**)_
+
+Gets the stroke appearance item of the shape.
+&nbsp;
+#### Example: set the stroke width of the frontmost selected shape to 10pt
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape)
+{
+    var color = [doc addColorWithRed:255 green:128 blue:0 alpha:1]
+    [shape stroke].width = 10
+}
+
+```
+<a name="translateXy"></a>
+## translateX: y:
+### _input **Float**_; _input **Float**_
+
+Move the selection by the passed-in x and y values. 
+&nbsp;
+#### Example: offsets each shape in the selection by its bounding box width
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+    var shape = shapes[i]
+	var bounds = [shape bounds]
+	[shape translateX:bounds.size.width y:0]
+}
+
+```
+<a name="visibleBounds"></a>
+## visibleBounds
+### _returns **CGRect**_
+
+Gets the visible bounding box of the shape. This bounding box is large enough to include the stroke widths and other appearance effects applied to the shape.
+&nbsp;

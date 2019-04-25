@@ -1,0 +1,160 @@
+/* compiled by scssphp v0.0.11 on Thu, 25 Apr 2019 04:54:56 +0000 (0.0203s) */
+
+#heroSection .cls-iPhone .common-app-link svg g .cls-3 {
+  fill: #fff; }
+  #heroSection .cls-iPhone .title, #heroSection .cls-iPhone .title strong, #heroSection .cls-iPhone .text {
+    color: #3d3c4f; }
+
+.carousel-head {
+  margin-bottom: 20px;
+  font-weight: 700; }
+
+p, span, h4 {
+  color: #3d3c4f !important; }
+
+p {
+  color: #505063; }
+
+.iphone-section-carousel-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  position: relative; }
+  @media (min-width: 768px) {
+  .iphone-section-carousel-container {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+  .iphone-section-carousel-container .iphone-carousel-wrap {
+    position: static; }
+    .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block {
+      background-color: #fff;
+      text-align: center; }
+      .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap {
+        padding: 0 30px; }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .header-image-wrapper {
+          height: 500px;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column; }
+          @media (min-width: 768px) {
+    .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .header-image-wrapper {
+      height: 700px; } }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .carousel-header-section {
+          margin-bottom: 25px; }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .iphone-image {
+          margin-bottom: 50px; }
+          .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .iphone-image img {
+            width: 100%; }
+        @media (min-width: 768px) {
+      .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .carousel-inner-wrap .text-boxes-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 25px; } }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .carousel-block .clone {
+          display: none; }
+      .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging {
+        position: absolute;
+        bottom: auto;
+        top: 36.5%; }
+        @media (min-width: 768px) {
+  .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging {
+    top: 53.5%; } }
+        @media (min-width: 1025px) {
+  .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging {
+    top: 66.5%; } }
+        @media (max-width: 539px) {
+  .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging {
+    top: 34%; } }
+        @media (max-width: 424px) {
+  .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging {
+    top: 31.5%; } }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging li a {
+          border-radius: 0;
+          background-color: #f5f5f5;
+          border-radius: 4px; }
+        .iphone-section-carousel-container .iphone-carousel-wrap .iphone-carousel-block .flex-control-nav.flex-control-paging li a.flex-active {
+          background-color: #3d3c4f; }
+
+.photoshop-section {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  .photoshop-section .photoshop-title-block {
+    padding: 0 45px;
+    text-align: center; }
+    .photoshop-section .photoshop-title-block p {
+      margin-bottom: 20px; }
+  .photoshop-section .photoshop-image img {
+    width: 100%; }
+    @media (max-width: 767px) {
+    .photoshop-section .photoshop-image.container {
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      height: auto; } }
+  .photoshop-section.container {
+    height: auto; }
+  .photoshop-section .container {
+    height: auto; }
+
+.text-box-wrap {
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+  .text-box-wrap {
+    width: 45%;
+    height: 260px; } }
+  @media (min-width: 1025px) {
+  .text-box-wrap {
+    width: 30%;
+    height: 300px;
+    margin-bottom: 0; } }
+  .text-box-wrap svg {
+    width: 50px; }
+  .text-box-wrap .sub-title {
+    font-weight: 900;
+    display: block;
+    padding: 15px 0; }
+  .text-box-wrap:last-child {
+    margin-bottom: 0; }
+
+.features-section .features-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .features-section .features-block .text-box-wrap {
+    padding: 20px;
+    width: 48%;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+    .features-section .features-block .text-box-wrap {
+      width: 47%;
+      height: auto; } }
+    @media (min-width: 992px) {
+    .features-section .features-block .text-box-wrap {
+      width: 30%; } }
+    @media (min-width: 1200px) {
+    .features-section .features-block .text-box-wrap {
+      width: 24%; } }
+    .features-section .features-block .text-box-wrap p {
+      text-align: center; }
+  @media (max-width: 767px) {
+      .features-section .features-block.container {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        height: auto; } }
+
+.design-image img {
+  width: 100%; }
+  @media (max-width: 767px) {
+    .design-image.container {
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      height: auto; } }

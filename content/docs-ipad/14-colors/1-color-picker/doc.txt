@@ -1,0 +1,31 @@
+Title: Color Picker
+
+----
+
+Text: 
+
+# Color Picker
+
+Tap the _**Fill**_ color well from your _**Toolbar**_ to open the _**Color panel**_. Use the _**Color picker**_ to select a custom color. Colors can be selected using three different color picker interfaces.
+
+(image: colorpicker1-ipad.jpg width: 750)
+
+1. **Tab Menu** - Easily navigate between the _**Color**_, (link: docs-ipad/gradients text: **Gradient**) and (link: docs-ipad/patterns text: **Pattern**) panels.  It only shows up when you tap the **Fill** color well, as gradients or patterns can't be applied on a _**Stroke**_.
+
+2. **Color** - A simple thumbnail showing the current color. 
+
+3. **Interfaces** - Toggle between the four color picker interfaces: Color Wheel, RGB sliders, HSB Sliders and  Hex # / RGB. The HSB and RGB sliders give you the possibility to choose a new color using their specific color codes. 
+
+ (image: colorpicker2-ipad.jpg width: 723)
+
+4. **Eyedropper Tool** - Use it to select a color by picking the color of any pixel on the screen. Tap it and you’ll get a cross icon surrounded by a circle where you can see the currently selected color which will allow you to easily pick the desired color.
+
+ (video: colorpicker3-ipad.mp4 width: 723)
+
+5. **Color Field** - Drag the circle inside the _**Color Field**_ to select the desired shade of the color. 
+
+6. **Color Bar** - Drag the slider or simply tap on the _**Color Bar**_ to select a hue. 
+
+7. **Alpha** - Drag the slider or use the input field to set the transparency of the color. Setting Alpha to 0% will make the color invisible.
+
+8. **Color palette**. - Apply one of the saved colors, save a new color or tap the **'none'** button to remove the existing colors.

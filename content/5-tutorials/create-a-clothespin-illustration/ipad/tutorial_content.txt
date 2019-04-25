@@ -1,0 +1,427 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple clothespin illustration in Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shapes building techniques. Taking full advantage of the Effects pane, you will learn how to add subtle shading and highlights for your shape and how to easily recolor your final design. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** and the **Height** to **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: clothespinIllustrationiPad1A.jpg)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Ensure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: clothespinIllustrationiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, tap the **Fill** color well and replace the existing color with **R=205 G=135 B=54**. Tap the **Line** color well, drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible.
+ 
+Pick the **Rectangle Tool**, focus on your canvas and create a **25 x 240 px** shape. 
+
+(image: clothespinIllustrationiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rectangle stays selected and pick the **Pen Tool**. Move to the **Tool Options** pane and activate the **Add Points** mode. Focus on the top side of your shape and  simply tap to add a new anchor point as shown in the following image — the grid will ease your work. 
+
+Keep focusing on the top of your shape and switch to the **Path Selection Tool**. Select the left anchor point and drag it **100 px** down. Move to the bottom of your shape, select the left anchor point and drag it **35 px** up. In the end your shape should look like in the second image. 
+
+(image: clothespinIllustrationiPad3.jpg)
+
+
+
+##Step 4
+
+Using the **Ellipse Tool**, create a **50 x 70 px** shape and place it as shown in the first image. 
+
+Switch to the **Rectangle Tool**, create a **25 x 35 px** shape and place it as shown in the second image. 
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Using simple taps, select the two shapes made in this step. Move to  the right side of your **Titlebar** and tap that middle icon to open the popover menu. Go to the **Combine**  pane and tap the **Intersect** command. 
+
+(image: clothespinIllustrationiPad4.jpg)
+
+
+
+##Step 5
+
+Using the **Move Tool**, select both shapes made so far, go to the **Combine****** pane and tap the **Union** command. 
+
+(image: clothespinIllustrationiPad5.jpg)
+
+
+
+##Step 6
+
+Pick the **Ellipse Tool**, create a **10 px** circle and place it as shown in the first image — the color attributes are not  important. 
+
+Using the same tool, create a **20 x 35 px** shape and place it as shown in the second image. 
+
+(image: clothespinIllustrationiPad6.jpg)
+
+
+
+##Step 7
+
+Select all the shapes made so far, go to the **Combine****** pane and tap the **Subtract** command. 
+
+(image: clothespinIllustrationiPad7.jpg)
+
+
+
+##Step 8
+Get back to your **Toolbar** and this time make the **Fill** invisible and  set the **Stroke** color to **R=205 G=135 B=54**. 
+
+Using the **Pen Tool** or the **Line Tool**, create a **10 px**, horizontal path and place it exactly as shown in the following image. Make sure that this new path stays selected and focus on the right side of your **Titlebar**. Tap the leftmost icon to open that popover menu and go to the **Effects** pane. Tap the existing **Stroke** to expand it, drag the  **Width**  slider to **4 pt** and  check the **Round Cap** button. 
+
+With your horizontal path still selected, focus on the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and **Paste** commands to easily duplicate your selection. Select the copy and place it as shown in the second image. 
+
+(image: clothespinIllustrationiPad8.jpg)
+
+
+
+##Step 9
+
+Now,  you will need a grid every **1 px**. This simply means that you need to return to the **Grid and Rulers** pane,  open the **Grid Settings** pane and enter **1 px** for both **Spacing** boxes. 
+
+ Keep focusing on your horizontal paths. Select the bottom one and drag it **2 px** down and then select the top one and drag it **1 px** up. 
+
+(image: clothespinIllustrationiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that both horizontal paths are selected, go to the **Path** pane and tap the **Outline Stroke** command.
+
+(image: clothespinIllustrationiPad10.jpg)
+
+
+
+##Step 11
+
+Select all the shapes made so far, go to the **Combine** pane and tap the **Union** command. 
+
+(image: clothespinIllustrationiPad11.jpg)
+
+
+
+##Step 12
+
+Select your shape, open the **Edit** pane and  use the **Copy** and the **Paste in Place** commands to add a copy of your selection in the same place. 
+
+Select only this copy, focus on the right side of your **Titlebar** and tap that ruler icon to open the **Geometry** pane. Simply tap that **Flip Horizontally** button to flip your selection horizontally. Drag it to the left and place it exactly as shown in the third image. 
+
+(image: clothespinIllustrationiPad12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, make  the **Fill** is invisible and  set the **Line** color to **R=79 G=81 B=82**. 
+
+Using the **Ellipse Tool**, create a **10 px** circle and place it as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the existing **Stroke** and simply drag the **Width** slider to **4 pt**. 
+
+(image: clothespinIllustrationiPad13.jpg)
+
+
+
+##Step 14
+
+Using the **Pen Tool** or the **Line Tool**, create a **55 px**, vertical path and place it as shown in the first image. Make sure that this new path stays selected, focus on the **Effects**  pane and select the **Stroke**. 
+
+Drag the  **Width** slider to **4 pt** and  check the **Round Cap** button. Switch to the **Path Selection Tool**, select the top anchor point and simply drag it **31 px** to the right. In the end things should look like in the second image. 
+
+(image: clothespinIllustrationiPad14.jpg)
+
+
+
+##Step 15
+
+Select your grey circle and that vertical path, focus on the **Path** pane and tap the **Outline Stroke** command. Make sure that the resulting shapes remain selected, move to the **Combine** pane and tap the **Union** command. In the end your grey shape should look like in the third image. 
+
+(image: clothespinIllustrationiPad15.jpg)
+
+
+
+##Step 16
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to **R=79 G=81 B=82**. 
+
+Using the **Ellipse Tool**, create a **4 px** circle and place it as shown in the following image. 
+
+(image: clothespinIllustrationiPad16.jpg)
+
+
+
+##Step 17
+
+Select all the shapes made so far and add copies in the same place using the same **Copy** and **Paste in Place** commands from that **Edit** pane. Make sure that only these copies are all selected and go to the **Combine** pane.First, click the **Union** command and then click the **Make Compound Path** command. 
+
+Select the resulting shape, focus on the **Effects** pane from the **Appearance** panel and replace the existing **Fill** color with **R=155 G=91 B=33**. We'll use this dark brown shape to add a subtle shadow to the entire clothespin shape.
+
+(image: clothespinIllustrationiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your dark brown shape stays selected, go to the **Arrange** pane and simply drag that **Order** slider to the left which will  send your selected shape in the back. 
+
+Move the **Effect** pane and select the existing **Stroke**. Make sure that the **Width** slider is set to **1 pt**, select the **Outside Alignment** button, and then tap the color well of this **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black (**R=0 G=0 B=0**).
+
+(image: clothespinIllustrationiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your dark brown shape is still selected and keep focusing on the **Effects** pane. If you happed to deselect this shape, here's how you can easily reselect it. Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Focus on the existing layer, tap that left awrrow button to expand it and you'll find  your shape at the bottom of the layer. Simply tap it to select it.
+
+Check the round checkbox of the existing **Drop Shadow** effect to activate. Tap its right side handle to drag it right below the **Fill** and then expand it. Enter **-1 pt** in the **Y Offset**  box and **0 pt** in the other two boxes, and then click the color well of this effect. Drag the **Alpha** slider to **10%** and make sure that the color is set to black.
+
+(image: clothespinIllustrationiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effect using the plus button located in the bottom, right corner of your panel. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a third **Drop Shadow** effect. 
+
+Select this new effect and then enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**.
+ 
+Select this new effect, drag it below the **Stroke**  and then enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad22.jpg)
+
+
+
+##Step 23
+
+
+Select the brown shape that makes up the right side of your clothespin and focus on the **Effects** pane. 
+
+Expand  the existing **Stroke** and  replace the existing attributes with the ones shown in the following image. 
+
+(image: clothespinIllustrationiPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects**  pane. Add a second **Stroke** and expand it. 
+
+Drag the **Width** slider to **4 pt** and select the **Inside Alignment** button, and  then tap the color well of this new **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black. Return to the **Effects** pane and  tap the cogwheel button of this black **Stroke**. Tap the **Blend Mode** command, select  **Soft Light** from that list, and then tap that **Done** button. In the end things should look like in the following image. 
+
+(image: clothespinIllustrationiPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Shadow** effect,  drag it below the **Fill** and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects** pane. 
+
+Add a second **Inner Shadow** effect  and enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** effect.
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow** effect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow** effect. 
+
+Select this new effect, drag it below those **Inner Shadow** effects and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your right, brown shape is still selected, open the **Edit** pane and tap the **Copy Style** command. 
+
+Move to the brown shape that makes up the left side of your clothespin and select it. Reopen that **Edit** pane and this time go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: clothespinIllustrationiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that the shape edited in the previous step stays selected and focus on the **Effects** pane. Select the existing **Inner Shadow** effects one by one and simply inverse the values used for the **X Offset**  attribute (eg: 2 to -2 and -2 to 2).  In the end things should look like in the second image. 
+
+(image: clothespinIllustrationiPad31.jpg)
+
+
+
+##Step 32
+
+Select your **4 px** circle and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your **4 px** circle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** efffect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your **4 px** circle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** efffect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad34.jpg)
+
+
+
+##Step 35
+
+Select the main grey shape and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and  enter the attributes shown in the following image.
+
+(image: clothespinIllustrationiPad36.jpg)
+
+
+
+##Step 37
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad37.jpg)
+
+
+
+##Step 38
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad38.jpg)
+
+
+
+##Step 39
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a fourth **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustrationiPad39.jpg)
+
+
+
+##Step 40
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a fifth **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+
+(image: clothespinIllustrationiPad40.jpg)
+
+
+
+
+
+##Step 41
+
+Finally, here's how you can easily recolor your entire clothespin. 
+
+Select the  shape that makes up the right side of your clothespin and focus on the **Effects** pane. First, tap the **Fill** color well and replace the existing color with **R=13 G=165 B=76**, and then click the color well of that top **Stroke** and replace the existing color with **R=0 G=121 B=51**. 
+
+Move to  the shape that makes up the left side of your clothespin and select it. Return to the **Effects** pane and make the same color changes. In the end things should look like in the following image. 
+
+(image: clothespinIllustrationiPad41.jpg)
+
+Feel free to try a different pair of colors.
+
+(image: clothespinIllustrationiPad42.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clothespinIllustrationiPad0.jpg)
+
+----
+
+Title: iPad

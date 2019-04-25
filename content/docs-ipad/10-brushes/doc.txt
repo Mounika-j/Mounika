@@ -1,0 +1,13 @@
+Title: Brushes
+
+----
+
+Text: 
+
+# Brushes
+
+Brush strokes can be added in Graphic using the _**Brush Tool**_ from the _**Toolbar**_. You can create basic calligraphic brushes or pressure sensitive brushes.
+
+(image: brushes1-ipad.jpg width: 750)
+
+Brush attributes can be changed from the _**Brush Settings  pane**_ or using the _**Brush pane**_ from the Appearance panel.

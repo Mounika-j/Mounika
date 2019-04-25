@@ -1,0 +1,48 @@
+title: Example Design
+
+pages: false
+
+options: 
+  template: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  date:
+      icon: calendar
+      label: Date
+      type: date
+      format: LL
+      placeholder: Select a date…
+      default: today
+      width: 1/3
+	 
+  graphicFile:
+      label: Graphic File
+      type: select
+      options: files
+	  width: 2/3
+
+  description:
+    label: Description
+    type: text
+
+  headerImg:
+      label: Header Image
+      type: image
+	  width: 1/2
+	
+  thumbnail:
+      label: Thumbnail Image
+      type: image
+	  width: 1/2
+	  
+  text:
+    label: Text
+    type: textarea
+
+  credits:
+    label: Credits
+    type: text

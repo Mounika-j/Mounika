@@ -1,0 +1,27 @@
+Title: Text on a Path
+
+----
+
+Text: 
+
+### Placing Text on Path
+
+To place a text on a path, select your text and the path on which you wish to place your text, open the _**Path pane**_ and tap the _**Place Text on Path**_ command.
+
+(video: textonapath1-ipad.mp4 width: 750)
+
+### Adjusting Text on Path
+
+Use the round handle to move your text on the path. Text on a path is fully editable. Simply double-tap it to change its content or its attributes as you would with any text object.
+
+(video: textonapath2-ipad.mp4 width: 750)
+
+Open the _**Path pane**_  and tap the _**Reverse Path Direction**_ command to quickly flip your text on the other side of the path.
+
+(video: textonapath3-ipad.mp4 width: 750)
+
+### Releasing Text from Path
+
+Select your text on a path, open the _**Path pane**_ and tap the _**Release Text from Path**_ command  to easily separate your text from the path.
+
+(video: textonapath4-ipad.mp4 width: 750)

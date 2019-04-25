@@ -1,0 +1,15 @@
+Title: Gradients
+
+----
+
+Text: 
+
+# Gradients
+
+Gradients can be used to stylize the _**Fill**_ of any object, even text. There are three types of gradients to choose from: _**Linear**_, _**Radial**_ and _**Angle**_ gradients. 
+
+The _**Fill**_ color well in the _**Toolbar**_ can be used to select a pre-made gradient from the (link: docs/gradients/gradient-palette text: _**Gradient palette**_). Drawing tools will use these colors when creating new objects.
+
+(image: gradients1.jpg  width: 750)
+
+Gradients can be customized using the (link: docs/gradients/customizing-gradients text: _**Fill pane**_) or the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel. Additionally, you can adjust the position of your gradient using the (link: docs/gradients/gradient-tool text: _**Gradient tool**_).

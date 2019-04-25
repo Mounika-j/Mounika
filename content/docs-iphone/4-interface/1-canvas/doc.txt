@@ -1,0 +1,25 @@
+Title: Canvas
+
+----
+
+Text: 
+
+## Canvas
+
+The Canvas is the visible area that defines a design. It is where illustrations are created; where objects are drawn and edited. 
+
+The grey area surrounding the canvas is nonprintable ‘scratch’ space. Objects can overlap into this area, or they can be placed here while a design is being edited. However, anything outside of the canvas will not be visible when printing or exporting the design.
+
+(image: canvas1-iphone.jpg width: 750)
+
+#### Canvas Size 
+
+The size of the canvas can be changed at any time from the (link: docs-iphone/canvas/settings text: _**Canvas pane**_). The measurement units used for dimensions can be set to pixels, inches, millimeters, or centimeters. 
+
+#### Canvas Color 
+
+The background of the canvas can be set to be either a solid color or a gradient. The background can be customized using the (link: docs-iphone/canvas/settings text: _**Canvas pane**_).
+
+#### Rulers, Grid & Smart Guides
+
+The (link: docs-iphone/canvas/rulers text: _**Rulers**_), the (link: docs-iphone/canvas/grid text: _**Grid**_) or the (link: docs-iphone/canvas/smart-guides text: _**Smart Guides**_) are helpful when positioning and aligning objects. When selecting objects, highlights appear on the rulers showing the bounds of the current selection. The grid can be customized using the (link: docs-iphone/canvas/grid text: _**Grid pane**_).

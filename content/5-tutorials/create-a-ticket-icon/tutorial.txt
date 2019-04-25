@@ -1,0 +1,21 @@
+Title: Create a Ticket Icon
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: ticketicon.idraw
+
+----
+
+Description: Learn how to create a ticket icon using vector shapes and effects...
+
+----
+
+Headerimg: header.png
+
+----
+
+Thumbnail: thumbnail.png

@@ -1,0 +1,33 @@
+Title: Settings Widget UI
+
+----
+
+Description: A tabbed settings widget UI design for a Mac application.
+
+----
+
+Headerimg: Header.jpg
+
+----
+
+Thumbnail: Thumbnail.jpg
+
+----
+
+Date: 2013-08-21
+
+----
+
+Categories: Mac, UI, Icon
+
+----
+
+Text: A tabbed settings widget UI design for a Mac application. Features on/off toggle buttons, beveled text, styled icons, and tabs.
+
+----
+
+Graphicfile: SettingsWidget.idraw
+
+----
+
+Credits: **Author**: (link: http://jona.im text: Jona)

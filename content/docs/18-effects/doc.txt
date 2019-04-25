@@ -1,0 +1,26 @@
+Title: Effects
+
+----
+
+Text: 
+
+# Effects
+
+In addition to _**Fills**_ and _**Strokes**_ objects can have effects applied to them.
+Using the _**Effects pane**_ from  the Appearance panel, you can add five types of such attributes: _**Drop Shadow**_, _**Inner Shadow**_, _**Outer Glow**_, _**Inner Glow**_ and _**Blur**_.
+
+Using the add button (**+**) at the bottom of the pane, you can add a new attribute for your selected object. You can have up to 12 attributes per object.
+
+Right click on any attribute to _**Duplicate**_, _**Remove**_ or _**Copy**_ it. The _**Copy**_ command gives you the possibility to easily transfer a certain attribute from one object to another. 
+
+(image: effects1.jpg width:750)
+
+1. **Opacity** & **Blend Mode** - change an object’s opacity or blend mode. Choose from the twenty three (link: docs/layers/blending-layers#blending-modes text: _**blend modes**_) and adjust the opacity using the _**Opacity**_ slider, or the input field.
+
+2. **Drag** - use the drag bars on the right-hand side to move any existing attribute in the _**Effects pane**_. Click the button of the attribute that you wish to be moved and then drag it wherever you want.
+
+3. **Show/Hide** - By default, new shapes will have a Fill, a Stroke and the five inactive effects. The rounded square with a check mark is the symbol for an active attribute while the empty rounded square is the  symbol of an inactive attribute. Click the empty square to easily turn an inactive attribute into an active one and vice-versa. 
+Editing an inactive attribute will automatically make it active.
+
+4. **Color Well**  - Each Fill, Stroke or effect (except Blurs) has a color well that represents the color used for that attribute. Click any color well to edit its properties.
+A white color well with a grey, oblique bar means that the color of that effect is set to _'**none**'_.

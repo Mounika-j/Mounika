@@ -1,0 +1,798 @@
+Text: 
+
+In the following tutorial you will learn how to create a detailed Nintendo Switch illustration in Graphic for iPad. 
+
+For starters, you will learn how to set up a simple grid, how to center objects and how to numerically position shapes. Using basic shapes along with some boolean commands, you will learn how to create the more complex objects. Taking full advantage of the Effects pane and its features, you will learn how to add subtle shading and highlights. 
+
+Using the Layers panel, you will learn how to group, organize and name the components of your illustration. Finally, you will learn how to easily multiply objects and how to add a pretty simple text label. 
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** to **780 px** and the **Height** to **450 px**, select **Pixels** for the base units, and make sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: NintendoSwitchiPad1A.jpg)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: NintendoSwitchiPad1B.jpg)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and tap the **Line** color well. Drag the **Alpha** slider to **0%** to simply make your **Line** invisible.
+ 
+Tap the **Fill** color well and replace the existing color with **R=255 G=180 B=0**.
+
+Pick the **Rounded Rectangle Tool** and set the **Radius** to **2** in the **Tool pane**. Create a **410 x 240 px** shape.
+
+(image: NintendoSwitchiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle is still selected, focus on the right side of the **Titlebar** and tap the middle icon. Tap the **Align Horizontal**  and **Align Vertical**  commands to move your selection in the center of the canvas. 
+
+(image: NintendoSwitchiPad3.jpg)
+
+
+
+##Step 4
+
+For the following steps you will need a grid every **1 px**. This simply means that you need to open the **Grid &amp; Rulers**  pane, open the **Grid Settings** pane and enter **1 px** in both  **Spacing** boxes.  
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **5**. Create a **15 px** rounded square and place it exactly as shown in the first image. Tap and hold with a second finger while dragging to easily create a perfect rounded square. You can position this shape manually, using the grid as a references or you can do it numerically using the **Geometry** pane. Make sure that your rounded square is selected and tap that ruler icon from the right side of your **Titlebar** to open the **Geometry** pane. Focus on the **Position** settings, and then set the **X** to **177 px** and the **Y** to **100 px**. 
+
+Switch to the **Rectangle Tool**  and create two, **4 px** squares. Place these new shapes as shown in the second image. 
+
+(image: NintendoSwitchiPad4.jpg)
+
+
+
+##Step 5
+
+Pick the **Path Selection Tool**, focus on the **Tool pane** and activate the **Add to Selection** mode. Use this mode to select your rounded square along with the two tiny squares. 
+
+Move to the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and **Paste** commands to easily duplicate your selections. Make sure that these new shapes remain selected, open the **Geometry** pane and tap the  **Flip Horizontal** button to flip your selected shapes horizontally. Once you're done, place them as shown in the second image. 
+
+(image: NintendoSwitchiPad5.jpg)
+
+
+
+##Step 6
+
+Using the **Move Tool**, select all the shapes made so far. Open the **Combine** pane and tap the **Subtract** command. 
+
+(image: NintendoSwitchiPad6.jpg)
+
+
+
+##Step 7
+
+Pick the **Rounded Rectangle Tool**  and set the  **Radius** to **2**. Create two, **10 px** rounded squares and place them as shown in the first image. 
+
+Using the same tool, create another two, **10 px** rounded squares and place them as shown in the second image. 
+
+(image: NintendoSwitchiPad7.jpg)
+
+
+
+##Step 8
+
+Pick the **Move Tool** and select all the shapes made so far. Open the **Combine** pane and tap the **Union** command. 
+
+(image: NintendoSwitchiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your shape stays selected and focus on the right side of your **Titlebar**. Tap the leftmost icon and go to the **Effects** pane. 
+
+Tap the color well of the existing **Fill** and replace the **Color** with a **Linear Gradient**. Set the **Angle** to **-90 °** and then move to the gradient color stops. Tap the left one and set its color to **R=33 G=36 B=37**, and then tap the right one and set its color to **R=43 G=46 B=47**. Simply tap on the gradient bar to add a new color stop. Set its location to **99%** and change the color to **R=101 G=102 B=102**. Add another three color stops and use the settings shown in the following image.
+
+(image: NintendoSwitchiPad9.jpg)
+
+
+
+##Step 10
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **5**. Create a **390 x 220 px** shape and fill it with **R=2 G=2 B=2**. Make sure that this new shape stays selected and move it to the center of the canvas using the same **Align Horizontal**  and **Align Vertical**  commands from the **Arrange** pane. 
+
+(image: NintendoSwitchiPad10.jpg)
+
+
+
+##Step 11
+
+Pick the **Rectangle Tool** and create a **330 x 180 px** shape. Fill this new rectangle with **R=29 G=29 B=29** and center it. 
+
+(image: NintendoSwitchiPad11.jpg)
+
+
+
+##Step 12
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **1**. Create a **35 x 3 px** shape and fill it with **R=2 G=2 B=2**. Make sure that this new shape stays selected, go to the **Geometry** pane and set the **Position** settings to **X: 239 px** and **Y: 104 px**. You also need to send this shape to back. Open the **Arrange** pane and simply drag that **Order** slider to the left. 
+
+(image: NintendoSwitchiPad12.jpg)
+
+
+
+##Step 13
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Double tap the name of the existing layer and change it to _&quot;Screen&quot;_. Use the add button **(+)** from the top of the panel to add a second layer. Rename it _&quot;Sides&quot;_ and make sure that it remains selected, as the new shapes you are about to create will go here.
+
+For the following steps  you will need a grid every **5 px**. Return to the **Grid Settings**  pane from the **Grid &amp; Rulers** pane and enter **5 px** in both  **Spacing** boxes.
+
+(image: NintendoSwitchiPad13A.jpg)
+
+Pick the **Rounded Rectangle Tool**  and set the  **Radius** to **50**. Create a **120 x 240 px** shape and place it as shown in the first image (**X: 555px Y: 105 px**). Switch to the **Rectangle Tool**, create a **50 x 240 px** shape and place it as shown in the second image. 
+
+(image: NintendoSwitchiPad13B.jpg)
+
+
+
+##Step 14
+
+Select the two shapes highlighted in the first step and tap the **Subtract** command from the **Combine** pane. 
+
+(image: NintendoSwitchiPad14.jpg)
+
+
+
+##Step 15
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **4**. Create a **20 x 240 px** shape and place it as shown in the first image. Lower the  **Radius** to **2**, create a **20 px** rounded square and place it as shown in the second image. 
+
+(image: NintendoSwitchiPad15.jpg)
+
+
+
+##Step 16
+
+Select the three shapes highlighted in the first step and tap the **Union** command from the **Combine** pane. Fill the resulting shape with **R=249 G=85 B=71**, make sure that it stays selected and open the **Edit** pane. Use the **Copy** and the **Paste in Place** commands to quickly add a copy of your selection in the same place.
+
+(image: NintendoSwitchiPad16.jpg)
+
+
+
+##Step 17
+
+Pick the **Rectangle Tool**, create a **70 x 40 px** shape and place it as shown in the first image. Switch to the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select this new rectangle along with the copy of that red shape and tap the **Intersect** command from the **Combine** pane. 
+
+Make sure that the resulting shape stays selected and open the **Effects** pane. Remove the **Fill** color and select the **Stroke**. Set its color to **R=43 G=46 B=47**, change the **Width** to **6 pt** and don't forget to check the **Round Join** button. 
+
+(image: NintendoSwitchiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that the shape made in the previous step stays selected and keep focusing on the **Effects** pane.
+
+Check the round checkbox of the existing **Inner Shadow** effect to activate it and then tap it. Enter **0 pt** in the **X Offset** box and **1 pt** in the **Y Offset** box. Drag the  **Blur** slider to **0**  and then tap the color wheel of this effect. Drag the **Alpha** slider to **100%** and replace the existing color with **R=101 G=102 B=102**. Once you're done, send this shape to back.
+
+(image: NintendoSwitchiPad18.jpg)
+
+
+
+##Step 19
+
+Select your red shape, focus on the **Effects** pane and tap the **Fill** color well.  Replace the color with the linear gradient shown below and make sure that the **Angle** is set to **-90 °**.  
+
+(image: NintendoSwitchiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your red shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and tap its color well. Set the color to white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **80%**. Tap your **Inner Shadow** effect to expand it, enter the attributes shown below, and then tap the settings icon of this effect. Tap **Blend Mode** from the newly opened context menu, select **Soft Light** from that list, and then tap the **Done** button. 
+
+(image: NintendoSwitchiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your red shape stays selected and keep focusing on the **Effects** pane. Use the add button **(+)** from the bottom of the pane to add a second **Inner Shadow** effect. Select it and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your red shape stays selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow** effect, select it and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your red shape stays selected and keep focusing on the **Effects** pane. Add a fourth **Inner Shadow** effect, select it and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad23.jpg)
+
+
+
+##Step 24
+
+Select the two shapes highlighted in the first image and add copies in the same place using the same **Copy** and **Paste in Place** commands from the **Edit** pane. Flip the copies horizontally using the button from the **Geometry** pane and place them as shown in the third image. 
+
+(image: NintendoSwitchiPad24.jpg)
+
+
+
+##Step 25
+
+Select your right, red shape and focus on the **Effects** pane. Replace the linear gradient and the two colors used for the **Inner Shadow** effects as shown below. 
+
+(image: NintendoSwitchiPad25.jpg)
+
+
+
+##Step 26
+
+Open the **Layers** panel and add a third layer. Name it _&quot;Round Buttons&quot;_ and make sure that it stays selected.
+
+For the following steps you will need a grid every **1 px**. Return to the **Grid Settings** pane from the **Grid &amp; Rulers**  pane and enter **1 px** in both  **Spacing** boxes. 
+ 
+Pick the **Ellipse Tool**, create an **18 px** circle and place it as shown in the following image (**X: 139 px Y: 205 px**). Don't forget that tapping and holding with a second finger while dragging makes it easier to create perfect circles. Fill this new shape with white (**R=255 G=255 B=255**), for now. 
+
+(image: NintendoSwitchiPad26.jpg)
+
+
+
+##Step 27
+
+Pick the **Rectangle Tool**, create a **4 px** square and place it as shown in the first image **(X: 146 px Y: 211 px)**. Focus on the top side of this new shape and switch to the **Path Selection Tool**. First, select the right anchor point and remove it using the **Delete** (**X**) button from the left side of your **Titlebar**, and then select the other anchor point and drag it **2 px** to the right. 
+
+(image: NintendoSwitchiPad27.jpg)
+
+
+
+##Step 28
+
+Select your white circle along with the black triangle and pick the **Rotate Tool**. Focus on the **Tool pane** , set the **Angle** to **180 °** and simply tap that **Copy** button to create horizontally flipped copies of your selected shapes. Place the new shapes as shown in the third image **(X: 139 px Y: 241 px)**. 
+
+(image: NintendoSwitchiPad28.jpg)
+
+
+
+##Step 29
+
+Select both white circle and black triangles and pick the **Rotate Tool**. This time set the **Angle** to **90 °** and tap that same **Copy** button. 
+
+(image: NintendoSwitchiPad29.jpg)
+
+
+
+##Step 30
+
+Select your top white circle and focus on the **Effects** pane. Tap the color well of the existing **Fill** and replace the **Fill** color with the linear gradient shown below. 
+
+(image: NintendoSwitchiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your top circle stays selected and keep focusing on the **Effects** pane. Select the existing **Stroke** and set the color to black. Be sure that the **Width** slider is set to **1 pt** and change the **Alignment** to **Outside**.
+
+(image: NintendoSwitchiPad31.jpg)
+
+
+
+##Step 32
+
+Make sure that your top circle stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, select it and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your top circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and drag it below the **Fill** using the drag bars from the right-hand side. Select this new effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your top circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and drag it below the **Fill** using the same drag bars from the right-hand side. Select this new effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that your top circle stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect and place it below the first one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad35.jpg)
+
+
+
+##Step 36
+
+Now you need to copy the appearance attributes of your top circle and paste them to those white circles. Make sure that your top circle is still selected and open the **Edit** pane. First, tap the **Style** command, and then tap the **Copy Style** command.  Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select the three white circles and re-open the **Edit** pane. This time tap the **Style** and the **Paste Style** commands. 
+
+Select these three circles one by one and adjust the gradient **Angle** to match the appearance of the top circle. Use a **-90 ° Angle** for the bottom circle, a **0 ° Angle** for the left circle and a **180 ° Angle** for the right circle. 
+
+(image: NintendoSwitchiPad36.jpg)
+
+
+
+##Step 37
+
+Select your black triangle and focus on the **Effects** pane. Set the **Fill** and **Stroke** colors to **R=27 G=27 B=27**, and then select the **Stroke**. Make sure that the  **Width** slider is set to **1 pt** and check the **Round Join** button. 
+
+(image: NintendoSwitchiPad37.jpg)
+
+
+
+##Step 38
+
+Make sure that your triangle is still selected and keep focusing on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad38.jpg)
+
+
+
+##Step 39
+
+Use that same **Copy Style** and **Paste Style** commands from the **Edit** pane to apply the  attributes of the top triangle to the other three triangles. 
+
+(image: NintendoSwitchiPad39.jpg)
+
+
+
+##Step 40
+
+Duplicate your four circle using the same **Copy** and **Paste** commands from the **Edit** pane. Select all four copies and place them as shown in the following image **(X: 606 px Y: 138 px)**. 
+
+(image: NintendoSwitchiPad40.jpg)
+
+
+
+##Step 41
+
+Make sure that the circles added in the previous step are still selected and focus on the **Effects** pane. Select the bottom **Stroke** and replace the existing color with **R=186 G=63 B=53**.
+
+(image: NintendoSwitchiPad41.jpg)
+
+
+
+##Step 42
+
+Make sure that your red circles are still selected and focus on the **Effects** pane. Add a second **Drop Shadow** effect, place it below the first one and enter the attributes shown below.
+(image: NintendoSwitchiPad42.jpg)
+
+
+
+##Step 43
+
+
+Keep focusing on your red circles and select only the top one. 
+
+Open the **Label** pane from the **Appearance** pane and add a **Text** label. Type a simple _&quot;X&quot;_ in that text field,  select **Centered** from the **Alignment**  menu, and then tap the **Text Style**  section to open the **Label Style** pane. Select the **Arial font**, keep the **Regular** style, change the **Size** to **9 pt** and set the color to **R=225 G=225 B=225**.
+
+(image: NintendoSwitchiPad43.jpg)
+
+
+
+##Step 44
+
+Use the same techniques and attributes to add labels for the other four red buttons. All you have to do is change the _&quot;X&quot;_ with _&quot;Y&quot;_, _&quot;A&quot;_ and _&quot;B&quot;_.
+
+(image: NintendoSwitchiPad44.jpg)
+
+
+
+##Step 45
+
+Open the **Layers** panel and add a fourth layer. Name it _&quot;Sticks&quot;_ and make sure that it stays selected. 
+
+Pick the **Ellipse Tool** and create a **38 px** circle. Place this new shape as shown in the following image **(X: 614 px Y: 213 px)** and fill it with the linear gradient shown below. 
+
+(image: NintendoSwitchiPad45.jpg)
+
+
+
+##Step 46
+
+Make sure that your new circle stays selected and focus on the **Effects** pane. Select the **Stroke** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad46.jpg)
+
+
+
+##Step 47
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Drop Shadow** effect, drag it below the **Fill** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad47.jpg)
+
+
+
+##Step 48
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect, drag it below the first one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad48.jpg)
+
+
+
+##Step 49
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow** effect, drag it below the second one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad49.jpg)
+
+
+
+##Step 50
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Inner Shadow** effect, drag it below the **Fill** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad50.jpg)
+
+
+
+##Step 51
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect, drag it below the first one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad51.jpg)
+
+
+
+##Step 52
+
+Pick the **Ellipse Tool** and create a **28 px** circle. Place this new shape as shown in the following image **(X: 619 px Y: 218 px)** and fill it with a random red, for now. 
+(image: NintendoSwitchiPad52.jpg)
+
+
+
+##Step 53
+
+
+Pick the **Line Tool**  and draw a **38 px**, vertical line. Tap and hold with a second finger while dragging to easily create a vertical line. Add a **1 pt Stroke** for this new path and pick a random yellow for the color. 
+Place it as shown in the first image and switch to the **Rotate Tool**. Set the **Angle** to **90°** in the **Tool pane** and then tap that **Copy** button. 
+
+(image: NintendoSwitchiPad53.jpg)
+
+
+
+##Step 54
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. 
+
+Select both yellow lines and tap the **Outline Stroke** command from the **Path** pane. Select the resulting yellow shapes along with the red circle and tap the **Union** command from the same **Combine** pane. Fill the resulting shape with black (**R=0 G=0 B=0**).
+
+(image: NintendoSwitchiPad54.jpg)
+
+
+
+##Step 55
+
+Make sure that your black shape is still selected and focus on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad55.jpg)
+
+
+
+##Step 56
+
+Pick the **Ellipse Tool**  and create a **26 px** circle. Place it as shown in the following image and fill it with the linear gradient shown below. 
+
+(image: NintendoSwitchiPad56.jpg)
+
+
+
+##Step 57
+
+Make sure that your **26 px** circle is still selected and focus on the **Effects** pane. Activate the **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad57.jpg)
+
+
+
+##Step 58
+
+Pick the **Ellipse Tool**, create a **34 px** circle and place it as shown in the following image **(X: 616 px Y: 230 px)**. Fill this new shape with black and focus on the **Effects** pane. First, tap the **Fill** color well and drag the **Alpha**  slider to **30%**, and then activate the **Blur** effect and drag that **Blur** slider to **10**. Once you're done, send this new shape to back. 
+
+(image: NintendoSwitchiPad58.jpg)
+
+
+
+##Step 59
+
+Select the four shape highlighted in the following image and **Group** them using the **Group** command from the **Arrange** pane. Make a copy of this group and place it as shown in the second image **(X: 129 px Y: 146 px)**. 
+
+(image: NintendoSwitchiPad59.jpg)
+
+
+
+##Step 60
+
+Open the **Layers** panel and add a fifth layer. Name it _&quot;Small Buttons&quot;_ and make sure that it stays selected. 
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **1**. Create a **14 px** rounded square, fill it with **R=59 G=63 B=65** and place it as shown in the following image **(X: 154 px Y: 270 px)**. 
+
+(image: NintendoSwitchiPad60.jpg)
+
+
+
+##Step 61
+
+Make sure that your new rounded square stays selected and focus on the **Effects** pane. Select the **Stroke** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad61.jpg)
+
+
+
+##Step 62
+
+Make sure that your rounded square stays selected and focus on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad62.jpg)
+
+
+
+##Step 63
+
+Make sure that your rounded square stays selected and focus on the **Effects** pane. Activate the **Inner Shadow** effect, drag it below the **Fill** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad63.jpg)
+
+
+
+##Step 64
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect, drag it below the first one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad64.jpg)
+
+
+
+##Step 65
+
+Pick the **Ellipse Tool** and create a **10 px** circle. Fill this new shape with **R=48 G=49 B=53** and place it as shown in the following image **(X: 156 px Y: 272 px)**. 
+
+(image: NintendoSwitchiPad65.jpg)
+
+
+
+##Step 66
+
+Make sure that your new circle stays selected and focus on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad66.jpg)
+
+
+
+##Step 67
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad67.jpg)
+
+
+
+##Step 68
+
+Pick the **Ellipse Tool** and create a **20 px** circle. Place this new shape as shown in the following image **(X: 609 px Y: 267 px)** and fill it with the linear gradient shown below. 
+
+(image: NintendoSwitchiPad68.jpg)
+
+
+
+##Step 69
+
+Make sure that your new circle stays selected and focus on the **Effects** pane. Select the **Stroke** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad69.jpg)
+
+
+
+##Step 70
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad70.jpg)
+
+
+
+##Step 71
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Inner Shadow** effect, drag it below the **Fill** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad71.jpg)
+
+
+
+##Step 72
+
+Pick the **Ellipse Tool** and create a **14 px** circle. Fill this new shape with **R=48 G=49 B=53** and place it as shown in the following image **(X: 612 px Y: 270 px)**. 
+
+(image: NintendoSwitchiPad72.jpg)
+
+
+
+##Step 73
+
+Make sure that your new circle stays selected and focus on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad73.jpg)
+
+
+
+##Step 74
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Activate the **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad74.jpg)
+
+
+
+##Step 75
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **1**. Create a **4 x 13 px** shape, fill it with black and place it as shown in the following image **(X: 606 px Y: 122 px)**. Make sure that this new shape stays selected and switch to the **Rotate Tool**. Focus on the **Tool pane** , set the **Angle** to **90 degrees** and tap that **Copy** button. 
+
+(image: NintendoSwitchiPad75.jpg)
+
+
+
+##Step 76
+
+Select both rounded rectangles made in the previous step and tap the **Union** command from the **Combine** pane. 
+
+(image: NintendoSwitchiPad76.jpg)
+
+
+
+##Step 77
+
+Make sure that your plus shape is selected, focus on the **Effects** pane and replace the **Fill** color with the linear gradient shown below. 
+
+(image: NintendoSwitchiPad77.jpg)
+
+
+
+##Step 78
+
+Make sure that your plus shape stays selected and keep focusing on the **Effects** pane. Select the **Stroke** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad78.jpg)
+
+
+
+##Step 79
+
+Make sure that your plus shape stays selected and keep focusing on the **Effects** pane. Activate the **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad79.jpg)
+
+
+
+##Step 80
+
+Make sure that your plus shape stays selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad80.jpg)
+
+
+
+##Step 81
+
+Make sure that your plus shape stays selected and keep focusing on the **Effects** pane. Activate the **Inner Shadow** effect, drag it below the **Fill** and enter the attributes shown below. 
+
+(image: NintendoSwitchiPad81.jpg)
+
+
+
+##Step 82
+
+Make sure that your plus shape stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect, drag it below the first one, and then enter the attributes shown below. 
+
+(image: NintendoSwitchiPad82.jpg)
+
+
+
+##Step 83
+
+Pick the **Rounded Rectangle Tool** and make sure that the  **Radius** is still set to **1**. Create a **13 x 4 px** shape, fill it with black and place it as shown in the following image **(X: 165 px Y: 127 px)**. 
+
+Select that plus shape and go to **Copy Style**, and then select the shape made in this step and go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: NintendoSwitchiPad83.jpg)
+
+
+
+##Step 84
+
+Open the **Layers** panel and add a sixth layer. Name it _&quot;BG&quot;_ and make sure that it stays selected. 
+
+For the final steps you will need a grid every **5 px**. Open the **Grid Settings**  pane and enter **5 px** in both  **Spacing** boxes. 
+
+Using  the **Rectangle Tool**, create a **570 x 50 px** shape and place it as shown in the first image **(X: 105 px Y: 335 px)**. Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select both anchor points and switch to the **Scale Tool**. Tap and hold with a second finger while dragging the selected anchor points **30 px** to the inside, as shown in the second image.  
+
+(image: NintendoSwitchiPad84.jpg)
+
+
+
+##Step 85
+
+Make sure that your trapezoid shape is still selected and focus on the **Appearance**  pane. Lower the **Opacity** to **30%** and then replace the **Fill** color with the linear gradient shown below. Also, activate the **Blur** effect from the **Effects** pane and drag that **Blur** slider to **20**. 
+
+(image: NintendoSwitchiPad85.jpg)
+
+
+
+##Step 86
+
+Using  the **Rectangle Tool**, create a **495 x 10 px** shape and place it as shown in the first image **(X: 145 px Y: 335 px)**. Focus on the top side of this new rectangle and pick the **Path Selection Tool**. Select both anchor points and switch to the **Scale Tool**. Tap and hold with a second finger while dragging the selected anchor points **20 px** to the inside, as shown in the second image. 
+
+(image: NintendoSwitchiPad86.jpg)
+
+
+
+##Step 87
+
+Make sure that your new trapezoid shape is still selected and focus on the **Effects** pane. Lower the **Opacity** to **50%** from the **Appearance** pane, set the **Fill** color to black, and then  activate the **Blur** effect and drag that **Radius** slider to **6**. 
+
+(image: NintendoSwitchiPad87.jpg)
+
+
+
+##Step 88
+
+Add a copy of the smaller trapezoid shape in the same place. Select it and focus on the **Effects** pane. Focus on the **Blur** effect and drag the **Radius** slider to **3**. 
+
+(image: NintendoSwitchiPad88.jpg)
+
+
+
+##Step 89
+
+Open the **Layers** panel, tap &amp; hold on the thumbnail of your _&quot;BG&quot;_ layer, and then drag it in the bottom of the panel. Make sure that this layer stays selected. 
+
+(image: NintendoSwitchiPad89.jpg)
+
+
+
+##Step 90
+
+Pick the **Rectangle Tool** and create a **780 x 450 px** shape. Fill this new shape with white, make sure that it covers your entire canvas and don't forget to send it to back.
+
+(image: NintendoSwitchiPad90.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: NintendoSwitchiPad0.jpg)
+
+----
+
+Title: iPad

@@ -1,0 +1,21 @@
+Title: Create a To-Do List Widget
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: todolistwidget.idraw
+
+----
+
+Description: Learn how to create a to-do list widget using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

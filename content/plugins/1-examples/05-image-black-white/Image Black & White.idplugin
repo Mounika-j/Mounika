@@ -1,0 +1,170 @@
+var doc = [app activeDocument]
+var fill = findSelectedImageFill()
+var userClickedOK = false
+var filterName = "CIPhotoEffectMono"
+
+if(fill)
+{
+    var thumbImage = [[fill image] thumbnailCGImageToFitSize:CGSizeMake(200, 200)]
+    var saturation = 1
+    var brightness = 0
+    var contrast = 1
+    var shouldApply = false
+    
+    // create a window
+    var window = [[NSWindow alloc] init]
+    [window setTitle:"Image Black & White"]
+    [window setFrame:NSMakeRect(0, 0, 320, 359) display:false]
+    
+    // create prompt text
+    var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 125, 300, 200)]
+    imageView.imageFrameStyle  = NSImageFrameGrayBezel
+    
+    var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]
+    [[window contentView] addSubview:imageView]
+    
+    var box = [[NSBox alloc] initWithFrame:NSMakeRect(15, 56, 290, 58)]
+    box.title = "Black & White Mode"
+    [[window contentView] addSubview:box]
+    
+    var proto = [[NSButtonCell alloc] init]
+    [proto setButtonType:NSRadioButton]
+    
+    var matrixRect = NSMakeRect(30, 8, 230, 18);
+    var matrix = [[NSMatrix alloc] initWithFrame:matrixRect mode:NSRadioModeMatrix prototype:proto numberOfRows:1 numberOfColumns:3]
+    [matrix setCellSize:NSMakeSize(76, 18)]
+    [matrix setIntercellSpacing:NSMakeSize(2, 2)]
+    [matrix selectCellAtRow:0 column:0]
+    [matrix setJSTargetFunction:"matrixAction"]
+    [box addSubview:matrix]
+
+    var cells = [matrix cells]
+    cells[0].title = "Mono"
+    cells[1].title = "Tonal"
+    cells[2].title = "Noir"
+
+    [proto release]
+    [matrix release]
+    [box release]
+    
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(224, 10, 82, 32)]
+    [okButton setTitle:"OK"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [okButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(142, 10, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:@"\033"]    // esc key
+    [cancelButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    updatePreview()
+    [window setInitialFirstResponder:matrix]
+    [NSApp runModalForWindow:window]
+    
+    if(shouldApply)
+    {
+        var filteredImg = filterImage([[fill image] CGImage])
+        
+		if(filterImage)
+		{
+			var newImg = doc.addImage(filteredImg)
+        	fill.image = newImg;
+		}
+    }
+}
+else
+{
+    [app showAlert:"Please select an object with an image fill to adjust the image."]
+}
+
+
+function okAction(sender)
+{
+    shouldApply = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function matrixAction()
+{
+	var col = [matrix selectedColumn]
+	
+	if(col == 0)
+		filterName = "CIPhotoEffectMono"
+	else if(col == 1)
+		filterName = "CIPhotoEffectTonal"
+	else if(col == 2)
+		filterName = "CIPhotoEffectNoir"
+	
+	updatePreview()
+}
+
+function findSelectedImageFill()
+{
+    var shapesEnumerator = [[doc selectedShapes] reverseObjectEnumerator]
+    var shape
+    
+    while(shape = [shapesEnumerator nextObject])
+    {
+        var fill = [shape fill]
+        
+        if(fill && [fill image])
+            return fill
+    }
+    
+    return nil
+}
+
+function updatePreview()
+{
+    var filteredImage = filterImage(thumbImage)
+    
+	if(filteredImage)
+	{
+		var nsImg = [[NSImage alloc] initWithCGImage:filteredImage size:CGSizeMake(0, 0)]
+    	[imageView setImage:nsImg]    
+		[nsImg release]
+	}
+}
+
+function filterImage(img)
+{
+    var inputImage = [CIImage imageWithCGImage:img]
+    var filter = [CIFilter filterWithName:filterName]
+        
+    [filter setDefaults]
+    [filter setValue:inputImage forKey:"inputImage"]
+
+    var outputImage = [filter valueForKey:"outputImage"]
+    
+    if(outputImage)
+    {
+        var rep = [NSCIImageRep imageRepWithCIImage:outputImage];
+        var nsImage = [[NSImage alloc] initWithSize:rep.size];
+        [nsImage addRepresentation:rep];
+        
+        var cgImg = [nsImage CGImageForProposedRect:nil context:nil hints:nil]
+        
+        [filter setDefaults]
+        [nsImage release]
+        
+        return cgImg
+    }
+    
+    return nil
+}

@@ -1,0 +1,17 @@
+Title: Moving Objects
+
+----
+
+Text: 
+
+# Moving Objects
+
+Choose the _**Move tool**_ to select and move objects or groups. Objects can be moved by tapping on them and dragging to a new position. If the object has no fill or if (link: docs-iphone/preferences#outline-mode text: _**Outline mode**_) is enabled, moving it is done by dragging its contour.
+
+Tap and hold with a second finger while dragging to constrain the movement of the selected object to a single direction.
+
+(video: movingobjects1-iphone.mp4 width: 750)
+
+Objects can also be moved numerically using the _**Position**_ settings from the _**Geometry pane**_ of the Properties panel.
+
+(video: movingobjects2-iphone.mp4 width: 750)

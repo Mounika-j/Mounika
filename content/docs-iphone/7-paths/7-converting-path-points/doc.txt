@@ -1,0 +1,17 @@
+Title: Converting Path Points
+
+----
+
+Text: 
+
+# Converting Path Points
+
+Select the _**Path Selection tool**_ and choose the _**Convert mode**_ from the _**Tool pane**_ to easily convert path points to either smooth points (anchor points with direction handles) or corners (anchor points without direction handles).
+
+To convert a corner point to a smooth point, tap on the point with the _**Convert mode**_ active and drag to create direction handles around the point.
+
+(video: convertingpathpoints1-iphone.mp4 width: 750)
+
+To convert a smooth point to a corner point, tap on the point with the _**Convert mode**_ active to remove the direction handles.
+
+(video: convertingpathpoints2-iphone.mp4 width: 750)

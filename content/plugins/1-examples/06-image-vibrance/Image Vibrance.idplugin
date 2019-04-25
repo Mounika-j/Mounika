@@ -1,0 +1,185 @@
+var doc = [app activeDocument]
+var fill = findSelectedImageFill()
+var userClickedOK = false
+
+if(fill)
+{
+    var thumbImage = [[fill image] thumbnailCGImageToFitSize:CGSizeMake(300, 250)]
+    var vibrance = 1
+    var shouldApply = false
+    
+    // create a window
+    var window = [[NSWindow alloc] init]
+    [window setTitle:"Image Vibrance"]
+    [window setFrame:NSMakeRect(0, 0, 320, 365) display:false]
+    
+    // create prompt text
+    var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 83, 300, 250)]
+    imageView.imageFrameStyle  = NSImageFrameGrayBezel
+    
+    var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]
+    [[window contentView] addSubview:imageView]
+    
+    createTextLabel("Amount:", NSMakeRect(6, 47, 70, 20))
+    
+    var vibranceField = createValueField(NSMakeRect(272, 50, 34, 18))
+    vibranceField.floatValue = 1
+    [vibranceField setJSTargetFunction:"vibranceFieldAction"]
+    
+    var vibranceSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 50, 190, 20)]
+    vibranceSlider.minValue = -1
+    vibranceSlider.maxValue = 1
+    vibranceSlider.floatValue = 0
+    [vibranceSlider setJSTargetFunction:"vibranceSliderAction"]
+    [[window contentView] addSubview:vibranceSlider]
+        
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(223, 8, 77, 32)]
+    [okButton setTitle:"Apply"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [okButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(141, 8, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:"\033"]    // esc key
+    [cancelButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    [window setInitialFirstResponder:vibranceSlider]
+    [NSApp runModalForWindow:window]
+    
+    if(shouldApply)
+    {
+        var currentImage = [fill image]
+		var filteredImg = filterImage([currentImage CGImage], vibrance)
+        var newImg = doc.addImage(filteredImg)
+        newImg.cropRect = [currentImage cropRect]
+        newImg.opacity = [currentImage opacity]
+        fill.image = newImg;
+    }
+}
+else
+{
+    [app showAlert:"Please select an object with an image fill to adjust the image."]
+}
+
+
+function okAction(sender)
+{
+    shouldApply = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function createTextLabel(str, frame)
+{
+    var label = [[NSTextView alloc] initWithFrame:frame]
+    label.string = str
+    label.editable = false
+    label.selectable = false
+    label.font = [NSFont systemFontOfSize:11]
+    label.alignment = NSRightTextAlignment
+    label.backgroundColor = [NSColor clearColor]
+    [[window contentView] addSubview:label]
+    return [label autorelease]
+}
+
+function createValueField(frame)
+{
+    var valueField = [[NSTextField alloc] initWithFrame:frame]
+    valueField.editable = true
+    valueField.selectable = true
+    valueField.alignment = NSLeftTextAlignment
+    valueField.font = [NSFont systemFontOfSize:10]
+    valueField.focusRingType = NSFocusRingTypeNone
+    [valueField cell].sendsActionOnEndEditing = true
+    [[window contentView] addSubview:valueField]
+    
+    var formatter = [[NSNumberFormatter alloc] init]
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:"0.##"];
+    [formatter setLocale:[NSLocale systemLocale]];
+    valueField.formatter = formatter
+    
+    return [valueField autorelease]
+}
+
+function vibranceSliderAction()
+{
+    vibrance = vibranceSlider.floatValue()
+    vibranceField.floatValue = vibrance
+    updatePreview()
+}
+
+function vibranceFieldAction()
+{
+    vibrance = vibranceField.floatValue()
+    
+    if(vibrance > 2)
+        vibrance = 2
+    if(vibrance < 0)
+        vibrance = 0
+    
+    vibranceSlider.floatValue = vibrance
+    vibranceField.floatValue = vibrance
+    updatePreview()
+}
+
+function findSelectedImageFill()
+{
+    var shapesEnumerator = [[doc selectedShapes] reverseObjectEnumerator]
+    var shape
+    
+    while(shape = [shapesEnumerator nextObject])
+    {
+        var fill = [shape fill]
+        
+        if(fill && [fill image])
+            return fill
+    }
+    
+    return nil
+}
+
+function updatePreview()
+{
+    var filteredImage = filterImage(thumbImage, vibrance)
+    var nsImg = [[NSImage alloc] initWithCGImage:filteredImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]    
+    [nsImg release]
+}
+
+function filterImage(img, v)
+{
+    var inputImage = [CIImage imageWithCGImage:img]
+    var filter = [CIFilter filterWithName:"CIVibrance"]
+        
+    [filter setDefaults]
+    [filter setValue:v forKey:"inputAmount"]
+    [filter setValue:inputImage forKey:"inputImage"]
+
+    var outputImage = [filter valueForKey:"outputImage"]
+    var rep = [NSCIImageRep imageRepWithCIImage:outputImage];
+    var nsImage = [[NSImage alloc] initWithSize:rep.size];
+    [nsImage addRepresentation:rep];
+    
+    var cgImg = [nsImage CGImageForProposedRect:nil context:nil hints:nil]
+    
+    [filter setDefaults]
+    [nsImage release]
+    
+    return cgImg
+}

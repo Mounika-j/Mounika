@@ -1,0 +1,13 @@
+Title: Rulers
+
+----
+
+Text: 
+
+# Rulers
+
+Rulers allow you to visualize the coordinates of selected objects and to accurately position them on the canvas. To show or hide rulers, open the _**Grid pane**_ from the Properties panel and tap the _**Show Rulers**_ or _**Hide Rulers**_ command. Tapping the _**Auto-Hide Rulers**_ command will only make the rulers visible when an object is moved  or when you zoom it and out. 
+
+(video: rulers1-iphone.mp4 width: 750)
+
+Rulers appear along the top and left side of your active document. The  0 point on each ruler is located at the top-left corner of your canvas. Markers on the rulers will highlight the position of any selected object.

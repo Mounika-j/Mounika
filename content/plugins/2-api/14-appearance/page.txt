@@ -1,0 +1,306 @@
+Title: Appearance
+
+----
+
+Text: 
+
+An appearance object. This object manages the appearance items applied to a _(link: plugins/api/shape text: **Shape**)_.
+&nbsp;
+_Items_
+- (link: plugins/api/appearance#items text: **items**)
+- (link: plugins/api/appearance#addItem text: **addItem:**)
+
+<a name="addItem"></a>
+## addItem:
+### _returns (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_; _input **String**_
+
+Creates and returns a new appearance item object of the specified type, adding it to the appearance item stack.
+
+<a name="items"></a>
+## items
+### _returns **Array**_
+
+Gets the array of appearance items in the appearance object.
+&nbsp;
+<a name="AppearanceItem"></a>
+# AppearanceItem
+
+This is the abstract base class for all of the following appearance item objects. 
+&nbsp;
+_Enabled_
+- (link: plugins/api/appearance#enabled text: **enabled**)
+
+_Arrangement_
+- (link: plugins/api/appearance#moveToIndex text: **moveToIndex:**)
+- (link: plugins/api/appearance#duplicate text: **duplicate**)
+- (link: plugins/api/appearance#remove text: **remove**)
+
+_Type_
+- (link: plugins/api/appearance#type text: **type**)
+
+<a name="AppearanceFill"></a>
+# AppearanceFill
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+&nbsp;
+_Fill Type_
+- (link: plugins/api/appearance#AppearanceFillFillType text: **fillType**)
+
+_Fill Modes_
+- (link: plugins/api/appearance#AppearanceFillColor text: **color**)
+- (link: plugins/api/appearance#AppearanceFillGradient text: **gradient**)
+- (link: plugins/api/appearance#AppearanceFillImage text: **image**)
+
+_Properties_
+- (link: plugins/api/appearance#AppearanceFillBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceFillType text: **type**)
+
+<a name="AppearanceFillBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the fill.
+
+<a name="AppearanceFillColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the fill color.
+
+<a name="AppearanceFillFillType"></a>
+## fillType
+### _returns **String**_
+
+Gets the current fill mode - _**"color"**_, _**"gradient"**_, or _**"image"**_. To change the fill type, set one of the color, gradient, or image properties directly.
+
+<a name="AppearanceFillGradient"></a>
+## gradient
+### _returns (link: plugins/api/gradient text: **Gradient**); _settable_
+
+Gets / Sets the fill gradient.
+
+<a name="AppearanceFillImage"></a>
+## image
+### _returns (link: plugins/api/image text: **Image**); _settable_
+
+Gets / Sets the fill image.
+
+<a name="AppearanceFillType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"fill"**_
+&nbsp;
+<a name="AppearanceStroke"></a>
+# AppearanceStroke
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+
+_Stroke Type_
+- (link: plugins/api/appearance#AppearanceStrokeStrokeType text: **strokeType**)
+
+_Settings_
+- (link: plugins/api/appearance#AppearanceStrokeColor text: **color**)
+- (link: plugins/api/appearance#AppearanceStrokeWidth text: **width**)
+- (link: plugins/api/appearance#AppearanceStrokeLineCap text: **lineCap**)
+- (link: plugins/api/appearance#AppearanceStrokeLineJoin text: **lineJoin**)
+- (link: plugins/api/appearance#AppearanceStrokeDashArray text: **dashArray**)
+- (link: plugins/api/appearance#AppearanceStrokeBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceStrokeType text: **type**)
+
+<a name="AppearanceStrokeBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the stroke.
+
+<a name="AppearanceStrokeColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the color of the stroke.
+
+<a name="AppearanceStrokeDashArray"></a>
+## dashArray
+### _returns **Array**_; _settable_
+
+Gets / Sets the stroke's line dash style. The array of _**Float**_ values adjusts the dash and gap spacing. Set this property to nil, or to an empty array, to remove the dash style.
+
+<a name="AppearanceStrokeStrokeType"></a>
+## strokeType
+### _returns **String**_; _settable_
+
+Gets / Sets the type of stroke - _**"center"**_, _**"inside"**_, or _**"outside"**_.
+
+<a name="AppearanceStrokeLineCap"></a>
+## lineCap
+### _returns **String**_; _settable_
+
+Gets / Sets the stroke's line cap style - _**"butt"**_, _**"round"**_, or _**"square"**_.
+
+<a name="AppearanceStrokeLineJoin"></a>
+## lineJoin
+### _returns **String**_; _settable_
+
+Gets / Sets the stroke's line join style - _**"miter"**_, _**"round"**_, or _**"bevel"**_.
+
+
+<a name="AppearanceStrokeType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"stroke"**_
+
+<a name="AppearanceStrokeWidth"></a>
+## width
+### _returns **Float**_; _settable_
+
+Gets / Sets the width of the stroke.
+
+&nbsp;
+<a name="AppearanceDropShadow"></a>
+# AppearanceDropShadow
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+&nbsp;
+_Settings_
+- (link: plugins/api/appearance#AppearanceDropShadowColor text: **color**)
+- (link: plugins/api/appearance#AppearanceDropShadowBlur text: **blur**)
+- (link: plugins/api/appearance#AppearanceDropShadowOffset text: **offset**)
+- (link: plugins/api/appearance#AppearanceDropShadowBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceDropShadowType text: **type**)
+
+<a name="AppearanceDropShadowBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the shadow.
+<a name="AppearanceDropShadowBlur"></a>
+## blur
+### _returns **Float**_; _settable_
+
+Gets / Sets the radius of the shadow's blur.
+<a name="AppearanceDropShadowColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the color of the shadow.
+<a name="AppearanceDropShadowOffset"></a>
+## offset
+### _returns **CGSize**_; _settable_
+
+Gets / Sets the offset of the shadow.
+<a name="AppearanceDropShadowType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"dropShadow"**_
+
+&nbsp;
+<a name="AppearanceInnerShadow"></a>
+# AppearanceInnerShadow
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+
+_Settings_
+- (link: plugins/api/appearance#AppearanceInnerShadowColor text: **color**)
+- (link: plugins/api/appearance#AppearanceInnerShadowBlur text: **blur**)
+- (link: plugins/api/appearance#AppearanceInnerShadowOffset text: **offset**)
+- (link: plugins/api/appearance#AppearanceInnerShadowBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceInnerShadowType text: **type**)
+
+<a name="AppearanceInnerShadowBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the shadow.
+
+<a name="AppearanceInnerShadowBlur"></a>
+## blur
+### _returns **Float**_; _settable_
+
+Gets / Sets the radius of the shadow's blur.
+
+<a name="AppearanceInnerShadowColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the color of the shadow.
+
+<a name="AppearanceInnerShadowOffset"></a>
+## offset
+### _returns **CGSize**_; _settable_
+
+Gets / Sets the offset of the shadow.
+
+<a name="AppearanceInnerShadowType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"innerShadow"**_
+
+&nbsp;
+<a name="AppearanceOuterGlow"></a>
+# AppearanceOuterGlow
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+
+_Settings_
+- (link: plugins/api/appearance#AppearanceOuterGlowColor text: **color**)
+- (link: plugins/api/appearance#AppearanceOuterGlowBlur text: **blur**)
+- (link: plugins/api/appearance#AppearanceOuterGlowBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceOuterGlowType text: **type**)
+
+<a name="AppearanceOuterGlowBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the glow.
+
+<a name="AppearanceOuterGlowBlur"></a>
+## blur
+### _returns **Float**_; _settable_
+
+Gets / Sets the radius of the glow's blur.
+
+<a name="AppearanceOuterGlowColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the color of the glow.
+
+<a name="AppearanceOuterGlowType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"outerGlow"**_
+&nbsp;
+<a name="AppearanceInnerGlow"></a>
+# AppearanceInnerGlow
+### _subclass of (link: plugins/api/appearance#AppearanceItem text: **AppearanceItem**)_
+
+_Settings_
+- (link: plugins/api/appearance#AppearanceInnerGlowColor text: **color**)
+- (link: plugins/api/appearance#AppearanceInnerGlowBlur text: **blur**)
+- (link: plugins/api/appearance#AppearanceInnerGlowBlendMode text: **blendMode**)
+- (link: plugins/api/appearance#AppearanceInnerGlowType text: **type**)
+
+<a name="AppearanceInnerGlowBlendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the glow.
+
+<a name="AppearanceInnerGlowBlur"></a>
+## blur
+### _returns **Float**_; _settable_
+
+Gets / Sets the radius of the glow's blur.
+
+<a name="AppearanceInnerGlowColor"></a>
+## color
+### _returns (link: plugins/api/color text: **Color**)_; _settable_
+
+Gets / Sets the color of the glow.
+
+<a name="AppearanceInnerGlowType"></a>
+## type
+### _returns **String**_
+
+Gets the type of this appearance item - _**"innerGlow"**_
+&nbsp;

@@ -1,0 +1,31 @@
+Title: Toolbar
+
+----
+
+Text: 
+
+##Toolbar
+
+The _**Toolbar**_ allows you to choose between the various drawing and editing tools available in Graphic. 
+
+To select and use a tool simply tap on its icon in the _**Toolbar**_. If the desired tool is not visible, tap the group where it lies and then select it from that pop-up menu.
+
+(image: toolbar1-ipad.jpg width: 750)
+
+Using the different tools you can:
+
+Select, position, rotate or resize objects using the (link: docs-ipad/adjusting-objects/moving-objects text: _**Move tool**_).
+
+Edit paths, anchor points, and curves using the (link: docs-ipad/paths/editing-path-points text: _**Path Selection tool**_).
+
+Create new paths using the (link: docs-ipad/paths/creating-paths text: _**Pen tool**_), the (link: docs-ipad/brushes/creating-brush-strokes text: _**Brush tool**_), the (link: docs-ipad/paths/freehand-paths text: _**Pencil tool**_), the (link: docs-ipad/shapes/lines text: _**Line tool**_) or the (link: docs-ipad/shapes/arcs text: _**Arc tool**_).
+
+Create editable text using the (link: docs-ipad/text/creating-text text: _**Text tool**_).
+
+Create new shapes using the (link: docs-ipad/shapes/rectangles text: _**Rectangle tool**_), the (link: docs-ipad/shapes/rounded-rectangles text: _**Rounded Rectangle tool**_), the (link: docs-ipad/shapes/ellipses text: _**Ellipse tool**_), the (link: docs-ipad/shapes/polygons text: _**Polygon tool**_) and the (link: docs-ipad/shapes/stars text: _**Star tool**_).
+
+(link: docs-ipad/adjusting-objects/scaling-objects text: _**Scale**_), (link: docs-ipad/adjusting-objects/rotating-objects text: _**rotate**_), or (link: docs-ipad/adjusting-objects/slanting-objects text: _**slant**_) objects using the transform tools.
+
+Some of these tools have customizable settings that can be adjusted in the _**Tool pane**_. Whenever you select a tool with customizable settings the _**Tool pane**_ pop-ups in the bottom of your screen.
+
+Next to the tools are the (link: docs-ipad/colors text: _**Fill**_) and (link: docs-ipad/colors text: _**Line**_) color wells, which can be used to set the current stroke and fill settings. Selecting an object will show you its fill and stroke attributes. If the selected object has more that one Fill/Stroke the color wells will only show the attributes of the front Fill/Stroke.

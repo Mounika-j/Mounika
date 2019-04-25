@@ -1,0 +1,284 @@
+Text: 
+
+In the following tutorial you will learn how to create a glowing power button in Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid, how to create the main shapes and how to easily center them. Using basic vector shape building techniques and some stroke tricks, you will learn how to create that power symbol. Taking full advantage of the Effects pane, you will learn how to add complex shading and highlights for your shapes. 
+
+Finally, you will learn how to add a bit of color to your final button using vibrant colors along with the Outer Glow effect. 
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: powerButtoniPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: powerButtoniPad1B.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=6 G=115 B=179** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Ellipse Tool**, move to your canvas and  create a **130 px** circle- the grid and the **Snap to Grid** feature will ease your work. 
+
+Make sure that your  shape stays selected, focus on the right side of your **Titlebar** and tap that middle icon. Go to the **Arrange** pane and simply tap the **Align Horizontal** and  **Align Vertical** buttons to bring your circle in the center of the canvas.
+
+(image: powerButtoniPad2.jpg)
+
+
+
+##Step 3
+
+Focus on your **Toolbar**, set the **Fill** color to **R=226 G=170 B=0** and make sure that the **Ellipse Tool**  is still active. Create a **120 px** circle and center it using the same **Align Horizontal** and **Align Vertical**  buttons from the **Arrange** pane. 
+
+Return to your **Toolbar** and set the **Fill** color to **R=44 G=163 B=15**. Create a **110 px** circle and center it.
+
+(image: powerButtoniPad3.jpg)
+
+
+
+##Step 4
+
+Set the **Fill** color to **R=20 G=20 B=25**, make sure that the **Ellipse Tool**  is still active and create a **40 px** circle. Replace the existing **Fill** color with a random yellow and switch to the **Rectangle Tool**. Create a **40 x 20 px** shape and place it exactly as shown in the second image. 
+
+Focus on the bottom side of your yellow rectangle and pick the **Path Selection Tool**. First, select the right anchor point and remove it using the **X** button from the left side of your **Titlebar**. Next, select the other anchor point and drag it **20 px** to the right. Switch to the **Move Tool** and  select both shapes made in this step. Open the **Combine** pane and simply tap the **Subtract** button. 
+
+(image: powerButtoniPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your dark shape stays selected and simply tap the leftmost icon that lies on the right side of the **Titlebar**. Go to the **Effect** pane, remove the color from the **Fill** and select the **Stroke**. Drag the **Width** slider to **8 pt** and then tap the color well that stands for this **Stroke**. Replace the existing color with **R=20 G=20 B=25** and drag the **Alpha** slider to **100%**.
+
+(image: powerButtoniPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your dark path is still selected and pick the **Pen Tool**. Focus on the newly opened **Tool Options** pane and activate the **Cut Paths** mode. Move to your canvas and simply  tap the anchor point highlighted in the first image to cut your selected path. 
+
+Switch to the **Path Selection Tool**, select the oblique path highligthed in the second image and remove it using the **X** button from your **Titlebar**. Using the same tool, select the anchor point highlighted in the third image and get rid of this using that same **X** button. 
+
+Select the remaining  path, focus on the **Effects** pane and check that **Round Cap** button. In the end things should look like in the fourth image.
+
+(image: powerButtoniPad6.jpg)
+
+
+
+##Step 7
+
+Using the **Pen Tool**, create a **15 px**, vertical path and place it as shown in the following image. Make sure that it stays selected and focus on  the **Effects** pane. 
+
+Set the Stroke color to **R=20 G=20 B=25**, drag the **Width** slider to **8 pt** and don't forget to check that  **Round Cap** button.
+
+(image: powerButtoniPad7.jpg)
+
+
+
+##Step 8
+
+Reselect the two paths that make up your power symbol, go to the **Path** pane and tap that **Outline Stroke** button. Make sure that the resulting shapes are selected, move to the **Combine** pane and tap the **Make Compound Path** button. Select this compound path and  center it using the same **Align Horizontal** and **Align Vertical** buttons from the **Arrange** pane.
+
+(image: powerButtoniPad8.jpg)
+
+
+
+##Step 9
+
+Select your blue circle and focus on the **Effects** pane. First, tap the **Fill** color well and replace the existing color with **R=25 G=25 B=30**. 
+
+Next, check the box that stands for the existing **Drop Shadow** effect to activate it and then select it. Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Replace the existing color with white (**R=255 G=255 B=255**) and drag that **Alpha** slider to **15%**. Return to the **Effects** pane, tap the cogwheel icon that stands for your **Drop Shadow** and then tap **Blend Mode**. Select  **Soft Light** from that list and then tap that **Done** button.  
+
+(image: powerButtoniPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your **130 px** circle stays selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** using the plus button from the bottom, right corner of the pane and then enter the attributes shown below. 
+
+(image: powerButtoniPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your **130 px** circle is still selected and keep focusing on the **Effects** pane panel. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: powerButtoniPad11.jpg)
+
+
+
+##Step 12
+
+Select your  yellow circle, focus on the **Effects** pane and tap the color well that stands for the **Fill**. Tap the **Gradient Fill** and the  **Linear** buttons,  set the **Angle** to **90 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=25 G=25 B=30** and then select the right one and set its color to **R=35 G=35 B=40**.  
+
+(image: powerButtoniPad12.jpg)
+
+
+
+##Step 13
+
+Make sure that your **120 px** circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that your **120 px** circle is still selected, keep focusing on the **Effects** pane and add a second **Inner  Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: powerButtoniPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your **120 px** circle is still selected, keep focusing on the **Effects** pane and add a third **Inner  Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: powerButtoniPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your **120 px** circle is still selected, keep focusing on the **Effects** pane and activate the **Drop Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: powerButtoniPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your **120 px** circle is still selected and keep focusing on the **Effects** pane. Select the **Stroke** and drag it below all those active effects. Move the **Width** slide to **1 pt**, set the **Alignment** to **Outside** and the **Blending Mode** to **Soft Light** and then tap the color well that stands for this **Stroke**. Make sure that the color is set to black and drag the **Alpha** slider to **10%**.
+
+(image: powerButtoniPad17.jpg)
+
+
+
+##Step 18
+
+
+Select your  green circle and focus on the **Effects** pane. Select the **Fill** and replace the existing color with the linear gradient shown below. 
+
+(image: powerButtoniPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your **110 px** circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your **110 px** circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your **110 px** circle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your **110 px** circle is still selected and keep focusing on the **Effects** pane. Activate the existing  **Inner  Shadow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad22.jpg)
+
+
+
+##Step 23
+
+
+Select your  power symbol shape and focus on the **Effects** pane. Select the existing **Stroke** and enter the attributes shown below. 
+
+(image: powerButtoniPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that your power symbol shape stays selected and keep focusing on the **Effects** pane. Activate that **Inner Glow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your power symbol shape is still selected and keep focusing on the **Effects** pane. Activate that **Inner Shadow**  effect and enter the attributes shown below. 
+
+(image: powerButtoniPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your power symbol shape is still selected and keep focusing on the **Effects** pane. Activate that **Drop Shadow**  effect and enter the attributes shown below. This will be the off version of your button. 
+
+(image: powerButtoniPad26.jpg)
+
+
+
+##Step 27
+
+For the on version of the button you will have to make some changes to that power symbol shape. Make sure that it's selected and focus on the **Effects** pane. 
+
+First, select the **Fill** and replace the existing color with **R=1 G=174 B=14** and then tap the color well that stands for the **Inner Glow** effect and drag the **Alpha** slider to **100%**. 
+
+(image: powerButtoniPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your power symbol shape is still selected and keep focusing on the **Effects** pane. Activate the **Outer Glow** effect and enter the attributes shown below. 
+
+(image: powerButtoniPad28.jpg)
+
+
+
+##Step 29
+
+Finally, you can replace the green  with one of the colors shown in the following images. 
+
+(image: powerButtoniPad29.jpg)
+
+Feel free to try different colors or to adjust the effects applied to the power symbol shape as you prefer. 
+ 
+(image: powerButtoniPad30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: powerButtoniPad0.jpg)
+
+----
+
+Title: iPad

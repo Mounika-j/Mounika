@@ -1,0 +1,11 @@
+title: Resources
+
+pages:
+  template: resource
+  sort: flip
+
+files: false
+
+options: 
+  template: false
+  delete: false

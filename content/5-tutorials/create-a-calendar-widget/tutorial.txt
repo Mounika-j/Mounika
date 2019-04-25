@@ -1,0 +1,21 @@
+Title: Create a Calendar Widget
+
+----
+
+Date: 2018-01-10
+
+----
+
+Graphicfile: calendarwidget.idraw
+
+----
+
+Description: Learn how to create a simple calendar widget using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: calendarwidgetthumbnail.jpg

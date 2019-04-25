@@ -1,0 +1,63 @@
+Title: Creating Plug-ins
+
+----
+
+Text: 
+
+As mentioned in the (link: plugins/api/ text: **Developer API**) introduction, Graphic plug-ins are text-based scripts which are written in **JavaScript**. With the script engine's integration of (link: http://jstalk.org text: **JSTalk**), plug-ins also have access to Mac OS X's **Cocoa APIs**, giving a great deal of power and flexibility when creating new plug-ins.
+
+To allow you to quickly create and test your own plug-ins, Graphic includes a **built-in plug-in editor** which can be used to write and run plug-in scripts. To open this editor, choose _**File > Plug-ins > Create Plug-in...**_ from the main menu.
+
+(image: editor.png title: Plug-in Editor width: 581 height: 369)
+&nbsp;
+Plug-ins can be saved as _**.idplugin**_ files, to be re-used later from the _**Plug-ins**_ menu, or shared with others. The _**Save...**_ button will save the script code currently displayed in the code editor as a new plug-in file.
+&nbsp;
+You can also **view and edit** previously saved or installed plug-ins in the code editor. The _**Edit Plugin ▾**_ popup button at the top of the window contains a list of the currently installed plug-ins; choosing an item from this list will **display its code in the editor view**. Like a particular plug-in but wish you could change it slightly? Simply use this popup to display its code in the editor view, make a few tweaks, and save the modified code as a new plug-in.
+
+## Code Syntax
+
+Plug-ins can be written using the traditional **JavaScript** syntax with parentheses, or an **Objective-C**-style syntax with brackets surrounding method calls.
+&nbsp;
+#### **Example:** JavaScript syntax
+
+```
+var document = app.activeDocument()
+var selection = document.selection()
+selection.rotate(45)
+
+```
+
+
+#### **Example:** Objective-C syntax
+
+```
+var document = [app activeDocument]
+var selection = [document selection]
+[selection rotate:45]
+
+```
+
+
+Calling **nested accessor methods**, and calling methods with **multiple parameters**, will appear slightly differently in each syntax:
+&nbsp;
+#### **Example:** JavaScript syntax, nested method calls
+
+```
+var selection = app.activeDocument().selection()
+selection.scaleX_y(2.5, 1.5)
+
+```
+
+
+#### **Example:** Objective-C syntax, nested method calls
+
+```
+var selection = [[app activeDocument] selection]
+[selection scaleX:2.5 y:1.5]
+
+```
+
+Either style is perfectly fine to use, and will be functionally equivalent. Depending on your familiarity with either **JavaScript** or **Objective-C**, you may have your own preference as to which style you'd like to use.
+&nbsp;
+For consistency, the API documentation uses the **Objective-C**-style syntax throughout all of the method descriptions and examples.
+&nbsp;

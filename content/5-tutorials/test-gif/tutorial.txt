@@ -1,0 +1,21 @@
+Title: TEST Gif
+
+----
+
+Date: today
+
+----
+
+Graphicfile: 
+
+----
+
+Description: 
+
+----
+
+Headerimg: 
+
+----
+
+Thumbnail: 

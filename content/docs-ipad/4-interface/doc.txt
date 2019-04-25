@@ -1,0 +1,13 @@
+Title: Interface
+
+----
+
+Text: 
+
+##Interface
+
+Graphic uses a primarily single-canvas interface, with a few accompanying inspector panes for additional settings and features.
+
+The (link: docs-ipad/interface/toolbar text: _**Toolbar**_) provides access to the available drawing and editing tools. The options in the (link: docs-ipad/interface/titlebar text: _**Titlebar**_) can be used to return to the _**Documents Browser**_, undo/redo actions, edit selected objects, open extra documents, or access one of the five main settings panels.
+
+(image: interface1-ipad.jpg width: 750)

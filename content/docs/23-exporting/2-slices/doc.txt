@@ -1,0 +1,18 @@
+Title: Slices
+
+----
+
+Text: 
+
+# Slices
+
+Slices are used to set custom export dimensions for your files. 
+Slices can be round, oval or polygonal. Using this type of slice can be really useful when you are trying to export files with transparent background. You can multiply, move or edit your slices any time you want.
+
+Simply create a closed path around the specific area that you wish to export and move to the _**Layers panel**_. Give this closed path the name of the object or group that it encapsulates, add '_**@slice:**_' before the name and the file extension after the name (**.jpeg**, **.png**, **.gif**, **.psd**, **.pdf** or **.svg**).
+
+(image: slices1.jpg width:750)
+
+When you are ready to export go to **File > Export Layers** [**⌘** - **⇧** - **⌥** - **E**] and make sure that you select _**Tagged Layers and Objects**_ from the _**Export Layers**_ pop-up window.
+
+(image: slices2.jpg width:750)

@@ -1,0 +1,11 @@
+Title: Flipping Objects
+
+----
+
+Text: 
+
+# Flipping Objects
+
+Objects can be easily flipped using the _**Flip Horizontal**_ and _**Flip Vertical**_ commands from the _**Geometry pane**_ of the Properties panel.
+
+(video: flippingobjects1-ipad.mp4 width: 750)

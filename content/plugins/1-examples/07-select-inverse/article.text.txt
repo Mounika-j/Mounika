@@ -1,0 +1,17 @@
+Title: Select Inverse
+
+----
+Description: Invert the shape selection across all layers. The currently selected shapes are deselected and all unselected shapes are selected.
+
+----
+Image: (image: Header.jpg title: Select Inverse)
+
+----
+Thumbnail: (image: Thumbnail.png title: Select Inverse)
+
+----
+Plugfile: (file: SelectInverse.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

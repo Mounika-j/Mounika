@@ -1,0 +1,372 @@
+Text: 
+
+In the following tutorial you will learn how to create a set of indoor floor plan symbols and how to save them inside a shape library. 
+
+For starters you will learn how to set up a simple grid and how to use the canvas scale settings. Moving on you will learn how to take full advantage of the Snap to Grid feature and how to work with basic tools.
+ 
+To ease the work and to speed up your process you will learn how to easily save colors and styles and how to use them throughout the tutorial. You will learn how to create dotted or perfect paths and how to align, adjust or cut objects. 
+
+Finally, you will learn how to create a new shape library, how to save your symbols and how to import existing shape libraries. 
+
+
+
+
+
+##Step 1
+
+Tap the plus button from the top, left corner of the screen to create a new document and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Focus the **Canvas** pane and open the **Units &amp; Scale** pane. 
+
+We're about to create a ‘to-scale’ technical design using the canvas scale settings. First, make sure that the **Base Unit** is set to inches and then move to the bottom of the pane. Change the display units from inches to feet and set one inch to stands for three feet. The actual paper size of the document will not change, only the displayed values and units are adjusted by this setting. 
+
+Once you're done, return to the **Canvas** pane and set the **Width** and **Height** to **56 ft**.
+
+(image: furnitureShapesiPad1A.jpg)
+
+Next, you need to adjust your document's grid. Tap again that settings icon and go to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. 
+
+Open the **Grid Settings** pane, enter **0.1 ft** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: furnitureShapesiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap  the **Line** color well and replace the existing color with **R=54 G=65 B=80**, and then tap the **Fill** color well and drag the **Alpha** slider to **0%**, which will simply make the fill invisible. 
+
+ Pick the **Rounded Rectangle Tool**, focus on that  **Tool Options** pane and drag the  **Radius** slider to **8**. Move to your canvas and create a **2.6 x 2.6 ft** shape - the grid and the **Snap to Grid** feature will ease your work. Make sure that this shape stays selected and focus on the right side of your **Titlebar**. Tap the leftmost icon and move from the **Appearance** pane to the **Effects** pane. Tap the existing **Stroke** to get access to its attributes, drag the **Width** slider to **4 pt**, and then check the **Round Cap**, **Round Join** and **Center Alignment** buttons.
+ 
+You should also save the stroke color used for this shape as you are about to use it throughout the entire tutorial. Simply tap that **Stoke** color well from the **Effects**  pane (or the **Line** color well from your **Toolbar**) and then  tap and drag the active color to one of those palette slots. 
+
+(image: furnitureShapesiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle is still selected, open the **Styles** pane and simply tap that plus button to save the attributes used for your selected shape. Using this style, you will be able to quickly apply the appearance attributes of this rounded rectangle to other shapes.
+
+(image: furnitureShapesiPad3.jpg)
+
+
+
+##Step 4
+
+Reselect the **Rounded Rectangle Tool**, focus on  the **Tool Options** pane and drag that  **Radius** slider to **6**. Move to your canvas, create a **2 x 2 ft** shape and place it exactly as shown in the following image. 
+
+Make sure that this new shape stays selected, focus on the **Effects** pane and expand the existing **Stroke**. Drag the **Width**  slider to **3 pt** and then check the **Round Cap**, **Round Join** and **Center Alignment** buttons. Also, tap the color well of this **Stroke** and make sure that you're using your saved color. 
+
+With this new rounded rectangle still selected, move to the **Styles** pane and save a second style using that same plus button. 
+
+(image: furnitureShapesiPad4.jpg)
+
+
+
+##Step 5
+
+Using the **Line Tool**, create two, **0.3 ft**, vertical lines. Place them exactly as shown in the following image and  simply apply your second style from the **Styles** pane. 
+
+(image: furnitureShapesiPad5.jpg)
+
+
+
+##Step 6
+
+Go to your **Toolbar**, make the **Line** invisible and then select the **Fill** and apply your saved color.
+
+Pick  the **Ellipse Tool**,  create a **0.2 ft** circle and place it as shown in the following image. Tap and hold with a second finger while dragging to  easily create a perfect circle.
+
+(image: furnitureShapesiPad6.jpg)
+
+
+
+##Step 7
+
+Go to your **Toolbar**, make the **Fill**  invisible and then select the **Line** and apply your saved color.
+
+Using the **Line Tool**, create the three  lines shown in the following image.  Tap and hold with a second finger while dragging  to easily create a perfect, oblique or straight line. 
+
+For starters, apply your second style for these three paths. Pick the **Path Selection Tool**, focus on the **Tool Options** pane and activate the **Add to Selection** mode – this mode will allow you to easily select or add new shapes to an existing selection using simple taps.  Select the three lines made in this step and go to the **Effects** pane. Drag the  **Width**  slider to **2 pt** and then return to the **Styles** pane and save a third style using that same plus button. 
+
+(image: furnitureShapesiPad7.jpg)
+
+
+
+##Step 8
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Double tap the name of the existing layer and rename it &quot;_Shower 1_&quot;. Add a second layer using the plus button located in the top, right corner of the panel. Rename this new layer &quot;_shower 2_&quot; and make sure that it stays selected, as the new shapes you are about to create will go here.
+
+Pick the **Rounded Rectangle Tool** and set the  **Radius** to **8**. Move to your canvas, create a new **2.6 x 2.6 ft** shape and simply apply your first style from the **Styles** pane. 
+
+Return to the **Tool Options** pane and lower the  **Radius**  to **6**. Create a **2 x 2 ft** shape, place it as shown in the second image and apply your second style from the **Styles** pane. 
+
+Switch to the **Line Tool**  and create two, **0.3 ft**, vertical paths. Place these new lines as shown in the third image and apply your second style from the **Styles** pane. Using that same tool, create the four oblique paths  shown in the fourth image and apply your third style from the **Styles** pane.
+
+Finally, pick the **Ellipse Tool** and create a **0.2 ft** circle. Place this new shape as shown in the fifth image and fill it with your saved color. 
+
+(image: furnitureShapesiPad8.jpg)
+
+
+
+##Step 9
+
+Open the **Layers** panel and add a third layer. Rename it &quot;_shower 3_&quot; and make sure that it stays selected. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **4 pt**. Create a **2.6 x 2.6 ft** shape and fill it with a random yellow. Switch to the **Rectangle Tool**, create a **1.5 ft** square, fill it with a random blue and  place it exactly as shown in the second image. 
+
+Using the **Move Tool**, select both shapes made in this step, focus on the right side of your **Titlebar** and tap the middle icon. Go to the **Combine** pane and simply tap the **Subtract** command. In the end your resulting yellow shape should look like in the fourth image. 
+
+(image: furnitureShapesiPad9.jpg)
+
+
+
+##Step 10
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **30**. Move to your canvas, create a **2.6 x 2.6 ft** shape and place it above your yellow shape.
+
+ Select this new shape along with the yellow one, return to the **Combine** pane and tap the **Union** command. Make sure that the resulting shape is selected and simply apply your first style from the **Styles** pane.
+
+(image: furnitureShapesiPad10.jpg)
+
+
+
+##Step 11
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag the  **Radius** slider to **4**. Create a **2 x 2 ft** shape and fill it with a random yellow. Switch to the **Rectangle Tool** and  create a **1.2 ft** square, Fill it with a random blue and  place it exactly as shown in the second image. 
+
+Pick the **Path Selection Tool**, focus on the  **Tool Options** pane and activate the **Add to Selection** mode. Simply tap the two shapes made in this step to select them, go to the **Combine**  pane and  tap the **Subtract** command. Your resulting yellow shape should look like in the fourth image. 
+
+(image: furnitureShapesiPad11.jpg)
+
+
+
+##Step 12
+
+Pick the **Ellipse Tool**, create a **2 ft** circle  and place it above the yellow shape. Select your circle along with the yellow shape, return to the **Combine** pane and tap the **Union** command. Make sure that the resulting shape is selected and simply apply your second style from the **Styles** pane.
+
+(image: furnitureShapesiPad12.jpg)
+
+
+
+##Step 13
+
+Using the **Line Tool**, add the three line segments shown in the first image and apply your second style from the **Styles** pane. 
+
+Switch to the **Ellipse Tool**, create a **0.2 ft** circle, place it as shown in the second image and don't forget to fill it with your saved color.
+
+Reselect the **Line Tool**, add the three line segments shown in the third image and apply your third style from the **Styles** pane. 
+
+(image: furnitureShapesiPad13.jpg)
+
+
+
+##Step 14
+
+Open the **Layers** panel and add a fourth layer. Rename it &quot;_toilet 1_&quot; and make sure that it stays selected. 
+
+Using the **Ellipse Tool**, create a **1.1 x 1.6 ft** shape and apply your first style from the **Styles** pane. Focus on the top side of this oval shape, pick the **Path Selection Tool** and activate the **Convert** mode. Simply tap that top anchor point and drag those direction handles as shown in the second image. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+Switch to the **Rounded Rectangle Tool** and drag that  **Radius** slider to **5**. Move to your canvas, create a **1.5 x 0.5 ft** shape, place it as shown in the third image and don't forget to apply your first style from the **Styles** pane.
+
+(image: furnitureShapesiPad14.jpg)
+
+
+
+##Step 15
+
+Using the **Ellipse Tool**, create a **0.7 x 1.2 ft** shape, place it as shown in the first image and apply your second style. Keep focusing on this oval shape and pick the **Path Selection Tool**. Select the top anchor point and drag it **0.2 ft** down as shown in the second image. 
+
+Reselect the **Ellipse Tool**, create a **0.3 x 0.6 ft** shape, place it as shown in the third image and apply your second style. Switch to the **Path Selection Tool**, select the top  anchor point and drag it **0.1 ft** down. 
+
+(image: furnitureShapesiPad15.jpg)
+
+
+
+##Step 16
+
+Using the **Ellipse Tool**, create a **0.7 x 0.4** shape, place it as shown in the first image and don't forget to apply your second style from the **Styles** pane.
+
+Switch to the **Rounded Rectangle Tool**, create a **0.3 x 0.1 ft** shape, place it as shown in the second image and fill it with your saved color. 
+
+(image: furnitureShapesiPad16.jpg)
+
+
+
+##Step 17
+
+Open the **Layers** panel and make sure that your &quot;_toilet 1_&quot; layer is still selected. Tap that settings icon from the bottom, left corner of the panel and go to **Duplicate Layer**. Rename the newly added layer &quot;_toilet 2_&quot; and then use the **Move Tool** to select all its content. Simply drag the selected shapes to the right, roughly as shown in the first image. 
+
+Select the two shapes highlighted in the first image and remove them using the **X** button from the left side of your **Titlebar**. 
+
+Pick the **Rounded Rectangle Tool**, set the  **Radius** to **3**  and  create a **0.7 x 0.3 ft** shape. Place it as shown in the second image, apply your second style from the **Styles** pane, and then switch to the **Ellipse Tool**. Create two, **0.1 ft** circles, place them exactly as shown in the third image and don't forget to fill these tiny, new shapes with your color**.**
+
+(image: furnitureShapesiPad17A.jpg)
+
+
+
+##Step 18
+
+Open the **Layers** panel, add a new layer and rename it &quot;_doors_&quot;. Select this new layer and make sure that it lies in the top of the panel. 
+
+Using the **Rounded Rectangle Tool**, create a **3 x 0.2 ft** shape and apply  your first style from the **Styles** pane. Make three copies of this new rounded rectangle and spread them as shown in the first image. 
+
+Using the **Line Tool**, create a **5.8 ft**, horizontal path and apply that same style from the **Styles** pane. Make a new copy of the rounded rectangle created in this step and place it as shown in the third image. 
+
+Reselect the **Line Tool** and this time create a **0.2 ft**, horizontal path. Place it as shown in the third image and don't forget to apply your first style from the **Styles** pane. 
+
+(image: furnitureShapesiPad18.jpg)
+
+
+
+##Step 19
+
+Keep focusing on the shapes made in the previous step. Select the rounded rectangle and the tiny, horizontal path made in the finale of the previous step and then **Group** them using the **Group** command from the **Arrange** pane. Make sure that this group remains selected, focus on the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and the **Paste** buttons to easily duplicate your selected group. 
+
+Select the newly made group,  place it as shown in the first image, and then flip it horizontally using the **Flip Horizontally** button from the **Geometry** pane. 
+
+(image: furnitureShapesiPad19.jpg)
+
+
+
+##Step 20
+
+Keep focusing on the two groups made in the previous step. Select the right one and pick the **Rotate Tool**. Use a simple tap to place the reference point in the top, right corner of your selected group and then tap and drag to rotate your selection **30 degrees**. Tap and hold with a second finger while dragging to constrain the rotation to **15 degrees** increments. 
+
+(image: furnitureShapesiPad20.jpg)
+
+
+
+##Step 21
+
+Duplicate the shapes that make up your double door. Select the copies and drag them down about as shown in the first image. Focus on these copies,  select the left group of shapes and pick the **Rotate Tool**. Place the reference point in the top, left corner and then rotate your selection **-30 degress** as shown below. 
+
+(image: furnitureShapesiPad21.jpg)
+
+
+
+##Step 22
+
+Pick the **Arc Tool ** and create a perfect, **3 ft** arc.   Tap and hold with a second finger while dragging to easily create a perfect arc. Apply your second style for this new path and open the **Appearance** pane. 
+
+Open the **Dash Editor** pane from the **Dash** pane and   simply enter **0 pt** in the first **Dash** box and **2 pt** in the first **Gap** box. In the end you should have a neat dotted path as shown in the second image. 
+
+(image: furnitureShapesiPad22.jpg)
+
+
+
+##Step 23
+
+
+Make a copy of the group that makes up your door and place it next to the dotted path as shown in the first image. Select this group along with the dotted path and **Group** them using that same **Group** command from the **Arrange** pane. Flip or rotate  this group however you want. 
+
+(image: furnitureShapesiPad23.jpg)
+
+
+
+##Step 24
+
+Move to the **Layers** panel and add a new layer. Rename it &quot;_sink 1_&quot; and make sure that it stays selected.
+
+Using the **Ellipse Tool**, create a **1.6 ft** circle and fill it with a random yellow. Switch to the **Path Selection Tool** and keep focusing on this new shape. Select the top anchor point and drag it **1 ft** up. 
+
+Pick the **Rectangle Tool**, create a **1. 6 x 1.4 ft** shape, fill it with a random blue and place it as shown in the third image. Select both shapes made in this step, go to the **Combine** pane and tap the **Subtract** command. Make sure that the resulting shape is selected and simply apply your first style from the **Styles** pane. 
+
+(image: furnitureShapesiPad24.jpg)
+
+
+
+##Step 25
+
+Using the **Ellipse Tool**, create a **1 x 0.7 ft** shape, place it as shown in the first image and apply your second style. Create two, **0.1 ft** circles, place them as shown in the first image and fill both shapes with your saved color. 
+
+Add a third, **0.1 ft** circle, fill it with the same color and place it as shown in the third image. Select this tiny, new circle along with the oval shape made in the beginning of the step, go to the **Arrange** pane and simply tap the **Align Vertical** button. 
+
+(image: furnitureShapesiPad25.jpg)
+
+
+
+##Step 26
+
+Using the **Rounded Rectangle Tool**, create a **0.2 x 0.1 ft** shape, place it as shown in the first image and fill it with your color. Switch to the **Line Tool**, create a **0.3 ft**, vertical path, place it as shown in the second image and simply apply your second style. 
+
+Move to the **Layers** panel and duplicate your &quot;_sink 1_&quot; layer. Select all the shapes from the newly added layer and drag them down, about as shown in the third image. Also, rename your new layer &quot;_sink 1 Large_&quot;.
+
+(image: furnitureShapesiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your &quot;_Sink 1 Large_&quot; layer is still selected and focus on the main shape. Pick **Path Selection Tool** and  activate the **Add to Selection mode**. Select the three anchor points highlighted in the first image and simply drag them **0.4 ft** down as shown in the second image. 
+
+(image: furnitureShapesiPad27.jpg)
+
+
+
+##Step 28
+
+Use the **X** button from the left side of your **Titlebar** to delete the oval shape that lies inside your  &quot;_Sink 1 Large_&quot; layer. Pick the **Ellipse Tool**, create a **1 ft** circle and place it as shown in the first image. Don't forget to apply the second style for this new shape.
+
+ Focus on the top side of your new circle and pick the **Path Selection Tool**. Select that anchor point and simply drag it **0.1 ft** up as shown in the second image. 
+ 
+Select that tiny, **0.1 ft** circle  and move it down as shown in the second image. 
+
+(image: furnitureShapesiPad28A.jpg)
+
+Using the  tools, techniques and styles mentioned in the previous step you can create a variety of sink symbols as shown in the following image. 
+
+(image: furnitureShapesiPad28B.jpg)
+
+
+
+##Step 29
+
+Using the same tool, techniques and styles mentioned in the previous step you can create pieces of a sofa and combine them to create bigger sofas.
+
+(image: furnitureShapesiPad29A.jpg)
+
+Or, you can create pieces of a closet and combine them to create bigger closets.
+
+(image: furnitureShapesiPad29B.jpg)
+
+Or, you can create any of the symbols shown below.
+
+(image: furnitureShapesiPad29C.jpg)
+
+
+
+##Step 30
+
+Finally, let's learn how to save your symbols inside a shape library. First, open the **Shape Libraries** panel using the button from your **Toolbar**. 
+
+Tap the plus button from the bottom, right corner of the panel to create a new shape library and then tap that **Edit** button. Tap your newly added shape library, rename it as you wish, and then tap the **Done** button.
+
+(image: furnitureShapesiPad30.jpg)
+
+
+
+##Step 31
+
+Go to  the **Layers** panel and select the &quot;_shower 1_&quot; layer. Open the **Shape Libraries** panel, tap your new shape library to open it. Select all the shapes from your active layer and **Group** them using that same **Group** command from the **Arrange** pane. Simply tap the plus button that lies in the bottom, right corner of the **Shape Libraries**  panel and your selected group will be immediately saved inside the active shape library. 
+
+Your shape libraries and their content are  always available, so you can easily add them inside any new document. You can also import shape libraries using the **Import** button from the **Documents Browser**. 
+
+Finally, feel free to add the rest of the symbols created so far and don't forget to **Group** the existing shapes and paths before you tap that plus button. 
+
+(image: furnitureShapesiPad31.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: furnitureShapesiPad0.jpg)
+
+----
+
+Title: iPad

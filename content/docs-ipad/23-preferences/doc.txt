@@ -1,0 +1,29 @@
+Title: Preferences
+
+----
+
+Text: 
+
+# Preferences
+
+Tap the cogwheel button from the _**Titlebar**_ to open the _**Preferences panel**_. 
+
+Use the Toolbar buttons to move the _**Toolbar**_ to the left or right side of your canvas. 
+
+(video: preferences1-ipad.mp4 width: 750)
+
+Tap the _** Selection Color**_ color well to easily change the color used for displaying selected points, paths, and the bounding box around selected objects. 
+
+(video: preferences2-ipad.mp4 width: 750)
+
+The _**Loupe**_ is the round, zoomed area that shows up whenever you create or move a shape, path or anchor point. It can be really helpful for intricate designs.
+
+Tap _**Customize Gestures**_ and set the up the three custom gestures to suit your needs. 
+
+(video: preferences3-ipad.mp4 width: 750)
+
+# {#outline-mode}
+
+Enable the _**Outline Mode**_ setting to draw shapes and objects (new or already created) only as simple outlines. This can significantly improve performance when working on large complex documents. With this setting disabled, objects are fully redrawn as they are being moved, resized, rotated, etc.
+
+(video: preferences4-ipad.mp4 width: 750)

@@ -1,0 +1,14 @@
+Title: Copy/Paste Styles
+
+----
+
+Text: 
+
+# Copy/Paste Styles
+
+Besides the _**Styles panel**_, appearance attributes can be easily passed from one object to another using quick menu commands. 
+
+Choose **Edit > Copy Style** [**⌥** - **⌘** - **C**] from the menu bar to copy the style of a selected object and **Edit > Paste Style** [**⌥** - **⌘** - **V**] to paste a copied style to any other object. 
+Alternatively, you can simply right click on the canvas and go to **Copy Style** or **Paste Style**.
+
+(video: copypastestyles1.mp4 width:750)

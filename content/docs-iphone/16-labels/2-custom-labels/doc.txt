@@ -1,0 +1,17 @@
+Title: Custom Labels
+
+----
+
+Text: 
+
+# Custom Labels
+
+A few special variables can be used to create custom text labels that include dimension values. For example, if you wish to show both the width and height of a rectangle in one label, use the string: _**%width% x %height%**_.
+
+ (image: customlabels1-iphone.jpg width:720)
+
+ Use the following four variables in custom text labels to show dimension values for your object: _**%length%**_, _**%width%**_, _**%height%**_ or _**%area%**_. 
+
+ (image: customlabels2-iphone.jpg width:720)
+
+> Tip: Variables can be combined with simple text: **AREA: %area%**.

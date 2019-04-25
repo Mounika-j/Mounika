@@ -1,0 +1,145 @@
+Title: Welcome
+
+----
+
+Text: 
+
+# Welcome
+
+This user guide will help you become familiar with the powerful set of drawing tools and features available in Graphic, getting you up and running quickly.
+
+Graphic has been designed from the start to have a beautiful, clean, and easy to use interface – with the goal of creating a powerful drawing application which takes advantage of the native features in **Mac OS X** and **iOS**, and is both fun and rewarding to use.
+
+(image: welcome1-ipad.jpg width: 750)
+
+Graphic was created from the ground-up as a native Mac OS X application, fully taking advantage of UIKit, Core Graphics, Core Text, and many of the powerful technologies in iOS.
+
+Graphic is also available on (link: https://itunes.apple.com/us/app/idraw/id404705039?mt=12 text:**Mac**) and (link:https://itunes.apple.com/us/app/graphic-vector-illustration/id1037960018?ls=1&mt=8 text:**iPhone**). Check the detailed user guides to get familiarized with the different interfaces and their features. 
+Click one of the links below to open the desired used guide:
+
+<a href="http://www.graphic.com/docs/welcome">(image: welcome0a-ipad.jpg width: 750)</a>
+
+<a href="http://www.graphic.com/docs-iphone/welcome">(image: welcome0c-ipad.jpg width: 750)</a>
+
+
+
+Graphic is a feature-packed (link: docs-ipad/getting-started text: _**vector**_) illustration application, with all the tools you need to create everything from intricate technical designs to beautiful works of art. Combining Graphic's tools, effects & features with your imagination, you can create:
+
+ &nbsp;
+#### Complex Illustrations
+
+Graphic can be a pretty powerful tool even when you are looking to create really detailed illustrations. Working on these type of designs can be a bit time consuming and getting used with Graphic's (link: docs-ipad/gestures text: _**custom gestures**_) will save you some time.
+
+You can use the (link: docs-ipad/paths/creating-paths text: _**Pen tool**_) to create complex paths, or the (link: docs-ipad/paths/freehand-paths text: _**Pencil tool**_) to create freehand paths. Objects can be filled with vivid (link: docs-ipad/colors text: _**colors**_), (link: docs-ipad/gradients text: _**gradients**_), (link: docs-ipad/patterns text: _**patterns**_) or even (link: docs-ipad/images text: _**images**_). Always use the (link: docs-ipad/brushes/creating-brush-strokes text: _**Brush tool**_) to create sleek calligraphic brushes.
+
+(image: welcome2-ipad.jpg width: 750)
+ 
+
+
+ &nbsp;
+#### Technical Designs
+
+Whether you’re looking to create a classic floor plan, a product blue-print, a fashion technical sketch or any other type of technical designs, Graphic can help.
+
+You can easily create (link: docs-ipad/shapes/arrowed-lines text: _**arrowed lines**_)  or (link: docs-ipad/shapes/dimension-lines text: _**dimension lines**_). (link: docs-ipad/labels text: _**Labels**_) that indicate the width, length, height or area of an object can be applied on any type of shape or path. Additionally, any type of text can be added as a label. You can set-up a colored canvas with a complex grid and easily (link: docs-ipad/exporting#entire-canvas text: _**export**_) them along with your final design.
+
+(image: welcome3-ipad.jpg width: 750)
+ 
+
+
+ &nbsp;
+#### Logos & Badges
+
+Creating a great logo can be a lot harder than people might think. Graphic comes with all the tools and features that you may need to create a logo for your company.
+
+You can easily (link: docs-ipad/adjusting-objects/rotating-objects text: _**rotate**_), (link: docs-ipad/adjusting-objects/scaling-objects text: _**scale**_) and (link: docs-ipad/adjusting-objects/slanting-objects text: _**slant**_) objects or points. You can always add (link: docs-ipad/text/text-on-a-path text: _**text on a path**_) and adjust or stylize it whenever you wish. Using (link: docs-ipad/paths/path-commands text: _**path commands**_) or (link: docs-ipad/adjusting-objects/boolean-commands text: _**boolean commands**_) you can easily build more complex objects.
+
+(image: welcome4-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### UI Design
+
+Using Graphic you can easily design any type of interface with your user's needs and expectations in mind. You can create anything from minimal pop-up screens to full app designs.
+
+You can use the (link: docs-ipad/canvas/grid text: _**grid**_) and the (link: docs-ipad/canvas/smart-guides text: _**smart guides**_) along with the (link: docs-ipad/canvas/snapping text: _**grid snapping**_) and the (link: docs-ipad/canvas/snapping text: _**point snapping**_) features to create pixel perfect shapes and to easily align them.
+
+(image: welcome5-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### Pixel-Perfect Icons
+
+Whether you’re looking to create a set of flat icons, some line icons or a detailed app icon, Graphic is here to help. Your icons remain fully editable and can be adjusted anytime.
+
+Using one of the (link: docs-ipad/shapes text: _**shape tools**_), you can create lines, ellipses, rectangles, polygons and more. You can instantly (link: docs-ipad/aligning-objects text: _**align**_) or (link: docs-ipad/aligning-objects/distributing-objects text: _**distribute**_) multiple objects and organize them as you wish.
+
+(image: welcome6-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### Intricate Diagrams
+
+Creating neat diagrams in Graphic is not that difficult and can be useful for visual representations of information, documenting facts and enhancing communication, learning or productivity.
+
+Use the (link: docs-ipad/text/creating-text text: _**Text tool**_) to add text boxes or large text fields and stylize them using the (link: docs-ipad/text/customizing-text text: _**Text pane**_). Apply labels and easily stylize them using the same (link: docs-ipad/labels/stylizing-labels text: _**Text Style pane**_).
+
+(image: welcome7-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### Sleek Infographics
+
+A great infographic design will transform complex information and data into graphics that are both easy to grasp and eye catching. Graphic comes with all the tools and features that you may need to create your own infographics.
+
+Use the (link: docs-ipad/styles text: _**Styles pane**_) to store and re-use the appearance attributes of any object. 
+
+(image: welcome8-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### Vibrant Charts
+
+Graphic’s tools and features can also be used to graphically represent data using line charts, bar charts, radial charts, radar charts or even pie charts.
+
+You can use the (link: docs-ipad/shapes/arcs text: _**Arc tool**_) to create a simple pie chart design or pick one of the (link: docs-ipad/shapes text: _**shape tools**_) to create bar charts, line charts or radar charts. Easily add shapes from the built-in (link: docs-ipad/shape-libraries text: _**shape libraries**_) or create your own.
+
+(image: welcome9-ipad.jpg width: 750)
+
+
+
+&nbsp;
+#### Seamless Patterns
+
+Graphic comes with a variety of preset patterns which are displayed in the (link: docs-ipad/patterns/pattern-palette text: _**Pattern Palette**_). Creating complex patterns can be a bit challenging, but the final result will be quite impressive. 
+
+You can (link: docs-ipad/patterns/creating-patterns text: _**create simple patterns**_) or intricate, seamless patterns. Patterns can be easily adjusted using the (link: docs-ipad/patterns/customizing-patterns text: _**Pattern panel**_) or the (link: docs-ipad/patterns/pattern-tool text: _**Pattern tool**_). New patterns can be saved inside that same (link: docs-ipad/patterns/pattern-palette text: _**Pattern Palette**_) for later use. 
+
+(image: welcome10-ipad.jpg width: 750)
+
+
+ 
+ &nbsp;
+#### Text Effects
+
+Text in Graphic can be stylized like any other object and most importantly, it remains fully editable. Meaning that you can add a bunch of effects to a piece of text and edit its content without losing the appearance attributes.
+
+Create simple text boxes using the (link: docs-ipad/text/creating-text text: _**Text tool**_). Use the (link: docs-ipad/text/customizing-text text: _**Text pane**_) to adjust the settings of your text or the (link: docs-ipad/effects text: _**Effects pane**_) to stylize it.
+
+(image: welcome11-ipad.jpg width: 750)
+
+
+
+ &nbsp;
+#### Character Design
+
+Using Graphic's tools and features and bit of creativity, you can design your own character designs from scratch. Create distinctive characters using vibrant colors, complex shapes and smooth (link: docs-ipad/effects/strokes text: _**lines**_).
+
+You can use (link: docs-ipad/adjusting-objects/masking-objects text: _**masking**_) techniques to easily hide a portion from a group/object. 
+
+(image: welcome12-ipad.jpg width: 750)

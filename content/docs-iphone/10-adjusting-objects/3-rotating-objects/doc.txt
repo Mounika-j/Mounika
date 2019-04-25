@@ -1,0 +1,37 @@
+Title: Rotating Objects
+
+----
+
+Text: 
+
+# Rotating Objects
+
+Choose the _**Rotate tool**_ to rotate objects around a reference point.
+
+To rotate one or more objects, first select the objects to be rotated and then choose the _**Rotate tool**_. With the Rotate tool active, tap and drag anywhere on the canvas to rotate the objects clockwise or counterclockwise.
+
+Tap and hold with a second finger while dragging to constrain the rotation to 15˚ increments.
+
+(video: rotatingobjects1-iphone.mp4  width: 750)
+
+Objects can also be rotated numerically using the _**Tool pane**_. Set a rotation angle in the field and tap _**Rotate**_ to apply the rotation. Tapping _**Copy**_ will duplicate the objects first and then apply the rotation to the copied objects.
+
+(video: rotatingobjects2-iphone.mp4  width: 750)
+
+Alternatively, objects can be rotated numerically using the _**Rotation**_ settings from the _**Geometry pane**_ of the Properties panel.
+
+(video: rotatingobjects3-iphone.mp4  width: 750)
+
+By default, the reference point will be located in the center of the selected objects. To use a different location for the reference point, drag it or simply tap (without dragging) to set it at that new location.
+
+(video: rotatingobjects4-iphone.mp4  width: 750)
+
+# {#rotate}
+
+Objects can also be rotated manually using Move tool's _**bounding box**_.
+
+Choose the _**Move tool**_ and make a selection. The orange draggable handles at the sides of the bounding box can be used to rotate the selected objects. Tap and drag one of these handles to easily rotate objects.
+
+(video: rotatingobjects5-iphone.mp4  width: 750)
+
+Tap and hold with a second finger while dragging to constrain the rotation to 15˚ increments.

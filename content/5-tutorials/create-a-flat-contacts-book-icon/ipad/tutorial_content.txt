@@ -1,0 +1,341 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat contacts book icon in Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Next, you will learn how to add color and subtle effects for these shapes using mostly the Effects pane. Finally, you will learn how to add some simple text for your design.
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** and the **Height** to **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: contactsBookiPad1A.jpg)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: contactsBookiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on your **Toolbar**, tap  the **Fill** color well and set the  color to **R=181 G=137 B=65** . Tap the **Line** color well and drag the **Alpha** slider to **0%** to  simply make your **Line** invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on that **Tool Options** pane and drag the  **Radius** slider to **10**. 
+
+Move to your canvas and create a **130 x 135 px** shape — the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: contactsBookiPad2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the **Line** is still invisible and  set the **Fill** color to **R=29 G=119 B=180**. 
+
+Reselect the **Rounded Rectangle Tool**, create a **130 x 50 px** shape and place it exactly as shown in the following image. Use the grid that lies in the back as a reference. 
+
+(image: contactsBookiPad3.jpg)
+
+
+
+##Step 4
+
+Pick  the **Move Tool** and  select your blue shape. Focus on the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. Use the **Copy** and the **Paste in Place** commands to add a copy of your blue shape in the same place. Using the **Move Tool**, select this  copy and drag it **5 px** up as shown in the following image. 
+
+Switch to the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Select both blue shapes, focus on the right side of your **Titlebar** and tap that middle icon. Move to the **Combine** pane and simply tap the **Subtract** command. The resulting shape should look like in the second image. 
+
+(image: contactsBookiPad4.jpg)
+
+
+
+##Step 5
+
+Return to your **Toolbar**, make sure that the **Line** is still invisible and  set the **Fill** color to **R=255 G=185 B=0**. Using the **Rectangle Tool**, create a **15 px** square and place it as shown in the following image. 
+
+(image: contactsBookiPad5.jpg)
+
+
+
+##Step 6
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select your yellow square along with that blue shape, go to the **Combine**  pane and tap the **Subtract** command. The resulting blue shape should look like in the second image. 
+
+(image: contactsBookiPad6.jpg)
+
+
+
+##Step 7
+
+Duplicate your blue shape using the **Copy** and the **Paste** commands from that **Edit** pane. Select the copy and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+(image: contactsBookiPad7.jpg)
+
+
+
+##Step 8
+
+Get back to your **Toolbar**. This time make  the **Fill**  invisible and  set the **Line** color to **R=29 G=119 B=180**. Pick the **Rounded Rectangle Tool**, create a **25 x 20 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. Move to the **Effects** pane and tap the existing **Stroke** to expand it. Drag that **Width** slider to **5 pt** and check the **Inside Alignment** button. 
+
+(image: contactsBookiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that the rounded rectangle made in the previous step is still selected, focus on the **Path** pane and tap the **Outline Stroke** command. 
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and  choose a random yellow for the **Fill**. Using the **Rectangle Tool**, create a **15 x 20 px** shape and place it as shown in the second image. 
+
+(image: contactsBookiPad9.jpg)
+
+
+
+##Step 10
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select the two shapes made in the previous step, focus on the **Combine**  pane and tap the **Subtract** command. The resulting shape should look like in the second image. 
+
+(image: contactsBookiPad10.jpg)
+
+
+
+##Step 11
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select your three, blue shapes, focus on the **Combine**  pane and tap the **Union** command. In the end your blue shape should look like in the second image. 
+
+(image: contactsBookiPad11.jpg)
+
+
+
+##Step 12
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to white (**R=255 G=255 B=255**). 
+
+Using the **Rounded Rectangle Tool**, create a **100 x 45 px** shape and place it as shown in the first image. Make sure that this new shape stays selected and use the same **Copy** and **Paste in Place** commands to add a copy of your selection in the same place. Using the **Move Tool**, select this copy and drag it **10 px** up as shown in the second image. 
+
+Switch to  the **Path Selection Tool** and activate the **Add to Selection** mode. Select both  shapes made in this step, focus on the **Combine**  pane and tap the **Subtract** command. Your resulting white shape should look like in the third image. 
+
+(image: contactsBookiPad12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and  choose a random color for the **Fill**. Using the **Rectangle Tool**, create a **15 px** square and place it as shown in the first image. 
+
+Switch to the **Path Selection Tool** and activate the **Add to Selection** mode. Select this tiny square along with your white shape, go to the **Combine**  pane and tap the **Subtract** command. In the end your white shape should look like in the third image. 
+
+(image: contactsBookiPad13.jpg)
+
+
+
+##Step 14
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to white. 
+
+Using the **Rounded Rectangle Tool**, create a **50 x 10 px** shape and place it as shown in the first image. Switch to the **Path Selection Tool** and activate the **Add to Selection** mode. Select this rounded rectangle along with the other white shape, go to the **Combine**  pane and tap that **Union** command. 
+
+Move to the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** pane. Tap the existing layer to expand it and simply drag your white shape below the blue one. 
+
+(image: contactsBookiPad14.jpg)
+
+
+
+##Step 15
+
+Return to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to black (**R=0 G=0 B=0**). 
+
+Pick the **Rectangle Tool**, create a **25 x 135 px** shape and place it as shown in the first image. Select your brown rounded rectangle and add a copy in the same place using the **Copy** and the **Paste in Place** commands from the **Edit** pane. 
+
+Switch to the **Path Selection Tool** and activate that **Add to Selection** mode. Select both shapes made in this step, open the **Combine**  pane and tap the **Intersect** command. In the end your black shape should look like in the third image. 
+
+(image: contactsBookiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your black shape is still selected and focus on the **Effects** pane. First, tap the **Fill** color well and drag that **Alpha** slider to **50%**. Next, tap the cogwheel button of the **Fill**. Tap the **Blend Mode** command, select  **Soft Light** from that list, and then tap that **Done** button. 
+
+Open  the **Layers** pane and simply drag this black shape below the blue  and  white ones. 
+
+(image: contactsBookiPad16.jpg)
+
+
+
+##Step 17
+
+Get back  to your **Toolbar**, make sure that the **Line** is invisible and that the **Fill** color is set to black. 
+
+Using the **Rectangle Tool**, create a **25 x 20 px** shape and place it as shown in the first image. Select your blue shape and add a copy in the same place using the **Copy** and the **Paste in Place** commands.
+
+Switch to the **Path Selection Tool** and activate the **Add to Selection** mode. Select the copy of your blue shape along with that black rectangle, go to the **Combine** pane and tap the **Intersect** command. 
+
+Make sure that your newly made shape stays selected, move to the **Effects** pane and focus on the existing **Fill**. Change its **Blending Mode** to **Soft Light** and then tap the color well and drag that **Alpha** slider to **50%**.
+
+(image: contactsBookiPad17.jpg)
+
+
+
+##Step 18
+
+Select your blue shape and focus on the **Effects** pane. First, tap that  **Fill** color well and replace the existing color with **R=171 G=127 B=56**.
+
+ Next, check the round checkbox of the existing **Inner Shadow** effect to activate it. Enter **0 pt** in the **X Offset** box and **-2 pt** in the **Y Offset**  box, and then drag that **Blur** slider to **0**. Change the **Blend Mode** to **Soft Light** and then tap the color well of this effect. Drag the **Alpha** slider to **10%** and make sure that the color is set to black.
+
+(image: contactsBookiPad18.jpg)
+
+
+
+##Step 19
+
+Select your white shape and focus on the **Effects** pane. First, tap the color well of the existing **Fill** and replace that white with **R=185 G=185 B=187**. Next, activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBookiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your grey shape is still selected and keep focusing on the **Effects** pane. Simply tap the cogwheel button of the existing **Inner Shadow** effect and go to **Duplicate**. 
+
+Select the newly added effect, expand it and  enter the attributes shown in the following image. 
+
+(image: contactsBookiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your grey shape is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner Shadow** effect. 
+
+Select the newly added effect and  enter the attributes shown in the following image. 
+
+(image: contactsBookiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your grey shape is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Inner Shadow** effect.
+
+Select the newly added effect and enter the attributes shown in the following image. 
+
+(image: contactsBookiPad22.jpg)
+
+
+
+##Step 23
+
+
+Return to your **Toolbar**, make sure that the **Line** is still invisible and then choose a random blue for the **Fill**. Pick the **Rounded Rectangle Tool**, create a **25 x 10 px** shape and place it as shown in the first image. 
+
+Get back to your **Toolbar** and replace the existing **Fill** color with a random yellow. Switch to the **Rectangle Tool**, create a **10 px** square and place it as shown in the second image. 
+
+(image: contactsBookiPad23.jpg)
+
+
+
+##Step 24
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select the two shapes made in the previous step, focus on the **Combine** pane and tap the **Subtract** command. Your resulting blue shape should look like in the second image. 
+
+Make sure that it stays selected and focus on the **Effects** pane. Simply uncheck the  round checkbox of the existing **Fill** to make it invisible. Activate the  **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBookiPad24.jpg)
+
+
+
+##Step 25
+
+Select your brown rounded rectangle and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image.
+
+(image: contactsBookiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: contactsBookiPad26.jpg)
+
+
+
+##Step 27
+
+Return to your **Toolbar**, make sure that the **Line** is still invisible and  set the **Fill** color to **R=214 G=150 B=0**. 
+
+Using the **Rounded Rectangle Tool**, create a **10 x 30 px** shape and place it as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBookiPad27.jpg)
+
+
+
+##Step 28
+
+Return to your **Toolbar** and replace the existing **Fill** color with **R=48 G=181 B=79**. Using the **Rounded Rectangle Tool**, create a new, **10 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: contactsBookiPad28.jpg)
+
+
+
+##Step 29
+
+Duplicate your green rounded rectangle and select the copy. Place it as shown in the following image and replace the green with **R=79 G=181 B=217**.
+
+(image: contactsBookiPad29.jpg)
+
+
+
+##Step 30
+
+Duplicate your blue rounded rectangle and select the copy. Place it as shown in the following image and replace the blue with **R=200 G=200 B=198**.
+
+Make sure that this grey rounded rectangle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: contactsBookiPad30.jpg)
+
+
+
+##Step 31
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select the four rounded rectangles made in the last four steps, go to the **Arrange** pane and simply drag that **Order** slider to the left to send your selected shapes in the back.
+
+(image: contactsBookiPad31.jpg)
+
+
+
+##Step 32
+
+Pick  the **Text Tool** and simply  double tap inside that new field. 
+
+Select the **Arial Rounded MT Bold** font, change the text color to **R=155 G=105 B=40** and set the **Size** to **45 pt**.  Type the &quot;_@_&quot; symbol and place it roughly as shown in the following image. 
+
+(image: contactsBookiPad32.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: contactsBookiPad0.jpg)
+
+----
+
+Title: iPad

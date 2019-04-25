@@ -1,0 +1,263 @@
+Text: 
+
+In the following tutorial you will learn how to create a set of outdoor floor plan symbols and how to save them inside a shape library. 
+
+For starters you will learn how to setup a simple grid and how to use the canvas scale settings. Moving on you will learn how to take full advantage of the Snap to Grid feature and how to work with basic tools. 
+
+You will learn how to easily save colors and styles and how to use them throughout the tutorial. Finally, you will learn how to create a new shape library, how to save your symbols and how to import or export existing shape libraries. 
+
+
+
+
+
+##Step 1
+
+Tap the plus button from the top left corner of the screen, tap the the **Create Document** button and then choose the **Grid** document style.
+
+(image: furnitureShapesSecondiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar** and tap that ruler icon to open the **Properties** panel. Go to the **Canvas** pane and open the **Units &amp; Scale** pane. 
+
+We're about to create a ‘to-scale’ technical design using the canvas scale settings. First, make sure that the **Base Unit** is set to inches and then move to the bottom of the pane. Change the **Display Unit** from inches to feet and set one inch to stands for three feet. The actual paper size of the document will not change, only the displayed values and units are adjusted by this setting. 
+
+Once you're done return to the **Canvas** pane and set the **Width** and **Height** to **56 ft**.
+
+(image: furnitureShapesSecondiPhone1B.jpg)
+
+Next, you need to adjust your document's grid. Re-open the **Properties** panel and this time go to the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**.
+ 
+Open the **Grid Settings** pane, enter **0.1 ft** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: furnitureShapesSecondiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Line** color well and replace the existing color with **R=54 G=65 B=80** and then tap the **Fill** color well and drag the **Alpha** slider to **0%**, which will simply make the fill invisible. 
+
+ Pick the **Line Tool**, move to your canvas and create a **4 ft** vertical line - the grid and the **Snap to Grid** feature will ease your work.Tap and hold with a second finger while dragging to easily create a perfect path. 
+
+(image: furnitureShapesSecondiPhone2A.jpg)
+
+Make sure that this path stays selected and focus on the right side of your **Titlebar**. Tap the leftmost icon to open the **Appearance** panel, go to the **Effects** pane and then tap the existing **Stroke** to expand it. Drag the **Width**  slider to **4 pt** and then check the **Round Cap**, **Round Join** and **Center Alignment** buttons. 
+
+You should also save the stroke color used for this shape as you are about to use it throughout the entire tutorial. Simply tap the **Stroke** color well from the **Effects**  pane (or the **Line** color well from your **Toolbar**), switch to the **Color Palette** and then drag your active color to one of the palette slots.
+
+(image: furnitureShapesSecondiPhone2B.jpg)
+
+##Step 3
+
+Make sure that your line is still selected, open the **Styles** pane from the **Appearance** panel and simply tap that plus button to save the attributes used for your selected shape. Using this style, you will be able to quickly apply the appearance attributes of this path to other paths.
+
+(image: furnitureShapesSecondiPhone3.jpg)
+
+
+
+##Step 4
+
+Make sure that your path is still selected, pick the **Rotate Tool** and focus on the newly opened **Tool Options** pane. Set the **Angle** to **45 degrees** and then tap the **Copy** button three times. 
+
+Pick the **Move Tool** and  select all four paths made so far. Go to the **Combine** pane from the **Properties** panel and tap the **Make** command. 
+
+(image: furnitureShapesSecondiPhone4.jpg)
+
+
+
+##Step 5
+
+Return to the **Grid** pane, disable the **Snap to Grid**  feature and enable the **Snap to Points** feature. 
+
+Using the **Pen Tool**, create a simple octagon as shown in the following image. Select this new shape and apply your style from the **Styles** panel. 
+
+ (image: furnitureShapesSecondiPhone5.jpg)
+
+
+
+##Step 6
+
+Enable the **Snap to Grid**  feature and disable the **Snap to Points** feature. Using the **Ellipse Tool**, create a **0.8 ft** circle, place it as shown in the first image and apply your style from the **Styles** panel. 
+
+Make sure that this new shape stays selected and simply tap and hold anywhere on your canvas to open that context menu. Use the **Copy** and the **Paste in Place** commands to add a copy of your selected circle in the same place. 
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode - this mode will allow you to easily select more than one object and can be really useful when you're dealing with overlapping shapes.  Simply tap the copy of the circle made in this step along with the compound path, open the **Combine** pane and tap the **Subtract** command. 
+
+(image: furnitureShapesSecondiPhone6.jpg)
+
+
+
+##Step 7
+
+Pick the **Line Tool** and  create a **3.9 ft** path. Place it as shown in the first image and apply your style from the **Styles** panel. 
+
+Switch to the **Ellipse Tool** and create a **0.2 ft** circle. Place it as shown in the second image and apply that same style. 
+
+(image: furnitureShapesSecondiPhone7.jpg)
+
+
+
+##Step 8
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag that  **Radius** slider to **6**. Create a **1.2 x 1.2 ft**, place it as shown in the first image and then apply your style from the **Styles** panel. 
+
+Make sure that the **Rounded Rectangle Tool** is still active, return to the **Tool Options** pane and drag the  **Radius** slider to **2**. Create a **0.4 x 0.4 ft** shape, place it as shown in the second image and apply that same style. Make sure that this shape stays selected focus on the **Effect**  pane. Select the existing **Stroke**, drag that  **Width** slider to **3 pt**, and then move to the **Styles** panel and save a second style using that same plus button. 
+
+(image: furnitureShapesSecondiPhone8.jpg)
+
+
+
+##Step 9
+
+Pick the **Line Tool**  and create two **0.4 ft** vertical paths. Place these straight lines as shown in the first image and apply your second style from the **Styles** panel.
+
+Switch to the **Ellipse Tool**, create a **0.2 ft** circle, place it as shown in the second image and fill it with your saved color. 
+
+(image: furnitureShapesSecondiPhone9A.jpg)
+
+Using the same tools, techniques and styles you can create a variety of umbrella symbols as shown in the following image. 
+
+(image: furnitureShapesSecondiPhone9B.jpg)
+
+
+##Step 10
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Use that plus button from the bottom of the panel to add a new layer and make sure it  stays selected, as the new shapes you are about to create will go here.
+
+Using the **Ellipse Tool**, create a **0.4 ft** circle and apply your second style from the **Styles** panel. 
+
+(image: furnitureShapesSecondiPhone10A.jpg)
+
+Switch to the **Path Selection Tool**, select the top anchor point and drag it **0.5 ft** up as shown in the second image. 
+
+Make sure that the **Path Selection Tool** is still active, focus on the **Tool Options** pane and select the **Convert** mode. Tap the anchor point that you moved a few moments ago and then return to the **Tool Options** pane and activate the default mode. Focus on the left and right anchor points and drag the top handles as shown in the fourth image. Once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: furnitureShapesSecondiPhone10B.jpg)
+
+
+
+##Step 11
+
+Using the **Line Tool**, create a **0.2 ft** vertical path and place it as shown below. Apply one of your styles and then select the **Stroke** from the **Effects** pane. Drag the **Width**  slider to **2 pt** and then move to the **Styles** pane and save your third style using that same plus button. 
+
+(image: furnitureShapesSecondiPhone11.jpg)
+
+
+
+##Step 12
+
+Select the two shapes that make up your leaf symbol and go to the **Path Tools** pane. Tap the **Outline Stroke** command and then tap the **Make** command from the **Combine** pane. 
+
+(image: furnitureShapesSecondiPhone12.jpg)
+
+
+
+##Step 13
+
+Using the **Ellipse Tool**, create a **1.2 ft** circle and fill it with a random yellow. Place this new shape as shown in the first image and send it to back using the **Order** slider from the **Arrange** pane.
+ 
+Disable the **Snap to Grid** feature and select your leaf shape. Tap and hold to open that context menu and use the **Copy** and the **Paste** command to create several copies of your selected shape. Rotate and resize these copies and spread them roughly as shown in the second image. 
+
+(image: furnitureShapesSecondiPhone13.jpg)
+
+
+
+##Step 14
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your leaf shapes and add copies in the same location using the **Copy** and the **Paste in Place** command from that context menu. Make sure that all these copies are selected, go to the **Combine**  pane and tap the **Union** command. Fill the resulting shape with a random blue. 
+
+(image: furnitureShapesSecondiPhone14.jpg)
+
+
+
+##Step 15
+
+Select the blue shape made in the previous step along with the yellow circle that lies in the back and tap the **Subtract** command from the **Combine** pane. 
+
+Focus on the resulting yellow shapes. Select the ones that lies inside your leaf shapes and remove them using the **X** button from the left side of your **Titlebar**. Select the remaining yellow shapes and simply tap the **Make** command from the **Combine** pane. 
+
+(image: furnitureShapesSecondiPhone15.jpg)
+
+
+
+##Step 16
+
+Select the yellow compound path made in the previous step and focus on the **Effects** pane. Replace the existing **Fill** color with your saved color and then select the **Stroke**. Make sure that the **Width** is set to **1 pt** and apply the same color used for the **Fill**. 
+
+(image: furnitureShapesSecondiPhone16A.jpg)
+
+Using the same tools, techniques and styles you can create a variety of plant symbols as shown in the following image. 
+
+(image: furnitureShapesSecondiPhone16B.jpg)
+
+
+
+
+##Step 17
+
+Move to the **Layers** panel and add a new layer, Make sure that it stays selected and enable the **Snap to Grid** feature. 
+
+Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and drag that  **Radius** slider to **4**. Create a **2.2 x 2.4 ft** shape and a **2.2 x 3.8 ft** shape. Place these rounded rectangles one under the other as shown below and apply your first style from the **Styles** pane. 
+
+(image: furnitureShapesSecondiPhone17.jpg)
+
+
+
+##Step 18
+
+Using the **Line Tool**, create two **6.2 ft** vertical paths and another two **1.3 ft** vertical paths. Place these lines as shown below and don't forget to apply your first style. 
+
+(image: furnitureShapesSecondiPhone18.jpg)
+
+
+
+##Step 19
+
+Using the **Line Tool**, create ten **0.2 ft** horizontal paths. Place these new lines as shown below and don't forget to apply your first style. 
+
+(image: furnitureShapesSecondiPhone19.jpg)
+
+
+
+##Step 20
+
+Using the same tool, techniques and styles you can create a variety of sunbed symbols as shown in the following image. 
+
+(image: furnitureShapesSecondiPhone20A.jpg)
+
+Or any of the symbols shown below.
+
+(image: furnitureShapesSecondiPhone20B.jpg)
+
+
+##Step 21
+
+Finally, let's learn how to save your symbols inside a shape library. First, open the **Shape Libraries** panel using the button from the right side of your **Titlebar**. Tap the plus button from the top, right corner of the panel to create a new shape library and then tap that **Edit** button from the left corner. Tap your newly added shape library, rename it as you wish and then tap the **Done** button.
+
+(image: furnitureShapesSecondiPhone21.jpg)
+
+
+
+##Step 22
+
+Open the **Layers** panel and select your second layer. Using the **Move Tool**, select all the shapes from your active layer and group them using the **Group** command from the **Properties** panel. 
+
+Make sure that your group remains selected, open the **Shape Libraries** panel and tap your newest shape library to open it. Tap the **Edit** button from the top, right corner which will allow you to add new shape inside your active shape library. Tap the plus button from the bottom, right corner of the panel and your selected group will be immediately saved inside the active shape library. Once you're done tap the **Done** button. 
+
+Your shape libraries and their content are always available and you can easily use them inside any new document. You can also import shape libraries using the import commands that are available whenever you tap that **New Document** button. 
+
+Finally, feel free to add the rest of the symbols created so far and don't forget to **Group** the existing shapes and paths before you tap that plus button. 
+
+(image: furnitureShapesSecondiPhone22.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+
+ Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: furnitureShapesSecondiPhone0.jpg)
+
+----
+
+Title: iPhone

@@ -1,0 +1,58 @@
+Title: Managing Shape Libraries
+
+----
+
+Text: 
+
+### Creating a New Shape Library
+
+To create a new empty shape library, choose _**New Shape Library...**_ from the action button to the right of the library pop-up. You will be prompted to enter a name for the new library and pick a background color for this same library.
+
+(video: managingshapelibraries1.mp4 width:750)
+
+Any custom shape library can have a custom background color — both when creating it (by clicking the color well in the naming dialog), and when using the _**Rename…**_ option from the action button to the right of the library popup.
+
+### Saving a Shape
+
+Shapes or groups of shapes can be saved inside a custom shape library. 
+
+To save a shape to a custom shape library, simply select an object/group on the canvas and click on the add button (**+**) at the bottom of the _**Shape Library panel**_. The selection will be saved at the bottom of the active shape library.
+
+You can change the sequence of shapes in a shape library by holding down the **Command ⌘** key and dragging them.
+
+(video: managingshapelibraries2.mp4 width:750)
+
+> New shapes can be added to custom shape libraries, but not to the built-in libraries.
+
+
+### Removing a Saved Shape
+
+You can remove a shape that was previously added to a custom library. Right-click on it in the _**Shape Library panel**_ and choose _**Remove Shape from Library**_ from the context menu.
+
+(video: managingshapelibraries3.mp4 width:750)
+
+> Shapes that are part of the built-in libraries can’t be removed.
+
+
+### Removing/Renaming a Shape Library
+
+To delete or rename  a shape library you need to first select it and then choose _**Rename/Delete…**_ from the action button to the right  of the library popup.
+
+(video: managingshapelibraries4.mp4 width:750)
+
+
+> The built-in shape libraries cannot be renamed or removed. 
+
+
+### Importing a Shape Library
+
+To import a shape library, choose _**Import Shape Library...**_ from the action button to the right of the library popup. Alternatively, you can simply double click your shape library document. 
+Changing the extension of a Graphic document from _'**idraw**'_ to _'**idshapes**'_ will turn that document into a shape library.  
+
+(image: managingshapelibraries5.jpg width:750)
+
+### Exporting a Shape Library
+
+To export a shape library, choose _**Export Shape Library...**_ from the action button to the right of the library popup. The newly saved shape library will have the extension _'**idshapes**'_. Change it to _'**idraw**'_ to open your shape library as a regular Graphic document. 
+
+(image: managingshapelibraries6.jpg width:750)

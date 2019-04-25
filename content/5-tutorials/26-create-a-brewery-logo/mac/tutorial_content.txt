@@ -1,0 +1,317 @@
+Text: 
+
+In the following tutorial you will learn how to create a brewery logo in Picta Graphic for Mac. 
+
+For starters, you will learn how to set up a simple grid, how to create several basic shapes and how to easily place them in the center of your canvas. Using the Layers panel, you will learn how to cleverly organise your vector shapes.
+
+Moving on, you will learn how to add text on a path and how to easily adjust it. Finally, you will learn how to add some subtle shading and highlights using the Effects pane. 
+
+
+
+##Step 1
+
+For this tutorial we'll create a **680 x 680 px** document. Go to **File &gt; New (Command + N)**to bring up the **New Document** panel. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **680** pixels wide by **680** pixels high and then click **Choose** to create your document. 
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **5**, set the **Subdivisions** to **0** and don't forget to enable **Snap to Grid**—all these features will make your work easier.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command + '** and the  **Command + Shift + '** keyboard shortcuts. 
+
+(image: BreweryLogo1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and click the **Stroke** color well. Drag the **Alpha** slider to **0%** which will simply make your stroke invisible. Click the **Fill** color well and replace the existing color with **R=254 G=184 B=0**. 
+
+Pick the **Ellipse Tool (O)**, focus on your canvas and create a **390 px** circle. Holding the **Shift** key will make it a lot easier for you to create a perfect circle.
+
+(image: BreweryLogo2.jpg)
+
+
+
+##Step 3
+
+Make sure that your shape is still selected and go to the **Alignment** pane from the **Properties** panel. Simply click the **Horizontal Centers** and the **Vertical Centers** commands to easily move your selection in the center of the canvas. 
+
+(image: BreweryLogo3.jpg)
+
+
+
+##Step 4
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Ellipse Tool (O)**, create a **370 px** circle and don't forget to center it. 
+
+(image: BreweryLogo4.jpg)
+
+
+
+##Step 5
+
+Focus on your **Toolbar** and set the **Fill** color back to **R=254 G=184 B=0**.  Using the **Ellipse Tool (O)**, create a **350 px** circle and don't forget to center it. 
+
+(image: BreweryLogo5.jpg)
+
+
+
+##Step 6
+
+Focus on your **Toolbar** and set the **Fill** color to **R=216 G=31 B=52**.  Pick the **Rectangle Tool (M)**, create a **450 x 40 px** shape and don't forget to center it. 
+
+(image: BreweryLogo6.jpg)
+
+
+
+##Step 7
+
+Pick the **Move Tool (V)** and  select the largest yellow  circle. First, hit **Command + C** to copy it, and then hit **Command + Shift + V** to add a copy in the same place. 
+
+Using the same tool and holding the **Shift** key, select your fresh copy along with that red rectangle. Move to the **Path Tools** pane from the **Properties** panel and simply click the **Intersect** command. 
+(image: BreweryLogo7.jpg)
+
+
+
+
+##Step 8
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Ellipse Tool (O)**, create a **250 px** circle and don't forget to center it. 
+(image: BreweryLogo8.jpg)
+
+
+
+##Step 9
+
+Focus on your **Toolbar** and set the **Fill** color to **R=247 G=235 B=188**.  Using the **Ellipse Tool (O)**, create a **230 px** circle and don't forget to center it. 
+
+(image: BreweryLogo9.jpg)
+
+
+
+##Step 10
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Ellipse Tool (O)**, create a **210 px** circle and don't forget to center it. 
+
+(image: BreweryLogo10.jpg)
+
+
+
+##Step 11
+
+Focus on your **Toolbar** and set the **Fill** color to **R=216 G=31 B=52**.  Using the **Ellipse Tool (O)**, create a **190 px** circle and don't forget to center it. 
+
+(image: BreweryLogo11.jpg)
+
+
+
+##Step 12
+
+Focus on the **Layers** panel, double click the name of the existing layer and rename it &quot;_Main_&quot;. Use the plus button from the bottom of the panel to add a second layer. Rename it &quot;_Text_&quot; and make sure that it stays selected, as the new objects you are about to create will go here.
+
+Focus on your **Toolbar** and set the **Fill** color to white (**R=255 G=255 B=255**).  Pick the **Ellipse Tool (O)**, create a **270 px** circle and don't forget to center it. 
+
+(image: BreweryLogo12.jpg)
+
+
+
+##Step 13
+
+Pick the **Text Tool (T)**, click on your canvas and go to the **Text** pane from the **Appearance** panel—click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want.
+
+Select the [**Montserrat font**](https://www.fontsquirrel.com/fonts/montserrat), change the style to **Black**, set the size to **40 pt** and increase the **Character Spacing** to **4**. Type the &quot;_ARTISANOS_&quot; piece  of text, place it as shown below and set the color to **R=216 G=31 B=52**. 
+
+(image: BreweryLogo13.jpg)
+
+
+
+##Step 14
+
+Using the **Move Tool (V)**, select your piece of text along with the white circle and go to **Modify &gt; Place Text on Path**. This will simply place your text on the selected circle. Focus on your text and use that round handle to move the text on the path as shown in the second image. 
+
+Keep in mind that the text on the path is fully editable. Simply double-click it to change its content or its attributes.
+
+(image: BreweryLogo14.jpg)
+
+
+
+##Step 15
+
+Focus on your **Toolbar** and set the **Fill** color to white.  Pick the **Ellipse Tool (O)**, create a **330 px** circle and don't forget to center it. 
+
+(image: BreweryLogo15.jpg)
+
+
+
+##Step 16
+
+Pick the **Text Tool (T)** and add the &quot;_BREWERY CO._&quot; piece of text. Use the same font and color attributes, but increase the **Character Spacing** to **8**. 
+
+(image: BreweryLogo16.jpg)
+
+
+
+##Step 17
+
+Select your new piece of text along with the white circle. First, go to **Modify &gt; Place Text on Path**, and then go to **Modify &gt; Reverse Path Direction** to flip your text on the other side of the shape. Use that round handle to move the text on the path as shown in the second image. 
+
+(image: BreweryLogo17.jpg)
+
+
+
+##Step 18
+
+Pick the **Text Tool (T)**, add the &quot;_EST._&quot; piece of text and place it as shown in the first image. Use the same font and style, lower the size to **15 pt**, set the **Character Spacing** to **1** and change the color to **R=247 G=235 B=188**. 
+
+Using the same tool and attributes, add the &quot;_1982_&quot; piece of text and place it as shown in the second image. 
+
+(image: BreweryLogo18.jpg)
+
+
+
+##Step 19
+
+Focus on the **Layers** panel and add a new layer. Rename it &quot;_Spike_&quot;, make sure that it lies in the top of the panel and select it.
+ 
+Focus on your **Toolbar** and set the **Fill** color to a random green.  Pick the **Ellipse Tool (O)**, create a **190 px** circle and don't forget to center it. 
+
+(image: BreweryLogo19.jpg)
+
+
+
+##Step 20
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and drag that **Corner Radius** slider to **30 pt**. Create an **80 x 200 px** shape and place it exactly as shown in the following image. 
+
+(image: BreweryLogo20.jpg)
+
+
+
+##Step 21
+
+Select your green circle along with the rounded rectangle and click the **Intersect** button from the **Path Tools** pane. Make sure that the resulting shape is selected and replace the existing **Fill** color with **R=34 G=51 B=87**. 
+
+(image: BreweryLogo21.jpg)
+
+
+
+##Step 22
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Rectangle Tool (M)**, create a **10 x 25 px** shape and place it as shown in the following image. 
+(image: BreweryLogo22.jpg)
+
+
+
+##Step 23
+
+
+Focus on your **Toolbar** and set the **Fill** color to **R=254 G=184 B=0**.  Pick the **Ellipse Tool (O)**, create a **20 x 35 px** shape and place it as shown in the following image. 
+
+(image: BreweryLogo23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny yellow shape stays selected, pick the **Convert Anchor Tool (Shift + C)** and simply click the top and bottom anchor points. In the end things should look like in the second image. 
+
+(image: BreweryLogo24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny yellow shape is still selected and pick the **Rotate Tool (R)**. Focus on the **Tool Options** bar, set the **Angle** to **45 degrees**, and then click that **Copy** button. 
+
+Select the newly made shape, drag it down and place it as shown in the second image. 
+
+(image: BreweryLogo25.jpg)
+
+
+
+##Step 26
+
+Make sure that the shape added in the previous step is still selected and pick the **Rotate Tool (R)**. Return to the **Tool Options** bar, set the **Angle** to **90 degrees**, and then click that **Copy** button. 
+
+Select the newly made shape, drag it to the left and place it as shown in the second image. 
+
+(image: BreweryLogo26.jpg)
+
+
+
+##Step 27
+
+Multiply the rotated yellow shapes (**Command + C &gt; Command + V**) and place the copies as shown in the following images. 
+
+(image: BreweryLogo27.jpg)
+
+
+
+##Step 28
+
+Select all your tiny yellow shapes, go to the **Path Tools** pane and click the **Make Compound Path** command. This will combine your selected shapes into a single object. 
+
+(image: BreweryLogo28.jpg)
+
+
+
+##Step 29
+
+Make sure that your compound path stays selected and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and select it. Drag the **Size** slider to **0 pt**, enter **5 pt** in the **Y** box, and then click the color well that stands for this effect. Drag the **Alpha** slider to **100%** and replace the existing color with **R=247 G=235 B=188**. 
+
+(image: BreweryLogo29.jpg)
+
+
+
+##Step 30
+
+Focus on your **Toolbar** and set the **Fill** color to **R=247 G=235 B=188**.  Using the **Rectangle Tool (M)**, create a **10 x 45 px** shape and two **10 x 80 px** shapes. Place these new rectangles as shown in the following image. 
+
+(image: BreweryLogo30.jpg)
+
+
+
+##Step 31
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Rectangle Tool (M)**, create two **10 x 130 px** shapes and two **10 x 80 px** shapes. Place these new rectangles as shown in the following image. 
+
+(image: BreweryLogo31.jpg)
+
+
+
+##Step 32
+
+Focus on the **Layers** panel, add a new layer and rename it &quot;_BG_&quot;. Click and drag this new layer in the bottom of the panel and make sure that it stays selected. 
+
+Pick the **Rectangle Tool (M)**, create a **680 px** square and make sure that it covers your entire canvas.
+
+(image: BreweryLogo32.jpg)
+
+
+
+##Step 33
+
+
+Return to the **Layers** panel and reselect that &quot;_Main_&quot; layer. 
+
+Select the largest yellow circle and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and select it. Drag the **Size** slider to **40 pt**, enter **20 pt** in the **Y** box, and then click the color well that stands for this effect. Drag the **Alpha** slider to **50%** and replace the existing color with **R=15 G=31 B=67**. 
+
+(image: BreweryLogo33.jpg)
+
+
+
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: BreweryLogo0.jpg)
+
+----
+
+Title: Mac

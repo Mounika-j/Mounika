@@ -1,0 +1,36 @@
+Title: Create a Small Notebook Icon
+
+----
+
+Description: Learn how to create a small notebook icon using shapes and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Small Notebook Icon class: header960)
+
+----
+
+Thumbnail: notebookiconthumbnail.jpg
+
+----
+
+Date: 2014-08-08
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: NotebookIcon.idraw text: NotebookIcon.idraw)
+
+----
+
+Graphicfile: NotebookIcon.idraw
+
+----
+
+Headerimg: notebookiconheader.jpg

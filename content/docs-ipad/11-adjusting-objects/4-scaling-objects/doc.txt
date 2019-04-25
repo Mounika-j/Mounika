@@ -1,0 +1,39 @@
+Title: Scaling Objects
+
+----
+
+Text: 
+
+# Scaling Objects
+
+Choose the _**Scale tool**_ to resize objects relative to a reference point.
+
+To scale one or more objects, first select the objects to be scaled and choose the _**Scale tool**_. With the Scale tool active, tap and drag anywhere on the canvas to resize the selected objects.
+
+Tap and hold with a second finger while resizing to scale the object,  horizontally, vertically or proportionally.
+Tap and hold with a second and a third finger  while resizing to scale the object proportionally from the center of its bounding box.
+
+(video: scalingobjects1-ipad.mp4  width: 750)
+
+Objects can also be scaled numerically using the _**Tool pane**_. Set the percent to scale vertically and horizontally and then tap _**Scale**_ to apply the scaling. Tapping _**Copy**_ will duplicate the objects first and then apply the scale transformation to the copied objects.
+
+(video: scalingobjects2-ipad.mp4  width: 750)
+
+Alternatively, objects can be resized numerically using the _**Size**_ settings from the _**Geometry pane**_. To lock the aspect ratio while entering values, tap the aspect ratio lock icon.
+
+(video: scalingobjects3-ipad.mp4  width: 750)
+
+By default, the reference point will be located in the center of the selected objects. To use a different location for the reference point, drag it or simply tap (without dragging) to set it at that new location.
+
+(video: scalingobjects4-ipad.mp4  width: 750)
+
+# {#scale}
+
+Objects can also be resized manually using Move tool's _**bounding box**_.
+
+Choose the _**Move tool**_ and make a selection. The blue draggable handles can be used to resize the currently selected objects in different directions. Tap and drag one of these handles to easily resize the objects.
+#{#scaleboundingbox} 
+(video: scalingobjects5-ipad.mp4  width: 750)
+
+Tap and hold with a second finger while resizing to maintain the proportions of the objects.
+Tap and hold with a second and a third finger  while resizing to scale relative to the object’s center point.

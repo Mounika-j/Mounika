@@ -1,0 +1,26 @@
+
+title: Mac Illustration and Graphic Design software
+
+----
+
+platform: Mac
+
+----
+
+intro: Powerful feature-packed vector drawing and illustration application designed specifically for macOS.
+
+----
+
+guideURL: https://s3.amazonaws.com/indeeo/GraphicUserGuide.pdf
+
+----
+
+tutorialsURL: /tutorials/?format=mac
+
+----
+
+storeURL: http://itunes.apple.com/us/app/idraw/id404705039?mt=12
+
+----
+
+buyText: Graphic is available on the Mac App Store for only $29.99

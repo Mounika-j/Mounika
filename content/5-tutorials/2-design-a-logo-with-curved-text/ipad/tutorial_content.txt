@@ -1,0 +1,180 @@
+Text: 
+
+In this Graphic for iPad tutorial we will create a professional logo design, using a coffee shop logo as an example.
+
+We will use Graphic's text on path feature to easily create curved text labels around the top and bottom edges of the logo, and use the Appearance pane to customize the look of the logo's background.
+
+
+
+**Resources:**
+
+[CoffeeBean.svg](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/CoffeeBean.svg)
+[WoodBackground.png](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/WoodBackground.png)
+
+
+
+
+
+##Step 1 - Create a New Document
+
+For this tutorial we'll create a new **680 x 600 pixel** document. From the **Documents Browser**, tap the plus button at the top-right corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** to **680px** and **Height** to **600px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: logoiPad1.jpg)
+
+
+
+##Step 2 - Draw an Ellipse
+
+Select the **Ellipse Tool** from the **Toolbar**. Tap and hold with a second finger while dragging to easily create a **360 px** circle. 
+
+Make sure that it stays selected, focus on the right side of your **Titlebar** and tap that rectangular icon. Focus on the **Arrange** pane and simply tap the **Align Horizontal** and **Align Vertical** commands to bring your circle in the center of the canvas. 
+
+(image: logoiPad2.jpg)
+
+
+
+##Step 3 - Set the Fill and Stroke Styles
+
+Make sure that your circle stays selected and return to the right side of your **Titlebar**. Tap the leftmost icon and move to the **Effects** pane. 
+
+First, tap the color well of the **Fill** and set its color to **R=110 G=48 B=0**, and then select  the **Stroke**. Drag the **Width** slider to **10 pt**, select the **Outside Alignment** button,  and then tap the color well of your **Stroke**. Make sure that the **Alpha** slider is set to **100%** and replace the existing color with **R=130 G=62 B=0**.
+
+(image: logoiPad3.jpg)
+
+
+
+##Step 4 - Add a Second Stroke
+
+Make sure that your circle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the bottom, left corner of your pane. 
+
+Select this new **Stroke** and drag the **Width** slider to **5 pt**. Check the **Outside Alignment** button and then tap the color well of your **Stroke**. Make sure that the **Alpha** slider is set to **100%** and then replace the existing color with a simple white. 
+
+(image: logoiPad4.jpg)
+
+
+
+##Step 5 - Set a Drop Shadow
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Simply check the round box of the existing **Drop Shadow** effect to activate it. 
+
+Enter **0** in the **X** box and **2** in the **Y** box, drag the **Blur** slider to **5**, and then tap the color well of this **Drop Shadow** effect. Make sure that the color is set to black and drag the **Alpha** slider to **75%**. 
+
+(image: logoiPad5.jpg)
+
+
+
+##Step 6 - Add a Text Object
+
+We will create each text label in its own layer. Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Focus on the top, right corner of this  panel and use that plus button to easily add a second layer. Make sure this new layer stays selected, as the new shapes you are about to create will go here.
+
+Pick the **Text Tool** from the **Toolbar** and simply  double tap inside that new field. Select the **American Typewriter** font and set the font size to **45**, change the color to white, and then add the &quot;_Smooth Roast_&quot; piece of text. 
+
+Using the **Move Tool**, select your piece of text and place it roughly as shown in the following image. 
+
+(image: logoiPad6.jpg)
+
+
+
+##Step 7 - Create the Text Path
+
+Select the **Ellipse Tool** from the **Toolbar**. Create a **270 px** circle and don't forget to center it using the same commands from the **Arrange** pane. This smaller circle doesn't need a color for fill/stroke so simply disable the active **Fill** and **Stroke** from the **Effects** pane. 
+
+(image: logoiPad7.jpg)
+
+
+
+##Step 8
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. Using this tool, select the circle made in the previous step along with your piece of text. Move to the **Path** pane and  simply tap the **Place Text on Path** command to bind the text to the circle path. 
+
+(image: logoiPad8.jpg)
+
+
+
+##Step 9
+
+By default, the text begins at the bottom of the circle. To position the text on the path, tap on the **round handle** next to the first character and **drag** it along the path. 
+
+(image: logoiPad9.jpg)
+
+
+
+##Step 10
+
+Now, you will need a grid every **5 px**. This simply means that you need to return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **5 px** for both **Spacing** boxes. 
+
+Return to the **Layers** pane, create a new layer using that same plus button and make sure that it stays selected. 
+
+Using the **Text Tool** create a second text object with the same style settings as before, with the text **'Coffee Company'**. Pick the **Ellipse Tool**  from your **Toolbar**. Create **325 px** circle and center it using the same commands from the **Arrange** pane. This new circle doesn't need a color for fill/stroke so simply disable the active **Fill** and **Stroke** from the **Effects** pane. 
+
+(image: logoiPad10.jpg)
+
+
+
+##Step 11
+
+Reselect the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select both the text  and circle  made in the previous step, move to the **Path** pane and tap the **Place Text on Path** button. 
+
+The text will initially be placed on the outside of the path. To place the text on the inside of the path, tap the **Reverse Path Direction** command from that same **Path** pane. Tap and drag the **round handle** to position the text at the bottom of the label.
+
+(image: logoiPad11.jpg)
+
+
+
+##Step 12
+
+Open the **Layers** panel, add a new layer and make sure that it stays selected. 
+
+Using the **Ellipse Tool**, create a **240 px** circle and don't forget to center it. Set this circle's **Fill** color to **R= 110 G= 48 B= 0** and then select the **Stroke**. Increase the **Width** to **2,5 pt**, set the **Alignment** to **Inside** and change the color to white. 
+
+(image: logoiPad12.jpg)
+
+
+
+##Step 13
+
+Graphic can import vector shapes and clip art from PDF and SVG files. You can find vector design resources on many different websites, [openclipart.org](http://www.openclipart.org/) hosts a large library of public domain vector clipart in SVG format that can be used in Graphic.
+
+Download  the [CoffeeBean.svg](http://www.indeeo.com/idraw/tutorials/content/02-design-a-logo-with-curved-text/CoffeeBean.svg) file,  upload it on your iCloud / Dropbox folder and then import it in Graphic. Select this bean shape and focus on the left side of your **Titlebar**. Tap that paperlip icon to open the **Edit** pane, and then tap that **Copy** command. Get back to your logo document, open that **Edit** pane and this time go to **Paste**. Resize your bean and place it roughly as shown in the following image. 
+
+(image: logoiPad13.jpg)
+
+
+
+##Step 14
+
+With the bean shape selected, set its **Fill** color to white from the **Toolbar**. With the **Move Tool** you can scale and position the coffee bean shape to fit nicely inside the center of the logo.
+ 
+To create two more coffee bean shapes, use the same **Copy** and **Paste** commands from that **Edit** pane. Rotate, scale, and position the bean shapes to finish the inner part of the logo.
+
+(image: logoiPad14.jpg)
+
+
+
+##Step 15
+
+To create the smaller text labels choose that same **Text Tool** . Use the **Arial** font, change the style to **Bold** and set the size to **16 pt**. Also, set the text alignment to **Center** and the color to **R= 255 G= 188 B= 128**. Type **'Since'** for the left side of the logo. 
+
+Repeat these same steps to create the right side label with the text **'1981'**.
+
+(image: logoiPad15.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: logoiPad0.jpg)
+
+----
+
+Title: iPad

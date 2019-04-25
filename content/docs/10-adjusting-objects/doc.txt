@@ -1,0 +1,13 @@
+Title: Adjusting Objects
+
+----
+
+Text: 
+
+# Adjusting Objects
+
+Shapes can be edited in Graphic using the transform tools from the _**Toolbar**_. You can select, move, resize, erase, rotate, scale, slant or mask shapes, paths and even text. 
+
+(image: adjustingobjects1.jpg width: 750)
+
+Some of these tools have customizable settings that can be adjusted in the _**Tool Options bar**_.

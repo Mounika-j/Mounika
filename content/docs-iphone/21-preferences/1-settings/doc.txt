@@ -1,0 +1,29 @@
+Title: Settings
+
+----
+
+Text: 
+
+# Settings
+
+Open the _**Documents Browser**_ and tap the gear button from the Titlebar to open the _**Settings menu**_. Tap the _**About**_ button for extra information about your current Graphic version. Use the switch button to enable/disable the syncing of documents to _**iCloud**_.
+
+To send us your feedback, tap the _**Contact Us**_ button and let us know what you think. We'll be happy to hear from whether it's good or bad. Feel free to send us any request or complaint.
+
+(video: settings1-iphone.mp4 width: 750)
+
+Tapping the _**Tutorials**_ button will open Graphic's Tutorials web page where you will find a series of detailed tutorials. This can be your next step to master Graphics's tools and features. There are plenty of designs and styles to choose from. Some of them might look familiar as they were showcased throughout the user guide. 
+
+(image: settings2-iphone.jpg width: 750)
+
+### Managing fonts {#fonts} 
+
+Tap the _**Manage Fonts**_ button from the _**Settings menu**_ to access the list of imported fonts. 
+
+New fonts can be easily imported from your iCloud/Dropbox folder using the **+** button from the _**Documents Browser**_. Once imported, fonts can be immediately used in a design. 
+
+(video: settings3-iphone.mp4 width: 750)
+
+Select a font and tap the _**Trash**_ button to delete it. 
+
+(video: settings4-iphone.mp4 width: 750)

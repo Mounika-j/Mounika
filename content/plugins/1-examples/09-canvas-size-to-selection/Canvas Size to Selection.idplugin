@@ -1,0 +1,48 @@
+var doc = [app activeDocument]
+var selectedShapes = [doc selectedShapes]
+var artworkBounds = CGRectMake(0, 0, 0, 0)
+
+// find the artwork bounds
+//
+for(var i = 0; i < [selectedShapes count]; i++)
+{
+    var shape = selectedShapes[i]
+    
+    if([shape hidden] == false)
+    {
+        var shapeBounds = [shape visibleBounds]
+        
+        if(CGRectIsEmpty(artworkBounds))
+            artworkBounds = shapeBounds
+        else
+            artworkBounds = CGRectUnion(artworkBounds, shapeBounds)
+    }
+}
+
+if(artworkBounds.size.width > 0 && artworkBounds.size.height > 0)
+{
+    doc.canvasSize = artworkBounds.size
+    [[app view] resetZoom]
+    
+    // move shapes to new origin
+    //
+    var layers = [doc layers]
+    var layerCount = [layers count]
+    
+    for(var i = 0; i < layerCount; i++)
+    {
+        var layer = layers[i]
+        var shapes = [layer shapes]
+        var shapeCount = [shapes count]
+        
+        for(var j = 0; j < shapeCount; j++)
+        {
+            var shape = shapes[j]
+            [shape translateX:-artworkBounds.origin.x y:-artworkBounds.origin.y]
+        }
+    }
+}
+else
+{
+    [app showAlert:"Canvas Resize: No shapes selected."]
+}

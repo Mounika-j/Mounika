@@ -1,0 +1,21 @@
+Title: Create a Simple Player Bar
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: playerbar.idraw
+
+----
+
+Description: Learn how to create a simple player bar using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

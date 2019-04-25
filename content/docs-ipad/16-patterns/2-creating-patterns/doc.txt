@@ -1,0 +1,19 @@
+Title: Creating Patterns
+
+----
+
+Text: 
+
+# Creating Patterns
+
+Patterns are made of tiles repeated horizontally and vertically. In order to create a new pattern you have to create that first tile.
+
+Select all the objects that make your tile, open the _**Pattern panel**_ and tap the _**New Pattern From Selection**_ button to add your pattern to the (link: docs-ipad/patterns/pattern-palette text: _**Pattern palette**_). 
+
+(video: creatingpatterns1-ipad.mp4 width:750)
+
+If you wish to create a more complex seamless pattern make sure that when placed side-by-side with itself the tiles match perfectly and do not create a noticeable boundary.
+
+(image: creatingpatterns2-ipad.jpg width:750)
+
+Besides flat colors you can also use images or any type of gradient to fill the shapes that make up your tile.

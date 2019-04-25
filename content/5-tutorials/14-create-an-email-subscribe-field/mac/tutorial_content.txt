@@ -1,0 +1,296 @@
+Text: 
+
+In the following tutorial you will learn how to create an email subscribe field in  Graphic for Mac. 
+
+For starters, you will learn how to setup a simple grid and how to create a tiny envelope icon using basic tools and vector shape building techniques. Using mostly the Rounded Rectangle Tool and the Effects pane, you will create the main pieces of your subscribe field. 
+
+Finally, you will learn how to add some simple pieces of text and and how to stylize them. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **1**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: subscribeField1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=50 G=50 B=55** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your **Tool Options** bar and set the **Corner Radius** to **2 pt**. Move to your canvas and  create a **16 x 12 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: subscribeField2.jpg)
+
+
+
+##Step 3
+
+Using the **Pen Tool (P)** or the **Line Tool (L)**, create a **16 px**, horizontal path and place it exactly as shown in the following image. Make sure that this new path stays selected and focus on the **Stroke** pane from the **Appearance** pane. If the **Appearance** pane is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel. Set the color to **R=255 G=201 B=0** and make sure that the **Line Weight**  slider is set to **1 pt**. 
+
+Make sure that the  **Pen Tool (T)** is  still selected, focus on the **Tool Options** bar and activate the **Add Points** mode. Return to your  canvas, make sure that your yellow path is still selected and simply click in the middle to add a new anchor point as shown in the second image. 
+
+Reselect your entire yellow path using the **Move Tool (V)** and duplicate it (**Command + C &gt; Command + V**). Select the copy and place it exactly as shown in the third image. 
+
+(image: subscribeField3.jpg)
+
+
+
+##Step 4
+
+Pick the **Path Selection Tool (A)** and  focus on your top, yellow path. Select the middle anchor point and drag it **6 px** down. 
+
+Move to your bottom, yellow path, select the middle anchor point and drag it **7 px** up. In the end things should look like in the second image. 
+
+(image: subscribeField4.jpg)
+
+
+
+##Step 5
+
+Reselect both yellow paths, go to the **Path Tools** pane of the **Properties** panel and simply click that **Outline Stroke** button. 
+
+(image: subscribeField5.jpg)
+
+
+
+##Step 6
+
+Select your top yellow shape and make a copy in the same place (**Command + C &gt; Command + Shift + V**). 
+
+Select this fresh copy along with the bottom, yellow shape and click the **Subtract** button from the **Path Tools** pane. You will end up with the three yellow shapes highlighted in the second image. 
+
+(image: subscribeField6.jpg)
+
+
+
+##Step 7
+
+Select only the shape highlighted in the first image and simply remove it using the **Delete** key. Select the remaining yellow shapes and click the **Union** button from **Path Tools** pane. 
+
+(image: subscribeField7.jpg)
+
+
+
+##Step 8
+
+Select all the shapes made so far and focus on the **Path Tools** pane from the **Properties** panel. First, click the **Subtract** button and then click that **Make Compound Path** button.
+ 
+(image: subscribeField8.jpg)
+
+
+
+##Step 9
+
+For the next steps you will need a grid every **10 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **10 px** in both  **Spacing** boxes. Get back  to your **Toolbar**, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=60 G=60 B=65**. 
+
+Pick the **Rectangle Tool (M)** and  create a **600 px** square. Make sure that this new shape stays selected, focus on the **Alignment** pane from the **Properties** panel and  click the **Horizontal Centers** and **Vertical Centers** buttons. This will simply  bring your square in the center of the canvas. 
+
+(image: subscribeField9.jpg)
+
+
+
+##Step 10
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your **Tool Options** bar and drag that **Corner Radius** slider to **5 pt**. Move to your canvas and create a **300 x 70px** shape. 
+
+Make sure that this new shape stays selected, focus on the **Effects** pane from the **Appearance** panel and select the existing **Fill**. Select **Linear Gradient** from the **Type** drop-down menu, set the angle to **90 degrees** then move to the gradient sliders. Select the left one and set its color to **R=40 G=40 B=45** and then select the right one and set its color to **R=45 G=45 B=50**. 
+
+(image: subscribeField10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **5 pt** in the **Y** box, **0 pt** in the **X** box and drag the **Size** slider to **10 pt**. Change the **Blend Mode** to **Soft Light** and then  click the color well that stands for this effect. Replace the existing color with black (**R=0 G=0 B=0**) and drag that **Alpha** slider to **25%**.
+
+(image: subscribeField11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** effect and enter the attributes shown in the following image.
+
+(image: subscribeField12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using the plus button located in the bottom, left corner of the panel. Select this new effect and enter the attributes shown in the following image.
+
+(image: subscribeField13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and select the existing **Stroke**. 
+
+Drag it below those active effects and set the **Position** to **Inside**. Make sure that the **Width** slider is set to **1 pt** and then click the color well that stands for your **Stroke**. Replace the existing color with **R=40 G=40 B=45** and drag the **Alpha** slider to **100%**. 
+
+(image: subscribeField14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Select this new **Stroke**, drag it below the other one and then enter the attributes shown in the following image. 
+
+(image: subscribeField15.jpg)
+
+
+
+##Step 16
+
+Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=40 G=40 B=45**. Pick the **Rounded Rectangle Tool (Shift + M)** and set the **Corner Radius** to **2 pt**. 
+
+Create a **160 x 30 px** shape and  place it as shown in following image. Once again, the grid and the **Snap to Grid** feature will come in handy.
+
+(image: subscribeField16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle is selected and focus on the **Effects**  pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeField17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeField18.jpg)
+
+
+
+##Step 19
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and select the existing **Stroke**. Drag it below those active effects and then enter the attributes shown in the following image. 
+
+(image: subscribeField19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke**. Select this new **Stroke**, drag it below the other one and then enter the attributes shown below. 
+
+(image: subscribeField20.jpg)
+
+
+
+##Step 21
+
+Return to the **Grid**  pane from the **Properties** panel and simply  enter **1 px** in both  **Spacing** boxes. 
+
+Focus on the **Layers** panel and expand the existing layer. Select your envelope icon and simply hit **Shift + Command + ]** to bring it to front. Make sure that this  icon stays selected and return to your canvas. Place your selection roughly as shown in the following image and then focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: subscribeField21.jpg)
+
+
+
+##Step 22
+
+Make sure that your envelope icon is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeField22.jpg)
+
+
+
+##Step 23
+
+
+Return to the **Grid**  pane from the **Properties** panel and simply  enter **10 px** in both  **Spacing** boxes. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and be sure that  the **Corner Radius** slider is still set to **2 pt**. Move to your canvas, create a **90 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected, focus on the **Effects** pane and select that  **Fill**. Select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=0 G=125 B=0** and then select the right one and set its color to **R=0 G=195 B=0**. 
+
+(image: subscribeField23.jpg)
+
+
+
+##Step 24
+
+Make sure that your green, rounded rectangle is still selected and focus on the **Effects** pane. Activate the  **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeField24.jpg)
+
+
+
+##Step 25
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Select the **Stroke**, drag it below the **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: subscribeField25.jpg)
+
+
+
+##Step 26
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: subscribeField26.jpg)
+
+
+
+##Step 27
+
+Make sure that your green, rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Drag this new effect right below that other **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: subscribeField27.jpg)
+
+
+
+##Step 28
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that  **Inner Glow** effect and  enter the attributes shown in the following image. 
+
+(image: subscribeField28.jpg)
+
+
+
+##Step 29
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that **Outer Glow** effect and  enter the attributes shown in the following image. 
+
+(image: subscribeField29.jpg)
+
+
+
+##Step 30
+
+Pick the **Text Tool  (T)**, simply click on your canvas and go to the **Text** pane from the **Appearance** panel. Select the **DIN Alternate**  font, make it **Bold**, set the size to **8 pt** and the spacing to **1** and then add that &quot;_SUBSCRIBE_&quot; piece of text. 
+
+Set its color to **R=43 G=43 B=49**, make sure that it stays selected and go to the **Effects** pane. Simply activate the  **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeField30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+ 
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: subscribeField0.jpg)
+
+----
+
+Title: Mac

@@ -1,0 +1,13 @@
+Title: Text
+
+----
+
+Text: 
+
+# Text
+
+Text fields can be added in Graphic using the _**Text tool**_ from the _**Toolbar**_. Text attributes can be changed from the (link: docs-ipad/text/creating-text text: _**Tool Options pane**_) or using the (link: docs-ipad/text/customizing-text text: _**Text pane**_) from the Appearance pane. 
+
+(image: text1-ipad.jpg width: 750)
+
+Stylize your text like any other shape – use the (link: docs-ipad/effects text: _**Effects pane**_) to add multiple fills, strokes or effects.

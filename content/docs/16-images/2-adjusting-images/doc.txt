@@ -1,0 +1,23 @@
+Title: Adjusting Images
+
+----
+
+Text: 
+
+# Adjusting Images
+
+Images applied to a shape can be easily adjusted using the _**Fill pane**_ from the Appearance panel. Similar settings can be found inside the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel whenever you select a _**Fill**_ with an image.
+
+(image: adjustingimages1.jpg width:750)
+
+1. **Image preview** - Preview of the chosen image.
+
+2. **Scale or Stretch to Fit** - Images that are larger or smaller than the parent object’s bounds can either be scaled to fit inside of the bounds (maintaining the image’s aspect ratio) or stretched to completely fill the shape’s bounds.
+
+ (image: adjustingimages2.jpg width:723)
+
+3. **Change or Remove** - Select _**Change Image...**_ to choose a different image, or select _**Remove Image**_ to remove the image fill.
+
+4. **Image Scale** - Scale an image within the parent shape’s bounds. Alternatively, you can use the _**Image Tool**_ to scale and position an image within a shape.
+
+5. **Opacity** - Adjust the transparency of the image using the slider or the input field.

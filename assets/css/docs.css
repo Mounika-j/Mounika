@@ -1,0 +1,279 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    height: 101%;
+	background: url(../images/plugins_bg.png);
+}
+
+.site {
+    padding: 0 0 50px 0;
+    line-height: 1;
+    font-size: 15px;
+    color: #333;
+	margin: 0 auto;
+}
+
+.site h1, .site h2, .site h3, .site p, .site a, .site strong, .site em {
+	color: #333;
+}
+
+.site {
+  font-family: AvenirNext, "Avenir Next", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+  width: 1050px;
+  color: #333;
+}
+
+.site p {
+  font-family: -apple-system, system-ui, AvenirNext, "Avenir Next", sans-serif;
+  line-height: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.site a {
+	text-decoration: none;
+	color: rgb(68, 108, 200);
+	font-style: italic;
+	font-weight: bold;
+}
+
+.site a strong {
+	text-decoration: none;
+	color: rgb(68, 108, 200);
+	font-style: italic;
+	font-weight: bold;
+}
+
+.site a:hover {
+  color: #2bb5ee;
+}
+
+.content {
+  width: auto;
+  padding: 40px 30px 20px 270px;
+  min-height: 1300px;
+  background-color: white;
+}
+
+.content img {
+	display: block;	
+	border: none;
+	margin-bottom: 20px;
+}
+
+.content video {
+	margin-bottom: 10px;
+}
+
+.content ul, 
+.content ol {
+  margin: 0 0 50px 10px;
+  counter-reset: item;
+}
+
+.content li {
+	margin: 0;
+	padding: 0 0 0 1em;
+	list-style-type: none;
+	counter-increment: item;
+	font-size: 17px;
+	color: black;
+	text-indent: 0em;
+}
+
+.content li:before {
+  display: inline-block;
+  float: left;
+  width: 1.3em;
+  font-weight: bold;
+  text-align: left;
+  content: counter(item) ".";
+  color: #F57B01;
+  font-size: 17px;
+  padding-top: 3px;
+}
+
+blockquote {
+  display:block;
+  padding: 1px 0px 1px 12px;
+  margin: 2px 0 20px;
+
+  background: #f6f6f6;
+  border-left: 6px solid #e4e4e4;
+}
+
+.content blockquote p {
+    font-family: AvenirNext, "Avenir Next", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+	
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+blockquote a {
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+.menu {
+  font-family: AvenirNext, "Avenir Next", sans-serif;
+  float:left;
+  top: 0;
+  left: 0;
+  width: 240px;
+  bottom: 0;
+  color: black;
+  height: 100%;
+}
+
+.menu a {
+  font-family: AvenirNext, "Avenir Next", sans-serif;
+  color: black;
+  border-bottom: 0px;
+  font-weight: normal;
+  font-style: normal;
+}
+.menu > ul {
+  margin: 44px 30px 30px 30px;
+  
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  display: block;
+  padding: 6px;
+  padding-top: 8px;
+}
+.menu li a.active {
+  color: black;
+  font-weight: bold;
+}
+
+.menu ul ul {
+}
+
+.menu ul ul li a {
+  padding-left: 20px;
+}
+
+.headerImage {
+	height: 500px;
+	overflow: hidden;
+}
+
+.headerImage p {
+	padding: 0;
+	margin: 0;
+}
+
+/* Page
+-------------------------------------------------------------- */
+
+.content img {
+  outline: 0;
+  border: 0;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 14px;
+  padding-top: 0px;
+  color: #52555E;
+}
+.content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 14px;
+  padding-top: 0px;
+  color: #F57B01;
+}
+.content h3 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 0px;
+  color: #52555E;
+}
+.content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 0px;
+  color: #50555E;
+}
+.content p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+
+#formatButtons
+{
+	float: left;
+	margin-left: 34px;
+	margin-top: 34px;
+	margin-bottom: 24px;
+}
+
+#formatButtons a {
+	margin-right: 10px;
+}
+
+#formatButtons a:link,
+#formatButtons a:visited {
+    text-decoration: none;
+	border: none;
+}
+
+
+/* Code
+-------------------------------------------------------------- */
+
+code {
+  font-family: AvenirNext, "Avenir Next", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  background: #eee;
+  padding: 0 5px;
+  color: black;
+}
+pre {
+  position: relative;
+  overflow: auto;
+  background: #f9f9f9;
+  -webkit-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -moz-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -o-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+pre.highlight {
+  white-space: nowrap;
+}
+pre code {
+  background: none;
+  padding: 0;
+}

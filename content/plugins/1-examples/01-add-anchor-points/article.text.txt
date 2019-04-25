@@ -1,0 +1,16 @@
+Title: Add Anchor Points
+
+----
+Description: Adds additional anchor points to each segment along every selected path. Each segment is split at its midpoint.
+
+----
+Image: (image: Header.png title: Add Anchor Points)
+
+----
+Thumbnail: (image: Thumbnail.png title: Add Anchor Points)
+
+----
+Plugfile: (file: AddAnchorPoints.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

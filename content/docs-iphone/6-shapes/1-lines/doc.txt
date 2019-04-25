@@ -1,0 +1,15 @@
+Title: Lines
+
+----
+
+Text: 
+
+# Lines
+
+Choose the _**Line tool**_ to draw line segments. Tap and drag to create a line segment. 
+
+Tap and drag to begin drawing the line, and then tap and hold with a second finger to easily create horizontal, vertical or  45° lines.
+
+(video: lines1-iphone.mp4 width: 750)
+
+Line segments can be easily turned into arrowed line segments or dimension line segments using the (link: docs-iphone/shapes/arrowed-lines text: _**Stroke pane**_) or the (link: docs-iphone/shapes/dimension-lines text: _**Label pane**_) from the Appearance panel.

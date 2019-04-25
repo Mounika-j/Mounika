@@ -1,0 +1,358 @@
+Text: 
+
+In the following tutorial you will learn how to create a small notebook icon in  Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Next, you will learn two techniques that can be used to perfectly align your shapes and paths to the pixel grid. 
+
+Taking full advantage of the Effects pane, you will learn how to add smooth shading and sleek highlights for your objects. Finally, you will learn how to add and adjust linear or radial gradients.
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: notebookIconiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: notebookIconiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: notebookIconiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=74 G=196 B=255** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag that  **Radius** slider to **5**. Move to yor canvas and  create a **130 x 130 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: notebookIconiPhone2.jpg)
+
+
+
+##Step 3
+
+Using the **Move Tool**, select your shape and open the **Properties** panel. Go to the **Arrange** pane and simply tap the  **Horizontal** and the  **Vertical** buttons to bring your rounded square in the center of the canvas.
+ 
+(image: notebookIconiPhone3.jpg)
+
+
+
+
+##Step 4
+
+Make sure that your shape is still selected and simply tap and hold to open the context menu. First, tap the **Copy** command, and then reopen that context menu and tap the **Paste in Place** command. This will simply add a copy of your selection in the same place. 
+
+(image: notebookIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Move to  your **Toolbar** and  replace the existing **Fill** color with **R=1 G=173 B=14**. Pick the **Rectangle Tool**, create a **130 x 100 px** shape and place it exactly as shown in the first image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+Switch to the **Path Selection Tool**, focus on the  **Tool Options** pane and activate the **Add to Selection** mode. Select the copy of your blue shape along with that green rectangle, go to the **Combine** pane from the **Properties** panel and simply tap that **Intersect** button. 
+
+(image: notebookIconiPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that the shape made in the previous step is still selected, focus on the right side of your **Titlebar** and tap the leftmost icon to open the **Appearance** panel. Go to the **Effects** pane and tap the color well of the existing **Fill**. 
+
+Tap the **Gradient**  and the **Linear** buttons, set the **Angle** to -**90 degrees** and then  move to the gradient color stops. Select the left one and set its color to **R=255 G=240 B=190** and then select the right one and set its color to **R=235 G=210 B=160**. Keep focusing on this linear gradient and simply tap on the gradient bar to add a new gradient color stop. Select it, set the color to **R=255 G=230 B=180** and then drag it to the left until the **Location** tooltip shows **10%**. Using the same technique, add a fourth gradient color stop. Select it, set the color to **R=255 G=220 B=170** and drag it to **60%**.
+
+(image: notebookIconiPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your gradient filled shape stays selected, keep focusing on the **Effects** pane and add a second **Fill** using the plus button from the top, right corner of your pane. 
+
+Tap on its right side handle to drag this new **Fill** below the existing one and then tap its color well. Again, tap the **Gradient**  and the **Linear** buttons, set the **Angle** to -**90 degrees** and then  move to the gradient color stops. Select the left one, move it to **80%**, replace the existing color with to **R=255 G=230 B=180** and drag the **Alpha** slider to **0%**. Move to the right gradient color stop, set the color  to **R=124 G=99 B=49** and drag that **Alpha** slider to **40%**. Return to the **Effects** pane and simply tap the cogwheel button of this second **Fill**. Tap the **Blend Mode** command and select **Multiply** from that list.
+
+(image: notebookIconiPhone7.jpg)
+
+
+
+
+##Step 8
+Make sure that your gradient filled shapes stays selected, keep focusing on the **Effects** pane and simply check the checkbox that stand for the existing **Inner Shadow** to activate it. 
+
+Enter -**1** in the **Y** box and **0** in the other two boxes and then tap the color well of this  effect. Set the color to  **R=255 G=255 B=255** (white) and drag that **Alpha** slider to **80%**. Return to the **Effects** pane, tap the cogwheel button of this  **Inner Shadow** effect and select the **Soft Light** blend mode. 
+
+(image: notebookIconiPhone8.jpg)
+
+
+
+##Step 9
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid Settings** pane and enter **1 px** in both  **Spacing** boxes. 
+
+Go to your **Toolbar** and set the **Fill** color to black (**R=0 G=0 B=0**). Using the **Rectangle Tool**, create a **130 x 1 px** shape and place it exactly as shown in the following image. 
+
+Make sure that this thin shape stays selected and add eight copies in the same place. Select these new shapes one by one and then  tap and hold with a second finger while dragging to easily move your selection on only one axis (horizontally or vertically). 
+
+Move your copies one under the other in a perfectly aligned column. When you get to the last copy, drag it to the bottom and place it exactly as shown in the second image. 
+
+(image: notebookIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your black rectangles, go to the **Align**  pane from the **Properties** panel and tap that  **Vertically** command to get an even amount of space  between your selected rectangles.
+
+(image: notebookIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that all your thin rectangles are still selected, go to the **Combine** pane and tap that **Make** command. This will unite your black shapes into one compound path that can be selected, moved or edited way easier. 
+
+(image: notebookIconiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your compound path is still selected and go to the **Effects** pane. First, lower the **Opacity** to **70%** and then tap the cogwheel button of that **Fill** and change the **Blend Mode** to **Soft Light**. 
+
+(image: notebookIconiPhone12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, make sure that the **Stroke**  is still invisible and  set the **Fill** color to **R=253 G=91 B=91**.
+
+Using the **Rectangle**  **Tool**, create a **1 x 100  px** shape and place it  exactly as shown in the following image. 
+
+(image: notebookIconiPhone13.jpg)
+
+
+
+
+##Step 14
+
+Make sure that your red shape is still selected, go to the **Effects** pane and drag that **Opacity** slider to  **30%**. 
+
+(image: notebookIconiPhone14.jpg)
+
+
+
+##Step 15
+
+Now, you will need a grid every **5 px**. Return to the **Grid Settings**  pane  and enter **5 px** in both  **Spacing** boxes.
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to **R=255 G=200 B=0**. 
+
+Using the **Rectangle Tool**, create a **130 x 30 px** shape and place it as shown in the first image. Switch to the **Move Tool**, select your yellow rectangle along with the blue, rounded square that lies in the back, go to the **Combine**  pane and tap that **Intersect** command. 
+
+(image: notebookIconiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that the shape made in the previous step stays selected  and move to the **Effects** pane. Focus on the existing **Fill**, tap its color well and replace the existing color with the linear gradient shown below. 
+
+(image: notebookIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and simply check the round checkbox that stand for the existing **Drop Shadow** effect to activate it. 
+
+Enter **3** in the **Y** box and **0** in the other two boxes, select **Soft Light** for the  **Blend Mode** and then tap the color well that stands for this  effect. Make sure that the color is set to black and drag that **Alpha** slider to **15%**. 
+
+(image: notebookIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using that same plus button. Select this new **Drop Shadow**, make sure that it lies below the existing effect and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Make sure that this new effect lies below the other two **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPhone19.jpg)
+
+
+
+##Step 20
+
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner  Shadow**. Enter **1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Overlay** and then tap the color well that stands for this  effect. Set the color to  white and drag that **Alpha** slider to **20%**. 
+
+(image: notebookIconiPhone20.jpg)
+
+
+
+##Step 21
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image.
+
+(image: notebookIconiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPhone22.jpg)
+
+
+
+
+
+##Step 23
+
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your brown shape stays selected and keep focusing on the **Effects** pane. You must add a new **Inner  Shadow**, but first you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape.
+
+ Simply tap the cogwheel button of that **Outer Glow** effect and then tap the **Remove** command. Now, you can add that fifth **Inner Shadow** effect. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: notebookIconiPhone24.jpg)
+
+
+
+##Step 25
+
+Focus on the right side of your **Titlebar** and simply tap the rightmost icon to open the **Layers** panel. Use the plus button from the bottom of this panel to add a second layer and drag it below the existing one. Tap and hold on the thumbnail of your new layer to drag it below the other one. Make sure this new layer stays selected, as the new shapes you are about to create will go here.
+
+(image: notebookIconiPhone25.jpg)
+
+
+
+##Step 26
+
+Focus   your **Toolbar**, make sure that the **Line** is invisible and pick a random color for the **Fill**. Pick the **Rectangle Tool** and create a **600 px** square. 
+
+Be sure that this new shape covers your entire canvas, return to the **Toolbar** and tap that **Fill** color well. Tap the **Gradient**  and the **Radial** buttons and set the **Angle** to **0 degrees**. Move to the gradient color stops and enter the colors shown in the following image. Make sure that your square is still selected and tap it once to activate the **Gradient Tool**. Drag the outer gradient color stop outside your canvas roughly as shown in the following image. 
+
+(image: notebookIconiPhone26.jpg)
+
+
+
+##Step 27
+
+Return to the **Layers** pane, add a third layer and drag it between the existing  layers. Make sure that this new layer stays selected and close the **Layers** panel. Return to your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color to black. 
+
+Pick the **Rounded Rectangle Tool**, focus on the tool pane and make sure that the  **Radius** is set to **5**. Create a **130 px** rounded square and bring it in the center of your canvas using the same  **Horizontal** and  **Vertical** buttons from the **Align** pane.
+
+(image: notebookIconiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your black, rounded square is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and  enter the attributes shown in the following image.
+
+(image: notebookIconiPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your black, rounded square stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: notebookIconiPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that your black, rounded square stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your black, rounded square stays selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone31.jpg)
+
+
+
+##Step 32
+
+Make sure that your black, rounded square stays selected, keep focusing on the **Effects** pane and add a fifth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone32.jpg)
+
+
+
+##Step 33
+
+Make sure that your black, rounded square stays selected, keep focusing on the **Effects** pane and add a sixth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone33.jpg)
+
+
+
+
+##Step 34
+
+Make sure that your black, rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Shadow** effect and then add a seventh **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone34.jpg)
+
+
+
+##Step 35
+
+Make sure that your black, rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Outer Glow** effect and then add an eighth **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone35.jpg)
+
+
+
+##Step 36
+
+Make sure that your black, rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Glow** effect and then add one final **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPhone36.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: notebookIconiPhone0.jpg)
+
+----
+
+Title: iPhone

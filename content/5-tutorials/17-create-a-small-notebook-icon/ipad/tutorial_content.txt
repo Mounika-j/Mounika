@@ -1,0 +1,333 @@
+Text: 
+
+In the following tutorial you will learn how to create a small notebook icon in  Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Next, you will learn two techniques that can be used to perfectly align your shapes and paths to the pixel grid. 
+
+Taking full advantage of the Effects pane, you will learn how to add smooth shading and sleek highlights for your objects. Finally, you will learn how to add and adjust linear or radial gradients.
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: notebookIconiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: notebookIconiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=74 G=196 B=237** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag that  **Radius** slider to **5**. Move to yor canvas and  create a **130 x 130 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+Make sure that this blue shape stays selected, focus on the right side of the **Titlebar** and simply tap that middle icon to open the panel. Go to the **Arrange** pane and simply tap the **Align Horizontal** and **Align Vertical** buttons which will bring your rounded square in the center of the canvas. 
+
+(image: notebookIconiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your blue shape is still selected, focus on the left side of your **Titlebar** and tap that paperclip icon to open the **Edit** pane. First, tap the **Copy** command and then tap that **Paste in Place** command to easily create a copy of your selected shape in the same place. 
+
+Move to  your **Toolbar** and simply replace the existing **Fill** color with **R=1 G=173 B=14**. Pick the **Rectangle Tool** and  move to your canvas. Create a **130 x 100 px** shape and place it exactly as shown in the first image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+Switch to the **Path Selection Tool**, focus on the  **Tool Options** pane and activate the **Add to Selection** mode. Select the copy of your blue shape along with that green rectangle, go to the **Combine** pane and simply tap that  **Intersect** command. 
+
+(image: notebookIconiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that the shape made in the previous step stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon.
+
+Move to the **Effects** pane and simply tap the color well of the existing **Fill**. Tap the **Gradient Fill** and the **Linear** buttons, set the **Angle** to -**90 degrees,** and then move to the gradient color stops. Select the left one and set its color to **R=255 G=240 B=190** and then select the right one and se its color to **R=235 G=210 B=160**. Keep focusing on this  gradient and simply tap on the gradient bar to add a new gradient color stop. Select it, set the color to **R=255 G=230 B=180** and then drag it to the left until the **Location** tooltip shows **10%**. Using the same technique, add a fourth gradient color stop. Set its color to **R=255 G=220 B=170** and drag it to **60%**.
+
+(image: notebookIconiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your gradient filled shape stays selected, keep focusing on the **Effects** pane and add a second **Fill** using the plus button from the bottom, right corner of your pane. 
+
+Tap on its right side handle to drag this new **Fill** below the existing one and then tap its color well. Tap the **Gradient Fill** and the **Linear** buttons, set the **Angle** to -**90 degrees**, and then  move to the gradient color stops. Select the left one, move it to **80%**, replace the existing color with to **R=255 G=230 B=180** and drag the **Alpha** slider to **0%**. Move to the right gradient color stop, set the color  to **R=124 G=99 B=49** and drag that **Alpha** slider to **40%**. Return to the **Effects** pane and simply tap the cogwheel button of the **Fill** added in this step. Tap the **Blend Mode** command, select **Multiply** from that list, and then tap the **Done** button. 
+
+(image: notebookIconiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your gradient filled shapes stays selected, keep focusing on the **Effects** pane and simply check the checkbox that stand for the existing **Inner Shadow** to activate it. 
+
+Enter -**1** in the **Y** box and **0** in the other two boxes and then tap the color well of this  effect. Set the color to  **R=255 G=255 B=255** (white) and drag that **Alpha** slider to **80%**. Return to the **Effects** pane, tap the cogwheel icon that stands for this  **Inner Shadow** and select the **Soft Light** blend mode. 
+
+(image: notebookIconiPad6.jpg)
+
+
+
+##Step 7
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid &amp; Rulers** pane and enter **1 px** in both  **Spacing** boxes. 
+
+Go to your **Toolbar** and set the **Fill** color to black (**R=0 G=0 B=0**). Using the **Rectangle Tool**, create a **130 x 1 px** shape and place it exactly as shown in the following image. 
+
+Make sure that this thin shape stays selected and add eight copies in the same place. Select these new shapes one by one and then  tap and hold with a second finger while dragging to easily move your selection on only one axis (horizontally or vertically). 
+
+Move your copies one under the other in a perfectly aligned column. When you get to the last copy, drag it to the bottom and place it exactly as shown in the second image. 
+
+(image: notebookIconiPad7.jpg)
+
+
+
+##Step 8
+
+ Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your black rectangles, go to the **Arrange** pane and tap that **Distribute Vertically** command to get an even amount of space  between your selected rectangles.
+ 
+(image: notebookIconiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that all your thin rectangles are still selected, go to the **Combine** pane and tap that **Make Compound Path** command. This will unite your black shapes into one compound path that can be selected, moved or edited way easier. 
+
+(image: notebookIconiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your compound path is still selected, go to **Effects** pane and focus on the **Fill**. First, tap its color well and drag the **Alpha** slider to **70%** and then tap its cogwheel button and change the **Blend Mode** to **Soft Light**. 
+
+(image: notebookIconiPad10.jpg)
+
+
+
+##Step 11
+
+Return to your **Toolbar**, make sure that the **Stroke**  is still invisible and  set the **Fill** color to **R=253 G=91 B=91**.
+
+Using the **Rectangle**  **Tool**, create a **1 x 100  px** shape and place it  exactly as shown in the following image. 
+
+(image: notebookIconiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your red shape is still selected, go to the **Appearance** pane and drag that **Opacity** slider to  **30%**. 
+
+(image: notebookIconiPad12.jpg)
+
+
+
+##Step 13
+
+Now, you will need a grid every **5 px**. Return to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes.
+
+Get back to your **Toolbar**, make sure that the **Line** is invisible and  set the **Fill** color to **R=255 G=200 B=0**. 
+
+Using the **Rectangle Tool**, create a **130 x 30 px** shape and place it as shown in the first image. Switch to the **Move Tool**, select your yellow rectangle along with the blue, rounded square that lies in the back, go to the **Combine**  pane and tap that **Intersect** command. 
+
+
+(image: notebookIconiPad13.jpg)
+
+
+
+##Step 14
+
+Make sure that the shape made in the previous step stays selected  and move to the **Effects** pane. Focus on the existing **Fill**, tap its color well and replace the existing color with the linear gradient shown below. 
+
+(image: notebookIconiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and simply check the round checkbox that stand for the existing **Drop Shadow** effect to activate it. 
+
+Enter **3** in the **Y** box and **0** in the other two boxes, select **Soft Light** for the  **Blend Mode** and then tap the color well that stands for this  effect. Make sure that the color is set to black and drag that **Alpha** slider to **15%**. 
+
+(image: notebookIconiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using that same plus button. Select this new **Drop Shadow**, make sure that it lies below the existing effect and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Make sure that this new effect lies below the other two **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner  Shadow**. Enter **1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Overlay** and then tap the color well that stands for this  effect. Set the color to  white and drag that **Alpha** slider to **20%**. 
+
+(image: notebookIconiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image.
+
+(image: notebookIconiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your brown shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Make sure that it lies below the active effects and then enter the attributes shown in the following image. 
+
+(image: notebookIconiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your brown shape stays selected and keep focusing on the **Effects** pane. You must add a new **Inner  Shadow**, but first you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape.
+
+ Simply tap the cogwheel button of that  **Outer Glow** effect and then tap the **Remove** command. Now, you can add that fifth **Inner Shadow** effect. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+ 
+(image: notebookIconiPad22.jpg)
+
+
+
+##Step 23
+
+
+Focus on the right side of your **Titlebar** and simply tap the rightmost icon to open the **Layers** panel. Tap  the name of the existing layer and  rename it &quot;_Icon_&quot;. Keep focusing on the **Layers** panel and  tap that plus button from top, right corner of the panel to add a second layer. Make sure that this new layer stays selected and rename it &quot;_Bg_&quot;. 
+
+Return to  your canvas, pick  the **Rectangle Tool** and create a **600 px** square. Make sure that it stays selected and move to the **Effect** pane. Tap the color well of the existing **Fill** and then tap the **Gradient Fill** and the **Radial** buttons. Set the **Angle** to **0 degrees** and then select the gradient color stops and enter the color attributes shown in the following image. 
+
+With your square still selected, open the **Arrange** pane and then tap the **Align Horizontal** and **Align Vertical** buttons to bring your square in the center of the canvas.
+
+(image: notebookIconiPad23.jpg)
+
+
+
+##Step 24
+
+Focus on your **Toolbar**, make sure that the **Line** is invisible and then set the **Fill** color to **R=255 G=225 B=175**. Pick the **Rounded Rectangle Tool**, focus on the **Tool Options** pane and make sure that the  **Radius** slider is set to **5**. 
+
+Create a **130 px** rounded square and bring it in the center of your canvas using the  same **Align Horizontal**  and **Align Vertical**  buttons from the **Arrange** pane. 
+
+(image: notebookIconiPad24.jpg)
+
+
+
+##Step 25
+
+Return to the **Layers** panel and make sure that your &quot;_Bg_&quot; layer remains selected. Tap and hold on its thumbnail to drag it below the other layer. 
+
+Select that  rounded square and focus on the **Effects** pane. Activate the existing **Drop Shadow** and  enter the attributes shown in the following image.
+
+(image: notebookIconiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your  rounded square stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: notebookIconiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPad28.jpg)
+
+
+
+##Step 29
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a fifth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your rounded square stays selected, keep focusing on the **Effects** pane and add a sixth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image.
+
+(image: notebookIconiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Shadow** effect and then add a seventh **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPad31.jpg)
+
+
+
+##Step 32
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Outer Glow** effect and then add an eighth **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPad32.jpg)
+
+
+
+##Step 33
+
+Make sure that your rounded square stays selected and keep focusing on the **Effects** pane. Remove that inactive **Inner Glow** effect and then add one final **Drop Shadow**. Select it and enter the attributes shown in the following image.
+
+(image: notebookIconiPad33.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: notebookIconiPad0.jpg)
+
+----
+
+Title: iPad

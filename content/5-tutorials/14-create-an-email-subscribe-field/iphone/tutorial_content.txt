@@ -1,0 +1,316 @@
+Text: 
+
+In the following tutorial you will learn how to create an email subscribe field in  Graphic for iPhone. 
+
+For starters, you will learn how to setup a simple grid and how to create a tiny envelope icon using basic tools and vector shape building techniques. Using mostly the Rounded Rectangle Tool and the Effects pane, you will create the main pieces of your subscribe field. 
+
+Finally, you will learn how to add some simple pieces of text and and how to stylize them. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: subscribeFieldiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. 
+
+(image: subscribeFieldiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane, enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: subscribeFieldiPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=50 G=50 B=55** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag the  **Radius** slider to **2**. Move to yor canvas and simply create a **16 x 12 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: subscribeFieldiPhone2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, this time make sure that the **Fill**  is invisible and then set the **Line**  color to **R=255 G=201 B=0**. Using the **Pen Tool** or the **Line Tool**, create a **16 px**, horizontal path and place it exactly as shown in the following image.
+
+(image: subscribeFieldiPhone3A.jpg)
+
+Make sure that your yellow path remains seelcted and pick the **Pen Tool**. Focus on the newly opened **Tool Options** pane and activate the **Add Points** mode. Return to your  canvas and simply tap in the middle of your yellow path to add a new anchor point as shown in the following image.
+
+(image: subscribeFieldiPhone3B.jpg)
+
+Using the **Move Tool**, reselect your  yellow path and simply tap and hold to open that context enu. Use the **Copy** and **Paste** commands to duplicate your yellow path, select the copy and place it exactly as shown in the following image. 
+
+(image: subscribeFieldiPhone3C.jpg)
+
+
+
+##Step 4
+
+Pick the **Path Selection Tool** and  focus on your top, yellow path. Select the middle anchor point and drag it **6 px** down. Move to your bottom, yellow path, select the middle anchor point and drag it **7 px** up. In the end, things should look like in the second image. 
+
+Switch to the **Move Tool** and select only the top yellow path. Tap and hold to open that context menu and tap that **Copy** command. Reopen the context menu and this time tap the **Paste in Place** command to add a copy of your selection in the same place. 
+
+(image: subscribeFieldiPhone4.jpg)
+
+
+
+##Step 5
+
+Reselect the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. This mode will allow you to easily select or add new shapes to an existing selection with a simple tap. 
+
+Now, select your bottom, yellow path along with the copy of that top, yellow paths and open the **Properties** panel. Go to the **Path Tools** pane and then tap the **Outline Stroke** button. 
+
+(image: subscribeFieldiPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that the two shapes made in the previou step are still selected and re-open the **Properties** pane. This time go to the **Combine** pane,  tap the **Subtract** button and you will end up with the three yellow shapes highlighted in the second image. 
+
+(image: subscribeFieldiPhone6.jpg)
+
+
+
+##Step 7
+
+Using the **Move Tool**, select only the shape highlighted in the first image and get rid of it using the **X** button from the left side of your **Titlebar**. Select the remaining yellow path and  tap the **Outline Stroke**  button from **Path Tools**  pane. 
+
+(image: subscribeFieldiPhone7A.jpg)
+
+Switch to the **Path Selection Tool** and make sure that the **Add to Selection** mode is active. Select all your yellow shapes and tap the **Union** button from the **Combine** pane.
+
+(image: subscribeFieldiPhone7B.jpg)
+
+
+
+##Step 8
+
+Select all the shapes made so far and focus on the **Combine** pane. First, tap the **Subtract** button and then tap that **Make** button.
+
+Focus on the right side of your titlebar and simply tap the rightmost icon to open the **Layers** pane. Add a second layer using the plus button from the bottom of the panel. Tap and hold on the thumbnail of your new layer to drag it below the existing layer.. Make sure that your newly added layer is selected and close the **Layers** panel. 
+
+(image: subscribeFieldiPhone8.jpg)
+
+
+
+##Step 9
+
+For the next steps you will need a grid every **10 px**. This simply means that you need to return to the **Grid** pane,  open the **Grid Settings** pane and enter **10 px** for both **Spacing** boxes. Return to your Toolbar, make sure that the **Line** is invisible and  set the **Fill** color to **R=60 G=60 B=65**.
+
+Pick the **Rectangle Tool** and  create a **600 px** square. Make sure that this new shape stays selected, go to the **Align**  pane from the **Properties** panel and  tap the  **Horizontal** and **Vertical**  buttons. This will simply  bring your square in the center of the canvas. 
+
+(image: subscribeFieldiPhone9.jpg)
+
+
+
+##Step 10
+
+Pick the **Rounded Rectangle Tool** and drag that  **Radius** slider to **5**. Move to your canvas and create a **300 x 70 px** shape. Make sure that this new shape stays selected and focus on the **Toolbar**. 
+
+Tap the **Fill** color well and then  tap the **Gradient Fill** and the **Linear** buttons. Set the **Angle** to **-90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=40 G=40 B=45** and then select the right one and set its color to **R=45 G=45 B=50**. 
+
+(image: subscribeFieldiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle stays selected and focus on the right side of your titlebar. Tap the leftmost icon to open the **Appearance** panel and then go to the **Effects** pane. 
+
+Simply check the  box that stands for the existing **Drop Shadow** to activate it. Enter **5 pt** in the **Y** box and **0 pt** in the **X** box, drag the **Blur** slider to **10**  and then tap the color well that stands for this effect. Make sure that the color is set to black  (**R=0 G=0 B=0**) and drag the **Alpha** slider to **25%**. Return to the **Effects** pane and tap the cogwheel icon that stands for your **Drop Shadow** effect. Tap **Blend Mode** and  select **Soft Light** from that list.
+
+(image: subscribeFieldiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image.
+
+(image: subscribeFieldiPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using the plus button located in the top, right corner of the pane. Select this new effects, make sure that it lies below that other **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and select the **Stroke**. 
+
+Drag it below those active effects and set the **Alignment**  to **Inside**. Make sure that the **Width** slider is set to **1 pt** and then tap the color well that stands for your **Stroke**. Replace the existing color with **R=40 G=40 B=45** and drag the **Alpha** slider to **100%**. 
+
+(image: subscribeFieldiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using that same plus button. Select this new **Stroke**, drag it below the other one and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone15.jpg)
+
+
+
+##Step 16
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=40 G=40 B=45**.
+
+Pick the **Rounded Rectangle Tool**  and set the **Radius** to **2**. Create a **160 x 30 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy.
+
+(image: subscribeFieldiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle is selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and select the existing **Stroke**. Drag it below those active effects and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your newest rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Stroke**. Select this new **Stroke**, drag it below the other one and then enter the attributes shown below. 
+(image: subscribeFieldiPhone20.jpg)
+
+
+
+##Step 21
+
+Return to the **Grid** pane,  open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes. Open the **Layers** pane, select your bottom layer and drag it above the other layer. Make sure that your top layer stays selected and pick the **Move Tool**. 
+
+Using the **Move Tool**, select the envelope icon that lies inside your selected layer and place it as shown in the following image. Make sure that this shape stays selected and  focus on the **Effects** pane. Activate the existing **Drop  Shadow** effect and enter the attributes shown in the following image.
+
+(image: subscribeFieldiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your envelope icon is still selected and keep focusing on the **Effect** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Return to the **Grid &amp; Rulers** pane,  open the **Grid Settings** pane and enter **10 px** in both **Spacing** boxes. 
+
+Pick the **Rounded Rectangle Tool** and make sure that  the **Radius** slider is still set to **2 pt**. Move to your canvas, create a **90 x 30 px** shape and place it as shown in the following image. 
+
+Make sure that this new shape stays selected and focus on your Toolbar. First, make sure that the **Line** is invisible and then tap the **Fill** color well. Tap the **Gradient Fill** and the **Linear** buttons, set the angle to **90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=0 G=195 B=0** and then select the right one and set its color to **R=0 G=125 B=0**. 
+
+(image: subscribeFieldiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your green, rounded rectangle is still selected and go to the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Select the **Stroke**, drag it below that **Inner Shadow** effect and then enter the attributes shown in the following image.
+
+(image: subscribeFieldiPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that **Drop Shadow**, drag it below the **Stroke** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your green, rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this new effect, drag it below that other **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that **Inner Glow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your green, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate that **Outer Glow** and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone29.jpg)
+
+
+
+##Step 30
+
+Pick the **Text Tool** and double tap inside that new field. Select the **Damascus Bold**  font and set the size to **8 pt**. Add your &quot;_SUBSCRIBE_&quot;  piece of text, set its color to **R=43 G=43 B=48** and then go to the **Text** pane from the **Appearance** panel. Move to the bottom of the pane and set the **Character-Spacing** to **1**.
+
+Using the **Move Tool**, select your piece of text and place it as shown in the following image. 
+
+(image: subscribeFieldiPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your piece of text is still selected and focus on the **Effects** pane. Activate that **Drop Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: subscribeFieldiPhone31.jpg)
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: subscribeFieldiPhone0.jpg)
+
+----
+
+Title: iPhone

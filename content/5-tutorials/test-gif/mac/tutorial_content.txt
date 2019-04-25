@@ -1,0 +1,28 @@
+Text: 
+
+##Step 1
+
+Testing some GIFs for tutorial images. 
+
+<center><video autoplay="autoplay" loop="loop" width="680">
+<source src="http://www.graphic.com/content/5-tutorials/test-gif/mac/fashionstorepageipad1a.mp4" type="video/mp4" /> </video></center>
+
+<center><video autoplay="autoplay" loop="loop" width="680">
+<source src="http://www.graphic.com/content/5-tutorials/test-gif/mac/fashionstorepageipad3a.mp4" type="video/mp4" /> </video></center>
+
+<center><video autoplay="autoplay" loop="loop" width="680">
+<source src="http://www.graphic.com/content/5-tutorials/test-gif/mac/fashionstorepageipad18a.mp4" type="video/mp4" /> </video></center>
+
+<center><video autoplay="autoplay" loop="loop" width="680">
+<source src="http://www.graphic.com/content/5-tutorials/test-gif/mac/fashionstorepageipad20a.mp4" type="video/mp4" /> </video></center>
+
+(image: fashionstorepageiphone1.png)
+(image: fashionstorepageiphone2.png)
+
+> Tip: Use the **B** keyboard shortcut to quickly select the **Brush tool**.
+
+(image: nintendoswitchipad0.png)
+
+----
+
+Title: Mac

@@ -1,0 +1,393 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple image slider UI in  Graphic for iPhone. 
+
+For starters, you will learn how to set up a simple grid and how to create the main shapes using basic tools and vector shape building techniques. Using the Effects pane, you will learn how to add subtle shading and highlights for your shapes. 
+
+Finally, you'll learn how to create and adjust image fills and how to add simple pieces of text. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: imageSlideriPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set the **Width** to **600 px** and the **Height** to **600 px**, select **Pixels** for the base unit and be sure that the **Pixel-Align Strokes** feature is disabled. 
+
+(image: imageSlideriPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: imageSlideriPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and notice that by default the fill color is set to white while the line color is set to black. 
+
+Tap the fill color well and set the color to **R=235 G=235 B=235** and then tap the line color well. Drag the **Alpha** slider to **0%** and this will simply make your line invisible. Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options** pane and drag that **Radius** slider to **5**. Move to your canvas and simply create a **370 x 220 px** shape. 
+
+(image: imageSlideriPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. 
+
+Go to the **Effects** pane and select the existing **Stroke**. Drag the **Width** slider to **2 pt**, select the **Inside Alignment** button and then tap  the color well that stands for your **Stroke**. Drag the **Alpha** slider at **100%** and replace the existing color with a simple white (**R=255 G=255 B=255**). Return to the **Effects** pane and tap the cogwheel icon that stands for your **Stroke**. Tap the **Blend Mode** command and select the **Soft Light** blend mode. In the end things should look like in the following image. 
+
+(image: imageSlideriPhone3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. Select this new stroke and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlideriPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Select the new stroke and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlideriPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and  check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **0** in the **X** box and **2** in the **Y** box, drag the **Blur** slider to **8** and then tap on the color well that stands for this effect. Drag the **Alpha** slider to **15%** and replace the existing color with a simple black (**R=0 G=0 B=0**). Finally, drag this effect between the two **Strokes**. 
+
+(image: imageSlideriPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**. Select this new effect, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using that same plus button. Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a new **Inner Shadow** using that same plus button. Select this new effect, make sure that it lies above that  **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this  effect, drag it above that **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone10.jpg)
+
+
+
+##Step 11
+
+Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=235 G=235 B=235**.
+
+ Pick the **Rounded Rectangle Tool**, make sure that the  **Radius** is still set to **5** and move to your canvas. Create a **390 x 200 px** shape and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature should ease your work.
+
+(image: imageSlideriPhone11.jpg)
+
+
+
+##Step 12
+
+Reselect the rounded rectangle that lies in the back, open the **Appearance** panel and tap the **Copy Style** command. Next, select your front rounded rectangle, re-open the **Appearance** panel and this time tap the **Paste Style** command. In the end things should look like in the first image. 
+
+Now, you need to send your front rounded rectangle to the back. Select it, go to the **Arrange** pane from the **Properties** panel and simply drag that **Order** slider to the left. 
+
+(image: imageSlideriPhone12.jpg)
+
+
+
+##Step 13
+
+Get back to your Toolbar, make sure that the **Line** is still invisible and then set the **Fill** color to **R=74 G=196 B=237**. 
+
+Pick the **Rectangle Tool**, create a **350 x 200 px** shape and place it exactly as shown in the following image. 
+
+(image: imageSlideriPhone13.jpg)
+
+
+
+##Step 14
+
+For this step you  need to first save [this free image](http://pixabay.com/en/train-station-night-railway-tracks-336602/) inside your Photos. Get back to your  document, go to the **Image** pane from the **Appearance** panel and  simply add the image saved a few moments ago.
+
+(image: imageSlideriPhone14A.jpg)
+
+Now, you've probably noticed that the image doesn't cover your entire rectangle. To solve this issue, make sure that your rectangle is selected and double tap it. Drag that **Image** slider slightly to the right until you can tell that your image covers the entire rectangle. Once you're done, simply tap outside your shape. 
+
+(image: imageSlideriPhone14B.jpg)
+
+
+
+##Step 15
+
+Make sure that your rectangle stays selected and focus on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt**, check the **Outside Alignment** button and   then simply tap the color well that stands for your **Stroke**. Drag the **Alpha** slider to **50%** and replace the existing color with white.
+
+(image: imageSlideriPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a third **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Add a fourth **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane. Activate the existing **Inner Glow**, drag it right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone19.jpg)
+
+
+
+##Step 20
+
+Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=0 G=174 B=15**. 
+
+Using the **Ellipse Tool**, create a **10 px** circle. Make sure that this new shape is selected, and then tap and hold to open that context menu. Use the **Copy** and **Paste** commands to multiply your circle. Make four copies and spread them as shown in the following image. 
+
+(image: imageSlideriPhone20.jpg)
+
+
+
+##Step 21
+
+Reselect the five circle made in the previous step, focus on the **Combine** pane and simply tap the **Make Compound Path** command. Place your new compound path as shown in the following image. 
+
+(image: imageSlideriPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that your compound path stays selected and focus on the **Effects** pane. First, tap the **Fill** color well, drag the **Alpha** slider to **10%** and replace the existing fill color with black. Next, select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your compound path is still selected and focus on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your compound path is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it between the two **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your compound path is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it below that **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone25.jpg)
+
+
+
+##Step 26
+
+Return to your Toolbar, make sure that the **Line** color is set to **R=205 G=205 B=205** and then set the **Fill** color to **R=235 G=235 B=235**. 
+
+Using the **Ellipse Tool**, create a **10 px** circle and place it as shown in the first image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the  **Stroke** and simply replace the existing attributes with the ones shown in the following image. 
+
+(image: imageSlideriPhone26.jpg)
+
+
+
+##Step 27
+
+Make sure that your circle stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it above the **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone29.jpg)
+
+
+
+##Step 30
+
+Make sure that your circle is still selected and keep focusing on the **Effects**  pane. Activate the existing **Drop Shadow**, drag it between the two **Strokes** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone30.jpg)
+
+
+
+##Step 31
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, make sure that it lies below the existing one and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone31.jpg)
+
+
+
+##Step 32
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone33.jpg)
+
+
+
+##Step 34
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it right below the top  **Stroke** and then enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone34.jpg)
+
+
+
+##Step 35
+
+ Get back to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=255 G=185 B=2**. 
+ 
+Pick the **Rounded Rectangle Tool** and drag that  **Radius** slider to **2**. Move to your canvas, create a **50 x 20 px** shape and place it exactly as shown in the following image. 
+
+(image: imageSlideriPhone35.jpg)
+
+
+
+##Step 36
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid** pane,  open the **Grid Settings** pane and enter  **1 px** for both **Spacing** boxes.  
+
+Focus on the left side of your yellow shape and pick the **Rectangle Tool**. Create a **3 x 20 px** shape and place it exactly as shown in the first image. Pick the **Path Selection Tool**, focus on the newly opened **Tool Options** pane and activate the **Add to Selection** mode. This will allow you to easily select more that one shape simply by tapping them. 
+
+Select the rectangle made in this step along with your yellow, rounded rectangle, focus on the **Combine** pane and simply tap the **Subtract** command. In the end things should look like in the following image. 
+
+(image: imageSlideriPhone36.jpg)
+
+
+
+##Step 37
+
+Make sure that your yellow shape is still selected and duplicate it. Select the copy, pick the **Rotate Tool** and rotate your shape **180 degrees**. Drag your copy to the right and place it exactly as shown in the third image. 
+
+(image: imageSlideriPhone37.jpg)
+
+
+
+##Step 38
+
+Select your left, yellow shape and focus on the **Effects** pane. Replace the existing **Fill** color with **R=235 G=235 B=235** and then activate the **Drop Shadow**. Simply replace the existing attributes with the ones shown in the following image.
+
+(image: imageSlideriPhone38.jpg)
+
+
+
+##Step 39
+
+Make sure that the shape edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: imageSlideriPhone39.jpg)
+
+
+
+##Step 40
+
+Make sure that the shape edited in the previous step is still selected, copy its style and paste it unto that remaining yellow shape. 
+
+ Select this second shape, focus on **Effects** pane and simply inverse the values used in the **X Offset** section for the existing **Inner Shadow** and **Drop Shadow** effects. 
+
+(image: imageSlideriPhone40.jpg)
+
+
+
+##Step 41
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Select the **Arial Rounded MT** font and make it **Bold**. Drag the  font size slider to **8** and then  add the  &quot;_PREV_&quot; piece of text. Set its color to **R=175 G=175 B=175** and  place it as shown in the following image. 
+
+Using the same tool and text attributes, add the &quot;_NEXT_&quot; piece of text and place it as shown below. 
+
+(image: imageSlideriPhone41.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: imageSlideriPhone0.jpg)
+
+----
+
+Title: iPhone

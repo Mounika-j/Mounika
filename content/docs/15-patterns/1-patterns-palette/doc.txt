@@ -1,0 +1,15 @@
+Title: Pattern Palette
+
+----
+
+Text: 
+
+# Pattern Palette
+
+Using the tab menu at the top of the _**Color panel**_, you can easily switch to the _**Pattern Palette**_. 
+
+Patterns can be added to the _**Pattern Palette**_ by clicking on the add button (**+**) at the bottom of the palette. Saved patterns remain stored inside the _**Pattern Palette**_ and can be used in any new designs until you choose to remove them. 
+
+To remove a pattern simply right-click on it and choose _**Remove Pattern**_.
+
+(image: patternpalette1.jpg  width: 750)

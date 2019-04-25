@@ -1,0 +1,33 @@
+Title: Flat Vector Icons
+
+----
+
+Description: A set of 47 colorful flat icons. Each icon is vector-based and fully editable.
+
+----
+
+Headerimg: Header.png
+
+----
+
+Thumbnail: Thumbnail.jpg
+
+----
+
+Date: 2013-08-21
+
+----
+
+Categories: Mac, Icon
+
+----
+
+Text: A set of 47 colorful flat icons designed by Studio4. Each icon is vector-based and fully editable.
+
+----
+
+Graphicfile: FlatIcons.idraw
+
+----
+
+Credits: **Author**: (link: http://www.studio4.lt text: Studio4)

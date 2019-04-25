@@ -1,0 +1,84 @@
+Title: Gestures
+
+----
+
+Text: 
+
+# Gestures
+
+Any tap, swipe, drag, pinch, or otherwise interaction with the screen with one or more fingers is a possible gesture that can be used to make changes in Graphic. Here is a list with the most common gestures in Graphic and some examples of their use:
+
+(image: gestures1-ipad.jpg width: 750)
+
+#### Pinch to Zoom
+
+Place two fingers on the screen, usually the thumb and the index finger, and move them together to zoom out or move them apart to zoom in on the canvas. 
+
+#### Two-Finger Scrolling
+
+Place two fingers on the canvas, keep them pressed and drag them to navigate on the canvas without zooming in or out. 
+
+(video: gestures2-ipad.mp4 width: 750)
+
+#### Tap to Select
+
+Use one finger to quickly touch the screen in one spot. Tap to select objects on the canvas, open or close menus and panels, select tools from the Toolbar, apply commands and effects, or simply open documents. 
+
+(video: gestures3-ipad.mp4 width: 750)
+
+#### Double Tap
+
+Use one finger to quickly touch the screen two times in one spot. Use this gesture to add or edit text, finish editing paths or to rename layers and objects.
+
+(video: gestures4-ipad.mp4 width: 750)
+
+#### Tap & Hold
+
+Use one finger to tap the screen in one spot and keep it pressed. This gesture can be used to open the context menu when working on the canvas or to remove colors, gradients and patterns from their palettes. 
+
+(video: gestures5-ipad.mp4 width: 750)
+
+#### Tap & Drag
+
+Place one finger on the screen and drag immediately. This simple gesture can be used for: 
+
+• **Adjusting**: Drag any of the slider buttons to adjust the setting it controls. 
+• **Drawing**: draw (link: LINK text: _**lines**_), (link: docs-ipad/shapes/arcs text: _**arcs**_), (link: docs-ipad/shapes/ellipses text: _**ellipses**_), (link: docs-ipad/shapes/rectangles text: _**rectangles**_), (link: docs-ipad/shapes/rounded-rectangles text: _**rounded rectangles**_), (link: docs-ipad/shapes/polygons text: _**polygons**_), (link: docs-ipad/shapes/stars text: _**stars**_), (link: docs-ipad/paths/freehand-paths text: _**freehand paths**_) or (link: docs-ipad/brushes/creating-brush-strokes text: _**calligraphic brushes**_).
+• **Erasing**: erase objects using the (link: docs-ipad/adjusting-objects/erasing-objects text: _**Eraser tool**_). 
+• **Selecting**: create selection marquees to select (link: docs-ipad/adjusting-objects/selecting-objects#boundingbox text: _**objects**_) or (link: docs-ipad/paths/editing-path-points#selectmultiple text: _**path points**_). 
+• **Movement**: move selected (link: docs-ipad/adjusting-objects/moving-objects text: _**objects**_) or (link: docs-ipad/paths/editing-path-points text: _**path points**_). 
+• **Rotating**: rotate (link: docs-ipad/adjusting-objects/rotating-objects text: _**objects**_) or (link: docs-ipad/paths/rotating-path-points text: _**path points**_) using the bounding box or the Rotate tool.
+• **Scaling**: scale (link: docs-ipad/adjusting-objects/scaling-objects text: _**objects**_) or (link: docs-ipad/paths/scaling-path-points text: _**path points**_) using the bounding box or the Scale tool. 
+• **Slanting**: slant (link: docs-ipad/adjusting-objects/slanting-objects text: _**objects**_) or (link: docs-ipad/paths/slanting-path-points text: _**path points**_) using the Shear tool. 
+• **Add Shapes**: add a shape from the (link: docs-ipad/shape-libraries#addshape text: **Shape Libraries panel**) in a specific spot.
+
+#### Tap & Hold + Drag
+
+Use one finger to tap the screen in one spot and keep it pressed, and then drag. This gesture can be used to:
+
+• **Move Documents**: (link: docs-ipad/documents/creating-folders text: **isolate documents**) and move them inside a folder .
+• **Move Layers or Objects**: (link: docs-ipad/layers/moving-layers text: **isolate layers or objects**) inside the Layers panel  and move them.
+
+#### Tap & Drag + Tap & Hold
+
+Use one finger to tap and drag. While dragging, tap and hold with a second finger. This gesture is the equivalent of holding the **Shift ⇧** key on a Mac. It can be used to constrain the behavior of the following actions:
+
+• **Drawing**: draw straight, (link: docs-ipad/shapes/lines#lines text: _**horizontal or vertical lines**_),  (link: docs-ipad/shapes/ellipses text: _**circles**_) and (link: docs-ipad/shapes/rectangles text: _**squares**_).
+• **Movement**: (link: docs-ipad/adjusting-objects/moving-objects text: _**constrain the movement**_) of objects in a horizontal and vertical direction. 
+• **Rotating**: (link: docs-ipad/adjusting-objects/rotating-objects text: _**constrain the rotation**_) to 15˚ increments.
+• **Scaling and Slanting**: (link: docs-ipad/adjusting-objects/scaling-objects text: _**scale**_) and (link: docs-ipad/adjusting-objects/slanting-objects text: _**slant**_) in a horizontal and vertical direction. 
+• **Path Selection tool**: move (link: docs-ipad/paths/editing-path-points#modifycurves text: _**path points**_) or (link: docs-ipad/paths/editing-path-points#modifycurves text: _**path handles**_) independently.
+• **Pen tool**: create curved paths and move (link: http://www.graphic.com/docs-ipad/paths/creating-paths#creatingpaths text: _**path handles**_) independently.
+
+
+
+
+
+#### Tap & Drag + Two Fingers Tap & Hold
+
+Use one finger to tap and drag. While dragging, tap and hold with a second and a third finger. This gesture is the equivalent of holding the **Shift ⇧** and **Option ⌥** keys on a Mac. It can be used to constrain the behavior of the following actions:
+
+• **Movement**: (link: docs-ipad/paths/editing-path-points#selectmultiple text: _**constrain the movement**_) of anchor points in a horizontal and vertical direction. 
+• **Scaling**: (link: docs-ipad/adjusting-objects/scaling-objects#scaleboundingbox text: _**scale objects**_) from the center of the bounding box in a horizontal or vertical direction .
+
+Besides these somewhat classic gestures, there are another three (link: docs-ipad/gestures/customize-gestures text: _**customizable gestures**_).

@@ -1,0 +1,289 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat download button in  Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the  cloud shape using basic tools and vector shape building techniques. Next, you'll learn how to create the main button shape and how to add subtle shading and highlights for your objects. 
+
+Finally, you will learn how to create a simple piece of text and how to stylize it. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: downloadButton1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=255 G=200 B=0** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. 
+
+Pick the **Ellipse  Tool (O)** and create a **30 px** circle - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: downloadButton2.jpg)
+
+
+
+##Step 3
+
+Set the **Fill** color to **R=238 G=102 B=0** and make sure that the **Ellipse Tool (O)** is still active. Create a second, **30 px** circle and place it exactly as shown in the following image.
+
+(image: downloadButton3.jpg)
+
+
+
+##Step 4
+
+Set the **Fill** color to **R=44 G=164 B=15**, make sure that the **Ellipse Tool (O)** is still active, create a **20 px** circle  and place it exactly as shown in the following image. 
+
+(image: downloadButton4.jpg)
+
+
+
+##Step 5
+
+Set the **Fill** color to **R=148 G=6 B=178**, make sure that the **Ellipse Tool (O)** is still active, create a **35 px** circle  and place it exactly as shown in the following image. 
+
+(image: downloadButton5.jpg)
+
+
+
+##Step 6
+
+Set the **Fill** color to **R=0 G=125 B=215**, pick the **Rectangle  Tool (M)**, create a **35 x 15 px** shape  and place it exactly as shown in the following image. 
+
+(image: downloadButton6.jpg)
+
+
+
+##Step 7
+
+Using the **Move Tool (V)**, select all the shapes made so far and focus on the **Properties** pane. Go to the **Path Tools** pane and simply click that **Union** button. 
+
+(image: downloadButton7.jpg)
+
+
+
+##Step 8
+For the following steps you will need a grid every **1 px**. This simply means that you need to return to the **Grid**  pane of your **Properties** panel and enter **1 px** in the **X** and **Y Spacing** boxes. You will also need the **Appearance** panel which can  be easily opened by clicking the leftmost icon that lies above the **Layers** panel. 
+
+Return to your **Toolbar**, remove the color from the **Fill** and then select the **Stroke** and set its color to **R=0 G=125 B=215**. Pick the **Rectangle Tool (M)** and create a **12 x 8 px** shape. Make sure that this new rectangle stays selected and focus on the **Stroke** pane from the **Appearance** panel. Set the **Line Weight** to **1 pt** and the **Position** to **Outside** and then  check that **Round Join** button. In the end your blue path should look like in the following image. 
+  
+(image: downloadButton8.jpg)
+
+
+
+##Step 9
+
+Pick the **Path Selection Tool (A)** and focus on the bottom side of your blue rectangle. Select the right anchor point and simply hit the **Delete** (or **Backspace**) key to remove it. Select the remaining, bottom anchor point and  drag it **6 px** to the right as shown in the second image. In the end this should turn your rectangle into a triangle. 
+
+(image: downloadButton9.jpg)
+
+
+
+##Step 10
+
+Make sure that your triangle is still selected, go to the **Path Tools** pane from the **Properties** panel and click that **Outline Stroke** button. 
+
+(image: downloadButton10.jpg)
+
+
+
+##Step 11
+
+Keep focusing on your blue path and reselect the **Path Selection Tool (A)**. Select the highlighted anchor point  (or any inner acnhor point) and simply hit the **Delete** key. Once you do this your blue shape should look like in the second image.
+
+(image: downloadButton11.jpg)
+
+
+
+##Step 12
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the Tool Options bar set the **Corner Radius** to **1 pt**. 
+
+Move to your canvas and focus on that triangle. Create a **6 x 10 px** shape and place it exactly as shown in the first image. Select this rounded rectangle along with your triangle, go to the **Path Tools** pane from the **Properties** panel and click that **Union** button. 
+
+(image: downloadButton12.jpg)
+
+
+
+##Step 13
+
+Select your blue arrow and place it roughly as shown in the following image. 
+
+(image: downloadButton13.jpg)
+
+
+
+##Step 14
+
+Reslect your blue arrow along with the yellow cloud, go to the **Path Tools** pane from the **Properties** panel and click that **Subtract** button. 
+
+(image: downloadButton14.jpg)
+
+
+
+##Step 15
+
+For the following steps you will need a grid every **5 px**. Return to the **Grid** pane of your **Properties** pane and   enter **5px** in the **X** and **Y Spacing** boxes.
+ 
+Focus on your **Toolbar**, remove the color from the **Stroke** and then select the **Fill** and set its color to **R=1 G=125 B=215**. Pick the **Rounded Rectangle Tool (Shift + M)**, set the **Corner Radius** to **10 pt** and then create a **270 x 85 px** shape. 
+
+(image: downloadButton15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rounded rectangle stays selected and focus on the **Appearance** pane. Go to the **Effects** pane and select the existing **Stroke**. 
+
+Set the **Width** to **2 pt** and the **Position** to **Inside** and then  click the  color well that stands for this **Stroke**. Make it white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **15%**. 
+
+(image: downloadButton16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane from the **Appearance** panel. Add a second **Stroke** using the plus button located in the bottom, left corner of your panel, select it and enter the attributes shown in the following image. 
+
+(image: downloadButton17.jpg)
+
+
+
+##Step 18
+
+Select your cloud icon, place it as shown in the first image and replace the yellow used for the **Fill** with **R=235 G=235 B=235**.
+
+(image: downloadButton18.jpg)
+
+
+
+##Step 19
+
+Make sure that your cloud icon stays selected and focus on the **Effects** pane from the **Appearance** panel. 
+
+Activate the existing **Inner Shadow**, select it and change the **Blend Mode** to **Soft Light**. Enter **-2 pt** in the **Y** box and **0 pt** in the other two boxes. Finally, click the color well that stands for this effect, make it black and drag the **Alpha** slider to **40%**. 
+
+(image: downloadButton19.jpg)
+
+
+
+##Step 20
+
+Make sure that your cloud icon is still selected, focus on the **Effects** pane from the **Appearance** panel and add a second **Inner Shadow** effect using that same plus button. Select the new effect and enter the attributes shown in the following image. 
+
+(image: downloadButton20.jpg)
+
+
+
+##Step 21
+
+Make sure that your cloud icon is still selected and focus on the **Effects** pane from the **Appearance** panel. 
+
+Activate the existing **Drop Shadow**, select it and change the **Blend Mode** to **Soft Light**. Enter **3 pt** in the **Y** box and **0 pt** in the other two boxes and then click the color well that stands for this effect. Make sure that the color is set to black and drag the **Alpha** slider to **10%**. 
+
+(image: downloadButton21.jpg)
+
+
+
+##Step 22
+
+Using the **Ellipse Tool (O)**, create a **30 px** circle and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane from the **Appearance** panel. 
+Disable the **Fill**, enable that **Inner Shadow** effect and select it.  Enter **1 pt** in the **X** and **Y** boxes, set the size to **0 pt** and then click the color well and make it white. 
+
+(image: downloadButton22.jpg)
+
+
+
+##Step 23
+
+
+Using the **Ellipse Tool (O)**, create another **30 px** circle and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane from the **Appearance** panel.
+ 
+Disable the **Fill**, enable that **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: downloadButton23.jpg)
+
+
+
+##Step 24
+
+Using the **Ellipse Tool (O)**, create a  **20 px** circle and place it exactly as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane from the **Appearance** panel. 
+
+Disable the **Fill**, enable that **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: downloadButton24.jpg)
+
+
+
+##Step 25
+
+Pick the **Text Tool (T)**, simply click on your canvas and focus on the **Text** pane from the **Apperance** panel. Select the Arial Rounded MT Bold font, set the size to **30 pt** and then add yout &quot;_Download_ &quot; piece of text. Make sure that it stays selected, go to the **Effects** pane from the **Appearance** panel and set the **Text** color to **R=235 G=235 B=235**. 
+
+(image: downloadButton25.jpg)
+
+
+
+##Step 26
+
+Make sure that your piece of text is still selected, focus on the **Effects** pane and activate the **Inner Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: downloadButton26.jpg)
+
+
+
+##Step 27
+
+Make sure that your piece of text is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: downloadButton27.jpg)
+
+
+
+##Step 28
+
+Make sure that your piece of text is still selected, keep focusing on the **Effects** pane and activate the **Drop Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: downloadButton28.jpg)
+
+
+
+##Step 29
+
+Make sure that your piece of text is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select this effect and enter the attributes shown in the following image. 
+
+(image: downloadButton29.jpg)
+
+
+
+##Step 30
+
+Finally, feel free to try different colors for your button. Select your blue rounded rectangle, focus on the **Effects** pane and simply replace that blue with the colors shown in the following images or any other color. 
+
+(image: downloadButton30.jpg)
+(image: downloadButton31.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: downloadButton0A.jpg)
+(image: downloadButton0B.jpg)
+(image: downloadButton0C.jpg)
+
+----
+
+Title: Mac

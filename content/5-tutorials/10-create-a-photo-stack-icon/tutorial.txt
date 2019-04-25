@@ -1,0 +1,36 @@
+Title: Create a Photo Stack Icon
+
+----
+
+Description: Learn how to create a photo stack icon using images, shapes, and effects...
+
+----
+
+Image: (image: Header.jpg title: Create a Photo Stack Icon class: header960)
+
+----
+
+Thumbnail: photosiconthumbnail.jpg
+
+----
+
+Date: 2014-10-29
+
+----
+
+Categories: Mac, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: PhotosIcon.idraw text: PhotosIcon.idraw)
+
+----
+
+Graphicfile: photosicon.idraw
+
+----
+
+Headerimg: header.jpg

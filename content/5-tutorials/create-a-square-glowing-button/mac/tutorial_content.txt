@@ -1,0 +1,273 @@
+Text: 
+
+In the following tutorial you will learn how to create a square glowing button in Graphic for Mac. 
+
+For starters you will learn how to create a simple, dark background and how to easily center it. Using a rounded rectangle, a bunch of strokes and effects you will learn how to create the first part of your button. For the second part of your button you will need a new rounded rectangle with a thick, blue stroke, some effects and basic blending techniques. 
+
+Finally, you will learn how to add a simple piece of text and how to easily recolor your button. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Go to **File &gt; New** or hit the **Command + N** keyboard shortcut to bring up the **New Document** window. Select the **Grid** document style, select **pixels** for the document unit and then set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, you need to adjust  the document's grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and then enable **Snap to Grid**. 
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: glowingButton1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. 
+
+Click  the fill color well and replace the existing color with **R=29 G=29 B=34** and then click the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. Pick the **Rectangle Tool (M)** and create a **600 px** square.
+
+(image: glowingButton2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected, move to the **Alignment** pane from the **Properties** panel and simply click the **Horizontal Centers** and **Vertical Centers** buttons to bring your square in the center of the canvas. 
+
+(image: glowingButton3.jpg)
+
+
+
+##Step 4
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag the **Corner Radius** slider to **10 pt**. Move to your canvas and simply create a **100 x 100 px** shape. 
+
+(image: glowingButton4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can click on the leftmost icon that lies above the **Layers** pane to show and hide the panel.  
+
+Click the color well that stands for the existing **Stroke**, drag the **Alpha** slider to **2%** and make sure that the color is set to black (**R=0 G=0 B=0**). Keep focusing on this stroke, drag the **Width** slider to **3 pt** and then select **Inside** from the **Position** drop-down menu.
+
+(image: glowingButton5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of your panel. 
+
+Make sure that this new **Stroke** lies below the existing one and then enter the attributes shown in the following image. Remember that you can easily move attributes inside the **Effects** pane using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: glowingButton6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Make sure that this new **Stroke** lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButton7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangle is still selected, add a fourth **Stroke**, drag it below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButton8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **-1** in the **Y** box and **0** in the other two boxes, select **Soft Light** from the **Blend** drop-down menu and then click the color well that stands for this effect. Drag the **Alpha** slider top **20%** and replace the existing color with a simple black (**R=0 G=0 B=0**). 
+
+(image: glowingButton9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effect using that same plus button. 
+
+Drag this new effect below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: glowingButton10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. 
+
+Drag it below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: glowingButton11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Shadow**.
+ 
+Drag this new effect between those **Strokes** and the **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: glowingButton12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. 
+
+Select this new effect, drag it between the second and the third **Stroke** and then enter the attributes shown in the following image. 
+
+(image: glowingButton13.jpg)
+
+
+
+##Step 14
+
+Return to your **Toolbar**. This time make sure that the **Fill** is invisible and then set the **Stroke** color to **R=24 G=169 B=250**.
+ 
+Reselect the **Rounded Rectangle Tool (Shift + M)**, create a new **100 x 100 px** shape and place it exactly as shown in the following image. Make sure that it stays selected and move to that same **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **6 pt** and select **Outside** from the **Position** drop-down menu. 
+
+(image: glowingButton14.jpg)
+
+
+
+##Step 15
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: glowingButton15.jpg)
+
+
+
+##Step 16
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a third **Stroke**, drag it below the existing ones and then enter the attributes shown in the following image. 
+
+(image: glowingButton16.jpg)
+
+
+
+##Step 17
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingButton17.jpg)
+
+
+
+##Step 18
+
+Make sure that your newest rounded rectangle stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow**, drag it below that **Inner Glow** effect and then enter the attributes shown in the following image. 
+
+(image: glowingButton18.jpg)
+
+
+
+##Step 19
+
+Pick the **Text Tool (T)** and focus on the **Text** pane from the **Appearance** panel. Select the **Arial Rounded MT Bold** font,  set the **Size** to **35 pt** and then simply click on your canvas. 
+
+Add that &quot;_OK_&quot; piece of text, make sure that the color is set to **R=24 G=169 B=250** and place it roughly as shown in the following image. 
+
+(image: glowingButton19.jpg)
+
+
+
+##Step 20
+
+Make sure that your piece of text stays selected and return to the  **Effects** pane. Select the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: glowingButton20.jpg)
+
+
+
+##Step 21
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Add a second **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: glowingButton21.jpg)
+
+
+
+##Step 22
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingButton22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your piece of text stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Drag it below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: glowingButton23.jpg)
+
+
+
+##Step 24
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it between the existing **Strokes** and then enter the attributes shown in the following image. 
+
+(image: glowingButton24.jpg)
+
+
+
+##Step 25
+
+Make sure that your piece of text stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Drag it right below the existing **Inner Shadow** effect and then enter the attributes shown in the following image. 
+
+(image: glowingButton25.jpg)
+
+
+
+##Step 26
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects**  pane. Activate the existing **Outer Glow**, drag it right below those **Inner Shadow** effects and then enter the properties shown in the following image. 
+
+(image: glowingButton26.jpg)
+
+
+
+##Step 27
+
+Make sure that your piece of text stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow**, drag it between the existing **Inner Shadow** effects and then enter the attributes shown in the following image. 
+
+(image: glowingButton27.jpg)
+
+
+
+##Step 28
+
+Finally, feel free to try a different color for your button. Select your rounded rectangles and the piece of text one by one, focus on the **Effects** pane and replace that blue (**R=24 G=169 B=250**) with the color that you prefer. 
+
+(image: glowingButton28.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: glowingButton0.jpg)
+
+----
+
+Title: Mac

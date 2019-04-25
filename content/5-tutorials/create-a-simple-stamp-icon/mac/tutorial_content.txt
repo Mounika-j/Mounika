@@ -1,0 +1,245 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple stamp icon in Graphic for Mac. 
+
+For starters you will learn how to setup a simply grid and how to create the main stamp shape using two simple tools, a bunch of shapes and some basic vector shapes building techniques. Next, you will learn how to add a simple background, how to easily center it and how to add and adjust a simple, radial gradient. Moving on, you will learn how to add subtle shading and highlights for your stamp shape. 
+
+Finally, you will learn how to insert an image inside a shape and how to easily adjust its attributes.
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Go to **File &gt; New** or hit the **Command + N** keyboard shortcut to bring up the **New Document** window. Select the **Grid** document style, select **pixels** for the document unit and then set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, you need to adjust  the document's grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and then enable **Snap to Grid**. 
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: stampIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. Click  the fill color wheel and replace the existing color with **R=247 G=239 B=228** and then click the stroke color wheel and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+ Pick the **Rectangle Tool (M)**, focus on your canvas and create a **135 x 150 px** shape. The grid and the **Snap to Grid** feature will ease your work.
+ 
+(image: stampIcon2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the stroke is still invisible and then replace the existing fill color with **R=24 G=169 B=250**. 
+
+Pick the **Ellipse Tool (O)**, create a **10 px** circle and place it as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+(image: stampIcon3.jpg)
+
+
+
+##Step 4
+
+Using the  **Command + C &gt; Command + V** keyboard shortcut, multiply your blue circle and spread the copies as shown in the following image. 
+
+(image: stampIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that all your blue circles are selected, focus on the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button.
+
+(image: stampIcon5.jpg)
+
+
+
+##Step 6
+
+Duplicate your blue compound path (**Command + C &gt; Command + V**), select the copy and place it as shown in the following image. 
+
+(image: stampIcon6.jpg)
+
+
+
+##Step 7
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=255 G=185 B=0**. 
+
+Reselect the **Ellipse Tool (O)**, create a new, **10px** circle and place it as shown in the following image. 
+
+(image: stampIcon7.jpg)
+
+
+
+##Step 8
+
+Multiply your yellow circle and spread the copies as shown in the following image. 
+
+(image: stampIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that all your yellow circles are selected and turn them into a new compound path using that same **Make Compound Path** button from the **Path Tools** pane. 
+
+(image: stampIcon9.jpg)
+
+
+
+##Step 10
+
+Duplicate your yellow compound path, select the copy and place it as shown in the following image. 
+
+(image: stampIcon10.jpg)
+
+
+
+##Step 11
+
+Select all the shapes made so far, focus on the **Path Tools** pane from the **Properties** pane and click the **Subtract** button. In the end your  stamp shape should look like in the second image. 
+
+(image: stampIcon11.jpg)
+
+
+
+##Step 12
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=0 G=74 B=124**. 
+
+Pick the **Rectangle Tool (M)**, focus on your canvas and create a **600 px** square. Holding the **Shift** button will make it a lot easier for you to create a perfect square. Make sure that this new shape stays selected, send it to back using the **Shift + Command + [** keyboard shortcut and then move to the **Alignment** pane from the **Properties** panel.  Simply click the **Horizontal Centers** and **Vertical Centers** buttons to easily bring your blue shape in the center of the canvas. 
+
+(image: stampIcon12.jpg)
+
+
+
+##Step 13
+
+Make sure that your blue rectangle stays selected and move to the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can click  the leftmost icon that lies above the **Layers** pane to show and hide this panel. 
+
+Focus on the existing **Fill**, select **Radial Gradient** from the **Type** drop-down menu, set the **Angle** to **0 degrees** and then move to the gradient sliders. Select the left one and set its color at **R=80 G=73 B=83** then select the right one and set its color at **R=59 G=53 B=63**. 
+
+Switch to the **Move Tool (V)**, return to your canvas and simply double click inside your square to activate the **Gradient Tool**. Drag the right gradient slider to the right roughly as shown in the following image. 
+
+ (image: stampIcon13.jpg)
+
+
+
+##Step 14
+
+Select your stamp shape, focus on the **Effects** pane from the **Appearance** panel and select the existing **Stroke**. 
+
+Drag the **Width** slider to **2pt**, select **Inside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu and then simply click the color wheel that stands for your **Stroke**. Drag the **Alpha** slider to **100%** and replace the existing color with  white (**R=255 G=255 B=255**).
+
+(image: stampIcon14.jpg)
+
+
+
+##Step 15
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the bottom, left corner of your pane. 
+
+Focus on this new **Stroke**, make sure that it lies below the existing one and then enter the attributes shown in the following image. You can easily move attributes inside the **Effects** pane using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: stampIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects**  pane and add a third **Stroke** using that same plus button. Focus on this new **Stroke**, make sure that it lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: stampIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your stamp shape stays selected, focus on the **Effects** pane and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then click the color wheel that stands for this effect. Drag the **Alpha** slider at **15%** and make sure that the color is set at black (**R=0 G=0 B=0**). Keep focusing on the **Effects** pane and simply drag your **Drop Shadow** effect right below the **Fill**. 
+
+(image: stampIcon17.jpg)
+
+
+
+##Step 18
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects**  pane and add a second **Drop Shadow**  using that same plus button. Focus on this new effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: stampIcon18.jpg)
+
+
+
+##Step 19
+
+Make sure that your stamp shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow**. Select this effect, drag it right below the **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: stampIcon19.jpg)
+
+
+
+##Step 20
+
+Get back to your **Toolbar**, make sure that the stroke is invisible and then set the fill color to **R=255 G=185 B=0**. 
+
+Using the **Rectangle Tool (M)**, create a **105 x 120 px** shape and place it as shown in the following image. 
+
+(image: stampIcon20.jpg)
+
+
+
+##Step 21
+
+Now, you need to download [this free image](http://pixabay.com/en/hawk-bird-prey-animal-nature-494064/). 
+
+Make sure that the yellow rectangle  is still selected, focus on the **Effects** pane from the **Appearance** panel and select the existing fill. Select **Image** from the **Type** drop-down menu, simply add the image downloaded a few moments ago,  and  drag the **Scale** slider around **175%**.
+
+(image: stampIcon21.jpg)
+
+
+
+##Step 22
+
+Make sure that your image is still selected and focus on the **Effects** panel. Activate the existing **Stroke** and  enter the attributes shown in the following image. 
+
+(image: stampIcon22.jpg)
+
+
+
+##Step 23
+
+Feel free to use [a different image](http://pixabay.com/en/pavo-cristatus-peacock-85230/) for your stamp. 
+
+Make sure that your rectangle is still selected, focus on **Effects** pane and click that **Change Image** button. Add your new image and adjust it as you wish. Make sure that it covers your entire rectangle. 
+
+(image: stampIcon23.jpg)
+
+
+
+##Step 24
+
+Finally, here's how you can easily recolor your stamp. Select that main shape, focus on the **Effects** pane and replace the existing colors with the ones pointed in the following image. Feel free to try a different set of colors.
+
+(image: stampIcon24.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: stampIcon0.jpg)
+
+----
+
+Title: Mac

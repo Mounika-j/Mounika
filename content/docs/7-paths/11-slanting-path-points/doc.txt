@@ -1,0 +1,26 @@
+Title: Slanting Path Points
+
+----
+
+Text: 
+
+# Slanting Path Points
+
+Choose the _**Shear tool**_ to slant path points around a reference point.
+
+To slant one or more path points, first select the path points using the _**Path Selection tool**_. With the _**Shear tool**_ active, click and drag anywhere on the canvas to slant the path points around the reference point.
+
+Hold the **Shift ⇧** key while dragging to slant selected path points on only one axis (horizontally or vertically).
+
+(video: slantingpathpoints1.mp4 width: 750)
+
+> Tip: Use the **Shift - S** keyboard shortcut to quickly select the Shear tool. 
+
+
+Path points can be slanted numerically using the _**Tool Options bar**_ settings. Set the vertical and horizontal shear angles, and then click _**Shear**_ to apply the transformation.
+
+(video: slantingpathpoints2.mp4 width: 750)
+
+By default, the reference point will be located in the center of the selected object. To use a different location for the reference point, simply drag it to set it at that new location.
+
+(video: slantingpathpoints3.mp4 width: 750)

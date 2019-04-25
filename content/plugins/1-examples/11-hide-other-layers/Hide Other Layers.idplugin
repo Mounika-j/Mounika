@@ -1,0 +1,11 @@
+var doc = [app activeDocument]
+var layers = [doc layers]
+var count = [layers count]
+
+for(var i = 0; i < count; i++)
+{
+    var layer = layers[i]
+    
+    if([layer selected] == false)
+        layer.hidden = true
+}

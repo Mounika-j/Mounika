@@ -1,0 +1,43 @@
+Title: Strokes
+
+----
+
+Text: 
+
+# Strokes
+
+The _**Stroke**_ attribute is used to adjust a path’s stroke color, width, and style. Changes are applied to the currently selected objects.
+
+Tap any _**Stroke**_ to get access to its properties. As with the other attributes, multiple _**Strokes**_ can be added to an object.
+
+(image: strokes1-ipad.jpg width:750)
+
+1. **Stroke Color** - Set the color of the stroke and its transparency.
+
+2. **Width** - Adjust the stroke’s thickness using the width slider, or the input field.
+
+3. **Line Cap** - Set the style of path endpoints (caps) to Butt, Rounded or Projecting. 
+
+ (image: strokes2-ipad.jpg width:723)
+
+4. **Line Join** - Set the style of path corners (joins) to Miter, Rounded or Beveled. 
+
+ (image: strokes3-ipad.jpg width:723)
+
+5. **Alignment** - Set the position of the stroke to _**Inside**_,  _**Center**_ or _**Outside**_.
+
+ (image: strokes4-ipad.jpg width:723)
+
+### Stylizing strokes {#stylizing-strokes}
+
+Additionally, the _**Stroke pane**_ from the Appearance panel can be used to adjust a stroke's style. Changes are applied to the currently selected objects. 
+
+Besides the settings from the _**Effects pane**_, the _**Stroke pane**_ gives you the possibility to choose from a variety of line endings and preset line dash styles or to create custom line dash styles using the line style pop-ups.
+
+(video: strokes5-ipad.mp4 width:750)
+
+Open the middle line style pop-up and tap the _**Custom Line Dash**_ button. Create a custom line dash style using the dash and gap fields. _**Dash**_ fields adjust the length of a dash, while _**Gap**_ fields adjust the space between dashes. The values used in these fields multiply according to the existing Width value. 
+
+For example, a 10 pt line width with a 2 pt dash and a 3 pt  gap will create a dashed line with 20 px dashes and 30 px gaps.
+
+(video: strokes6-ipad.mp4 width:750)

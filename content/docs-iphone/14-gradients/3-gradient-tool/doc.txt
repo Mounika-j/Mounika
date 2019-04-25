@@ -1,0 +1,21 @@
+Title: Gradient Tool
+
+----
+
+Text: 
+
+# Gradient Tool
+
+Use the _**Gradient tool**_ to position the start and end points of a gradient fill relative to a shape’s bounds, changing the angle and spread of the gradient.
+
+Choose the _**Move tool**_ and tap an object with a gradient fill to select it, and then tap it a second time to activate the _**Gradient Tool**_. The start and end points of the gradient will appear on the selected shape. 
+
+(video: gradienttool1-iphone.mp4  width: 750)
+
+The gradient handles can be moved by simply dragging them. Tap and hold with a second finger while dragging the gradient handle to constrain its movement to 45˚ increments.
+
+To reset the start and end points of the gradient to their default positions, tap the _**Reset**_ button in the _**Tool pane**_. 
+
+(video: gradienttool2-iphone.mp4  width: 750)
+
+When finished, tap anywhere on the canvas to end the gradient editing and revert to the _**Move tool**_.

@@ -1,0 +1,15 @@
+Title: Duplicating Layers
+
+----
+
+Text: 
+
+# Duplicating Layers
+
+At times it can be useful to create an exact duplicate of an existing layer, including copies of the objects within that layer. 
+
+To duplicate a layer, choose _**Duplicate Layer**_ from the _**Layer actions menu**_, or **Arrange > Duplicate Layer** [**⇧** - **⌘** - **D**] from the menu bar.
+
+(video: duplicatinglayers1.mp4 width: 750)
+
+>Tip: You can also access the **Layer actions menu** by **right-clicking** on a layer.

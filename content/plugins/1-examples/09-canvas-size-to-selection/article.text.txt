@@ -1,0 +1,17 @@
+Title: Canvas Size to Selection
+
+----
+Description: Resize the canvas bounds to fit the currently selected objects.
+
+----
+Image: (image: Header.jpg title: Canvas Size to Selection)
+
+----
+Thumbnail: (image: Thumbnail.png title: Canvas Size to Selection)
+
+----
+Plugfile: (file: CanvasSizeToSelection.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

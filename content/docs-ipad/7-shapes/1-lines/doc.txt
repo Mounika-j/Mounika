@@ -1,0 +1,19 @@
+Title: Lines
+
+----
+
+Text: 
+
+#Lines
+
+Choose the _**Line tool**_ to draw line segments. Tap and drag to create a line segment. 
+
+Besides creating plain lines, it can also be used to create _**arrowed lines**_ and _**dimension lines**_. The settings in the _**Tool pane**_ can be used to change the Line tool from the default _**Plain Line**_ mode, to the _**Arrowed Line**_ or _**Dimension Line**_ modes.
+
+(image: lines1-ipad.jpg width: 750)
+
+Tap and drag to begin drawing the line, and then tap and hold with a second finger to easily create horizontal, vertical or 45° lines.
+#{#line} 
+(video: lines2-ipad.mp4 width: 750)
+
+Line segments can be easily turned into arrowed line segments or dimension line segments using the (link: docs-ipad/shapes/arrowed-lines text: _**Stroke pane**_) and the (link: docs-ipad/shapes/dimension-lines text: _**Label pane**_) from the Appearance panel.

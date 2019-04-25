@@ -1,0 +1,13 @@
+Title: Polygons
+
+----
+
+Text: 
+
+# Polygons
+
+Choose the _**Polygon tool**_ to create polygons with various numbers of sides, including triangles, hexagons, octagons, etc. Tap and drag to create a polygon.
+
+Vary the number of sides of your polygon by adjusting the _**Sides**_ setting in the _**Tool pane**_.
+
+(video: polygons1-ipad.mp4 width: 750)

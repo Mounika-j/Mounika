@@ -1,0 +1,17 @@
+Title: Pattern Tool
+
+----
+
+Text: 
+
+# Pattern Tool
+
+The _**Pattern tool**_ can be used to scale and position a pattern fill inside of a shape’s bounds.
+
+Choose the _**Move tool**_ and tap an object with a pattern fill to select it, and then tap it a second time to activate the _**Pattern tool**_. 
+
+The pattern can be scaled using the _**Pattern Scale**_ slider from the _**Tool pane**_ or positioned within the shape’s bounds by dragging. 
+
+(video: patterntool1-ipad.mp4  width: 750)
+
+To reset the pattern’s size and position to the defaults, tap the _**Reset**_ button in the _**Tool pane**_.

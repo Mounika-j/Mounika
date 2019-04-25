@@ -1,0 +1,32 @@
+Title: Exporting
+
+----
+
+Text: 
+
+# Exporting
+
+Once finished with a design, you can export it as an image or vector-based file. When ready to export, go back to the _**Documents Browser**_ and tap the _**Select**_ button. 
+
+Tap on each document to select it and then tap the _**Share**_ button and select one of the export commands.
+
+(video: exporting1-ipad.mp4 width: 750)
+
+Use the _**Export to iTunes**_, _**Send via Email**_, _**Send to App**_ or _**Save to Dropbox**_ commands to export your documents as PDF, SVG, PSD, PNG or JPEG files. 
+
+(image: exporting2-ipad.jpg width: 750)
+
+In addition to those formats, the _**Send to Email**_ and the _**Save to Dropbox**_ commands also offer the ability to export your documents as native Graphic files.
+
+#{#export}
+
+1. **Format** - Choose the file format to be used for the exported file. 
+
+2. **Scale** - Optionally set a scale factor to size of the exported design. 
+
+3. **Image Resolution** - Select the image resolution to be used for the exported file. 
+
+4. **Include Background** - When this option is enabled, the grid and color set for the canvas background remain visible in the exported file. 
+To export a design with a transparent background, disable this setting.
+
+> Note: When exporting to a format that doesn’t support transparency (PDF and JPEG), a white background will be added to the files exported when ‘Include Background’ is disabled.

@@ -1,0 +1,16 @@
+Title: Image Photo Effects
+
+----
+Description: Apply one of 8 different photo effect presets to an image fill. Choose from "Fade", "Instant", "Process", "Noir", and more.
+
+----
+Image: (image: Header.jpg title: Image Photo Effects)
+
+----
+Thumbnail: (image: Thumbnail.jpg title: Image Photo Effects)
+
+----
+Plugfile: (file: ImagePhotoEffects.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1, OS X 10.9+

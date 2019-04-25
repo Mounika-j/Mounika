@@ -1,0 +1,314 @@
+Text: 
+
+In the following tutorial you will learn how to create a weather app interface in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the background image. Taking full advantage of the grid and the Snap to Grid feature, you will learn how to create the main shapes and the subtle dividers. Using the Effects pane and some basic blending techniques, you will learn how to add color, shading and highlights for your shapes. 
+
+Finally, you will learn how to add a bunch of text and how to stylize it. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **750** pixels wide by **1334** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **1**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: weatherAppInterface1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and notice that by default the **Fill** color is set to white while the **Stroke** color is set to black. 
+
+Click  the **Fill** color well and replace the existing color with **R=97 G=98 B=99** and then click  the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. Pick the **Rectangle Tool (M)**, create a **750 x 1335 px** shape and make sure that it covers your entire canvas - the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: weatherAppInterface2.jpg)
+
+
+
+##Step 3
+
+Now, you need to download [this image (the L version)](http://pixabay.com/en/yellow-orange-cloud-clouds-sunset-66010/). Drag it inside your document and simply send it to back using the  **Shift + Command + [** keyboard shortcut. 
+(image: weatherAppInterface3.jpg)
+
+
+
+##Step 4
+
+Make sure that your image is still selected and focus on the **Geometry** pane from the **Properties** panel. 
+
+Check the **Constrain width and height** button (highlighted in the following image) and then simply enter **1334 px** in the **Height** box. This will simply resize your image without messing the proportions. Keep focusing on this pane and move to the **Position** section. Enter **-740 px** in the **X** box and **0** in the **Y** box and your image will be positioned as shown in the following image. 
+
+(image: weatherAppInterface4.jpg)
+
+
+
+##Step 5
+
+Reselect your blue rectangle along with that image, focus on the **Path Tools** pane from the **Properties** panel and  click that **Intersect** button. 
+
+Move to the **Layers** pane and simply lock your image to make sure that you won't accidentally select/move it in the next steps. In the end things should look like in the second image. 
+
+(image: weatherAppInterface5.jpg)
+
+
+
+##Step 6
+
+For the following steps you will need a grid every **5 px**. Simply go to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes. Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=0 G=152 B=245**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the Tool Options bar and drag that **Corner Radius** slider to **10 pt**. Move to your canvas, create a **720 x 450 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterface6.jpg)
+
+
+
+##Step 7
+
+Make sure that the **Rounded Rectangle Tool (Shift + M)** is still active, create a **170 x 290 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterface7.jpg)
+
+
+
+##Step 8
+Use the **Command + C &gt; Command + Shift + V** keyboard shortcut to add three copies of your smaller rounded rectangle in the same place. Select the top copy and drag it **540 px** to the right. This should leave a **20 px** gap between the edge of your shape and the edge of the canvas. 
+
+Using the **Move Tool (V)**, select all four rounded rectangles and go to **Arrange &gt; Distribute &gt; Horizontally**. Alternativelly, you can simply right click on your canvas and go to **Distribute &gt; Horizontally**. In the end, your rounded rectangles should be perfectly aligned, as shown in the following image.
+
+(image: weatherAppInterface8.jpg)
+
+
+
+##Step 9
+
+Reselect  the **Rounded Rectangle Tool (Shift + M)**, create a **720 x 170 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterface9.jpg)
+
+
+
+##Step 10
+
+Use the  **Command + C &gt; Command + V** keyboard shortcut to multiply the rounded rectangle made in the previous step and spread the copies as shown in the following image. 
+
+(image: weatherAppInterface10.jpg)
+
+
+
+##Step 11
+
+Again, you will need a grid every **1 px**, so return to the **Grid**  pane and enter **1 px** in both  **Spacing** boxes. Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to black (**R=0 G=0 B=0**). 
+
+Focus on your left, **170 x 290**  rounded rectangle. Using the **Rectangle  Tool (M)**, create a **166 x 2 px** shape and place it exactly as shown in the following image. 
+
+(image: weatherAppInterface11.jpg)
+
+
+
+##Step 12
+
+Multiply that black rectangle (**Command + C &gt; Command &gt; V**) and spread the copies as shown in the following image. Make sure that all these shapes are perfectly aligned. 
+
+(image: weatherAppInterface12.jpg)
+
+
+
+##Step 13
+
+Return to your Toolbar, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=255 G=185 B=0**. 
+
+Focus on your top, **720 x 170** rounded rectangle. Using the **Rectangle  Tool (M)**, create two, **2 x 166 px** shapes  and place them  exactly as shown in the following image. 
+
+(image: weatherAppInterface13.jpg)
+
+
+
+##Step 14
+
+Multiply your yellow rectangles (**Command + C &gt; Command &gt; V**) and spread the copies as shown in the following image. Again, make sure that all these shapes are perfectly aligned. 
+
+(image: weatherAppInterface14.jpg)
+
+
+
+##Step 15
+
+Select the top, rounded rectangle and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** pane is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel. 
+
+Click the color well that stands for the existing **Fill**, drag the **Alpha** slider to **20%** and replace the existing color with a simple white (**R=255 G=255 B=255**).
+
+(image: weatherAppInterface15.jpg)
+
+
+
+##Step 16
+
+Make sure that your top, rounded rectangle stays selected and keep focusing on the **Effects** pane. Select the existing **Stroke**, drag the **Width** slider to **2 pt** and select **Inside** from the **Position** drop-down menu. Next, click the color well that stands for this **Stroke**, drag the **Alpha** slider to **10%** and replace the existing color with a simple white. 
+
+(image: weatherAppInterface16.jpg)
+
+
+
+##Step 17
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the bottom, left corner of your pane.
+ 
+Select the new **Stroke** and make sure that it lies below the other one. Drag the **Width** slider to **2 pt**,  select **Outside** from the **Position** drop-down menu and **Soft Light** from the **Blend** drop-down menu. Next, click the color well that stands for this new **Stroke**, drag the **Alpha** slider to **15%** and replace the existing color with a simple black. 
+
+(image: weatherAppInterface17.jpg)
+
+
+
+##Step 18
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Inner Shadow**  to activate it.
+ 
+Enter **2** in the **Y** box and **0** in the other two boxes, select **Soft Light** from the **Blend Mode** drop-down menu and then click the color well that stands for this effect. Drag the **Alpha** slider to **30%** and replace the existing color with white. Don't forget to drag this effect right below the **Fill**. 
+
+(image: weatherAppInterface18.jpg)
+
+
+
+##Step 19
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using that same plus button. Select this new effect, drag it below the existing **Inner Shadow** and then enter the properties shown in the following image. 
+
+(image: weatherAppInterface19.jpg)
+
+
+
+##Step 20
+
+Make sure that your top, rounded rectangle is still selected, right click anywhere on your canvas and go to **Copy Style**. Next, select all your blue shapes, right click again and this time go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: weatherAppInterface20.jpg)
+
+
+
+##Step 21
+
+Select one of those black rectangles and go to the **Effects** pane. Focus on the  **Fill**, select **Soft Light** from the **Blend** drop-down menu and then click the color well and drag the **Alpha** slider to **25%**. 
+
+(image: weatherAppInterface21.jpg)
+
+
+
+##Step 22
+
+Make sure that the rectangle edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the  **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: weatherAppInterface22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that the rectangle edited in the previous step is still selected, go to **Copy Style** and then select the remaining black rectangles and go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: weatherAppInterface23.jpg)
+
+
+
+##Step 24
+
+Select one of your yellow rectangles and focus on the **Effects** pane. Select the existing **Fill**, select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then move to the gradient sliders. Select the left slider, drag the **Alpha** slider to **0%** and replace the existing color with white and then move to the right gradient slider, drag the **Alpha** slider to **30%** and replace the existing color with white. 
+
+(image: weatherAppInterface24.jpg)
+
+
+
+##Step 25
+
+Once again, use the **Copy Style** and **Paste Style** commands to copy the attributes added in the previous step and paste them unto the remaining yellow rectangles. 
+
+(image: weatherAppInterface25.jpg)
+
+
+
+##Step 26
+
+Now, you  need this [Set of Flat Weather Icons](http://graphic.com/tutorials/create-a-set-of-weather-icons). Feel free to follow that tutorial and create your own icons or simply copy the icons from the Graphic file that can be downloaded in the finale of the tutorial. 
+
+Paste all those icons inside your document and place them roughly as shown in the following image. 
+
+(image: weatherAppInterface26.jpg)
+
+
+
+##Step 27
+
+Duplicate one of those weather icons, double its size and place it as shown in the following image. 
+
+(image: weatherAppInterface27.jpg)
+
+
+
+##Step 28
+
+Finally, let's add the text. First, go to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to white. 
+
+Pick the **Text Tool (T)**, click on your canvas and  focus on the **Text** pane from the **Appearance** panel. Select the **Arial Rounded MT Bold** font, set the **Size** to **75 pt**  and then add that &quot;_21°_&quot; piece of text. Place it as shown in the following image and make sure that it stays selected. Move to the **Effects** pane from the **Appearance** panel, activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+Once you're done, right click on that **Drop Shadow** effect and go to **Copy Drop Shadow**. 
+
+(image: weatherAppInterface28.jpg)
+
+
+
+##Step 29
+
+ Use that same ****font, but decrease the **Size** to **50 pt**. Add the &quot;_01:23_&quot; piece of text, place it as shown in the following image and make sure that it stays selected. Move to the **Effects** pane, right click and go to **Paste Drop Shadow** to easily add the same **Drop Shadow** effect applied for your other piece of text. 
+
+(image: weatherAppInterface29.jpg)
+
+
+
+##Step 30
+
+Use the text attributes shown in the following image, add the new piece of text and spread them as shown below. Use the same color and don't forget to paste that subtle **Drop Shadow** effect. 
+
+(image: weatherAppInterface30.jpg)
+
+(image: weatherAppInterface31.jpg)
+
+(image: weatherAppInterface32.jpg)
+
+
+
+##Step 33
+
+
+Finally, feel free to try a different background  image. Here's one for the [morning version](http://pixabay.com/en/clouds-cloud-cumulus-clouds-blue-368117/). 
+
+(image: weatherAppInterface33.jpg)
+
+[Evening version](http://pixabay.com/en/monsoon-raindrops-rain-glass-wet-390944/) 
+
+(image: weatherAppInterface34.jpg)
+
+[Overnight version](http://pixabay.com/en/moon-cypress-mountains-moonrise-182145/)
+
+(image: weatherAppInterface35.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: weatherAppInterface0.jpg)
+
+----
+
+Title: Mac

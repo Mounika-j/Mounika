@@ -1,0 +1,195 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple ticket icon in Graphic for iPad. 
+
+For starters you will learn how to setup a simple grid and how to activate the Snap to Grid feature. Next, you'll create the main ticket shapes using two simple tools and some basic vector shapes building techniques. Using the Effects panel  you will learn how to add some subtle borders and shading for your ticket shape. 
+
+Finally, you'll learn how to add a simple piece of text and how to easily recolor your entire icon. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. From the **Documents Browser**, tap the plus button at the top-right corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** panel, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is enabled. The **Pixel-Align Strokes** feature ensures that all shapes which are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: ticketIconiPad1A.jpg)
+
+Next, you need to adjust your document's grid so switch to the **Grid &amp; Rulers** panel. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: ticketIconiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Tap that  fill color wheel and replace the existing color with **R=229 G=112 B=73** and then tap  the line color wheel and drag the **Alpha** slider to **0%**, which will simply make the line invisible. 
+
+Pick the **Rectangle Tool**, focus on your canvas and create a **140 x 75 px** shape. 
+
+(image: ticketIconiPad2.jpg)
+
+
+
+##Step 3
+
+Return to your **Toolbar**, make sure that the line is still invisible and then set the fill color to **R=0 G=152 B=245**. 
+
+Pick the **Ellipse Tool**, create a **20 px** circle and place it exactly as shown in the following image. The grid and the **Snap to Grid** feature will ease your work. 
+
+(image: ticketIconiPad3.jpg)
+
+
+
+##Step 4
+
+Make sure that your blue circle is still selected, focus on the left side of your titlebar and simply tap that paperclip icon to open the popover menu. Use the **Copy** and **Paste** commands to multiply your selected shapes. Make three copies and place them exactly as shown in the following image. 
+
+(image: ticketIconiPad4.jpg)
+
+
+
+##Step 5
+
+Now, you will need a grid every  **1 px** which simply means that you need to return to the **Grid &amp; Rulers** panel,  open the **Grid Settings** pane and enter **1 px** inside both **Spacing** boxes.  
+
+Get back to  your **Toolbar**, make sure that the line is still invisible and then set the fill color at **R=255 G=185 B=0**. Reselect the **Ellipse Tool**, create a **5 px** circle and place it as shown in the following image. 
+
+(image: ticketIconiPad5.jpg)
+
+
+
+##Step 6
+
+Use the same **Copy** and **Paste** commands from that paperclip popover menu to multipy your yellow circle and spread the copies as shown in the following image. 
+
+(image: ticketIconiPad6.jpg)
+
+
+
+##Step 7
+
+Pick the **Path Selection Tool**, focus on the newly opened tool pane and activate the second tool mode. 
+
+Select all those yellow circles, focus on the right side of your **Titlebar** and tap the middle icon. Move to the **Combine** panel and tap the **Make Compound Path** button. 
+
+(image: ticketIconiPad7.jpg)
+
+
+
+##Step 8
+
+Duplicate your yellow compound path, drag the copy to the right and place it as shown in the following image. 
+
+(image: ticketIconiPad8.jpg)
+
+
+
+##Step 9
+
+For the remaining steps you will need a grid every **5 px** which simply means that you need to return to the **Grid &amp; Rulers** panel, open the **Grid Settings** pane and enter **5 px** inside both **Spacing** boxes.  
+ 
+Select all the shapes made so far, return to the **Combine** panel and tap the **Subtract** button. 
+
+(image: ticketIconiPad9.jpg)
+
+
+
+##Step 10
+
+Make sure that your shape stays selected, focus on the right side of your **Titlebar** and tap the leftmost icon. 
+
+Move to the **Effects** panel, tap the color wheel that stands for the existing **Stroke**, drag the **Alpha** slider to **100%** and replace the existing color with a simple white (**R=255 G=255 B=255**). Keep focusing on this stroke, drag the **Width** slider to **2 pt** and then select the **Inside** Alignment button. Keep focusing on the **Effects** panel and tap the cogwheel icon that stands for your **Stroke**. Go to **Blend Mode**, select the **Soft Light** blend mode and then tap the **Done** button.
+
+(image: ticketIconiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your shape stays selected, keep focusing on the **Effects** panel and add a second **Stroke** using the plus button located in the bottom, right corner of your pane. 
+
+Make sure that this new **Stroke** lies below the existing one and then enter the attributes shown in the following image. You can easily move attributes inside the **Effects** panel using the button made out of three horizontal lines that comes with every attribute. Simply tap  and hold the button which stands for the attribute that you wish to be moved and then drag it wherever you want.
+
+(image: ticketIconiPad11.jpg)
+
+
+
+##Step 12
+
+Make sure that your shape stays selected, keep focusing on the **Effects** panel and add a third **Stroke** using that same plus button. 
+
+Make sure that this new **Stroke** lies below the existing ones and then enter the attributes shown in the following image. 
+
+(image: ticketIconiPad12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, this time make sure that the fill is invisible and then set the line color to **R=189 G=74 B=37**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **10 pt**. Move to your canvas, create a **110 x 55 px** shape and place it as shown in the following image. Make sure that this new shape stays selected, move to the **Effects** panel, focus on the existing **Stroke** and simply drag that **Width** slider to **2 pt**. 
+
+(image: ticketIconiPad13.jpg)
+
+
+
+##Step 14
+
+Using the **Line Tool** (or the **Pen Tool**), create a **35 px**, vertical path and place it exactly as shown in the following image. 
+
+Make sure that the this new path stays selected and focus on the **Effects** panel. Select the existing stroke, drag the  **Width**  slider to **2pt** and check the **Round Cap** button. 
+
+(image: ticketIconiPad14.jpg)
+
+
+
+##Step 15
+
+Duplicate your vertical path and place the copy as shown in the following image. 
+
+Pick  the **Text Tool** and simply  double tap inside that new field as you will be guided. Select the **DIN Condensed** **Bold** font, set the **Size** to **15 pt** , the **Leading** to **0.7** and the **Tracking** to **2**, replace the existing color with **R=189 G=74 B=37** and then simply add that &quot;_ADMIT ONE_&quot; piece of text. Place it roughly as shown in the following image. 
+
+(image: ticketIconiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your piece of text stays selected, focus on the **Effects** panel and check the little box that stands for the existing **Drop Shadow** to activate it.
+ 
+Enter **1** in the **Y** box and **0** in the other two boxes, change the blend mode to **Soft Light**  and then tap the color wheel that stands for this effect. Drag the **Alpha** slider to **50%** and replace the existing color with white. 
+
+(image: ticketIconiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your piece of text stays selected, focus on the **Effects** panel, activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: ticketIconiPad17.jpg)
+
+
+
+##Step 18
+
+Finally, feel free to try different colors for your ticket. Simply select the shapes, the paths and the piece of text one by one and then replace the two main colors (**R=229 G=112 B=73** and **R=189 G=74 B=37**) with the colors that your prefer. 
+
+(image: ticketIconiPad18.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: ticketIconiPad0.jpg)
+
+----
+
+Title: iPad

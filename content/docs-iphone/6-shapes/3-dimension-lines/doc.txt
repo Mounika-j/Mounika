@@ -1,0 +1,21 @@
+Title: Dimension Lines
+
+----
+
+Text: 
+
+# Dimension Lines
+
+Choose the _**Dimension Line tool**_ to draw dimension lines. Simply tap and drag to create a dimension line. 
+
+As with the other line tools, tap and drag to begin drawing a dimension line, and then tap and hold with a second finger to easily create horizontal, vertical or 45° dimension lines.
+
+(video: dimensionlines1-iphone.mp4 width: 750)
+
+The line endings and the line dash styles for created dimension lines can be customized using the (link: docs-iphone/effects/strokes#stroke-pane text: _**Stroke pane **_) or the (link: docs-iphone/effects/strokes text: _**Effects pane**_)  from the Appearance panel. 
+
+The position and style of the dimension labels can be customized using the (link: docs-iphone/labels/adding-labels text: _**Label pane**_) from the Appearance panel. 
+
+(video: dimensionlines2-iphone.mp4 width: 750)
+
+Create intricate drawings, such as floor plans or architectural designs, using lines, arrowed lines and dimension lines.

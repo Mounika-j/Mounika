@@ -1,0 +1,16 @@
+Title: Reset Bounding Box
+
+----
+Description: Resets the bounding box of the current selection. This will remove the rotation applied to the selection's bounding box, without affecting the shapes.
+
+----
+Image: (image: Header.jpg title: Create a Logo Design)
+
+----
+Thumbnail: (image: Thumbnail.png title: Reset Bounding Box)
+
+----
+Plugfile: (file: ResetBoundingBox.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

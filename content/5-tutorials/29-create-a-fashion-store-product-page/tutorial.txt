@@ -1,0 +1,21 @@
+Title: Create a Fashion Store Product Page
+
+----
+
+Date: 2018-02-19
+
+----
+
+Graphicfile: fashionstorepage.idraw
+
+----
+
+Description: Learn how to create a Create a Fashion Store Product Page using vector shapes and images...
+
+----
+
+Headerimg: fashionstorepageheader.jpg
+
+----
+
+Thumbnail: fashionstorepagethumbnail.jpg

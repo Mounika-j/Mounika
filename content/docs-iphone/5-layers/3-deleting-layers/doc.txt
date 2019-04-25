@@ -1,0 +1,11 @@
+Title: Deleting Layers
+
+----
+
+Text: 
+
+# Deleting Layers
+
+To delete a layer, select it, tap it again to open the _**Layers Action menu**_ and then choose _**Delete**_.
+
+(video: deletinglayers1-iphone.mp4 width: 750)

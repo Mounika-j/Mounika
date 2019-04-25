@@ -1,0 +1,22 @@
+Title: Deleting Path Points
+
+----
+
+Text: 
+
+# Deleting Path Points
+
+The _**Pen tool**_ can also be used to remove points from any path. The settings in the _**Tool Options bar**_ can be used to change the Pen tool from the default path creation mode, to the _**Delete Points**_ mode.
+
+(image: deletingpathpoints1.jpg  width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools. 
+After choosing the _**Delete Points**_ mode, simply click on any anchor point in the selected path to delete that point.
+
+(video: deletingpathpoints2.mp4 width: 750)
+
+> Tip: Use the **−** keyboard shortcut to select the **Pen tool** with the **Delete Points** mode. 
+
+Alternatively, anchor points can be also removed from a path by selecting them with the _**Path Selection tool**_ and pressing the **Delete** / **Backspace** key.
+
+(video: deletingpathpoints3.mp4 width: 750)

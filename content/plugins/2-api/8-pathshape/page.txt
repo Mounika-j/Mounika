@@ -1,0 +1,46 @@
+Title: PathShape
+
+----
+
+Text: 
+
+### _subclass of (link: plugins/api/shape text: **Shape**)_
+
+A path shape object.
+&nbsp;
+_Path_
+- (link: plugins/api/pathshape#path text: **path**)
+
+_Type_
+- (link: plugins/api/pathshape#type text: **type**)
+
+<a name="path"></a>
+## path
+### _returns (link: plugins/api/path text: **Path**)_; _settable_
+
+Gets / Sets the path of the shape.
+&nbsp;
+#### Example: sets a new path for the frontmost selected path shape
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if([shape type] == "pathShape")
+{
+	var path = [doc addPath]
+	[path addMoveTo:CGPointMake(25, 150)]
+	[path addLineTo:CGPointMake(75, 50)]
+	[path addLineTo:CGPointMake(125, 150)]
+	[path addClose]
+	
+	shape.path = path
+}
+
+```
+<a name="type"></a>
+## type
+### _returns **String**_
+
+Gets the type of this shape - _**"pathShape"**_
+&nbsp;

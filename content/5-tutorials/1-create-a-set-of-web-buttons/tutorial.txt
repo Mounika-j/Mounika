@@ -1,0 +1,25 @@
+Title: Create a Set of Web Buttons
+
+----
+
+Description: Learn how to use Graphic's Appearance Effects settings to create a variety of web buttons...
+
+----
+
+Headerimg: webbuttonsheader.jpg
+
+----
+
+Thumbnail: webbuttonsthumbnail.jpg
+
+----
+
+Graphicfile: WebButtons.idraw
+
+----
+
+Date: 2013-07-21
+
+----
+
+Categories: Mac, Appearance, UI, Button

@@ -1,0 +1,13 @@
+Title: Smart Guides
+
+----
+
+Text: 
+
+# Smart Guides
+
+Smart guides are straight, dotted lines (vertical or horizontal) that show up whenever you create or move an object, making it easier to align text or objects.
+
+To enable or disable this feature, open the _**Grid pane**_ from the Properties panel and tap the _**Smart Guides**_ option.
+
+(video: smartguides1-ipad.mp4 width:750)

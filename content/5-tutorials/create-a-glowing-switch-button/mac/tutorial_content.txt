@@ -1,0 +1,275 @@
+Text: 
+
+In the following tutorial you will learn how to create a glowing switch button in Graphic for Mac. 
+
+For starters you will learn how to create a new document and how to setup a simple grid. Using basic tools like the Rectangle and the Rounded Rectangle Tool, you will learn how to create the background  and the main buttons shapes. Taking full advantage of the Effects pane, you will learn how to add vibrant colors, subtle shading and some glow for your button pieces. 
+
+Finally, you'll learn how to add some simple pieces of text and how to easily stylize them. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Choose **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can click on the orange ruler icon above the **Layers** panel to show and hide the panel. Change the grid **X Spacing** and **Y Spacing** to **10 px**, set the **Subdivisions** to **0px**, and enable **Snap to Grid (Command + Shift + ')**.
+
+(image: glowingSwitchButton1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white and the stroke color is set to black. Simply click on the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible.
+ 
+Pick the **Rectangle  Tool (M)**, focus on your canvas and create a **600px** square. Holding the **Shift** button will make it a lot easier for you to create a perfect square, also the grid and the **Snap to Grid** feature will ease your work. 
+
+Make sure that your shape stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** panel is not currently visible, you can click on the blue icon above the **Layers** panel to show and hide the panel. Focus on the **Fill** and select **Radial Gradient** from the **Type** drop-down menu. Set the angle to **0 degrees** then move to the gradient sliders. Select the left one and set its color at **R=2 G=53 B=83** then select the right one and se its color at **R=0 G=10 B=18**. 
+
+(image: glowingSwitchButton2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected and simply double click on it to get the gradient slider. Select the right gradient slider and drag it to the right roughly as shown in the following image. 
+
+(image: glowingSwitchButton3.jpg)
+
+
+
+##Step 4
+
+Focus on your Toolbar, select the fill color and set it to **R=2 G=36 B=54**. Grab the **Rounded Rectangle Tool (Shift + M)**, focus on your Tool Options bar and drag the **Corner Radius** slider to **25 pt**. Move to your canvas, create a **200 x 50 px** shape and place it roughly as shown in the following image. 
+
+(image: glowingSwitchButton4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** pane from the **Appearance** panel and simply check the  box that stands for the existing **Drop Shadow**. Enter **1** in the **Y** box and **0** in the other two boxes, select  **Soft Light** from the **Blend Mode** drop down menu and then click the color well that stands for this effect. Set the color to white (**R=255 G=255 B=255**) and drag the **Alpha** slider to **30%**.
+
+(image: glowingSwitchButton5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangles stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Inner Shadow**  using the plus button located in the bottom, left corner of the panel. Select this new effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Outer Glow** effect  and enter the attributes shown in the following image.
+ 
+(image: glowingSwitchButton8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangles stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner  Glow** effect  and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton9.jpg)
+
+
+
+##Step 10
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Reselect the **Rounded Rectangle Tool (Shift + M)**, focus on the Tool Options bar and make sure that the **Corner Radius** is still set to **25pt**. Create a **100 x 46 px** shape and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. 
+
+Make sure that your new shape stays selected and focus on the **Effects** pane from the **Appearance** panel. Focus on the **Fill** and select **Linear Gradient** from the **Type** drop-down menu. Set the angle to **90 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=1 G=68 B=105** and then select the right one and se its color to **R=41 G=108 B=146**. Simply click on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=31 G=98 B=136** and drag it to the left until the **Location** tooltip shows **20%**. 
+
+Add another three  sliders for this gradient then use the color and the location attributes shown in the following image. In the end things should look like in the following image. This new rounded rectangle will be the button. 
+
+(image: glowingSwitchButton10.jpg)
+
+
+
+##Step 11
+
+Make sure that your button shape stays selected and focus on the **Effect**s pane from the **Appearance** panel. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton11.jpg)
+
+
+
+##Step 12
+
+Make sure that your button shape stays selected and keep focusing on the **Effect**s pane from the **Appearance** panel. Simply right click on the existing **Drop Shadow** effect and go to **Duplicate**. Select the newly added **Drop Shadow** effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton12.jpg)
+
+
+
+##Step 13
+
+Make sure that your button shape stays selected, keep focusing on the **Effect**s pane from the **Appearance** panel and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton13.jpg)
+
+
+
+##Step 14
+
+Make sure that your button shape stays selected, keep focusing on the **Effect**s pane from the **Appearance** panel and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton14.jpg)
+
+
+
+##Step 15
+
+Make sure that your button shape stays selected, keep focusing on the **Effect**s pane from the **Appearance** panel and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton15.jpg)
+
+
+
+##Step 16
+
+Make sure that your button shape stays selected and keep focusing on the **Effect**s pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton16.jpg)
+
+
+
+##Step 17
+
+Make sure that your button shape stays selected, keep focusing on the **Effect**s pane from the **Appearance** panel and duplicate the existing **Inner Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton17.jpg)
+
+
+
+##Step 18
+
+Make sure that your button shape stays selected, keep focusing on the **Effect**s pane from the **Appearance** panel and duplicate the bottom **Inner  Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: glowingSwitchButton18.jpg)
+
+
+
+##Step 19
+
+Make sure that your button shape stays selected and keep focusing on the **Effect**s pane from the **Appearance** panel. Activate the existing **Outer Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton19.jpg)
+
+
+
+##Step 20
+
+Make sure that your button shape stays selected and keep focusing on the **Effect**s pane from the **Appearance** panel. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton20.jpg)
+
+
+
+##Step 21
+
+Using  the **Rectangle Tool (M)**, create a **12 x 15 px** shape, set the fill color to **R=50 G=118 B=155** and place it roughly as shown in the following image. Keep focusing on this new shape, make sure that it stays selected and grab the **Pen Tool (P)**. Move to your Tool Options bar and activate the **Add Points** mode. Get back to your rectangle and simply add two anchor points as shown in the second image. 
+
+(image: glowingSwitchButton21.jpg)
+
+
+
+##Step 22
+
+Focus on your tiny rectangle and grab the **Path Selection Tool (A)**. Select the top, left anchor point and drag it **7 px** to the right and then select the bottom, right anchor point and drat it **8 px** to the left. In the end your shape should look like in the second image. Using that same tool, select the top, right anchor point and drag it **5 px** down and **6 px** to the left and then select the bottom, left anchor point and drag it **5 px** up and **6 px** to the right. In the your shape should look like in the third image. 
+(image: glowingSwitchButton22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your tiny bolt shape stays selected and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny bolt shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and duplicate the existing **Drop Shadow** effect. Select the newly added effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny bolt shape stays selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny bolt shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and duplicate the existing **Inner  Shadow** effect. Select the newly added effect and enter the attributes shown in the following image. In the end things should look like in the second image. 
+
+(image: glowingSwitchButton26.jpg)
+
+
+
+##Step 27
+
+Pick the **Text Tool (T)**, simply click on your canvas, add the &quot;_ON_&quot; piece of text and place it as shown in the following image. Set the color to **R=2 G=36 B=54**, make sure that it stays selected and focus on the **Text** pane from the **Appearance** panel. 
+
+Select the **Ubuntu Modo** font, make it **Bold** and set the size to **15pt**. Using the same tool, add the &quot;_OFF_&quot; piece of text, place it as shown in the following image and add the same attributes used for the &quot;_ON_&quot; piece of text. 
+
+(image: glowingSwitchButton27.jpg)
+
+
+
+##Step 28
+
+Make sure that both pieces of text remain selected  and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton28.jpg)
+
+
+
+##Step 29
+
+Make sure that both pieces of text are still selected, keep focusing on the **Effects** pane from the **Appearance** panel and duplicate the existing **Drop Shadow** effect. Select this newly added effect and enter the attributes shown in the following image. 
+
+(image: glowingSwitchButton29.jpg)
+
+
+
+##Step 30
+
+Make sure that both pieces of text are still selected and keep focusing on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect, enter the attributes shown in the following image and you're done. 
+
+(image: glowingSwitchButton30.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: glowingSwitchButton0.jpg)
+
+----
+
+Title: Mac

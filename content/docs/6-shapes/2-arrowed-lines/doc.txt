@@ -1,0 +1,15 @@
+Title: Arrowed Lines
+
+----
+
+Text: 
+
+# Arrowed Lines
+
+Arrowed Lines can be created using the _**Arrowed Line**_ mode of the (link: docs/shapes/lines text: _**Line tool**_). 
+
+(image: arrowedlines1.jpg width:750)
+
+The line endings for created lines can be customized using the (link: docs/effects/strokes#stroke-pane text: _**Stroke pane**_) or the (link: docs/effects/strokes text: _**Effects pane**_) from the _**Appearance panel**_. When creating lines with the _**Arrowed Line**_ mode, the previously selected line endings will be used.
+
+(video: arrowedlines2.mp4 width: 750)

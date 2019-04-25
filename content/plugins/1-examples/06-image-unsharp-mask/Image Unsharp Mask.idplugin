@@ -1,0 +1,215 @@
+var doc = [app activeDocument]
+var fill = findSelectedImageFill()
+var userClickedOK = false
+
+if(fill)
+{
+    var thumbImage = [[fill image] thumbnailCGImageToFitSize:CGSizeMake(300, 250)]
+    var radius = 2.5
+    var intensity = 0.5
+    var shouldApply = false
+    
+    // create a window
+    var window = [[NSWindow alloc] init]
+    [window setTitle:"Image Unsharp Mask"]
+    [window setFrame:NSMakeRect(0, 0, 320, 390) display:false]
+    
+    // create prompt text
+    var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 108, 300, 250)]
+    imageView.imageFrameStyle  = NSImageFrameGrayBezel
+    
+    var nsImg = [[NSImage alloc] initWithCGImage:thumbImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]
+    [[window contentView] addSubview:imageView]
+    
+    createTextLabel("Radius:", NSMakeRect(6, 72, 70, 20))
+    createTextLabel("Intensity:", NSMakeRect(6, 47, 70, 20))
+    
+    var radiusField = createValueField(NSMakeRect(272, 75, 34, 18))
+    radiusField.floatValue = 2.5
+    [radiusField setJSTargetFunction:"radiusFieldAction"]
+    
+    var intensityField = createValueField(NSMakeRect(272, 50, 34, 18))
+    intensityField.floatValue = 0.5
+    [intensityField setJSTargetFunction:"intensityFieldAction"]
+    
+    radiusField.nextKeyView = intensityField
+    intensityField.nextKeyView = radiusField
+    
+    var radiusSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 75, 190, 20)]
+    radiusSlider.minValue = 0
+    radiusSlider.maxValue = 75
+    radiusSlider.floatValue = 2.5
+    [radiusSlider setJSTargetFunction:"radiusSliderAction"]
+    [[window contentView] addSubview:radiusSlider]
+    
+    var intensitySlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 50, 190, 20)]
+    intensitySlider.minValue = 0
+    intensitySlider.maxValue = 1
+    intensitySlider.floatValue = 0.5
+    [intensitySlider setJSTargetFunction:"intensitySliderAction"]
+    [[window contentView] addSubview:intensitySlider]
+        
+	// create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(223, 8, 77, 32)]
+    [okButton setTitle:"Apply"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [okButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(141, 8, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:"\033"]    // esc key
+    [cancelButton setFont:[NSFont systemFontOfSize:13]]
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    [window setInitialFirstResponder:radiusSlider]
+    [NSApp runModalForWindow:window]
+    
+    if(shouldApply)
+    {
+        var currentImage = [fill image]
+        var filteredImg = filterImage([[fill image] CGImage], radius, intensity)
+        var newImg = doc.addImage(filteredImg)
+        newImg.cropRect = [currentImage cropRect]
+        newImg.opacity = [currentImage opacity]
+        fill.image = newImg;
+    }
+}
+else
+{
+    [app showAlert:"Please select an object with an image fill to adjust the image."]
+}
+
+
+function okAction(sender)
+{
+    shouldApply = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function createTextLabel(str, frame)
+{
+    var label = [[NSTextView alloc] initWithFrame:frame]
+    label.string = str
+    label.editable = false
+    label.selectable = false
+    label.font = [NSFont systemFontOfSize:11]
+    label.alignment = NSRightTextAlignment
+    label.backgroundColor = [NSColor clearColor]
+    [[window contentView] addSubview:label]
+    return [label autorelease]
+}
+
+function createValueField(frame)
+{
+    var valueField = [[NSTextField alloc] initWithFrame:frame]
+    valueField.editable = true
+    valueField.selectable = true
+    valueField.alignment = NSLeftTextAlignment
+    valueField.font = [NSFont systemFontOfSize:10]
+    valueField.focusRingType = NSFocusRingTypeNone
+    [valueField cell].sendsActionOnEndEditing = true
+    [[window contentView] addSubview:valueField]
+    
+    var formatter = [[NSNumberFormatter alloc] init]
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:"0.##"];
+    [formatter setLocale:[NSLocale systemLocale]];
+    valueField.formatter = formatter
+    
+    return [valueField autorelease]
+}
+
+function radiusSliderAction()
+{
+    radius = radiusSlider.floatValue()
+    radiusField.floatValue = radius
+    updatePreview()
+}
+
+function intensitySliderAction()
+{
+    intensity = intensitySlider.floatValue()
+    intensityField.floatValue = intensity
+    updatePreview()
+}
+
+function radiusFieldAction()
+{
+    radius = radiusField.floatValue()
+    radius = Math.max(0, Math.min(radius, 100))
+    
+    radiusSlider.floatValue = radius
+    radiusField.floatValue = radius
+    updatePreview()
+}
+
+function intensityFieldAction()
+{
+    intensity = intensityField.floatValue()
+    intensity = Math.max(0, Math.min(intensity, 1))
+    
+    intensitySlider.floatValue = intensity
+    intensityField.floatValue = intensity
+    updatePreview()
+}
+
+function findSelectedImageFill()
+{
+    var shapesEnumerator = [[doc selectedShapes] reverseObjectEnumerator]
+    var shape
+    
+    while(shape = [shapesEnumerator nextObject])
+    {
+        var fill = [shape fill]
+        
+        if(fill && [fill image])
+            return fill
+    }
+    
+    return nil
+}
+
+function updatePreview()
+{
+    var filteredImage = filterImage(thumbImage, radius, intensity)
+    var nsImg = [[NSImage alloc] initWithCGImage:filteredImage size:CGSizeMake(0, 0)]
+    [imageView setImage:nsImg]    
+    [nsImg release]
+}
+
+function filterImage(img, r, i)
+{
+    var inputImage = [CIImage imageWithCGImage:img]
+    var filter = [CIFilter filterWithName:"CIUnsharpMask"]
+        
+    [filter setDefaults]
+    [filter setValue:r forKey:"inputRadius"]
+    [filter setValue:i forKey:"inputIntensity"]
+    [filter setValue:inputImage forKey:"inputImage"]
+
+    var outputImage = [filter valueForKey:"outputImage"]
+    var rep = [NSCIImageRep imageRepWithCIImage:outputImage];
+    var nsImage = [[NSImage alloc] initWithSize:rep.size];
+    [nsImage addRepresentation:rep];
+    
+    var cgImg = [nsImage CGImageForProposedRect:nil context:nil hints:nil]
+    
+    [filter setDefaults]
+    [nsImage release]
+    
+    return cgImg
+}

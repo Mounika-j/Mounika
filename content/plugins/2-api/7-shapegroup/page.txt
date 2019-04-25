@@ -1,0 +1,96 @@
+Title: ShapeGroup
+
+----
+
+Text: 
+
+### _subclass of (link: plugins/api/shape text: **Shape**)_
+
+A shape group object. Although a shape group is a subclass of (link: plugins/api/shape text: **Shape**), it is actually a container of multiple shape objects.
+&nbsp;
+_Shapes_
+- (link: plugins/api/shapegroup#shapes text: **shapes**)
+
+_Creating Shapes_
+- (link: plugins/api/shapegroup#addPathShape text: **addPathShape:**)
+- (link: plugins/api/shapegroup#addTextShape text: **addTextShape:**)
+- (link: plugins/api/shapegroup#groupShapes text: **groupShapes:**)
+
+_Type_
+- (link: plugins/api/shapegroup#type text: **type**)
+
+<a name="addPathShape"></a>
+## addPathShape:
+### _returns (link: plugins/api/pathshape text: **PathShape**)_; _input (link: plugins/api/path text: **Path**)_
+
+Creates and returns a new path shape, adding it to the group.
+&nbsp;
+#### Example: create a triangle path shape
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+
+[path addMoveTo:CGPointMake(25, 150)]
+[path addLineTo:CGPointMake(75, 50)]
+[path addLineTo:CGPointMake(125, 150)]
+[path addClose]
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="addTextShape"></a>
+## addTextShape:
+### _returns (link: plugins/api/textshape text: **TextShape**)_; _input **NSAttributedString**_
+
+Creates and returns a new text shape, adding it to the group.
+&nbsp;
+#### Example: create a text shape styled with a 24pt system bold font 
+
+```
+var layer = [[app activeDocument] activeLayer]
+var font = [NSFont boldSystemFontOfSize:24]
+var dict = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName]
+var str = [[NSAttributedString alloc] initWithString:"Hello World!" attributes:dict]
+    
+var textShape = [layer addTextShape:str]
+textShape.position = CGPointMake(120, 100)
+[str release]
+
+```
+<a name="groupShapes"></a>
+## groupShapes:
+### _returns (link: plugins/api/shapegroup text: **Shape Group**)_; _input **Array**_
+
+Creates and returns a new Shape Group object containing all of the shapes in the passed-in array. The shapes are moved within the group. The input shapes must already be direct descendants of the target group when this function is called. 
+&nbsp;
+#### Example: create a group containing all of the shapes in the active layer
+
+```
+var layer = [[app activeDocument] activeLayer]
+var shapes = [layer shapes]
+[layer groupShapes:shapes]
+
+```
+<a name="shapes"></a>
+## shapes
+### _returns **Array**_
+
+Gets the array of shapes in the group.
+&nbsp;
+#### Example: rotate each shape in the active layer by 90 degrees
+
+```
+var doc = [app activeDocument]
+var shapes = [[doc activeLayer] shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+	[(shapes[i]) rotate:90]
+
+```
+<a name="type"></a>
+## type
+### _returns **String**_
+
+Gets the type of this shape - _**"group"**_
+&nbsp;

@@ -1,0 +1,17 @@
+Title: Canvas Size to Fit
+
+----
+Description: Resize the canvas bounds to fit the currently visible artwork.
+
+----
+Image: (image: Header.jpg title: Canvas Size to Fit)
+
+----
+Thumbnail: (image: Thumbnail.png title: Canvas Size to Fit)
+
+----
+Plugfile: (file: CanvasSizeToFit.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1
+

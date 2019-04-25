@@ -1,0 +1,13 @@
+Title: Stars
+
+----
+
+Text: 
+
+# Stars
+
+Choose the _**Star tool**_ to create simple star shapes or more complex objects with numerous rays and long sides. Tap and drag to create a star shape.
+
+(video: stars1-iphone.mp4 width:750)
+
+Vary the number of points, and the length of each edge, using the settings in the _**Tool pane**_.

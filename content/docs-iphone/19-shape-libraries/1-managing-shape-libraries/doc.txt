@@ -1,0 +1,51 @@
+Title: Managing Shape Libraries
+
+----
+
+Text: 
+
+### Creating a New Shape Library
+
+To create a new empty shape library, tap the **+** button from the top of the panel. For starters, your new shape library will be named _"My Shapes"_. 
+
+(video: managingshapelibraries1-iphone.mp4 width:750)
+
+### Saving a Shape
+
+Shapes or groups of shapes can be saved inside a custom shape library. To save a shape inside a custom shape library you need to first open your custom shape library. 
+
+Tap the _**Edit**_ button, select the shape/group that you wish to save and tap the **+** button from the bottom of the panel. Select several shapes/groups to add them all at once. When finished tap the _**Done**_ button.
+
+(video: managingshapelibraries2-iphone.mp4 width:750)
+
+> New shapes can be added to custom shape libraries, but not to the built-in libraries.
+
+
+### Removing a Saved Shape
+
+To remove a shape from a custom shape library start by tapping the _**Edit**_ button. Select the shape or shapes that you wish to remove and then tap the _**Trash**_ button from the bottom of the panel.
+
+(video: managingshapelibraries3-iphone.mp4 width:750)
+
+> Shapes that are part of the built-in libraries can’t be removed.
+
+
+### Removing/Renaming a Shape Library
+
+To rename or remove a custom shape library start by tapping the _**Edit**_ button. 
+
+Tap the name of the shape library that you wish to rename and simply type the new name. When finished tap the _**Done**_ button.
+
+Tap the round checkbox of the shape library that you wish to remove and then tap the _**Trash**_ button from the top of the panel. 
+
+(video: managingshapelibraries4-iphone.mp4 width:750)
+
+
+>The built-in shape libraries cannot be renamed or removed. 
+
+
+### Importing a Shape Library {#import-shapes} 
+
+Custom shape libraries can be imported from your iCloud/Dropbox folder like any other document using the **+** button from the _**Documents Browser**_. 
+
+(video: managingshapelibraries5-iphone.mp4 width:750)

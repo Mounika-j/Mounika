@@ -1,0 +1,211 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple photos icon in  Graphic for Mac. 
+
+For starters you will learn how to set up a simple grid and how to enable the Snap to Grid feature. Next, you'll learn how to create a simple shape, how to fill it with a linear gradient and how to add an image inside your document. Taking full advantage of the Effects pane, you will learn how to add subtle shading and highlights. 
+
+Finally, you'll learn how to rotate objects and how to easily adjust image fills. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0**, and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: photosIcon1.jpg)
+
+
+
+##Step 2
+
+
+Focus on your **Toolbar** and   notice that by default the fill color is set to white while the stroke color is set to black. Click that stroke color well and drag the **Alpha** slider to **0%**. This will simply make the stroke invisible. Pick the **Rounded Rectangle Tool  (Shift + M)**, focus on your **Tool Options** bar and drag the **Corner Radius** slider to **3 pt**. Move to your canvas and create a **220 x 265 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+Make sure that your shape stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** panel is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel. 
+
+Focus on the existing **Fill** and select **Linear  Gradient** from the **Type** drop-down menu. Set the angle to **90 degrees** and then move to the gradient sliders. Select the left one and set its color to **R=200 G=201 B=202** and then select the right one and se its color to **R=240 G=241 B=242**. Simply click on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=220 G=221 B=222** and drag it to the left until the **Location** tooltip shows **15%**.
+
+(image: photosIcon2.jpg)
+
+
+
+##Step 3
+
+Download [this image](http://pixabay.com/en/sunset-landscape-assam-india-169925/) and drag it inside your Graphic document. Make sure that it stays selected and focus on the **Geometry** pane from the **Properties** panel. 
+Check the **Constrain width and height** button (highlighted in the following image) and then  enter **200 px** in the **Height** box. This will simply resize your image without messing the proportions. Place your image exactly as shown in the first image. 
+
+Get back to your Toolbar, select the fill and replace the existing color with a simple white (**R=255 G=255 B=255**). Pick the **Rectangle Tool (M)**, create a **200 px** square and place it exactly as shown in the second image. 
+
+(image: photosIcon3.jpg)
+
+
+
+##Step 4
+
+Reselect your white square along with the image that lies behind, focus on the **Path Tools** pane from the **Properties** panel and click the **Intersect** button. In the end things should look like in the second image. 
+
+(image: photosIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that your image stays selected, focus on the **Effects** pane from the **Appearance** panel and simply check the little box that stands for the existing **Stroke** to activate it. 
+
+Select this  **Stroke**, drag the **Width** slider to **1 pt** adn then set the **Position** to **Inside** and the **Blend** to **Soft Light**. Keep focusing on this stroke and  click on its color well. Drag the **Alpha** slider to **10%** and set the color to black (**R=0 G=0 B=0**). 
+
+(image: photosIcon5.jpg)
+
+
+
+##Step 6
+
+Make sure that your image stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a second **Stroke** using the plus button located in the bottom, left corner of your panel. Select this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: photosIcon6.jpg)
+
+
+
+##Step 7
+
+Make sure that your image stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and add a third **Stroke** using that same plus button. Select this new **Stroke**, make sure that it lies below the existing ones and enter the attributes shown in the following image. 
+
+(image: photosIcon7.jpg)
+
+
+
+##Step 8
+
+Make sure that your image is still selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow** effect. Drag the **Size** slider to **15 pt**, select **Soft Light** from the **Blend Mode** drop-down menu and then click  the color well that stands for this effect. Drag the **Alpha** slider to **30%** and set the color to black. Once you're done, drag this **Inner Glow** effect right below the top stroke. 
+
+(image: photosIcon8.jpg)
+
+
+
+##Step 9
+
+Now, let's focus on the rounded rectangle. Make sure that it stays selected and go to the **Effects** pane. Activate the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: photosIcon9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Using that same plus button, add a second stroke, select it and enter the attributes shown in the following image. 
+
+(image: photosIcon10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect, enter **-1** in the **Y** box and **0** in the other two boxes and thne click the color well that stands for this effect. Drag the **Alpha** slider to **3%** and set the color to black. 
+
+(image: photosIcon11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, select it and enter the attributes shown in the following image. 
+
+(image: photosIcon12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, make sure that it lies below the existing effects and enter the attributes shown in the following image. 
+
+(image: photosIcon13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, make sure that it lies below the existing effects and enter the attributes shown in the following image. 
+
+(image: photosIcon14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a fifth **Drop Shadow**, drag it below the existing effects and enter the attributes shown in the following image. 
+
+(image: photosIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it right below the fill and then enter the attributes shown in the following image.
+
+(image: photosIcon16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effect**s pane. Activate the existing **Inner Glow** effect, drag it right below the fill and then enter the attributes shown in the following image.
+
+(image: photosIcon17.jpg)
+
+
+
+##Step 18
+
+Select both the image and the rounded rectangle and switch to the **Rotate Tool (R)**. Focus on the **Tool Options** bar, set the **Angle** to **-5 degrees** and then simply click that **Copy** button. In the end things should look like in the second image. 
+
+(image: photosIcon18.jpg)
+
+
+
+##Step 19
+
+Select the two copies made in the previous step and pick again the **Rotate Tool (R)**. Return to the **Tool Options** bar, this time set the **Angle** to **-15 degrees**  and then click  that **Copy** button. In the end things should look like in the second image. 
+
+(image: photosIcon19.jpg)
+
+
+
+##Step 20
+
+For this step you need  to download [this second image](http://pixabay.com/en/sun-set-sunset-fire-sea-ocean-19814/). 
+
+Get back to your canvas, select the front image and focus on the **Effects** pane. Select the existing fill and then click that **Change Image...** command. Simply add the image downloaded a few moments ago and things will look like in the second image. 
+
+(image: photosIcon20.jpg)
+
+
+
+##Step 21
+
+Now, you might have noticed that the image added in the previous step does not cover the entire rectangle where it lies. It's a big issue that can be solved pretty  fast. 
+
+Make sure that your front image is selected and focus on the **Effects** pane. Select the existing fill, simply drag the **Scale** slider around **135%** and things will look about as shown in the following image. 
+
+(image: photosIcon21.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+
+(image: photosIcon0.jpg)
+
+----
+
+Title: Mac

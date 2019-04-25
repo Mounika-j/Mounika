@@ -1,0 +1,415 @@
+Text: 
+
+In the following tutorial you will learn how to create a Four Steps Vertical Infographic in Picta Graphic for Mac. 
+
+For starters, you will learn how to set up a simple grid and how to create a set of pixel-perfect shapes. Using basic vector shape building techniques and some basic Effects attributes, you will learn to create the concentric white circles. 
+
+Taking full advantage of the Layers panel, you will learn how to easily multiply and adjust content from your document. Moving on, you will learn how to create four line icons. 
+
+Finally, you will learn how to add a bunch of text and a simple background for your final design. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a **680 x 1065 px** document. Go to **File &gt; New (Command + N)** to bring up the **New Document** pop-up window. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **680** pixels wide by **1065** pixels high and then click **Choose** to create your document. 
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **5**, set the **Subdivisions** to **0** and don't forget to enable **Snap to Grid** – all these features will make your work easier.
+
+You can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command + '** and the  **Command + Shift + '** keyboard shortcuts. 
+
+(image: StepsVerticalInfographic1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and click the **Stroke** color well. Drag the **Alpha** slider to **0%** to  simply make your stroke invisible. Click the **Fill** color well and replace the existing color with **R=74 G=179 B=232**. 
+
+Pick the **Ellipse Tool (O)**, focus on your canvas and create a **220 px** circle. Hold the **Shift** key while dragging to easily create a perfect circle. Using the **Move Tool (V)**, select your shape and place it exactly as shown in the following image (_X: 340 px Y: 255 px_). 
+
+(image: StepsVerticalInfographic2.jpg)
+
+
+
+##Step 3
+
+Focus on your **Toolbar** and replace the existing **Fill** color with black (**R=0 G=0 B=0**). Using the **Rectangle Tool (M)**, create a **110 x 220 px** shape and place it as shown in the first image. 
+
+Pick the **Move Tool (V)** and  select both shapes. Go to the **Path Tools** pane from the **Properties** panel and click the **Subtract** command. 
+
+(image: StepsVerticalInfographic3.jpg)
+
+
+
+##Step 4
+
+Make sure that your shape is still selected, pick the **Rotate Tool (R)** and focus on the **Tool Options bar**. Set the **Angle** to **180 degrees** and click the **Copy** button. This will  create a copy of your selected shape and rotate it 180 degrees. 
+
+Select this newly made shape, replace the existing **Fill** color with **R=255 G=180 B=0**, and then place it exactly as shown in the third image (_X: 395 px Y: 440 px_). 
+
+(image: StepsVerticalInfographic4.jpg)
+
+
+
+##Step 5
+
+Select your blue shape and duplicate it (**Command + C &gt; Command + V**). Select the copy, place it as shown in the first image (_X: 285 px Y: 625 px_) and replace the existing **Fill** color with **R=250 G=85 B=0**. 
+
+Duplicate your yellow shape. Select the copy, place it as shown in the second image (_X: 395 px Y: 810 px_) and replace the existing **Fill** color with **R=0 G=196 B=112**. 
+
+(image: StepsVerticalInfographic5.jpg)
+
+
+
+##Step 6
+
+Focus on your green half circle. Pick the **Ellipse Tool (O)** and  create a **220 px** circle. Fill this new shape with **R=0 G=196 B=112** and place it as shown in the first image. Using the same tool, create a **150 px** circle, fill it with black and place it as shown in the second image. 
+Pick the **Move Tool (V)**, hold down the **Shift** key and select both shapes made in this step. Go to the **Path Tools** pane from the **Properties** panel and click that same **Subtract** command. In the end, your shape should look like in the fourth image. 
+
+(image: StepsVerticalInfographic6.jpg)
+
+
+
+##Step 7
+
+Pick the **Rectangle Tool (M)**, create a **110 px** square and place it as shown in the first image. Select this new shape along with the one made in the previous step and click the **Intersect** command from the **Path Tools** pane. Using the **Move Tool (V)**, move the resulting shape as shown in the third image. 
+
+(image: StepsVerticalInfographic7.jpg)
+
+
+
+##Step 8
+Pick the **Rectangle Tool (M)** and  create a **35 x 70  px** shape. Fill this new shape with **R=0 G=196 B=112** and place it as shown in the first image. 
+
+Using the **Move Tool (V)**, select the two shapes highlighted in the second image and click the **Union** command from the **Path Tools** pane. 
+
+(image: StepsVerticalInfographic8.jpg)
+
+
+
+##Step 9
+
+Duplicate the shape highlighted in the first image (**Command + C &gt; Command + V**). Select the copy and replace the existing **Fill** color with **R=74 G=179 B=232**. Rotate this shape **180 degrees**  and  place it as shown in the second image. 
+
+(image: StepsVerticalInfographic9.jpg)
+
+
+
+##Step 10
+
+Focus on the **Layers** panel, double click the name of the existing layer and rename it &quot;_Path_&quot;. Use that plus button from the bottom of the panel to add a second layer. Rename it &quot;_Step 1_&quot; and make sure that it stays selected, as the new shapes you are about to create will go here. 
+
+Pick the **Ellipse Tool (O)** and create a **150 px** circle. Fill this new shape with white (**R=255 G2=255 B=255**) and place it as shown in the following image. 
+
+(image: StepsVerticalInfographic10.jpg)
+
+
+
+##Step 11
+
+Make sure that your white circle is still selected and add a copy in the same place (**Command + C &gt; Command &gt; Shift + V**). Pick the **Ellipse Tool (O)** and create a **135 px** circle. Fill this new shape with black and place it as shown in the first image. 
+
+Using the **Move Tool (V)** and the **Shift** key, select both circles added in this step and click the **Intersect** command from the **Path Tools** pane. Select the resulting shape and open the **Effects** pane from the **Appearance** panel – click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want. 
+
+Click the  **Fill** color well, set the color to black and drag that **Alpha** slider to **5%**. With this shape still selected, hit **Option + Command + C** (or go to **Edit &gt; Copy Style** in the menu bar) to copy its style.
+
+(image: StepsVerticalInfographic11.jpg)
+
+
+
+##Step 12
+
+Select your white circle, focus on the **Effects** pane and activate the existing **Drop Shadow** effect. Enter **6 pt** in the **X** and **Y** boxes and then drag that **Size** slider to **12 pt**. Click the color well of this effect and drag the **Alpha** slider to **30%**. 
+
+(image: StepsVerticalInfographic12.jpg)
+
+
+
+##Step 13
+
+Pick the **Ellipse Tool (O)** and create a **120 px** circle. Fill this new shape with white and place it as shown in the following image. 
+
+(image: StepsVerticalInfographic13.jpg)
+
+
+
+##Step 14
+
+Make sure that the white circle made in the previous step is still selected and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Pick the **Ellipse Tool (O)** and create a **105 px** circle. Fill this new shape with black and place it as shown in the first image. 
+
+Using the **Move Tool (V)** and the **Shift** key, select both circles added in this step and click the **Intersect** button from the **Path Tools** pane. Select the resulting shape and simply hit **Option + Command + V** to paste the style copied in the eleventh step. 
+
+(image: StepsVerticalInfographic14.jpg)
+
+
+
+##Step 15
+
+Select your **120 px**, white circle and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. Once you're done, copy the style of this shape (**Option + Command + C**). 
+
+(image: StepsVerticalInfographic15.jpg)
+
+
+
+##Step 16
+
+Pick the **Ellipse Tool (O)** and create a **90 px** circle. Place this new shape as shown in the following image and then hit **Option + Command  + V**.
+
+(image: StepsVerticalInfographic16.jpg)
+
+
+
+##Step 17
+
+Focus on the **Layers** panel, right click on the top layer and go to **Duplicate Layer**. Rename that layer copy &quot;_Step 2_&quot; and make sure that it stays selected. 
+
+Using the **Move Tool (V)**, select all the shapes from your active layer and move them up, as shown in the second image. 
+
+(image: StepsVerticalInfographic17.jpg)
+
+
+
+##Step 18
+
+Make sure that the shapes from your activate layer are still selected and go to **Modify &gt; Rotate and Transform &gt; Flip Horizontal**. 
+
+(image: StepsVerticalInfographic18.jpg)
+
+
+
+##Step 19
+
+Keep focusing on the shapes from your active layer and open the **Effects** pane. Select the largest white circle and simply inverse the **X** value used for the existing **Drop Shadow** effect, from **6 pt** to **-6 pt**. 
+
+Select the other two white circles and return to the **Effects** pane. Again, focus on the existing **Drop Shadow** effect and inverse that same **X** value. In the end, things should look like in the following image. 
+
+(image: StepsVerticalInfographic19.jpg)
+
+
+
+##Step 20
+
+Focus on the **Layers** panel and duplicate the &quot;_Step 1_&quot; and &quot;_Step 2_&quot; layers. 
+
+Select the copy of  &quot;_Step 1_&quot; layer and rename it &quot;_Step 3_&quot;. Select all the shapes that lie inside this layer and drag them above that yellow half circle, as shown in the second image. 
+
+Select the copy of &quot;_Step 2_&quot; layer and rename it &quot;_Step 4_&quot;. Select all the shapes that lie inside this layer and drag them above that blue half circle, as shown in the second image. 
+
+(image: StepsVerticalInfographic20.jpg)
+
+
+
+##Step 21
+
+Keep focusing on the **Layers** panel and add a new layer. Drag it in the top of the panel, rename it &quot;_Black_&quot; and make sure that it stays selected. 
+
+Pick the **Rectangle Tool (M)**, create a **40 px** square and place it as shown in the following image. Make sure that this shape stays selected and focus on the **Effects** pane. Click the **Fill** color well, set the color to black and drag that **Alpha** slider to **30%**.
+
+(image: StepsVerticalInfographic21.jpg)
+
+
+
+##Step 22
+
+Add three copies of your black square (**Command + C &gt; Command + V**) and place them as shown in the following image. These four shapes won't be part of your final design. You're only going to use them as a simple guide.
+ 
+(image: StepsVerticalInfographic22.jpg)
+
+
+
+##Step 23
+
+
+Go to the **Layers** panel and add a new layer. Drag it in the top of the panel, rename it &quot;_Icons_&quot; and make sure that it stays selected.
+
+Focus on your bottom, black square. Pick the **Ellipse Tool (O)**, create a **40 px** circle and place it as shown in the first image. With this new shape selected, move to the the **Effects** pane. 
+
+First, make sure that the **Fill** is invisible and then select the **Stroke**. Drag that **Width** slider to **4 pt** and set the **Position** to **Inside**, and then click the color well of this **Stroke**. Set the color to **R=54 G=63 B=68** and drag the **Alpha** slider to **100%**. 
+
+Use the same tool to create a **20 px** circle. Place it as shown in the second image and apply the same **Effects** attributes used for the **40 px** circle. 
+
+(image: StepsVerticalInfographic23.jpg)
+
+
+
+##Step 24
+
+Now, you will need a grid every **1px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Using the **Line Tool (L)**, create a **36 px**, vertical path and place it as shown in the first image. Add a **4 pt** stroke for this new path, set the **Position** to **Center** and the color to **R=54 G=63 B=68**.
+
+Make sure that your vertical path stays selected and switch to the **Rotate Tool (R)**. Set the **Angle** to **90 degrees** and then click the **Copy** button. 
+
+(image: StepsVerticalInfographic24.jpg)
+
+
+
+##Step 25
+
+Move up to your next black square. Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options bar** and set the **Corner Radius** to **15 pt**. Create a **36 x 36 px** shape, fill it with **R=54 G=63 B=68** and place it as shown in the first image. 
+
+Switch to the **Rectangle Tool (M)**, create a **40 x 18 px** shape and place it exactly as shown in the second image. 
+
+Select both shapes made in this step and click the **Subtract** command from the **Path Tools** pane. In the end, your shape should look like in the fourth image. 
+
+(image: StepsVerticalInfographic25.jpg)
+
+
+
+##Step 26
+
+Make sure that the shape made in the previous step stays selected and focus on the **Stroke** pane from the **Appearance** panel. 
+
+First, simply hit **Shift + X** to inverse the **Fill** to **Stroke** attributes. Next, drag the **Line Weight** slider to **4 pt**, be sure that the **Position** is set to **Center** and don't forget to check the **Rounded Join** button. Once you're done, copy the style of this shape (**Option + Command + C**). 
+
+Pick the **Ellipse Tool (O)** and create an **18 px** circle. Place it as shown in the second image and paste the style (**Option + Command + V**).
+
+(image: StepsVerticalInfographic26.jpg)
+
+
+
+##Step 27
+
+Move up, to your next black square. Pick the **Rounded Rectangle Tool (Shift + M)** and set the **Corner Radius** to **5 pt**. Create a **36 x 26 px** shape, place it as shown in the first image and paste the style (**Option + Command + V**). 
+
+Switch to the **Rectangle Tool (M)** and create a **6 x 10 px** shape. Place it as shown in the second image and paste the style (**Option + Command + V**). 
+
+Using the **Line Tool (L)**, create a **20 px**, vertical path. Place it as shown in the third image, paste the style (**Option + Command + V**) and focus on the **Stroke** pane. Check the  the **Rounded Cap** button. 
+
+(image: StepsVerticalInfographic27.jpg)
+
+
+
+##Step 28
+
+Move up, to your next black square. Pick the **Ellipse Tool (O)** and create a **16 px** circle. Place it as shown in the first image and paste the style (**Option + Command + V**). 
+
+Switch to the **Rectangle Tool (M)** and create two, **2 px** squares. Place these new shapes as shown in the second image and paste the style (**Option + Command + V**).
+
+(image: StepsVerticalInfographic28.jpg)
+
+
+
+##Step 29
+
+Select  both tiny squares added in the previous step and pick the **Rotate Tool (R)**. Set the **Angle** to **45 degrees** and then click that **Copy** button three times. In the end, things should look like in the third image. 
+
+(image: StepsVerticalInfographic29.jpg)
+
+
+
+##Step 30
+
+Select the shapes highlighted in the first image and simply hit **Command + G** to **Group** them. Make a copy of this group and place it as shown in the second image. 
+
+(image: StepsVerticalInfographic30.jpg)
+
+
+
+##Step 31
+
+Select your top group and pick the **Rotate Tool (R)**. Set the **Angle** to **15 degrees** and then click that **Rotate** button. Select the other group and do the same thing. 
+
+(image: StepsVerticalInfographic31.jpg)
+
+
+
+##Step 32
+
+Focus on the **Layers** panel and select the &quot;_Black_&quot; layer. Right click on it and go to **Delete Layer**. 
+
+(image: StepsVerticalInfographic32.jpg)
+
+
+
+##Step 33
+
+
+Go to the **Layers** panel and add a new layer. Make sure that it lies in the top of the panel, rename it &quot;_Text_&quot; and keep it selected.
+
+Again, you will need a grid every **5 px**. Return to the **Grid**  pane from the **Properties** panel and enter **5 px** in both  **Spacing** boxes. 
+
+Pick the **Rectangle Tool (M)** and create a **20 px** square. Fill this new shape with **R=54 G=63 B=68** and place it as shown in the first image. Keep focusing on this square and pick the **Path Selection Tool (A)**. First, select the top anchor point and remove it using the **Delete** key. Next, select the bottom anchor point and simply drag it **10 px** up. In the end, your square should turn into a triangle, as shown in the third image. 
+
+(image: StepsVerticalInfographic33.jpg)
+
+
+
+##Step 34
+
+Make three copies of your triangle. Select two of these copies and rotate them **180 degrees**. Place the three copies as shown in the following image. 
+
+(image: StepsVerticalInfographic34.jpg)
+
+
+
+##Step 35
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Select the **Futura font** and change the **Style** to **Bold**. Set the **Size** to **15 pt**, change the color to **R=54 G=63 B=68** and set the **Text Alignment** to **Centered**. Make sure that the **Line Spacing** is set to **1** and the **Character Spacing** to **Auto**, and then move to your canvas. 
+
+Click and drag to create a **130 x 20 px** text field, place it as shown in the first image and add the &quot;_STEP 01_&quot; piece of text. 
+
+(image: StepsVerticalInfographic35.jpg)
+
+
+
+##Step 36
+
+Make sure that the **Text Tool (T)** is still active and lower the **Size** to **8 pt**. Create a **130 x 10 px** text field, place it as shown in the following image and add the &quot;_IDENTIFY THE PROBLEM_&quot; piece of text. 
+
+(image: StepsVerticalInfographic36.jpg)
+
+
+
+##Step 37
+
+Make sure that the **Text Tool (T)** is still active, change the **Style** to **Medium Italic** and increase the **Size** to **10 pt**. Change the color to **R=165 G=166 B=168** and then create a **130 x 75 px** text field. Place it as shown in the following image and add the text shown below.
+
+(image: StepsVerticalInfographic37.jpg)
+
+
+
+##Step 38
+
+Multiply your text fields, place the copies as shown below and don't forget to replace their content. 
+
+(image: StepsVerticalInfographic38.jpg)
+
+
+
+##Step 39
+
+Reselect the **Text Tool (T)**, change the **Style** to **Bold** and increase the **Size** to **15 pt**. Change the color back to **R=54 G=63 B=68** and then create a **305 x 40 px** text field. Place it as shown in the following image and add the text shown below. 
+
+(image: StepsVerticalInfographic39.jpg)
+
+
+
+##Step 40
+
+Go to the **Layers** panel and add one last layer. Rename it &quot;_BG_&quot;, drag it in the bottom of the panel and make sure that it stays selected. 
+
+Pick the **Rectangle Tool (M)** and create a **680 x 1065 px** shape. Fill this rectangle with **R=247 G=248 B=250** and make sure that it covers your entire cavans.
+
+(image: StepsVerticalInfographic40.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: StepsVerticalInfographic0.jpg)
+
+----
+
+Title: Mac

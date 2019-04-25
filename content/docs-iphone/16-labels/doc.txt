@@ -1,0 +1,17 @@
+Title: Labels
+
+----
+
+Text: 
+
+# Labels
+
+Dimension labels are useful for creating designs such as floor plans, diagrams, or other technical illustrations. Use labels to measure the area of a room or label a series of objects.
+
+(image: labels1-iphone.jpg width: 750)
+
+Use the (link: docs-iphone/labels/adding-labels text: _**Label pane**_) from the Appearance panel to apply a label on any type of shape or path. Labels can display dimension values or simple text.
+
+(video: labels2-iphone.mp4 width: 750)
+
+Once applied, labels can be stylized using the (link: docs-iphone/labels/stylizing-labels text: _**Style pane**_) inside the _**Label pane**_ .

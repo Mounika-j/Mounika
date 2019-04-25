@@ -1,0 +1,59 @@
+Text: 
+
+In the following tutorial you will learn how to create a detailed Nintendo Switch illustration in Graphic for iPad. 
+
+For starters, you will learn how to set up a simple grid, how to center objects and how to numerically position shapes. Using basic shapes along with some boolean commands, you will learn how to create the more complex objects. Taking full advantage of the Effects pane and its features, you will learn how to add subtle shading and highlights. 
+
+Using the Layers panel, you will learn how to group, organize and name the components of your illustration. Finally, you will learn how to easily multiply objects and how to add a pretty simple text label. 
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. In the **Canvas** pane set the **Width** to **780 px** and the **Height** to **450 px**, select **Pixels** for the base units, and make sure that the **Pixel-Align Strokes** feature is disabled. When this setting is enabled, stroked objects are offset slightly to ensure that the stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: 850-image01.jpg width: 850)
+
+Next, we'll set up the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. 
+
+Be sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid** feature.  Open the **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: 850-image02.jpg width: 850)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and tap the **Line** color well. Drag the **Alpha** slider to **0%** to simply make your **Line** invisible.
+ 
+Tap the **Fill** color well and replace the existing color with **R=255 G=180 B=0**.
+
+Pick the **Rounded Rectangle Tool** and set the **Radius** to **2** in the **Tool pane**. Create a **410 x 240 px** shape.
+
+(image: NintendoSwitchiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle is still selected, focus on the right side of the **Titlebar** and tap the middle icon. Tap the **Align Horizontal**  and **Align Vertical**  commands to move your selection in the center of the canvas. 
+
+(image: NintendoSwitchiPad3.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial!
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: NintendoSwitchiPad0.jpg)
+
+----
+
+Title: iPad

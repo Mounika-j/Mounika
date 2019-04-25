@@ -1,0 +1,413 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple clock illustration in Graphic for iPad. 
+
+For starters you will learn how to setup and simple grid, how to create the main shapes and how to easily center them. Using two tiny paths and some neat rotation tricks you will learn how to create the clock grid.
+ 
+Finally, taking full advantage of the Effects pane, you will learn how to add shading and some sleek highlights for your shapes. 
+
+
+
+
+
+##Step 1
+
+From the **Documents Browser**, tap the plus button at the top-left corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** pane, set the **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and make sure that the **Pixel-Align Strokes** feature is disabled.
+
+(image: clockIllustrationiPad1A.jpg)
+
+Next, you need to setup the document grid. Tap again that **Settings** icon and switch to the **Grid &amp; Rulers** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open that **Grid Settings** pane, enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: clockIllustrationiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=0 G=124 B=215** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your **Line** invisible. 
+
+Pick the **Ellipse  Tool**, move to your canvas and  create a **190 px** circle - the grid and the **Snap to Grid** feature will ease your work. Hold the **Shift** key while dragging to create a perfect circle. Tap and drag and then tap and hold with a second finger to easily create a perfect circle.
+
+(image: clockIllustrationiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your circle is still selected, focus on the right side of your Titlebar and tap that middle icon. Focus on the Arrange pane and simply tap the **Align Horizontal ** and **Align Vertical** buttons to move your selected shape in the center of the canvas. 
+
+(image: clockIllustrationiPad3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar** and replace the existing **Fill** color with **R=0 G=90 B=150**. Pick the **Ellipse Tool**, create a **180 px** circle and center it using the same **Horizontal Centers** and **Vertical Centers** buttons from the **Alignment** pane. 
+
+(image: clockIllustrationiPad4.jpg)
+
+
+
+##Step 5
+
+Get back to your **Toolbar** and replace the existing **Fill** color with **R=255 G=251 B=229**. Make sure that the **Ellipse Tool** is still active, create a **170 px** circle and center it.
+
+(image: clockIllustrationiPad5.jpg)
+
+
+
+##Step 6
+
+Focus on the right side of your Titlebar and tap the rightmost icon to open the **Layers** panel. First, tap the name of the existing layer and rename it &quot;_Main_&quot;. Next, tap the plus button from the top, right corner of your panel to add a second layer. Select this new layer and rename it &quot;_handsConnector_&quot;. Make sure that this second layer stays selected and close the Layers panel. 
+
+Rreturn  to your **Toolbar** and replace the existing **Fill** color with **R=55 G=54 B=65**. Using that same **Ellipse Tool**, create a **10 px** circle and don't forget to center it. 
+
+(image: clockIllustrationiPad6.jpg)
+
+
+
+##Step 7
+
+Re-open the **Layers** pane, add a third layer, make sure that it goes in the top of the panel and rename it &quot;_thinGrid_&quot;. Make sure that this new layer stays selected and close the **Layers** panel. 
+
+Return to your **Toolbar**, tap that **Fill** color well and  drag the **Alpha** slider to **0%** and then tap on the Line color well. Replace the existing color with **R=104 G=104 B=115** and drag the **Alpha** slider to **100%**. 
+
+Focus on the top side of your shapes and pick the **Pen Tool** or the **Line Tool**. Create a **5 px**, vertical path and place it exactly as shown in the following image. Once again, the grid and the **Snap to Grid** feature will come in handy. Make sure that this tiny path stays selected, focus on the right side of your Titlebar and tap the leftmost icon. Move to the **Effects** pane and tap the existing **Stroke**. Make sure that the  **Width** is set to **1 pt** and check that **Round Cap** button.  
+
+(image: clockIllustrationiPad7.jpg)
+
+
+
+##Step 8
+Make sure that your **5 px**, vertical path stays selected, pick the **Rotate Tool** and you will notice a little cross icon in the center of your selection. That's the reference point and keep in mind that your selected path will rotate according to that point. 
+
+Simply tap in the center of your dark circle and your reference point will snap there thanks to he **Snap to Grid** feature. Now, focus on that **Tool Options** pane, set the **Angle** to **6 degrees** and then tap that **Copy** button a bunch of times (fifty-nine times, to be more specific). 
+
+(image: clockIllustrationiPad8.jpg)
+
+
+
+##Step 9
+
+Using the **Move Tool**, seelect all your tiny paths, focus on the **Combine**  pane and tap the **Make Compound Path** button. This will  unite all selected paths into a single compound path that can be selected/edited a lot easier. 
+
+(image: clockIllustrationiPad9.jpg)
+
+
+
+##Step 10
+
+Re-open the **Layers** panel, add a fourth layer, make sure that it goes in the top your panel and rename it &quot;_thickGrid_&quot;. Make sure that this new layer stays selected and close the **Layers** panel. 
+
+Return to your **Toolbar** and replace the existing **Line** color with **R=55 G=54 B=65**. Pick the **Pen Tool** or the **Line Tool**, create a **10 px**, vertical path and place it exactly as shown in the following image. Make sure that this tiny path stays selected, go to the **Effects** pane and tap the **Stroke**. Drag the  **Width** slider to **2 pt** and check the **Round Cap** button. 
+
+(image: clockIllustrationiPad10.jpg)
+
+
+
+##Step 11
+
+Make sure that your **10 px**, vertical path stays selected and pick the **Rotate Tool**. Simply drag that reference point in the center of your dark circle  and then focus on that **Tool Options** pane. Set the **Angle** to **30 degrees** and then tap that **Copy** button eleven times. Select all these twelve paths and turn them into a new compound path using that same **Make Compound Path** button from the **Combine**  pane. 
+
+(image: clockIllustrationiPad11.jpg)
+
+
+
+##Step 12
+
+Re-open the **Layers** panel, add a fifth layer, make sure that it goes in the top of your panel and rename it &quot;_Hands_&quot;. 
+
+Get back to your **Toolbar** and replace the existing **Line** color with **R=7 G=114 B=179**. Pick the **Pen Tool** or the **Line Tool**, create a **65 px**, vertical path and place it as shown in the first image.  Make sure that this new path stays selected and focus on the **Effects** pane. Select that  **Stroke**, set the  **Width** to **2 pt** and check the **Round Cap** button. Switch to the **Rotate Tool**, drag the reference point in the the center of your dark circle then rotate your blue path as shown in the third image. 
+
+(image: clockIllustrationiPad12.jpg)
+
+
+
+##Step 13
+
+Pick the **Pen Tool** or the **Line Tool**, create an **80 px**, horizontal path and place it as shown in the first image. Make sure that this new, blue path stays selected and focus the **Effects** pane. Set the  **Width**  to **2 pt** and check that **Round Cap** button. Switch to the **Rotate Tool**, move the reference point in the the center of your dark circle and then rotate your path as shown in the second image. 
+
+Get back to your **Toolbar** and replace the existing **Stroke** color with **R=219 G=65 B=0**. 
+
+Make sure that the **Pen Tool** or the **Line Tool** is still active, create a **90 px**, horizontal path and place it as shown in the third image. Be sure that this new path stays selected and return to the **Effects** pane. Set the **Width**  to **2 pt** and don't forget to check that **Round Cap** button. Finally, switch to the **Rotate Tool**  and rotate this orange path as shown in the fourth image.
+
+(image: clockIllustrationiPad13.jpg)
+
+
+
+##Step 14
+
+Return to the **Layers** pane and select your &quot;_Main_&quot; layer. 
+
+Using the **Move Tool**, select your largest circle, focus on the **Effects** pane and simply check the  box that stands for the existing **Drop Shadow** to activate it. Enter **-1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Drag the **Alpha** slider to **5%** and set the color code to black ( **R=0 G=0 B=0**).  
+
+(image: clockIllustrationiPad14.jpg)
+
+
+
+##Step 15
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects**. Simply tap the cogwheel icon that stands for the existing **Drop Shadow** effect and go to **Duplicate**. Focus on the newly added effect and enter **1** in the **Y** box. Tap the color well that stands for this new effect and drag the **Alpha** slider to **10%**.
+
+(image: clockIllustrationiPad15.jpg)
+
+
+
+##Step 16
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustrationiPad16.jpg)
+
+
+
+##Step 17
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustrationiPad17.jpg)
+
+
+
+##Step 18
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustrationiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane  and activate the existing **Inner Shadow**. 
+
+Select this new effect, enter **0** in the **X** box and **3** in the **Y** box  and then drag that **Blur**  slider to **5**. Tap  the color well that stands for this  effect, change the color to white and make sure that the **Alpha** slider is set to **100%**. Finally, tap the cogwheel icon that stands for this **Inner Shadow** and go to **Blend Mode**. Select  **Soft Light** from that list and then tap that **Done** button. 
+
+(image: clockIllustrationiPad19.jpg)
+
+
+
+##Step 20
+
+Make sure that your largest circle stays selected, keep focusing on the **Effects** pane and duplicate that **Inner Shadow**. Select the newly added effect and replace the existing attributes with the ones shown in the following image. 
+
+(image: clockIllustrationiPad20.jpg)
+
+
+
+##Step 21
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. You must add a new **Inner  Shadow**, but first you need to remove one of those inactive effects because you've reached the limit of twelve effects, strokes and fills for one shape.
+
+Simply tap the cogwheel icon that stands for the inactive **Inner  Glow** effect and   go to **Remove**. Using that plus button from the bottom, right corner of the pane, add a third **Inner Shadow** for your shape. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: clockIllustrationiPad21.jpg)
+
+
+
+##Step 22
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. Get rid of that inactive **Blur** effect and then add a fourth **Inner Shadow** for your shape. Make sure that it lies below the other active effects and then enter the attributes shown in the following image.
+
+(image: clockIllustrationiPad22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that your largest circle stays selected and keep focusing on the **Effects** pane. Activate that **Outer Glow** effect and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad23.jpg)
+
+
+
+##Step 24
+
+Move to the smaller, blue circle, select it and return to the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad24.jpg)
+
+
+
+##Step 25
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad25.jpg)
+
+
+
+##Step 26
+
+Make sure that your smaller, blue circle stays selected, keep focusing on the **Effects** pane and  duplicate the existing **Inner  Shadow**. Focus on the this new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad26.jpg)
+
+
+
+##Step 27
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Outer Glow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad27.jpg)
+
+
+
+##Step 28
+
+Make sure that your smaller, blue circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad28.jpg)
+
+
+
+##Step 29
+
+Move to the your pale yellow circle and make sure that it stays selected. Focus on the **Effects** pane and select the existing **Stroke**. Make sure that the **Width** slider is set to **1 pt**, tap the **Inside** **Alignment** button and then tap the color well that stands for this **Stroke**. Be sure that the color is set to black and drag that **Alpha** slider to **5%**.
+
+(image: clockIllustrationiPad29.jpg)
+
+
+
+##Step 30
+
+Make sure that your pale yellow circle stays selected, keep focusing on the **Effects** pane and  duplicate the **Stroke**. Focus on this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad30.jpg)
+
+
+
+##Step 31
+
+Make sure that your pale yellow circle stays selected, keep focusing on the **Effects** pane and  duplicate the bottom **Stroke**. Select this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad31.jpg)
+
+
+
+##Step 32
+
+Make sure that your pale yellow circle stays selected and keep focusing on the **Effects** ****pane. Activate the existing **Inner Glow** effect and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad32.jpg)
+
+
+
+##Step 33
+
+Open the **Layers** pane and select that &quot;_Hands_&quot; layer. Using the **Move Tool**, select the blue path that makes up the hours hand and focus on the **Effects** **** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad33.jpg)
+
+
+
+##Step 34
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the existing **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad34.jpg)
+
+
+
+##Step 35
+
+Make sure that your hours hand path stays selected and focus on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad35.jpg)
+
+
+
+##Step 36
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the existing **Inner  Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad36.jpg)
+
+
+
+##Step 37
+
+Make sure that your hours hand path stays selected, focus on the **Effects** pane and duplicate the bottom **Inner  Shadow**. Select this new effect **** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad37.jpg)
+
+
+
+##Step 38
+
+Make sure that your hours hand path is still selected and focus on the left side of your Titlebar. Tap that paperclip icon to open the **Edit** pane and then tap that **Copy Style** command. Move to the  blue path that makes up your minutes hand and select it. Re-open the **Edit** pane and this time tap the  **Paste Style** command.  
+
+Make sure that your minutes hand path stays selected, focus on the **Effects** pane and duplicate the top **Drop Shadow** effect. Select the newly added effect, make sure that it lies between those two **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad38.jpg)
+
+
+
+##Step 39
+
+Make sure that  your minutes hand path  is still selected, open the **Edit** pane and tap that **Copy Style** command. Select the path that makes up your seconds hand, return to the **Edit** pane and tap the **Paste Style** command. 
+
+Make sure that your seconds hand path stays selected and focus on the **Effects**  pane. First,  remove the two, bottom **Inner Shadows** and then select that **Stroke** and replace the existing color with **R=219 G=65 B=0**. In the end things should look like in the second image. 
+
+(image: clockIllustrationiPad39.jpg)
+
+
+
+##Step 40
+
+Open the **Layers** panel, select your &quot;_handsConnector_&quot; layer and drag it in the top of the panel. Using the **Move Tool**, select your tiny, dark circle and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad40.jpg)
+
+
+
+##Step 41
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the existing **Drop Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad41.jpg)
+
+
+
+##Step 42
+
+Make sure that your tiny circle stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad42.jpg)
+
+
+
+##Step 43
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the existing **Inner  Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad43.jpg)
+
+
+
+##Step 44
+
+Make sure that your tiny circle stays selected, focus on the **Effects** pane and duplicate the bottom **Inner  Shadow**. Select the new effect**** and enter the attributes shown in the following image. 
+
+(image: clockIllustrationiPad44.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clockIllustrationiPad0.jpg)
+
+----
+
+Title: iPad

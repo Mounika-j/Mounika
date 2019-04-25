@@ -1,0 +1,253 @@
+Title: Layer
+
+----
+
+Text: 
+
+A layer object.
+&nbsp;
+_Shapes_
+- (link: plugins/api/layer#shapes text: **shapes**)
+
+_Settings_
+- (link: plugins/api/layer#name text: **name**)
+- (link: plugins/api/layer#locked text: **locked**)
+- (link: plugins/api/layer#hidden text: **hidden**)
+- (link: plugins/api/layer#opacity text: **opacity**)
+- (link: plugins/api/layer#blendMode text: **blendMode**)
+- (link: plugins/api/layer#selected text: **selected**)
+
+_Creating Shapes_
+- (link: plugins/api/layer#addPathShape text: **addPathShape:**)
+- (link: plugins/api/layer#addTextShape text: **addTextShape:**)
+- (link: plugins/api/layer#groupShapes text: **groupShapes:**)
+
+_Arrangement_
+- (link: plugins/api/layer#moveToIndex text: **moveToIndex:**)
+- (link: plugins/api/layer#duplicate text: **duplicate**)
+- (link: plugins/api/layer#remove text: **remove**)
+
+_Parent Document_
+- (link: plugins/api/layer#parent text: **parent**)
+
+<a name="addPathShape"></a>
+## addPathShape:
+### _returns (link: plugins/api/pathshape text: **PathShape**)_; _input (link: plugins/api/path text: **Path**)_
+
+Creates and returns a new path shape, adding it to the layer.
+&nbsp;
+#### Example: create a triangle path shape
+
+```
+var doc = [app activeDocument]
+var path = [doc addPath]
+
+[path addMoveTo:CGPointMake(25, 150)]
+[path addLineTo:CGPointMake(75, 50)]
+[path addLineTo:CGPointMake(125, 150)]
+[path addClose]
+
+[[doc activeLayer] addPathShape:path]
+
+```
+<a name="addTextShape"></a>
+## addTextShape:
+### _returns (link: plugins/api/textshape text: **TextShape**)_; _input **NSAttributedString**_
+
+Creates and returns a new text shape, adding it to the layer.
+&nbsp;
+#### Example: create a text shape styled with a 24pt system bold font 
+
+```
+var layer = [[app activeDocument] activeLayer]
+var font = [NSFont boldSystemFontOfSize:24]
+var dict = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName]
+var str = [[NSAttributedString alloc] initWithString:"Hello World!" attributes:dict]
+    
+var textShape = [layer addTextShape:str]
+textShape.position = CGPointMake(120, 100)
+[str release]
+
+```
+<a name="blendMode"></a>
+## blendMode
+### _returns **String**_; _settable_
+
+Gets / Sets the blend mode of the layer.
+&nbsp;
+#### Example:
+
+```
+var layer = [[app activeDocument] activeLayer]
+layer.blendMode = "Multiply"
+
+```
+<a name="duplicate"></a>
+## duplicate
+### _returns (link: plugins/api/layer text: **Layer**)_
+
+Duplicates this layer and its contents. The new layer becomes the selected and active layer.
+&nbsp;
+#### Example: create a duplicate of the active layer with all shapes offset by 40 pixels horiz and vert
+
+```
+var layer = [[app activeDocument] activeLayer]
+var newLayer = [layer duplicate]
+var shapes = [newLayer shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+    [(shapes[i]) translateX:40 y:40]
+
+```
+<a name="groupShapes"></a>
+## groupShapes:
+### _returns (link: plugins/api/shapegroup text: **Shape Group**)_; _input **Array**_
+
+Creates and returns a new Shape Group object containing all of the shapes in the passed-in array. The shapes are moved within the group. The input shapes must be direct descendants of this layer. 
+&nbsp;
+#### Example: create a group containing all of the shapes in the active layer
+
+```
+var layer = [[app activeDocument] activeLayer]
+var shapes = [layer shapes]
+[layer groupShapes:shapes]
+
+```
+<a name="hidden"></a>
+## hidden
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the hidden state of the layer.
+&nbsp;
+#### Example: hide the layers in the active document that are not currently selected
+
+```
+var doc = [app activeDocument]
+var layers = [doc layers]
+
+for(var i = 0; i < [layers count]; i++)
+{
+    var layer = layers[i]
+    layer.hidden = ![layer selected]
+}
+
+```
+<a name="locked"></a>
+## locked
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the locked state of the layer.
+&nbsp;
+#### Example: unlock all of the active document's layers
+
+```
+var doc = [app activeDocument]
+var layers = [doc layers]
+
+for(var i = 0; i < [layers count]; i++)
+	layers[i].locked = false
+
+```
+<a name="moveToIndex"></a>
+## moveToIndex:
+_input **Integer**_
+
+Move the layer to a new z-index in parent **Document's** layer array. 
+&nbsp;
+#### Example: move the active layer to the top of the layers list
+
+```
+var doc = [app activeDocument]
+var layer = [doc activeLayer]
+var allLayers = [doc layers]
+[layer moveToIndex:[allLayers count] - 1]
+
+```
+<a name="name"></a>
+## name
+### _returns **String**_; _settable_
+
+Gets / Sets the name of the layer.
+&nbsp;
+#### Example: set the name of the active layer
+
+```
+var layer = [[app activeDocument] activeLayer]
+layer.name = "Hello World!"
+
+```
+<a name="opacity"></a>
+## opacity
+### _returns **Float**_; _settable_
+
+Gets / Sets the opacity of the layer. The opacity value is between 0 and 1.
+&nbsp;
+#### Example: set the active layer's opacity to 65%
+
+```
+var layer = [[app activeDocument] activeLayer]
+layer.opacity = 0.65
+
+```
+<a name="parent"></a>
+## parent
+### _returns (link: plugins/api/document text: **Document**)_
+
+Gets the document object that is the parent of the layer.
+
+<a name="remove"></a>
+## remove
+
+Removes the layer from the document.
+
+_Note: this function does nothing if there is only a single layer remaining in the parent document._
+&nbsp;
+#### Example: remove all layers in the active document that are not currently selected
+
+```
+var doc = [app activeDocument]
+var layers = [doc layers]
+
+for(var i = 0; i < [layers count]; i++)
+{
+    var layer = layers[i]
+    
+    if([layer selected] == false)
+	    [layer remove]
+}
+
+```
+<a name="selected"></a>
+## selected
+### _returns **Boolean**_; _settable_
+
+Gets / Sets the selection state of the layer. 
+
+_Note: deselecting the last selected layer will select a default layer to be the active layer. A document always maintains at least one active selected layer at a given time._
+&nbsp;
+#### Example: select all of the layers in the active document
+
+```
+var doc = [app activeDocument]
+var layers = [doc layers]
+
+for(var i = 0; i < [layers count]; i++)
+	layers[i].selected = true
+
+```
+<a name="shapes"></a>
+## shapes
+### _returns **Array**_
+
+Gets the array of shapes in the layer.
+&nbsp;
+#### Example: rotate each shape in the active layer by 90 degrees
+
+```
+var doc = [app activeDocument]
+var shapes = [[doc activeLayer] shapes]
+
+for(var i = 0; i < [shapes count]; i++)
+	[(shapes[i]) rotate:90]
+
+```

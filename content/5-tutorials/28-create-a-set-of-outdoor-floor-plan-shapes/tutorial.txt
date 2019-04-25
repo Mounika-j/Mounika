@@ -1,0 +1,21 @@
+Title: Create a Set of Outdoor Floor Plan Shapes
+
+----
+
+Date: 2018-02-15
+
+----
+
+Graphicfile: furnitureshapes-outdoor.idraw
+
+----
+
+Description: Learn how to create a set of outdoor floor plan shapes using units, canvas scale, and various lines...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: furnitureshapessecondthumbnail.jpg

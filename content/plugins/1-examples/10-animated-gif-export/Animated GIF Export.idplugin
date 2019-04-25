@@ -1,0 +1,182 @@
+var doc = [app activeDocument]
+var layers = [doc layers]
+var layerCount = [layers count]
+var shouldLoop = true
+var frameDuration = 0
+var shouldSave = false
+
+// create a window
+var window = [[NSWindow alloc] init]
+[window setTitle:"Export Animated GIF"]
+[window setFrame:NSMakeRect(0, 0, 320, 409+32) display:false]
+
+// create prompt text
+var imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(10, 125+32, 300, 250)]
+imageView.imageFrameStyle  = NSImageFrameGrayBezel
+[[window contentView] addSubview:imageView]
+
+var box = [[NSBox alloc] initWithFrame:NSMakeRect(15, 53, 290, 61+ 26 + 6)]
+box.title = "GIF Settings"
+[[window contentView] addSubview:box]
+
+var popup = [[NSPopUpButton alloc] initWithFrame:NSMakeRect(8, 5, 262, 26)]
+[popup addItemWithTitle:"Frame Duration: Layer Names"]
+
+for(var i = 0; i < 2; i+= 0.1)
+{
+    
+    if(i < 1.1)
+    [popup addItemWithTitle:"Frame Duration: " + (i + 0.1).toPrecision(1) + " sec"]
+    else 
+    [popup addItemWithTitle:"Frame Duration: " + (i + 0.1).toPrecision(2) + " sec"]
+}
+
+[popup selectItemAtIndex:0]
+[popup setJSTargetFunction:"popupAction"]
+[box addSubview:popup]
+
+var loopPopup = [[NSPopUpButton alloc] initWithFrame:NSMakeRect(8, 36, 262, 26)]
+[loopPopup addItemWithTitle:"Looping"]
+[loopPopup addItemWithTitle:"No Looping"]
+[loopPopup setJSTargetFunction:"loopPopupAction"]
+[loopPopup selectItemAtIndex:0]
+[box addSubview:loopPopup]
+
+[popup release]
+[box release]
+
+// create OK button
+var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(213, 10, 87, 32)]
+[okButton setTitle:"Save…"]
+[okButton setBezelStyle:NSRoundedBezelStyle]
+[okButton setKeyEquivalent:"\r"]    // enter key
+[okButton setFont:[NSFont systemFontOfSize:13]]
+[[window contentView] addSubview:okButton]
+[okButton setJSTargetFunction:"okAction"];
+
+// create cancel button
+var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(131, 10, 82, 32)]
+[cancelButton setTitle:"Cancel"]
+[cancelButton setBezelStyle:NSRoundedBezelStyle]
+[cancelButton setKeyEquivalent:"\033"]    // esc key
+[cancelButton setFont:[NSFont systemFontOfSize:13]]
+[[window contentView] addSubview:cancelButton]
+[cancelButton setJSTargetFunction:"cancelAction"]
+
+updatePreview()
+[window setInitialFirstResponder:popup]
+[NSApp runModalForWindow:window]
+
+if(shouldSave)
+    saveGIFFile()
+
+function okAction(sender)
+{
+    shouldSave = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function popupAction()
+{
+    var selectedIndex = [popup indexOfSelectedItem]
+    frameDuration = selectedIndex * 0.1
+    updatePreview()
+}
+
+function loopPopupAction()
+{
+    var selectedIndex = [loopPopup indexOfSelectedItem]
+    if(selectedIndex == 0)
+        shouldLoop = true
+    else
+        shouldLoop = false
+    updatePreview()
+}
+
+function updatePreview()
+{
+    var gifData = createGIFData()
+    var nsImg = [[NSImage alloc] initWithData:gifData]
+    
+    [imageView setImage:nsImg]
+    [nsImg release]
+    [gifData release]
+}
+
+function saveGIFFile()
+{
+    var savePanel = [NSSavePanel savePanel]
+
+    [savePanel setAllowedFileTypes:[NSArray arrayWithObject:"com.compuserve.gif"]]
+    result = [savePanel runModal]
+    
+    if(result == NSOKButton)
+    {
+        var fileURL = [savePanel URL]
+        var gifData = createGIFData()
+        
+        [gifData writeToURL:fileURL atomically:YES]
+        [gifData release]
+    }
+}
+
+function createGIFData()
+{
+    var gifData = [[NSMutableData alloc] init];
+    var dst = CGImageDestinationCreateWithData(gifData, "com.compuserve.gif", layerCount, nil)
+    var loopNum = [NSNumber numberWithInt:1]
+    
+    if(shouldLoop)
+        loopNum = [NSNumber numberWithInt:0]
+        
+    var gifDict = [NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObject:loopNum forKey:kCGImagePropertyGIFLoopCount] forKey:kCGImagePropertyGIFDictionary]
+    
+    for(var i = 0; i < layerCount; i++)
+    {
+        var frameLayer = layers[i]
+        
+        for(var j = 0; j < layerCount; j++)
+            layers[j].hidden = (layers[j] != frameLayer)
+        
+        var delay = delayForLayer(frameLayer)
+        
+        if(frameDuration > 0)
+            delay = frameDuration
+        
+        var delayNum = [NSNumber numberWithFloat:delay]
+        var frameDict = [NSDictionary dictionaryWithObject:delayNum forKey:kCGImagePropertyGIFDelayTime]
+        var props = [NSDictionary dictionaryWithObject:frameDict forKey:kCGImagePropertyGIFDictionary]
+        
+        var imageRef = [doc exportImage:nil]
+        CGImageDestinationAddImage(dst, imageRef, props);
+    }
+    
+    CGImageDestinationSetProperties(dst, gifDict)
+    CGImageDestinationFinalize(dst)
+    CFRelease(dst)
+    
+    return gifData
+}
+
+function delayForLayer(layer)
+{
+    var layerName = [layer name]
+    var range1 = [layerName rangeOfString:"["]
+    var range2 = [layerName rangeOfString:"]"]
+
+    if((range1.length == 1) && (range2.length == 1) && (range2.location > range1.location))
+    {
+        var valueRange = NSMakeRange((range1.location) + 1, (range2.location - range1.location) - 1)
+        var subString = [layerName substringWithRange:valueRange]
+        return [subString floatValue]
+    }
+    
+    return 0.1;
+}

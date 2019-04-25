@@ -1,0 +1,16 @@
+Title: Image Unsharp Mask
+
+----
+Description: Sharpens an image fill by increasing the contrast of pixel edges between different colors in the image.
+
+----
+Image: (image: Header.jpg title: Image Unsharp Mask)
+
+----
+Thumbnail: (image: Thumbnail.jpg title: Image Unsharp Mask)
+
+----
+Plugfile: (file: ImageUnsharpMask.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

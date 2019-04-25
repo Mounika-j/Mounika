@@ -1,0 +1,38 @@
+Title: Developer API
+
+----
+
+Showsubmenu: YES
+
+----
+
+Text: 
+
+Graphic plug-ins are text-based scripts written in **JavaScript**, with optional access to Mac OS X's powerful **Cocoa APIs**. Custom plug-ins can be created using the classes and methods described in the following sections. The plug-in APIs can be used to create very robust plugins; many types of editing actions are possible — creating new shapes, modifying vector paths, changing the current selection, customizing appearance settings, importing / exporting data, and much more.
+&nbsp;
+The (link: plugins/api/intro text: **Creating Plug-ins**) page gives an introduction on how to quickly get started creating your own custom plug-in scripts using the built-in code editor.
+&nbsp;
+We've designed these APIs to be both powerful to use and also straightforward to understand. They follow the Cocoa convention of descriptive, readable method names. Even if you are only vaguely familiar with scripting languages or JavaScript, you may still find many of the code examples quite easy to follow along with. And after looking through some of the short examples in the following documentation, hopefully you'll find creating and running your own simple utility plug-ins to be just as easy.
+&nbsp;
+#### **Example Plug-in Script:** rotate the current selection by 45 degrees
+
+```
+var document = [app activeDocument]
+var selection = [document selection]
+[selection rotate:45]
+
+```
+
+This short script begins by getting a reference to the active document from the pre-defined "app" object (the (link: plugins/api/application text: **Application**) object). The second line then gets the document's (link: plugins/api/selection text: **Selection**) object, and the third line applies the 45 degree rotation to the selection. 
+&nbsp;
+...and since method calls can be nested, this entire script can be written in one line:
+
+```
+[[[app activeDocument] selection] rotate:45]
+
+```
+
+That's it! One line of code - no extra setup or support code needed. Simply copy and paste this line into Graphic's built-in Plug-in Editor **(_File > Plug-ins > Create Plug-in..._)**, click **Run**, and the selected objects will be rotated directly by this simple script.
+&nbsp;
+All of the examples in the following pages can be tested and run this same way. They're all full plug-in scripts, even if only a few lines long.
+&nbsp;

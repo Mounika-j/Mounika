@@ -1,0 +1,13 @@
+Title: Images
+
+----
+
+Text: 
+
+# Images
+
+Besides colors and gradients, objects can be filled with images. Even text objects can be filled with images.
+
+(image: images1-iphone.jpg width: 750)
+
+Images can be added or replaced using the (link: docs-iphone/images/adding-images text: _**Image pane**_) from the Appearance panel. Additionally, you can adjust the position and scale images using the (link: docs-iphone/images/image-tool text: _**Image tool**_).

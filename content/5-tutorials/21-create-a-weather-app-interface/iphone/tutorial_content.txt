@@ -1,0 +1,322 @@
+Text: 
+
+In the following tutorial you will learn how to create a weather app interface in  Graphic for iPhone. 
+
+For starters you will learn how to setup a simple grid and how to create the background image. Taking full advantage of the grid and the Snap to Grid feature, you will learn how to create the main shapes and the subtle dividers. Using the Effects pane and some basic blending techniques, you will learn how to add color, shading and highlights for your shapes. 
+
+Finally, you will learn how to add a bunch of text and how to stylize it. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: weatherAppInterfaceiPhone1A.jpg)
+
+Focus on the right side of the **Tool Options bar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set the **Width** to **750 px** and the **Height** to **1334 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled. 
+
+(image: weatherAppInterfaceiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: weatherAppInterfaceiPhone1C.jpg)
+
+
+
+##Step 2
+
+
+Focus on the **Toolbar** and notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=0 G=124 B=215** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Rectangle Tool**, create a **750 x 1334 px** shape and make sure that it covers your entire canvas - the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: weatherAppInterfaceiPhone2.jpg)
+
+
+
+##Step 3
+
+Now, you  need to save [this image (the L version)](http://pixabay.com/en/yellow-orange-cloud-clouds-sunset-66010/) inside your Photos. Tap the leftmost icon from your Tool Options bar, go to **Import Photos** and simply import the image saved a few moments ago. 
+
+(image: weatherAppInterfaceiPhone3A.jpg)
+
+Make sure that your image remains selected and go to the **Arrange** pane from the **Properties** panel. Simply drag that **Order** slider to the left which will send your image in the back.
+
+(image: weatherAppInterfaceiPhone3B.jpg)
+
+
+##Step 4
+
+Make sure that your image is still selected and open the **Geometry** pane from the **Properties** panel. 
+
+Check the **Constrain width and height** button (highlighted in the following image) and then  enter **1334 px** in the **Height** box. This will simply resize your image without messing the proportions. Keep focusing on this pane, but move to the **Position** section. Enter **-740 px** in the **X** box and **0** in the **Y** box and your image should end up positioned as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone4.jpg)
+
+
+
+##Step 5
+
+Reselect your blue rectangle along with that image, focus on the **Combine** pane and simply tap that **Intersect** command.  In the end things should look like in the second image.
+
+(image: weatherAppInterfaceiPhone5.jpg)
+
+
+
+##Step 6
+
+For the following steps you will need a grid every **5 px**. Simply go to **Grid** pane,  open the **Grid Settings**  and enter **5 px** in both **Spacing** boxes.  Return to your Toolbar, make sure that the **Line** is invisible and then set the **Fill** color to **R=0 G=152 B=245**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **10**. Move to your canvas, create a **720 x 450 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that the **Rounded Rectangle Tool**  is still active, create a **170 x 290 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone7.jpg)
+
+
+
+##Step 8
+
+Make sure that your smaller rounded rectangle is still selected and simply tap and hold to open that context menu. Tap the **Copy** command. Tap and hold to reopen the context menu and use the **Paste in Place** command to add three copies of your selection in the same place. 
+
+Select the top copy and drag it **540 px** to the right. Drag and hold, and then tap and hold with a second finger to easily move your selection on only one axis (horizontally or vertically). This should leave a **20 px** gap between the edge of your shape and the edge of the canvas. 
+
+Using the **Move Tool**, select all four rounded rectangles. Open the **Align**  pane from the **Properties** panel and tap that **Distribute Horizontally** command. In the end, your rounded rectangles should be perfectly aligned, as shown in the following image.
+
+(image: weatherAppInterfaceiPhone8.jpg)
+
+
+
+##Step 9
+
+Reselect  the **Rounded Rectangle Tool**, create a **720 x 170 px** shape and place it as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone9.jpg)
+
+
+
+##Step 10
+
+Use the same **Copy** and **Paste** commands from that **Edit** menu to multiply the rounded rectangle made in the previous step and place the copies as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone10.jpg)
+
+
+
+##Step 11
+
+Tap the rightmost icon from your Tool Options bar to open the **Layers** panel and then tap that plus button to add a new layers. Select the new layer and then close the **Layers** panel. 
+
+(image: weatherAppInterfaceiPhone11A.jpg)
+
+For the following steps you will need a grid every **1 px**. Re-open the **Grid**  pane and enter **1 px** in both  **Spacing** boxes. Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to black (**R=0 G=0 B=0**). 
+
+Focus on your left, **170 x 290** rounded rectangle. Using the **Rectangle  Tool**, create a **166 x 2 px** shape and place it exactly as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone11B.jpg)
+
+
+
+##Step 12
+
+Multiply that black rectangle and place the copies as shown in the following image. Make sure that all these shapes are perfectly aligned. 
+
+(image: weatherAppInterfaceiPhone12.jpg)
+
+
+
+##Step 13
+
+Return to your Toolbar, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=255 G=185 B=0**. 
+
+Focus on your top, **720 x 170** rounded rectangle. Using the **Rectangle  Tool**, create two, **2 x 166 px** shapes  and place them  exactly as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone13.jpg)
+
+
+
+##Step 14
+
+Multiply your yellow rectangles and place the copies as shown in the following image. Make sure that all these shapes are perfectly aligned. 
+
+(image: weatherAppInterfaceiPhone14.jpg)
+
+
+
+##Step 15
+
+Re-open the **Layers** panel and select your bottom layer to be able to select its content. Now, select the top, rounded rectangle, focus on the right side of your Titlebar and tap the leftmost icon. Move to the **Effects** pane, tap the color well that stands for the existing **Fill**, drag the **Alpha** slider to **20%** and replace the existing color with a simple white (**R=255 G=255 B=255**).
+
+(image: weatherAppInterfaceiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your top, rounded rectangle stays selected and keep focusing on the **Effects** pane. Select the  **Stroke**, drag the **Width** slider to **2 pt** and select the **Inside Alignment** button. Next, tap the color well that stands for your **Stroke**, drag the **Alpha** slider to **10%** and replace the existing color with a simple white. 
+
+(image: weatherAppInterfaceiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. 
+
+Select this new **Stroke** and make sure that it lies below the other one. Drag the **Width** slider to **2 pt**,  select the **Outside Alignment** button and then tap the color well that stands for this new **Stroke**. Drag the **Alpha** slider to **15%** and replace the existing color with a simple black. 
+
+Return to the **Effects** pane and tap the cogwheel icon that stands for your new **Stroke**. Tap the **Blend Mode** command and select the **Soft Light** blend mode. In the end things should look like in the following image. 
+
+(image: weatherAppInterfaceiPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and simply check the  box that stands for the existing **Inner Shadow**  to activate it. Enter **2** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then tap the color well that stands for this effect. Drag the **Alpha** slider to **30%** and replace the existing color with white. Don't forget to drag this effect right below the **Fill**. 
+
+(image: weatherAppInterfaceiPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that your top, rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using that same plus button. Select this new effect, drag it below the existing **Inner Shadow** and then enter the properties shown in the following image. 
+
+(image: weatherAppInterfaceiPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that your top, rounded rectangle is still selected, open the **Appearance** panel and tap the **Copy Style** command. Pick the **Path Selection Tool** and focus on the newly opened tool pane. Activate the **Add to Selection** mode, re-open  that **Appearance**  panel  and tap the **Paste Style** command.
+
+(image: weatherAppInterfaceiPhone20.jpg)
+
+
+
+##Step 21
+
+Select one of those black rectangles and open the **Effects** pane. Focus on the  **Fill**, change its **Blend Mode** to **Soft Light** and then tap the color well and drag the **Alpha** slider to **25%**. 
+
+(image: weatherAppInterfaceiPhone21.jpg)
+
+
+
+##Step 22
+
+Make sure that the rectangle edited in the previous step is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: weatherAppInterfaceiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that the rectangle edited in the previous step is still selected, open the **Appearance**  panel and tap the **Copy Style** command. Select the remaining black rectangles, return to that **Appearance** panel and tap the **Paste Style** command. In the end things should look like in the second image. 
+
+(image: weatherAppInterfaceiPhone23.jpg)
+
+
+
+##Step 24
+
+Select one of your yellow rectangles and focus on the **Effects** pane. Tap the color well that stands for the existing **Fill** and then  tap the **Gradient ** button and that **Linear** icon. Set the angle to **-90 degrees** and then move to the gradient sliders. Select the left slider, drag the **Alpha** slider to **0%** and replace the existing color with white. Move to the right gradient slider, drag the **Alpha** slider to **30%** and replace the existing color with white. 
+
+(image: weatherAppInterfaceiPhone24.jpg)
+
+
+
+##Step 25
+
+Once again, use the **Copy Style** and **Paste Style** commands to copy the attributes added in the previous step and paste them unto the remaining yellow rectangles. 
+
+(image: weatherAppInterfaceiPhone25.jpg)
+
+
+
+##Step 26
+
+Now, you need this [Set of Flat Weather Icons](http://graphic.com/tutorials/create-a-set-of-weather-icons?format=iphone). Feel free to follow that tutorial and create your own icons or simply copy the icons from the Graphic file that can be downloaded in the finale of the tutorial. Paste all those icons inside your document and place them roughly as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone26.jpg)
+
+
+
+##Step 27
+
+Duplicate one of those weather icons, double its size and place it as shown in the following image. 
+
+(image: weatherAppInterfaceiPhone27.jpg)
+
+
+
+##Step 28
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Select the **American Rounded MT** font and make it **Bold**. Drag the  font size slider to **75** and then simply add that tiny  &quot;_21°_&quot; piece of text. Place it as shown in the following image, set the color to white and make sure that it stays selected. 
+
+Move to the **Effects** pane, activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: weatherAppInterfaceiPhone28.jpg)
+
+
+
+##Step 29
+
+ Use that same ****font and color, but decrease the **Size** to **50 pt**. Add the &quot;_01:23_&quot; piece of text, place it as shown in the following image and make sure that it stays selected. Move to the **Effects** pane, activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: weatherAppInterfaceiPhone29.jpg)
+
+
+
+##Step 30
+
+Use the text attributes shown in the following image to add your  new pieces of text and spread them as shown below. Use the same color and don't forget to add that subtle **Drop Shadow** effect applied on your existing pieces of text. 
+
+(image: weatherAppInterfaceiPhone30.jpg)
+
+(image: weatherAppInterfaceiPhone31.jpg)
+
+(image: weatherAppInterfaceiPhone32.jpg)
+
+
+
+##Step 33
+
+
+Finally, feel free to try a different background  image. Here's one for the [morning version](http://pixabay.com/en/clouds-cloud-cumulus-clouds-blue-368117/). 
+
+(image: weatherAppInterfaceiPhone33.jpg)
+
+[Evening version](http://pixabay.com/en/monsoon-raindrops-rain-glass-wet-390944/) 
+
+(image: weatherAppInterfaceiPhone34.jpg)
+
+[Overnight version](http://pixabay.com/en/moon-cypress-mountains-moonrise-182145/)
+
+(image: weatherAppInterfaceiPhone35.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: weatherAppInterfaceiPhone0.jpg)
+
+----
+
+Title: iPhone

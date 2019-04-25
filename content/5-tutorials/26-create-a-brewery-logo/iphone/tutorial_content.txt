@@ -1,0 +1,330 @@
+Text: 
+
+In the following tutorial you will learn how to create a brewery logo in Picta Graphic for iPhone. 
+
+For starters, you will learn how to set up a simple grid, how to create several basic shapes and how to easily place them in the center of your canvas. Using the Layers panel, you will learn how to cleverly organise your vector shapes.
+
+Moving on, you will learn how to add text on a path and how to easily adjust it. Finally, you will learn how to add some subtle shading and highlights using the Effects pane. 
+
+
+
+##Step 1
+
+For this tutorial you will need to import the [**Montserrat font**](https://www.fontsquirrel.com/fonts/montserrat). Download this font and save it inside your Dropbox folder or iCloud Drive. 
+
+Open Graphic and focus on the top-left corner of the **Titlebar**. Tap the plus button and pick your import choice, Dropbox or iCloud. Locate your font and simply tap it to import it. 
+
+(image: BreweryLogoiPhone1A.jpg)
+
+Return to your **Titlebar** and tap again that plus button. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: BreweryLogoiPhone1B.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel, and then tap the **Canvas** pane. Set both **Width** and **Height** to **680 px** and select **Pixels** for the base unit.
+
+(image: BreweryLogoiPhone1C.jpg)
+
+
+##Step 2
+
+Focus on the **Toolbar** and tap the **Stroke** color well. Drag the **Alpha** slider to **0%** which will simply make your stroke invisible. Tap the **Fill** color well and replace the existing color with **R=254 G=184 B=0**. 
+
+Pick the **Ellipse Tool** , focus on your canvas and create a **390 px** circle. Tap and drag, and then tap and hold with a second finger to easily create a circle.
+
+(image: BreweryLogoiPhone2.jpg)
+
+
+
+##Step 3
+
+Make sure that your shape is still selected and open the **Align** pane from the **Properties** panel. Tap the  **Horizontal**  and  **Vertical**  commands  to easily bring your selection in the center of the canvas.
+
+(image: BreweryLogoiPhone3.jpg)
+
+
+
+##Step 4
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Ellipse Tool**, create a **370 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone4.jpg)
+
+
+
+##Step 5
+
+Focus on your **Toolbar** and set the **Fill** color back to **R=254 G=184 B=0**.  Using the **Ellipse Tool**, create a **350 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone5.jpg)
+
+
+
+##Step 6
+
+Focus on your **Toolbar** and set the **Fill** color to **R=216 G=31 B=52**.  Pick the **Rectangle Tool**, create a **450 x 40 px** shape and center it. 
+
+(image: BreweryLogoiPhone6.jpg)
+
+
+
+##Step 7
+
+Pick the **Move Tool** and select the largest yellow  circle. Tap and hold anywhere on your canvas to open the context menu and tap that **Copy** command. 
+
+(image: BreweryLogoiPhone7A.jpg)
+
+Reopen that context menu and tap the **Paste in Place** command to add a copy of your largest yellow circle in the same place. 
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Using simple taps, select your fresh copy along with that red rectangle, go to the **Combine**  pane from the **Properties** panel and  tap the **Intersect** command. 
+
+(image: BreweryLogoiPhone7B.jpg)
+
+
+##Step 8
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Ellipse Tool**, create a **250 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone8.jpg)
+
+
+
+##Step 9
+
+Focus on your **Toolbar** and set the **Fill** color to **R=247 G=235 B=188**.  Using the **Ellipse Tool**, create a **230 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone9.jpg)
+
+
+
+##Step 10
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Ellipse Tool**, create a **210 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone10.jpg)
+
+
+
+##Step 11
+
+Focus on your **Toolbar** and set the **Fill** color to **R=216 G=31 B=52**.  Using the **Ellipse Tool**, create a **190 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone11.jpg)
+
+
+
+##Step 12
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Use the plus button from the bottom of the panel to add a second layer. Make sure that it stays selected, as the new objects you are about to create will go here.
+
+Focus on your **Toolbar** and set the **Fill** color to white (**R=255 G=255 B=255**).  Pick the **Ellipse Tool**, create a **270 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone12.jpg)
+
+
+
+##Step 13
+
+Pick the **Text Tool** and double tap inside that new field. Select the Montserrat font, change the style to **Black** and set the size to **40**, and then type the &quot;_ARTISANOS_&quot; piece  of text.
+
+(image: BreweryLogoiPhone13A.jpg)
+
+Make sure that your piece of text stays selected and go to the **Text** pane from the **Appearance** panel. Set the **Character Spacing** to **4** and then change the color of your text to **R=216 G=31 B=52**. 
+
+(image: BreweryLogoiPhone13B.jpg)
+
+
+
+##Step 14
+
+Using the **Move Tool**, select your piece of text along with the white circle. Go to the **Path Tools** pane from the **Properties** panel and tap the **Place on Path** command. This will simply place your text on the selected circle. 
+
+(image: BreweryLogoiPhone14A.jpg)
+
+Focus on your text and use that round handle to move the text on the path as shown in the following image. Keep in mind that the text on the path is fully editable. Simply double-tap it to change its content or its attributes.
+
+(image: BreweryLogoiPhone14B.jpg)
+
+
+##Step 15
+
+Focus on your **Toolbar** and set the **Fill** color to white.  Pick the **Ellipse Tool**, create a **330 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone15.jpg)
+
+
+
+##Step 16
+
+Pick the **Text Tool** and double tap inside that new field. Select the **Montserrat font**, change the style to **Black** and be sure that the size is set to **40**, and then type the &quot;_BREWERY CO._&quot; piece  of text.
+
+(image: BreweryLogoiPhone16A.jpg)
+
+Make sure that your piece of text stays selected and go to the **Text** pane from the **Appearance** panel. Set the **Character Spacing** to **8** and then change the color of your text to **R=216 G=31 B=52**. 
+
+(image: BreweryLogoiPhone16B.jpg)
+
+
+##Step 17
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select your new piece of text along with the white circle and open the **Path Tools**  pane. First, tap the **Place on Path** command, and then tap the **Reverse Path**  command to flip your text on the other side of the shape. 
+
+(image: BreweryLogoiPhone17A.jpg)
+
+Again, use that round handle to move the text on the path as shown in the second image. 
+
+(image: BreweryLogoiPhone17B.jpg)
+
+
+##Step 18
+
+Pick the **Text Tool**, add the &quot;_EST._&quot; piece of text and place it as shown in the first image. Use the same font and style, lower the size to **15 pt**, set the **Character Spacing** to **1** and change the color to **R=247 G=235 B=188**. 
+
+Using the same tool and attributes, add the &quot;_1982_&quot; piece of text and place it as shown in the second image. 
+
+(image: BreweryLogoiPhone18.jpg)
+
+
+
+##Step 19
+
+Focus on the **Layers** panel and add a new layer. Rename it &quot;_Spike_&quot;, make sure that it lies in the top of the panel and select it. 
+
+Focus on your **Toolbar** and set the **Fill** color to a random green.  Pick the **Ellipse Tool**, create a **190 px** circle and don't forget to center it. 
+
+(image: BreweryLogoiPhone19.jpg)
+
+
+
+##Step 20
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Rounded Rectangle Tool**, go to the **Tool pane** and drag that  **Radius** slider to **30**. Create an **80 x 200 px** shape and place it exactly as shown in the following image. 
+
+(image: BreweryLogoiPhone20.jpg)
+
+
+
+##Step 21
+
+Select your green circle along with the rounded rectangle and tap the **Intersect** button from the **Combine** pane. Make sure that the resulting shape is selected and replace the existing **Fill** color with **R=34 G=51 B=87**. 
+
+(image: BreweryLogoiPhone21.jpg)
+
+
+
+##Step 22
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Pick the **Rectangle Tool**, create a **10 x 25 px** shape and place it as shown in the following image. 
+
+(image: BreweryLogoiPhone22.jpg)
+
+
+
+##Step 23
+
+
+Focus on your **Toolbar** and set the **Fill** color to **R=254 G=184 B=0**.  Pick the **Ellipse Tool**, create a **20 x 35 px** shape and place it as shown in the following image. 
+
+(image: BreweryLogoiPhone23.jpg)
+
+
+
+##Step 24
+
+Make sure that your tiny yellow shape stays selected and pick the **Path Selection Tool**. Activate the **Convert** mode and simply tap the top and bottom anchor points. In the end things should look like in the second image. 
+
+(image: BreweryLogoiPhone24.jpg)
+
+
+
+##Step 25
+
+Make sure that your tiny yellow shape is still selected and pick the **Rotate Tool**. Focus on the **Tool Options** pane, set the **Angle** to **45 degrees**, and then tap that **Copy** button. 
+
+Select the newly made shape, drag it down and place it as shown in the second image. 
+
+(image: BreweryLogoiPhone25.jpg)
+
+
+
+##Step 26
+
+Make sure that the shape added in the previous step is still selected and pick the **Rotate Tool**. Return to the **Tool Options** pane, set the **Angle** to **90 degrees**, and then tap that **Copy** button. 
+
+Select the newly made shape, drag it to the left and place it as shown in the second image. 
+
+(image: BreweryLogoiPhone26.jpg)
+
+
+
+##Step 27
+
+Multiply your rotated yellow shapes and place the copies as shown in the following images.
+
+(image: BreweryLogoiPhone27.jpg)
+
+
+
+##Step 28
+
+Pick the **Path Selection Tool** and activate the **Add to Selection** mode. Select all your tiny yellow shapes, go to the **Combine**  pane and tap the **Make** command. This will combine your selected shapes into a single object. 
+
+(image: BreweryLogoiPhone28.jpg)
+
+
+
+##Step 29
+
+Make sure that your compound path stays selected and open the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and select it. Drag the **Blur** slider to **0**, enter **5 pt** in the **Y** box, and then tap the color well that stands for this effect. Drag the **Alpha** slider to **100%** and replace the existing color with **R=247 G=235 B=188**. 
+
+(image: BreweryLogoiPhone29.jpg)
+
+
+
+##Step 30
+
+Focus on your **Toolbar** and set the **Fill** color to **R=247 G=235 B=188**.  Using the **Rectangle Tool**, create a **10 x 45 px** shape and two **10 x 80 px** shapes. Place these new rectangles as shown in the following image. 
+
+(image: BreweryLogoiPhone30.jpg)
+
+
+
+##Step 31
+
+Focus on your **Toolbar** and set the **Fill** color to **R=34 G=51 B=87**.  Using the **Rectangle Tool**, create two **10 x 130 px** shapes and two **10 x 80 px** shapes. Place these new rectangles as shown in the following image. 
+
+(image: BreweryLogoiPhone31.jpg)
+
+
+
+##Step 32
+
+Focus on the **Layers** panel and add a new layer. Tap and hold on the thumbnail of this new layer, and then drag it in the bottom of the panel. Make sure that it stays selected. 
+
+Pick the **Rectangle Tool**, create a **680 px** square and make sure that it covers your entire canvas.
+
+(image: BreweryLogoiPhone32.jpg)
+
+
+
+##Step 33
+
+
+Return to the **Layers** panel and select your second layer (from bottom to the top). 
+
+Select the largest yellow circle and open the **Effects** pane. Activate the existing **Drop Shadow** effect and select it. Drag the **Blur** slider to **40**, enter **20 pt** in the **Y** box, and then tap the color well that stands for this effect. Drag the **Alpha** slider to **50%** and replace the existing color with **R=15 G=31 B=67**. 
+
+(image: BreweryLogoiPhone33.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: BreweryLogoiPhone0.jpg)
+
+----
+
+Title: iPhone

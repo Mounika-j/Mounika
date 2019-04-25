@@ -1,0 +1,31 @@
+Title: Boolean Commands
+
+----
+
+Text: 
+
+# Boolean Commands
+
+Boolean commands create new paths by combining the shapes of multiple closed paths in different ways. All commands can be found in the _**Combine pane**_.
+
+There are five different boolean commands to choose from. The resulting shape will keep the appearance attributes of the rearmost selected shape. Having two overlapping shapes selected, these will be the results:
+
+**Union** - Creates only one shape composed of the selected shapes. 
+
+(video: booleancommands1-ipad.mp4 width: 750)
+
+**Subtract** - Creates a new shape, removing the top shapes and the overlapping areas. 
+
+(video: booleancommands2-ipad.mp4 width: 750)
+
+**Intersect** - Creates a new shape composed of the parts where the selected shapes overlapped.
+
+(video: booleancommands3-ipad.mp4 width: 750)
+
+**Exclude** - Creates a new shape composed of the parts where the shapes didn't overlap.
+
+(video: booleancommands4-ipad.mp4 width: 750)
+
+**Divide** - Creates a new shape for each overlapping and non-overlapping area.
+
+(video: booleancommands5-ipad.mp4 width: 750)

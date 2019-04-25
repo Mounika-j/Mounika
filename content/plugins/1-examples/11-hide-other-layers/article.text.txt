@@ -1,0 +1,16 @@
+Title: Hide Other Layers
+
+----
+Description: Hides all layers which are not currently selected. Only the selected layers remain visible.
+
+----
+Image: (image: Header.jpg title: Hide Other Layers)
+
+----
+Thumbnail: (image: Thumbnail.png title: Hide Other Layers)
+
+----
+Plugfile: (file: HideOtherLayers.zip text: Download Plug-in)
+
+----
+Requirements: v2.4.1

@@ -1,0 +1,264 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple player bar in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create  the main shape using the Rounded Rectangle Tool, a linear gradient and several effects. Using similar tools and techniques you will create the sound bar and the seek bar. 
+
+Finally, you'll learn how to make two simple icons and two subtle separators. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. Go to **File &gt; New** or hit the **Command + N** keyboard shortcut to bring up the **New Document** window. Select the **Grid** document style, select **pixels** for the document unit and then set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, you need to adjust  the document's grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** pane is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and then enable **Snap to Grid**. 
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: playerBar1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. Click  the fill color wheel and replace the existing color with **R=29 G=29 B=34** and then click the stroke color wheel and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible.  
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag the **Corner Radius** slider to **10 pt**. Move to your canvas and create a **370 x 35 px** shape. 
+
+(image: playerBar2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected, focus on the **Effect** pane from the **Appearance** panel and select the existing **Fill**. If the **Appearance** pane is not currently visible, you can click  the leftmost icon that lies above the **Layers** panel to show and hide this panel. 
+
+Select **Linear Gradient** from the **Type** drop-down menu, set the **Angle** to **90 degrees** and then move to the gradient sliders. Select the left one and replace the existing color with **R=21 G=23 B=22** and then select the right one and replace the existing color with **R=60 G=63 B=62**.
+
+(image: playerBar3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and check the little box that stands for the existing **Drop Shadow** to activate it.
+
+ Enter **1** in the **Y** box and **0** in the other two boxes and then click the color wheel that stands for your **Drop Shadow**. Drag the **Alpha** slider to **10%** and make sure that the color is set at black (**R=0 G=0 B=0**).
+
+(image: playerBar4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane from the **Appearance** panel. 
+
+Simply right click on the existing **Drop Shadow** and go to **Duplicate**. Select the newly added effect, make sure that it lies below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: playerBar5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and duplicate the bottom **Drop Shadow**. Select the newly added effect, make sure that it lies below the existing **Drop Shadows** and then enter the attributes shown in the following image. 
+
+(image: playerBar6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+(image: playerBar7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** using the plus button located in the bottom, left corner of your pane. 
+
+Select this new effect, make sure that it lies below the existing **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: playerBar8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** using that same plus button. 
+
+Select this new effect, make sure that it lies below the existing **Inner Shadows** and then enter the attributes shown in the following image. 
+
+(image: playerBar9.jpg)
+
+
+
+##Step 10
+
+Return to your **Toolbar**, make sure that the stroke is invisible and then set the fill color to **R=21 G=23 B=22**. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the tool options bar and drag that **Corner Radius** slider to **1 pt**. Move to your canvas, create a **40 x 5 px** shape and place it exactly as shown in the following image. 
+
+(image: playerBar10.jpg)
+
+
+
+##Step 11
+
+Make sure that your new, rounded rectangle is still selected and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: playerBar11.jpg)
+
+
+
+##Step 12
+
+Make sure that your new, rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: playerBar12.jpg)
+
+
+
+##Step 13
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, create a **220 x 5 px** shape and place it  as shown in the following image. 
+
+Reselect that tiny, rounded rectangle, right click anywhere on your canvas and go to **Copy Style**. Select the shape made in this step, right click again and this time go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: playerBar13.jpg)
+
+
+
+##Step 14
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+ Get back to your **Toolbar**, make sure that the stroke is invisible and then set the fill color to **R=0 G=174 B=15**. Using the **Rounded Rectangle Tool (Shift + M)**, create a **15 x 3 px** shape and place it as shown in the following image. 
+ 
+Make sure that your green shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: playerBar14.jpg)
+
+
+
+##Step 15
+
+Return to your **Toolbar**, make sure that the stroke is still invisible and pick a random yellow for the fill. 
+
+Using the **Rectangle Tool (M)**, create a **4 x 5 px** shape and place it as shown in the following image. 
+
+(image: playerBar15.jpg)
+
+
+
+##Step 16
+
+Get back to your **Toolbar**, make sure that the stroke is invisible and pick a random blue for the fill. 
+
+Pick the **Rectangle Tool (M)**, create a **3 x 9 px** shape and place it as shown in the first image. Focus on the left side of this new shape and switch to the **Path Selection Tool (A)**. Select the top anchor point and drag it **2 px** down and then select the bottom anchor point and drag it **2 px** up. In the end your blue rectangle should turn into a trapezoid as shown in the second image. 
+
+(image: playerBar16.jpg)
+
+
+
+##Step 17
+
+Select your blue and yellow shapes, focus on the **Path Tools** pane from the **Properties** panel and click the **Union** button. Make sure that the resulting shape stays selected and move to the **Effects** pane from the **Appearance** panel. Select that **Fill** and simply replace the existing color with the linear gradient shown in the following image. 
+
+(image: playerBar17.jpg)
+
+
+
+##Step 18
+
+Make sure that your speaker icon is still selected and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: playerBar18.jpg)
+
+
+
+##Step 19
+
+Get back to your **Toolbar**, make sure that the stroke is still invisible and then replace the existing fill color with a simple blue. 
+
+Using the **Rectangle Tool (M)**, create a **10 px** square and place it as shown in the first image. Focus on the right side of this new shape and switch to the **Path Selection Tool (A)**. First, select the bottom anchor point and drag it **5 px** up and then select the top anchor point and remove it using the **Delete** button from your keyboard. In the end your blue rectangle should turn into a simple triangle as shown in the second image 
+
+(image: playerBar19.jpg)
+
+
+
+##Step 20
+
+Copy the style from your speaker icon and paste it unto your blue triangle.
+
+(image: playerBar20.jpg)
+
+
+
+##Step 21
+
+Get back to your **Toolbar**, make sure that the stroke is invisible and then set the fill color to **R=21 G=23 B=22**. 
+
+Using the **Rounded Rectangle Tool (Shift + M)**, create a **1 x 15 px** shape and place it as shown in the first image. Make sure that this thin, new shape stays selected and move to the **Effects** pane from the **Appearance** panel. Activate the existing **Drop Shadow** effect and simply enter the attributes shown in the following image. 
+
+(image: playerBar21.jpg)
+
+
+
+##Step 22
+
+Duplicate your thin, rounded rectangle using the **Command + C &gt; Command + V** keyboard shortcut. Select the copy and place it as shown in the following image.
+ 
+(image: playerBar22.jpg)
+
+
+
+##Step 23
+
+
+Move to your **Toolbar**, make sure that the stroke is still invisible and then set the fill color to **R=61 G=63 B=62**. 
+
+Using the **Rounded Rectangle Tool (Shift + M)**, create a **160 x 3 px** shape and place it as shown in the first image. Return to your **Toolbar** and replace the existing **Fill** color with **R=218 G=65 B=0**. Make sure that the **Rounded Rectangle Tool** is still active, create a **100 x 3 px** shape and place it as shown in the second image. 
+
+(image: playerBar23.jpg)
+
+
+
+##Step 24
+
+Make sure that your red, rounded rectangle is still selected and focus on the **Effects** pane from the **Appearance** panel. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+Now, if you wish to create the version with the muted sound simply copy the style from your red rounded rectangle and paste it unto your green rounded rectangle. In the end things should look like in the second image. 
+
+(image: playerBar24.jpg)
+
+
+
+##Step 25
+
+Get back to your **Toolbar**. This time make sure that the fill is invisible and then set the stroke color to **R=218 G=65 B=0**.
+ 
+Focus on your speaker icon and pick the **Line Tool (L)**. Create a **15 px**, vertical path and place it as shown in the first image. Make sure that it stays selected and focus on the **Stroke** pane from the **Appearance** panel. Drag the **Line Weight** slider to **1 pt** and check the **Round Cap** button. 
+
+Get back to your canvas and switch to the **Path Selection Tool (A)**. Select the top anchor point and simply drag it **15 px** to the right as shown in the second image. 
+
+(image: playerBar25.jpg)
+
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: playerBar0.jpg)
+
+----
+
+Title: Mac

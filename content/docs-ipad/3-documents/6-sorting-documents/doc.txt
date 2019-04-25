@@ -1,0 +1,17 @@
+Title: Sorting Documents
+
+----
+
+Text: 
+
+#Ordering Documents
+
+Select between ordering existing documents by name or by date. To view this control, swipe down from the top of the documents list.
+
+(video: sortingdocuments1-ipad.mp4 width: 750)
+
+#Renaming Documents
+
+To rename a document, simply tap on its name label in the _**Documents Browser**_.
+
+(video: sortingdocuments2-ipad.mp4 width: 750)

@@ -1,0 +1,21 @@
+Title: Create a Simple Stamp Icon
+
+----
+
+Date: 2018-01-09
+
+----
+
+Graphicfile: stampicon.idraw
+
+----
+
+Description: Learn how to create a simple stamp icon using vector shapes and effects...
+
+----
+
+Headerimg: header.jpg
+
+----
+
+Thumbnail: thumbnail.jpg

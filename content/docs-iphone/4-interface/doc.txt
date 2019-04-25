@@ -1,0 +1,13 @@
+Title: Interface
+
+----
+
+Text: 
+
+## Interface
+
+Graphic uses a primarily single-canvas interface, with a few accompanying inspector panes for additional settings and features. 
+
+The (link: docs/interface/toolbar text: _**Toolbar**_) provides access to the available drawing and editing tools. The options in the (link: docs-iphone/interface/titlebar text: _**Titlebar**_) can be used to return to the ***Documents Browser***, undo/ redo actions, delete selected objects or open one of the four main settings panels.
+
+(image: interface1-iphone.jpg width: 750)

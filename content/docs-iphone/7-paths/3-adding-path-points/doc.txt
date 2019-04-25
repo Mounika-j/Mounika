@@ -1,0 +1,18 @@
+Title: Adding Path Points
+
+----
+
+Text: 
+
+# Adding Path Points
+
+
+The _**Pen tool**_ can also be used to add points to any path. Use the settings in the _**Tool pane**_ to change the Pen tool from the default path creation mode, to the _**Add Points**_ mode.
+
+(image: addingpathpoints1-iphone.jpg width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools. After choosing the _**Add Points**_ mode, simply tap anywhere on the selected path to add a new anchor point.
+
+(video: addingpathpoints2-iphone.mp4 width: 750)
+
+> Tip: When (link: docs-iphone/canvas/snapping text: _**Snap to Grid**_) is enabled, the added path points will snap to the grid.

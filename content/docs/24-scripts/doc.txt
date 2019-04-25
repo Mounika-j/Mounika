@@ -1,0 +1,29 @@
+Title: Plugins
+
+----
+
+Text: 
+
+# Plugins
+
+Scripts are lines of code that perform a sequence of operations. You can use the built-in code editor (**Plugins > Plugin Editor**) to create, test, and run custom scripts. Previously time-consuming tasks can be automated easily with a few lines of code.
+
+(image: plugins1.jpg width: 750)
+
+If you wish to learn how plugins work and how to create your own, you can find more information on our website here: [Graphic Plug-ins Developer APIs](https://graphic.com/plugins/api).
+
+If coding is not your thing, you can download a set of neat plugins on our Resources webpage: [Graphic Plugins](https://graphic.com/plugins/).
+
+### Saving and Storing Plugins
+
+Plugins can be saved using the Save button from the Plugin Editor. You can only use plugins stored inside the Plugins folder which can be easily opened by going to **Plugins > Manage Plugins…**. Save a new plugin inside your Plugins folder and it will show up when you open the Plugins menu.
+
+### Using Plugins
+
+To use a plugin choose _**Plugins**_ from the menu bar and click the name of the plugin to make it perform the action or to open the settings window.
+
+(video: plugins2.mp4 width: 750)
+
+### Removing Plugins
+
+To remove a plugin simply delete it from that Plugins folder.

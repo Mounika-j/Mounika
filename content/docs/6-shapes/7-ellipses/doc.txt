@@ -1,0 +1,15 @@
+Title: Ellipses
+
+----
+
+Text: 
+
+# Ellipses
+
+Choose the _**Ellipse tool**_ to draw ellipses or circles. Simply click and drag inside your canvas to create a new ellipse.
+
+Hold the **Shift ⇧** key while dragging to easily create circles.
+
+(video: ellipses1.mp4 width: 750)
+
+> Tip: Use the **O** keyboard shortcut to quickly select the **Ellipse tool**.

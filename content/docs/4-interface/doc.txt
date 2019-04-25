@@ -1,0 +1,13 @@
+Title: Interface
+
+----
+
+Text: 
+
+## Interface
+
+Graphic uses a primarily single-canvas interface, with a few accompanying inspector panes for additional settings and features.
+
+(image: interface1.jpg width: 750)
+
+The (link: docs/interface/toolbar text: _**Toolbar**_) provides access to the available drawing and editing tools while the (link: docs/interface/tool-options text: _**Tool Options bar**_) allows you to adjust the behavior of currently selected tool. The (link: docs/layers text: _**Layers panel**_) on the right side of the window can be used to work with the current document’s layers. Documents can be managed quickly and easily using the (link: docs/interface/document-tabs text: _**Document Tabs**_) at the top of the window.

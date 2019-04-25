@@ -1,0 +1,27 @@
+Title: Ordering Objects
+
+----
+
+Text: 
+
+# Ordering Objects
+
+Objects are stacked inside the active layer, beginning with the first object drawn. The stacking determines how objects will display when they overlap.
+
+The stacking order of your objects can be changed at any time using the _**Arrange pane**_ from the _**Properties panel**_. Dragging that _**Order**_ slider you can:
+
+**Bring to Front** - Drag the slider to the right end to move your selected object/group to front/top of the stack. 
+
+(video: orderingobjects1-ipad.mp4 width: 750)
+
+**Bring Forward** - Drag the slider close to the right end to move your selected object/group upward by one object.
+
+(video: orderingobjects2-ipad.mp4 width: 750)
+
+**Send Backward** - Drag the slider close to the left end to move your selected object/group backward by one object.
+
+(video: orderingobjects3-ipad.mp4 width: 750)
+
+**Send to Back** - Drag the slider to the left end to move your selected object/group to the back/bottom of the stack.
+
+(video: orderingobjects4-ipad.mp4 width: 750)

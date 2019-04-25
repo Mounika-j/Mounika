@@ -1,0 +1,15 @@
+Title: Gradient Palette
+
+----
+
+Text: 
+
+# Gradient Palette
+
+Use the tab menu at the top of the _**Color panel**_ to easily switch to the _**Gradient panel**_. At the bottom of this panel you can find the _**Gradient palette**_.
+
+Gradients can be saved by dragging the gradient preview to one of the Gradient palette slots. You can add new gradients inside an empty slot or you can replace one of the previously saved gradients. 
+
+(video: gradientpalette1-iphone.mp4 width: 750)
+
+To remove a gradient applied to an existing shape simply tap the _**‘none’**_ swatch from the bottom-right corner.

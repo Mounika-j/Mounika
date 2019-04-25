@@ -1,0 +1,817 @@
+body
+{
+	/* background-color: #252525; */
+	font-family: AvenirNext, "Avenir Next", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	overflow-x: hidden;
+}
+
+a
+{
+	color: #54bfff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.wrapper
+{
+	position: relative;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#navBar
+{
+	float:right;
+	color: #66ccff;
+	margin-top: 20px;
+	margin-right: 40px;
+	font-size: 18px;
+}
+
+#navBar a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 95%;
+	padding: 6px;
+	padding-left: 20px;
+}
+
+#navBar a:hover
+{
+	color: #54bfff;
+}
+
+#logo
+{
+	margin-top: 0px;
+	margin-left: 60px;
+	float: left;
+}
+
+#heroSection
+{
+	width: 100%;
+	background: #131313;
+}
+
+#hero
+{
+	background-image: url(../images/new_hero.jpg);
+	background-size:1440px 633px;
+	width: 1440px;
+	height: 633px;
+	margin-left: -230px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#intro
+{
+	color: #FF9030;
+	margin-top: -10px;
+	padding-bottom: 6px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#main
+{
+	position: relative;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.buyText
+{
+	color: #FF9030 !important;
+}
+
+.buyText:hover
+{
+	color: #54bfff !important;
+}
+
+.reflectedImage
+{ 
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+.centeredItem
+{ 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.featureSection
+{
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 100%;
+	min-height: 200px;
+	display: block;
+	clear: both;
+}
+
+.featureSection h1
+{
+	margin-top: 4px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 24px;
+	font-family: AvenirNext-Medium, "Avenir Next", sans-serif;
+	font-weight: 300;
+	color: #FFF;
+}
+
+.featureSection h2
+{
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 22px;
+	font-family: AvenirNext, "Avenir Next", sans-serif;
+	font-weight: 300;
+}
+
+.featureSection p
+{
+	letter-spacing: 0.1em;
+	text-decoration: none; 
+	line-height: 1.25em;
+	font-weight: 300;
+	padding-bottom: 10px;
+	
+	font-size: 17px;
+	color: #DFDFDF;
+}
+
+
+.featureSection p a
+{
+	color: #54bfff;
+}
+
+.subSection
+{
+	clear: both;
+}
+
+.sectionDivider
+{
+	color: #FF9030 !important;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+.sectionDivider h1
+{
+	font-family: AvenirNext-Medium, "Avenir Next", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 0px;
+}
+
+.centerTextBlock
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 88%;
+}
+
+.leftTextBlock
+{
+	width: 40%;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.rightImageBlock
+{
+	float:right  !important;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.rightImageBlock img
+{
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+.rightTextBlock
+{
+	float: right !important;
+	padding-right: 50px;
+	width: 40%;
+}
+
+.leftImageBlock
+{
+	float:left;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.leftImageBlock img
+{
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+.centerText
+{
+	text-align: left;
+	width: 95%;
+}
+
+.movieText
+{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-image: url(../images/play.svg);
+	background-repeat: no-repeat;
+	width: 346px;
+	height: 46px;
+}
+
+.movieText p
+{
+	margin-left: 60px;
+	padding-top: 14px;
+	color: #54bfff;
+}
+
+/* -------- */
+/* sections */
+/* -------- */
+
+#handoff img
+{
+	margin-top: 0px;
+	margin-left: -65px;
+}
+
+#icloudDrive .leftTextBlock
+{
+	margin-left: 100px;
+	margin-top: -10px;
+	width: 40%;
+}
+
+#icloudDrive img
+{
+	margin-top: 50px;
+	margin-left: -400px;
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#yosemite .rightTextBlock
+{
+	margin-top: 20px;
+	width: 45%;
+}
+
+#yosemite img
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	border: 1px solid black;
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#cmykColors .leftTextBlock
+{
+	margin-top: 60px;
+	margin-left: 20px;
+	width: 45%;
+}
+
+#cmykColors img
+{
+	margin-top: -40px;
+	margin-left: 0px;
+	-webkit-box-reflect: none;
+}
+
+#patternFills img
+{
+	margin-top: 8px;
+	margin-left: 80px;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));	
+}
+
+#clipPaths img
+{
+	margin-top: 20px;
+	margin-left: 0px;
+	-webkit-box-reflect: none;	
+}
+
+#autoExports .leftTextBlock
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 55%;
+}
+
+#autoExports img
+{
+	margin-top: 40px;
+	margin-right: 160px;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));	
+}
+
+#blurEffect img
+{
+	margin-top: 20px;
+	margin-left: 0px;
+	-webkit-box-reflect: none;	
+}
+
+#xcodeInt img
+{
+	margin-top: -10px;
+	margin-left: -10px;
+	-webkit-box-reflect: none;	
+}
+
+#selectSimilar .leftTextBlock
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 48%;
+}
+
+#selectSimilar img
+{
+	margin-top: 70px;
+	margin-right: 120px;
+	-webkit-box-reflect: none;	
+}
+
+#layersPane .rightTextBlock
+{
+	margin-top: 0px;
+	width: 36%;
+}
+
+#layersPane img
+{
+	margin-top: 4px;
+	margin-left: -100px;
+	border: 1px solid black;
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#layersPane2 .leftTextBlock
+{
+	margin-top: 40px;
+	width: 52%;
+}
+
+#layersPane2 img
+{
+	margin-top: 10px;
+	margin-right: -20px;
+	border: 1px solid black;
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#drawingTools .leftTextBlock
+{
+	width: 54%;
+}
+
+#copyCSS .leftTextBlock
+{
+	width: 50%;
+	margin-top: 60px;
+}
+
+#copyCSS img
+{
+	border: 1px solid black;
+}
+
+#drawingTools img
+{
+	margin-top: 30px;
+	margin-right: 40px;
+	border: 1px solid black;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#smartDuplicate img
+{
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#smartDuplicate .rightTextBlock
+{
+	width: 55%;
+}
+
+#smartDuplicate .leftImageBlock
+{
+	margin-left: 30px;
+}
+
+#coreGraphics .leftTextBlock
+{
+	width: 40%;
+}
+
+#coreGraphics .rightImageBlock
+{
+	position: absolute;
+	left: 44%;
+	top: 25%;
+	margin-top: 30px;
+}
+
+#appMockup
+{
+	padding-bottom: 20px;
+}
+
+#xcode
+{
+	position: absolute;
+	top: -20%;
+	left: 72%;
+	border: 1px solid black;
+}
+
+#shapeLibraries .rightTextBlock
+{
+	margin-top: 30px;
+	width: 55%;
+}
+
+#shapeLibraries img
+{
+	margin-top: 0px;
+	margin-left: 20px;
+	-webkit-box-reflect: below -38px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.25)));
+}
+
+#layerExport .leftTextBlock
+{
+	width: 40%;
+}
+
+#layerExport .rightImageBlock
+{	
+	position: absolute;
+	left: 45%;
+	top: 20%;
+}
+
+#transformPanel .rightTextBlock
+{
+	width: 54%;
+}
+
+#transformPanel img
+{
+	margin-right: 65px;
+	margin-top: -10px;
+	-webkit-box-reflect: below -36px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.25)));
+}
+
+#pixelPreview .rightTextBlock
+{
+	width: 60%;
+}
+
+#pixelPreview img
+{
+	margin-top: 44px;
+	margin-left: 0px;
+	border: 1px solid #444;
+
+}
+
+#psdDesc img
+{
+	margin-left: 26px;
+}
+
+#psdStyles img
+{
+	margin-bottom: 30px;
+}
+
+#psdStyles p
+{
+	width: 27%;
+	padding-top: 40px;
+}
+
+#psdPaths img
+{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	-webkit-box-reflect: none;
+}
+
+#psdPaths p
+{
+	width: 50%;
+	margin-top: 40px;
+}
+
+#blendDesc img
+{
+	margin-top: 60px;
+	-webkit-box-reflect: below -30px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.05)));
+}
+
+#angleSection
+{
+	margin-top: 40px;
+}
+
+#angleSection .leftTextBlock
+{
+	margin-top: 60px;
+}
+
+#angleSection img
+{
+	-webkit-box-reflect: below -14px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.05)));
+}
+
+#angleSection2 .rightTextBlock
+{
+	width: 50%;
+	margin-top: -20px;
+}
+
+#angleSection2 img
+{
+	margin-top: -200px;
+	-webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.1)));
+	
+}
+
+#angleImage2
+{
+	margin-top: -220px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	-webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.1)));
+}
+
+
+#colorDesc
+{
+	padding-top: 0px;
+	margin-top: 20px;
+}
+
+#colorDesc .leftTextBlock
+{
+	width: 65%;
+}
+
+#colorDesc img
+{
+	margin-right: 150px;
+	margin-top: 40px;
+}
+
+#strokeDesc .rightTextBlock
+{
+	width: 60%;
+}
+
+#strokeDesc img
+{
+	margin-left: 30px;
+	margin-top: 0px;
+	-webkit-box-reflect: below -6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.1)));
+}
+
+#maskDesc
+{
+	margin-top: -120px;
+}
+
+#maskDesc .leftTextBlock
+{
+	margin-top: 80px;
+}
+
+#maskDesc img
+{
+	margin-bottom: 20px;
+	-webkit-box-reflect: below -28px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#openGLDesc .rightTextBlock
+{
+	width: 36%;
+}
+
+#openGLDesc img
+{
+	margin-left: -40px;
+	margin-top: 80px;
+	-webkit-box-reflect: below -50px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#dimensionDesc
+{
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+
+#dimensionDesc img
+{
+	margin-bottom: 40px;
+	-webkit-box-reflect: below -28px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.15)));
+}
+
+#pathTools h3
+{
+	margin-bottom: -10px;
+	font-family: AvenirNext-Medium, "Avenir Next", sans-serif;	font-weight: 600;
+	font-size: 16px;
+	color: #66ccff;
+}
+
+#otherDesc
+{
+	font-size: 17px;
+	font-weight: 400;
+	color:#CCC;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+#otherDesc table
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto ;
+	width: 85%;
+}
+
+#otherDesc td
+{
+	text-align: center;
+	padding: 4px;
+}
+
+#linksBar
+{ 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#linksBar a
+{ 
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#linksBar img
+{ 
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#closing
+{
+	padding-top: 30px;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color:#AAA;
+}
+
+#innerbar
+{
+	width: 100%;
+	background: #323232;
+	height: 90px;
+}
+
+#bottomBar
+{
+	width: 100%;
+	background: #222;
+}
+
+#footer
+{
+  clear: both;
+  font-size: 80%;
+  color: #888;
+  
+  margin: 0px;
+  padding: 0px;
+ 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  height: 80px;
+  
+  text-align: center;
+  text-shadow: 0px 1px 1px #000;
+}
+
+.buyButton {
+	color: white;
+	text-align: center;
+	width: 236px;
+	height: 44px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	background-image: -moz-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -o-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -ms-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -webkit-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: linear-gradient(0deg, #0268b7 0%, #2da4ff 100%);
+}
+
+.buyButton:hover {
+	background-image: -moz-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -o-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -ms-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -webkit-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: linear-gradient(0deg, #0274cc 0%, #4db2ff 100%);
+}
+
+.buyButton:active {
+	background-image: -moz-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -o-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -ms-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -webkit-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: linear-gradient(0deg, #33a7ff 0%, #0265b2 100%);
+}
+
+.buyButton a {
+	color: white;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue", "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: white;
+	text-decoration: none;
+	line-height: 44px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+		
+	    html,
+	    body {
+	      width:100%;
+	      overflow-x:hidden;
+	    }
+		
+		#hero {
+			background-image: url(../images/new_hero@2x.jpg);
+		}
+}

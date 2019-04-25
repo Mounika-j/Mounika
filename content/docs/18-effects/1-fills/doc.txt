@@ -1,0 +1,19 @@
+Title: Fills
+
+----
+
+Text: 
+
+# Fills
+
+The _**Fill**_ attribute is used to adjust an object’s content. Changes are applied to the currently selected objects. Colors, gradients, patterns or images can be added to fills. 
+
+Click any _**Fill**_ to get access to its properties. As with the other attributes, multiple _**Fills**_ can be added to an object.
+
+(image: fills1.jpg width:750)
+
+1. **Color Well** - Set the color and its transparency or pick a gradient/pattern from the Gradient/Pattern palette.
+
+2. **Type** - Choose the fill type between: _**Color**_, _**Linear Gradient**_, _**Radial Gradient**_, _**Angle Gradient**_, _**Pattern**_ or _**Image**_.  Choosing a gradient, a pattern or an image  will give you access to the same editing settings from the _**Fill pane**_.
+
+3. **Blend** - Pick a blend mode for your fill from the twenty three options.

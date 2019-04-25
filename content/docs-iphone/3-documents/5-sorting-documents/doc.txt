@@ -1,0 +1,31 @@
+Title: Sorting Documents
+
+----
+
+Text: 
+
+### Ordering Documents
+
+Select between ordering existing documents by name or by date. To view this control, simply swipe down from the top of the documents list.
+
+(video: sortingdocuments1-iphone.mp4 width: 750)
+
+### Renaming Documents
+
+To rename a document, simply tap on its name label in the ***Documents Browser***.
+
+(video: sortingdocuments2-iphone.mp4 width: 750)
+
+### Grouping Documents
+
+Documents can be kept as separate files or grouped inside folders. To create a folder, simply drag one document on top of another. Tap and hold on a document’s thumbnail until it ‘pops up’ to begin dragging. When one document is being dragged on top of another, a dark outline will appear to show the drop target. Once you lift your finger, a new folder will be created with these two documents.
+
+(video: sortingdocuments3-iphone.mp4 width: 750)
+
+New documents can be added or removed from a folder using the same tap, hold and drag technique. 
+
+To rename a folder, simply tap on its name and make the changes.
+
+(video: sortingdocuments4-iphone.mp4 width: 750)
+
+>Folders are automatically deleted once you remove all of the documents inside it.

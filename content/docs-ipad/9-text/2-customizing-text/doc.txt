@@ -1,0 +1,45 @@
+Title: Customizing Text
+
+----
+
+Text: 
+
+# Customizing Text
+
+Besides the _**Text Options pane**_ settings you can use the _**Text pane**_ from the Appearance panel to set the font, style, size and alignment of text objects. In addition to these settings, you can also set the spacing between text lines and characters.
+
+(image: customizingtext1-ipad.jpg width: 750)
+
+1. **Font** -  Change the font for a selected text object.
+
+2. **Font Style** -  Select the style of the chosen font.
+
+ (video: customizingtext2-ipad.mp4 width: 723)
+
+3. **Font Size** - Set the font size of the text.
+
+4. **Text Alignment** - Align the text within the text object’s bounding box. Choose from left-aligned, centered, right-aligned or justified.
+
+ (image: customizingtext3-ipad.jpg  width: 723)
+
+5. **Line Spacing** - Set the amount of space that should be left between text lines.
+
+ (image: customizingtext4-ipad.jpg  width: 723)
+
+6. **Character Spacing** - Set the amount of space between text characters.
+
+ (image: customizingtext5-ipad.jpg  width: 723)
+
+#### Styling Text
+
+To change the text color use the _**Fill**_ color well from the _**Toolbar**_. 
+
+(video: customizingtext6-ipad.mp4 width: 750)
+
+Text in Graphic can be styled like any other vector object, meaning that text can also be filled with _**gradients**_, _**images**_, or have a stroke, or even effects from the (link: docs-ipad/effects text: _**Effects pane**_).
+
+(video: customizingtext7-ipad.mp4 width: 750)
+
+To edit a gradient or an image applied to a piece of text, first tap that text to select it and then tap it a second time to activate the (link: docs-ipad/gradients/gradient-tool text: _**Gradient Tool**_) or the (link: docs-ipad/images/image-tool text: _**Image Tool**_).
+
+(video: customizingtext8-ipad.mp4 width: 750)

@@ -1,0 +1,31 @@
+Title: Customizing Gradients
+
+----
+
+Text: 
+
+# Customizing Gradients
+
+Use the tab menu at the top of the _**Color panel**_ to easily switch to the _**Gradient panel**_. Use it to create, edit or save frequently used gradients. 
+
+(image: customizinggradients1-ipad.jpg width: 750)
+
+Same settings can be found inside the _**Fill pane**_ or (link: docs-ipad/effects text: _**Effects pane**_) from the Appearance panel whenever you select a _**Fill**_ with a gradient.
+
+1. **Tab Menu** - Easily navigate between the _**Color**_, _**Gradient**_ and _**Pattern**_ panels. It only shows up when you tap the _**Fill**_ color well, as gradients can't be applied on a _**Stroke**_.
+
+2. **Gradient Type** - Tap one of the three buttons to choose between _**Linear Gradient**_, _**Radial Gradient**_ or _**Angle Gradient**_.               
+
+ (image: customizinggradients2-ipad.jpg width: 723)
+
+3. **Gradient Well** - Simple preview showing the current gradient. 
+
+4. **Gradient Editor** - Create and edit new gradients using the gradient editor. Add gradient color stops by tapping a location on the gradient bar. Drag a color stop to change its location. Tap a gradient color stop to change its color. Drag a color stop away from the bar to easily remove it.
+
+ (video: customizinggradients3-ipad.mp4 width: 723)
+
+5. **Angle** - Determines the rotation angle of the gradient.
+
+6. **Reverse Gradient** - Reverse the order of the color stops in the gradient.
+
+7. **Gradient Palette** - Apply one of the saved gradients, save a new gradient or tap the **'none'** button to remove the existing colors.

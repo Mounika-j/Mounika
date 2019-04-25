@@ -1,0 +1,17 @@
+Title: Adding Images
+
+----
+
+Text: 
+
+# Adding Images
+
+Images can be imported as separate objects or directly inside a certain object. 
+
+To import an image as a separate object, drag and drop it on the canvas or choose **File > Place** [**⌥** - **⌘** - **I**] from the menu bar. The newly added image will be added on your canvas inside a shape that fits its dimensions. The shape can then be edited or stylized like any other shape. 
+
+To import an image inside a plain object, go to the _**Fill pane**_ from the _**Effects panel**_ and select _**Image**_ from that drop-down menu. The image will scale to fit the selected object. To replace an image use the _**Change Image**_ command from the same pane.
+
+Same settings can be found inside the (link: docs/effects/fills text: _**Effects pane**_) from the Appearance panel whenever you select a _**Fill**_.
+
+(video: addingimages1.mp4 width:750)

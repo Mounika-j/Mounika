@@ -1,0 +1,67 @@
+Title: Editing Path Points
+
+----
+
+Text: 
+
+# Editing Path Points
+
+Choose the _**Path Selection tool**_ to select and modify the points and curves of a path. You can modify shapes by moving and deleting path points, and adjusting the curved sections of a path.
+
+Objects in Graphic are composed of vector paths. Paths themselves are made up of anchor points connecting straight lines and curved segments. Anchor points are shown on a path as empty squares, while selected anchor points are shown as filled squares. Click on an anchor point to select it, and then drag to move it.
+
+(image: video.png  width: 750)
+
+```
+Tip: Use the **A** keyboard shortcut to quickly select the Path Selection tool. 
+```
+
+Direction handles that appear on either side of a selected anchor point control the curvature of the path at that location. Moving a direction handle will modify the shape of the curve at that anchor point.
+
+Direction handles are shown as a filled circle with a line extending to the anchor point. Click and drag on a direction handle to modify a curve.
+
+(image: video.png  width: 750)
+
+#### Selecting Multiple Points
+
+Multiple points on a path can be selected and edited at the same time. To select multiple points, either click and drag on the canvas to create a selection rectangle or hold down the **Shift ⇧** key while clicking on each point.
+
+(image: video.png  width: 750)
+
+The _**Path Selection tool**_ can also be used to select multiple paths at once. However, to edit the anchor points of a path, only a single path (or compound path) should be selected.
+
+#### Modifying Curves
+
+Moving a direction handle with the _**Path Selection tool**_ will adjust the curvature of the path segment at a specific point. Anchor points with two direction handles, one at each side, are smooth points. Moving the direction handle on one side of these points will automatically move the opposite direction handle to maintain the smoothness of the curve at that point.
+
+(image: video.png  width: 750)
+
+To create a sharper angle at an anchor point, you can drag a direction handle or an anchor point while holding down the **Option ⌥** key.
+
+(image: video.png  width: 750)
+
+#### Converting Path Points
+
+Choose the _**Convert Anchor tool**_ to convert path points to either smooth points (anchor points with direction handles) or corners (anchor points without direction handles).
+
+To convert a corner point to a smooth point, simply click on the point with the _**Convert Anchor tool**_ and drag to create direction handles around the point.
+
+(image: video.png  width: 750)
+
+To convert a smooth point to a corner point, simply click on the point with the _**Convert Anchor tool**_ to remove the direction handles.
+
+(image: video.png  width: 750)
+
+You can also adjust the curvature of the path around a smooth point by dragging its direction handles separately.
+
+(image: video.png  width: 750)
+
+```
+Tip: Use the **Shift - C** keyboard shortcut to quickly select the Convert Anchor tool. 
+```
+
+#### Deleting Path Points
+
+Anchor points can be easily removed from a path by simply selecting them with the _**Path Selection tool**_ and pressing the **Delete** / **Backspace** key.
+
+(image: video.png  width: 750)

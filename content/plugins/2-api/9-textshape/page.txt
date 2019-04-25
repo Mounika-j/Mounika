@@ -1,0 +1,104 @@
+Title: TextShape
+
+----
+
+Text: 
+
+### _subclass of (link: plugins/api/shape text: **Shape**)_
+
+A text shape object.
+&nbsp;
+_Text_
+- (link: plugins/api/textshape#attributedString text: **attributedString**)
+- (link: plugins/api/textshape#string text: **string**)
+
+_Layout_
+- (link: plugins/api/textshape#textBoxBounds text: **textBoxBounds**)
+- (link: plugins/api/textshape#sizetofit text: **sizeToFit**)
+
+_Type_
+- (link: plugins/api/textshape#type text: **type**)
+
+<a name="attributedString"></a>
+## attributedString
+### _returns **NSAttributedString**_; _settable_
+
+Gets / Sets the shape's text using an NSAttributedString representation. 
+&nbsp;
+#### Example: if the frontmost selected shape is a text shape, change its font to 32pt Arial
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+
+if(shape && [shape type] == "textShape")
+{
+    var font = [NSFont fontWithName:"Arial" size:32]
+    var dict = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName]
+    var str = [[NSAttributedString alloc] initWithString:[shape string] attributes:dict]    
+    
+	shape.attributedString = str
+	[str release]
+}
+
+```
+<a name="sizeToFit"></a>
+## sizeToFit
+
+Resizes the text shape's bounding box to fit its text.
+&nbsp;
+#### Example: update the bounds of the selected text shapes to fit their text
+
+```
+var shapes = [[app activeDocument] selectedShapes]
+
+for(var i = 0; i < [shapes count]; i++)
+{
+	var shape = shapes[i]
+	
+	if([shape type] == "textShape")
+  		[shape sizeToFit]
+}
+	
+```
+<a name="string"></a>
+## string
+### _returns **String**_
+
+Gets a string representation of the shape's text. Use the (link: plugins/api/textshape#attributedString text: **attributedString**) property to modify the shape's text or text style.
+&nbsp;
+#### Example: if the frontmost selected shape is a text shape, show an alert with its text string
+
+```
+var shape = [[[app activeDocument] selectedShapes] lastObject]
+
+if(shape && [shape type] == "textShape")
+    [app showAlert:[shape string]]
+	
+```
+<a name="textBoxBounds"></a>
+## textBoxBounds
+### _returns **CGRect**_; _settable_
+
+Gets / Sets the text layout bounds of the shape. The text is wrapped inside this bounds.
+&nbsp;
+#### Example: if the frontmost selected shape is a text shape, set its text bounds to 200 x 400 px
+
+```
+var doc = [app activeDocument]
+var shape = [[doc selectedShapes] lastObject]
+
+if(shape && [shape type] == "textShape")
+{
+    var textBounds = [shape textBoxBounds]
+    textBounds.size.width = 200
+    textBounds.size.height = 400
+    shape.textBoxBounds = textBounds
+}
+
+```
+<a name="type"></a>
+## type
+### _returns **String**_
+
+Gets the type of this shape - _**"textShape"**_
+&nbsp;

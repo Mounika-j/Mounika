@@ -1,0 +1,407 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple floor plan design in Graphic. For starters you will learn how to customize the grid and create a set of simple shapes using basic vector shape building techniques.
+
+Using the Pen Tool, you'll create wall outlines and learn how to work with multiple layers. Moving on, you will learn how to add various types of labels and easily transfer them from one object to another. 
+
+Taking full advantage of the Effects pane, you will learn how to add multiple strokes to a single shape and how to save and reuse styles. You'll also learn how to create arrowed, dashed and dimension lines and how to quickly edit them. 
+
+Finally, you'll learn how to place text on a path and export your design with the grid and canvas background.
+
+
+##Step 1
+
+For starters you will need to import the [**Ubuntu Mono font**](https://www.fontsquirrel.com/fonts/ubuntu). Tap the **New Document**  button from the **Documents Browser** and use one of the **Import** buttons to quickly import your font. 
+
+Once you're done, tap again that plus button to create a new document and  choose the **Grid** document style.
+
+(image: floorPlaniPhone1A.jpg)
+
+
+Focus on the right side of the **Titlebar** and tap that ruler icon to open the  **Properties** panel. Open the **Canvas** pane, make sure that the **Pixel-Align Strokes** feature is enabled and then tap the **Units &amp; Scale** button to open the **Units &amp; Scale** pane. 
+
+We're about to create a ‘to-scale’ technical design using the canvas scale settings. First, make sure that the **Base Unit** is set to inches and then move to the bottom of the pane and change the **Display Unit** from inches to feet. The actual paper size of the document will not change, only the displayed values and units are adjusted by this setting. 
+
+Once you're done, return to the **Canvas** pane and set the **Width** and **Height** to **63 ft**.
+
+(image: floorPlaniPhone1Bfix.jpg)
+
+
+Next, you need to adjust your document's grid. Re-open the **Properties** panel and this time go to the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. 
+
+Open the **Grid Settings** pane, enter **0.5 ft** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: floorPlaniPhone1C.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the stroke color is set to black. Tap  the fill color well and replace the existing color with **R=0 G=164 B=255** and then tap the line color well and drag the **Alpha** slider to **0%**, which will simply make the line invisible. 
+
+ Pick the **Rectangle Tool**, focus on your canvas and create a **13 x 12.5 ft** shape - the grid and the **Snap to Grid** feature will ease your work. Make sure that this blue rectangles stays selected and open the **Geometry** pane from the **Properties** panel. Focus on the **Position** attributes (X and Y) and simply enter the numbers mentioned in the following image to easily place your selected shape in the desired location. 
+(image: floorPlaniPhone2.jpg)
+
+
+
+##Step 3
+
+Using the **Rectangle Tool**, create the series of rectangles shown in the following image and use the size attributes indicated below. Try to use somewhat similar fill colors, but don't struggle to get the exact tint. 
+
+(image: floorPlaniPhone3.jpg)
+
+
+
+##Step 4
+
+Using the **Rectangle Tool**, create a **13 x 14.5 ft** shape, fill it with a random yellow and place it as shown in the first image. 
+
+Pick the **Pen Tool**, move to the newly opened tool pane and activate the **Add Point mode**. Focus on the bottom, left corner of your yellow rectangle and  add two anchors points as shown in the first image. 
+
+Switch to the **Path Selection Tool**, select the bottom, left anchor point and simply drag it **2.5 ft** up and **2.5 ft** to the right. In the end the shape made in this step should look like in the second image. 
+
+(image: floorPlaniPhone4.jpg)
+
+
+
+##Step 5
+
+Using the **Rectangle Tool**, create a **26 x 14.5 ft** shape, fill it with a random blue and place it as shown in the first image. Using the same tool, create a **6 x 3 ft** shape, and place it as shown in the second image. 
+
+Switch to the **Move Tool**, select both shapes made in this step, open the **Combine** pane from the **Properties** panel and tap the **Subtract** button. In the end your blue shape should look like in the fourth image.
+
+(image: floorPlaniPhone5.jpg)
+
+
+
+##Step 6
+
+Using the **Rectangle Tool**, create a **6 x 16 ft** shape, fill it with white and place it as shown in the first image. Create a second white rectangle, make it **15 ft** wide and **4 ft** tall and then place it as shown in the second image. 
+
+Switch to the **Path Selection  Tool**, focus on the newly opened tool pane and activate the **Add to Selection mode**. Simpy tap the two white shapes made in this step to select them and then tap the **Union** button from the **Combine**  pane. 
+
+(image: floorPlaniPhone6.jpg)
+
+
+
+##Step 7
+
+Focus on the right side of your **Titlebar** and tap the rightmost icon to open the **Layers** panel. Use the plus button located in the bottom of the panel to add a  second layer. 
+
+Make  sure this new layer stays selected, as the new objects you are about to create  will go here.
+
+(image: floorPlaniPhone7A.jpg)
+
+Move to your **Toolbar**, make the fill invisible and then tap the line color well. Replace the existing color with **R=169 G=217 B=237** and make sure that the **Alpha** slider is set to **100%**. Pick the **Pen Tool** and create the two paths that go around your existing set of shapes as shown in the following image. That bottom, **2.5 ft** gap between the paths will be the entry door.
+
+Make sure that your two paths remain selected, get back to the right side of your **Titlebar** and tap the leftmost icon to open the **Appearance** panel. Go to the **Stroke** pane and drag that **Width** slider to **60 pt**. In the end your two, blue paths should look like in the following image. 
+
+You're going to use that light blue color numerous times throughout the tutorial. To ease your work you should save this particular color inside your **Color Palette**. Tap the color well from the **Toolbar** , move to the **Color Palette** and then simply drag the active color to one of the palette slots. 
+
+(image: floorPlaniPhone7B.jpg)
+
+
+
+##Step 8
+Using that same **Pen Tool**, create the straight paths that will make up the interior walls. Add a **20 pt** stroke for these paths and use your saved, light blue color from the **Color Palette**. Remember to leave a **2.5 ft** gap for each door. 
+(image: floorPlaniPhone8.jpg)
+
+
+
+##Step 9
+
+Return to the **Layers** panel and select the bottom layer as we are about to edit the shapes that lie inside this layer. 
+
+Start with the top, left rectangle. Select it and simply tap the **Fill** color well from your **Toolbar**. Replace the existing color with **R=2 G=33 B=51** and drag the **Alpha** slider to **50%**. 
+
+(image: floorPlaniPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your top, left rectangle is still selected and open the **Label** pane from the **Appearance** panel. First, select the **Dimension** label and then tap the **Area** button which will automatically add a label that points the area of your selected object. Center this label using the  **Centered Alignment**  button or use the **Location** and **Offset** sliders to position your label in a different spot. 
+
+With your shape still selected, tap the **Text Style** button to open the  **Style** pane. First, select the **Ubuntu Mono** **Bold** font and set the size to **100 pt**. Tap the **Text Color** color well and replace the existing color with **R=255 G=180 B=0**. Again, you'll need this yellow plenty of times throughout the tutorial so make sure that you're saving it inside the **Color Palette**. Return to the  **Style**  pane, make sure that there's no color set for the **Background Color** and skip the other attributes. 
+
+(image: floorPlaniPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your labeled rectangle is still selected, open the **Appearance** panel and tap the **Copy Style** button. Select the yellow, blue, purple and red shapes, re-open that **Appearance**  panel and this time tap the **Paste Style** button. 
+
+(image: floorPlaniPhone11.jpg)
+
+
+
+##Step 12
+
+Select the white shape and tap the fill color well from your **Toolbar**. Replace the existing color with **R=2 G=33 B=51** and drag the **Alpha** slider to **50%**. 
+
+(image: floorPlaniPhone12.jpg)
+
+
+
+##Step 13
+
+Select the two, orange shapes and focus on your **Toolbar**. We’re going to assign a slightly darker color to these two rectangles: **R=0 G=23 B=41**. Don't forget to drag the **Alpha** slider to **50%**. 
+
+(image: floorPlaniPhone13.jpg)
+
+
+
+##Step 14
+
+Keep focusing on the two rectangles edited in the previous step. First, select the left one and go to the **Label** pane from the **Appearance** panel. This time set the **Label** to **Text** which will allow you to add any piece of text as a label. For this shape use the &quot;_CLOSET_&quot; text and then enter the rest of the attributes indicated in the following image. Don't forget to also move to the  **Style**  pane and adjust the properties as shown below. 
+
+Move to the rectangle on the right and add a somewhat similar text label. This time add the &quot;_WARDROBE_&quot; piece of text  and then enter all the attributes shown in the following image. 
+
+(image: floorPlaniPhone14.jpg)
+
+
+
+##Step 15
+
+Return to the **Layers** panel and add a new layer using that same plus button. Select this new layer and drag at the the top of the panel. 
+
+Using the **Line Tool**, create a **4 ft**, vertical path and place it roughly as shown in the following image. Make sure that this new path stays selected, add a **60 pt** stroke and use a random red for the color. 
+
+(image: floorPlaniPhone15.jpg)
+
+
+
+##Step 16
+
+Use that same **Line Tool** to add a bunch of new, straight lines roughly as shown in the following image. 
+
+(image: floorPlaniPhone16.jpg)
+
+
+
+##Step 17
+
+Focus on one of your red lines and select it. Go to the **Effects** pane from the **Appearance** panel and add a second stroke using the plus button located in the top, right corner of the panel. 
+
+Select this new stroke and for starters make sure that it lies below the other stroke. Keep in mind that you can easily drag attributes inside the **Effects** panel using that icon made out of three horizontal lines. Now, drag the **Width** slider to **40 pt** and then tap the color well that stands for this new stroke. Make sure that the **Alpha** slider is set to **100%** and then replace the existing color with **R=2 G=33 B=51**. You'll need again this dark blue color so don't forget to quickly save it. 
+
+(image: floorPlaniPhone17.jpg)
+
+
+
+##Step 18
+
+Make sure that the red line edited in the previous step is still selected and keep focusing on the **Effects** pane. Add a new **Stroke** using that same plus button and make sure that it goes below the existing strokes. Focus on this new stroke, set the **Width** to **10 pt** and for the color add your light blue from the **Color Palette**. 
+
+(image: floorPlaniPhone18.jpg)
+
+
+
+##Step 19
+
+Make sure that the red line edited in the previous step is still selected and keep focusing on the **Effects** pane. Tap the color well that stands for the red stroke and simply replace that red with your light blue from the **Color Palette**. 
+
+(image: floorPlaniPhone19.jpg)
+
+
+
+##Step 20
+
+Make sure that the  line edited in the previous step is still selected and open the **Styles** pane from the **Appearance** panel. Simply tap the plus button that lies in the top, right corner of the **Styles** pane to save  the style of your selected line.
+
+(image: floorPlaniPhone20.jpg)
+
+
+
+##Step 21
+
+Select the remaining red lines and simply add your style from the **Styles** panel. 
+
+(image: floorPlaniPhone21.jpg)
+
+
+
+##Step 22
+
+Using the **Line Tool**, create a **6 ft**, horizontal path and two, **2.5 ft**, vertical paths and then place them as shown in the following image. Add a **20 pt** stroke for these new paths and pick a random red for the stroke color. 
+(image: floorPlaniPhone22.jpg)
+
+
+
+##Step 23
+
+
+Make sure that the three lines made in the previous step are still selected and  focus on the **Effects** pane. First, select the existing stroke and replace that red with your light blue from the **Color Palette**. Next, add a second stroke and drag it below the existing one. Set the **Width** for this new stroke to **8 pt** and replace the existing color with your dark blue from the **Color Palette**. 
+
+(image: floorPlaniPhone23.jpg)
+
+
+
+##Step 24
+
+Using the **Line Tool**, create an **11 ft**, vertical path and place it as shown in the following image. Add a **40 pt** stroke for this path and for the color use your light blue from the **Color Palette**. Make sure that this new path stays selected and keep focusing on the **Effects** pane. Add a second stroke, drag it below the existing one, set the **Width** to **20 pt** and for the color use your dark blue from the **Color Palette**. 
+
+(image: floorPlaniPhone24.jpg)
+
+
+
+##Step 25
+
+Using the **Line Tool**, create an **4 ft**, vertical and place it as shown in the following image. Add a **10 pt** stroke for this path and for the color use your light blue from the **Color Palette**. Make sure that this new path stays selected and keep focusing on the **Effects** pane. Add a second stroke, drag it below the existing one, set the **Width** to **4 pt** and for the color use your dark blue from the **Color Palette**. 
+
+(image: floorPlaniPhone25.jpg)
+
+
+
+##Step 26
+
+Return to the **Layers** panel, add a new layer and drag at the top of the panel. 
+
+Pick the **Arc Tool**, move to your canvas and focus on the entry door. Tap and hold with a second finger while dragging to create a perfect, **25 ft** arc as shown in the following image. Make sure that this path remains selected and move to the **Stroke**  pane. 
+
+Set the stroke  **Width**   to **10 pt**, use the dash style indicated in the following image and then move to your **Toolbar** and replace the existing color with your light blue from the **Color Palette**. 
+
+(image: floorPlaniPhone26.jpg)
+
+
+
+##Step 27
+
+Using the **Line Tool** , create a **2.5 ft**, vertical path and place it exactly as shown in the following image. Make sure that it stays selected and move to the **Effects** pane. Add your light blue for the color, drag the  **Width** slider to **20 pt** and don't forget to check  that **Projecting Cap** button. 
+
+(image: floorPlaniPhone27.jpg)
+
+
+
+##Step 28
+
+Make sure that the vertical path made in the previous step is still selected and keep focusing on the **Effects** pane. Tap the settings icon that stands for the existing stroke and then tap the **Duplicate** command to easily duplicate that particular attribute. Select the newly added stroke and make sure that it lies below the existing one. Lower its **Width** to **5 pt** and replace the existing color with your dark blue. 
+
+(image: floorPlaniPhone28.jpg)
+
+
+
+##Step 29
+
+Select the arc and the vertical path that make up your door and group them using the **Group** button from the **Properties**  panel. Grouping these objects will make it easier for you to manipulate them together as a single object. 
+Make sure that your group is selected, simply tap and hold anywhere on your canvas until you get that tooltip and then use the **Copy** and **Paste** buttons to multiply this group. Make several copies and spread them as shown below. In some cases you will need to flip your door group. This can be easily  done using the flip  buttons from the **Geometry** pane. 
+
+(image: floorPlaniPhone29.jpg)
+
+
+
+##Step 30
+
+Alternatively, you can create a half opened door using that same **Arc Tool**. Create a new, **25 px** arc, make sure that it's perfect and add a random stroke color. 
+
+Switch to the **Pen Tool**, activate the **Add Point mode** and then tap in the middle of your  arc to add a new anchor point as show in the second image. 
+
+Pick the **Path Selection Tool** and  select the right anchor point that makes up your new arc. Move to the left side of your **Titlebar** and tap the **Delete** button to get rid of that selected point. 
+
+Use the  **Copy Style** and **Paste Style** buttons from the **Appearance** to copy the style used for one of the other arcs and paste it unto the arc created in this step. 
+
+(image: floorPlaniPhone30A.jpg)
+
+Disable the **Snap to Grid**  and  enable the **Snap to Points** feature. 
+
+Using the **Line Tool**, create a simple, oblique path that will connect your newest arc with the path that makes up the wall. Again, copy the style used for one of the straight paths that make up your opened doors and paste it into this oblique path. 
+
+(image: floorPlaniPhone30B.jpg)
+
+
+##Step 31
+
+Enable  the **Snap to Grid** feature.  Return to the **Layers** panel, add a new layer and drag it at the bottom of the panel. Make sure that it's selected.
+
+Using the **Line Tool**, create four **5.5 ft** lines (two vertical and two horizontal) and place them as shown in the following image. Make sure that all these lines remain selected and go to  the **Stroke** pane. Set the  **Width**   to **10 pt**, add the dash style indicated in the following image and for the color use your saved yellow. 
+
+(image: floorPlaniPhone31.jpg)
+
+
+
+##Step 32
+
+Focus on your **Toolbar**, remove the fill color and add your yellow for the line color. Pick the **Dimension Line Tool**, create a **36.5 ft**, vertical path and place it as shown in the following image. 
+
+Make sure that your new path remains selected and go to the **Stroke** pane. Set the **Width**   to **15 pt** and then move to the **Label** pane. By default your label should be set to **Dimension** and **Length**. Select **Parallel** for the **Alignment**  attribute and then adjust the **Location** and **Offset** properties about as shown below. 
+
+Once you're done, move to the  **Style**  pane to adjust the aspect of the label. Select that same **Ubuntu Mono** font, make it **Bold** and set the size to **100 pt**. Tap the **Text Color**  color well and replace the existing color with your dark blue and then tap the **Background Color**  color well and add your  yellow from the **Color Palette**. Finally, set both **Margin** and **Corners** attributes to **20 pt**. In the end your yellow, dimension line should look like in the following image. 
+
+(image: floorPlaniPhone32.jpg)
+
+
+
+##Step 33
+
+Using that same **Dimension Line Tool**, create a **39 ft**, horizontal path and place it as shown in the following image. Add the same stroke and label attributes used for the vertical dimension line. The only attributes that you will probably want to adjust will be the **Offset** from the **Label** pane. Simply add a minus for the existing value and your label will move above the arrow as shown below. 
+
+(image: floorPlaniPhone33.jpg)
+
+
+
+##Step 34
+
+Using the **Arc Tool**, create a new **25 ft**, perfect arc as shown in the first image. Don't bother to adjust its attributes. 
+Pick the **Type Tool**, double tap inside the newly made text field to open the keyboard. First, select the **Ubunto Mono** font, make it **Bold** and set the size to **100 pt**. Type the &quot;_LOBBY_&quot; piece of text and use your yellow for the color. 
+
+(image: floorPlaniPhone34.jpg)
+
+
+
+##Step 35
+
+Select the yellow piece of text and the arc made in the previous step and then open the **Path Tools**  pane from the **Properties** panel. Simply tap the **Place  on Path** button and your text will go along the selected path. 
+
+(image: floorPlaniPhone35.jpg)
+
+
+
+##Step 36
+
+Disable the **Snap to Grid**. Focus on your **Toolbar**, make sure that there's no color set for the fill and replace the existing stroke color with your light blue. Using the **Pen Tool**, create a curved path roughly as shown in the following image. 
+
+Make sure that this new path stays selected and open the **Stroke**  pane. Drag the  **Width**  slider to **15 pt** and then open the popup menu for the right end of your path and select the arrow styles indicated below. Once you're done, move to the **Effects** pane and check the **Round Cap** button. If the arrowed end lies in the wrong spot you can easily  change its location by tapping the **Reverse Path**  button from the **Path** **Tools** pane.
+
+(image: floorPlaniPhone36.jpg)
+
+
+
+##Step 37
+
+ Pick the **Type Tool** and again double tap inside the newly added text field. Make sure that the **Ubuntu Mono** font is still active, make it **Bold** and  set the size to **120 pt**. Once you're done, type the &quot;_Entry_&quot; piece of text and set the color to that light blue**.**
+
+(image: floorPlaniPhone37.jpg)
+
+
+
+##Step 38
+
+Get back to the **Grid Settings**  pane from the **Grid** panel  and tap the color wells that stand for the two **Spacing** attributes. Replace the existing color with white and don't forget to drag the **Alpha** slider to **15%**. 
+
+Move to the **Canvas** pane panel, tap the color well that stands for the **Background Color** and replace the existing color with **R=2 G=33 B=51**. 
+
+(image: floorPlaniPhone38.jpg)
+
+
+
+##Step 39
+
+Finally, here's how you can easily export your entire design along with the grid and the canvas color. First, save your document and return to the **Documents Browser**. 
+
+Next, tap the **Share** button and pick the location where you want to save your document. Tap the document (or documents) that you want to save and then tap the **Share** button from the top, right corner of the screen. Simply enable the **Include Background** property, pick a file format, adjust the  other attributes as you wish and then tap the **Save** button. 
+
+(image: floorPlaniPhone39.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! I hope you've enjoyed and remember to share your final result in the comments section.
+
+(image: floorPlaniPhone0.jpg)
+
+----
+
+Title: iPhone

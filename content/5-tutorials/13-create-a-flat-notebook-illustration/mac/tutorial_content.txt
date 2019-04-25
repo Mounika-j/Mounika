@@ -1,0 +1,289 @@
+Text: 
+
+In the following tutorial you will learn how to create a flat notebook illustration in  Graphic for Mac. 
+
+For starters, you will learn how to setup a simple grid and how to create the main, pixel perfect shapes using the Snap to Grid feature along with some basic tools and vector shape building techniques. Taking full advantage of the Effects pane, you will learn how  to add subtle shading and highlights for your shapes. 
+
+Finally, you'll learn how to to easily align shapes and paths to the pixel grid and how to ease your work with keyboard shortcuts. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **5**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: flatNotebook1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to **R=65 G=85 B=115** and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your **Tool Options** bar and set the **Corner Radius** to **5 pt**. Move to your canvas and  create a **155 x 195 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: flatNotebook2.jpg)
+
+
+
+##Step 3
+
+Set the **Fill** color to black (**R=0 G=0 B=0**) and pick the **Rectangle Tool (M)**. Create a **5 x 195 px**  shape and place it exactly as shown in the first image. 
+
+Using the **Move Tool (V**), select this new rectangle along with your rounded rectangle. Focus on the **Properties** panel, move to the **Path Tools** pane and click that **Subtract** button.
+
+(image: flatNotebook3.jpg)
+
+
+
+##Step 4
+
+Make sure that your shape stays selected, focus on the top side of the **Layers** panel and simply click the leftmost icon to open the **Appearance** pane. 
+
+Move to  the **Effects** pane and select the existing **Stroke**. Set the **Width** to **1 pt** and the **Position** to **Inside** and then simply click  the color well that stands for your **Stroke**. Replace the existing color with **R=59 G=80 B=110** and be sure that the **Alpha** slider is set to **100%**. 
+
+(image: flatNotebook4.jpg)
+
+
+
+##Step 5
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane from the **Appearance** panel and simply check the  box that stands for the existing **Drop Shadow** to activate it. 
+
+Enter **1** in the **Y** box and **0** in the other two boxes and then click the color well that stands for this effect. Replace the existing color with  **R=45 G=65 B=95** and make sure that the **Alpha** slider is set to **100%**. 
+
+(image: flatNotebook5.jpg)
+
+
+
+##Step 6
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** using the plus button from the bottom, left corner of the panel. 
+
+Select this new effect, enter **2** in the **Y** box and **0** in the other two boxes and then click the color well. Set it to **R=34 G=54 B=85** and drag the **Alpha** slider to **15%**. 
+
+(image: flatNotebook6.jpg)
+
+
+
+##Step 7
+
+Make sure that your shape stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow** using that same plus button. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook7.jpg)
+
+
+
+##Step 8
+Using the **Rectangle Tool (M)**, create a **145 x 185 px** shape and place it exactly as shown in the following image. Make sure that it stays selected and focus on the **Effects** pane from the **Appearance** panel. 
+
+Focus on the **Fill** and select **Linear Gradient** from the **Type** drop-down menu. Set the angle to **0 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=245 G=245 B=242** and then select the right one and se its color to **R=235 G=235 B=232**. 
+
+(image: flatNotebook8.jpg)
+
+
+
+##Step 9
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane activate that **Drop Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook9.jpg)
+
+
+
+##Step 10
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a second **Drop Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook10.jpg)
+
+
+
+##Step 11
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a third **Drop Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook11.jpg)
+
+
+
+##Step 12
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and activate that **Inner Shadow** effect. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook12.jpg)
+
+
+
+##Step 13
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook13.jpg)
+
+
+
+##Step 14
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook14.jpg)
+
+
+
+##Step 15
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook15.jpg)
+
+
+
+##Step 16
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a fifth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook16.jpg)
+
+
+
+##Step 17
+
+Make sure that your gradient filled rectangle stays selected, keep focusing on the **Effects** pane and add a sixth **Inner Shadow**. Select it and enter the attributes shown in the following image. 
+
+(image: flatNotebook17.jpg)
+
+
+
+##Step 18
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on the **Tool Options** bar and set the **Corner Radius** to **1 px**. Move to your Toolbar, set the **Fill** color to **R=65 G=85 B=115** and make the **Stroke** invisible. 
+Focus on the top, right corner of the existing shapes, create a **5 px** rounded square and place it as shown in the first image. Switch to the **Move Tool (V)**, hod the **Alt** key, simply click on your rounded square and drag it **10 px** down as shown in the second image. With your newly made copy still selected  hit **Command + D** to easily create another copy. Repeat this technique until you get the column of squares show in the third image. 
+
+Once you're done, select all those rounded squares, focus on the **Path Tools** pane from the **Properties** panel and click the **Make Compound Path** button. This will turn your selected shapes into a simple compound path that can be selected and moved much easier. 
+
+(image: flatNotebook18.jpg)
+
+
+
+##Step 19
+
+Make sure that your compound path is still selected, focus on the **Effects** pane, activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: flatNotebook19.jpg)
+
+
+
+##Step 20
+
+Make sure that your compound path is still selected, keep focusing on the **Effects** pane, activate the existing **Inner  Shadow** and enter the attributes shown in the following image. 
+
+(image: flatNotebook20.jpg)
+
+
+
+##Step 21
+
+Using the **Pen Tool (P)** or the **Line Tool (L)**, create a **110 px**, horizontal path and place it as shown in the following image. Holding the **Shift** key will make it a lot easier for you to create a perfectly horizontal path. 
+
+Make sure that this new path stays selected and focus on the **Effect** pane. Make sure that there is no color set for the **Fill** and then select the **Stroke**. Drag the **Width** slider to **1 pt** and set the color to **R=31 G=120 B=181**.
+
+(image: flatNotebook21.jpg)
+
+
+
+##Step 22
+
+Now, if you choose to export your design as an image or if you enable the **Show Pixels** feature (**View &gt; Show Pixels**) you will notice that your horizontal line looks pretty blurred. This  simply happens because the stroke applies to that line is not perfectly aligned to the pixels grid.  To fix this issue, just go to **Graphic &gt; Preferences** and check that **Align strokes to pixel grid** box. Once you're done, you can return to  (**View &gt; Show Pixels**) to disable the **Show Pixels** feature. 
+(image: flatNotebook22.jpg)
+
+
+
+##Step 23
+
+
+Duplicate your horizontal path and drag the copy **10 px** down  and then use that same **Command + D** shortcut to add a bunch of new copies as shown in the first image.  Once you're done, select all your horizontal paths and turn them into a new compound path using that same **Make Compound Path** button from the **Path Tools** pane.
+
+ Make sure that this new compound path is selected, focus on the **Effects** pane and drag that **Opacity** slider to **30%**. 
+
+(image: flatNotebook23.jpg)
+
+
+
+##Step 24
+
+Using the **Pen Tool (P)** or the **Line Tool (L)**, create a **170 px**, vertical path and place it as shown in the following image. Make sure that it stays selected and focus on the **Effect** pane. 
+
+Drag that **Opacity** slider to **50%**, make sure that there is no color set for the **Fill** and then select the **Stroke**. Drag that **Width**  sldier to **1 pt** and  set the color atot **R=255 G=85 B=84**.
+
+(image: flatNotebook24.jpg)
+
+
+
+##Step 25
+
+Using the **Move Tool (V)**, select all the shapes made so far and simply hit **Command + G** to **Group** them. Select this new group and make a copy in the same place (**Command + C &gt; Command + Shift + V**). Focus on the **Layers** pane, make sure that only the group copy is selected and go to **Modify &gt; Rotate and Transform &gt; Flip Horizontal**. 
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and   enter **1 px** in both  **Spacing** boxes. Reselect your group copy, drag it to the right while holding the **Shift** button and place it as shown in the third image. Leave a **3 px** gap between your two groups - once again, the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: flatNotebook25.jpg)
+
+
+
+##Step 26
+
+Focus on the **Layers** pane and open your group copy. Select the gradient filled rectangle and go to the **Effects** pane. Select the existing **Inner Shadow** effects one by one and  simply inverse the **Y Offset** attributes.
+
+(image: flatNotebook26.jpg)
+
+
+
+##Step 27
+
+Go to your Toolbar, make sure that the **Stroke** is invisible and set the **Fill** color to **R=169 G=198 B=217**. 
+
+Using the **Rectangle Tool (M)**, create a **600 px** square, make sure that it covers your entire canvas and simply send it to back using the **Shift + Command + [** keyboard shortcut. 
+
+(image: flatNotebook27.jpg)
+
+
+
+##Step 28
+
+Go to your Toolbar, make sure that the **Stroke** is still invisible and set the **Fill** color to **R=45 G=45 B=50**.
+ 
+Focus on the top rounded squares and pick the **Rounded Rectangle Tool (Shift + M)**. Create a **21 x 1 px** shape and place it as shown in the first image. Duplicate this thin new, rounded rectangle, select the copy and place it **2 px**  below the original one. Aelect both shapes made in this step and simply turn them into a new compound path. 
+
+Select this new compound path and drag a copy **10 px** below the oringinal shape. Once again, use that **Command + D** keyboard shortcut to create a bunch of new copies of this dark compound path as shown in the third image. Once you're done, select all the shapes made in this step and turn them into one compound path. 
+
+(image: flatNotebook28.jpg)
+
+
+
+##Step 29
+
+Make sure that the compound path made in the previous step is still selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: flatNotebook29.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: flatNotebook0.jpg)
+
+----
+
+Title: Mac

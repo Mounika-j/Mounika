@@ -1,0 +1,11 @@
+Title: Distributing Objects
+
+----
+
+Text: 
+
+# Distributing Objects
+
+Use the _**Distribute**_ commands from the _**Arrange pane**_ of the Properties panel to get an even amount of space between your selected objects. Objects can be distributed horizontally or vertically.
+
+(video: distributingobjects1-ipad.mp4 width: 750)

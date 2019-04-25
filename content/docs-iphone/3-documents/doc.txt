@@ -1,0 +1,13 @@
+Title: Documents
+
+----
+
+Text: 
+
+#Documents
+
+When launching Graphic for the first time, you will be presented with the _**Documents Browser**_ displaying a few sample documents. Tap any document to open it. 
+
+(image: documents1-iphone.jpg width: 750)
+
+This screen is where you will view and organize your saved documents. The Titlebar at the top has options to create/import new documents, duplicate/remove/share/export existing documents, or to open the (link: docs-iphone/preferences/settings text: _**Settings**_) menu.

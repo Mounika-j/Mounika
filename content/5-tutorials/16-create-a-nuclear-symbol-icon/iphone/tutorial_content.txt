@@ -1,0 +1,184 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple nuclear symbol in  Graphic for iPhone. 
+
+For starters, you will learn how to setup a simple grid and how to easily center your main shapes using the commands from the Alignment pane. Next, you will learn how to slice your shapes and how to create the actual symbol. 
+
+Finally, you will learn how to create a gradient filled background and how to add subtle details for your final symbol. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: nuclearSymboliPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit and be sure that the **Pixel-Align Strokes** feature is disabled. When  this setting is enabled, stroked objects are offset slightly to ensure that the  stroke is drawn aligned to the pixel grid which guarantees a crisp look.
+
+(image: nuclearSymboliPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: nuclearSymboliPhone1C.jpg)
+
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and   notice that by default the **Fill** color is set to white while the **Line** color is set to black. Tap the **Fill** color well and set its color to **R=27 G=27 B=27** and then tap the **Line** color well. Drag the **Alpha** slider to **0%** and this  will simply make your line invisible. 
+
+Pick the **Ellipse Tool**, move to yor canvas and  create a **220  px** circle - the grid and the **Snap to Grid** feature will ease your work.
+
+Make sure that your shape stays selected, open the **Align** pane from the **Properties** panel and then tap the  **Horizontal** and  **Vertical** buttons to easily center your selected shape. 
+
+(image: nuclearSymboliPhone2.jpg)
+
+
+
+##Step 3
+
+Set the **Fill** color to **R=225 G=170 B=0** and make sure that the **Ellipse Tool**  is still active. Create a **180 px** circle and center it using the same  **Horizontal** and  **Vertical** buttons from the **Align** pane. 
+
+(image: nuclearSymboliPhone3.jpg)
+
+
+
+##Step 4
+
+Set the **Fill** color to **R=1 G=152 B=246** and make sure that the **Ellipse Tool**  is still active. Create a **140 px** circle and center it.
+
+(image: nuclearSymboliPhone4.jpg)
+
+
+
+##Step 5
+
+Set the **Fill** color to **R=255 G=255 B=255** and make sure that the **Ellipse Tool**  is still active. Create a **40 px** circle and center it.
+
+(image: nuclearSymboliPhone5.jpg)
+
+
+
+##Step 6
+
+Set the **Fill** color to **R=219 G=65 B=0** and make sure that the **Ellipse Tool**  is still active. Create a **10 px** circle and center it.
+
+(image: nuclearSymboliPhone6.jpg)
+
+
+
+##Step 7
+
+Pick  the **Path Selection Tool**, focus on the newly opened pane and activate the **Add to Selection** mode. This tool will allow you to easily select or add new shapes to an existing selection. Focus on your canvas, select the blue and the white circles, move to the **Combine** pane from the **Properties** panel and tap the **Subtract** button. In the end your blue shape should look like in the second image. 
+
+(image: nuclearSymboliPhone7.jpg)
+
+
+
+##Step 8
+Set the **Fill** color to **R=0 G=90 B=150**, pick the **Rectangle Tool**, create a **120 x 100px** shape and place it exactly as shown in the first image. 
+
+Focus on the bottom side of this new rectangle and switch to the **Path Selection Tool**. Select the right anchor point and remove it by  tapping the **X** button from the left side of your Titlebar. Select the other anchor point and drag it **60 px** to the right. Once again, the grid and the **Snap to Grid** feature will come in handy. In the end, your rectangle should turn into a simple triangle as shown in the second image.
+
+(image: nuclearSymboliPhone8.jpg)
+
+
+
+##Step 9
+
+Using the **Move Tool**, select your triangle and switch to the **Rotate Tool**. Focus on your triangle and you should notice a little cross icon right in the center of the selected shape, that's the reference point. Use a simple tap to move your reference point in the bottom corner of your triangle. Move to the **Tool Options** pane, set the **Angle** to **120 degrees**, and then  tap that **Copy** button twice. 
+
+(image: nuclearSymboliPhone9.jpg)
+
+
+
+##Step 10
+
+Pick the **Path Selection Tool**, make sure that the **Add to Selection** mode is active and select your three triangles. Go to the **Combine** pane and simply tap that **Make**  button. 
+
+(image: nuclearSymboliPhone10.jpg)
+
+
+
+##Step 11
+
+Reselect your compound path along with the other blue shape, focus on that same  **Combine**  pane from the **Properties** panel and tap the **Intersect** button. 
+
+(image: nuclearSymboliPhone11.jpg)
+
+
+
+##Step 12
+
+Pick the **Path Selection Tool** and be sure that the **Add to Selection** mode is active. Select the blue shapes along with that tiny, orange circle, focus on the **Combine** pane and simply tap the **Make** button. Make sure that your newly made compound path is selected, focus on the Toolbar and simply replace the existing **Fill** color with **R=29 G=29 B=29**.
+
+(image: nuclearSymboliPhone12.jpg)
+
+
+
+##Step 13
+
+ Make sure that your compound path is still selected, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. 
+ 
+Go to the **Effects** pane  and simply check the box that stands for the existing **Drop Shadow** to activate it.  Enter **1** in the **Y** box and **0** in the other two boxes and then tap the color well of this effect. Set the color to white and then drag the **Alpha** slider to **70%**. 
+
+Return to the **Effects** panel and tap the cogwheel icon of that **Drop Shadow** effect to open the context menu. Go to **Blend Mode** and  select **Soft Light** from that list. 
+
+(image: nuclearSymboliPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your compound path is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image.
+
+(image: nuclearSymboliPhone14.jpg)
+
+
+
+##Step 15
+
+Select your yellow circle, focus on the **Effects** pane and tap the existing **Stroke**. Set the **Width** to **1 pt** and the **Alignment** at **Inside**, and then simply tap  the color well of your **Stroke**. Replace the existing color with **R=180 G=135 B=5** and make sure that the **Alpha** slider is set to **100%**.
+
+(image: nuclearSymboliPhone15.jpg)
+
+
+
+##Step 16
+
+Select your dark circle and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image.
+
+(image: nuclearSymboliPhone16.jpg)
+
+
+
+##Step 17
+
+Using the **Rectangle Tool (M)**, create a **600 px** square and center it. Make sure that this new shape stays selected and focus on the **Toolbar**. 
+
+Tap the **Fill** color well and then tap the **Gradient Fill** and the **Radial** buttons. Set the **Angle** to **0 degrees** and then move to the gradient sliders. Tap the left one and set its color to **R=45 G=45 B=45** and then tap the right one and set its color to **R=25 G=25 B=25**. 
+
+Finally,  go to the **Arrange** pane from the **Properties** panel and drag the **Order** slider to the left to send your  square in the back. 
+
+(image: nuclearSymboliPhone17.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: nuclearSymboliPhone0.jpg)
+
+----
+
+Title: iPhone

@@ -1,0 +1,40 @@
+Title: Color Picker
+
+----
+
+Text: 
+
+# Color Picker
+
+Click the _**Fill**_ color well from your _**Toolbar**_ to open the _**Color panel**_. Use the _**Color Picker**_ to select a custom color. To show the _**Color Picker**_ open the drop-down menu below the color thumbnail and select _**Color Picker**_.
+
+Alternatively, you can press the **X** key to open the _**Color panel**_ for the _**Stroke**_. Pressing the **X** key again will open the _**Color panel**_ for the _**Fill**_.
+
+(image: colorpicker1.jpg width: 750)
+
+1. **Tab Menu** - Easily navigate between the **Color**, **Gradient** and **Patterns** palettes. 
+It only shows up when you click the **Fill** color well, as gradients or patterns can't be applied on a **Stroke**.
+
+2. **Eyedropper Tool** - Can be used to select a color by picking the color of any pixel on the screen. To activate the _**Eyedropper tool**_, click on its icon in the _**Color panel**_. The cursor will become an Eyedropper that shows a magnified area of the pixels underneath it. Clicking on any pixel on the screen will choose that color.
+
+3. **Color** - A simple thumbnail showing the current color. 
+
+4. ** Default Colors** - A quick way to choose between black, white or _'**none**'_. 
+
+5. ** Color Panels** - Switch between _**Color Picker**_, _**Color Palette**_ or one of the four _**Color Slider**_ panes. 
+
+6. **Color Bar** - Drag the slider or simply click on the _**Color Bar**_ to select a hue. 
+
+7. **Color Field** - Click and drag the circle inside the _**Color Field**_ to select the shade of the color. 
+
+8. **RGB** - Use the **Red**, **Green** and **Blue** fields to input a specific RGB color code. 
+
+9. **HEX** - Use this field to input a specific HEX color code or to copy the current one.  
+
+10. **Alpha** - Drag the slider or use the input field to set the transparency of the color. Setting Alpha to 0% will make the color invisible.
+
+### Color Sliders
+
+In addition to the _**Color Picker**_, you can use one of the four _**Color Slider**_ panels to select a custom color. You can choose between _**Grayscale**_, _**RGB**_, _**CMYK**_ or _**HSB**_. Each slider panel gives you the possibility to choose a new color using their specific color codes. 
+
+(image: colorpicker2.jpg width: 750)

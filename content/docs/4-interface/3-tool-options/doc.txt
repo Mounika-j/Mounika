@@ -1,0 +1,21 @@
+Title: Tool Options Bar
+
+----
+
+Text: 
+
+## Tool Options Bar
+
+Many of the tools in Graphic have customizable settings that allow you to adjust their behavior. The settings for the currently selected tool appear in the _**Tool Options bar**_ above the Canvas.
+
+(image: tooloptionsbar1.jpg width: 750)
+
+1. **Selected Tool** - The name of the currently selected tool appears on the left side of the Tool Options bar.
+
+2. **Selection Properties** - The Selection Properties are shown to the right of tool’s name. When no objects are selected, this indicator simply displays the **X** and **Y** position of the mouse on the Canvas. When one or more objects are selected, this displays the location and the size of the bounding box surrounding the current selection.
+
+3. **Selected Tool Settings** - The settings for the currently selected tool are displayed to the right of the Selection Properties.
+
+ For selection tools, including the (link: docs/adjusting-objects/selecting-objects text: _**Move tool**_) and the (link: docs/paths/editing-path-points text: _**Path Selection tool**_), this area will display additional information about the current selection.
+ For drawing tools, this area will display settings that can be used to customize the objects that are created by that tool.
+ For editing tools, such as the (link: docs/adjusting-objects/rotating-objects text: _**Rotate tool**_) and the (link: docs/adjusting-objects/scaling-objects text: _**Scale tool**_), this area will contain controls that allow you to numerically apply the effect of the tool.

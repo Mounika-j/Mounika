@@ -1,0 +1,13 @@
+Title: Editing Documents
+
+----
+
+Text: 
+
+# Editing Documents
+
+Duplicate or delete one or more of your documents.
+
+Tap the _**Select**_ button to open the Edit menu and then tap each target document to select it. Tap the _**Duplicate**_ button to duplicate the selected documents or the _**Delete**_ button to delete them.
+
+(video: editingdocuments1-ipad.mp4 width: 750)

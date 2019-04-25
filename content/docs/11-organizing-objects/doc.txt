@@ -1,0 +1,11 @@
+Title: Organizing Objects
+
+----
+
+Text: 
+
+# Organizing Objects
+
+Keeping objects and layers organized makes your work easier and faster. Besides naming your layers and objects, neatly stacking and grouping your objects will help.
+
+(image: organizingobjects1.jpg  width: 750)

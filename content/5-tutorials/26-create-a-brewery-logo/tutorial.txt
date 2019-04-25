@@ -1,0 +1,21 @@
+Title: Create a Brewery Logo
+
+----
+
+Date: 2018-01-26
+
+----
+
+Graphicfile: brewerylogo.idraw
+
+----
+
+Description: Learn how to create a Brewery Logo by placing text along a path...
+
+----
+
+Headerimg: brewerylogoheader.jpg
+
+----
+
+Thumbnail: brewerylogothumbnail2.jpg

@@ -1,0 +1,447 @@
+body
+{
+	/* background-color: #252525; */
+	font-family: 'Avenir', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	overflow:auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+a
+{
+	color: #FF9030;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.wrapper
+{
+	position: relative;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#logo
+{
+	margin-top: 0px;
+	margin-left: 60px;
+	float: left;
+}
+
+#heroSection
+{
+	width: 100%;
+	background: #131313;
+}
+
+#hero
+{
+	background-image: url(../images/mac_hero.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 768px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#hero .hero-text{
+	width: 420px;
+  padding-top: 100px;
+}
+
+@media (max-width: 767px){
+	#hero .hero-text .title{
+	  font-size: 36px;
+	}
+  }
+
+#hero .hero-text .text{
+	width: 380px;
+}
+
+@media screen and (max-width: 500px){
+  
+  #hero { background-position: 40% 50%; }
+
+  #hero .hero-text
+  {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  #hero .hero-text .text{
+    width: 100%;
+  }
+}
+
+#intro
+{
+	color: white;
+	margin-top: -10px;
+	padding-bottom: 6px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#intro h1
+{
+	font-family: AvenirNext, "Avenir Next", sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	font-weight: 400px;
+}
+
+#intro img
+{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#intro a { color: #3fa6f2; text-decoration: none; font-weight: 400; font-size: 100%; text-shadow: #222 0px 1px 1px}
+#intro a:hover { text-decoration: underline; }
+
+#main
+{
+	position: relative;
+	color: #ccc;
+	text-shadow: #222 0px -1px 1px;
+	font-size: 16px;
+}
+
+
+.buyText
+{
+	color: #FF9030 !important;
+}
+
+.buyText:hover
+{
+	color: #54bfff !important;
+}
+
+.block2Up {
+	background-image: url(images/boxes_2.jpg);
+	background-repeat: no-repeat;
+	width: 1004px;
+	height: 204px;
+	margin-top: -2px;
+}
+
+.block2Up .blockItemLeft { position: absolute; margin-left: 30px; margin-top: 0px; width:50%; }
+
+.block2Up .blockItemRight { position: absolute; left: 500px; margin-left: 30px; margin-top: 0px; width:50%; }
+
+.block2Up p { width: 320px; }
+
+.block2Up .mAppStoreImg { position: absolute; top:50px; left: 350px; }
+.block2Up .iAppStoreImg { position: absolute; top:70px; left: 300px;}
+
+.block2Up a { color: #66ccff; text-decoration: none; font-weight: bold; font-size: 95%; }
+.block2Up a:hover { text-decoration: underline; }
+
+.blockTextImg { margin-top: 26px; }
+
+#featuresContainer { 
+	background-color: #353535; 
+	width:100%; 
+	height:auto; 
+	margin-top: 0px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.new {
+	font-size: 10px;
+	color: #4d9dff;
+}
+
+.featuresColumn {
+	width:45%;
+	padding: 20px;
+	font-size:12px;
+}
+
+.featureBlock
+{
+	overflow: hidden;
+	margin: 0;
+	margin-bottom: 10px;
+	min-height: 180px;
+}
+
+.featureBlock a
+{
+	display:block;
+	width:168px;
+	float: left;
+	padding-top:20px;
+}
+
+.featureBlock img
+{
+	padding-left: 20px;
+}
+
+.featureDescription
+{
+	margin-left: 180px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.featureDescription p
+{
+	margin-top: -10px;
+}
+
+.featureDescription ul
+{
+	margin-top: -4px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0.2em;
+	text-indent: 0em;
+	color: #BBB;
+}
+
+.featureDescription h1
+{
+	text-shadow: 0px 1px 1px #000;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.featureDescription li
+{
+	margin-top: 0.8em;
+	font-size: 14px;
+	text-shadow: 0px 1px 1px #000;
+	font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.miniDescription
+{
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+.miniDescription ul
+{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0.2em;
+	text-indent: 0em;
+	color: #BBB;
+}
+
+.miniDescription h1
+{
+	margin-left: 60px;
+	margin-top: 2px;
+	text-shadow: 0px 1px 1px #000;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.miniDescription li
+{
+	margin-top: 20px;
+	font-size: 14px;
+	text-shadow: 0px 1px 1px #000;
+	font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.miniDescription table
+{
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0px 0 -20px 0;
+}
+
+.miniDescription td
+{
+	padding: 0 12px 28px 10px;
+	width: 25%;
+	vertical-align:top;
+}
+
+.miniDescription img
+{
+	position: absolute;
+	margin: -10px 0 0 0px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.macworld {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 24px;
+}
+
+.macworld2 {
+    float: right;
+    margin-top: -76px;
+	margin-right: 40px;
+}
+
+#descBar
+{
+	margin-top: 0.8em;
+	font-size: 14px;
+	text-shadow: 0px 1px 1px #000;
+	font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#descBar a { color: #66ccff; text-decoration: none; font-size: 95%; }
+#descBar a:hover { text-decoration: underline; }
+
+#linksBar
+{ 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#linksBar a
+{ 
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#linksBar img
+{ 
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#closing
+{
+	padding-top: 30px;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color:#AAA;
+}
+
+#innerbar
+{
+	width: 100%;
+	background: #323232;
+	height: 90px;
+}
+
+#bottomBar
+{
+	width: 100%;
+	background: #222;
+}
+
+/*#footer
+{
+  clear: both;
+  font-size: 80%;
+  color: #888;
+  
+  margin: 0px;
+  padding: 0px;
+ 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  height: 80px;
+  
+  text-align: center;
+  text-shadow: 0px 1px 1px #000;
+}*/
+
+.buyButton {
+	color: white;
+	text-align: center;
+	width: 236px;
+	height: 44px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	background-image: -moz-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -o-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -ms-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: -webkit-linear-gradient(90deg, #0268b7 0%, #2da4ff 100%);
+	background-image: linear-gradient(0deg, #0268b7 0%, #2da4ff 100%);
+}
+
+.buyButton:hover {
+	background-image: -moz-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -o-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -ms-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: -webkit-linear-gradient(90deg, #0274cc 0%, #4db2ff 100%);
+	background-image: linear-gradient(0deg, #0274cc 0%, #4db2ff 100%);
+}
+
+.buyButton:active {
+	background-image: -moz-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -o-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -ms-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: -webkit-linear-gradient(90deg, #33a7ff 0%, #0265b2 100%);
+	background-image: linear-gradient(0deg, #33a7ff 0%, #0265b2 100%);
+}
+
+.buyButton a {
+	color: white;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue", "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: white;
+	text-decoration: none;
+	line-height: 44px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+		
+	    html,
+	    body {
+	      width:100%;
+	      overflow-x:hidden;
+	    }
+		
+}

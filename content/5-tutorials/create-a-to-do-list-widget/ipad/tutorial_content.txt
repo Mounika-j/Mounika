@@ -1,0 +1,295 @@
+Text: 
+
+In the following tutorial you will learn how to create a to do list widget in Graphic for iPad. 
+
+First, you will learn how to setup a simple grid and how to create a smooth radial gradient that will serve as a background. Next, you'll make the main shapes using mainly the Rounded Rectangle Tool and the Effects pane. Using the Line Tool, that same Rounded Rectangle Tool, the Ellipse Tool and some basic vector shape building techniques you will learn how to create a bunch of tiny icons. 
+
+Finally, you will learn how to add some simple pieces of text. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **600 x 600 pixel** document. From the **Documents Browser**, tap the plus button at the top-right corner of the **Titlebar** and choose the **Grid** document style.
+
+Focus on the right side of the **Titlebar** and tap the **Settings** icon. Go to the **Canvas** panel, set the **Width** and **Height** to **600 px**, select **Pixels** for the base units, and verify that the **Pixel-Align Strokes** feature is enabled. The **Pixel-Align Strokes** feature ensures that all shapes which are aligned to the pixel grid will have solid, crisp strokes. 
+
+(image: toDoListWidgetiPad1A.jpg)
+
+Next, we'll set up the document grid, so switch to the **Grid &amp; Rulers** panel. Make that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, simply tap the **Grid Spacing** pane to move to the **Grid Settings** pane. Enter **5 px** in both **Spacing** boxes and **0 lines** in that one **Subdivisions** box.
+
+(image: toDoListWidgetiPad1B.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar** and you will notice that by default the fill color is set to white while the line color is set to black. Keep the white fill, but tap on the line color wheel and drag the **Alpha** slider to **0%** which will simply make the line invisible. 
+
+Using the **Rectangle Tool**, create a **600 px** square, make sure that it stays selected and then focus on the right side of your Titlebar and tap the leftmost icon. Move to the **Effects** panel and tap the existing **Fill**. Tap the **Gradient Fill** and **Radial** buttons, set the **Angle** to **0 degrees** then move to the gradient sliders. 
+
+Select the left one and set its color at **R=0 G=74 B=124** then select the right one and se its color at **R=0 G=43 B=94**. Switch to the **Move Tool** and simply double tap inside this square to activate that **Gradient Tool**.  Select the right gradient slider and drag it to the right roughly as shown in the following image. Tap and hold with a second finger while dragging  to easily keep your gradient line perfectly straight. 
+
+(image: toDoListWidgetiPad2.jpg)
+
+
+
+##Step 3
+
+Make sure that your square is still selected, focus on the right side of your Titlebar and tap that middle icon. Simply tap the **Align Horizontal** and **Align Vertical**  buttons to bring your square in the center of the canvas. 
+
+(image: toDoListWidgetiPad3.jpg)
+
+
+
+##Step 4
+
+Return to your **Toolbar**, make sure that the **Stroke** is still invisible and then set the **Fill** color to **R=245 G=247 B=243**. 
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened tool pane and drag the  **Radius** slider to **5**. Move to your canvas, create a **235 x 230 px** shape and place it roughly in the center of the canvas. 
+
+(image: toDoListWidgetiPad4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected, focus on the **Effects** panel and tap the color wheel that stands for the existing **Stroke**. 
+
+Drag the **Alpha** slider to **2%**, make sure that the color is set to black (**R=0 G=0 B=0**) and then return to your stroke. Drag the **Width** slider to **2 pt** and select the **Outside** alignment button.
+
+(image: toDoListWidgetiPad5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** panel and add a second **Stroke** using the plus button located in the bottom, right corner of your pane. 
+
+Select this new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: toDoListWidgetiPad6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** panel and check the little box that stands for the existing **Drop Shadow** to activate it. 
+
+Drag this effect above the **Strokes**, enter **3** in the **Y** box and **0** in the other two boxes and then tap on its color wheeel. Drag the **Alpha** slider to **5%** and make sure that the color is set to black. 
+
+(image: toDoListWidgetiPad7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** panel and add a second **Drop Shadow**. Drag this new effect below the existing **Drop Shadow** and then enter the attributes shown in the following image. 
+
+(image: toDoListWidgetiPad8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, keep focusing on the **Effects** panel and activate the existing  **Inner Shadow**. 
+
+Drag this  effect right below the **Fill** and then enter the attributes shown in the following image. 
+
+(image: toDoListWidgetiPad9.jpg)
+
+
+
+##Step 10
+
+Using the **Rounded Rectangle Tool**, create a **225 x 10 px** shape, fill it with a random yellow and place it exactly as shown in the following image. Move to the **Layers** pane and simply drag this new shape below the large, rounded rectangle. 
+
+(image: toDoListWidgetiPad10.jpg)
+
+
+
+##Step 11
+
+Select your large rounded rectangle, focus on the left side of your Titlebar, tap that paperclip icon to open the popover menu and then tap the **Copy Style** button.   
+
+Move to the yellow rounded rectangle, select it, return to that paperclip popover menu and this time tap the  **Paste Style** button. In the end things should look like in the following image. 
+
+(image: toDoListWidgetiPad11.jpg)
+
+
+
+##Step 12
+
+Get back to your **Toolbar**. This time make sure that the **Fill**  is invisible and  set the **Stroke** color to **R=233 G=237 B=239**. 
+
+Pick the **Line Tool**  or the **Pen Tool**, create a **235 px**, horizontal path and place it exactly as shown in the following image. Make sure that this path stays selected and focus on the **Effect** panel. Select the existing **Stroke** and simply drag the **Width** slider to **2 pt**. 
+
+(image: toDoListWidgetiPad12.jpg)
+
+
+
+##Step 13
+
+Using the **Copy** and **Paste** command from the paperclip popover menu, multiply your horizontal path and spread the copies as shown in the following image. 
+
+(image: toDoListWidgetiPad13.jpg)
+
+
+
+##Step 14
+
+Return to your **Toolbar**, make sure that the **Fill** is still invisible and replace the existing **Stroke** color with **R=243 G=230 B=225**. 
+
+Pick the **Line Tool**  or the **Pen Tool**, create a **230 px**, vertical path and place it exactly as shown in the following image. Make sure that this new path stays selected and focus on the **Effect** panel. Select the existing **Stroke** and simply drag the **Width** slider to **2 pt**. 
+
+(image: toDoListWidgetiPad14.jpg)
+
+
+
+##Step 15
+
+Duplicate your vertical path, select the copy and place it as shown in the following image. 
+
+(image: toDoListWidgetiPad15.jpg)
+
+
+
+##Step 16
+
+Return to your **Toolbar**, make sure that the **Fill** is still invisible and replace the existing **Stroke** color with **R=205 G=205 B=205**. 
+
+Pick the **Line Tool**  or the **Pen Tool**, create a **10 px**, horizontal path and place it exactly as shown in the following image. Make sure that this new path stays selected and focus on the **Effect** panel. Drag the **Width** slider to **2 pt** and check the **Round Cap** button. 
+
+(image: toDoListWidgetiPad16.jpg)
+
+
+
+##Step 17
+
+Duplicate the grey, horizontal path made in the previous step and place the copy as shown in the first image. 
+
+Make sure that this copy stays selected and pick the **Rotate Tool**. Focus on the newly opened tool pane, set the **Angle** to **90 degrees** and then simply tap the **Copy** button. In the end things should look like in the second image. 
+
+(image: toDoListWidgetiPad17.jpg)
+
+
+
+##Step 18
+
+Pick the **Rounded Rectangle Tool**, focus on the tool pane and drag the  **Radius** slider at **1**. 
+
+Move to your canvas, create a **10 x 10 px** rounded square  and place it as shown in the following image. Make sure that this tiny shape stays selected and focus on the **Effect** panel. Focus on the existing **Stroke**, check the **Outside** Alignment button and simply drag the **Width** slider to **2 pt**. 
+
+(image: toDoListWidgetiPad18.jpg)
+
+
+
+##Step 19
+
+Make sure that your tiny rounded square  is still selected, focus on the **Effects** panel and add a second **Stroke** using that same plus button. 
+
+Select this new **Stroke**, drag it below the existing one and then enter the attributes shown in the following image. 
+
+(image: toDoListWidgetiPad19.jpg)
+
+
+
+##Step 20
+
+Duplicate your tiny rounded square and place the copy as shown in the following image Make sure that it stays selected and focus on the **Effects** panel. Tap the color wheels that stands for the two strokes and replace the existing colors with the ones shown in the following image. 
+
+(image: toDoListWidgetiPad20.jpg)
+
+
+
+##Step 21
+
+Make some new copies of your tiny, rounded squares and spread the copies as shown in the following image. 
+
+(image: toDoListWidgetiPad21.jpg)
+
+
+
+##Step 22
+
+Return to your **Toolbar**, make  the **Stroke** is invisible and then set the **Fill** color to **R=205 G=205 B=205**. 
+
+Using the **Ellipse Tool**, create a **10 px** circle and place it as shown in the following image. 
+
+(image: toDoListWidgetiPad22.jpg)
+
+
+
+##Step 23
+
+
+Now, you will need a grid every **1 px** which simply means that you need to return to the **Grid and Rulers** panel,  open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes. 
+ 
+Focus on the tiny circle made in the previous step and pick the **Rectangle Tool**. Create a **4 x 3 px** shape and place it exactly as shown in the following image. Focus on the top side of this new rectangle and switch to the **Path Selection Tool**. 
+
+First, select the right anchor point and simply remove it using the **X** button from your Titlebar and then select the left anchor point and drag it **2 px** to the right. In the end your new rectangle should turn into a simple triangle as shown in the second image. 
+
+(image: toDoListWidgetiPad23.jpg)
+
+
+
+##Step 24
+
+Make sure that the **Path Selection Tool** is still active, focus on the tool pane and activate the second tool mode. Using this tool mode you can easily select your tiny circle along with that triangle. Go to the  **Combine** panel and tap the **Subtract** button. In the end your arrow button should look like in the second image. 
+
+(image: toDoListWidgetiPad24.jpg)
+
+
+
+##Step 25
+
+Now, you will need a grid every **5 px** which simply means that you need to return to the **Grid and Rulers** panel,  open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes. 
+
+Duplicate your arrow button, select the copy and place it as shown in the first image. Make sure that this fresh shape stays selected and rotate it **180 degrees** using the **Rotate Tool**. You can perform this rotation manually or using the tool pane. 
+
+(image: toDoListWidgetiPad25.jpg)
+
+
+
+##Step 26
+
+For the final steps you will need a grid every **1 px** which simply means that you need to return to the **Grid and Rulers** panel,  open the **Grid Settings** pane and enter **1 px** in both **Spacing** boxes.  
+
+Return to your **Toolbar**, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=123 G=185 B=210**. Pick the **Rectangle Tool**, create a **4 x 2** and a **2 x 5px** shapes and then place them as shown in the first two images. Select these tiny, new rectangles, go to the **Combine** panel and tap the **Union** button. 
+
+Make sure that the resulting shape is selected, simply rotate it **-45 degrees** and place it as shown in the fourth image. 
+
+(image: toDoListWidgetiPad26.jpg)
+
+
+
+##Step 27
+
+Multiply  your check symbol and spread the copies as shown in the following image. 
+
+(image: toDoListWidgetiPad27.jpg)
+
+
+
+##Step 28
+
+Pick  the **Text Tool** and simply  double tap inside that new field. Select the **Arial Rounded MT Bold** font, replace the existing color with **R=190 G=192 B=188** and set the **Size** to **10**.  Add that  &quot;_TO DO LIST_&quot; piece of text and place it roughly as shown in the following image. 
+
+Use the same tool and attributes to add the rest of the text shown in the following image or feel free to add your own. 
+
+(image: toDoListWidgetiPad28.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: toDoListWidgetiPad0.jpg)
+
+----
+
+Title: iPad

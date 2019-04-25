@@ -1,0 +1,19 @@
+Title: Image Tool
+
+----
+
+Text: 
+
+# Image Tool
+
+Use the _**Image tool**_ to scale and position an image fill inside of a shape’s bounds, cropping the image non-destructively.
+
+Choose the _**Move tool**_ and tap an object with an image fill to select it, and then tap it a second time to activate the _**Image Tool**_. The edges of the image will appear on the selected shape.
+
+The image can be scaled using the _**Image**_ slider from the _**Tool pane**_. Simply drag your image to change its position within the shape’s bounds. 
+
+To reset the image’s size and position to the defaults, tap the _**Reset**_ button in the _**Tool pane**_.
+
+(video: imagetool1-iphone.mp4 width: 750)
+
+When finished, tap anywhere on the canvas to end the editing and revert to the _**Move tool**_.

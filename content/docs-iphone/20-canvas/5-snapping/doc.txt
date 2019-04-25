@@ -1,0 +1,19 @@
+Title: Snapping
+
+----
+
+Text: 
+
+### Snap to Grid
+
+Open the _**Grid pane**_ from the Properties panel and enable the _**Snap to Grid**_ setting to snap objects and points to the nearest grid position when creating or moving them.
+
+(video: snapping1-iphone.mp4 width: 750)
+
+### Snap to Point
+
+Open the _**Grid pane**_ from the Properties panel and enable the _**Snap to Point**_ setting  to snap points to the nearest anchor point position when moving them. 
+
+Simply select an anchor point, drag it near another point and you’ll know that it snapped when the outline color of your anchor point changes.
+
+(video: snapping2-iphone.mp4 width: 750)

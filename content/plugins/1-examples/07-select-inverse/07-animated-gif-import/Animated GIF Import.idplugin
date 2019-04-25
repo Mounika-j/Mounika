@@ -1,0 +1,73 @@
+var openPanel = [NSOpenPanel openPanel]
+
+[openPanel setAllowedFileTypes:[NSArray arrayWithObject:"com.compuserve.gif"]]
+result = [openPanel runModal]
+
+if(result == NSOKButton)
+{
+    var fileURL = [openPanel URL]
+    var imgSrc = CGImageSourceCreateWithURL(fileURL, nil)
+    
+    if(imgSrc)
+    {
+        var numFrames = CGImageSourceGetCount(imgSrc)
+        
+        if(numFrames > 0)
+        {
+            var imgProperties = CGImageSourceCopyPropertiesAtIndex(imgSrc, 0, nil)
+            var imgDict = [NSDictionary dictionaryWithDictionary:imgProperties]
+            var width = [[imgDict objectForKey:"PixelWidth"] unsignedIntValue]
+            var height = [[imgDict objectForKey:"PixelHeight"] unsignedIntValue]
+            CFRelease(imgProperties)
+            
+            if(width > 0 && height > 0)
+            {
+                var doc = [app addDocument];
+                doc.canvasSize = CGSizeMake(width, height)
+                
+                for(var i = 0; i < numFrames; i++)
+                {
+                    var frameImgRef = CGImageSourceCreateImageAtIndex(imgSrc, i, nil)
+                    var frameImg = [doc addImage:frameImgRef]
+                    var size = CGSizeMake(width, height)
+                    
+                    imgProperties = CGImageSourceCopyPropertiesAtIndex(imgSrc, i, nil)
+                    imgDict = [NSDictionary dictionaryWithDictionary:imgProperties]
+                    var gifProperties = [imgDict objectForKey:kCGImagePropertyGIFDictionary]
+                    var delayNum = [gifProperties objectForKey:kCGImagePropertyGIFUnclampedDelayTime]
+                    
+                    var formatter = [[NSNumberFormatter alloc] init]
+		            [formatter setNumberStyle:NSNumberFormatterDecimalStyle]
+		            [formatter setPositiveFormat:"0.##"]
+                    
+                    // create a new path with the image bounds
+                    var path = [doc addPath]
+                    [path addMoveTo:CGPointMake(0, 0)]
+                    [path addLineTo:CGPointMake(size.width, 0)]
+                    [path addLineTo:CGPointMake(size.width, size.height)]
+                    [path addLineTo:CGPointMake(0, size.height)]
+                    [path addClose]
+                    
+                    // create a new path shape and set the image fill 
+                    var shape = [[doc activeLayer] addPathShape:path]
+                    [shape fill].image = frameImg
+                    [shape stroke].width = 0
+                    
+                    var layerName = "Frame " + (i + 1) + " [" + [formatter stringFromNumber:delayNum] + "]"
+                    [doc activeLayer].name = layerName
+                    
+                    if(i != numFrames - 1)
+                        [doc addLayer]
+                    
+                    CGImageRelease(frameImgRef)
+                    CFRelease(imgProperties)
+                    [formatter release]
+                }
+                
+                [[app view] resetZoom]
+            }
+        }
+        
+        CFRelease(imgSrc)
+    }
+}

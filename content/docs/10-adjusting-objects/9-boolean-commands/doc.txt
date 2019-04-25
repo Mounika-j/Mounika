@@ -1,0 +1,30 @@
+Title: Boolean Commands
+
+----
+
+Text: 
+
+# Boolean Commands
+
+Boolean commands create new paths by combining the shapes of multiple closed paths  in different ways. All commands can be found in the _**Path Tools pane**_ from the Properties panel. Alternatively, you can access them by going to **Modify** in the menu bar. 
+
+(image: booleancommands1.jpg width:750)
+
+There are five different boolean commands to choose from. The resulting shape will keep the appearance attributes of the rearmost selected shape. Having two overlapping shapes selected, these will be the results:
+
+**Union** - Creates only one shape composed of the two selected shapes. 
+Alternatively, you can choose **Modify > Union** from the menu bar or you can simply right click on the canvas and go to **Combine > Union**.
+
+**Subtract** - Creates a new shape, removing the top shape and the overlapping area. 
+Alternatively, you can choose **Modify > Subtract** from the menu bar or you can simply right click on the canvas and go to **Combine > Subtract**.
+
+**Intersect** - Creates a new shape composed of the parts where the two shapes overlapped.
+Alternatively, you can choose **Modify > Intersect** from the menu bar or you can simply right click on the canvas and go to **Combine > Intersect**.
+
+**Exclude** - Creates a new shape composed of the parts where the two shapes didn't overlap.
+Alternatively, you can choose **Modify > Exclude** from the menu bar or you can simply right click on the canvas and go to **Combine > Exclude**.
+
+**Divide** - Creates a new shape for each overlapping and non-overlapping area.
+Alternatively, you can choose **Modify > Divide** from the menu bar or you can simply right click on the canvas and go to **Combine > Divide**.
+
+(video: booleancommands2.mp4 width: 750)

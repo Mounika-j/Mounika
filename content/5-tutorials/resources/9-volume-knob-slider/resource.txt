@@ -1,0 +1,33 @@
+Title: Volume Knob and Slider
+
+----
+
+Description: Volume knob and slider interface elements with realistic lighting effects.
+
+----
+
+Headerimg: Header.png
+
+----
+
+Thumbnail: Thumbnail.jpg
+
+----
+
+Date: 2013-08-31
+
+----
+
+Categories: Mac, Icon
+
+----
+
+Text: Volume knob and slider interface elements with realistic lighting effects.
+
+----
+
+Graphicfile: VolumeKnob.idraw
+
+----
+
+Credits: **Author:** (link: http://www.lorenzwoehr.com text: Lorenz Wöhr)

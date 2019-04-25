@@ -1,0 +1,22 @@
+Title: Exporting As
+
+----
+
+Text: 
+
+# Exporting As
+
+An alternative method that can be used to copy and export content made in Graphic is the _**Copy As**_ command from the _**Edit**_ panel. Using one of the five options you can export content as PNG, PDF, SVG code, CSS code or Swift Code. 
+
+
+Copy logos, icons, buttons, intricate illustration or any kind of object or set of objects as a **PNG** image. Easily paste the new content inside a new document or in another app. 
+
+(video: exportingas1-ipad.mp4 width: 750)
+
+Copy any type of object or set of objects as a **PDF** file. Easily paste the copied content inside a new document or in another app.
+
+(video: exportingas2-ipad.mp4 width: 750)
+
+Copy any kind of object or set of objects as **SVG** code that can be pasted directly into HTML or CSS files. Graphic creates clean structured SVG syntax which can easily be edited by hand.
+
+(video: exportingas3-ipad.mp4 width: 750)

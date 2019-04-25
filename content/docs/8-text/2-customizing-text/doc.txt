@@ -1,0 +1,44 @@
+Title: Customizing Text
+
+----
+
+Text: 
+
+# Customizing Text
+
+Along with the _**Tool Options bar**_ settings you can use the _**Text pane**_ from the _**Appearance panel**_ to set the font, font style and font size of text objects. You can also set the text alignment or the spacing between lines and characters; or to convert text objects into editable vector paths. 
+
+(image: customizingtext1.jpg  width: 750)
+
+
+1. **Font** -  Change the font for a selected text object.
+
+2. **Font Style** -  Select the style of the chosen font.
+
+3. **Text Alignment** - Align the text within the text object’s bounding box. Choose from left-aligned, centered, right-aligned or justified.
+
+ (image: customizingtext2.jpg  width: 723)
+
+4. **Font Size** - Set the font size of the text.
+
+5. **Line Spacing** - Set the amount of space that should be left between text lines.
+
+ (image: customizingtext3.jpg  width: 723)
+
+6. **Character Spacing** - Set the amount of space between text characters.
+
+ (image: customizingtext4.jpg  width: 723)
+
+7. **Convert Text to Outlines** - (link: docs/text/expanding-text text: _**Convert**_) the text object to editable vector paths. 
+
+#### Styling Text
+
+The text color can also be changed using the _**Toolbar**_ color wells. 
+
+Text in Graphic can be styled like any other vector object, meaning that text can also be filled with (link: docs/gradients text: _**gradients**_), (link: docs/images text: _**images**_), (link: docs/patterns text: _**patterns**_), or have a stroke, or even effects from the (link: docs/effects text: _**Effects pane**_). 
+
+(video: customizingtext5.mp4 width: 750)
+
+To edit a gradient, an image or a pattern applied to a piece of text, right click on it and then go to _**Edit Gradient**_/_**Edit Image**_/_**Edit Pattern**_ to activate the (link: docs/gradients/gradient-tool text: _**Gradient tool**_), the (link: docs/images/image-tool text: _**Image tool**_) or the (link: docs/patterns/pattern-tool text: _**Pattern tool**_).
+
+(video: customizingtext6.mp4 width: 750)

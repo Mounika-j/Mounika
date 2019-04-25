@@ -1,0 +1,25 @@
+Title: Managing Brushes
+
+----
+
+Text: 
+
+# Managing Brushes
+
+Once created, brushes can be saved for later use. Saved brushes remain stored and can be utilized in other designs until you choose to remove them. 
+
+####Saving Brushes
+
+To save a custom brush open the _**Brush Settings pane**_ or the _**Brush pane**_. Switch to the _**Saved Brushes pane**_ and tap the _**Save Brush**_ button. Your new brush will be added at the top of the pane.
+
+(video: managingbrushes1-ipad.mp4 width: 750)
+
+#### Using Saved Brushes
+
+Using saved brushes is pretty straight forward. Choose the _**Brush Tool**_, go to the _**Saved Brushes pane**_ and tap the desired brush from the list to activate it. You can use it as it is or adjust it before use in the _**Brush Settings pane**_.
+
+#### Removing Saved Brushes
+
+To remove a brush from the _**Saved Brushes pane**_, tap the _**Edit**_ button. Select the brush or brushes that you wish to remove and then tap that _**Trash**_ button.
+
+(video: managingbrushes2-ipad.mp4 width: 750)

@@ -1,0 +1,17 @@
+Title: Gradient Palette
+
+----
+
+Text: 
+
+# Gradient Palette
+
+Use the _**Gradient palette**_  to quickly choose a gradient, as well as save and reuse frequently used gradients. 
+
+Gradients can be added to the _**Gradient palette**_ by dragging the gradient from the thumbnail to one of the palette slots. You can add new gradients inside empty slots or replace an existing gradient by dragging a new gradient on top of it. 
+
+To delete a gradient from the _**Gradient palette**_, tap on it and hold to open the  context menu, and then tap the _**Remove**_ command.
+
+(video: gradientpalette1-ipad.mp4 width: 750)
+
+To disable an object’s gradient fill, tap the **‘none’** swatch from the bottom-right corner.

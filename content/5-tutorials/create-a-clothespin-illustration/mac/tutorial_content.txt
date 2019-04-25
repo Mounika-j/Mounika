@@ -1,0 +1,417 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple clothespin illustration in Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid and how to create the main shapes using basic tools and vector shapes building techniques. Taking full advantage of the Effects pane, you will learn how to add subtle shading and highlights for your shape and how to easily recolor your final design. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels** and set the document dimensions to **600 pixels** wide by **600 pixels** high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel — you can easily open or close this panel using that ruler icon. Change the grid **X Spacing** and the **Y Spacing** to **5 px**, set the **Subdivisions** to **0 px** and enable **Snap to Grid (Command + Shift + ')**.
+
+(image: clothespinIllustration1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, click  the **Fill** color well and set the  color to **R=205 G=135 B=54**. Next, click  the **Stroke** color well and drag the **Alpha** slider to **0%**. This will simply make the **Stroke** invisible.
+ 
+Pick the **Rectangle Tool (M)**, focus on your canvas and create a **25 x 240 px** shape. 
+
+(image: clothespinIllustration2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rectangle stays selected and pick the **Pen Tool (P)**. Move to the **Tool Options** bar and activate the **Add Points** mode. Focus on the top side of your shape and  simply click to add a new anchor point as shown in the following image — the grid will ease your work. 
+
+Keep focusing on the top of your shape and switch to the **Path Selection Tool (A)**. Select the left anchor point and drag it **100 px** down. Move to the bottom of your shape, select the left anchor point and drag it **35 px** up. In the end your shape should look like in the second image. 
+
+(image: clothespinIllustration3.jpg)
+
+
+
+##Step 4
+
+Using the **Ellipse Tool (O)**, create a **50 x 70 px** shape and place it as shown in the first image. 
+
+Switch to the **Rectangle Tool (M)**, create a **25 x 35 px** shape and place it as shown in the second image. 
+
+Pick the **Move Tool (V)**, hold the **Shift** key and seselect both shapes made in this step. Go to **Path Tools** pane from the **Properties** panel and click the **Intersect** command. 
+
+(image: clothespinIllustration4.jpg)
+
+
+
+##Step 5
+
+Select both shapes made so far, keep focusing on the **Path Tool** pane and click the **Union** command. 
+
+(image: clothespinIllustration5.jpg)
+
+
+
+##Step 6
+
+Pick the **Ellipse Tool (O)**, create a **10 px** circle and place it as shown in the first image — the color attributes are not  important. 
+
+Using the same tool, create a **20 x 35 px** shape and place it as shown in the second image. 
+
+(image: clothespinIllustration6.jpg)
+
+
+
+##Step 7
+
+Select all the shapes made so far, go to the **Path Tool** pane and click the **Subtract** command. 
+
+(image: clothespinIllustration7.jpg)
+
+
+
+##Step 8
+
+Get back to your **Toolbar** and this time make the **Fill**  invisible and  set the **Stroke** color to **R=205 G=135 B=54**. 
+
+Using the **Pen Tool (P)** or the **Line Tool (L)**, create a **10 px**, horizontal path and place it exactly as shown in the following image. Make sure that this new path stays selected and focus on the **Stroke** pane from the **Appearance** panel — click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want. Drag the **Line Weight** slider to **4 pt** and then check the **Round Cap** button. 
+
+Duplicate this  path (**Command + C &gt; Command + V**), select the copy and place it as shown in the second image. 
+
+(image: clothespinIllustration8.jpg)
+
+
+
+##Step 9
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and enter **1 px** in both  **Spacing** boxes. 
+
+Keep focusing on those horizontal paths. Select the bottom one and drag it **2 px** down, and then select the top one and drag it **1 px** up. 
+
+(image: clothespinIllustration9.jpg)
+
+
+
+##Step 10
+
+Make sure that both horizontal paths are selected, focus on the **Path Tools** pane and click the **Outline Stroke** command.
+
+(image: clothespinIllustration10.jpg)
+
+
+
+##Step 11
+
+Select all the shapes made so far, keep focusing on the **Path Tool** pane and click the **Union** command. 
+
+(image: clothespinIllustration11.jpg)
+
+
+
+##Step 12
+
+Select your shape  and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Make sure that this new shape is selected and go to **Modify &gt; Rotate and Transform &gt; Flip Horizontal** to flip your selection horizontally. Drag it to the left and place it exactly as shown in the third image. 
+
+(image: clothespinIllustration12.jpg)
+
+
+
+##Step 13
+
+Return to your **Toolbar**, make sure that the **Fill** is invisible and  set the **Stroke** color to **R=79 G=81 B=82**. 
+
+Using the **Ellipse Tool (O)**, create a **10 px** circle and place it as shown in the following image. Make sure that this new shape stays selected, focus on the **Stroke** pane from the **Appearance** panel and drag that **Line Weight**  slider to **4 pt**. 
+
+(image: clothespinIllustration13.jpg)
+
+
+
+##Step 14
+
+Using the **Pen Tool (P)** or the **Line Tool (L)**, create a **55 px**, vertical path and place it as shown in the first image. Make sure that this new path stays selected and focus on the **Stroke** pane. Drag the **Line Weight** slider to **4 pt** and  check the **Round Cap** button. 
+
+Switch to the **Path Selection Tool (A)** and keep focusing on your vertical path. Select the top anchor point and simply drag it **31 px** to the right. In the end things should look like in the second image. 
+
+(image: clothespinIllustration14.jpg)
+
+
+
+##Step 15
+
+Using the **Move Tool (V)** and the **Shift** key, select your grey circle and that vertical path and focus on the **Path Tools** pane. First, click the **Outline Stroke** command and then click that **Union** command. In the end your grey shape should look like in the third image. 
+
+(image: clothespinIllustration15.jpg)
+
+
+
+##Step 16
+
+Get back to your **Toolbar**, make the **Stroke** is invisible and  set the **Fill** color to **R=79 G=81 B=82**. 
+
+Using the **Ellipse Tool (O)**, create a **4 px** circle and place it as shown in the following image. 
+
+(image: clothespinIllustration16.jpg)
+
+
+
+##Step 17
+
+Select all the shapes made so far and add copies in the same place (**Command + C &gt; Command + Shift + V**). Make sure that only these copies are all selected and go to the **Path Tools** pane. First, click the **Union** command and then click the **Make Compound Path** command. 
+
+Select the resulting shape, focus on the **Effects** pane from the **Appearance** panel and replace the existing **Fill** color with **R=155 G=91 B=33**. We'll use this dark brown shape to add a subtle shadow to the entire clothespin shape. 
+
+(image: clothespinIllustration17.jpg)
+
+
+
+##Step 18
+
+Make sure that your dark brown shape stays selected, send it to back (**Shift + Command + [** ) and focus on the **Effects** pane from the **Appearance** panel. 
+
+Click  the existing **Stroke** to expand it.  Make sure that the **Width** slider is set to **1 pt** and  set the **Position** to **Outside**, and then click the color well of this **Stroke**. Drag the **Alpha** slider to **10%** and make sure that the color is set to black (**R=0 G=0 B=0**).
+
+(image: clothespinIllustration18.jpg)
+
+
+
+##Step 19
+
+Make sure that your dark brown shape is still selected and keep focusing on the **Effects** pane. You can easily select this shape from the **Layers** panel. Simply click the existing layer from the **Layers** panel to expand it and you'll find  your shape at the bottom of the panel. 
+
+Check the  checkbox that stands for the existing **Drop Shadow** effect to activate. Click its right side handle to drag it right below the **Fill** and then expand it. Enter **-1 pt** in the  **Y** box and **0 pt** in the other two boxes and then click the color well of this effect. Drag the **Alpha** slider to **10%** and make sure that the color is set to black.
+
+(image: clothespinIllustration19.jpg)
+
+
+
+##Step 20
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a second **Drop Shadow** effect using the plus button located in the bottom, left corner of your panel. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration20.jpg)
+
+
+
+##Step 21
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a third **Drop Shadow** effect. 
+
+Select this new effect and then enter the attributes shown in the following image. 
+
+(image: clothespinIllustration21.jpg)
+
+
+
+##Step 22
+
+Make sure that your dark brown shape is still selected, keep focusing on the **Effects** pane and add a fourth **Drop Shadow**. 
+
+Select this new effect, drag it below the **Stroke**  and then enter the attributes shown in the following image. 
+(image: clothespinIllustration22.jpg)
+
+
+
+##Step 23
+
+
+Select the brown shape that makes up the right side of your clothespin and focus on the **Effects** pane. 
+
+Expand  the existing **Stroke** and  replace the existing attributes with the ones shown in the following image. 
+
+(image: clothespinIllustration23.jpg)
+
+
+
+##Step 24
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects** pane. Add a second **Stroke** and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration24.jpg)
+
+
+
+##Step 25
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Shadow** effect,  drag it below the **Fill** and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration25.jpg)
+
+
+
+##Step 26
+
+Make sure that your right, brown shape stays selected and keep focusing on the **Effects** pane. 
+
+Add a second **Inner Shadow** effect  and enter the attributes shown in the following image. 
+
+(image: clothespinIllustration26.jpg)
+
+
+
+##Step 27
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** effect.
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration27.jpg)
+
+
+
+##Step 28
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and add a fourth **Inner Shadow** effect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration28.jpg)
+
+
+
+##Step 29
+
+Make sure that your right, brown shape stays selected, keep focusing on the **Effects** pane and activate the existing **Inner Glow** effect. 
+
+Select this new effect, drag it below those  **Inner Shadow** effects and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration29.jpg)
+
+
+
+##Step 30
+
+Make sure that your right, brown shape is still selected, right click  anywhere on your canvas (or **Control + Click**) and go to **Copy Style**. 
+
+Move to the brown shape that makes up the left side of your clothespin and select it. Again, right click (or **Control + Click**) and this time go to **Paste Style**. In the end things should look like in the second image. 
+
+(image: clothespinIllustration30.jpg)
+
+
+
+##Step 31
+
+Make sure that the shape edited in the previous step stays selected and focus on the **Effects** pane. Select the existing **Inner Shadow** effects one by one and simply inverse the values used for the **X Offset**  attribute (eg: 2 to -2 and -2 to 2).  In the end things should look like in the second image. 
+
+(image: clothespinIllustration31.jpg)
+
+
+
+##Step 32
+
+Select your **4 px** circle and focus on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown in the following image. 
+
+(image: clothespinIllustration32.jpg)
+
+
+
+##Step 33
+
+
+Make sure that your **4 px** circle stays selected, keep focusing on the **Effects** pane and add a second **Inner Shadow** efffect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration33.jpg)
+
+
+
+##Step 34
+
+Make sure that your **4 px** circle stays selected, keep focusing on the **Effects** pane and add a third **Inner Shadow** efffect. 
+
+Select this new effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration34.jpg)
+
+
+
+##Step 35
+
+Select the main grey shape and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: clothespinIllustration35.jpg)
+
+
+
+##Step 36
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and  enter the attributes shown in the following image.
+
+(image: clothespinIllustration36.jpg)
+
+
+
+##Step 37
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a second **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration37.jpg)
+
+
+
+##Step 38
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a third **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration38.jpg)
+
+
+
+##Step 39
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a fourth **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+(image: clothespinIllustration39.jpg)
+
+
+
+##Step 40
+
+Make sure that your main grey shape stays selected and keep focusing on the **Effects** pane. Add a fifth **Inner Shadow** effect and  enter the attributes shown in the following image. 
+
+
+(image: clothespinIllustration40.jpg)
+
+
+
+
+
+##Step 41
+
+Finally, here's how you can easily recolor your entire clothespin. 
+
+Select the  shape that makes up the right side of your clothespin and focus on the **Effects** pane. First, click the **Fill** color well and replace the existing color with **R=13 G=165 B=76**, and then click the color well of that top **Stroke** and replace the existing color with **R=0 G=121 B=51**. 
+
+Move to  the shape that makes up the left side of your clothespin and select it. Return to the **Effects** pane and make the same color changes. In the end things should look like in the following image. 
+
+(image: clothespinIllustration41.jpg)
+
+Feel free to try a different pair of colors.
+
+(image: clothespinIllustration42.jpg)
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: clothespinIllustration0.jpg)
+
+----
+
+Title: Mac

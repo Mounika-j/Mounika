@@ -1,0 +1,36 @@
+Title: Grid
+
+----
+
+Text: 
+
+# Grid
+
+The grid appears on the canvas behind your design. In comparison with guides, grid can be (link: docs/exporting text: _**exported**_) with your design. The canvas grid is fully customizable, with adjustable settings for spacing, gridline colors, subdivisions, margins, and more. 
+
+Open the _**Grid pane**_ from the Properties panel to customize your grid. 
+
+(image: grid1.jpg width:750)
+
+
+1. **Show Grid** - Use this checkbox to enable or disable the visibility of the grid. Alternatively, you can enable or disable the grid by going to **View > Show Grid** [**⌘** - **’**].
+
+ #   {#snap-to-grid} 
+
+2. **Snap to Grid** - Enable this setting to snap objects and points to the nearest grid position when moving them. Alternatively, you can enable or disable this feature by going to **View > Snap to Grid** [**⇧** - **⌘** - **’**]. 
+
+ (video: grid2.mp4 width:720)  
+
+3. **Spacing** - The X and Y spacing settings set the spacing between each gridline, X represents the horizontal axis while Y represents the vertical axis. For grids without X or Y lines (to create a notebook paper style, for example), you can set the spacing to zero. Change the colors used to draw the gridlines using the color wells next to each setting.
+
+4. **Subdivisions** - The subdivisions setting determines how many gridlines are drawn between each thicker major gridlines. Change the colors used to draw the subdivision gridlines using the color well next to this setting.
+
+5. **Margins** - Set the width and color of each margin. Set the size to 0 to move the margin lines on the edge of your document or simply remove the color to make the margin lines invisible.
+
+6. **Extend Grid Lines** - This setting allows you to extend the drawing of the gridlines beyond the edges of the margins. If checked, the gridlines extend over the margins, or if unchecked the gridlines end at each margin.
+
+ (image: grid3.jpg width:720)
+
+7. **Margins Offset Origin** - If checked, the origin point of the rulers will be offset by the width of each margin. If unchecked, the origin point will be at the top left corner of the printable canvas.
+
+ (image: grid4.jpg width:720)

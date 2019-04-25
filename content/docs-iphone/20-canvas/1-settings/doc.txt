@@ -1,0 +1,35 @@
+Title: Settings
+
+----
+
+Text: 
+
+# Canvas Settings
+
+The canvas size, scale, measurement unit and background color can be customized using the _**Canvas pane**_ from the Properties panel.
+
+(image: settings1-iphone.jpg width:750)
+
+ # {#scale} 
+
+1. **Canvas** - Enter values to change the width and height of the canvas. Documents can have a maximum canvas size of 4096 x 4096 pixels.
+
+2. **Units & Scale** - Opens the _**Units and Scale pane**_ where you can select the measurement units to be used for rulers and dimension values or set the scale settings.
+
+ (image: settings2-iphone.jpg width:723)
+
+ # {#scale}  
+
+ 1. **Base Units** - Set the measurement units to be used for rulers and dimension values from: pixels, inches, centimeters and millimeters.
+
+ 2.  **Scale** - Create ‘to-scale’ technical designs using the canvas scale setting. Rulers and dimension values are scaled by the factor set in this field. Changing the scale units allows you to create designs measured in feet, miles, meters, kilometers, etc. The actual paper size of the document does not change, only the displayed values and units are adjusted by this setting.
+
+3. **Pixel-Align Strokes** - When this setting is enabled, stroked objects are offset slightly to ensure that the drawn stroke is aligned to the pixel grid. Pixel-alignment ensures that a 1 pt stroke line positioned on exact integer coordinates will be drawn as a crisp 1 pixel line. This feature is typically useful for designs that are intended for image export, but may not always be the desired behavior. To make the effect of this feature more noticeable enable the Show Pixels view mode.
+
+ (image: settings3-iphone.jpg width:723)
+
+4. **Background Color** - The canvas background can be set to either a color or a gradient. Tap the color well and modify the background settings in the same way as editing a fill. 
+
+
+
+ Using the settings from the (link: docs-iphone/exporting text: _**Share**_) menu, the canvas color and the grid can be kept as part of the saved design.

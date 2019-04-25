@@ -1,0 +1,306 @@
+Text: 
+
+In the following tutorial you will learn how to create an iPod Shuffle illustration in  Graphic for Mac. 
+
+For starters you will learn how to setup a simple grid, how to create the main shape and how to deal with complex gradients. Taking full advantage of the Effects pane and using some basic blending techniques, you will learn how to add subtle shading and highlights for your shapes.
+ 
+Finally, taking full advantage of the Snap to Grid feature you will learn how to create the tiny symbols. 
+
+
+
+
+
+##Step 1
+
+Go to **File &gt; New (Command + N)** to bring up the **New Document** window. Select the **Grid** document style, set the document units to **pixels**, and set the document dimensions to **600** pixels wide by **600** pixels high.
+
+Next, we'll set up the document grid. Switch to the **Grid** pane in the **Properties** panel. If the **Properties** panel is not currently visible, you can easily open it using the ruler icon that lies above the **Layers** panel. Change the grid **X Spacing** and **Y Spacing** to **10**, set the **Subdivisions** to **0** and enable **Snap to Grid (Command + Shift + ')**.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command +  '** and  **Command + Shift + '** keyboard shortcuts. 
+
+(image: iPodNano1.jpg)
+
+
+
+##Step 2
+
+Focus on the Toolbar and  notice that by default the fill color is set to white while the stroke color is set to black. Click  the **Fill** color well and set it to balck (**R=0 G=0 B=0**) and then click the **Stroke** color well. Drag the **Alpha** slider to **0%** and this will simply make your stroke invisible. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)**, focus on your **Tool Options** bar and set the **Corner Radius** to **2 pt**. Move to your canvas and  create a **140 x 130 px** shape- the grid and the **Snap to Grid** feature will ease your work. 
+
+(image: iPodNano2.jpg)
+
+
+
+##Step 3
+
+Make sure that your rounded rectangle stays selected and focus on the **Effects** pane from the **Appearance** panel. If the **Appearance** panel is not currently visible, you can easily open it using the leftmost icon that lies above the **Layers** panel.
+
+ Click that **Fill** and select **Linear Gradient** from the **Type** drop-down menu. Set the angle to **0 degrees** then move to the gradient sliders. Select the left one and set its color at **R=131 G=133 B=132** and thne select the right one and add the same color. 
+
+(image: iPodNano3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle stays selected and keep your eyes on the **Effects** pane. Keep focusing on the linear gradient applied to that **Fill** and simply click on that gradient bar to add a new gradient slider. Select it, set the color to **R=226 G=226 B=227** and then drag it to the left until the **Location** tooltip shows **3%**. Using the same technique add a fourth gradient slider for your gradient. Select it, set the same color (**R=226 G=226 B=227**) and drag it to **98%**.
+
+(image: iPodNano4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stays selected and keep your eyes on the **Effects** pane. Keep focusing on the linear gradient applied to that **Fill**, add four new gradient sliders and thne use the color and the location attributes shown in the following image. 
+
+(image: iPodNano5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a second fill using the plus button that lies in the bottom, left corner of the panel. 
+
+Keep focusing on the new fill, click on its right side handle and drag it below the one that already exists. Expand it, set the **Type** to **Linear Gradient** and change the **Blend** to **Color Burn**. Move to the **Angle** box and set it to **90 degrees**, and then  move to the gradient sliders. Select the left one, set its color to black and drag the **Alpha** slider to **10%**, and then select the right one, set its color to white and drag the **Alpha** slider to **0%**. 
+
+(image: iPodNano6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle stays selected, keep focusing on the **Effects** pane and add a third **Fill** using that same plus button. 
+
+Make sure that this new **Fill** lies below the other two and then select it. Set the **Type** to **Linear Gradient** and change the **Blend** to **Soft Light**. Set the **Angle** to **90 degrees** and then  move to the gradient sliders. Select the left one, move it to **50%**, set the color to white and drag the **Alpha** slider to **0%**. Move to the right gradient slider, select it, set the color to white and drag that **Alpha** slider to **30%**. 
+
+(image: iPodNano7.jpg)
+
+
+
+##Step 8
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** and simply check the  box that stands for the existing **Inner  Shadow** to activate it.  Enter **1** in the **Y** box and **0** in the other two boxes, change the **Blend Mode** to **Soft Light** and then click the color well that stands for this effect. Drag the **Alpha** slider to **30%** and set the color to white. 
+
+(image: iPodNano8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected, focus on the **Effects** pane and add a second **Inner  Shadow** using that same plus button. Make sure that this new effect lies below the other **Inner Shadow** and then enter the attributes shown in the following image. 
+
+(image: iPodNano9.jpg)
+
+
+
+##Step 10
+
+Get back to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=37 G=38 B=38**. Pick the **Ellipse Tool (O)**, create a **110 px** circle and place it as shown int he first image. Holding the **Shift** key will make it  easier for you to create a perfect circle. 
+
+Replace the existing **Fill** color with a random red and make sure that the **Ellipse Tool (O)** is still active. Create a **70 px** circle and place it as shown in the second image. Using the **Move Tool (V)** and holding down the **Shift** key, select both shapes made in this step. Focus on the **Path Tools** pane from the **Properties** panel and simply click that **Subtract** button. In the end your new shape should look like in the fourth image. 
+
+(image: iPodNano10.jpg)
+
+
+
+##Step 11
+
+Make sure that your dark shape stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNano11.jpg)
+
+
+
+##Step 12
+
+Make sure that your dark shape stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNano12.jpg)
+
+
+
+##Step 13
+
+Using the **Ellipse Tool (O)**, create a **70 px** circle and place it as shown in the following image. Make sure that this new shape stays selected and focus on the **Effects** pane. Select the  **Fill** and apply the linear gradient shown in the following image. 
+
+(image: iPodNano13.jpg)
+
+
+
+##Step 14
+
+Make sure that your circle stays selected and focus on the **Effects** pane. Activate the existing **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNano14.jpg)
+
+
+
+##Step 15
+
+Now, you will need a grid every **1 px**. This simply means that you need to return to the **Grid**  pane from the **Properties** panel and   enter **1 px** in both  **Spacing** boxes. 
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and  set the **Corners Radius** to **1 pt**. Create a **14 x 4 px** shape and place it as shown in the first image. Make sure that this  rounded rectangle stays selected and focus on the **Effects**  pane. Select the  **Fill** and apply the linear gradient shown in the following image. 
+
+(image: iPodNano15.jpg)
+
+
+
+##Step 16
+
+Make sure that your tiny, rounded rectangle stays selected and focus on the **Effects** pane. Activate the  **Inner Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNano16.jpg)
+
+
+
+##Step 17
+
+Make sure that your tiny, rounded rectangle is still selected, send it to back (**Shift + Command + [** ) and then make a copy in the same place (**Command + C &gt; Command + Shift + V**). 
+
+Select this copy and drag it to the left. Place it roughly as shown in the second image and don't forget to send it to back (**Shift + Command + [** ). 
+
+(image: iPodNano17.jpg)
+
+
+
+##Step 18
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=37 G=38 B=38**.
+
+Pick the **Rectangle Tool (M)** and create an **8 px** square. Focus on the right side of this dark shape and switch to the **Path Selection Tool (A)**. Select the top anchor point and simply remove it using the **Delete** or **Backspace** key, and then select the bottom anchor point and  drag it **4 px** up. In the end your dark rectangle should turn into a simply triangle. 
+
+(image: iPodNano18.jpg)
+
+
+
+##Step 19
+
+Using the **Rectangle Tool (M)**, create two, **3 x 8 px** shapes and place them exactly as shown in the first image. 
+
+Select these two rectangles along with the triangle made in the previous step, focus on the **Path Tools** pane from the **Properties** panel and click that **Make Compound Path** button.
+
+(image: iPodNano19.jpg)
+
+
+
+##Step 20
+
+Make sure that your compound path stays selected and place it roughly as shown int the following image. Focus on the **Effects** pane, activate the  **Drop Shadow** effect and enter the attributes shown in the following image. 
+
+(image: iPodNano20.jpg)
+
+
+
+##Step 21
+
+Return to your Toolbar, make sure that the **Stroke** is invisible and then set the **Fill** color to **R=218 G=220 B=219**. Pick the **Rectangle Tool (M)** and create an **8 x 2 px** shape. 
+
+Duplicate your new rectangle (**Command + C &gt; Command + V**), select the copy and place it  as shown in the first image. Make sure that your copy stays selected, pick the **Rotate Tool (R)** and go to the **Tool Options** bar. Set the **Angle** to **90 degrees** and simply click that **Copy** button. Select the newly made rectangle along with the original one, focus on the **Path Tools**  pane and click that **Union** button. 
+
+(image: iPodNano21.jpg)
+
+
+
+##Step 22
+
+Pick  the **Rectangle Tool (M)** and create a **5 x 6 px** shape. Focus on the left side of this new shape and switch to the **Path Selection Tool (A)**. Remove the top anchor point and then select the bottom one and  drag it **3 px** up. 
+
+Select this new traingle and add a copy in the same place (**Command + C &gt; Command + Shift + V**). Select this  copy and simply drag it **5 px** to the left or to the right. 
+
+(image: iPodNano22.jpg)
+
+
+
+##Step 23
+
+
+Keep focusing on the two triangles made in the previous step and pick the **Rectangle Tool (M)**. Create a **2 x 6 px** shape and place it as shown in the first image. Select this rectangle along with the two triangles, focus on the **Path Tools** pane and click that **Make Compound Path** button. 
+
+Make  sure that your new compound path is selected and pick the **Rotate Tool (R)**. Go to the **Tool Options** bar, set the **Angle** to **180 degrees** and then  click that **Copy** button. Select the newly made compound path and drag it several pixels to the right about as shown in the third image. 
+
+(image: iPodNano23.jpg)
+
+
+
+##Step 24
+
+Select the grey buttons made in the last three steps and place them roughly as shown in the following image. 
+
+(image: iPodNano24.jpg)
+
+
+
+##Step 25
+
+Using the **Rectangle Tool (M)**, create a **600 px** square and focus on the **Effects** pane. Select the  **Fill** and apply the radial gradient shown in the following image. 
+
+Make sure that your square stays selected and go to  the **Alignment** pane from the **Properties**. Simply click the **Horizontal Centers** and the **Vertical Centers** buttons to bring your square in the center of the canvas. Finally, send this square to back (**Shift + Command + [** ).
+
+(image: iPodNano25.jpg)
+
+
+
+##Step 26
+
+Select the main rounded rectangle along with the two, top buttons and add copies in the same place (**Command + C &gt; Command + Shift + V**). Select only these three copies, move to the **Path Tools** pane from the **Properties** panel and simply click that **Union** button. 
+
+Make sure that the resulting shape  stays selected and focus on the **Effects** pane. Select the **Fill**, set its color to **R=218 G=220 B=219** and then deactivate any stroke/effect.
+
+(image: iPodNano26.jpg)
+
+
+
+##Step 27
+
+Go to the **Layers** panel and open the existing layer. Select the grey shape made in the previous step and drag it below the   shapes that make up your iPod. 
+
+Make sure that this grey shape stays selected and focus on the **Effects** pane. Activate the  **Drop Shadow** and enter the attributes shown in the following image. 
+
+(image: iPodNano27.jpg)
+
+
+
+##Step 28
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a second **Drop Shadow** using that same plus button. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNano28.jpg)
+
+
+
+##Step 29
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a third **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNano29.jpg)
+
+
+
+##Step 30
+
+Make sure that your grey shape stays selected, focus on the **Effect**s pane and add a fourth **Drop Shadow**. Select this new effect and enter the attributes shown in the following image. 
+
+(image: iPodNano30.jpg)
+
+
+
+##Step 31
+
+Make sure that your grey shape stays selected and focus on the **Effect**s pane. Activate the  **Outer Glow** and enter the attributes shown in the following image. 
+
+(image: iPodNano31.jpg)
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: iPodNano0.jpg)
+
+----
+
+Title: Mac

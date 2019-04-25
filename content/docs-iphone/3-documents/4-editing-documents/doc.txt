@@ -1,0 +1,13 @@
+Title: Editing Documents
+
+----
+
+Text: 
+
+# Editing Documents
+
+Delete or duplicate one or more of your documents. 
+
+Tap the _**Edit**_ button to begin editing and then tap each target document to select it. Tap the _**Trash**_ button to remove the selected documents or the _**Duplicate**_ button to duplicate them.
+
+(video: editingdocuments1-iphone.mp4  width: 750)

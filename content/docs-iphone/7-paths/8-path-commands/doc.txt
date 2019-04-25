@@ -1,0 +1,35 @@
+Title: Path Commands
+
+----
+
+Text: 
+
+# Path Commands
+
+Path commands can be used to link separate paths, to connect end points, to open or close paths, or to expand strokes into editable vector paths. 
+
+All these commands can be found in the _**Path Tools pane**_ from the _**Properties panel**_.
+
+**Join Paths** - Use this command to link two open paths together into a single continuous path. To join, select the two open paths, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Join Paths**_ command. The paths  will be joined at their nearest end points, with the path (link: docs-iphone/organizing-objects/ordering-objects text: _**furthest back**_) remaining in place.  
+
+(video: pathcommands1-iphone.mp4 width: 750)
+
+**Connect Paths** - Use this command to link two open paths together into a single closed shape. To connect,  select the two open paths, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Connect Paths**_ command.  This will generate new paths connecting the end points of the selected paths.
+
+(video: pathcommands2-iphone.mp4 width: 750)
+
+**Disconnect** - Use this command to disconnect any type of path or shape. To disconnect,  select your shape or path, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Disconnect**_ command.  This will cut your shape and you will get all the path sections that make up your selected shape.
+
+(video: pathcommands3-iphone.mp4 width: 750)
+
+**Close** - Closing an open path will connect the path’s start and end points with a line segment. To close a path, select it, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Close Path**_ command.  
+
+(video: pathcommands4-iphone.mp4 width: 750)
+
+**Reverse Path** - Use this command to easily reverse the starting and the ending point of a selected path. To reverse a path's direction, select it, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Reverse Path**_ command.  
+
+(video: pathcommands5-iphone.mp4 width: 750)
+
+**Outline Stroke** - Use this command to convert the styled stroke of an object into an editable vector shape. To outline a stroke, select it, open the _**Path Tools pane**_ from the _**Properties panel **_ and tap the _**Outline Stroke**_ command. If the target object also has a fill, the result will be a (link: docs-iphone/organizing-objects/grouping-objects text: _**group**_) containing both the previous fill and the converted stroke object.
+
+(video: pathcommands6-iphone.mp4 width: 750)

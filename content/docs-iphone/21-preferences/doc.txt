@@ -1,0 +1,21 @@
+Title: Preferences
+
+----
+
+Text: 
+
+# Preferences
+
+Tap the menu button from the _**Titlebar**_ and then tap the _**Preferences**_ button to open the _**Preferences panel**_. 
+
+Tap the _** Selection Color**_ color well to easily change the color used for displaying selected points, paths, and the bounding box around selected objects. 
+
+(video: preferences1-iphone.mp4 width: 750)
+
+The _**Loupe**_ is the round, zoomed area that shows up whenever you create or move a shape, path or anchor point. It can be really helpful for intricate designs.
+
+# {#outline-mode}
+
+Enable the _**Outline Mode**_ setting to draw shapes and objects (new or already created) only as simple outlines. This can significantly improve performance when working on large complex documents. With this setting disabled, objects are fully redrawn as they are being moved, resized, rotated, etc.
+
+(video: preferences2-iphone.mp4 width: 750)

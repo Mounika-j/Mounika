@@ -1,0 +1,221 @@
+Text: 
+
+In the following tutorial you will learn how to create a simple photos icon in  Graphic for iPhone. 
+
+For starters you will learn how to set up a simple grid and how to enable the Snap to Grid feature. Next, you'll learn how to create a simple shape, how to fill it with a linear gradient and how to add an image inside your document. Taking full advantage of the Effects pane, you will learn how to add subtle shading and highlights. 
+
+Finally, you'll learn how to rotate objects and how to easily adjust image fills. 
+
+
+
+
+
+##Step 1
+
+Start by tapping the   plus button from the top-left corner of your screen to create a new document. Tap the **Create Document** button and then choose the **Grid** document style.
+
+(image: photosIconiPhone1A.jpg)
+
+Focus on the right side of the **Titlebar**, tap that ruler icon to open the **Properties** panel and then tap the **Canvas** pane. Set both **Width** and **Height** to **600 px**, select **Pixels** for the base unit, and be sure that the **Pixel-Align Strokes** feature is disabled.
+
+(image: photosIconiPhone1B.jpg)
+
+Re-open the **Properties** panel and this time tap the **Grid** pane. Make sure that the **Snap to Grid** feature is enabled and keep in mind that this is where you should come whenever you wish to enable or disable the grid or the **Snap to Grid**. Finally, open the **Grid Settings** pane and enter **5 px** in both **Spacing** boxes and **0 lines** in the **Subdivisions** box.
+
+(image: photosIconiPhone1C.jpg)
+
+
+
+##Step 2
+
+
+Focus on the **Toolbar** and   notice that by default the fill color is set to white while the line color is set to black. Tap  the line color well and drag the **Alpha** slider to **0%** to make your line invisible. 
+
+Move to the fill color and tap it. Select the **Gradient** button, tap the **Linear** icon, set the angle to **-90 degrees** and then  move to the gradient sliders. Select the left one and set its color to **R=200 G=201 B=202** and then select the right one and se its color to **R=240 G=241 B=242**. Simply tap on the gradient bar and you will get a new gradient slider. Select it, set the color to **R=220 G=221 B=222** and drag it to the left until the **Location** tooltip shows **15%**.
+
+Pick the **Rounded Rectangle Tool**, focus on the newly opened **Tool Options pane** and drag the ** Radius** slider to **3**. Move to your canvas and simply create a **220 x 265 px** shape - the grid and the **Snap to Grid** feature will ease your work.
+
+(image: photosIconiPhone2.jpg)
+
+
+
+##Step 3
+
+Download [this image](http://pixabay.com/en/sunset-landscape-assam-india-169925/), focus on left side of your Titlebar and tap that leftmost icon. Tap the **Import Photo** command and simply import the image downloaded a few moments ago. 
+
+Make sure that your image stays selected, focus on the right side of your Titlebar and open the **Geometry** pane from the **Properties** panel. Check the **Constrain width and height** button (highlighted in the following image) and then enter **200 px** in the **Height** box. This will simply resize your image without messing the proportions. Place your image  exactly as shown in the first image. 
+
+(image: photosIconiPhone3A.jpg)
+
+Get back to your Toolbar, select the fill and replace the existing color with a simple white (**R=255 G=255 B=255**). Pick the **Rectangle Tool**, create a **200 px** square and place it exactly as shown in the following image. 
+
+(image: photosIconiPhone3B.jpg)
+
+
+##Step 4
+
+Pick the **Path Selection Tool**, focus on the newly opened **Tool Options pane** and activate the **Add to Selection** mode. Select your white square along with the image that lies behind, open the **Combine** pane  from the **Properties** panel and tap the **Intersect** button. In the end things should look like in the second image. 
+
+(image: photosIconiPhone4.jpg)
+
+
+
+##Step 5
+
+Make sure that your image stays selected, focus on the right side of your Titlebar and tap the leftmost icon to open the **Appearance** panel. 
+
+Go  to the **Effects** pane  and simply check the  box that stands for the existing **Stroke** to activate it. Select it****, drag the **Width** slider to **1 pt**, check the **Inside Alignment** button and then tap the color well that stands for this stroke. Drag the **Alpha** slider to **10%** and set the color to black (**R=0 G=0 B=0**). Get back to the **Effects** pane,  simply tap the cogwheel icon that stands for the existing **Stroke**, go to **Blend Mode** and select the **Soft Light** blend mode.
+
+(image: photosIconiPhone5.jpg)
+
+
+
+##Step 6
+
+Make sure that your image is still selected, keep focusing on the **Effects** pane and add a second **Stroke** using the plus button located in the top, right corner of your pane. Select this new **Stroke** and enter the attributes shown in the following image. 
+
+(image: photosIconiPhone6.jpg)
+
+
+
+##Step 7
+
+Make sure that your image is still selected, keep focusing on the **Effects** pane and add a third **Stroke** using that same plus button. Select this new **Stroke**, drag it below the existing ones and then enter the attributes shown in the following image. 
+
+(image: photosIconiPhone7.jpg)
+
+
+
+##Step 8
+Make sure that your image is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect and drag it right below that top stroke. 
+
+Drag the **Blur** slider to **15**, set the **Blend Mode** to **Soft Light** adn then tap  the color well that stands for this effect. Drag the **Alpha** slider to **30%** and set the color to black.
+
+(image: photosIconiPhone8.jpg)
+
+
+
+##Step 9
+
+Now, let's focus on the rounded rectangle. Make sure that it stays selected and focus on the **Effects** pane. Activate the existing **Stroke** and enter the attributes shown in the following image. 
+
+(image: photosIconiPhone9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle stays selected and keep focusing on the **Effects** pane. Add a second stroke, place it right below the other one and then select it and enter the attributes shown in the following image. 
+
+(image: photosIconiPhone10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Drop Shadow** effect, enter **-1** in the **Y** box and **0** in the other two boxes and then tap the color well that stands for this effect. Drag the **Alpha** slider to **3%** and set the color to black. 
+(image: photosIconiPhone11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow**, drag it below the existing effect, select it and then enter the attributes shown in the following image. 
+
+(image: photosIconiPhone12.jpg)
+
+
+
+##Step 13
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a third **Drop Shadow**, drag it below the existing effects, select it and then enter the attributes shown in the following image. 
+
+(image: photosIconiPhone13.jpg)
+
+
+
+##Step 14
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a fourth **Drop Shadow**, place it below the existing effects, select it and then enter the attributes shown in the following image. 
+
+(image: photosIconiPhone14.jpg)
+
+
+
+##Step 15
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Add a fifth **Drop Shadow**, drag it below the existing effects, select it and then enter the attributes shown in the following image. 
+
+(image: photosIconiPhone15.jpg)
+
+
+
+##Step 16
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow**, drag it right below the fill and then enter the attributes shown in the following image.
+
+(image: photosIconiPhone16.jpg)
+
+
+
+##Step 17
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Glow** effect, drag it right below the fill and then enter the attributes shown in the following image.
+
+(image: photosIconiPhone17.jpg)
+
+
+
+##Step 18
+
+Select both the image and the rounded rectangle and switch to the **Rotate Tool**. Focus on the newly opened **Tool Options** pane, set the **Angle** to **5 degrees** and  simply tap the **Copy** button. In the end things should look like in the following image. 
+
+(image: photosIconiPhone18.jpg)
+
+
+
+
+##Step 19
+
+Pick the **Path Selection Tool** and make sure that the **Add to Selection** mode is still active. 
+
+Select the two copies made in the previous step and  switch back to the **Rotate Tool**. This time set the **Angle** to **-15 degrees**, and then tap   that **Copy** button. In the end things should look like in the second image.
+
+(image: photosIconiPhone19.jpg)
+
+
+
+##Step 20
+
+For this step you will have to download [this second image](http://pixabay.com/en/sun-set-sunset-fire-sea-ocean-19814/). 
+
+Get back to your canvas, select the front image, open the **Appearance** panel and tap that **Image** command. Simply add the image downloaded a few moments ago. 
+
+(image: photosIconiPhone20.jpg)
+
+
+##Step 21
+
+Now, you might have noticed that the image added in the previous step does not cover the entire rectangle where it lies. It's a big issue that can be solved pretty easy and fast. 
+
+Make sure that your front image is selected and tap it to activate the **Image Tool**. Drag that **Image** slider slightly to the right until can tell that your image covers the entire rectangle as shown in the second image. Once you're done, simply tap outside your shape. 
+
+(image: photosIconiPhone21.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+
+(image: photosIconiPhone0.jpg)
+
+----
+
+Title: iPhone

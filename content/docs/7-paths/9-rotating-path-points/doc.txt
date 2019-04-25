@@ -1,0 +1,25 @@
+Title: Rotating Path Points
+
+----
+
+Text: 
+
+# Rotating Path Points
+
+Choose the _**Rotate tool**_ to rotate path points around a reference point.
+
+To rotate one or more path points, first select the path points using the _**Path Selection tool**_. With the _**Rotate tool**_ active, click and drag anywhere on the canvas to rotate the path points clockwise or counterclockwise.
+
+Hold the **Shift ⇧** key while dragging to constrain the rotation to 15˚ increments. 
+
+(video: rotatingpathpoints1.mp4 width: 750)
+
+> Tip: Use the **R** keyboard shortcut to quickly select the **Rotate tool**. 
+
+Path points can be rotated numerically using the _**Tool Options bar**_ settings. Set a rotation angle in the field and click _**Rotate**_ to apply the rotation.
+
+(video: rotatingpathpoints2.mp4 width: 750)
+
+By default, the reference point will be located in the center of the selected object. To use a different location for the reference point, simply drag it to set it at that new location.
+
+(video: rotatingpathpoints3.mp4 width: 750)

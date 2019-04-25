@@ -1,0 +1,36 @@
+Title: Create an Email Subscribe Field
+
+----
+
+Description: Learn how to create a simple subscribe field with an accompanying glowing button...
+
+----
+
+Image: (image: Header.jpg title: Create a Subscribe Field class: header960)
+
+----
+
+Thumbnail: subscribefieldthumbnail.jpg
+
+----
+
+Date: 2014-09-25
+
+----
+
+Categories: Web, Icons
+
+----
+
+Text: 
+
+**iDraw File:**
+(link: SubscribeField.idraw text: SubscribeField.idraw)
+
+----
+
+Graphicfile: subscribefield.idraw
+
+----
+
+Headerimg: header.jpg

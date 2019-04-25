@@ -1,0 +1,318 @@
+var doc = [app activeDocument]
+var shapes = [doc selectedShapes]
+var count = [shapes count]
+var hasSelectedPaths = false
+var userClickedOK = false
+
+var userJitter = 8
+var userSegments = 6
+
+for(var i = 0; i < count; i++)
+{
+    if([(shapes[i]) type] == "pathShape")
+    {
+        hasSelectedPaths = true
+        break;
+    }
+}
+
+if(hasSelectedPaths)
+{
+    showSettingsDialog()
+    
+    if(userClickedOK)
+    {
+        for(var i = 0; i < count; i++)
+        {
+            var shape = shapes[i]
+            
+            if([shape type] == "pathShape")
+            {
+                var path = [shape path]
+                jitterPath(path, userJitter, userSegments)
+                wasApplied = true
+            }
+        }
+    }
+}
+else
+{
+    [app showAlert:"Please select one or more paths to apply a crumple effect."]
+}
+
+function jitterPath(p, jitter, numSegments)
+{
+    var elements = [p elements]
+    var elemCount = [elements count]
+    var moveToPnt
+    var moveToIndex = -1
+    
+    jitter = Math.max(0, Math.min(jitter, 100))
+    numSegments = Math.max(1, Math.min(userSegments, 10))
+    
+    for(var i = 0; i < elemCount; i++)
+    {
+        var e  = elements[i]
+        var linkedToClose = false
+        
+        if([e type] == "moveTo")
+        {
+            moveToPnt = e.anchorPoint()
+            moveToIndex = i
+        }
+        else if([e type] != "close" && i < elemCount - 1)
+        {
+            if(moveToIndex >= 0)
+            {
+                var nextElem = elements[i + 1]
+                
+                if([nextElem type] == "close")
+                {
+                    var anchor = [e anchorPoint]
+                    linkedToClose = equalPoints(moveToPnt, anchor)
+                }
+            }
+        }
+        
+        if(numSegments > 1 && elemCount < 200)
+        {
+            var newElems = splitElement(e, numSegments)
+            
+            for(j = 0; j < [newElems count]; j++)
+                jitterElement(newElems[j], jitter)
+                
+            if(linkedToClose)
+                [newElems lastObject].anchorPoint = [(elements[moveToIndex]) anchorPoint]
+        }
+        else
+        {
+            if(linkedToClose)
+                e.anchorPoint = [(elements[moveToIndex]) anchorPoint]
+            else
+                jitterElement(e, jitter)
+        }
+    }
+    
+    // temp fix to ensure path is updated
+    var c = [p addClose]
+    [c remove]
+}
+
+function splitElement(e, numSegments)
+{
+    if([e type] == "moveTo") // can't split moveTo elements
+        return [NSArray arrayWithObject:e]
+    
+    if([e length] <= numSegments)
+        return [NSArray arrayWithObject:e]
+    
+    var newElems = [NSMutableArray array]
+    
+    while(numSegments > 1 && e != nil)
+    {
+        var factor = 1 / numSegments
+        var segs = [e split:factor]
+        
+        if(!segs || [segs count] < 2)
+            break;
+        
+        [newElems addObject:segs[0]]
+        numSegments -= 1
+        
+        if(numSegments == 1)
+            [newElems addObject:segs[1]]
+        else
+            e = segs[1]
+    }
+    
+    return newElems
+}
+
+function jitterElement(e, jitter)
+{
+    if(e && [e type] != "close")
+    {
+        var pnt = [e anchorPoint]
+        var rx = (Math.random() * jitter) - (jitter / 2)
+        var ry = (Math.random() * jitter) - (jitter / 2)
+        
+        pnt.x += rx
+        pnt.y += ry
+    
+        e.anchorPoint = pnt
+        
+        if([e type] == "curveTo" || [e type] == "quadCurveTo")
+        {
+            pnt = [e controlPoint1]
+            rx = (Math.random() * jitter) - (jitter / 2)
+            ry = (Math.random() * jitter) - (jitter / 2)
+            
+            pnt.x += rx
+            pnt.y += ry
+        
+            e.controlPoint1 = pnt
+        }
+        
+        if([e type] == "quadCurveTo")
+        {
+            pnt = [e controlPoint2]
+            rx = (Math.random() * jitter) - (jitter / 2)
+            ry = (Math.random() * jitter) - (jitter / 2)
+            
+            pnt.x += rx
+            pnt.y += ry
+        
+            e.controlPoint2 = pnt
+        }
+    }
+}
+
+function equalPoints(pnt1, pnt2)
+{
+    return equalFloats(pnt1.x, pnt2.x) && equalFloats(pnt1.y, pnt2.y)) 
+}
+
+function equalFloats(a, b)
+{
+    return parseFloat(a.toPrecision(12)) == parseFloat(b.toPrecision(12))
+}
+
+var window
+var jitterField
+var jitterSlider
+var segmentsField
+var segmentsSlider
+
+function showSettingsDialog()
+{    
+    // create a window
+    window = [[NSWindow alloc] init]
+    [window setTitle:"Path Crumple"]
+    [window setFrame:NSMakeRect(0, 0, 320, 135) display:false]
+        
+    createTextLabel("Crumple", NSMakeRect(6, 75, 70, 20))
+    createTextLabel("Segments", NSMakeRect(6, 50, 70, 20))
+    
+    jitterField = createValueField(NSMakeRect(262, 78, 44, 20))
+    jitterField.floatValue = userJitter
+    [jitterField setJSTargetFunction:"jitterFieldAction"]
+    
+    segmentsField = createValueField(NSMakeRect(262, 53, 44, 20))
+    segmentsField.floatValue = userSegments
+    [segmentsField setJSTargetFunction:"segmentsFieldAction"]
+    
+    jitterField.nextKeyView = segmentsField
+    segmentsField.nextKeyView = jitterField
+    
+    jitterSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 78, 180, 20)]
+    jitterSlider.minValue = 0
+    jitterSlider.maxValue = 75
+    jitterSlider.floatValue = userJitter
+    [jitterSlider setJSTargetFunction:"jitterSliderAction"]
+    [[window contentView] addSubview:jitterSlider]
+    
+    segmentsSlider = [[NSSlider alloc] initWithFrame:NSMakeRect(76, 53, 180, 20)]
+    segmentsSlider.minValue = 1
+    segmentsSlider.maxValue = 10
+    segmentsSlider.floatValue = userSegments
+    [segmentsSlider setJSTargetFunction:"segmentsSliderAction"]
+    [[window contentView] addSubview:segmentsSlider]
+    
+    [window makeFirstResponder:nil]
+    
+    // create OK button
+    var okButton = [[NSButton alloc] initWithFrame:NSMakeRect(234, 8, 77, 32)]
+    [okButton setTitle:"Apply"]
+    [okButton setBezelStyle:NSRoundedBezelStyle]
+    [okButton setKeyEquivalent:"\r"]    // enter key
+    [[window contentView] addSubview:okButton]
+    [okButton setJSTargetFunction:"okAction"];
+    
+    // create cancel button
+    var cancelButton = [[NSButton alloc] initWithFrame:NSMakeRect(154, 8, 82, 32)]
+    [cancelButton setTitle:"Cancel"]
+    [cancelButton setBezelStyle:NSRoundedBezelStyle]
+    [cancelButton setKeyEquivalent:@"\033"]    // esc key
+    [[window contentView] addSubview:cancelButton]
+    [cancelButton setJSTargetFunction:"cancelAction"]
+    
+    [window setInitialFirstResponder:jitterSlider]
+    [NSApp runModalForWindow:window]
+}
+
+
+function okAction(sender)
+{
+    userClickedOK = true
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function cancelAction(sender)
+{
+    [window orderOut:nil]
+    [NSApp stopModal]
+}
+
+function createTextLabel(str, frame)
+{
+    var label = [[NSTextView alloc] initWithFrame:frame]
+    label.string = str
+    label.editable = false
+    label.selectable = false
+    label.font = [NSFont systemFontOfSize:11]
+    label.alignment = NSRightTextAlignment
+    label.backgroundColor = [NSColor clearColor]
+    [[window contentView] addSubview:label]
+    return [label autorelease]
+}
+
+function createValueField(frame)
+{
+    var valueField = [[NSTextField alloc] initWithFrame:frame]
+    valueField.editable = true
+    valueField.selectable = true
+    valueField.alignment = NSLeftTextAlignment
+    valueField.font = [NSFont systemFontOfSize:11]
+    valueField.focusRingType = NSFocusRingTypeNone
+    [valueField cell].sendsActionOnEndEditing = true
+    [[window contentView] addSubview:valueField]
+    
+    var formatter = [[NSNumberFormatter alloc] init]
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:"0.#"];
+    [formatter setLocale:[NSLocale systemLocale]];
+    valueField.formatter = formatter
+    
+    return [valueField autorelease]
+}
+
+function jitterSliderAction()
+{
+    userJitter = jitterSlider.integerValue()
+    jitterField.floatValue = userJitter
+}
+
+function segmentsSliderAction()
+{
+    userSegments = segmentsSlider.integerValue()
+    segmentsField.floatValue = userSegments
+}
+
+function jitterFieldAction()
+{
+    userJitter = jitterField.floatValue()
+    userJitter = Math.max(0, Math.min(userJitter, 100))
+    
+    jitterSlider.floatValue = userJitter
+    jitterField.floatValue = userJitter
+}
+
+function segmentsFieldAction()
+{
+    userSegments = segmentsField.integerValue()
+    userSegments = Math.max(1, Math.min(userSegments, 10))
+    
+    segmentsSlider.floatValue = userSegments
+    segmentsField.floatValue = userSegments
+}

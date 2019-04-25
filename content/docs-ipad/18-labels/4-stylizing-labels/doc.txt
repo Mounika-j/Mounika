@@ -1,0 +1,31 @@
+Title: Stylizing Labels
+
+----
+
+Text: 
+
+# Stylizing Labels
+
+A label’s text font, size and style can be changed using the _**Label Style pane**_ inside the Label pane. Additionally, you can add and stylize a simple box bordering the label.
+
+(image: stylizinglabels1-ipad.jpg width:750)
+
+1. **Font** - Choose the font to be used for your label. Also, pick a style if the font allows it.
+
+2. **Font Size** - Set the font size to be used for the label.
+
+ (image: stylizinglabels2-ipad.jpg width:723)
+
+3. **Text Color** - Choose the text color. 
+
+4. **Background Color** - Set the color of the box bordering the text. Set the color to **none** to make it invisible.
+
+ (image: stylizinglabels3-ipad.jpg width:723)
+
+5. **Margin** - The margin setting adjusts the size of the box bordering the text, adding space between the text and the edges.
+
+6. **Corners** - Determines the roundness of the text box. Set this to **0 pt** to turn the box into a simple rectangle.
+
+ (image: stylizinglabels4-ipad.jpg width:723)
+
+Label styles can be easily saved in the (link: docs-iphone/styles text: _**Styles pane**_) and reused whenever you need them.

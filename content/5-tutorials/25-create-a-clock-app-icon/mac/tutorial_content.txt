@@ -1,0 +1,419 @@
+Text: 
+
+In the following tutorial, you will learn how to create a clock app icon in Picta Graphic for Mac. 
+
+For starters, you will learn how to set up a simple grid and how to create a simple background. Taking full advatange of the Effects pane, you will learn how to add shading and subtle highlights for the main shape. 
+
+Using some thin text along with some basic vector shape building techiques, you will learn how to create a simplified grid and a tiny bell icon. Finally, you will learn how to create the clock hands and how to easily adjust them using the Rotate Tool. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a new **680 x 680 pixel** document. Go to **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **680** pixels wide by **680** pixels high and then click **Choose** to create your document.
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **1**, set the **Subdivisions** to **0** and don't forget to enable **Snap to Grid**—all these features will make your work easier.
+(image: ClockAppIcon1.jpg)
+
+
+
+##Step 2
+
+Focus on the **Toolbar**, click  the stroke color well and drag the **Alpha** slider to **0%**, which will simply make the stroke invisible. 
+
+Pick the **Rectangle  Tool (M)**, focus on your canvas and create a **680 px** square. Holding the **Shift** key will make it a lot easier for you to create a perfect square.
+
+Make sure that your square covers the entire canvas, keep it selected and go to the **Effects** pane from the **Appearance** panel—click the leftmost inspector panel icon to open the **Appearance** panel whenever you want.Click the existing fill and replace the color with a linear gradient. Set the **Angle** to **135 degrees** and then move to the gradient color stops. Click the left one and set its color to **R=195 G=192 B=233**, and then click the right one and set its color to **R=241 G=240 B=255**. 
+(image: ClockAppIcon2.jpg)
+
+
+
+##Step 3
+
+Focus on the **Layers** panel for a moment. Double click the name of the existing layer and rename it &quot;_Bg_&quot;. Using the plus button from the bottom, left corner of the panel, add a second layer. Rename it &quot;_Frame_&quot; and make sure that it stays selected, as the new objects you are about to create will go here.
+
+Pick the **Rounded Rectangle Tool (Shift + M)** and set the **Corner Radius** to **55 pt**. Create a **256 x 256 px** shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIcon3.jpg)
+
+
+
+##Step 4
+
+Make sure that your rounded rectangle is still selected and open the **Alignment** pane from the **Properties** panel. Click the **Horizontal Centers** and the **Vertical Centers** commands to easily bring your selection in the center of the canvas. 
+
+(image: ClockAppIcon4.jpg)
+
+
+
+##Step 5
+
+Make sure that your rounded rectangle stay selected, focus on the **Effects** pane and activate the existing **Drop Shadow** effect. 
+
+Drag the **Size** slider to **0** and then click the color well that stands for this effect. Set the color to **R=53 G=52 B=92** and drag the **Alpha** slider to **5%**. 
+
+(image: ClockAppIcon5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a second **Drop Shadow** effect using that plus button and select it. Drag the **Size** slider to **0**, enter **4 pt** in the **Y** box, and then click the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **4%**. 
+
+(image: ClockAppIcon6.jpg)
+
+
+
+##Step 7
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+Add a third **Drop Shadow** effect and select it. Drag the **Size** slider to **0**, enter **6 pt** in the **Y** box, and then click the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **3%**. 
+
+(image: ClockAppIcon7.jpg)
+
+
+
+##Step 8
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a fourth **Drop Shadow** effect and select it. Drag the **Size** slider to **0**, enter **10** pt in the **Y** box, and then click the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **2%**. 
+
+(image: ClockAppIcon8.jpg)
+
+
+
+##Step 9
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Add a fifth **Drop Shadow** effect and select it. Drag the **Size** slider to **20 pt**, enter **10 pt** in the **Y** box, and then click the color well that stands for this new effect. Set the color to **R=54 G=52 B=93** and drag the **Alpha** slider to **15%**. 
+
+
+(image: ClockAppIcon9.jpg)
+
+
+
+##Step 10
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Shadow** effect and select it. Drag the **Size** slider to **10 pt**, enter **-10 pt** in the **Y** box, and then click the color well that stands for this  effect. Set the color to **R=165 G=165 B=210** and be sure that the **Alpha** slider is set to **100%**. 
+
+(image: ClockAppIcon10.jpg)
+
+
+
+##Step 11
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+Using that same plus button, add a second **Innner Shadow** effect and select it. Keep the **Size** slider to **5 pt**, enter **-5 pt** in the **Y** box, and then click the color well that stands for this  new effect. Set the color to **R=216 G=212 B=240** and drag the **Alpha** slider  to **70%**. 
+
+(image: ClockAppIcon11.jpg)
+
+
+
+##Step 12
+
+Make sure that your rounded rectangle is still selected and keep focusing on the **Effects** pane. 
+
+Activate the existing **Inner Glow** effect. Drag it right above those the **Inner Shadow** effects and select it. Change the **Blend Mode** to **Overlay** and drag the **Size** slider to **15 pt**, and then click the color well that stands for this effect. Set the color to white and drag the **Alpha** slider to **50%**. 
+
+(image: ClockAppIcon12.jpg)
+
+
+
+##Step 13
+
+Pick the **Ellipse Tool (O)** and create a **166 px** circle. Fill it with yellow and center it using the same **Horizontal Centers** and the **Vertical Centers** commands from the **Alignment** pane.
+ 
+Using the same tool, create a **136 px** circle. Fill it with black and center it. 
+
+(image: ClockAppIcon13.jpg)
+
+
+
+##Step 14
+
+Select your two circles, go to the **Path Tools** pane from the **Properties** panel and click the **Subtract** command. Fill the resulting shape with the linear gradient shown below. 
+
+(image: ClockAppIcon14.jpg)
+
+
+
+##Step 15
+
+Make sure that your circle is still selected, focus on the **Effects** pane and select the existing **Stroke**. Make sure that the **Width** is set to **1 pt**, change the **Position** to **Inside** and the **Blend** to **Soft Light**, and then click the color well that stands for this **Stroke**. Be sure that the color is set to black and drag the **Alpha** slider to **20%**. 
+
+(image: ClockAppIcon15.jpg)
+
+
+
+##Step 16
+
+Make sure that your circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Drop Shadow** effect and select it. Change the **Blend Mode** to **Soft Light** and drag the **Size** slider to **0**. Enter **1** in the **Y** box and then click the color well that stands for this effect. Change the color to white and drag the **Alpha** slider to **60%**. 
+
+(image: ClockAppIcon16.jpg)
+
+
+
+##Step 17
+
+Pick the **Ellipse Tool (O)** and create a **100 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIcon17.jpg)
+
+
+
+##Step 18
+
+Using the **Ellipse Tool (O)**, create a **21 px** circle. Fill it with **R=152 G=66 B=254** and place it about as shown in the following image. Make sure that it stays selected, focus on the **Effects** pane and apply the **Drop Shadow** effect shown below. 
+
+(image: ClockAppIcon18.jpg)
+
+
+
+##Step 19
+
+Make sure that your purple circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIcon19.jpg)
+
+
+
+##Step 20
+
+Pick the **Rounded Rectangle Tool (Shift-M)** and set the **Corner Radius** to **5 pt**. Create a **9 x 3 px** shape, fill it with **R=234 G=232 B=252** and place it about as shown in the first image. 
+
+Using the same tool, create a **5 x 8 px** shape and place it as shown in the second image. 
+
+(image: ClockAppIcon20.jpg)
+
+
+
+##Step 21
+
+Using  the **Ellipse Tool (O)**, create a **3 px**  and a **1 px** circle. Fill both shapes with **R=234 G=232 B=252** and place them as shown in the following images. 
+
+(image: ClockAppIcon21.jpg)
+
+
+
+##Step 22
+
+Pick the **Rectangle Tool (M)** and create a **5 x 1 px** shape. Fill it with **R=152 G=65 B=254** and place it as shown in the first image. Keep focusing on this tiny rectangle and pick the **Path Selection Tool (A)**. Select the bottom, right anchor point and remove it using the **Delete** key. 
+
+Reselect the **Rectangle Tool (M)** and create a another  **5 x 1 px** shape. Fill it with **R=152 G=65 B=254** and place it as shown in the third image. Switch back to the **Path Selection Tool (A)** and delete top, left anchor point. In the end, things should look like in the fourth image. 
+(image: ClockAppIcon22.jpg)
+
+
+
+##Step 23
+
+
+Focus on the **Layers** panel and add a third layer. Name it &quot;**Grid&amp;Text**&quot; and select it. 
+
+Pick the **Ellipse Tool (O)**, create a **4 px** circle and fill it with **R=147 G=144 B=202**. Center this new shape vertically using the **Vertical Centers** command from the **Alignment** pane and then drag it **10 px** below that purple-pink shape. Make a copy of this tiny circle or create a new one, center it vertically and drag it **10 px** above that purple-pink shape. 
+
+Create a third **4 px** circle and fill it with the same color. Center this shape horizontally using the **Horizontal Centers** command and drag it **10** left from that purple-pink shape. Make a copy of this circle and drag it **10 px** right  from that purple-pink shape. In the end, things should look like in the following image. 
+(image: ClockAppIcon23.jpg)
+
+
+
+##Step 24
+
+Select the four tiny circles and rotate them **45 degrees** using the **Rotate Tool (R)**. Holding the **Shift** key while draggin will constrain the rotation to **15 degrees** increment. 
+
+(image: ClockAppIcon24.jpg)
+
+
+
+##Step 25
+
+Pick the **Type Tool (T)**, click on your canvas and go to the **Text** pane from the **Appearance** panel. Select the **Helvetica Neue font**, change the style to **Thin** and set the size to **25 pt**. Type the &quot;<em>12</em>&quot; piece  of text and set its color to **R=146 G=144 B=202** . Place your text as shown in the first image and then add the other three pieces as shown in the second image. 
+
+(image: ClockAppIcon25.jpg)
+
+
+
+##Step 26
+
+Pick the **Ellipse Tool (O)** and create a **30 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIcon26.jpg)
+
+
+
+##Step 27
+
+Focus on the **Layers** panel and add a fourth layer. Name it &quot;**Hands**&quot; and select it. 
+
+Using  the **Ellipse Tool (O)**, create a **16 px** cirle, fill it with green and center it. Using the same tool, create a **6 px** green circle. Center it vertically and drag it **10 px** below the  top side of that purple-pink shape, as shown in the first image.
+
+Pick  the **Rectangle Tool (M)** and create a **16 x 55 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool (A)**. Select both anchor points and switch to the **Scale Tool (S)**. Hold the **Shift** key and drag the selected anchor points **5 px** from outside to the inside as shown in the third image. 
+
+(image: ClockAppIcon27.jpg)
+
+
+
+##Step 28
+
+Select the yellow shape along with the two green circles and click the **Union** command from the **Path Tools** pane. 
+
+(image: ClockAppIcon28.jpg)
+
+
+
+##Step 29
+
+Using  the **Ellipse Tool (O)**, create a **16 px** cirle, fill it with blue and center it. Using the same tool, create a **6 px** blue circle. Center it vertically and drag it **4 px** above that purple-pink shape, as shown in the first image.
+
+Pick  the **Rectangle Tool (M)** and create a **16 x 90 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool (A)**. Select both anchor points and switch to the **Scale Tool (S)**. Hold the **Shift** key and drag the selected anchor points **5 px** from outside to the inside as shown in the third image. 
+
+
+(image: ClockAppIcon29.jpg)
+
+
+
+##Step 30
+
+Select the yellow shape along with the two blue circles and click the **Union** command from the **Path Tools** pane. 
+
+(image: ClockAppIcon30.jpg)
+
+
+
+##Step 31
+
+Using  the **Ellipse Tool (O)**, create a **6 px** circle and fill it with red. Center this new shape vertically and then drag it **6 px** below the blue shape, as shown in the first image. Using the same tool, create a **2 px** red circle. Center it vertically and place it as shown in the first image. 
+
+Pick  the **Rectangle Tool (M)** and create a **6 x 10 px** shape. Fill it with yellow and place it as shown in the second image. Focus on the top side of this new rectangle and pick the **Path Selection Tool (A)**. Select both anchor points and switch to the **Scale Tool (S)**. Hold the **Shift** key and drag the selected anchor points **2 px** from outside to the inside as shown in the third image. 
+
+(image: ClockAppIcon31.jpg)
+
+
+
+##Step 32
+
+Select the yellow shape along with the two red circles and click the **Union** command from the **Path Tools** pane. 
+
+(image: ClockAppIcon32.jpg)
+
+
+
+##Step 33
+
+Pick the **Ellipse Tool (O)** and create a **16 px** circle. Center this new shape and fill it with the linear gradient shown below. 
+
+(image: ClockAppIcon33.jpg)
+
+
+
+##Step 34
+
+Pick the **Ellipse Tool (O)** and create a **6 px** circle. Center this new shape and fill it with white. Make sure that it stays selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIcon34.jpg)
+
+
+
+##Step 35
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Add a second **Drop Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIcon35.jpg)
+
+
+
+##Step 36
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Activate the existing **Inner Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIcon36.jpg)
+
+
+
+##Step 37
+
+Make sure that your white circle is still selected and keep focusing on the **Effects** pane. Add a second **Inner  Shadow** effect, select it and enter the attributes shown below. 
+
+(image: ClockAppIcon37.jpg)
+
+
+
+##Step 38
+
+Pick the **Ellipse Tool (O)** and create a **2 px** circle. Center this new shape and fill it with **R=87 G=87 B=87**.
+
+(image: ClockAppIcon38.jpg)
+
+
+
+##Step 39
+
+Select your red  shape and pick the **Rotate Tool (R)**. Using a simple click, move the reference point in the center of your canvas. Once you're done, simply click and drag to rotate your selection **-285 degrees** as shown in the second image. 
+
+(image: ClockAppIcon39.jpg)
+
+
+
+##Step 40
+
+Make sure that your red shape is still selected and focus on the **Effects** pane. First, change the fill color to **R=237 G=110 B=97**, and then activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: ClockAppIcon40.jpg)
+
+
+
+##Step 41
+
+Select your blue shape and pick the **Rotate Tool (R)**. Move the reference point in the center of the canvas and then rotate your selection **-60 degrees** as shown in the first image. 
+
+Make sure that your blue shape stays selected and focus on the **Effects** pane. First, change the fill color to **R=105 G=103 B=140**, and then activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: ClockAppIcon41.jpg)
+
+
+
+##Step 42
+
+Select your green shape and pick the **Rotate Tool (R)**. Move the reference point in the center of the canvas and then rotate your selection **-135 degrees** as shown in the first image. 
+
+Make sure that your green shape stays and focus on the **Effects** pane. First, change the fill color to **R=105 G=103 B=140** and then activate the existing **Drop Shadow** effect and enter the attributes shown below.
+
+(image: ClockAppIcon42.jpg)
+
+
+
+##Step 43
+
+Return to the **Layers** panel and select your &quot;_Bg_&quot; layer. Pick the **Rounded Rectangle Tool (Shift-M)** and set the **Corner Radius** to **75 pt**. Create a **200 x 225 px** shape and place it as shown in the following image. Fill this  new shape with the linear gradient shown below and lower its **Opacity** to **80%**. 
+
+(image: ClockAppIcon43.jpg)
+
+
+
+##Step 44
+
+Make sure that the shape made in the previous step is still selected and focus on the **Effects** pane. Activate the **Blur** effect, drag the **Size** slider to **25 pt** and you're done. 
+
+(image: ClockAppIcon44.jpg)
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own.
+
+(image: ClockAppIcon0.jpg)
+(image: ClockAppIcon0B.jpg)
+
+----
+
+Title: Mac

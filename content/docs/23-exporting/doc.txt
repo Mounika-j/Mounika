@@ -1,0 +1,43 @@
+Title: Exporting
+
+----
+
+Text: 
+
+# Exporting
+
+Once finished with a design, you can export it as an image or vector-based file. When ready to export, go to **File > Export...** [**⌘** - **⌥** - **E**] to bring up the _**Export**_ pop-up window.
+
+(image: exporting1.jpg width:750)
+
+1. **File Format** - Pick the file format to be used for the document you are about to export. 
+ #{#entire-canvas}
+2. **Include** - Select the content that your exported file should contain. 
+
+ Select _**Entire Canvas**_ to include the grid and the background in your exported file. 
+
+ Select _**All Objects**_ to export only your artwork. Using this option you can export a design with a transparent background. Only files in (link: docs/new-documents#colorMode text: _**RGB color mode**_) can be exported as PNG or TIFF with transparent background. Certain formats do not support transparent backgrounds, such as JPEG. When exporting to these formats, the background color will be white in transparent areas. 
+
+ Select _**Selected Objects**_ to only export the objects selected before opening the _**Export**_ pop-up window.
+
+3. **Scale** - Scale of your exported document.
+
+4. **Image Resolution** - Set the image resolution to be used for your exported file.
+
+5. _**Quality**_ - Set the quality of the exported file. This option is only available when you’re exporting your document as a JPEG file. Lowering the quality will decrease the file size.
+
+
+**Image Export**
+Export a design as an image using the PNG, GIF, JPEG or TIFF formats.
+
+(image: exporting2.jpg width:750)
+&nbsp;
+**Vector Export**
+Export a design as an SVG or PDF file. These vector-based files can be imported and edited in other vector illustration applications.
+
+(image: exporting3.jpg width:750)
+&nbsp;
+**PSD Export**
+Export a design as a Photoshop PSD file.
+
+(image: exporting4.jpg width:750)

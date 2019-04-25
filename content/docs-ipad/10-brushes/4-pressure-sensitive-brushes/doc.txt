@@ -1,0 +1,19 @@
+Title: Pressure Sensitive Brushes
+
+----
+
+Text: 
+
+# Pressure Sensitive Brushes
+
+Pressure sensitivity determines the width variation of the brush that you are about to draw. It's done by applying  different pressure on the surface of your iPad using an Apple pencil. 
+
+(image: pressuresensitivebrushes1-ipad.jpg width: 750)
+
+The switch button from the bottom of the _**Brush Settings pane**_ or the _**Brush pane**_ gives you the possibility to enable or disable the _**Pressure**_ feature. 
+
+(video: pressuresensitivebrushes2-ipad.mp4 width: 750)
+
+The contour of a path can be adjusted after it's drawn using the _**Brush Settings pane**_ or the _**Brush pane**_.
+
+(video: pressuresensitivebrushes3-ipad.mp4 width: 750)

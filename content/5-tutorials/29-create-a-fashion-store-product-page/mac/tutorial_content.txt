@@ -1,0 +1,325 @@
+Text: 
+
+In the following tutorial you will learn how to create a fashion store product page in Graphic for Mac. 
+
+For starters you will learn how to set up a simple grid and how to import &amp; edit photos in Graphic. You will learn how to mask shapes or images and how to easily adjust them. Using basic tools, you will learn how to create the main vector shapes. Moving on, you will learn how to add subtle shading using the Effects pane and how to cleverly use the Label feature. 
+
+You'll learn how to increase your work speed with the aid of the Snap to Grid and the Smart Guides features and how to add and adjust text fields. Finally, you will learn how to import and edit several SVG files. 
+
+
+
+
+
+##Step 1
+
+For this tutorial we'll create a **3000 x 1900 px** document. Go to **File &gt; New (Command + N)** to bring up the **New Document** panel. Select the **Grid** document style and set the document units to **pixels**. Set the document dimensions to **3000** pixels wide by **1900** pixels high and then click **Choose** to create your document. 
+
+Next, we'll adjust the document grid. Switch to the **Grid** pane in the **Properties** panel. You can easily open or close the **Properties** panel using that ruler icon. Change the **X** &amp; **Y Spacing** to **10**, set the **Subdivisions** to **0** and don't forget to enable **Snap to Grid**—all these features will make your work easier.
+
+Keep in mind that you can quickly enable or disable the grid and the **Snap to Grid** feature using the  **Command + '** and the  **Command + Shift + '** keyboard shortcuts. 
+
+(image: FashionStorePage1.jpg)
+
+
+
+##Step 2
+
+Open your web browser and download the **3888 x 2592** version of [this jeans photo](https://pixabay.com/en/jeans-vintage-zara-boyfriends-792049/#_=_). 
+
+(image: FashionStorePage2.jpg)
+
+
+
+##Step 3
+
+Simply drag the jeans photo inside your Graphic document and make sure that it stays selected.
+
+Go to the **Geometry** pane from the **Properties** panel. Make sure that the aspect ratio is locked and simply set the **Width** to **3360 px**. 
+
+Move to the **Alignment** pane from the **Properties** panel and then click the **Horizontal Centers** and the **Vertical Centers** commands to easily move your image in the center of the canvas.  
+
+(image: FashionStorePage3.jpg)
+
+
+
+##Step 4
+
+Make sure that your image is still selected and go to the **Effect** pane from the **Appearance** panel – click the leftmost inspector panel icon to open or close the **Appearance** panel whenever you want. 
+
+Focus on the existing **Blur** effect and check its little checkbox to activate it. Click this effect to expand it and drag that **Radius** slider to **25 pt**.
+
+With your image still selected, simply hit **Command + C** to copy it. Alternatively, you can right click anywhere on your canvas and go to **Copy**. 
+
+(image: FashionStorePage4.jpg)
+
+
+
+##Step 5
+
+Pick the **Move Tool (V)**, and click outside your selected image to deselect it. Focus on the **Toolbar** and click the **Stroke** color well. Drag the **Alpha** slider to **0%** which will simply make your **Stroke** invisible. Click the **Fill** color well and replace the existing color with **R=36 G=36 B=65**. 
+
+Pick the **Rectangle Tool (M)**, focus on your canvas and create a **2700  x 1600 px** shape. Make sure that it stays selected and move it to the center of the canvas using the same **Horizontal Centers** and the **Vertical Centers** commands from the **Alignment** pane. 
+
+(image: FashionStorePage5.jpg)
+
+
+
+##Step 6
+
+Make sure that your rectangle is still selected and focus on the **Effects** pane from the **Appearance** panel. 
+
+Activate the existing **Drop Shadow** effect and expand it. Enter **0 pt** in the **X** box and **50 pt** in the **Y** box, drag that **Size** slider to **50 pt**, and then click the color well of this effect. Replace the existing color with **R=33 G=33 B=63** and drag that **Alpha** slider to **80%**. 
+
+(image: FashionStorePage6.jpg)
+
+
+
+##Step 7
+
+Open the **Layers** panel and add a second layer using the plus button from the bottom of the panel. Make sure that this new layer stays selected, as the new shapes you are about to create will go here.
+
+Return to your **Toolbar** and set the **Fill** color to **R=139 G=195 B=0**. Using the **Rectangle Tool (M)**, create a **1340 x 1600 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePage7.jpg)
+
+
+
+##Step 8
+Simply hit **Command + V** to add a copy of that jeans photo. Make sure that this copy stays selected, go to the **Effects** pane and disable that **Blur** effect. 
+
+Move to the **Geometry** pane and set the **Width** to **2430 px**. Focus on the **Position** attributes to numerically position your selection horizontally to **1020 px** and vertically to **140 px**. 
+Once you're done, hit **Command + X** to cut your photo. 
+
+(image: FashionStorePage8.jpg)
+
+
+
+##Step 9
+
+Using the **Move Tool (V)**, select your green rectangle and simply hit **Control + Command + V** (or go to **Edit &gt; Paste Inside**) to paste the photo cut in the previous step inside your green shape. Your green shape will act as a mask. 
+
+(image: FashionStorePage9.jpg)
+
+
+
+##Step 10
+
+Keep in mind that you can always adjust your masked photo. All you have to do is double click on it using the **Move Tool (V)** and then you can easily move or resize it as you wish. 
+
+(image: FashionStorePage10.jpg)
+
+
+
+##Step 11
+
+Focus on your **Toolbar** and set the **Fill** color to **R=239 G=237 B=235**. Pick the **Rectangle Tool (M)**, create a **1360 x 1600 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePage11.jpg)
+
+
+
+##Step 12
+
+Focus on your **Toolbar** and set the **Fill** color to **R=249 G=247 B=245**. Pick the **Rectangle Tool (M)**, create a **1360 x 200 px** shape and place it as shown in the first image. 
+
+Using the same tool, create a **1360 x 250 px** shape and place it as shown in the second image. 
+
+(image: FashionStorePage12.jpg)
+
+
+
+##Step 13
+
+Focus on your **Toolbar** and set the **Fill** color to **R=248 G=188 B=48**. Pick the **Rectangle Tool (M)**, create a **500 x 150 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePage13.jpg)
+
+
+
+##Step 14
+
+Make sure that your yellow rectangle is selected and focus on the **Effects** pane. Activate the existing **Drop Shadow** effect and enter the attributes shown below. 
+
+(image: FashionStorePage14.jpg)
+
+
+
+##Step 15
+
+Make sure that your yellow rectangle stays selected and focus on the **Label** pane from the **Appearance** panel. 
+
+Add a **Text Label** and enter the &quot;_BUY NOW_&quot; piece of text. Select **Centered** from that **Align** menu and then switch to the **Text** pane. Select the **Helvetica Neue font**, change the **Style** to **UltraLight**, set the **Size** to **50 pt** and adjust that **Label Color** to **R=249 G=247 B=245**. In the end your yellow shape should look like in the following image.
+
+(image: FashionStorePage15.jpg)
+
+
+
+##Step 16
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Select the [**League Spartan font**](https://www.fontsquirrel.com/fonts/league-spartan) and set the **Size** to **80 pt**. Change the **Text Color** to **R=33 G=33 B=63** and make sure that the **Text Alignemnt** is set to **Left**. 
+
+Click on your canvas and add the &quot;_Vintage Slim Low Jeans_&quot; piece of text. Use the **Move Tool (V)** to stretch this text field to **1000 px** wide and **150 px** tall, and then place it as shown in the following image. 
+
+(image: FashionStorePage16.jpg)
+
+
+
+##Step 17
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Use the same font, but lower the **Size** to **60 pt** and change the **Text Color** to **R=248 G=188 B=48**.
+
+Click on your canvas and add the &quot;_$ 119.90_&quot; piece of text. Use the **Move Tool (V)** to stretch this text field to **300 px** wide and **100 px** tall, and then place it as shown in the following image. Feel free to enable the **Smart Guides** feature (**Command + U** or **View &gt; Smart Guides**) to align your piece of text easier and faster. 
+
+(image: FashionStorePage17.jpg)
+
+
+
+##Step 18
+
+Pick the **Text Tool (T)** and focus on the **Tool Options** bar. Select the [**Montserrat font**](https://www.fontsquirrel.com/fonts/montserrat) and change the **Style** to **Thin**. Set the **Size** to **25 pt** and change the **Text Color** to black (**R=0 G=0 B=0**).
+
+Create a **900 x 300 px** text filed and enter a few paragraphs. Using the **Move Tool (V)** and the **Smart Guides** feature, position this new piece of text as shown in the following image. 
+
+(image: FashionStorePage18.jpg)
+
+
+
+##Step 19
+
+Open the **Layers** panel, add a new layer and make sure that it stays selected. 
+
+Return to your **Toolbar** and set the **Fill** color to **R=139 G=195 B=0**. Pick the **Rectangle Tool (M)** and create four **100 px** squares. Place these new shapes as shown in the following image. 
+
+(image: FashionStorePage19.jpg)
+
+
+
+##Step 20
+
+Download this [set of SVG icons](https://www.flaticon.com/packs/free-basic-ui-elements). Select the _right-arrow-1.svg_ file and drag it inside your Graphic document. 
+
+First, you need to **Ungroup** the two shapes that make up your arrow icon. Go to the **Layers** panel, expand your selected layer and you'll see the group. Select it,  hit **Shift + Command + G** (**Arrange &gt; Ungroup**) and then go to the **Path Tools** pane from the **Properties** panel and click that **Make Compound Path** command (**Command + K**). This will combine the two shapes into a single object, making it easier for you to select or edit it. 
+
+(image: FashionStorePage20.jpg)
+
+
+
+##Step 21
+
+Make sure that your arrow icons stays selected, focus on the **Toolbar** and replace the existing **Fill** color with **R=249 G=247 B=245**. 
+
+Move to the **Geometry** pane, lock the aspect ratio and set the **Width** to **100 px**. Position your arrow icon as shown in the first image and pick the **Rotate Tool (R)**. 
+
+Go to the **Tool Options** bar, set the **Angle** to **180 degrees** and  click that **Copy** button to add a horizontally flipped copy of your arrow icon. Using the **Move Tool (V)**, move this new shape as shown in the third image. 
+
+(image: FashionStorePage21.jpg)
+
+
+
+##Step 22
+
+Select the _search.svg_ file and drag it inside your Graphic document, on top of that top-right green square. 
+
+ **Ungroup** this new shape (**Shift + Command + G**), make sure that it stays selected and focus on the **Geometry** pane. Lock the aspect ratio and set the **Width** to **60 px**. Move to your **Toolbar** and replace the existing **Fill** color with **R=209 G=207 B=205**.
+ 
+(image: FashionStorePage22.jpg)
+
+
+
+##Step 23
+
+
+Using the **Move Tool (V)**, select your magnifier icon along with that green square and go to the **Alignment** pane. Click the **Horizontal Centers** and the **Vertical Centers** commands to easily move your magnifier icon in the center of that green square. 
+
+(image: FashionStorePage23.jpg)
+
+
+
+##Step 24
+
+Select the _settings-1.svg_ file and drag it inside your Graphic document, on top of that top-left green square. **Ungroup** the two shapes that make up this icon, turn them into a compound path and change the **Fill** color to **R=209 G=207 B=205**. Set the **Width** and **Height** of this icon to **60 px**, and then move it in the center of the green square as shown in the first image. 
+
+Once you're done, select all four green squares and delete them using the **Delete** key (or the **Backspace** key). 
+
+(image: FashionStorePage24.jpg)
+
+
+
+##Step 25
+
+Focus on your **Toolbar** and set the **Fill** color to **R=239 G=237 B=235**. Pick the **Rectangle Tool (M)**, create a **100 x 80 px** shape and place it as shown in the following image. 
+
+(image: FashionStorePage25.jpg)
+
+
+
+##Step 26
+
+Make sure that your tiny new rectangle stays selected and focus on the **Label** pane. 
+
+Add a **Text Label** and enter the &quot;_SIZE_&quot; piece of text. Select **Centered** from that **Align** menu and then switch to the **Text** pane. Select the **Helvetica Neue font**, change the **Style** to **Bold**, set the **Size** to **20 pt** and adjust that **Label Color** to **R=209 G=207 B=205**. In the end things should look like in the following image.
+
+(image: FashionStorePage26.jpg)
+
+
+
+##Step 27
+
+Focus on your **Toolbar** and set the **Fill** color to **R=249 G=247 B=245**. Pick the **Rectangle Tool (M)**, create a **100 px** square and place it as shown in the following image. 
+
+(image: FashionStorePage27.jpg)
+
+
+
+##Step 28
+
+Make sure that your new square stays selected and focus on the **Label** pane. 
+
+Add a **Text Label** and enter the &quot;_L_&quot; piece of text. Select **Centered** from that **Align** menu and then switch to the **Text** pane. Select the **Helvetica Neue font**, change the **Style** to **Light**, set the **Size** to **40 pt** and adjust that **Label Color** to **R=33 G=33 B=63**. In the end things should look like in the following image.
+
+(image: FashionStorePage28.jpg)
+
+
+
+##Step 29
+
+Using the **Rectangle Tool (M)**, create another two **100 px** squares and place them as shown in the following image. 
+
+(image: FashionStorePage29.jpg)
+
+
+
+##Step 30
+
+Select the _heart.svg_ file and drag it inside your Graphic document, on top of that right **100 px** square. 
+
+**Ungroup** this new shape and change its **Fill** color to **R=209 G=207 B=205**. Open the **Geometry** pane and lock the aspect ratio. Set the **Height** of this icon to **30 px** and then move it in the center of the square as shown below. 
+
+(image: FashionStorePage30.jpg)
+
+
+
+##Step 31
+
+Select the _speech-bubble.svg_ file and drag it inside your Graphic document, on top of that left **100 px** square. 
+
+**Ungroup** the three shapes that make up this icon, turn them into a compound path and change the **Fill** color to **R=209 G=207 B=205**. Open the **Geometry** pane and lock the aspect ratio. Set the **Height** of this icon to **30 px** and then move it in the center of the square as shown below. 
+
+(image: FashionStorePage31.jpg)
+
+
+
+
+
+
+##Finished Design
+
+Congratulations, you've finished the tutorial! 
+
+Hope you've enjoyed learning some of the techniques and processes presented in these steps. As always, feel free to adjust the final design and make it your own. 
+
+(image: FashionStorePage0.jpg)
+
+----
+
+Title: Mac

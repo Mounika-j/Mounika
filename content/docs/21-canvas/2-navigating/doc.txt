@@ -1,0 +1,45 @@
+Title: Navigating
+
+----
+
+Text: 
+
+# Navigating the Canvas
+
+Use the scroll-wheel on your mouse or a trackpad to scroll in any direction. 
+
+Holding down the _**Spacebar**_ key activates the _**Hand tool**_ which gives you the possibility to click and drag to move the visible area of the canvas. Simply release the _**Spacebar**_ key and you will return to the original tool. Alternatively, you can select the _**Hand tool**_ from your _**Toolbar**_.
+
+(video: navigatingcanvas1.mp4 width:750)
+
+
+> Tip: Use the **H** keyboard shortcut to quickly select the **Hand tool**. 
+
+
+# Zooming {#zoom}
+
+Choose the _**Zoom tool**_ to zoom in or zoom out the view of the canvas.
+
+Click on the canvas with the zoom tool selected to zoom in. Hold the **Option ⌥** key down while clicking to zoom out. Click and drag to create a zoom area if you wish to zoom in on a specific spot from your canvas. The smaller the zoom area the bigger the zoom level.
+
+> Tip: Use the **Z** keyboard shortcut to quickly select the **Zoom tool**. 
+
+Hold down the **Spacebar** and then press the **Command ⌘** key to temporary activate the Zoom tool. Click to incrementally zoom in to the location of the cursor or click-and-drag to draw a zoom area. Scroll/swipe up or down to quickly increase or decrease the zoom level.
+
+Hold down the **Spacebar** and then press the **Command ⌘** and **Option ⌥** keys and click on the canvas to incrementally zoom out from the location of the cursor .
+
+Alternatively, you can go to _**View**_ in the menu bar and use one of the five _**Zoom**_ commands:
+
+**View > Zoom In** [**⌘** - **+**] - zooms in
+
+**View > Zoom Out** [**⌘** - **−**] - zooms out. 
+
+**View > Zoom to Fit** [**⌘** - **0**] - brings the zoom to a level that makes the entire canvas visible.
+
+**View > Zoom to Actual Size** [**⌘** - **1**] - brings the zoom level to 100%.
+
+**View > Zoom to Selection** [**⌘** - **2**] - zooms in on the currently selected objects.
+
+(video: navigatingcanvas2.mp4 width:750)
+
+The popup button on the bottom left side of the canvas frame indicates the current zoom level and can also be used to change the zoom level. The maximum zoom level is _6400%_, and the minimum is _10%_.

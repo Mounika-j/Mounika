@@ -1,0 +1,19 @@
+Title: Deleting Path Points
+
+----
+
+Text: 
+
+# Deleting Path Points
+
+The _**Pen tool**_ can also be used to remove points from any path. Use the settings in the _**Tool pane**_ to change the Pen tool from the default path creation mode, to the _**Delete Points**_ mode.
+
+(image: deletingpathpoints1-iphone.jpg width: 750)
+
+Remember to first select the path to edit using the Move or Path Selection tools. After choosing the _**Delete Points**_ mode, simply tap on any anchor point in the selected path to delete that point.
+
+(video: deletingpathpoints2-iphone.mp4 width: 750)
+
+Alternatively, anchor points can be also removed from a path by selecting them with the _**Path Selection tool**_ and pressing the _**Delete**_ button from the _**Titlebar**_.
+
+(video: deletingpathpoints3-iphone.mp4 width: 750)

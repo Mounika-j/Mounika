@@ -1,0 +1,22 @@
+Title: Lines
+
+----
+
+Text: 
+
+# Lines
+
+Choose the _**Line tool**_ to draw line segments. Besides creating plain lines, it can also be used to create (link: docs/shapes/arrowed-lines text: _**arrowed lines**_) and (link: docs/shapes/dimension-lines text: _**dimension lines**_). 
+
+The settings in the _**Tool Options bar**_ can be used to change the Line tool from the default _**Plain Line**_ mode, to the (link: docs/shapes/arrowed-lines text: _**Arrowed Line**_) or (link: docs/shapes/dimension-lines text: _**Dimension Line**_) modes.
+
+(image: lines1.jpg  width: 750)
+
+
+>Tip: Use the **L** keyboard shortcut to quickly select the **Line tool**. 
+
+
+Simply click and drag to create your line. Hold the **Shift ⇧** key while dragging to easily create horizontal, vertical or 45° lines.
+
+
+(video: lines2.mp4 width: 750)

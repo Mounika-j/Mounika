@@ -1,0 +1,25 @@
+Title: Arcs
+
+----
+
+Text: 
+
+# Arcs
+
+Choose the _**Arc tool**_ to draw arc segments. The settings in the _**Tool Options bar**_ can be used to change the Arc tool from the default _**Arc**_ mode, to the _**Circular Arc**_ mode. Using the drop-down menu that lies next to those buttons you can set your new arcs to be _**Opened**_ or _**Closed**_.
+
+(image: arcs1.jpg  width: 750)
+
+> Tip: Use the **K** keyboard shortcut to quickly select the **Arc tool**. 
+
+Simply click and drag inside your canvas to create a new arc. Hold down the **Shift ⇧** key while dragging to easily create a perfect arc.
+
+(video: arcs2.mp4 width: 750)
+
+The start and end points of an arc’s path can be edited with the (link: docs/paths/editing-path-points text: _**Path Selection tool**_). As with lines, and other paths, you can customize the appearance of arcs using the (link: docs/effects/strokes#stroke-pane text: _**Stroke pane**_) and the (link: docs/labels/adding-labels text: _**Label pane**_) from the _**Appearance panel**_.
+
+When using the _**Circular Arc**_ mode you need to first click and drag to create the path that will be the radius of your circle arc — the starting point will be the center. Release the mouse button and then drag your cursor around this path to get an outline of the circle arc that you are about to create. Click once you are happy with the look of your circular arc.
+
+(video: arcs3.mp4 width: 750)
+
+Hold down the **Shift ⇧** key while moving your cursor to constrain the angle to 15˚ increments.

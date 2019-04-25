@@ -1,0 +1,15 @@
+Title: Saving Documents
+
+----
+
+Text: 
+
+# Saving Documents
+
+Tap the menu button from the _**Titlebar**_ when you're done editing a document. Tap the _**Save**_ button to save your work. Whenever you make changes to a document and save them, the document is moved at the top of the list in the _**Documents Browser**_.
+
+(video: savingdocuments1-iphone.mp4  width: 750)
+
+Tap the _**Save a Copy**_ button to keep the original document untouched and save a copy of the document with the changes. The new document will be added at the top of the list in the _**Documents Browser**_. 
+
+(video: savingdocuments2-iphone.mp4  width: 750)
