@@ -16,22 +16,22 @@
 	
 			<?php if($page->hasNextVisible()) {
 	
-			echo('<p><em>Next: <a href="');
+			echo('<p>Next: <a class="path-link" href="');
 			echo ($page->next()->url());
-			echo('"><strong>');
+			echo('">');
 			echo($page->next()->title());
-			echo('</strong></a></em></p>');
+			echo(' > </a></em></p>');
 			
 			go($page->next()->url());
 	
 			}
 			else if($page->hasChildren()) {
 	
-			echo('<p><em>Next: <a href="');
+			echo('<p>Next: <a  class="path-link" href="');
 			echo ($page->children()->first()->url());
-			echo('"><strong>');
+			echo('">');
 			echo($page->children()->first()->title());
-			echo('</strong></a></em></p>');
+			echo(' > </a> </p>');
 			
 			go($page->children()->first()->url());
 			

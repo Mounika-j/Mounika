@@ -32,71 +32,46 @@ p{
     }
     .iphone-carousel-wrap{
         position: static;
-        .iphone-carousel-block{
-            background-color: #fff;
-            text-align: center;
-            
-            .carousel-block{
-                .carousel-inner-wrap{
-                    padding: 0 30px;
-                    .header-image-wrapper{
-                        height: 500px;
-                        display: flex;
-                        justify-content: space-evenly;
-                        flex-direction: column;
-                        @media (min-width: 768px) {
-                            height: 700px;
-                        }
-                    }
-                    .carousel-header-section{
-                        margin-bottom: 25px;
-                       
-                    } 
-                    .iphone-image{
-                        margin-bottom: 50px;
+        .iphone-wrap{
+            .flexslider {
+                width: 100%;
+            }
+            .iphone-slider{
+                position: relative;
+
+                .slides-wrapper {
+                    li{
                         img{
                             width: 100%;
                         }
                     }
-                    .text-boxes-block{
-                       @media (min-width: 768px) {
-                           display: flex;
-                           justify-content: space-between;
-                           align-items: center;
-                           flex-wrap: wrap;
-                           margin-top: 25px;
-                           
-                       }
+                }
+                .flex-control-nav.flex-control-paging{
+                    bottom: -70px;
+                    @media (max-width: 767px) {
+                        bottom: -75px;
+                    }
+                    li a{
+                        border-radius: 0;
+                        background-color: #e3dfdf;
+                        border-radius: 4px;
+                        &.flex-active{
+                            background-color: #3d3c4f;
+                        }
                     }
                 }
-                .clone{
-                    display: none;
-                }
             }
-            .flex-control-nav.flex-control-paging{
-                position: absolute;
-                bottom: auto;
-                top: 36.5%;
-                @media (min-width: 768px){
-                    top: 53.5%;
+            .flex-direction-nav {
+                .flex-prev{
+                    left: -10%;
+                    @media (min-width: 768px) and (max-width: 1024px) {
+                        left: -20%;
+                    }
                 }
-
-                @media (min-width: 1025px){
-                    top: 66.5%;
-                }
-                @media (max-width: 539px){
-                    top: 34%;
-                }
-                @media (max-width: 424px){
-                    top: 31.5%;
-                }
-
-                li a{
-                    border-radius: 0;
-                    background-color: #f5f5f5;
-                    border-radius: 4px;
-                    &.flex-active{
-                        background-color: #3d3c4f;
+                .flex-next{
+                    right: -10%;
+                    @media (min-width: 768px) and (max-width: 1024px) {
+                        right: -20%;
                     }
                 }
             }
@@ -135,6 +110,7 @@ p{
         height: auto;  
     }
 }
+
 .text-box-wrap{
     background-color: #f5f5f5;
     border-radius: 25px;
@@ -145,14 +121,17 @@ p{
     margin-bottom: 15px;
     @media (min-width: 768px){
         width: 45%;
-        height: 260px;
+        height: 310px;
     }
-    @media (min-width: 1025px){
+    @media (min-width: 1024px){
         width: 30%;
-        height: 300px;
+        height: 325px;
         margin-bottom: 0;
     }
-    svg{
+    p{
+        text-align: center;
+    }
+    img{
         width: 50px;
     }
     .sub-title{
@@ -170,6 +149,15 @@ p{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media (max-width: 767px){
+            .text-box-wrap:nth-child(even){
+                margin-bottom: 40px;
+                margin-top: -20px;
+            }
+            .text-box-wrap:nth-child(2){
+                margin-top: 0px;
+            }
+        }
         .text-box-wrap{
             padding: 20px;
             width: 48%;
@@ -215,3 +203,87 @@ p{
        
     }
 }
+.icon-branded-section{
+    img{
+        @media (min-width: 768px) {
+            width: 135px;
+        }
+    }
+    .text strong{
+       color: #000;
+    }
+}
+
+.carousel-header-section{
+    margin-bottom: 25px;
+    text-align: center;
+} 
+
+.text-boxes-block{
+    margin-top: 40px;
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        
+    }
+ }
+
+.tools-container{
+    display: flex;
+    justify-content: space-between;
+    .tools-wrap{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    @media (min-width: 768px){
+        
+        .tools-wrap{
+            width: 45%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    @media (min-width: 1024px) {
+        .text-boxes-block{
+            width: 40%;
+            justify-content: space-around;
+            border-radius: 25px;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px 30px;
+            .text-box-wrap{
+                width: 100%;
+                padding: 0;
+                height: auto;
+            }
+           
+        }
+        &.five-section-container{
+            flex-direction: row-reverse;
+        }
+    }
+   
+    @media (max-width: 992px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        .text-boxes-block{
+            margin: 0;
+        }
+    }
+
+}
+.ipad-secton-section, .iphone-section4-conatiner{
+    img{
+        width: 100%;
+    }
+    + .text-boxes-block{
+        margin: 0;
+    }
+}
+
