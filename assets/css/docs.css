@@ -38,23 +38,20 @@ html {
   margin-bottom: 20px;
 }
 
-.site a {
-	text-decoration: none;
-	color: rgb(68, 108, 200);
-	font-style: italic;
-	font-weight: bold;
+.site a.path-link {
+  text-decoration: none;
+  /* color: #000; */
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  color:#5c5a5a;
 }
 
-.site a strong {
-	text-decoration: none;
-	color: rgb(68, 108, 200);
-	font-style: italic;
-	font-weight: bold;
-}
+/* .site a strong {
+  text-decoration: none;
+  color: #000;
+} */
 
-.site a:hover {
-  color: #2bb5ee;
-}
 
 .content {
   width: auto;

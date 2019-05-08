@@ -24,20 +24,25 @@
   		if($tutsurl == "") $tutsurl = $site->tutorialsURL(); ?>
 		
   <?php $docsurl = $page->docsURL();
-  		if($docsurl == "") $docsurl = $site->docsURL(); ?>
+      if($docsurl == "") $docsurl = $site->docsURL(); ?>
+      
+  <?php
+    $pageUrl = $page->url();
+    $pageUrlParts = explode('/', $pageUrl);
+    $pageName = end($pageUrlParts);
+  ?>
 
   <header id="header" class="header-wrap">
     <div class="container header">
       <div class="logo"><a href="<?= $site->url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>"/></a></div>
       <nav id="nav" class="desktop-menu-nav-container nav-menu">
         <ul>
-          <li><a href="<?= $site->url() ?>/mac/">Mac</a></li>
-          <li><a href="<?= $site->url() ?>/ipad-pro/">iPad Pro</a></li>
-          <li><a href="<?= $site->url() ?>/ipad/">iPad</a></li>
-          <li><a href="<?= $site->url() ?>/iphone/">iPhone</a></li>
-		  <li><a href="<?= $site->url() . $docsurl ?>">Learn</a></li>
-          <li><a href="<?= $site->url() . $tutsurl ?>">Tutorials</a></li>
-          <li><a href="mailto:help@graphic.com">Support</a></li>
+          <li><a href="<?= $site->url() ?>/mac/" <?php if($pageName === 'mac') echo 'class="active"'; ?>>Mac</a></li>
+          <li><a href="<?= $site->url() ?>/ipad/"  <?php if($pageName === 'ipad') echo 'class="active"'; ?>>iPad</a></li>
+          <li><a href="<?= $site->url() ?>/iphone/"  <?php if($pageName === 'iphone') echo 'class="active"'; ?>>iPhone</a></li>
+		      <li><a href="<?= $site->url() . $docsurl ?>"  <?php if(strstr($pageUrl, 'docs')) echo 'class="active"'; ?>>Learn</a></li>
+          <li><a href="<?= $site->url() . $tutsurl ?>"  <?php if(strstr($pageUrl, 'tutorials')) echo 'class="active"'; ?>>Tutorials</a></li>
+          <li><a href="mailto:help@graphic.com" >Support</a></li>
           <li><a class="buy" href="<?= $storeurl ?>"><strong>Buy Now</strong></a></li>
         </ul>
       </nav>
@@ -45,11 +50,11 @@
     </div>
       <nav id="nav-mobile" class="menu-nav-container ">
         <ul>
-          <li><a href="<?= $site->url() ?>/mac/">Mac</a></li>
-          <li><a href="<?= $site->url() ?>/ipad-pro/">iPad Pro</a></li>
-          <li><a href="<?= $site->url() ?>/ipad/">iPad</a></li>
-          <li><a href="<?= $site->url() ?>/iphone/">iPhone</a></li>
-          <li><a href="<?= $site->url() ?>/tutorials/">Tutorials</a></li>
+          <li><a href="<?= $site->url() ?>/mac/"  <?php if($pageName === 'mac') echo 'class="active"'; ?>>Mac</a></li>
+          <li><a href="<?= $site->url() ?>/ipad/"  <?php if($pageName === 'ipad') echo 'class="active"'; ?>>iPad</a></li>
+          <li><a href="<?= $site->url() ?>/iphone/"  <?php if($pageName === 'iphone') echo 'class="active"'; ?>>iPhone</a></li>
+          <li><a href="<?= $site->url() ?>/tutorials/"  <?php if(strstr($pageUrl, 'tutorials')) echo 'class="active"'; ?>>Tutorials</a></li>
+          <li><a href="<?= $site->url() . $docsurl ?>"  <?php if(strstr($pageUrl, 'docs')) echo 'class="active"'; ?>>Learn</a></li>
           <li><a href="mailto:help@graphic.com">Support</a></li>
           <li><a href="<?= $storeurl ?>"><strong>Buy Now</strong></a></li>
         </ul>

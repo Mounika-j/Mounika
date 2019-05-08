@@ -3,7 +3,7 @@
     font-family: 'Avenir Heavy', sans-serif;
     .menu-nav-container, .desktop-menu-nav-container {
         li{
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 background-color: rgba(246, 241, 241, 0.85);
             }
             a, strong{
@@ -17,6 +17,21 @@
                         }
                         
                     }
+                }
+            }
+        }
+        ul li a{
+            &.active{
+                font-weight: 900;
+            }
+        }
+        @media (min-width: 992px) {
+            ul li a{
+                &.active{
+                    background: #3d3c4f !important;
+                    color: #fff!important;
+                    padding: 10px;
+                    border-radius: 10px;
                 }
             }
         }
@@ -65,11 +80,17 @@
             bottom: 10px;
             right: -40%;
         }
+
         .head-main-title{
             padding-top: 35px ;
             padding-bottom: 35px ;
             text-align: left;
             height: 100%;
+            font-family: Avenir, sans-serif!important;
+           .title, .subtitle{
+            font-family: Avenir, sans-serif!important;
+           }
+            
         }
         .app-store-link{
             position: absolute;
@@ -95,14 +116,19 @@
     padding-top: 35px ;
     padding-bottom: 35px ;
     .user-block{
+        width: 100%;
         display: flex;
         align-items: center;
         margin-bottom: 15px;
         height: 59px;
         background-size: cover;
         padding: 0 10px;
-        &:last-child{
-            margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 15px;
+        position: relative;
+
+        @media (max-width: 767px){
+            height: 80px;
         }
         svg{
             width: 35px;
@@ -111,9 +137,10 @@
             
         }
         span{
-            color: rgba(60, 60, 80,1);
-            font-weight: 900;
-            letter-spacing: 1.5px;
+            color: #50505c;
+            font-weight: 700;
+            letter-spacing: 4.5px;
+            font-size: 18px;
         }
     }
     .tutorials-block{
@@ -121,9 +148,10 @@
         border-radius: 10px;
         padding: 15px;
         span{
-            color: rgba(60, 60, 80,1);
-            font-weight: 900;
-            letter-spacing: 1.5px;
+            color: #50505c;
+            font-weight: 700;
+            letter-spacing: 5.5px;
+            font-size: 18px;
             display: block;
             margin-bottom: 10px;
             text-align: center;
@@ -133,7 +161,8 @@
             align-items: center;
             justify-content: space-between;
             .tutorials-icons{
-               width: 30%;
+                display: block;
+                width: 30%;
                img{
                    width: 100%;
                }
