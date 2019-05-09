@@ -23,7 +23,7 @@ storeURL: http://itunes.apple.com/us/app/idraw/id404705039?mt=12
 
 ----
 
-buyText: Graphic is available on the Mac App Store for only 
+buyText: Graphic is available on the Mac App Store for only $29.99
 
 ----
 

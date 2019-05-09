@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 06:45:44 +0000 (0.0257s) */
+/* compiled by scssphp v0.0.11 on Tue, 07 May 2019 11:12:15 +0000 (0.0321s) */
 
 #heroSection .cls-iPhone .common-app-link svg g .cls-3 {
   fill: #fff; }
@@ -8,10 +8,6 @@
 .carousel-head {
   margin-bottom: 20px;
   font-weight: 700; }
-  @media (min-width: 768px) {
-  .carousel-head {
-    font-size: 36px;
-    margin-bottom: 49px; } }
 
 p, span, h4 {
   color: #3d3c4f !important; }
@@ -103,9 +99,6 @@ p {
     font-weight: 900;
     display: block;
     padding: 15px 0; }
-  .text-box-wrap .sub-title {
-    font-size: 15px;
-    color: #505064 !important; }
   .text-box-wrap:last-child {
     margin-bottom: 0; }
 
@@ -161,12 +154,6 @@ p {
 .carousel-header-section {
   margin-bottom: 25px;
   text-align: center; }
-<<<<<<< HEAD
-  .carousel-header-section p {
-    color: #505064 !important;
-    font-size: 17px; }
-=======
->>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
 
 .text-boxes-block {
   margin-top: 40px; }
