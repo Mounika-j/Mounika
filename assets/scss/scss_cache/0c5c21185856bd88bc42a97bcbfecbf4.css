@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 06:16:43 +0000 (0.0294s) */
+/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 09:57:43 +0000 (0.0353s) */
 
 .header-wrap {
   background-color: #fff;
@@ -45,6 +45,14 @@
   .header-wrap .menu-nav-container ul li a.active, .header-wrap .desktop-menu-nav-container ul li a.active {
     background: #3d3c4f !important;
     color: #fff !important; } }
+    .header-wrap .menu-nav-container ul li a.active, .header-wrap .desktop-menu-nav-container ul li a.active {
+      font-weight: 900; }
+    @media (min-width: 992px) {
+  .header-wrap .menu-nav-container ul li a.active, .header-wrap .desktop-menu-nav-container ul li a.active {
+    background: #3d3c4f !important;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 10px; } }
   @media (min-width: 881px) and (max-width: 992px) {
   .header-wrap #nav li {
     margin-left: 15px; }
