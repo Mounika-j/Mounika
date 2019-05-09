@@ -31,6 +31,7 @@
       font-size: 15px;
       color: #3c3c50; }
       @media (min-width: 768px) {
+<<<<<<< HEAD
     .header-wrap .menu-nav-container li a.buy, .header-wrap .desktop-menu-nav-container li a.buy, .header-wrap .menu-nav-container li strong.buy, .header-wrap .desktop-menu-nav-container li strong.buy {
       border-radius: 5px;
       text-transform: uppercase;
@@ -39,12 +40,26 @@
         color: #fff; }
       .header-wrap .menu-nav-container li a.buy:hover, .header-wrap .desktop-menu-nav-container li a.buy:hover, .header-wrap .menu-nav-container li strong.buy:hover, .header-wrap .desktop-menu-nav-container li strong.buy:hover {
         background-color: #1590c5; } }
+=======
+    .header-wrap .menu-nav-container li a, .header-wrap .desktop-menu-nav-container li a, .header-wrap .menu-nav-container li strong, .header-wrap .desktop-menu-nav-container li strong {
+      color: #5c5e62; }
+      .header-wrap .menu-nav-container li a.buy, .header-wrap .desktop-menu-nav-container li a.buy, .header-wrap .menu-nav-container li strong.buy, .header-wrap .desktop-menu-nav-container li strong.buy {
+        border-radius: 10px; }
+        .header-wrap .menu-nav-container li a.buy strong, .header-wrap .desktop-menu-nav-container li a.buy strong, .header-wrap .menu-nav-container li strong.buy strong, .header-wrap .desktop-menu-nav-container li strong.buy strong {
+          color: #fff; } }
+>>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
     .header-wrap .menu-nav-container ul li a.active, .header-wrap .desktop-menu-nav-container ul li a.active {
       font-weight: 900; }
     @media (min-width: 992px) {
   .header-wrap .menu-nav-container ul li a.active, .header-wrap .desktop-menu-nav-container ul li a.active {
     background: #3d3c4f !important;
+<<<<<<< HEAD
     color: #fff !important; } }
+=======
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 10px; } }
+>>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
   @media (min-width: 881px) and (max-width: 992px) {
   .header-wrap #nav li {
     margin-left: 15px; }

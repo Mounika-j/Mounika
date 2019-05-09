@@ -161,9 +161,12 @@ p {
 .carousel-header-section {
   margin-bottom: 25px;
   text-align: center; }
+<<<<<<< HEAD
   .carousel-header-section p {
     color: #505064 !important;
     font-size: 17px; }
+=======
+>>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
 
 .text-boxes-block {
   margin-top: 40px; }

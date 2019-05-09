@@ -69,6 +69,21 @@
                 }
             }
         }
+        ul li a{
+            &.active{
+                font-weight: 900;
+            }
+        }
+        @media (min-width: 992px) {
+            ul li a{
+                &.active{
+                    background: #3d3c4f !important;
+                    color: #fff!important;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+            }
+        }
     }
     @media (min-width: 881px) and (max-width:992px ) {
         #nav li{

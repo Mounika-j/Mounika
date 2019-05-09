@@ -37,6 +37,7 @@
       .learn-page .learn-container .menu ul {
         margin: 20px 0; } }
     .learn-page .learn-container .menu ul li a {
+<<<<<<< HEAD
       text-decoration: none;
       padding: 16px 24px;
       border-radius: 5px;
@@ -51,6 +52,23 @@
       .learn-page .learn-container .menu ul li a:hover {
         color: #000 !important;
         background-color: #f5f5f5 !important; }
+=======
+      text-decoration: none; }
+      .learn-page .learn-container .menu ul li a.active {
+        padding: 10px;
+        border-radius: 10px;
+        display: inline-block; }
+        .learn-page .learn-container .menu ul li a.active:hover {
+          color: #fff !important; }
+      .learn-page .learn-container .menu ul li a:hover {
+        color: #000 !important; }
+      .learn-page .learn-container .menu ul li.depth-2 a.active {
+        background-color: #f5f5f5 !important;
+        color: #000 !important;
+        font-weight: 500; }
+      .learn-page .learn-container .menu ul li.depth-2 ul li.depth-3 a {
+        color: #5c5a5a; }
+>>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
       .learn-page .learn-container .menu ul li.depth-3 a.active {
         background: #3d3c4f !important;
         color: #fff !important; }

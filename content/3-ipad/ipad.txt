@@ -27,4 +27,8 @@ storeURL: https://itunes.apple.com/us/app/idraw/id363317633?mt=8
 
 ----
 
-buyText: Available on the App Store for only $8.99
+buyText: Graphic is available on the App Store for only 
+
+----
+
+buyAmount: $8.99
