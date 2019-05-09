@@ -1,4 +1,4 @@
-<section class="footer-container ">
+<section class="footer-container">
             <div class="container footer-inner-wrap">
                 <div class="footer-graphic-image">
                     <img src="<?= $site->url?>/assets/images/GraphicLogoFooter.png" alt="no-image"/>
