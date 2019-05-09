@@ -101,8 +101,9 @@ a:hover
 	float: left;
 }
 
-/* #hero
+#hero
 {
+	background-image: url(../images/ipad_hero.jpg);
 	background-size: cover;
 	background-position: 50% 50%;
 	width: 100%;
@@ -110,7 +111,7 @@ a:hover
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0px;
-} */
+}
 
 #hero .hero-text{
 	width: 420px;
@@ -954,17 +955,4 @@ a:hover
 		#hero {
 			background-image: url(images/hero@2x.jpg);
 		}*/
-}
-
-/* new styles */
-
-.cls-iPad{
-	background: url('../images/iPadDesktop-bg.jpg');
-}
-
-@media (max-width: 767px){
-	.cls-iPad{
-		background: url('../images/iphone-ipad-bg.jpg');
-	}
-
 }
