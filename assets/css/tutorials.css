@@ -258,15 +258,11 @@ article pre {
 	outline: solid 1px #ccc;
 }
 
-.tutorial_steps {
-	
-}
+
 
 .tutorial_steps img {
 	margin-top: 30px;
     margin-bottom: 40px;
-	border: solid 6px #fff;
-	outline: solid 1px #ccc;
 	width: 680px;
 	height: auto;
 }
@@ -274,7 +270,6 @@ article pre {
 .tutorial_steps video {
 	margin-top: 30px;
     margin-bottom: 40px;
-	outline: solid 1px #ccc;
 	width: 680px;
 	height: auto;
 }

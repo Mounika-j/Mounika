@@ -1,7 +1,7 @@
-/* compiled by scssphp v0.0.11 on Wed, 24 Apr 2019 11:22:47 +0000 (0.0112s) */
+/* compiled by scssphp v0.0.11 on Tue, 07 May 2019 07:45:25 +0000 (0.0157s) */
 
 .footer-container {
-  background-color: #141414;
+  background-color: #15142a;
   padding-top: 35px;
   padding-bottom: 35px; }
   .footer-container .footer-links {
@@ -49,7 +49,7 @@
         .footer-container .footer-inner-wrap .footer-links li a strong {
           color: #a0a5c8; }
     .footer-container .footer-inner-wrap .footer-graphic-image img {
-      width: 150px; }
+      width: 125px; }
     .footer-container .footer-inner-wrap .social-icons, .footer-container .footer-inner-wrap .footer-graphic-image, .footer-container .footer-inner-wrap .footer-links {
       width: 35%; }
     .footer-container .footer-inner-wrap .footer-graphic-image {

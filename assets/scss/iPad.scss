@@ -1,3 +1,46 @@
-.iphone-section{
-    background: red;
+#hero .cls-iPad {
+    .hero-text .text{
+        @media screen and (max-width: 500px){
+            width: 60%;
+        }
+    }
+    
+}
+.ipad-photoshop-image{
+   
+    
+}
+
+.iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap.ipad-wrap .iphone-slider .flex-control-nav.flex-control-paging{
+    bottom: -70px;
+    @media (min-width: 768px) {
+        bottom: -95px;
+    }
+}
+
+.iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap.mac-wrap .iphone-slider .flex-control-nav.flex-control-paging{
+    bottom : -70px;
+    @media (min-width: 768px){
+        bottom: -142px;
+    }
+}
+
+
+.ipad-wrap.tools-container{
+    transform: rotate(90deg);
+    img{
+        transform: rotate(270deg);
+    }
+}
+
+.desktop-image{
+    display: none;
+}
+@media (min-width: 768px) {
+    .mobile-image{
+        display: none;
+    }
+    .desktop-image{
+        display: block;
+    }
 }

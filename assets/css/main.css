@@ -553,10 +553,10 @@ table {
 
 .header-wrap {
     z-index: 9999;
-    display: block;
+    /* display: block; */
     line-height: 70px;
     width: 100%;
-    height: 70px;
+    /* height: 70px; */
     padding: 0;
     /* background-color: rgba(18, 18, 18, 1); */
     background-color: #fff;
@@ -565,7 +565,7 @@ table {
 .header-wrap .logo {
     float: left;
     width: 150px;
-    height: 51px;
+    /* height: 51px; */
     /* margin-top: 10px; */
 }
 
@@ -600,7 +600,6 @@ table {
 .nav-menu li a.buy {
     text-align: center;
     background-color: #1590c5;
-    padding: 8px 25px 10px 25px;
     border-radius: 3px;
 }
 
@@ -766,7 +765,9 @@ hr {
     border: 0;
     border-top: 1px solid #eee;
 }
-
+a{
+    text-decoration: none!important;
+}
 iframe {
     border: none;
 }
@@ -800,17 +801,7 @@ input#signup-submit {
 
 /*============== CLEARFIX CLASSES ==============*/
 
-.clearfix:after,
-.row:after,
-.section:after,
-.container:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
+
 
 .clearfix {
     display: inline-block;
@@ -1568,21 +1559,22 @@ p {
 .iphone-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 2.5% 9.2% 2.05% 9.2%;
+    padding: 1.2% 10.8% 2.65% 8.9%;
     width: 75%;
     height: auto;
-    background-image: url('../images/iphone_frame.png');
+    background-image: url('../images/iphone-frame.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
+
 .ipad-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 3.6% 7.05% 3% 7.2%;
+    padding: 3.6% 6.35% 4.7% 6.4%;
     width: 80%;
     height: auto;
-    background-image: url('../images/ipad_frame.png');
+    background-image: url('../images/iPad-Device.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -1590,12 +1582,25 @@ p {
 .mac-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 3.5% 11.33% 6% 11.42%;
+    padding: 4% 14.43% 9% 14.32%;
     width: 95%;
     height: auto;
-    background-image: url('../images/mac_frame.png');
+    background-image: url('../images/Mac-Device.png');
     background-size: 100%;
     background-repeat: no-repeat;
+}
+@media (max-width: 767px){
+    .iphone-wrap {
+        width: 100%;
+        padding: 1.7% 13.5% 12.35% 12.9%;
+    }
+    .ipad-wrap {
+        width: 100%;
+        padding: 5% 8.45% 5.8% 8.6%;
+    }
+    .mac-wrap {
+        padding: 4.1% 15.3% 12.35% 15%;
+    }
 }
 
 .iphone-slider {
@@ -1958,18 +1963,37 @@ p {
 .iphone-section-wrapper {
     background: url('../images/iphone-bg.jpg');
 }
-
-.mac-user-block {
-    background: url('../images/mac-user-bg.png');
+.user-block{
+    position: relative;
 }
-
+.user-block::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    content: '';
+}
+.mac-user-block::after {
+    background: url('../images/page-curl1.png');
+    background-size: cover;
+}
+.mac-ipad-block::after{
+    background: url('../images/page-curl2.png');
+    background-size: cover;
+}
+.iphone-user-block::after{
+    background: url('../images/page-curl3.png');
+    background-size: cover;
+}
+/* 
 .mac-ipad-block {
     background: url('../images/ipadUser-bg.png');
 }
 
 .iphone-user-block {
     background: url('../images/iphoneUser-bg.png');
-}
+} */
 
 @media (min-width: 768px) {
     .background {
@@ -2022,21 +2046,21 @@ p {
 .flex-direction-nav a.flex-next::before{
 	background: url("../images/ArrowIcon-Right.svg") no-repeat;	
 }
-.iphone-carousel-block .flex-direction-nav a::before{
+ .flex-direction-nav a::before{
 	display: block;
 	width: 40px;
 	height: 40px;
-	content: "";
+	content: ""!important;
 	font-size: 40px;
 	color: transparent!important;
 
 }
-.iphone-carousel-block .flex-direction-nav a{
+ .flex-direction-nav a{
 	margin: 0;
 }
-.iphone-carousel-block .flex-direction-nav a.flex-prev{
-	left: 10px;
+.flex-direction-nav a.flex-prev{
+	left: 5%;
 }
-.iphone-carousel-block .flex-direction-nav a.flex-next{
-	right: 10px;
+ .flex-direction-nav a.flex-next{
+	right: 5%;
 }
