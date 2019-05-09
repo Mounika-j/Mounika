@@ -13,6 +13,11 @@
 .carousel-head{
     margin-bottom: 20px;
     font-weight: 700;
+    @media (min-width: 768px) {
+        font-size: 36px;
+        margin-bottom: 49px;
+    }
+    
 }
 p,span,h4{
     color: #3d3c4f!important;
@@ -139,6 +144,10 @@ p{
         display: block;
         padding: 15px 0 ;
     }
+    .sub-title{
+        font-size: 15px;
+        color: #505064 !important;
+    }
     
     &:last-child{
         margin-bottom: 0;
@@ -217,6 +226,10 @@ p{
 .carousel-header-section{
     margin-bottom: 25px;
     text-align: center;
+    p{
+        color: #505064!important;
+        font-size: 17px;
+    }
 } 
 
 .text-boxes-block{

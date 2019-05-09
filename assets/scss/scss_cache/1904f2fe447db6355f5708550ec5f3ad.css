@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.11 on Fri, 03 May 2019 08:35:21 +0000 (0.0118s) */
+/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 06:12:10 +0000 (0.0101s) */
 
 .learn-page {
   width: 100%; }
@@ -37,6 +37,22 @@
       .learn-page .learn-container .menu ul {
         margin: 20px 0; } }
     .learn-page .learn-container .menu ul li a {
+<<<<<<< HEAD
+      text-decoration: none;
+      padding: 16px 24px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 5px; }
+      .learn-page .learn-container .menu ul li a.active {
+        background: #3d3c4f !important;
+        color: #fff !important; }
+        .learn-page .learn-container .menu ul li a.active:hover {
+          background: #3d3c4f !important;
+          color: #fff !important; }
+      .learn-page .learn-container .menu ul li a:hover {
+        color: #000 !important;
+        background-color: #f5f5f5 !important; }
+=======
       text-decoration: none; }
       .learn-page .learn-container .menu ul li a.active {
         padding: 10px;
@@ -52,6 +68,7 @@
         font-weight: 500; }
       .learn-page .learn-container .menu ul li.depth-2 ul li.depth-3 a {
         color: #5c5a5a; }
+>>>>>>> fb9f92c824705f9fa3e8899888a8345eaed90046
       .learn-page .learn-container .menu ul li.depth-3 a.active {
         background: #3d3c4f !important;
         color: #fff !important; }
