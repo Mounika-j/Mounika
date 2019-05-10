@@ -284,7 +284,7 @@ p{
     @media (min-width: 768px){
         
         .tools-wrap{
-            width: 45%;
+            width: 53%;
             img{
                 width: 100%;
             }
@@ -320,6 +320,8 @@ p{
 
 }
 .ipad-secton-section, .iphone-section4-conatiner{
+    max-width: 780px;
+    margin: 0 auto;
     img{
         width: 100%;
     }

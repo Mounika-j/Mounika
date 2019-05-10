@@ -1,8 +1,8 @@
-/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 16:00:58 +0000 (0.0366s) */
+/* compiled by scssphp v0.0.11 on Fri, 10 May 2019 03:06:12 +0000 (0.0478s) */
 
 .header-wrap {
   background-color: #fff;
-  font-family: 'Avenir', sans-serif; }
+  font-family: 'Avenir Heavy', sans-serif; }
   @media (min-width: 1024px) {
   .header-wrap {
     height: 85px; }
@@ -78,7 +78,7 @@
     max-width: 100%; }
     @media (min-width: 768px) {
   .home-banner-wrapper p {
-    max-width: 450px;
+    max-width: 310px;
     margin: 0; } }
   .home-banner-wrapper .title strong {
     font-weight: 900; }
@@ -88,7 +88,7 @@
     bottom: 10px;
     right: -40%; }
   .home-banner-wrapper .head-main-title {
-    padding-top: 35px;
+    padding-top: 90px;
     padding-bottom: 35px;
     text-align: left;
     height: 100%;
@@ -102,9 +102,9 @@
       font-family: Avenir, sans-serif !important; }
   .home-banner-wrapper .app-store-link {
     position: absolute;
-    width: 180px;
-    bottom: 10%;
-    left: 20px; }
+    width: 220px;
+    bottom: 15%;
+    left: 15px; }
 
 .iphone-section-wrapper .head-main-title h1.title, .iphone-section-wrapper .head-main-title h1.title strong, .iphone-section-wrapper .head-main-title h1.title span, .iphone-section-wrapper .head-main-title p {
   color: #000;
@@ -112,42 +112,41 @@
 
 .user-container {
   background-color: #f5f5f5;
-  padding-top: 35px;
-  padding-bottom: 35px; }
+  padding: 20px; }
   .user-container .user-block {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    height: 59px;
+    margin-bottom: 20px;
+    height: 85px;
     background-size: cover;
-    padding: 0 10px;
+    padding: 0 35px;
     background-color: #fff;
     border-radius: 15px;
     position: relative; }
     @media (max-width: 767px) {
   .user-container .user-block {
-    height: 80px; } }
+    height: 85px; } }
     .user-container .user-block img {
       width: 35px;
       height: 35px;
-      margin-right: 30px; }
+      margin-right: 150px; }
     .user-container .user-block span {
-      color: #50505c;
+      color: #3c3c50;
       font-weight: 700;
       letter-spacing: 4.5px;
       font-size: 18px; }
   .user-container .tutorials-block {
     background: #fff;
     border-radius: 10px;
-    padding: 15px; }
+    padding: 20px; }
     .user-container .tutorials-block span {
-      color: #50505c;
+      color: #3c3c50;
       font-weight: 700;
       letter-spacing: 5.5px;
       font-size: 18px;
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       text-align: center; }
     .user-container .tutorials-block .tutorials-images {
       display: flex;
@@ -155,7 +154,7 @@
       justify-content: space-between; }
     .user-container .tutorials-block .tutorials-images .tutorials-icons {
       display: block;
-      width: 30%; }
+      width: 200px; }
       .user-container .tutorials-block .tutorials-images .tutorials-icons img {
         width: 100%; }
   @media (min-width: 768px) {
@@ -163,8 +162,7 @@
       display: flex;
       justify-content: space-between; }
       .user-container .user-wrapper .user-guide-block, .user-container .user-wrapper .tutorials-block {
-        width: 48%; }
+        width: 48%;
+        height: 295px; }
         .user-container .user-wrapper .user-guide-block .user-block, .user-container .user-wrapper .tutorials-block .user-block {
-          height: 105px; }
-        .user-container .user-wrapper .user-guide-block .tutorials-images, .user-container .user-wrapper .tutorials-block .tutorials-images {
-          height: calc(100% - 50px); } }
+          height: 85px; } }
