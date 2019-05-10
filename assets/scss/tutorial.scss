@@ -3,6 +3,11 @@
     width: 100%;
     text-align: center;
     padding-bottom: 0;
+    @media (min-width: 1200px){
+        .container {
+            max-width: 960px;
+        }
+    }
     .content{
         border: 0;
         
@@ -38,7 +43,7 @@
                     }
                 }
                 @media (min-width: 1200px) {
-                    width: 23%;
+                    width: 31%;
                 }
             }
             
@@ -95,7 +100,7 @@
             font-weight: 500;
         }
         h2{
-            background: #3d3c4f !important;
+            background: #646478 !important;
             color: #fff !important;
             padding: 10px;
             border-radius: 5px;
@@ -185,6 +190,12 @@
     .content{
         border: 0;
     }
+    @media (min-width: 1200px){
+        .container {
+            max-width: 1140px;
+        }
+    }
+
     @media (min-width: 768px) {
         #formatButtons{
             margin: 0;
