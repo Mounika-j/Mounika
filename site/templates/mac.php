@@ -342,7 +342,7 @@
 			<p>Full-featured vector drawing, on all your devices.</p>
 		</div>
 		<div class="design-image container">
-			<img src="<?= $page->image('Mac-design.png')->url()?>" alt="no-image"/>
+			<img src="<?= $page->image('Mac-design1.png')->url()?>" alt="no-image"/>
 
 		</div>
 	</section>

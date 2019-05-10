@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.11 on Thu, 09 May 2019 09:57:43 +0000 (0.0315s) */
+/* compiled by scssphp v0.0.11 on Fri, 10 May 2019 03:14:24 +0000 (0.038s) */
 
 #heroSection .cls-iPhone .common-app-link svg g .cls-3 {
   fill: #fff; }
@@ -20,8 +20,7 @@ p {
   color: #505063; }
 
 .iphone-section-carousel-container {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 76px;
   position: relative; }
   @media (min-width: 768px) {
   .iphone-section-carousel-container {
@@ -36,7 +35,7 @@ p {
         .iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap .iphone-slider .slides-wrapper li img {
           width: 100%; }
         .iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
-          bottom: -70px; }
+          bottom: -155px; }
           @media (max-width: 767px) {
   .iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
     bottom: -75px; } }
@@ -56,6 +55,9 @@ p {
         @media (min-width: 768px) and (max-width: 1024px) {
     .iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap .flex-direction-nav .flex-next {
       right: -20%; } }
+        @media (max-width: 767px) {
+  .iphone-section-carousel-container .iphone-carousel-wrap .iphone-wrap .flex-direction-nav {
+    display: none; } }
 
 .photoshop-section {
   padding-top: 35px;
@@ -65,7 +67,6 @@ p {
     padding-top: 50px;
     padding-bottom: 0px; } }
   .photoshop-section .photoshop-title-block {
-    padding: 0 45px;
     text-align: center; }
     .photoshop-section .photoshop-title-block p {
       margin-bottom: 20px; }
@@ -94,7 +95,7 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 15px; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
   .text-box-wrap {
     width: 32%;
     height: 410px;
@@ -132,11 +133,12 @@ p {
     .features-section .features-block .text-box-wrap:nth-child(2) {
       margin-top: 0px; } }
   .features-section .features-block .text-box-wrap {
-    padding: 50px;
+    padding: 25px;
     width: 48%;
     margin-bottom: 20px; }
     @media (min-width: 768px) {
     .features-section .features-block .text-box-wrap {
+      padding: 50px;
       width: 47%;
       height: auto; } }
     @media (min-width: 992px) {
@@ -184,7 +186,10 @@ p {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 50px; } }
+    margin-top: 0px; } }
+  @media (min-width: 1200px) {
+  .text-boxes-block {
+    margin-top: 0; } }
 
 .tools-container {
   display: flex;
@@ -195,7 +200,7 @@ p {
     width: 100%; }
   @media (min-width: 768px) {
   .tools-container .tools-wrap {
-    width: 45%; }
+    width: 53%; }
     .tools-container .tools-wrap img {
       width: 100%; } }
   @media (min-width: 1024px) {
@@ -205,7 +210,7 @@ p {
     border-radius: 25px;
     background-color: #f5f5f5;
     margin: 0;
-    padding: 20px 30px; }
+    padding: 50px 30px; }
     .tools-container .text-boxes-block .text-box-wrap {
       width: 100%;
       padding: 0;
@@ -219,7 +224,32 @@ p {
     .tools-container .text-boxes-block {
       margin: 0; } }
 
-.ipad-secton-section img, .iphone-section4-conatiner img {
-  width: 100%; }
+.ipad-secton-section, .iphone-section4-conatiner {
+  max-width: 780px;
+  margin: 0 auto; }
+  .ipad-secton-section img, .iphone-section4-conatiner img {
+    width: 100%; }
   .ipad-secton-section + .text-boxes-block, .iphone-section4-conatiner + .text-boxes-block {
     margin: 0; }
+
+.iphone-section-carousel-wrapper .iphone-carousel-wrap .text-boxes-block {
+  margin-top: 70px; }
+  @media (max-width: 767px) {
+      .iphone-section-carousel-wrapper .iphone-carousel-wrap .text-boxes-block {
+        margin-top: 30px; } }
+
+@media (min-width: 768px) {
+    .iphone-section-carousel-container.iphone-section-carousel-wrapper .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
+      bottom: -82px; } }
+  @media (min-width: 992px) and (max-width: 1999px) {
+  .iphone-section-carousel-container.iphone-section-carousel-wrapper .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
+    bottom: -68px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+  .iphone-section-carousel-container.iphone-section-carousel-wrapper .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
+    bottom: -68px; } }
+  @media (max-width: 767px) {
+  .iphone-section-carousel-container.iphone-section-carousel-wrapper .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
+    bottom: -69px; } }
+  @media (max-width: 500px) {
+  .iphone-section-carousel-container.iphone-section-carousel-wrapper .iphone-carousel-wrap .iphone-wrap .iphone-slider .flex-control-nav.flex-control-paging {
+    bottom: -60px; } }
