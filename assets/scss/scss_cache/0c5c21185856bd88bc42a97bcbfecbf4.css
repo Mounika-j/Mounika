@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.11 on Fri, 10 May 2019 03:06:12 +0000 (0.0478s) */
+/* compiled by scssphp v0.0.11 on Fri, 10 May 2019 03:48:46 +0000 (0.0428s) */
 
 .header-wrap {
   background-color: #fff;
@@ -16,7 +16,7 @@
     @media (min-width: 1200px) {
     .header-wrap .menu-nav-container li, .header-wrap .desktop-menu-nav-container li {
       margin-left: 20px !important; } }
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
     .header-wrap .menu-nav-container li, .header-wrap .desktop-menu-nav-container li {
       background-color: rgba(246, 241, 241, 0.85); } }
     @media (min-width: 1024px) {
