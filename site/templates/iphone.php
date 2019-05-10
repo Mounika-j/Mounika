@@ -9,7 +9,7 @@
 
 <?php snippet('hero') ?>
 	
-  <section class="iphone-section-carousel-container" id="vector-illustration">
+  <section class="iphone-section-carousel-container iphone-section-carousel-wrapper" id="vector-illustration">
     <div class="iphone-carousel-wrap container">
       <div class="carousel-header-section">
         <h4 class="carousel-head">Graphic Design at Your Fingertips</h4>

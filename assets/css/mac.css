@@ -447,11 +447,11 @@ a:hover
 }
 
 .cls-Mac{
-	background: url('../images/home-banner.jpg');
+	background: url('../images/home-banner1.png');
 
 }
 @media (min-width: 768px){
 	.cls-Mac{
-		background: url('../images/homeDesktop-bg.jpg');
+		background: url('../images/homeDesktop-bg1.png');
 	}
 }
