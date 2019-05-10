@@ -5,20 +5,52 @@
     padding-bottom: 0;
     .content{
         border: 0;
+        
     }
     .grid-container{
         h2{
             margin: 0;
             padding: 20px 0;
+            color: #3c3c50;
+            
             @media (min-width: 768px) {
                 text-align: left;
             }
+        }
+        .format_text{
+            h4{
+                font-size: 17px;
+                color: #3c3c50;
+                a:hover{
+                    color: #3c3c50!important;
+                }
+            }
+            .subtext{
+                color: #505064 ;
+            }
+            li{
+                a{
+                    display: block;
+                    height: auto;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                @media (min-width: 1200px) {
+                    width: 23%;
+                }
+            }
+            
         }
         .item-grid.format_text{
             @media (min-width: 768px) {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+            }
+            @media (min-width: 1200px) {
+                justify-content: start;
             }
         }
         .pagination a{
@@ -44,6 +76,21 @@
     }
     .tutorial_steps{
         text-align: left;
+        h1{
+            font-size: 36px;
+            color: #3d3c4f !important;
+        }
+        p{
+            color: #505064 !important;
+            font-size: 17px!important;
+        }
+         h1 p{ 
+            font-size: 36px!important;
+            color: #3d3c4f !important;
+        }
+        h4{
+            color: #3d3c4f !important;
+        }
         h1 p{
             font-weight: 500;
         }
@@ -51,9 +98,9 @@
             background: #3d3c4f !important;
             color: #fff !important;
             padding: 10px;
-            border-radius: 10px;
+            border-radius: 5px;
             text-align: center;
-            font-size: 1.2em;
+            font-size: 17px;
             display: inline-block;
             margin: 20px 0;
            
@@ -137,5 +184,10 @@
 .individual-tutorial{
     .content{
         border: 0;
+    }
+    @media (min-width: 768px) {
+        #formatButtons{
+            margin: 0;
+        }
     }
 }
