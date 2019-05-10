@@ -100,7 +100,7 @@
             font-weight: 500;
         }
         h2{
-            background: #141428 !important;
+            background: #646478 !important;
             color: #fff !important;
             padding: 10px;
             border-radius: 5px;
@@ -190,6 +190,12 @@
     .content{
         border: 0;
     }
+    @media (min-width: 1200px){
+        .container {
+            max-width: 1140px;
+        }
+    }
+
     @media (min-width: 768px) {
         #formatButtons{
             margin: 0;
