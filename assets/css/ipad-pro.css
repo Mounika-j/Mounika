@@ -135,10 +135,10 @@ a:hover
 
   #hero .hero-text{
     width: 100%;
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
-  #hero .hero-text .text{ width: 100%; }
+  #hero .hero-text .text{ width: 70%; }
 }
 
 #hero-bg{

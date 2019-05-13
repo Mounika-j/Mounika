@@ -12,7 +12,7 @@
 	<section class="iphone-section-carousel-container tools-wrapper " id="vector-illustration">
 		<div class="iphone-carousel-wrap container">
 			<div class="carousel-header-section">
-				<h4 class="carousel-head">Powerful Vector Illustration Tool</h4>
+				<h4 class="carousel-head">Powerful Vector Illustration Tools</h4>
 				<p>Graphic for iPad is a full-featured graphic design and illustration application, bringing desktop-class vector drawing tools right on your iPad. Packed with many powerful features, and designed to be easy to use, you can use Graphic to create everything from simple diagrams to intricate detailed vector artwork.</p>
 			</div>
 			<div class="tools-container">
