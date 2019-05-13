@@ -622,10 +622,16 @@ table {
 }
 
 #nav-mobile li {
-    padding: 30px 0;
+    /* padding: 30  px 0; */
     /* background-color: rgba(0,0,0,0.85); */
     border-top: 1.3px solid rgba(99, 98, 98, 0.5);
     line-height: 0;
+}
+
+#nav-mobile li a {
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
 }
 
 #nav-mobile li:first-child {
@@ -794,7 +800,7 @@ input#signup-submit {
     margin-top: 5px;
     margin-left: 5px;
     border-radius: 5px;
-    font-family: 'Avenir Heavy', sans-serif;
+    font-family: 'Avenir-Heavy', sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -1039,10 +1045,10 @@ ul.social-links {
 }
 
 .hero-text .title {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: normal;
-    text-shadow: 0px 5px 8.37px rgba(0, 0, 0, 0.07);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    line-height: 42px;
 }
 
 @media (max-width: 767px) {
@@ -1052,13 +1058,13 @@ ul.social-links {
 }
 
 .hero-text .title strong {
-    font-family: 'Avenir Heavy', sans-serif;
+    font-family: 'Avenir-Heavy', sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
 .hero-text .text {
-    font-size: 18px;
+    font-size: 17px;
     text-shadow: 0px 5px 8.37px rgba(0, 0, 0, 0.07);
 }
 
@@ -1247,10 +1253,6 @@ ul.social-links {
     font-family: 'HelveticaNeue';
     font-weight: 300;
     font-size: 35px;
-    -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-    -ms-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-    -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-    text-shadow: 0px 1.5px 2px rgba(0, 0, 0, 0.5);
 }
 
 .home-banner-wrapper .subtitle {
@@ -1259,16 +1261,6 @@ ul.social-links {
     font-weight: 300;
     font-family: 'HelveticaNeue-Light';
     letter-spacing: 0px;
-}
-
-.home-banner-wrapper .title strong {}
-
-.home-banner-wrapper p {
-    /* font-weight: 600; */
-    -moz-text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-    -ms-text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-    -webkit-text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
 .home-banner-wrapper .rights-reserved {
@@ -1505,8 +1497,9 @@ h3 {
 }
 
 p {
+    font-family: "Avenir-Light", sans-serif;
     font-size: 17px;
-    max-width: 640px;
+    max-width: 840px;
     margin: 0 auto;
     margin-top: -10px;
     line-height: 23px;
@@ -1800,8 +1793,9 @@ p {
 
 .icon-branded-section .text {
     margin-top: 25px;
-    font-size: 18px;
-    color: #000;
+    font-size: 20px;
+    font-family: "Avenir-Light", sans-serif;
+    color: #3c3c50;
 }
 
 .icon-branded-section .download-button {
@@ -2011,9 +2005,9 @@ p {
 
 .common-banner .common-app-link {
     position: absolute;
-    width: 180px;
-    bottom: 10%;
-    left: 20px;
+    width: 220px;
+    bottom: 15%;
+    left: 15px;
 }
 
 #heroSection .common-banner {
@@ -2034,20 +2028,20 @@ p {
 /* h4 common styles */
 @media (min-width: 768px){
 	.carousel-head{
+        font-family: "Avenir-Heavy", sans-serif;
 		font-size: 1.8rem;
-		font-weight: 900;
 	}
 }
 .flex-direction-nav a.flex-prev::before{
 	background: url("../images/ArrowIcon-Left.svg") no-repeat;
 }
 .flex-direction-nav a.flex-next::before{
-	background: url("../images/ArrowIcon-Right.svg") no-repeat;	
+    background: url("../images/ArrowIcon-Right.svg") no-repeat;	
 }
  .flex-direction-nav a::before{
 	display: block;
-	width: 40px;
-	height: 40px;
+    width: 30px;
+    height: 30px;
 	content: ""!important;
 	font-size: 40px;
 	color: transparent!important;

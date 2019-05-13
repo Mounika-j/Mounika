@@ -1,8 +1,8 @@
 .header-wrap{
     background-color: #fff;
-    font-family: 'Avenir Heavy', sans-serif;
+    font-family: 'Avenir-Heavy', sans-serif;
         @media (min-width: 1024px) {
-            height: 85px;
+            height: 70px;
             .header{
                 display: flex;
                 align-items: center;
@@ -119,11 +119,12 @@
             @media (min-width: 768px){
                 max-width: 310px;
                 margin: 0;
+            	line-height: 24px;
             }
         }
         .title{
             strong{
-                font-weight: 900;
+                font-family: 'Avenir-Heavy', sans-serif;
             }
             
         }
@@ -200,7 +201,7 @@
             color: #3c3c50;
             font-weight: 700;
             letter-spacing: 4.5px;
-            font-size: 18px;
+            font-size: 20px;
         }
     }
     .tutorials-block{
@@ -211,7 +212,7 @@
             color: #3c3c50;
             font-weight: 700;
             letter-spacing: 5.5px;
-            font-size: 18px;
+            font-size: 20px;
             display: block;
             margin-bottom: 20px;
             text-align: center;
