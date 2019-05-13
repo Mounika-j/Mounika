@@ -44,7 +44,7 @@ a:hover
 	background: #131313;
 }
 
-#hero
+/* #hero
 {
 	background-image: url(../images/mac_hero.jpg);
 	background-size: cover;
@@ -54,11 +54,11 @@ a:hover
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0px;
-}
+} */
 
 #hero .hero-text{
 	width: 420px;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 @media (max-width: 767px){
@@ -68,7 +68,8 @@ a:hover
   }
 
 #hero .hero-text .text{
-	width: 380px;
+	width: 310px;
+	line-height: 24px;
 }
 
 @media screen and (max-width: 500px){
@@ -78,11 +79,11 @@ a:hover
   #hero .hero-text
   {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
   #hero .hero-text .text{
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -444,4 +445,14 @@ a:hover
 	      overflow-x:hidden;
 	    }
 		
+}
+
+.cls-Mac{
+	background: url('../images/home-banner1.png');
+
+}
+@media (min-width: 768px){
+	.cls-Mac{
+		background: url('../images/homeDesktop-bg1.png');
+	}
 }

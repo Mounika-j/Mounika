@@ -1,7 +1,8 @@
 <?php snippet('tutorials_header'); ?>
+<?= css('style.php/tutorial.scss') ?>
 
-<div class="site">
-	<main role="main">
+<div class="site tutorial-container ">
+	<main role="main" class="container">
         
 		<?php 
 			$articles = $page->children()->visible()->flip()->paginate(15);

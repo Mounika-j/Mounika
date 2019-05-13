@@ -27,4 +27,8 @@ storeURL: https://itunes.apple.com/us/app/graphic-vector-illustration/id10379600
 
 ----
 
-buyText: Graphic is available on the App Store for only $2.99
+buyText: Available on the App Store for only
+
+----
+
+buyAmount: $2.99
