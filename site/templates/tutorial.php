@@ -79,7 +79,7 @@
 								
 					<?php if($file = $page->file($page->graphicFile())) { ?>
 						<div class="graphic-file-wrap">
-							<p class="file-wrapper"><strong>Graphic File:
+							<p class="file-wrapper"><strong>Download Graphic File:
 							<a href="<?php echo $file->url() ?>">
 								<?php echo html($file->filename()) ?>
 								<img src="../assets/images/download.png" alt="no-image"/>
@@ -93,7 +93,7 @@
     				<a href="<?php echo url() ?>/tutorials/"> < Back</a>
     			</div>
                  
-                <p>Share this on:
+                <p>Share:
 					 <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode ($page->url()); ?>%20<?php echo rawurlencode($site->title()) ?>" target="blank" title="Tweet this" class="social-links"><img src="../assets/images/twitter.png" alt="Share on Twitter" width="45px" height="45px" class="share-button" /></a>
 					 <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url());?>&t=<?php echo rawurlencode($page->title()); ?>" target="_blank" title="Share on Facebook" class="social-links"><img src="../assets/images/facebook.png" alt="Share on Facebook" width="45px" height="45px"class="share-button"  /></a>
                 </p>    			

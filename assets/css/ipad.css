@@ -114,11 +114,12 @@ a:hover
 
 #hero .hero-text{
 	width: 420px;
- 	padding-top: 100px;
+ 	padding-top: 90px;
 }
 
 #hero .hero-text .text{
-	width: 380px;
+	width: 310px;
+	line-height: 24px;
 }
 
 @media screen and (max-width: 500px){
