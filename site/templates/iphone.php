@@ -53,7 +53,7 @@
   </section>
 
 
-  <section class="iphone-section-carousel-container" id="vector-illustration">
+  <section class="iphone-section-carousel-container iphone-section-carousel-wrapper " id="vector-illustration">
     <div class="iphone-carousel-wrap container">
       <div class="carousel-header-section">
         <h4 class="carousel-head">Technical Design & Illustration</h4>
@@ -96,7 +96,7 @@
   	</div>
   </section>
 
-  <section class="iphone-section-carousel-container" id="vector-illustration">
+  <section class="iphone-section-carousel-container iphone-section-carousel-wrapper " id="vector-illustration">
     <div class="iphone-carousel-wrap container">
       <div class="carousel-header-section">
         <h4 class="carousel-head">Mockups and UI Design</h4>

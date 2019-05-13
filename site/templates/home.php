@@ -43,7 +43,7 @@
   </section>
 
   <section class="user-container">
-    <div class="user-wrapper">
+    <div class="user-wrapper container">
       <div class="user-guide-block">
         <a class="mac-user-block user-block" href="<?= $site->url() ?>/docs/getting-started">
           <img src="./assets/images/DeviceIcon-Mac-C.svg" alt="no-image"/>
@@ -64,9 +64,7 @@
           <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-nintendo-switch-illustration">
             <img src="./assets/images/HomeMacTutorials-1.png" alt="no-image"/>
           </a>
-          <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-clock-app-icon">
-            <img src="./assets/images/HomeMacTutorials2-1.png" alt="no-image"/>
-          </a>
+       
           <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-brewery-logo">
             <img src="./assets/images/HomeMacTutorials3.png" alt="no-image"/>
           </a>
