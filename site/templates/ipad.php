@@ -30,7 +30,7 @@
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon3.svg" alt="no-image"/>
 					<span class="sub-title">Text with Style</span>
-					<p class="sub-content">Multi-style text boxes with line height and text kerning options. Place text along a path. In-place editing of transformed text</p>
+					<p class="sub-content">Multi-style text boxes with line height and text kerning options. Place text along a path. In-place editing of transformed text. Smart text box resizing.</p>
 					</div>
 				</div>
 				<div class="tools-wrap">
@@ -44,7 +44,7 @@
 		<div class="iphone-carousel-wrap container">
 			<div class="carousel-header-section">
 				<h4 class="carousel-head">Optimized for the iPad Pro & Apple Pencil</h4>
-				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls</p>
+				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
 			<div class="ipad-secton-section">
 				<img src="<?= $page->image('ipad-block2.png')->url() ?>" alt="no-image">
@@ -104,7 +104,7 @@
 		<div class="iphone-carousel-wrap container">
 			<div class="carousel-header-section">
 				<h4 class="carousel-head">Technical Design & Illustration</h4>
-				<p>With powerful path editing tools, text layout and styling features, layer effects, and more - Graphic has the tools you need to create striking, beautiful designs. All of the features you'd expect to find in a professional design application are all right here, built from the ground up to work in fast modern way.</p>
+				<p>Create detailed technical designs, floor plans, and schematics using Graphic's customizable canvas grid, smart alignment guides, object snapping, and dimensioning tools. Choose from a variety of ruler unit display formats including pixels, feet, inches, yards, and metric units.</p>
 			</div>
 			<div class="iphone-wrap ipad-wrap">
 					<div class="iphone-slider" role="main">
@@ -129,7 +129,7 @@
 				<div class="text-box-wrap">
 					<img src="../assets/images/icon4.svg" alt="no-image"/>
 					<span class="sub-title">Rulers & Units</span>
-					<p class="sub-content">Built-in canvas style templates, with a fully customizable grid and margins. Set ruler units in pixels, inches, mm, and cm, and apply a scale factor to create to-scale designs</p>
+					<p class="sub-content">Built-in canvas style templates, with a fully customizable grid and margins. Set ruler units in pixels, inches, mm, and cm, and apply a scale factor to create to-scale designs.</p>
 				</div>
 				<div class="text-box-wrap">
 					<img src="../assets/images/icon5.svg" alt="no-image"/>
@@ -181,7 +181,7 @@
 		<div class="iphone-carousel-wrap container">
 			<div class="carousel-header-section">
 				<h4 class="carousel-head">Mockups and UI Design</h4>
-				<p>Build mockups and interface designs with ease. Start designing your next website or app wherever inspiration strikes. Using Graphic's vector drawing tools, shapes libraries, and layer effects features sketch out rough ideas or make fully pixel-perfect mockups</p>
+				<p>Build mockups and interface designs with ease. Start designing your next website or app wherever inspiration strikes. Using Graphic's vector drawing tools, shapes libraries, and layer effects features sketch out rough ideas or make fully pixel-perfect mockups.</p>
 			</div>
 			<div class="iphone-wrap ipad-wrap">
 				<div class="iphone-slider" role="main">
@@ -235,7 +235,7 @@
 	<section class="photoshop-section ">
 		<div class="photoshop-title-block container">
 			<h4 class="carousel-head">PDF & SVG Import / Export</h4>
-			<p>Graphic can easily import PDF and SVG files containing many thousands of vector objects, including maps and other large designs. PDF files can also be imported as plain images to add some last-minute annotations or a fast signature</p>
+			<p>Graphic can easily import PDF and SVG files containing many thousands of vector objects, including maps and other large designs. PDF files can also be imported as plain images to add some last-minute annotations or a fast signature.</p>
 		</div>
 		<div class="photoshop-image container ipad-photoshop-image">
 			<img src="<?= $page->image('PSF-mobile-ipad.png')->url() ?>" alt="no-image" class="mobile-image">
@@ -258,13 +258,11 @@
 				<p class="sub-content">Document tabs allow you to easily switch between multiple documents open at the same time.</p>
 			</div>
 			<div class="text-box-wrap">
-				Layers.svg -->
 				<img src="../assets/images/Layers.svg" alt="noImage" />
 				<span class="sub-title">Layers</span>
 				<p class="sub-content">Create new layers, change their order, merge,and delete them in the Layers panel.</p>
 			</div>
 			<div class="text-box-wrap">
-				Layers.svg -->
 				<img src="../assets/images/Multitasking.svg" alt="noImage" />
 				<span class="sub-title">Multitasking</span>
 				<p class="sub-content">Work with multiple apps at the same time using the new Split-Screen and Slide Over multitasking feature.</p>
@@ -278,7 +276,7 @@
 			<div class="text-box-wrap">
 				<img src="../assets/images/Patterns.svg" alt="no-image" />
 				<span class="sub-title">Patterns</span>
-				<p class="sub-content">Apply patterns and easily adjust them. Use built-in patterns or create your own seamless pattern</p>
+				<p class="sub-content">Apply patterns and easily adjust them. Use built-in patterns or create your own seamless pattern.</p>
 			</div>
 			<div class="text-box-wrap">
 				<img src="../assets/images/Images.svg" alt="no-image" />
