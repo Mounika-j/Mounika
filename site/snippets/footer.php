@@ -1,75 +1,39 @@
-	
-	<footer id="footer">
-      <div class="container">
-       <div class="row clearfix">
-         <div class="col-1-3">
-           <!-- <img id="footer-logo" src="" alt="Picta"> -->
-         </div>
-         <div class="col-1-3">
-          <ul class="social-links">
-            <li>
-              <a href="mailto:help@graphic.com">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="41" height="39" viewBox="0, 0, 41, 39">
-                  <g id="Layer_1" transform="translate(0, 5)">
-                    <g id="mail">
-                      <path d="M0.449,0.001 C13.653,-0 26.856,-0 40.059,0.001 C38.58,1.443 37.135,2.917 35.649,4.353 C33.838,6.107 32.073,7.903 30.264,9.659 C29.235,10.681 28.174,11.674 27.171,12.721 C25.373,14.488 23.56,16.243 21.775,18.023 C20.867,18.807 19.306,18.778 18.486,17.882 C12.466,11.929 6.468,5.955 0.449,0.001 z M0.449,0.001" fill="#A7A7A7"></path>
-                      <path d="M0,27.699 C0.004,19.051 0.005,10.403 -0,1.756 C4.346,6.037 8.12,10.003 12.453,14.298 C8.259,18.837 4.127,23.237 0,27.699 z" fill="#A7A7A7"></path>
-                      <path d="M40.271,27.801 C40.267,19.153 40.267,10.505 40.271,1.858 C35.925,6.139 32.151,10.105 27.818,14.4 C32.012,18.939 36.145,23.339 40.271,27.801 z" fill="#A7A7A7"></path>
-                      <path d="M0.603,29.071 L13.509,15.321 C14.432,16.202 16.227,17.821 17.162,18.69 C19.358,20.646 21.472,20.617 23.613,18.595 C24.465,17.759 26.005,16.241 26.858,15.406 L39.404,29.071 C26.288,29.072 13.718,29.072 0.603,29.071 z" fill="#A7A7A7"></path>
-                    </g>
-                  </g>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/GraphicApps" target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="39" height="39" viewBox="0, 0, 39, 39">
-                  <g id="Layer_1">
-                    <g id="twitter">
-                      <path d="M19.25,0 C29.881,0 38.5,8.619 38.5,19.25 C38.5,29.881 29.881,38.5 19.25,38.5 C8.619,38.5 0,29.881 0,19.25 C0,8.619 8.619,0 19.25,0 z M23.301,12.204 C22.76,12.308 23.018,12.229 22.527,12.437 C22.329,12.538 22.073,12.727 21.896,12.87 C22.297,12.083 21.944,12.31 21.259,13.024 C20.341,13.982 19.543,15.302 18.89,17.34 C17.47,15.876 15.072,14.888 12.666,13.968 C12.128,13.761 11.991,13.577 12.123,14.296 C12.265,15.058 12.818,15.746 13.745,16.309 C13.431,16.324 13.081,16.361 12.809,16.43 C12.531,16.5 12.544,16.486 12.626,16.76 C12.876,17.586 13.598,18.203 14.777,18.54 C14.369,18.572 13.975,18.665 13.685,18.874 C13.422,19.064 13.423,19.083 13.585,19.332 C14.011,19.984 14.735,20.345 15.875,20.357 C14.671,20.971 15.065,22.107 16.583,22.107 C14.265,24.411 11.145,24.047 9.038,22.394 C12.248,26.93 18.65,27.292 23.047,24.796 C24.92,23.734 26.4,22.04 27.047,19.675 C28.083,19.662 28.92,19.354 29.445,18.749 C28.771,18.78 28.133,18.747 27.562,18.619 C27.1,18.515 27.179,18.536 27.566,18.456 C28.608,18.238 29.276,17.91 29.35,17.404 C28.664,17.622 27.961,17.63 27.211,17.498 C26.865,17.436 26.957,17.468 26.881,17.13 C26.328,14.685 24.408,13.536 22.6,13.501 C24.81,13.027 24.882,12.076 22.794,12.823 C23.309,12.431 23.188,12.668 23.301,12.204 z" fill="#A7A7A7"></path>
-                    </g>
-                  </g>
-                </svg>
-              </a>
-              <li>
-                <a href="https://www.facebook.com/idraw" target="_blank">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="39" height="39" viewBox="0, 0, 39, 39">
-                    <g id="facebook">
-                      <path d="M19.25,0 C29.881,0 38.5,8.619 38.5,19.25 C38.5,29.881 29.881,38.5 19.25,38.5 C8.618,38.5 -0,29.881 -0,19.25 C-0,8.619 8.618,0 19.25,0 z M23.845,9.358 L21.109,9.358 C17.824,9.358 16.667,11.015 16.667,13.801 L16.667,15.851 C16.667,15.851 14.618,15.851 14.618,15.851 L14.618,19.267 C14.618,19.267 16.667,19.267 16.667,19.267 L16.667,29.177 C16.667,29.177 20.766,29.177 20.766,29.177 L20.766,19.267 C20.766,19.267 23.502,19.267 23.502,19.267 C23.502,19.267 23.865,15.851 23.865,15.851 L20.766,15.851 C20.766,15.851 20.772,14.142 20.771,14.142 C20.772,13.251 20.856,12.774 22.136,12.774 L23.845,12.774 C23.845,12.774 23.845,9.358 23.845,9.358 z" fill="#A7A7A7"></path>
-                    </g>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div id="copyright" class="col-1-3">
-            <p> &copy; <?php echo date("Y"); ?> Picta Inc. All Rights Reserved. </p>
-          </div>
-          <div class="col-1-3" style="float:right;">
-            <div class="col-2-3">
-             <ul>
-               <li><a href="<?= $site->url() ?>/mac/">Graphic <strong>Mac</strong></a></li>
-               <li><a href="<?= $site->url() ?>/ipad-pro/">Graphic <strong>iPad Pro</strong></a></li>
-               <li><a href="<?= $site->url() ?>/ipad/">Graphic <strong>iPad</strong></a></li>
-               <li><a href="<?= $site->url() ?>/iphone/">Graphic <strong>iPhone</strong></a></li>
-             </ul>
+<section class="footer-container ">
+            <div class="container footer-inner-wrap">
+                <div class="footer-graphic-image">
+                    <img src="<?= $site->url?>/assets/images/GraphicLogoFooter.png" alt="no-image"/>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="<?= $site->url() ?>/mac/">Graphic <strong>Mac</strong></a></li>
+                    <li><a href="<?= $site->url() ?>/docs/">Learn</a></li>
+                    <li><a href="<?= $site->url() ?>/ipad/">Graphic <strong>iPad</strong></a></li>
+                    <li><a href="<?= $site->url() ?>/tutorials/">Tutorials</a></li>
+                    <li><a href="<?= $site->url() ?>/iphone/">Graphic <strong>iPhone</strong></a></li>
+                    <li><a href="mailto:help@graphic.com">Support</a></li>
+                </ul>
+                <div class="social-icons">
+                    <ul class="social-media-links">
+                        <li>
+                            <a href="mailto:help@graphic.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>.cls-1{fill:#a0a5c8;}</style></defs><title>Artboard 48</title><g id="Layer_14" data-name="Layer 14"><path class="cls-1" d="M100,0H20A20,20,0,0,0,0,20v80a20,20,0,0,0,20,20h80a20,20,0,0,0,20-20V20A20,20,0,0,0,100,0ZM99,80a8,8,0,0,1-8,8H29a8,8,0,0,1-8-8V51a3,3,0,0,1,6,0V80a2,2,0,0,0,2,2H91a2,2,0,0,0,2-2V42L62.06,71.18a3,3,0,0,1-4.12,0L25.6,40.63A5,5,0,0,1,29,32H80a3,3,0,0,1,0,6H31.55L60,64.87,90.57,36A5,5,0,0,1,99,39.64Z"/></g></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/GraphicApps" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>.cls-1{fill:#a0a5c8;}</style></defs><title>Artboard 49</title><g id="Layer_14" data-name="Layer 14"><path class="cls-1" d="M100,0H20A20,20,0,0,0,0,20v80a20,20,0,0,0,20,20h80a20,20,0,0,0,20-20V20A20,20,0,0,0,100,0ZM87.4,45.93l0,1.83C87.44,66.45,73.22,88,47.21,88a40,40,0,0,1-21.68-6.36,31.28,31.28,0,0,0,3.37.19,28.39,28.39,0,0,0,17.57-6A14.15,14.15,0,0,1,33.26,66a13,13,0,0,0,2.66.27,14.35,14.35,0,0,0,3.73-.5A14.16,14.16,0,0,1,28.3,51.86v-.17a14.06,14.06,0,0,0,6.41,1.77,14.17,14.17,0,0,1-4.38-18.88A40.16,40.16,0,0,0,59.48,49.36a14.15,14.15,0,0,1,24.1-12.89,28.62,28.62,0,0,0,9-3.44,14.2,14.2,0,0,1-6.22,7.82,28.38,28.38,0,0,0,8.12-2.22A28.2,28.2,0,0,1,87.4,45.93Z"/></g></svg>                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://www.facebook.com/idraw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>.cls-1{fill:#a0a5c8;}</style></defs><title>Artboard 50</title><g id="Layer_14" data-name="Layer 14"><path class="cls-1" d="M100,0H20A20,20,0,0,0,0,20v80a20,20,0,0,0,20,20h80a20,20,0,0,0,20-20V20A20,20,0,0,0,100,0ZM72.06,60H64.42V88H53.92V60h-7V50.35h7l0-5.69C53.9,36.79,56,32,65.31,32H73v9.65H68.2c-3.61,0-3.78,1.35-3.78,3.87l0,4.83h8.68Z"/></g></svg>                            </a>
+                        </li>
+                    </ul>
+                    <p class="copy-right-text">2018 Picta Inc. All Rights Reserved.</p>
+                </div>
             </div>
-            <div class="col-1-3" style="float:right;">
-              <ul>
-                <!-- <li><a href="<?= $site->url() ?>/blog/">Blog</a></li> -->
-                <li><a href="<?= $site->url() ?>/docs/">Learn</a></li>
-				<li><a href="<?= $site->url() ?>/tutorials/">Tutorials</a></li>
-                <li><a href="mailto:help@graphic.com">Support</a></li>
-              </ul>
-            </div>
-          </div>
-       </div>
-       
-      </div>
-    </footer>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<?php echo js('assets/js/flexslider/jquery.flexslider.js') ?>
-	<?php echo js('assets/js/all.js') ?>
-  </body>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <?php echo js('assets/js/flexslider/jquery.flexslider.js') ?>
+        <?php echo js('assets/js/all.js') ?>
+    </body>
 </html>
