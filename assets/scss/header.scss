@@ -12,19 +12,19 @@
     .menu-nav-container, .desktop-menu-nav-container {
         li{
             @media (min-width: 1024px) {
-                margin-left: 5px!important;
+                margin-left: 10px!important;
             }
             @media (min-width: 1200px) {
                 margin-left: 20px!important;
                
             }
-            @media (max-width: 992px) {
+            @media (max-width: 880px) {
                 background-color: rgba(246, 241, 241, 0.85);
             }
             a{
                
 
-                @media (min-width: 1024px) {
+                @media (min-width: 881px) {
                     border-radius: 5px;
                     &:hover{
                         background-color: #f5f5f5 ;
@@ -62,15 +62,21 @@
             }
           
         }
-        @media (min-width: 992px) {
+        
+        @media (min-width: 881px) {
             ul li a{
-                padding: 10px 24px;
+                padding: 10px 10px;
                 border-radius: 5px;
                 &.active{
                     background: #3d3c4f !important;
                     color: #fff!important;
                     
                 }
+            }
+        }
+        @media (min-width: 992px) {
+            ul li a{
+                padding: 10px 24px;
             }
         }
         ul li a{
@@ -89,15 +95,22 @@
             }
         }
     }
-    @media (min-width: 881px) and (max-width:992px ) {
+    @media (min-width: 882px){
         #nav li{
-            margin-left: 15px;
+            margin-left: 10px;
+        }
+    
+    }
+    @media (min-width: 882px) and (max-width:992px ) {
+        #nav li{
+            margin-left: 10px;
         }
         &.header-wrap .logo{
             width: 110px;
         }
     }
 }
+
 
 // home page styles
 // @media (max-width: 767px){
@@ -119,8 +132,7 @@
             @media (min-width: 768px){
                 max-width: 310px;
                 margin: 0;
-                line-height: 24px;
-                font-size: 17.5px;
+            	line-height: 24px;
             }
         }
         .title{
@@ -137,17 +149,15 @@
         }
 
         .head-main-title{
-            padding-top: 100px ;
+            padding-top: 90px ;
             padding-bottom: 35px ;
             text-align: left;
             height: 100%;
             @media (max-width: 767px) {
-                padding-top: 70px;
-                
                 p{
                     max-width: 70%;
                     margin: 0;
-                    font-size: 17.5px;
+                    font-size: 13px;
                 }
                
             }
@@ -189,22 +199,20 @@
         padding: 0 35px;
         background-color: #fff;
         border-radius: 15px;
-        position: relative;
-
+        justify-content: space-between;
         @media (max-width: 767px){
             height: 85px;
         }
         img{
             width: 35px;
             height: 35px;
+            
         }
         span{
             color: #3c3c50;
             font-weight: 700;
             letter-spacing: 4.5px;
             font-size: 20px;
-            width: 100%;
-            text-align: center;
         }
     }
     .tutorials-block{
@@ -223,12 +231,12 @@
         .tutorials-images{
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-evenly;
             .tutorials-icons{
                 display: block;
                 width: 200px;
                img{
-                   width: 100%;
+                   width: 90%;
                }
             }
         }
