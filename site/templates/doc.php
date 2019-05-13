@@ -56,11 +56,40 @@
 									</svg>
 								</a>
 							</div>
-			
+							<form class="doc-search-form">
+								<i class="doc-search-icon">&#128269;</i>
+								<input placeholder="Search" class="doc-search" type="search" autocomplete="off" name="q" value="<?= html($query) ?>">
+							</form>
 		  <?php snippet('docs_menu') ?>
 		</div>
-		
 		<div class="content">
+		<?php if($query && count($results) > 0) {?>
+			<h3 id="search-title">Search Results</h3>
+		<?php } ?>
+		<?php if($query && count($results) == 0) {?>
+			<h3 id="search-title">No Search results available.</h3>
+		<?php } ?>
+		<?php if($query && count($results) > 0) {?>
+			<ul class="doc-search-results">
+	            <?php foreach ($results as $result): ?><?php if(Str::contains($result->url(), '/docs')) {?>
+					<li>
+						<a href="<?= $result->url() ?>">
+						<p>	
+						<strong>
+								<?php if(Str::contains($result->url(), '/docs/')) {?>Mac<?php } ?>
+								<?php if(Str::contains($result->url(), '/docs-iphone/')) {?>iPhone<?php } ?>
+								<?php if(Str::contains($result->url(), '/docs-ipad/')) {?>iPad<?php } ?>
+								<span class="doc-search-result-title"> | <?= $result->title() ?></span>								
+						</strong>
+						</p>
+							<?= strip_tags(kirbytext(Str::short($result->text()->value(), 200))) ?>
+						</a>
+		            </li>
+				<?php } ?><?php endforeach ?>
+	        </ul>
+		<?php } ?>
+
+		<?php if(!$query) {?>
 			<main role="main">
 				<article class="blog format_text">
 				<?php echo kirbytext($page->text()) ?>
@@ -97,6 +126,8 @@
 			
 				</article>
 			</main>
+		<?php } ?>
+
 		</div>
 
 	</div>

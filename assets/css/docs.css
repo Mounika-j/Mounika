@@ -143,7 +143,7 @@ blockquote a {
   font-style: normal;
 }
 .menu > ul {
-  margin: 44px 30px 30px 30px;
+  margin: 30px;
   
 }
 .menu li {
@@ -241,6 +241,59 @@ blockquote a {
 	border: none;
 }
 
+.doc-search {
+  color:#3c3c50;
+  padding:8px;
+  border-radius:5px;
+  width:200px;
+  background:#f5f5f5;
+  border:none;
+  padding-left:32px;
+}
+
+.doc-search:focus{
+  outline: none;
+}
+
+.doc-search-icon {
+  margin-top: 8px;
+  position: absolute;
+  margin-left: 8px;
+}
+
+.doc-search-form {
+  clear: both;
+}
+
+.doc-search-results li:before{
+  content: none;
+}
+
+.doc-search-results li {
+  margin-bottom: 45px;
+}
+
+#search-title {
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+.doc-search-result-title {
+  color: #333;
+}
+
+@media (max-width: 768px){
+  .doc-search-form {
+    margin-top: 34px;
+    margin-bottom: 24px;
+    display: inline-block;
+  }
+
+  #formatButtons{
+    margin-left: 0;
+    width: initial;
+  }
+}
 
 /* Code
 -------------------------------------------------------------- */
