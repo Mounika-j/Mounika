@@ -847,8 +847,8 @@ input#signup-submit {
 }
 @media (max-width: 767px){
     .container {
-        padding-left: 25px!important;
-        padding-right: 25px!important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 }
 
@@ -1052,11 +1052,11 @@ ul.social-links {
     line-height: 42px;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     #hero .hero-text .title {
         font-size: 36px;
     }
-}
+} */
 
 .hero-text .title strong {
     font-family: 'Avenir-Heavy', sans-serif;
@@ -1308,13 +1308,6 @@ ul.social-links {
 @media screen and (max-width: 599px) {
     .home-banner-wrapper {
         height: 120vh;
-    }
-    /* .home-banner-wrapper .main-title{ padding: 25px 15px 0 15px;} */
-    .home-banner-wrapper p {
-        font-size: 14px;
-    }
-    .home-banner-wrapper .title {
-        font-size: 34px;
     }
 }
 
