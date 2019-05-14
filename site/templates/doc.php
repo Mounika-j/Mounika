@@ -72,19 +72,32 @@
 			<h3 id="search-title">No Search results available.</h3>
 		<?php } ?>
 		<?php if($query && count($results) > 0) {?>
+			<?php 
+				$pURL = $page->url();
+	
+				if(strpos($pURL, 'docs-iphone'))
+				{
+					$deviceDocs = "docs-iphone";
+				}
+				else if(strpos($pURL, 'docs-ipad'))
+				{
+					$deviceDocs = "docs-ipad";
+				}
+				else
+				{
+					$deviceDocs = "docs";
+				}
+				?>
 			<ul class="doc-search-results">
-	            <?php foreach ($results as $result): ?><?php if(Str::contains($result->url(), '/docs')) {?>
+	            <?php foreach ($results as $result): ?><?php if(Str::contains($result->url(), '/'.$deviceDocs.'/')) {?>
 					<li>
 						<a href="<?= $result->url() ?>">
 						<p>	
 						<strong>
-								<?php if(Str::contains($result->url(), '/docs/')) {?>Mac<?php } ?>
-								<?php if(Str::contains($result->url(), '/docs-iphone/')) {?>iPhone<?php } ?>
-								<?php if(Str::contains($result->url(), '/docs-ipad/')) {?>iPad<?php } ?>
-								<span class="doc-search-result-title"> | <?= $result->title() ?></span>								
+							<?= $result->title() ?>								
 						</strong>
 						</p>
-							<?= strip_tags(kirbytext(Str::short($result->text()->value(), 200))) ?>
+							<?= strip_tags(kirbytext(Str::short($result->text()->value(), 250))) ?>
 						</a>
 		            </li>
 				<?php } ?><?php endforeach ?>
