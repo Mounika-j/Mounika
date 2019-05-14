@@ -138,7 +138,7 @@ a:hover
     padding-top: 70px;
   }
 
-  /* #hero .hero-text .text{ width: 100%; } */
+  #hero .hero-text .text{ width: 70%; }
 }
 
 #hero-bg{
