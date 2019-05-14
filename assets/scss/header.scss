@@ -116,12 +116,13 @@
 // home page styles
 // @media (max-width: 767px){
     .home-banner-wrapper{
-        height: 400px;
+        height: 700px;
         background-size: cover;
         width: 100%;
         left: 0;
         background-repeat: no-repeat;
         background-position: 50% 50%;
+        cursor: pointer;
         .home-nav-link{
             display: block;
             height: 100%;
@@ -179,7 +180,7 @@
             position: absolute;
             width: 220px;
             bottom: 15%;
-            left:15px;
+            left:25px;
         }
     }
     .iphone-section-wrapper{
@@ -196,7 +197,7 @@
 
 .user-container{
     background-color: #f5f5f5;
-    padding:20px;
+    padding:20px 0;
     .user-block{
         width: 100%;
         display: flex;
