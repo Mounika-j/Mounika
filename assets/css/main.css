@@ -847,7 +847,8 @@ input#signup-submit {
 }
 @media (max-width: 767px){
     .container {
-        padding: 0 25px;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
     }
 }
 
