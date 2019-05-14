@@ -27,7 +27,7 @@ storeURL: https://itunes.apple.com/us/app/graphic-vector-illustration/id10379600
 
 ----
 
-buyText: Graphic is available on the App Store for only
+buyText: Available on the App Store for only
 
 ----
 

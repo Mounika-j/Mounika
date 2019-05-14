@@ -1803,6 +1803,7 @@ p {
     text-transform: uppercase;
     padding: 16px 24px;
     background-color: #1a9fe7;
+    border: 0;
 }
 
 @media (max-width: 767px) {
@@ -1980,6 +1981,7 @@ p {
     background: url('../images/page-curl3.png');
     background-size: cover;
 }
+
 
 
 @media (min-width: 768px) {

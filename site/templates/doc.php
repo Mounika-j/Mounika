@@ -29,6 +29,8 @@
 					$ipadColor = "\"#000\"";
 					$iphoneColor = "\"#000\"";
 				} ?>
+
+
 		
 							<div id="formatButtons" class="formatButtons-wrap">
 								<a href="<?php echo $site->url() . "/docs/new-documents"  ?>">
@@ -55,11 +57,11 @@
 									  </g>
 									</svg>
 								</a>
+								<form class="doc-search-form">
+									<i class="doc-search-icon">&#128269;</i>
+									<input placeholder="Search" class="doc-search" type="search" autocomplete="off" name="q" value="<?= html($query) ?>">
+								</form>
 							</div>
-							<form class="doc-search-form">
-								<i class="doc-search-icon">&#128269;</i>
-								<input placeholder="Search" class="doc-search" type="search" autocomplete="off" name="q" value="<?= html($query) ?>">
-							</form>
 		  <?php snippet('docs_menu') ?>
 		</div>
 		<div class="content">

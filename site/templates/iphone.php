@@ -233,6 +233,7 @@
         <span class="sub-title">Path Editing</span>
         <p class="sub-content">Union, Subtract, Intersect, Exclude and Divide paths. Quickly create custom shapes or join and disconnect vector paths.</p>
       </div>
+    
       <div class="text-box-wrap">
         <img src="../assets/images/ClippingPaths.svg" alt="no-image"/>
         <span class="sub-title">Clippings Path</span>

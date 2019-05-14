@@ -126,9 +126,9 @@ a:hover
 }
 
 
-#hero .hero-text .text{
+/* #hero .hero-text .text{
   width: 340px;
-}
+} */
 
 @media screen and (max-width: 500px){
   #hero { background-position: 35% 50%; }

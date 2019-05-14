@@ -1,0 +1,5 @@
+_temp
+staging
+error.log
+composer.lock
+/assets/scss/scss_cache
