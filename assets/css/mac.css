@@ -58,7 +58,7 @@ a:hover
 
 #hero .hero-text{
 	width: 420px;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 @media (max-width: 767px){
@@ -68,7 +68,7 @@ a:hover
   }
 
 #hero .hero-text .text{
-	width: 310px;
+	width: 350px;
 	line-height: 24px;
 }
 
