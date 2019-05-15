@@ -650,7 +650,8 @@ table {
 @media only screen and (max-width: 880px) {
     #nav-icon {
         display: block;
-        width: 25px;
+        width: 40px;
+        height: 25px;
         height: auto;
         float: right;
         padding-top: 25px;
@@ -1998,7 +1999,7 @@ p {
     position: absolute;
     width: 220px;
     bottom: 15%;
-    left: 15px;
+    left: 25px;
 }
 
 #heroSection .common-banner {

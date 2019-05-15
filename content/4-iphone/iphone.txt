@@ -7,7 +7,7 @@ platform: iPhone
 
 ----
 
-intro: A powerful, full-featured, vector illustration and graphic design application - in your pocket.
+intro: A powerful, full-featured, vector illustration and graphic design application in your pocket.
 
 ----
 
