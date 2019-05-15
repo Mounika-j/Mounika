@@ -156,7 +156,7 @@
 					<div class="text-box-wrap">
 						<img src="../assets/images/icon9.svg" alt="no-image"/>
 						<span class="sub-title">iCloud Support</span>
-						<p class="sub-content">Store your documents in iCloud, and keep them up to date across all devices. Share designs between Mac, iPad, and iPhone.</p>
+						<p class="sub-content">Store your documents in iCloud, and keep them up to date across all devices. Easily share designs between the Mac, iPad, and iPhone versions of Graphic.</p>
 					</div>
 					<div class="text-box-wrap">
 						<img src="../assets/images/icon10.svg" alt="no-image"/>

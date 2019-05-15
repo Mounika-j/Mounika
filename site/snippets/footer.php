@@ -35,5 +35,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <?php echo js('assets/js/flexslider/jquery.flexslider.js') ?>
         <?php echo js('assets/js/all.js') ?>
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                $('.customCls').next().removeClass()
+
+                let depth = $('.customCls').parent().attr('class')
+                depth = depth.match(/\d/g)
+                depth = depth.join("")
+                if (Number(depth) >= 3) {
+                    $('.customCls').parent().parent().removeClass()
+                }
+            });
+        </script>
     </body>
 </html>

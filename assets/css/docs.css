@@ -7,7 +7,7 @@
 html {
     -webkit-font-smoothing: antialiased;
     height: 101%;
-	background: url(../images/plugins_bg.png);
+	/* background: url(../images/plugins_bg.png); */
 }
 
 .site {
@@ -252,7 +252,7 @@ blockquote a {
 }
 @media (max-width: 767px){
   .doc-search {
-    width:91%;
+    width:89%;
   }
 }
 
@@ -314,7 +314,7 @@ blockquote a {
 
   #formatButtons{
     margin-left: 0;
-    width: initial;
+    width: 100%;
   }
 }
 

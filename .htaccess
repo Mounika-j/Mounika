@@ -51,3 +51,11 @@ RewriteRule ^(.*) index.php [L]
 # AddDefaultCharset UTF-8
 #
 # php_flag short_open_tag on
+
+# DISABLE CACHING
+<IfModule mod_headers.c>
+   # 2 HOURS
+   <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|svg|js|css|scss|swf|html|htm|php|txt)$">
+   Header set Cache-Control "max-age=3600, must-revalidate"
+   </FilesMatch>
+</IfModule>
