@@ -335,6 +335,13 @@ p{
         &.five-section-container{
             flex-direction: row-reverse;
         }
+        @media (max-width: 767px) {
+            .text-boxes-block{
+                margin-top: 0px!important;
+
+            }
+        }
+       
     }
    
     @media (max-width: 992px) {
