@@ -201,6 +201,30 @@ body {
 
 }
 .individual-tutorial{
+    @media (max-width: 767px) {
+        background-color: #fff;
+        .post-meta{
+            margin-top: 100px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            #formatButtons{
+                margin-right: 0px;
+                width: 60%;
+                margin: 33px auto;
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                top: 0;
+                left: 10%;
+                right: 10%;
+            }
+            .tutorial_steps h1 p{
+                font-weight: bold!important;
+            }
+        }
+    }
     .content{
         border: 0;
     }
