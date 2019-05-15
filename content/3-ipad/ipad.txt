@@ -7,7 +7,7 @@ platform: iPad
 
 ----
 
-intro: Full-featured, desktop caliber graphic design and illustration tools on iPad.
+intro: Professional desktop-class illustration and graphic design tools on iPad.
 
 ----
 

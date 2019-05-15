@@ -55,7 +55,7 @@
                     &.buy{
                         border-radius: 5px;
                         text-transform: uppercase;
-                        padding: 10px 24px ;
+                        padding: 7.5px 24px;
                         background-color: #1a9fe7;
                         strong{
                             color:#fff;
@@ -89,7 +89,7 @@
         }
         @media (min-width: 992px) {
             ul li a{
-                padding: 10px 24px;
+                padding: 7.5px 24px;
             }
         }
         ul li a{
@@ -102,7 +102,7 @@
                 &.active{
                     background: #3d3c4f !important;
                     color: #fff!important;
-                    padding: 10px 24px;
+                    padding: 7.5px 24px;
                     border-radius: 5px;
                 }
             }

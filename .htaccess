@@ -56,6 +56,6 @@ RewriteRule ^(.*) index.php [L]
 <IfModule mod_headers.c>
    # 2 HOURS
    <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|svg|js|css|scss|swf|html|htm|php|txt)$">
-   Header set Cache-Control "max-age=3600, must-revalidate"
+   Header set Cache-Control "max-age=5, must-revalidate"
    </FilesMatch>
 </IfModule>
