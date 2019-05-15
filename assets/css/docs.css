@@ -252,7 +252,7 @@ blockquote a {
 }
 @media (max-width: 767px){
   .doc-search {
-    width:89%;
+    width: calc(100% - 40px);
   }
 }
 
