@@ -61,11 +61,7 @@ a:hover
   padding-top: 100px;
 }
 
-@media (max-width: 767px){
-	#hero .hero-text .title{
-	  font-size: 36px;
-	}
-  }
+
 
 #hero .hero-text .text{
 	width: 350px;

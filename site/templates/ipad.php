@@ -20,12 +20,12 @@
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon1.svg" alt="no-image"/>
 					<span class="sub-title">Vector Drawing</span>
-					<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths</p>
+					<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths.</p>
 					</div>
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon20.svg" alt="no-image"/>
 					<span class="sub-title">Shape Tools</span>
-					<p class="sub-content">Versatile set of customizable drawing tools. Create lines, arcs, rectangles, ellipses, stars, polygons, etc</p>
+					<p class="sub-content">Versatile set of customizable drawing tools. Create lines, arcs, rectangles, ellipses, stars, polygons, etc.</p>
 					</div>
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon3.svg" alt="no-image"/>
@@ -248,10 +248,10 @@
 
 	<section class="photoshop-section features-section">
 		<div class="photoshop-title-block container">
-			<h4 class="carousel-head">Packed with Advanced Feature</h4>
+			<h4 class="carousel-head">Packed with Advanced Features</h4>
 			<p>Graphic for iPad gives you the possibility to stylize objects using vivid colors, gradients, seamless pattterns or even images. Create detailed shapes using Graphic's tools and vector shape building techniques. Easily mask or organize objects as you wish. All of the features you'd expect to find in a professional design application are all right here. Take projects on the go without leaving behind your favorite features. Graphic on iPad Pro is seamlessly similar to Graphic for Mac.</p>
 		</div>
-		<div class="features-block ">
+		<div class="features-block container">
 			<div class="text-box-wrap">
 				<img src="../assets/images/MultipleTabs.svg" alt="no-image" />
 				<span class="sub-title">Multiple Tabs</span>
@@ -337,7 +337,7 @@
 			<h4 class="carousel-head">Sync designs easily with iCloud</h4>
 			<p>Full-featured vector drawing, on all your devices.</p>
 		</div>
-		<div class="design-image container">
+		<div class="design-image ">
 			<img src="<?= $page->image('ipad-desktop-clouddesign.png')->url() ?>" alt="no-image">
 
 		</div>

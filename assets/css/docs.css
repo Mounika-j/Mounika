@@ -11,7 +11,7 @@ html {
 }
 
 .site {
-    padding: 0 0 50px 0;
+    /* padding: 0 0 50px 0; */
     line-height: 1;
     font-size: 15px;
     color: #333;
@@ -252,7 +252,7 @@ blockquote a {
 }
 @media (max-width: 767px){
   .doc-search {
-    width:95%;
+    width:91%;
   }
 }
 
@@ -282,6 +282,18 @@ blockquote a {
 #search-title {
   margin-left: 25px;
   margin-bottom: 0;
+}
+@media (max-width: 767px){
+  #search-title {
+    margin-left: 0px;
+  }
+  .doc-search-results{
+    margin: 0!important;
+  }
+  .doc-search-results li{
+    padding: 0 !important;
+    margin: 0!important;
+  }
 }
 
 .doc-search-result-title {

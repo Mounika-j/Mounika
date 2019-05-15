@@ -9,6 +9,18 @@
                 justify-content: space-between;
             }
         }
+        .logo a{
+            display: flex;
+            width: 141px;
+            height: 50px;
+            @media (max-width: 767px) {
+                display: block
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
     .menu-nav-container, .desktop-menu-nav-container {
         li{
             @media (min-width: 1024px) {
@@ -43,7 +55,7 @@
                     &.buy{
                         border-radius: 5px;
                         text-transform: uppercase;
-                        padding: 16px 24px ;
+                        padding: 10px 24px ;
                         background-color: #1a9fe7;
                         strong{
                             color:#fff;

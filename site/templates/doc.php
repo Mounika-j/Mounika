@@ -62,6 +62,11 @@
 									<input placeholder="Search" class="doc-search" type="search" autocomplete="off" name="q" value="<?= html($query) ?>">
 								</form>
 							</div>
+
+			<?php
+		  	//<i class="fas fa-caret-down"></i>
+		  	echo '<button class="collapsible">'.$page->title().'<i class="arrow-icon">&#10148;</i></button>';
+		  ?>
 		  <?php snippet('docs_menu') ?>
 		</div>
 		<div class="content">
@@ -148,5 +153,22 @@
 	</div>
 
 <?php snippet('footer') ?>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </div>
