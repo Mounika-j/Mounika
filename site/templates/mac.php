@@ -211,7 +211,7 @@
 			<h4 class="carousel-head">Packed with Advanced Feature</h4>
 			<p>Graphic for iPad gives you the possibility to stylize objects using vivid colors, gradients, seamless pattterns or even images. Create detailed shapes using Graphic's tools and vector shape building techniques. Easily mask or organize objects as you wish. All of the features you'd expect to find in a professional design application are all right here. Take projects on the go without leaving behind your favorite features. Graphic on iPad Pro is seamlessly similar to Graphic for Mac.</p>
 		</div>
-		<div class="features-block container">
+		<div class="features-block ">
       		<div class="text-box-wrap">
 				<img src="../assets/images/KeyboardShortcuts.svg" alt="no-image" />
 				<span class="sub-title">Keyboard Shortcuts</span>
