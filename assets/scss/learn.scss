@@ -49,6 +49,7 @@
                     margin-left: 0!important;
                     display: flex;
                     justify-content: space-evenly;
+                    width: 100%;
                 }
 
             }
@@ -186,24 +187,26 @@
             }
             a{
                 color: #3c3c50!important;
-                padding: 9px 0!important;
+                padding: 9px 5px!important;
                 display: block!important;
                 &.active{
-                    background: transparent!important;
-                    @media (max-width: 768px){
-                        color: #505064 !important;
+                    background-color: #3c3c50 !important;
+                    color: #fff!important;
+                       
+                    // @media (max-width: 767px){
+                    //     color: #505064 !important;
 
-                    }
+                    // }
                     
                 }
             }
         } 
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
+    // .active, .collapsible:hover {
+    //   background-color: #555;
+    // }
 
     .content1 {
-      padding: 0 18px;
+      padding: 10px 18px;
       display: none;
       overflow: hidden;
       background-color: #f1f1f1;

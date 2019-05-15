@@ -1,6 +1,6 @@
 #heroSection .cls-iPhone{
     .title{
-        color: #3d3c4f;
+        color: #141428;
     }
     .common-app-link{
         svg g .cls-3{
@@ -8,7 +8,7 @@
         }
     }
     .title, .title strong, .text{
-        color: #3d3c4f;
+        color: #141428;
     }
     
 }
@@ -130,16 +130,16 @@ p{
         }
         &.container{
             @media (max-width: 767px) {
-                margin: 0;
-                padding: 0;
-                max-width: 100%;
-                height: auto;
+                margin: 0!important;
+                padding: 0!important;
+                max-width: 100%!important;
+                height: auto!important;
             }
            
         }
     }
     &.container{
-        height: auto;  
+        height: auto!important;  
     }
     .container{
         height: auto;  
@@ -211,8 +211,8 @@ p{
             }
             &.container{
                 padding: 0!important;
-                margin: 0;
-                width: 100%;
+                margin: 0!important;
+                width: 100%!important;
             }
         }
         .text-box-wrap{
@@ -238,10 +238,10 @@ p{
         }
         &.container{
             @media (max-width: 767px) {
-                margin: 0;
-                padding: 0;
-                max-width: 100%;
-                height: auto;
+                margin: 0!important;
+                padding: 0!important;
+                max-width: 100%!important;
+                height: auto!important;
             }
            
         }
@@ -253,10 +253,10 @@ p{
     }
     &.container{
         @media (max-width: 767px) {
-            margin: 0;
-            padding: 0;
-            max-width: 100%;
-            height: auto;
+            margin: 0!important;
+            padding: 0!important;
+            max-width: 100%!important;
+            height: auto!important;
         }
        
     }
