@@ -58,17 +58,13 @@ a:hover
 
 #hero .hero-text{
 	width: 420px;
-  padding-top: 90px;
+  	padding-top: 0px;
 }
 
-@media (max-width: 767px){
-	#hero .hero-text .title{
-	  font-size: 36px;
-	}
-  }
+
 
 #hero .hero-text .text{
-	width: 310px;
+	width: 350px;
 	line-height: 24px;
 }
 
@@ -79,7 +75,7 @@ a:hover
   #hero .hero-text
   {
     width: 100%;
-    padding-top: 70px;
+    padding-top: 0px;
   }
 
   #hero .hero-text .text{

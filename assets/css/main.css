@@ -650,7 +650,8 @@ table {
 @media only screen and (max-width: 880px) {
     #nav-icon {
         display: block;
-        width: 25px;
+        width: 40px;
+        height: 25px;
         height: auto;
         float: right;
         padding-top: 25px;
@@ -847,7 +848,8 @@ input#signup-submit {
 }
 @media (max-width: 767px){
     .container {
-        padding: 0 25px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 }
 
@@ -1047,13 +1049,13 @@ ul.social-links {
 .hero-text .title {
     font-size: 35px;
     font-weight: normal;
-    margin-bottom: 15px;
-    line-height: 42px;
+    margin-bottom: 32px;
+    line-height: 1.37;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 881px) {
     #hero .hero-text .title {
-        font-size: 36px;
+        margin-bottom: 30px;
     }
 }
 
@@ -1308,13 +1310,6 @@ ul.social-links {
     .home-banner-wrapper {
         height: 120vh;
     }
-    /* .home-banner-wrapper .main-title{ padding: 25px 15px 0 15px;} */
-    .home-banner-wrapper p {
-        font-size: 14px;
-    }
-    .home-banner-wrapper .title {
-        font-size: 34px;
-    }
 }
 
 /* Device Navigation styling */
@@ -1551,7 +1546,7 @@ p {
 .iphone-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 1.2% 10.8% 2.65% 8.9%;
+    padding: 1.6% 10.3% 2.65% 8.9%;
     width: 75%;
     height: auto;
     background-image: url('../images/iphone-frame.png');
@@ -1580,6 +1575,12 @@ p {
     background-image: url('../images/Mac-Device.png');
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+    @media (min-width: 768px) {
+        .video-wrap{
+            padding: 4.8% 12.43% 13% 12.32%;
+    }
 }
 @media (max-width: 767px){
     .iphone-wrap {
@@ -1794,7 +1795,7 @@ p {
 }
 
 .icon-branded-section .download-button {
-    margin-top: 25px;
+    margin-top: 30px;
     height: auto;
     text-align: center;
     color: #fff;
@@ -1992,7 +1993,7 @@ p {
         background: url('../images/iPadDesktop-bg.jpg');
     }
     .iphone-section-wrapper {
-        background: url('../images/iphoneDesktop-bg.jpg');
+        background: url('../images/HomeMacBackgroundiPhone 2.jpg');
     }
 }
 
@@ -2003,8 +2004,8 @@ p {
 .common-banner .common-app-link {
     position: absolute;
     width: 220px;
-    bottom: 15%;
-    left: 15px;
+    bottom: 9%;
+    left: 25px;
 }
 
 #heroSection .common-banner {
@@ -2052,4 +2053,7 @@ p {
 }
  .flex-direction-nav a.flex-next{
 	right: 5%;
+}
+.social-media-icons a:first-child{
+    margin-right: 10px;
 }

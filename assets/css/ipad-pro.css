@@ -88,7 +88,8 @@ a:hover
   
   #nav-icon {
     display: block;
-    width: 25px;
+    width: 40px;
+    height: 25px;
     height: auto;
     float: right;
     padding-top: 25px; 
@@ -138,7 +139,7 @@ a:hover
     padding-top: 70px;
   }
 
-  /* #hero .hero-text .text{ width: 100%; } */
+  #hero .hero-text .text{ width: 70%; }
 }
 
 #hero-bg{

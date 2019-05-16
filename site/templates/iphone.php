@@ -272,8 +272,9 @@
       <h4 class="carousel-head">Sync designs easily with iCloud</h4>
       <p>Full-featured vector drawing, on all your devices.</p>
     </div>
-    <div class="design-image container">
-      <img src="<?= $page->image('design.png')->url() ?>" alt="no-image">
+    <div class="design-image ">
+      <img src="<?= $page->image('design.png')->url() ?>" alt="no-image" class="mobile-image">
+      <img src="<?= $page->image('desktop-design.png')->url() ?>" alt="no-image" class="desktop-image">
     </div>
   </section>
 

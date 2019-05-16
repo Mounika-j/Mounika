@@ -1,10 +1,19 @@
 <?php $p = ( $page->depth() == 1 ) ? $page : $page->parents()->last(); ?>
 <?php if(!isset($subpages)) $subpages = $p->children() ?>
-<ul>
+<ul class="content1">
   <?php foreach($subpages->visible() AS $p): ?>
   <li class="depth-<?php echo $p->depth() ?>">
-    <a<?php echo ($p->isActive()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
-    <?php 
+    <?php
+    $addCls = '';
+    if ($page->title() === $p->title()) {
+    	$addCls = 'customCls';
+    }
+
+    ?>
+    <a<?php echo ($p->isActive()) ? ' class="active '.$addCls.'"' : '' ?> href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
+
+
+    <?php
 	if($p->hasChildren()) {
 		$showChildren = $p->isActive();
 		

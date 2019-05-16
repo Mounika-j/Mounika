@@ -27,6 +27,9 @@
 				<li>
 					<img src="<?= $page->image('Mac1-Screen3.png')->url() ?>" alt="no-image">
 				</li>
+				<li>
+					<img src="<?= $page->image('Mac1-Screen4.png')->url() ?>" alt="no-image">
+				</li>
 				</ul>
 			</div>
 			</div>
@@ -35,7 +38,7 @@
 			<div class="text-box-wrap">
 				<img src="../assets/images/icon1.svg" alt="no-image"/>
 				<span class="sub-title">Vector Drawing</span>
-				<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths</p>
+				<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths.</p>
 			</div>
 			<div class="text-box-wrap">
 				<img src="../assets/images/icon20.svg" alt="no-image"/>
@@ -58,23 +61,23 @@
 				<h4 class="carousel-head">Optimized for Graphic Tablets</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="iphone-wrap mac-wrap">
-				<div class="iphone-slider" role="main">
-				<div id="slider" class="flexslider clearfix">
-					<ul class="slides slides-wrapper clearfix">
-					<li>
-						<img src="<?= $page->image('Mac2-Screen1.png')->url() ?>" alt="no-image">
-					</li>
-					<li>
-						<img src="<?= $page->image('Mac2-Screen2.png')->url() ?>"alt="no-image">
-					</li>
-					<li>
-						<img src="<?= $page->image('Mac2-Screen3.png')->url() ?>" alt="no-image">
-					</li>
-					</ul>
-				</div>
-				</div>
+			<div class="mac-video-wrap">
+				<video loop autoplay muted playsinline  >
+					<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">
+				</video>
 			</div>
+			<!-- <div class="iphone-wrap mac-wrap video-wrap">
+				<div class="iphone-slider" role="main">
+					<div id="slider" class="flexslider clearfix">
+						<ul class="slides slides-wrapper clearfix">
+					
+							<li>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
 			<div class="text-boxes-block">
 				<div class="text-box-wrap">
 					<img src="../assets/images/PressureSensitiveStrokes.svg" alt="no-image"/>
@@ -208,8 +211,8 @@
 
 	<section class="photoshop-section features-section">
 		<div class="photoshop-title-block container">
-			<h4 class="carousel-head">Packed with Advanced Feature</h4>
-			<p>Graphic for iPad gives you the possibility to stylize objects using vivid colors, gradients, seamless pattterns or even images. Create detailed shapes using Graphic's tools and vector shape building techniques. Easily mask or organize objects as you wish. All of the features you'd expect to find in a professional design application are all right here. Take projects on the go without leaving behind your favorite features. Graphic on iPad Pro is seamlessly similar to Graphic for Mac.</p>
+			<h4 class="carousel-head">Packed with Advanced Features</h4>
+			<p>Graphic for MAC gives you the possibility to stylize objects using vivid colors, gradients, seamless pattterns or even images. Create detailed shapes using Graphic's tools and vector shape building techniques. Easily mask or organize objects as you wish. All of the features you'd expect to find in a professional design application are all right here. Take projects on the go without leaving behind your favorite features. Graphic on iPad Pro is seamlessly similar to Graphic for Mac.</p>
 		</div>
 		<div class="features-block container">
       		<div class="text-box-wrap">
@@ -341,8 +344,8 @@
 			<h4 class="carousel-head">Sync designs easily with iCloud</h4>
 			<p>Full-featured vector drawing, on all your devices.</p>
 		</div>
-		<div class="design-image container">
-			<img src="<?= $page->image('Mac-design1.png')->url()?>" alt="no-image"/>
+		<div class="design-image">
+			<img src="<?= $page->image('Mac-design2.png')->url()?>" alt="no-image"/>
 
 		</div>
 	</section>

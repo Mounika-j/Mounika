@@ -15,17 +15,17 @@
 				<h4 class="carousel-head">Powerful Vector Illustration Tools</h4>
 				<p>Graphic for iPad is a full-featured graphic design and illustration application, bringing desktop-class vector drawing tools right on your iPad. Packed with many powerful features, and designed to be easy to use, you can use Graphic to create everything from simple diagrams to intricate detailed vector artwork.</p>
 			</div>
-			<div class="tools-container">
+			<div class="tools-container tools-container-block1">
 				<div class="text-boxes-block">
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon1.svg" alt="no-image"/>
 					<span class="sub-title">Vector Drawing</span>
-					<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths</p>
+					<p class="sub-content">Powerful bezier pen tool for drawing points, curves, and lines. Pencil and brush tools for sketching. Quickly create custom shapes or paths.</p>
 					</div>
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon20.svg" alt="no-image"/>
 					<span class="sub-title">Shape Tools</span>
-					<p class="sub-content">Versatile set of customizable drawing tools. Create lines, arcs, rectangles, ellipses, stars, polygons, etc</p>
+					<p class="sub-content">Versatile set of customizable drawing tools. Create lines, arcs, rectangles, ellipses, stars, polygons, etc.</p>
 					</div>
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon3.svg" alt="no-image"/>
@@ -39,6 +39,7 @@
 			</div>
 		</div>
 	</section>
+	
 
 	<section class="iphone-section-carousel-container" id="vector-illustration">
 		<div class="iphone-carousel-wrap container">
@@ -46,9 +47,10 @@
 				<h4 class="carousel-head">Optimized for the iPad Pro & Apple Pencil</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="ipad-secton-section">
-				<img src="<?= $page->image('ipad-block2.png')->url() ?>" alt="no-image">
-
+			<div class="ipad-video-wrap">
+				<video loop autoplay muted playsinline  >
+					<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">
+				</video>
 			</div>
 			<div class="text-boxes-block">
 				<div class="text-box-wrap">
@@ -156,7 +158,7 @@
 					<div class="text-box-wrap">
 						<img src="../assets/images/icon9.svg" alt="no-image"/>
 						<span class="sub-title">iCloud Support</span>
-						<p class="sub-content">Store your documents in iCloud, and keep them up to date across all devices. Share designs between Mac, iPad, and iPhone.</p>
+						<p class="sub-content">Store your documents in iCloud, and keep them up to date across all devices. Easily share designs between the Mac, iPad, and iPhone versions of Graphic.</p>
 					</div>
 					<div class="text-box-wrap">
 						<img src="../assets/images/icon10.svg" alt="no-image"/>
@@ -248,7 +250,7 @@
 
 	<section class="photoshop-section features-section">
 		<div class="photoshop-title-block container">
-			<h4 class="carousel-head">Packed with Advanced Feature</h4>
+			<h4 class="carousel-head">Packed with Advanced Features</h4>
 			<p>Graphic for iPad gives you the possibility to stylize objects using vivid colors, gradients, seamless pattterns or even images. Create detailed shapes using Graphic's tools and vector shape building techniques. Easily mask or organize objects as you wish. All of the features you'd expect to find in a professional design application are all right here. Take projects on the go without leaving behind your favorite features. Graphic on iPad Pro is seamlessly similar to Graphic for Mac.</p>
 		</div>
 		<div class="features-block container">
@@ -337,7 +339,7 @@
 			<h4 class="carousel-head">Sync designs easily with iCloud</h4>
 			<p>Full-featured vector drawing, on all your devices.</p>
 		</div>
-		<div class="design-image container">
+		<div class="design-image ">
 			<img src="<?= $page->image('ipad-desktop-clouddesign.png')->url() ?>" alt="no-image">
 
 		</div>
