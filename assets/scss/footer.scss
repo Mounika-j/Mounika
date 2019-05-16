@@ -32,7 +32,7 @@
         @media (min-width: 768px){
             width: 60%;
             margin: 0 auto;
-            padding-bottom: 48px;
+            padding-bottom: 30px;
         }
         li{
             width: 36px;
@@ -69,9 +69,7 @@
                     padding: 0;
                     font-size: 13px;
                     line-height: 1.85;
-                    @media (min-width: 768px){
-                         margin: 0;
-                    }
+                   
                     strong{
                         color: #a0a5c8;
                     }

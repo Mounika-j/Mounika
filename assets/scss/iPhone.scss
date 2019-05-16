@@ -1,6 +1,13 @@
 #heroSection .cls-iPhone{
     .title{
         color: #141428;
+        margin-bottom: 32px;
+            p{
+                line-height: 1.37;
+            }
+            @media (min-width: 881px) {
+                margin-bottom: 30px;
+            }
     }
     .common-app-link{
         svg g .cls-3{
@@ -20,7 +27,7 @@
     line-height: 24px;
     @media (min-width: 768px) {
         font-size: 36px;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
     
 }
@@ -33,10 +40,9 @@ p{
 }
 
 .iphone-section-carousel-container{
-    padding-top: 70px;
+    padding-top: 50px;
     position: relative;
     @media (min-width: 768px) {
-        padding-top: 70px;
         padding-bottom: 0px;
     }
     .iphone-carousel-wrap{
@@ -52,6 +58,10 @@ p{
                     li{
                         img{
                             width: 100%;
+                        }
+                        video{
+                            width: 100%;
+                            height: 100%;
                         }
                     }
                 }
@@ -104,7 +114,7 @@ p{
 }
 
 .photoshop-section{
-    padding-top: 70px;
+    padding-top: 50px;
     .photoshop-title-block{
         text-align: center;
         p{
@@ -315,13 +325,13 @@ p{
         &.five-section-container{
             flex-direction: row-reverse;
         }
-        @media (max-width: 767px) {
-            .text-boxes-block{
-                margin-top: 0px!important;
-
-            }
+        
+    }
+    @media (max-width: 767px) {
+        .text-boxes-block{
+            margin-top: 0px!important;
+            
         }
-       
     }
    
     @media (max-width: 992px) {
@@ -329,6 +339,15 @@ p{
         align-items: center;
         .text-boxes-block{
             margin-top: 70px;
+        }
+    }
+    
+    &.tools-container-block1{
+        @media (max-width: 767px) {
+            .text-boxes-block{
+                margin-top: 40px!important;
+                
+            }
         }
     }
 
@@ -375,4 +394,22 @@ p{
 .sub-content{
     font-size: 15px;
     color: #505064!important;
+}
+
+.common-banner{
+    .container{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+.ipad-video-wrap,.mac-video-wrap{
+    width: 75%;
+    margin: 0 auto;
+    video{
+        width: 100%;
+    }
+}
+.mac-video-wrap{
+    width: 95%;
 }

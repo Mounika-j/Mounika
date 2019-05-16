@@ -143,7 +143,7 @@ blockquote a {
   font-style: normal;
 }
 .menu > ul {
-  margin: 30px;
+  margin: 30px 30px 30px 15px;
   
 }
 .menu li {
@@ -226,9 +226,9 @@ blockquote a {
 #formatButtons
 {
 	float: left;
-	margin-left: 30px;
-	margin-top: 34px;
-	margin-bottom: 24px;
+	margin-left: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #formatButtons a {
@@ -253,6 +253,7 @@ blockquote a {
 @media (max-width: 767px){
   .doc-search {
     width: calc(100% - 40px);
+    padding: 18px 8px 18px 32px;
   }
 }
 
@@ -267,8 +268,16 @@ blockquote a {
   margin-left: 8px;
 }
 
+@media (max-width: 767px){
+  .doc-search-icon {
+    margin: 0;
+    left: 5px;
+    top: 33%;
+  }
+}
 .doc-search-form {
   clear: both;
+  position: relative;
 }
 
 .doc-search-results li:before{
@@ -303,6 +312,11 @@ blockquote a {
     margin-top: 30px;
     display: block;
     width: 73%; 
+}
+.doc-search-form input{
+  font-size: 17px;
+  color: #3c3c50;
+  font-weight: 500;
 }
 @media (max-width: 767px){
   .doc-search-form {

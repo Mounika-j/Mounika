@@ -27,6 +27,9 @@
 				<li>
 					<img src="<?= $page->image('Mac1-Screen3.png')->url() ?>" alt="no-image">
 				</li>
+				<li>
+					<img src="<?= $page->image('Mac1-Screen4.png')->url() ?>" alt="no-image">
+				</li>
 				</ul>
 			</div>
 			</div>
@@ -58,23 +61,23 @@
 				<h4 class="carousel-head">Optimized for Graphic Tablets</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="iphone-wrap mac-wrap">
-				<div class="iphone-slider" role="main">
-				<div id="slider" class="flexslider clearfix">
-					<ul class="slides slides-wrapper clearfix">
-					<li>
-						<img src="<?= $page->image('Mac2-Screen1.png')->url() ?>" alt="no-image">
-					</li>
-					<li>
-						<img src="<?= $page->image('Mac2-Screen2.png')->url() ?>"alt="no-image">
-					</li>
-					<li>
-						<img src="<?= $page->image('Mac2-Screen3.png')->url() ?>" alt="no-image">
-					</li>
-					</ul>
-				</div>
-				</div>
+			<div class="mac-video-wrap">
+				<video loop autoplay muted playsinline  >
+					<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">
+				</video>
 			</div>
+			<!-- <div class="iphone-wrap mac-wrap video-wrap">
+				<div class="iphone-slider" role="main">
+					<div id="slider" class="flexslider clearfix">
+						<ul class="slides slides-wrapper clearfix">
+					
+							<li>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
 			<div class="text-boxes-block">
 				<div class="text-box-wrap">
 					<img src="../assets/images/PressureSensitiveStrokes.svg" alt="no-image"/>
@@ -342,7 +345,7 @@
 			<p>Full-featured vector drawing, on all your devices.</p>
 		</div>
 		<div class="design-image">
-			<img src="<?= $page->image('Mac-design1.png')->url()?>" alt="no-image"/>
+			<img src="<?= $page->image('Mac-design2.png')->url()?>" alt="no-image"/>
 
 		</div>
 	</section>

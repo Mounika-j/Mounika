@@ -273,7 +273,8 @@
       <p>Full-featured vector drawing, on all your devices.</p>
     </div>
     <div class="design-image ">
-      <img src="<?= $page->image('design.png')->url() ?>" alt="no-image">
+      <img src="<?= $page->image('design.png')->url() ?>" alt="no-image" class="mobile-image">
+      <img src="<?= $page->image('desktop-design.png')->url() ?>" alt="no-image" class="desktop-image">
     </div>
   </section>
 

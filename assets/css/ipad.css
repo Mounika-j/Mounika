@@ -115,7 +115,7 @@ a:hover
 
 #hero .hero-text{
 	width: 420px;
- 	padding-top: 100px;
+ 	padding-top:0px;
 }
 
 #hero .hero-text .text{
@@ -129,7 +129,7 @@ a:hover
 
   #hero .hero-text{
     width: 100%;
-    padding-top: 70px;
+    padding-top: 0px;
   }
 
   #hero .hero-text .text{ width: 70%; }
