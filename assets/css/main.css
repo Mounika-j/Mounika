@@ -1569,7 +1569,7 @@ p {
 .mac-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 4.2% 12.43% 15% 12.32%;
+    padding: 3.5% 16.43% 16.1% 15.82%;
     width: 95%;
     height: auto;
     background-image: url('../images/Mac-Device.png');
@@ -1592,7 +1592,7 @@ p {
         padding: 5% 8.45% 5.8% 8.6%;
     }
     .mac-wrap {
-        padding: 4.8% 12.8% 11.75% 12.9%;
+        padding: 2.8% 17.7% 12.15% 16.6%;
     }
 }
 

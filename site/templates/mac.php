@@ -61,11 +61,24 @@
 				<h4 class="carousel-head">Optimized for Graphic Tablets</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="mac-video-wrap">
-				<video loop autoplay muted playsinline  >
-					<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">
-				</video>
+
+			<div class="iphone-wrap mac-wrap mac-video-wrap">
+				<div class="iphone-slider" role="main">
+					<div id="slider" class="flexslider clearfix">
+						<ul class="slides slides-wrapper clearfix">
+							<li>
+								<video loop autoplay muted playsinline  >
+									<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">
+								</video>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+
+			<!-- <div class="mac-video-wrap"> -->
+				
+			<!-- </div> -->
 			<!-- <div class="iphone-wrap mac-wrap video-wrap">
 				<div class="iphone-slider" role="main">
 					<div id="slider" class="flexslider clearfix">

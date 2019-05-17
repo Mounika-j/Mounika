@@ -45,14 +45,15 @@
 									</a>
 								</div>
 								<form class="doc-search-form">
-									<i class="doc-search-icon">&#128269;</i>
+									<!-- <i class="doc-search-icon">&#128269;</i> -->
+									<svg class="doc-search-icon" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-8{fill:#3c3c51;fill-rule:evenodd;}</style></defs><path class="cls-8" d="M31.36,31.11a2,2,0,0,1-2.83,0L21,23.58a12.94,12.94,0,1,1,2.76-2.9l7.6,7.6a2,2,0,0,1,0,2.83ZM13.06,3.31a10,10,0,1,0,10,10,10,10,0,0,0-10-10Z"/></svg>
 									<input placeholder="Search" class="doc-search" type="search" autocomplete="off" name="q" value="<?= html($query) ?>">
 								</form>
 							</div>
 
 			<?php
 		  	//<i class="fas fa-caret-down"></i>
-		  	echo '<button class="collapsible">'.$page->title().'<i class="arrow-icon">&#10148;</i></button>';
+		  	echo '<button class="collapsible">'.$page->title().'</button>';
 		  ?>
 		  <?php snippet('docs_menu') ?>
 		</div>

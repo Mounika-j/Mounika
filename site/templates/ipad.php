@@ -47,11 +47,22 @@
 				<h4 class="carousel-head">Optimized for the iPad Pro & Apple Pencil</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="ipad-video-wrap">
-				<video loop autoplay muted playsinline  >
-					<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">
-				</video>
+			<div class="iphone-wrap ipad-wrap ipad-video-wrap">
+				<div class="iphone-slider" role="main">
+					<div id="slider" class="flexslider clearfix">
+						<ul class="slides slides-wrapper clearfix">
+							<li>
+								<video loop autoplay muted playsinline  >
+									<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">
+								</video>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+			<!-- <div class="ipad-video-wrap">
+				
+			</div> -->
 			<div class="text-boxes-block">
 				<div class="text-box-wrap">
 					<img src="../assets/images/PressureSensitiveStrokes.svg" alt="no-image"/>
