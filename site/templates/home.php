@@ -69,6 +69,9 @@
           <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-nintendo-switch-illustration">
             <img src="./assets/images/HomeMacTutorials-1.png" alt="no-image"/>
           </a>
+          <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-clock-app-icon">
+           <img src="./assets/images/HomeMacTutorials2-1.png" alt="no-image"/>
+         </a>
        
           <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-brewery-logo">
             <img src="./assets/images/HomeMacTutorials3.png" alt="no-image"/>

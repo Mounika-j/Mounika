@@ -15,7 +15,7 @@
 				<h4 class="carousel-head">Powerful Vector Illustration Tools</h4>
 				<p>Graphic for iPad is a full-featured graphic design and illustration application, bringing desktop-class vector drawing tools right on your iPad. Packed with many powerful features, and designed to be easy to use, you can use Graphic to create everything from simple diagrams to intricate detailed vector artwork.</p>
 			</div>
-			<div class="tools-container">
+			<div class="tools-container tools-container-block1">
 				<div class="text-boxes-block">
 					<div class="text-box-wrap">
 					<img src="../assets/images/icon1.svg" alt="no-image"/>
@@ -39,6 +39,7 @@
 			</div>
 		</div>
 	</section>
+	
 
 	<section class="iphone-section-carousel-container" id="vector-illustration">
 		<div class="iphone-carousel-wrap container">
@@ -46,10 +47,22 @@
 				<h4 class="carousel-head">Optimized for the iPad Pro & Apple Pencil</h4>
 				<p>Whether you're creating beautiful illustrations or tweaking your latest design, Graphic offers versatility and precision with features such as full vector editing controls.</p>
 			</div>
-			<div class="ipad-secton-section">
-				<img src="<?= $page->image('ipad-block2.png')->url() ?>" alt="no-image">
-
+			<div class="iphone-wrap ipad-wrap ipad-video-wrap">
+				<div class="iphone-slider" role="main">
+					<div id="slider" class="flexslider clearfix">
+						<ul class="slides slides-wrapper clearfix">
+							<li>
+								<video loop autoplay muted playsinline  >
+									<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">
+								</video>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+			<!-- <div class="ipad-video-wrap">
+				
+			</div> -->
 			<div class="text-boxes-block">
 				<div class="text-box-wrap">
 					<img src="../assets/images/PressureSensitiveStrokes.svg" alt="no-image"/>

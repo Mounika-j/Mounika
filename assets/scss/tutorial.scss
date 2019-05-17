@@ -16,7 +16,7 @@ body {
         h2{
             margin: 0;
             padding: 40px 0 20px 10px;
-            color: #3c3c50;
+            color:  #3c3c50;
             text-align: left;
         }
         .format_text{
@@ -68,7 +68,7 @@ body {
             background-color: #fff;
             border: 0;
             color: #3d3c4f;
-            border-radius: 6px;
+            border-radius: 5px;
             font-weight: 700;
             &.active{
                 background-color: #3d3c4f;
@@ -103,7 +103,7 @@ body {
             color: #3d3c4f !important;
         }
         h1 p{
-            font-weight: 500;
+            font-weight: bold;
         }
         h2{
             background: #646478 !important;
@@ -191,16 +191,39 @@ body {
         }
     }
     .item-grid li{
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
         @media (max-width: 767px) {
             margin: 0;
             width: 100%;
             margin-bottom: 20px;
         }
+        &:hover{
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .70);
+        }
     }
+    
 
 }
 .individual-tutorial{
+    #formatButtons{
+        display: flex;
+        justify-content: space-between;
+        a{
+            width: 39px;
+            height: 32px;
+            svg{
+                width: 100%;
+                height: 100%;
+            }
+            &:focus{
+                background: transparent;
+                outline: none;
+            }
+            &:first-child{
+                margin-right: 20px;
+            }
+        }
+    }
     @media (max-width: 767px) {
         background-color: #fff;
         .post-meta{
@@ -209,6 +232,7 @@ body {
         .content{
             display: flex;
             flex-direction: column;
+            padding: 0;
             #formatButtons{
                 margin-right: 0px;
                 width: 60%;
@@ -219,6 +243,7 @@ body {
                 top: 0;
                 left: 10%;
                 right: 10%;
+                
             }
             .tutorial_steps h1 p{
                 font-weight: bold!important;
