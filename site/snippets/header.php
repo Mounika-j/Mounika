@@ -46,7 +46,7 @@
           <li><a class="buy" href="<?= $storeurl ?>"><strong>Buy Now</strong></a></li>
         </ul>
       </nav>
-      <img id="nav-icon" src="<?php echo url('assets/images/menuIcon.png') ?>">
+      <img id="nav-icon" src="<?php echo url('assets/images/iPhone-Menu-Button.svg') ?>">
     </div>
       <nav id="nav-mobile" class="menu-nav-container ">
         <ul>

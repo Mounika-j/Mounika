@@ -654,7 +654,6 @@ table {
         height: 25px;
         height: auto;
         float: right;
-        padding-top: 25px;
     }
 }
 
@@ -1546,8 +1545,8 @@ p {
 .iphone-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 1.6% 10.3% 2.65% 8.9%;
-    width: 75%;
+    padding: 2% 13.9% 8.55% 12%;
+    width: 100%;
     height: auto;
     background-image: url('../images/iphone-frame.png');
     background-size: 100%;
@@ -1585,7 +1584,7 @@ p {
 @media (max-width: 767px){
     .iphone-wrap {
         width: 100%;
-        padding: 1.7% 13.5% 12.35% 12.9%;
+        padding: 2.7% 13.5% 12.35% 12.7%;
     }
     .ipad-wrap {
         width: 100%;
@@ -1775,7 +1774,7 @@ p {
     position: relative;
     background-color: #f5f5f5;
     text-align: center;
-    padding: 25px 0 35px 0;
+    padding: 75px 0 75px 0;
 }
 
 .icon-branded-section .logo {
