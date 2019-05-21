@@ -1552,11 +1552,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
 }
- @media (max-width: 767px){
-    .iphone-wrap {
-        background-image: url('../images/Mobile-iPhone-Frame.png');
-    }
- }
+
 
 .ipad-wrap {
     position: relative;
@@ -1588,7 +1584,10 @@ p {
 @media (max-width: 767px){
     .iphone-wrap {
         width: 100%;
-        padding: 2.7% 13.5% 12.35% 12.7%;
+        padding: 2.7% 3.8% 13.05% 2.8%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/Mobile-iPhone-Frame.png');
     }
     .ipad-wrap {
         width: 100%;
