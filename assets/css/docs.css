@@ -267,7 +267,12 @@ blockquote a {
   position: absolute;
   width: 16px;
 }
-
+@media all and (-ms-high-contrast:none)
+{
+  .doc-search-icon {
+    margin: 0px 0px 0px 11px;
+  }
+}
 @media (max-width: 767px){
   .doc-search-icon {
     margin: 0;

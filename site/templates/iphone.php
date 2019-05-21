@@ -208,7 +208,6 @@
         <p class="sub-content">Document tabs allow you to easily switch between multiple documents open at the same time.</p>
       </div>
       <div class="text-box-wrap">
-        Layers.svg -->
         <img src="../assets/images/Layers.svg" alt="noImage"/>
         <span class="sub-title">Layers</span>
         <p class="sub-content">Create new layers, change their order, merge,and delete them in the Layers panel.</p>

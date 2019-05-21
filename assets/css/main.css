@@ -650,7 +650,7 @@ table {
 @media only screen and (max-width: 880px) {
     #nav-icon {
         display: block;
-        width: 40px;
+        width: 30px;
         height: 25px;
         height: auto;
         float: right;
@@ -1552,12 +1552,16 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+ @media (max-width: 767px){
+    .iphone-wrap {
+        background-image: url('../images/Mobile-iPhone-Frame.png');
+    }
+ }
 
 .ipad-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 3.6% 6.35% 4.7% 6.4%;
+    padding: 3.6% 4.65% 10.7% 4.9%;
     width: 80%;
     height: auto;
     background-image: url('../images/iPad-Device.png');
@@ -1588,7 +1592,7 @@ p {
     }
     .ipad-wrap {
         width: 100%;
-        padding: 5% 8.45% 5.8% 8.6%;
+        padding: 4.5% 5.45% 13.4% 5.6%;
     }
     .mac-wrap {
         padding: 2.8% 17.7% 12.15% 16.6%;

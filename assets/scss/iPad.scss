@@ -55,6 +55,9 @@
             .text-box-wrap{
                 @media (min-width: 1024px) {
                     margin-bottom: 50px!important;
+                    &:last-child{
+                        margin-bottom: 0!important;
+                    }
                 }
                
                
@@ -67,7 +70,7 @@
 }
 .ipad-section-carousel{
     .text-boxes-block{
-        margin-top: 70px;
+        // margin-top: 70px;
         // @media (min-width: 768px){
            
         // }
@@ -79,16 +82,16 @@
         bottom: -110px;
     }
     @media (min-width: 992px) and (max-width: 1999px){
-        bottom: -100px;
+        bottom: -80px;
     }
     @media (min-width: 768px) and (max-width: 991px){
-        bottom: -88px;
+        bottom: -65px;
     }
     @media (max-width: 767px){
         bottom: -82px;
     }
     @media (max-width: 500px){
-        bottom: -75px;
+        bottom: -65px;
     }
 }
 
