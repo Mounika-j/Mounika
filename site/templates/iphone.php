@@ -15,7 +15,7 @@
         <h4 class="carousel-head">Graphic Design at Your Fingertips</h4>
         <p>With powerful path editing tools, text layout and styling features, layer effects, and more - Graphic has the tools you need to create striking, beautiful designs. All of the features you'd expect to find in a professional design application are all right here, built from the ground up to work in fast modern way.</p>
       </div>
-      <div class="iphone-wrap">
+      <div class="iphone-wrap iphone-bg-image">
         <div class="iphone-slider" role="main">
           <div id="slider" class="flexslider clearfix">
             <ul class="slides slides-wrapper clearfix">
@@ -59,7 +59,7 @@
         <h4 class="carousel-head">Technical Design & Illustration</h4>
         <p>Create detailed technical designs, floor plans, and schematics using Graphic's customizable canvas grid, smart alignment guides, object snapping, and dimensioning tools. Choose from a variety of ruler unit display formats including pixels, feet, inches, yards, and metric units.</p>
       </div>
-      <div class="iphone-wrap">
+      <div class="iphone-wrap iphone-bg-image">
         <div class="iphone-slider" role="main">
           <div id="slider" class="flexslider clearfix">
             <ul class="slides slides-wrapper clearfix">
@@ -102,7 +102,7 @@
         <h4 class="carousel-head">Mockups and UI Design</h4>
         <p>Build mockups and interface designs with ease. Start designing your next website or app wherever inspiration strikes. Using Graphic's vector drawing tools, shapes libraries, and layer effects features sketch out rough ideas or make fully pixel-perfect mockups</p>
       </div>
-      <div class="iphone-wrap">
+      <div class="iphone-wrap iphone-bg-image">
         <div class="iphone-slider" role="main">
           <div id="slider" class="flexslider clearfix">
             <ul class="slides slides-wrapper clearfix">

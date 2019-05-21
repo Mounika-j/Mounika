@@ -1582,7 +1582,7 @@ p {
     }
 }
 @media (max-width: 767px){
-    .iphone-wrap {
+    .iphone-wrap.iphone-bg-image {
         width: 100%;
         padding: 2.7% 3.8% 13.05% 2.8%;
         background-size: cover;
