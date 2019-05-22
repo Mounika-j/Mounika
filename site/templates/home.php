@@ -63,7 +63,8 @@
           <span>iPhone USER GUIDE</span>
         </a>
       </div>
-      <div class="tutorials-block">
+
+      <div class="tutorials-block" onclick="javascript:redirect('tutorials')">
         <span>TUTORIALS</span>
         <div class="tutorials-images">
           <a class="tutorials-icons" href="<?= $site->url() ?>/tutorials/create-a-nintendo-switch-illustration">

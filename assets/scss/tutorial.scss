@@ -205,6 +205,9 @@ body {
 
 }
 .individual-tutorial{
+    @media (max-width: 1024px){
+        background-color: #fff;
+    }
     #formatButtons{
         display: flex;
         justify-content: space-between;
@@ -252,6 +255,7 @@ body {
     }
     .content{
         border: 0;
+        padding: 30px 30px 12px 30px;
     }
     @media (min-width: 1200px){
         .container {
@@ -262,6 +266,7 @@ body {
     @media (min-width: 768px) {
         #formatButtons{
             margin: 0;
+            margin-top: 15px;
         }
     }
 }

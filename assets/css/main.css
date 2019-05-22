@@ -650,11 +650,10 @@ table {
 @media only screen and (max-width: 880px) {
     #nav-icon {
         display: block;
-        width: 40px;
+        width: 30px;
         height: 25px;
         height: auto;
         float: right;
-        padding-top: 25px;
     }
 }
 
@@ -1546,8 +1545,8 @@ p {
 .iphone-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 1.6% 10.3% 2.65% 8.9%;
-    width: 75%;
+    padding: 2% 13.9% 8.55% 12%;
+    width: 100%;
     height: auto;
     background-image: url('../images/iphone-frame.png');
     background-size: 100%;
@@ -1558,7 +1557,7 @@ p {
 .ipad-wrap {
     position: relative;
     margin: 0 auto;
-    padding: 3.6% 6.35% 4.7% 6.4%;
+    padding: 3.6% 4.65% 10.7% 4.9%;
     width: 80%;
     height: auto;
     background-image: url('../images/iPad-Device.png');
@@ -1583,15 +1582,18 @@ p {
     }
 }
 @media (max-width: 767px){
-    .iphone-wrap {
-        width: 100%;
-        padding: 1.7% 13.5% 12.35% 12.9%;
+    .iphone-wrap.iphone-bg-image {
+        padding: 4.8% 11.3% 12.95% 9.8%;
+        background-size: 107%;
+        background-position: center;
+        background-image: url('../images/Mobile-iPhone-Frame.png');
     }
     .ipad-wrap {
         width: 100%;
-        padding: 5% 8.45% 5.8% 8.6%;
+        padding: 4.5% 5.45% 13.4% 5.6%;
     }
     .mac-wrap {
+        width: 100%;
         padding: 2.8% 17.7% 12.15% 16.6%;
     }
 }
@@ -1775,7 +1777,7 @@ p {
     position: relative;
     background-color: #f5f5f5;
     text-align: center;
-    padding: 25px 0 35px 0;
+    padding: 75px 0 75px 0;
 }
 
 .icon-branded-section .logo {
