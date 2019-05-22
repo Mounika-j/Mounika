@@ -21,13 +21,13 @@
 }
 
 .carousel-head{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 700;
     color: #3c3c50!important;
-    line-height: 24px;
+    line-height: 30px;
     @media (min-width: 768px) {
         font-size: 36px;
-        margin-bottom: 40px;
+        
     }
     
 }
@@ -58,6 +58,7 @@ p{
                     li{
                         img{
                             width: 100%;
+                            border-radius: 2px;
                         }
                         video{
                             width: 100%;
@@ -73,7 +74,7 @@ p{
                     li a{
                         border-radius: 0;
                         background-color: #e3dfdf;
-                        border-radius: 4px;
+                        border-radius: 2px;
                         &.flex-active{
                             background-color: #3d3c4f;
                         }
@@ -125,10 +126,10 @@ p{
         img{
             width: 100%;
         }
-        @media (min-width: 768px){
-            max-width: 70%;
-            margin: 0 auto;
-        }
+        // @media (min-width: 768px){
+        //     max-width: 70%;
+        //     margin: 0 auto;
+        // }
         &.container{
             @media (max-width: 767px) {
                 margin: 0!important;
@@ -240,6 +241,7 @@ p{
 .design-image{
     img{
         width: 100%;
+        margin-bottom: 40px;
     }
     &.container{
         @media (max-width: 767px) {
@@ -301,7 +303,7 @@ p{
     @media (min-width: 768px){
         
         .tools-wrap{
-            width: 53%;
+            width: 58%;
             img{
                 width: 100%;
             }
@@ -338,7 +340,7 @@ p{
         flex-direction: column-reverse;
         align-items: center;
         .text-boxes-block{
-            margin-top: 70px;
+            margin-top: 50px;
         }
     }
     
@@ -353,8 +355,8 @@ p{
 
 }
 .ipad-secton-section, .iphone-section4-conatiner{
-    max-width: 780px;
-    margin: 0 auto;
+    // max-width: 780px;
+    // margin: 0 auto;
     img{
         width: 100%;
     }
@@ -366,7 +368,7 @@ p{
 .iphone-section-carousel-wrapper{
     .iphone-carousel-wrap{
         .text-boxes-block{
-            margin-top: 70px;
+            margin-top: 20px;
             @media (max-width: 767px) {
                 margin-top: 30px;
             }
@@ -379,7 +381,7 @@ p{
         bottom: -82px;
     }
     @media (min-width: 992px) and (max-width: 1999px){
-        bottom: -68px;
+        bottom: -80px;
     }
     @media (min-width: 768px) and (max-width: 991px){
         bottom: -68px;
@@ -394,22 +396,30 @@ p{
 .sub-content{
     font-size: 15px;
     color: #505064!important;
+    width: 100%;
 }
 
 .common-banner{
     .container{
-        padding-top: 70px;
+        padding-top: 50px;
         padding-bottom: 70px;
+       .common-app-link{
+           bottom: 10%;
+       }
     }
 }
 
-.ipad-video-wrap,.mac-video-wrap{
-    width: 75%;
+.ipad-video-wrap{
+    // width: 75%;
     margin: 0 auto;
     video{
         width: 100%;
     }
+    + .text-boxes-block{
+        margin-top: 0px;
+    }
 }
 .mac-video-wrap{
-    width: 95%;
+    // width: 95%;
+    // padding: 3.5% 16.43% 10.7% 15.82%;
 }

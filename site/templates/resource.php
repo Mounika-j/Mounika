@@ -47,9 +47,9 @@
     
     </main>
 
-	<div class="comments">
-		<?php snippet('disqus', array('disqus_shortname' => 'idraw-indeeo')) ?>
-	</div>
+	<!-- <div class="comments">
+		<?php //snippet('disqus', array('disqus_shortname' => 'idraw-indeeo')) ?>
+	</div> -->
 
 </div>
 
