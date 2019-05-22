@@ -71,12 +71,20 @@
                 display: none;
             }
         }
+        
         @media (min-width: 768px) {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content:space-between;
+            .footer-graphic-image{
+                 width: 25%;
+            }
             .footer-links{
                 order: 3;
+                justify-content:flex-end;
+              li{
+                width: 38%;
+              }
                 li a{
                     background-color: transparent;
                     color: #a0a5c8;
@@ -104,10 +112,20 @@
                 
             }
             .social-icons, .footer-graphic-image, .footer-links{
-                width: 35%;
+                width: 38%;
             }
             .footer-graphic-image{
                 width: 20%;
+            }
+        }
+        @media (min-width: 992px){
+            .footer-links{
+                width: 31%;
+                justify-content: flex-end;
+                li{
+                    width: 34%;
+                }
+
             }
         }
     }
