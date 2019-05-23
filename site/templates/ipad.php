@@ -49,8 +49,8 @@
 			</div>
 			<div class="iphone-wrap ipad-wrap ipad-video-wrap">
 				<div class="iphone-slider" role="main">
-					<div id="slider" class="flexslider clearfix">
-						<ul class="slides slides-wrapper clearfix">
+					<div >
+						<ul>
 							<li>
 								<video loop autoplay muted playsinline  >
 									<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">

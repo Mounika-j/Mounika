@@ -64,8 +64,8 @@
 
 			<div class="iphone-wrap mac-wrap mac-video-wrap">
 				<div class="iphone-slider" role="main">
-					<div id="slider" class="flexslider clearfix">
-						<ul class="slides slides-wrapper clearfix">
+					<div >
+						<ul >
 							<li>
 								<video loop autoplay muted playsinline  >
 									<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">

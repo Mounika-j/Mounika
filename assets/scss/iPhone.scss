@@ -410,16 +410,14 @@ p{
 }
 
 .ipad-video-wrap{
-    // width: 75%;
     margin: 0 auto;
+    video + .text-boxes-block{
+        margin-top: 0px;
+    }
+
+}
+.mac-video-wrap, .ipad-video-wrap{
     video{
         width: 100%;
     }
-    + .text-boxes-block{
-        margin-top: 0px;
-    }
-}
-.mac-video-wrap{
-    // width: 95%;
-    // padding: 3.5% 16.43% 10.7% 15.82%;
 }
