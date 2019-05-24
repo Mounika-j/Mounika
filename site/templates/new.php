@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/new.css') ?>
+<?= css('assets/css/new.css?v=1') ?>
 
 <div id="heroSection">
 	<div class="wrapper">

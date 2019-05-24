@@ -1,6 +1,6 @@
 <?php snippet('header'); ?>
 
-<?= css('assets/css/tutorials.css') ?>
+<?= css('assets/css/tutorials.css?v=1') ?>
 
 <?php s::start();
 

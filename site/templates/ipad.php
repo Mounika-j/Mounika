@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/ipad.css') ?>
-<?= css('assets/css/main.css') ?>
-<?= css('style.php/iPad.scss') ?>
-<?= css('style.php/iPhone.scss') ?>
+<?= css('assets/css/ipad.css?v=1') ?>
+<?= css('assets/css/main.css?v=1') ?>
+<?= css('style.php/iPad.scss?v=1') ?>
+<?= css('style.php/iPhone.scss?v=1') ?>
 
-<?= css('assets/js/flexslider/flexslider.css') ?>
+<?= css('assets/js/flexslider/flexslider.css?v=1') ?>
 <?php snippet('hero') ?>
 	
 
