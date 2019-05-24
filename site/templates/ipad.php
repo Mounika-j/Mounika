@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/ipad.css') ?>
-<?= css('assets/css/main.css') ?>
-<?= css('style.php/iPad.scss') ?>
-<?= css('style.php/iPhone.scss') ?>
+<?= css('assets/css/ipad.css?v=1') ?>
+<?= css('assets/css/main.css?v=1') ?>
+<?= css('style.php/iPad.scss?v=1') ?>
+<?= css('style.php/iPhone.scss?v=1') ?>
 
-<?= css('assets/js/flexslider/flexslider.css') ?>
+<?= css('assets/js/flexslider/flexslider.css?v=1') ?>
 <?php snippet('hero') ?>
 	
 
@@ -49,8 +49,8 @@
 			</div>
 			<div class="iphone-wrap ipad-wrap ipad-video-wrap">
 				<div class="iphone-slider" role="main">
-					<div id="slider" class="flexslider clearfix">
-						<ul class="slides slides-wrapper clearfix">
+					<div >
+						<ul>
 							<li>
 								<video loop autoplay muted playsinline  >
 									<source src="<?= $page->video('Website-iPad2-video.mp4')->url() ?>" type="video/mp4">

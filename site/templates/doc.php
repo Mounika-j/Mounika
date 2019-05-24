@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/docs.css') ?>
-<?= css('style.php/learn.scss') ?>
+<?= css('assets/css/docs.css?v=1') ?>
+<?= css('style.php/learn.scss?v=1') ?>
 
 <div class="site learn-page">
 	<div class="container learn-container">

@@ -154,14 +154,17 @@
                             font-weight: 600;
                         }
                         ul{
-                            @media (min-width: 768px){
-                                margin-left: 15px;
-
-                            }
+                            // @media (min-width: 768px){
+                            //     li{
+                            //         margin-left: 15px;
+                            //     }
+                            // }
+                            
                             li {
                                 &.depth-3{
                                     a{
                                         font-weight: normal;
+                                        padding: 10px 10px 10px 25px;
                                     }
                                 }
                             }
@@ -228,7 +231,11 @@
             &.depth-2{
                 ul{
                     margin:0 !important;
-                    margin-left: 20px!important;
+                    li {
+                        a{
+                            padding: 9px 10px 9px 30px!important;
+                        }
+                    }
                 }
             }
             a{

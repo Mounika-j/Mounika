@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/mac.css') ?>
-<?= css('assets/css/main.css') ?>
-<?= css('style.php/iPad.scss') ?>
-<?= css('style.php/iPhone.scss') ?>
+<?= css('assets/css/mac.css?v=1') ?>
+<?= css('assets/css/main.css?v=1') ?>
+<?= css('style.php/iPad.scss?v=1') ?>
+<?= css('style.php/iPhone.scss?v=1') ?>
 
-<?= css('assets/js/flexslider/flexslider.css') ?>
+<?= css('assets/js/flexslider/flexslider.css?v=1') ?>
 <?php snippet('hero') ?>
 
 	<section class="iphone-section-carousel-container" id="vector-illustration">
@@ -64,8 +64,8 @@
 
 			<div class="iphone-wrap mac-wrap mac-video-wrap">
 				<div class="iphone-slider" role="main">
-					<div id="slider" class="flexslider clearfix">
-						<ul class="slides slides-wrapper clearfix">
+					<div >
+						<ul >
 							<li>
 								<video loop autoplay muted playsinline  >
 									<source src="<?= $page->video('Website-Mac2.mp4')->url() ?>" type="video/mp4">
