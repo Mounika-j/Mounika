@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/plugins.css') ?>
+<?= css('assets/css/plugins.css?v=1') ?>
 
 <div class="site">
 	

@@ -1,5 +1,5 @@
 <?php snippet('tutorials_header'); ?>
-<?= css('style.php/tutorial.scss') ?>
+<?= css('style.php/tutorial.scss?v=1') ?>
 
 <div class="site tutorial-container ">
 	<main role="main" class="container">

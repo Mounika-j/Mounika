@@ -1,5 +1,5 @@
 <?php snippet('tutorials_header'); ?>
-<?= css('style.php/tutorial.scss') ?>
+<?= css('style.php/tutorial.scss?v=1') ?>
 
 <?php $tutFormat = s::get('format');
 	

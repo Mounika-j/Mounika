@@ -8,9 +8,9 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <?= css('assets/css/main.css') ?>
-  <?= css('style.php/header.scss') ?>
-  <?= css('style.php/footer.scss') ?>
+  <?= css('assets/css/main.css?v=1') ?>
+  <?= css('style.php/header.scss?v=1') ?>
+  <?= css('style.php/footer.scss?v=1') ?>
 
   <?= css('https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css') ?>
 

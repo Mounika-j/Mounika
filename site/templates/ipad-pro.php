@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
-<?= css('assets/css/ipad-pro.css') ?>
-<?= css('assets/css/main.css') ?>
-<?= css('assets/js/flexslider/flexslider.css') ?>
+<?= css('assets/css/ipad-pro.css?v=1') ?>
+<?= css('assets/css/main.css?v=1') ?>
+<?= css('assets/js/flexslider/flexslider.css?v=1') ?>
 <?php snippet('hero') ?>
 	
 <section class="iphone-section" id="vector-illustration">
