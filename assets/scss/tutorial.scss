@@ -207,6 +207,9 @@ body {
 .individual-tutorial{
     @media (max-width: 1024px){
         background-color: #fff;
+        .content {
+            padding: 30px 0 0 0 !important;
+        }
     }
     #formatButtons{
         display: flex;
@@ -235,7 +238,7 @@ body {
         .content{
             display: flex;
             flex-direction: column;
-            padding: 0;
+            padding: 15px 0 0 0 !important;
             #formatButtons{
                 margin-right: 0px;
                 width: 60%;
